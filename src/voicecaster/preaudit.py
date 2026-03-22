@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-from pathlib import Path
-
 from .archive_utils import create_zip_archive
 from .audio_probe import AudioProbeError, probe_audio_file
 from .config import MAX_PROCESSING_RETRIES, REVIEWS_DIR, WORK_DIR
@@ -12,12 +10,9 @@ from .url_resolver import normalize_download_url
 from .yaml_io import write_yaml
 
 
-def _safe_slug(value: str) -> str:
-    return "".join(ch if ch.isalnum() or ch in ("-", "_") else "_" for ch in value).strip("_").lower()
-
-
 def run_preaudit() -> int:
     print("Iniciando PREAUDITORÍA...")
+
     episode = reserve_next_pending_episode()
     if episode is None:
         print("No hay episodios pendientes.")
@@ -64,7 +59,9 @@ def run_preaudit() -> int:
 
         duration_seconds = audio_probe.get("duration_seconds")
         duration_text = (
-            f"{duration_seconds:.2f} segundos" if isinstance(duration_seconds, float) else "desconocida"
+            f"{duration_seconds:.2f} segundos"
+            if isinstance(duration_seconds, (int, float))
+            else "desconocida"
         )
 
         (work_dir / "summary.md").write_text(
@@ -92,15 +89,19 @@ def run_preaudit() -> int:
         )
 
         (work_dir / "full_transcript.srt").write_text(
-            "1\n00:00:00,000 --> 00:00:02,000\n[speaker_01] Placeholder de transcripción.\n",
+            "1\n"
+            "00:00:00,000 --> 00:00:02,000\n"
+            "[speaker_01] Placeholder de transcripción.\n",
             encoding="utf-8",
         )
 
         speaker_dir = work_dir / "speakers"
-        speaker_dir.mkdir(exist_ok=True)
+        speaker_dir.mkdir(parents=True, exist_ok=True)
 
         (speaker_dir / "speaker_01.srt").write_text(
-            "1\n00:00:00,000 --> 00:00:02,000\nPlaceholder de intervención.\n",
+            "1\n"
+            "00:00:00,000 --> 00:00:02,000\n"
+            "Placeholder de intervención.\n",
             encoding="utf-8",
         )
 
@@ -135,6 +136,10 @@ def run_preaudit() -> int:
         write_json(work_dir / "report.json", report_payload)
 
         update_episode_status(episode.id, "pending_review")
+
+        print(f"Archivo de auditoría: {audit_path}")
+        print(f"Directorio de trabajo: {work_dir}")
+        print(f"Report: {work_dir / 'report.json'}")
         print(f"PREAUDITORÍA completada para {episode.id} -> pending_review")
         return 0
 
@@ -150,6 +155,7 @@ def run_preaudit() -> int:
 
     except (DownloadError, AudioProbeError) as exc:
         next_retry_count = episode.retries + 1
+
         report_payload["result"] = "failed"
         report_payload["finished_at"] = utc_now_iso()
         report_payload["notes"].append(str(exc))
@@ -158,11 +164,14 @@ def run_preaudit() -> int:
         should_retry = next_retry_count < MAX_PROCESSING_RETRIES
         update_episode_status(
             episode.id,
-            "failed" if should_retry or not should_retry else "failed",
+            "failed",
             increment_retries=True,
         )
 
-        print(f"{episode.id}: fallo técnico -> failed")
+        if should_retry:
+            print(f"{episode.id}: fallo técnico recuperable -> failed (retry pendiente)")
+        else:
+            print(f"{episode.id}: fallo técnico -> failed (sin más reintentos)")
         return 1
 
     except Exception as exc:
