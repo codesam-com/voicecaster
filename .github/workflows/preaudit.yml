@@ -31,11 +31,21 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
-      - name: Cache whisper models
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/whisper
-          key: whisper-${{ runner.os }}
+      - name: Free disk space before run
+        run: |
+          echo "Disk before cleanup:"
+          df -h
+
+          rm -rf ~/.cache/pip || true
+          rm -rf ~/.cache/huggingface || true
+          rm -rf ~/.cache/torch || true
+          rm -rf ~/.cache/whisper || true
+          rm -rf /usr/share/dotnet || true
+          rm -rf /opt/ghc || true
+          rm -rf /usr/local/lib/android || true
+
+          echo "Disk after cleanup:"
+          df -h
 
       - name: Install dependencies
         run: |
@@ -53,15 +63,15 @@ jobs:
         run: |
           PYTHONPATH=src python -m voicecaster.cli preaudit
 
-      - name: Upload work artifact
-        if: always()
+      - name: Upload work artifact on failure
+        if: failure()
         uses: actions/upload-artifact@v4
         with:
           name: preaudit-work
           path: |
             work/**
             reviews/**
-          retention-days: 5
+          retention-days: 2
 
       - name: Commit generated files
         if: always()
