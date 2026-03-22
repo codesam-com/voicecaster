@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 from .archive_utils import create_zip_archive
+from .audio_normalize import normalize_audio_for_diarization
 from .audio_probe import AudioProbeError, probe_audio_file
-from .config import MAX_PROCESSING_RETRIES, REVIEWS_DIR, WORK_DIR
+from .config import HF_TOKEN, MAX_PROCESSING_RETRIES, REVIEWS_DIR, WORK_DIR
+from .diarizer import diarize_audio
 from .downloader import DownloadError, IncompatibleSourceError, download_audio_to_workdir
 from .episode_queue import reserve_next_pending_episode, update_episode_status
 from .reporting import utc_now_iso, write_json
@@ -63,7 +65,7 @@ def run_preaudit() -> int:
             model_name="base",
         )
         report_payload["notes"].append(
-            f"Transcripción generada ({transcription_meta['num_segments_srt']} segmentos SRT)"
+            f"Transcripción generada ({transcription_meta['num_segments_srt']} segmentos)"
         )
         report_payload["notes"].append(
             f"Idioma detectado: {transcription_meta.get('language') or 'desconocido'}"
@@ -72,9 +74,29 @@ def run_preaudit() -> int:
             f"Texto transcrito: {transcription_meta.get('text_characters', 0)} caracteres"
         )
         print(
-            f"Transcripción completada: "
-            f"{transcription_meta['num_segments_srt']} segmentos SRT, "
-            f"{transcription_meta['num_segments_json']} segmentos JSON"
+            f"Transcripción completada: {transcription_meta['num_segments_srt']} segmentos"
+        )
+
+        normalized_for_diarization = normalize_audio_for_diarization(
+            audio_path,
+            work_dir / "audio_mono_16k.wav",
+        )
+
+        diarization_meta = diarize_audio(
+            normalized_for_diarization,
+            work_dir / "speaker_timeline.rttm",
+            work_dir / "speaker_segments.json",
+            HF_TOKEN,
+        )
+        report_payload["notes"].append(
+            "Diarización generada "
+            f"({diarization_meta['num_speakers_detected']} hablantes, "
+            f"{diarization_meta['num_segments']} segmentos)"
+        )
+        print(
+            "Diarización completada: "
+            f"{diarization_meta['num_speakers_detected']} hablantes, "
+            f"{diarization_meta['num_segments']} segmentos"
         )
 
         duration_seconds = audio_probe.get("duration_seconds")
@@ -95,9 +117,12 @@ def run_preaudit() -> int:
                 f"- Podcast: {episode.podcast_title}\n"
                 f"- Duración detectada: {duration_text}\n"
                 f"- Idioma detectado: {language_detected}\n"
-                "- Estado: transcripción global generada; diarización pendiente\n"
+                "- Estado: transcripción global generada; diarización generada; "
+                "mapeo hablante-texto pendiente\n"
                 f"- Segmentos SRT: {transcription_meta.get('num_segments_srt')}\n"
-                f"- Caracteres transcritos: {transcription_meta.get('text_characters')}\n\n"
+                f"- Caracteres transcritos: {transcription_meta.get('text_characters')}\n"
+                f"- Hablantes detectados: {diarization_meta.get('num_speakers_detected')}\n"
+                f"- Segmentos de diarización: {diarization_meta.get('num_segments')}\n\n"
                 "## Vista previa\n\n"
                 f"{transcript_preview}\n"
             ),
@@ -110,9 +135,9 @@ def run_preaudit() -> int:
                 "1. Descarga verificada\n"
                 "2. Validación técnica del audio\n"
                 "3. Transcripción global generada\n"
-                "4. Exportación a SRT, TXT y JSON de segmentos\n"
-                "5. Detección de idioma estimada\n"
-                "6. Pendiente diarización\n"
+                "4. Detección de idioma estimada\n"
+                "5. Diarización generada\n"
+                "6. Pendiente asignación robusta texto-hablante\n"
                 "7. Pendiente propuesta real de identidades\n"
             ),
             encoding="utf-8",
@@ -134,13 +159,19 @@ def run_preaudit() -> int:
                 "num_segments_json": transcription_meta.get("num_segments_json"),
                 "text_characters": transcription_meta.get("text_characters"),
             },
+            "diarization": {
+                "num_speakers_detected": diarization_meta.get("num_speakers_detected"),
+                "num_segments": diarization_meta.get("num_segments"),
+                "speaker_ids": diarization_meta.get("speaker_ids"),
+            },
             "speaker_candidates": [
                 {
-                    "speaker_id": "speaker_01",
+                    "speaker_id": speaker_id,
                     "inferred_name": "pendiente_de_validar",
                     "confidence": 0.0,
                     "alternatives": [],
                 }
+                for speaker_id in diarization_meta.get("speaker_ids", [])
             ],
             "duration_seconds": audio_probe.get("duration_seconds"),
             "topics_detected": [],
