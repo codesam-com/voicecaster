@@ -35,7 +35,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/whisper
-          key: whisper-${{ runner.os }}-base-v1
+          key: whisper-${{ runner.os }}
 
       - name: Install dependencies
         run: |
@@ -60,7 +60,6 @@ jobs:
           path: |
             work/**
             reviews/**
-            inputs/**
           retention-days: 5
 
       - name: Commit generated files
