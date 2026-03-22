@@ -9,3 +9,4 @@ google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.1
 ffmpeg-python==0.2.0
 openai-whisper==20250625
+pyannote.audio==4.0.4
