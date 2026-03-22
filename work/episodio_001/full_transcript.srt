@@ -1,0 +1,51 @@
+1
+00:00:00,000 --> 00:00:07,000
+y que ese giro sobre sí mismo era, o sea, la órbita era el momento angular orbital y el giro sobre sí mismo era el spin.
+
+2
+00:00:07,000 --> 00:00:10,000
+Es lo que yo tenía entendido, ¿no? Porque claro, cuando te pones a carga muy bien.
+
+3
+00:00:10,000 --> 00:00:19,000
+Eso que, ese verdad que tienes razón que históricamente verdad es como se entendía el spin por algunos físicos alrededor del año 1924.
+
+4
+00:00:19,000 --> 00:00:30,000
+Pero eso dejó de ser verdad en 1927 y dejó de ser absolutamente verdad y se convertió una absolutamente ira en 1928, con la ocasión te dirá.
+
+5
+00:00:30,000 --> 00:00:42,000
+Lo que pasa es que la gente lo sigue contando. La gente sigue contando lo que era verdad es 1924 y dejó de ser verdad en 1928 porque aparentemente el público general lo entiende.
+
+6
+00:00:43,000 --> 00:00:45,000
+Hay una búsqueda de guay.
+
+7
+00:00:45,000 --> 00:00:48,000
+Y también porque solamente querías ser que es el origen del padre.
+
+8
+00:00:48,000 --> 00:01:02,000
+Cuando uno hace eso, haciendo ejercicios de física cuántica en la carrera, tú consideras el spin como un momento angular y lo sumas al momento angular orbital y todo esto y toda la física se comporta como si el spin fue un momento angular.
+
+9
+00:01:02,000 --> 00:01:26,000
+Entonces hay algo en él que de alguna manera hace que muchas cosas cuadren. Pero luego resulta que cuando lo quieres entender a un nivel más fundamental esa interpretación no es la buena, la mejor es la que tú acabas de describir, de entender fermiones como cosas que no les gusta estar juntos y se apilan unos unos encima de otros o unos al lado de los otros y los bosones como cosas que si les gusta estar juntos y se agrupan en grupos lo más coherentes posible.
+
+10
+00:01:26,000 --> 00:01:35,000
+Luego a partir de ahí pues ya vienen una serie de propiedades como que las partículas seredan un pequeño imán y se comportan como pequeños imánes cuando se mueven por ahí.
+
+11
+00:01:35,000 --> 00:01:44,000
+Yo también también quería decir que este asunto de decir los fermiones son las partículas de la materia los bosones son las partículas asociadas a las interacciones.
+
+12
+00:01:44,000 --> 00:01:50,000
+Es verdad que históricamente de alguna manera lo hemos visto así los elecciones están en la materia y son fermiones.
+
+13
+00:01:50,000 --> 00:02:06,000
+Los protones están en la materia y son fermiones sería un to de ciflo contrario pero hay un poco la sensación de que como la propiedad de ser un fermión o ser un bosón es mucho más fundamental tiene que ver con esto que ha dicho Francis de cómo se ocupa el espacio y cómo se comportan cuando están juntos.
