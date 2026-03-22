@@ -17,10 +17,13 @@ def _safe_slug(value: str) -> str:
 
 
 def run_preaudit() -> int:
+    print("Iniciando PREAUDITORÍA...")
     episode = reserve_next_pending_episode()
     if episode is None:
         print("No hay episodios pendientes.")
         return 0
+
+    print(f"Episodio reservado: {episode.id}")
 
     work_dir = WORK_DIR / episode.id
     review_dir = REVIEWS_DIR / episode.id
