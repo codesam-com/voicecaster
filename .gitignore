@@ -5,15 +5,10 @@ __pycache__/
 venv/
 .env
 
-# Work
-work/*
-!work/.gitkeep
-
 # OS / editor
 .DS_Store
 .idea/
 .vscode/
 
-# Artifacts / temp
-*.zip
+# Artifacts / temp pesados opcionales
 *.tar.gz
