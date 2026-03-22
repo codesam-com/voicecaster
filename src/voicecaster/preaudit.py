@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-from pathlib import Path
-
 from .archive_utils import create_zip_archive
 from .audio_probe import AudioProbeError, probe_audio_file
 from .config import MAX_PROCESSING_RETRIES, REVIEWS_DIR, WORK_DIR
@@ -13,54 +11,8 @@ from .url_resolver import normalize_download_url
 from .yaml_io import write_yaml
 
 
-def _safe_slug(value: str) -> str:
-    return "".join(ch if ch.isalnum() or ch in ("-", "_") else "_" for ch in value).strip("_").lower()
-
-
-def _write_basic_summary(
-    work_dir: Path,
-    podcast_title: str,
-    episode_title: str,
-    duration_seconds: float | None,
-    detected_language: str | None,
-) -> None:
-    duration_text = (
-        f"{duration_seconds:.2f} segundos" if isinstance(duration_seconds, float) else "desconocida"
-    )
-    language_text = detected_language or "desconocido"
-
-    (work_dir / "summary.md").write_text(
-        (
-            "# Summary\n\n"
-            "PREAUDITORÍA completada.\n\n"
-            f"- Podcast: {podcast_title}\n"
-            f"- Episodio: {episode_title}\n"
-            f"- Duración detectada: {duration_text}\n"
-            f"- Idioma detectado: {language_text}\n"
-            "- Estado: pendiente de diarización e identificación real de hablantes\n"
-        ),
-        encoding="utf-8",
-    )
-
-
-def _write_basic_outline(work_dir: Path) -> None:
-    (work_dir / "outline.md").write_text(
-        (
-            "# Outline\n\n"
-            "1. Descarga validada\n"
-            "2. Audio validado técnicamente con ffprobe\n"
-            "3. Transcripción global generada\n"
-            "4. Pendiente diarización\n"
-            "5. Pendiente propuesta real de identidades por hablante\n"
-            "6. Pendiente generación de `speaker_<id>.srt`\n"
-        ),
-        encoding="utf-8",
-    )
-
-
 def run_preaudit() -> int:
     print("Iniciando PREAUDITORÍA...")
-
     episode = reserve_next_pending_episode()
     if episode is None:
         print("No hay episodios pendientes.")
@@ -75,7 +27,6 @@ def run_preaudit() -> int:
 
     started_at = utc_now_iso()
     normalized_url = normalize_download_url(str(episode.url))
-    audit_path = review_dir / "audit.yaml"
 
     report_payload = {
         "episode_id": episode.id,
@@ -95,14 +46,7 @@ def run_preaudit() -> int:
         audio_probe = probe_audio_file(audio_path)
         report_payload["notes"].append("Audio validado con ffprobe.")
 
-        transcription_meta = transcribe_to_srt(
-            audio_path=audio_path,
-            output_srt=work_dir / "full_transcript.srt",
-        )
-        report_payload["notes"].append(
-            f"Transcripción generada ({transcription_meta['num_segments']} segmentos)."
-        )
-
+        audit_path = review_dir / "audit.yaml"
         write_yaml(
             audit_path,
             {
@@ -113,20 +57,53 @@ def run_preaudit() -> int:
             },
         )
 
-        speakers_dir = work_dir / "speakers"
-        speakers_dir.mkdir(exist_ok=True)
-
-        detected_language = transcription_meta.get("language")
-        duration_seconds = audio_probe.get("duration_seconds")
-
-        _write_basic_summary(
-            work_dir=work_dir,
-            podcast_title=episode.podcast_title,
-            episode_title=episode.episode_title,
-            duration_seconds=duration_seconds,
-            detected_language=detected_language,
+        transcription_meta = transcribe_to_srt(
+            audio_path,
+            work_dir / "full_transcript.srt",
+            model_name="base",
         )
-        _write_basic_outline(work_dir)
+        report_payload["notes"].append(
+            f"Transcripción generada ({transcription_meta['num_segments']} segmentos)"
+        )
+        print(f"Transcripción completada: {transcription_meta['num_segments']} segmentos")
+
+        duration_seconds = audio_probe.get("duration_seconds")
+        duration_text = (
+            f"{duration_seconds:.2f} segundos"
+            if isinstance(duration_seconds, float)
+            else "desconocida"
+        )
+
+        language_detected = transcription_meta.get("language") or "desconocido"
+        transcript_preview = transcription_meta.get("text_preview") or ""
+
+        (work_dir / "summary.md").write_text(
+            (
+                "# Summary\n\n"
+                "PREAUDITORÍA técnica completada.\n\n"
+                f"- Episodio: {episode.episode_title}\n"
+                f"- Podcast: {episode.podcast_title}\n"
+                f"- Duración detectada: {duration_text}\n"
+                f"- Idioma detectado: {language_detected}\n"
+                "- Estado: transcripción global generada; diarización pendiente\n\n"
+                "## Vista previa\n\n"
+                f"{transcript_preview}\n"
+            ),
+            encoding="utf-8",
+        )
+
+        (work_dir / "outline.md").write_text(
+            (
+                "# Outline\n\n"
+                "1. Descarga verificada\n"
+                "2. Validación técnica del audio\n"
+                "3. Transcripción global generada\n"
+                "4. Detección de idioma estimada\n"
+                "5. Pendiente diarización\n"
+                "6. Pendiente propuesta real de identidades\n"
+            ),
+            encoding="utf-8",
+        )
 
         episode_payload = {
             "episode_id": episode.id,
@@ -137,14 +114,20 @@ def run_preaudit() -> int:
             "status_after_preaudit": "pending_review",
             "downloaded_audio_filename": audio_path.name,
             "audio_probe": audio_probe,
-            "language_detected": detected_language,
+            "language_detected": transcription_meta.get("language"),
             "transcription": {
+                "model_name": transcription_meta.get("model_name"),
                 "num_segments": transcription_meta.get("num_segments"),
-                "speaker_diarization_applied": False,
-                "speaker_level_outputs_generated": False,
             },
-            "speaker_candidates": [],
-            "duration_seconds": duration_seconds,
+            "speaker_candidates": [
+                {
+                    "speaker_id": "speaker_01",
+                    "inferred_name": "pendiente_de_validar",
+                    "confidence": 0.0,
+                    "alternatives": [],
+                }
+            ],
+            "duration_seconds": audio_probe.get("duration_seconds"),
             "topics_detected": [],
             "participants_declared": episode.participants or [],
         }
@@ -152,9 +135,6 @@ def run_preaudit() -> int:
 
         archive_path = create_zip_archive(work_dir, work_dir / f"{episode.id}_preaudit.zip")
         report_payload["notes"].append(f"Archivo comprimido generado: {archive_path.name}")
-        report_payload["notes"].append(
-            "Aún no se generaron salidas por hablante: diarización pendiente."
-        )
 
         report_payload["result"] = "pending_review"
         report_payload["finished_at"] = utc_now_iso()
@@ -184,7 +164,11 @@ def run_preaudit() -> int:
         report_payload["notes"].append(str(exc))
         write_json(work_dir / "report.json", report_payload)
 
-        update_episode_status(episode.id, "failed", increment_retries=True)
+        update_episode_status(
+            episode.id,
+            "failed",
+            increment_retries=True,
+        )
         print(f"{episode.id}: fallo técnico -> failed")
         return 1
 
