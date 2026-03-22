@@ -1,6 +1,8 @@
 from __future__ import annotations
 
-from .archive_utils import create_zip_archive
+import traceback
+from pathlib import Path
+
 from .audio_normalize import normalize_audio_for_diarization
 from .audio_probe import AudioProbeError, probe_audio_file
 from .config import HF_TOKEN, MAX_PROCESSING_RETRIES, REVIEWS_DIR, WORK_DIR
@@ -11,6 +13,14 @@ from .reporting import utc_now_iso, write_json
 from .transcriber import transcribe_bundle
 from .url_resolver import normalize_download_url
 from .yaml_io import write_yaml
+
+
+def _safe_unlink(path: Path) -> None:
+    try:
+        if path.exists():
+            path.unlink()
+    except Exception:
+        pass
 
 
 def run_preaudit() -> int:
@@ -40,6 +50,9 @@ def run_preaudit() -> int:
         "source_url_original": str(episode.url),
         "source_url_normalized": normalized_url,
     }
+
+    audio_path: Path | None = None
+    normalized_for_diarization: Path | None = None
 
     try:
         audio_path = download_audio_to_workdir(normalized_url, work_dir, episode.id)
@@ -73,15 +86,16 @@ def run_preaudit() -> int:
         report_payload["notes"].append(
             f"Texto transcrito: {transcription_meta.get('text_characters', 0)} caracteres"
         )
-        print(
-            f"Transcripción completada: {transcription_meta['num_segments_srt']} segmentos"
-        )
+        print(f"Transcripción completada: {transcription_meta['num_segments_srt']} segmentos")
 
+        print("Normalizando audio para diarización...")
         normalized_for_diarization = normalize_audio_for_diarization(
             audio_path,
             work_dir / "audio_mono_16k.wav",
         )
+        print(f"Audio normalizado: {normalized_for_diarization}")
 
+        print("Iniciando diarización...")
         diarization_meta = diarize_audio(
             normalized_for_diarization,
             work_dir / "speaker_timeline.rttm",
@@ -89,14 +103,13 @@ def run_preaudit() -> int:
             HF_TOKEN,
         )
         report_payload["notes"].append(
-            "Diarización generada "
-            f"({diarization_meta['num_speakers_detected']} hablantes, "
-            f"{diarization_meta['num_segments']} segmentos)"
+            f"Diarización generada ({diarization_meta['num_speakers_detected']} hablantes, {diarization_meta['num_segments']} segmentos)"
+        )
+        report_payload["notes"].append(
+            f"Tiempos diarización: {diarization_meta['timing_seconds']}"
         )
         print(
-            "Diarización completada: "
-            f"{diarization_meta['num_speakers_detected']} hablantes, "
-            f"{diarization_meta['num_segments']} segmentos"
+            f"Diarización completada: {diarization_meta['num_speakers_detected']} hablantes, {diarization_meta['num_segments']} segmentos"
         )
 
         duration_seconds = audio_probe.get("duration_seconds")
@@ -117,8 +130,7 @@ def run_preaudit() -> int:
                 f"- Podcast: {episode.podcast_title}\n"
                 f"- Duración detectada: {duration_text}\n"
                 f"- Idioma detectado: {language_detected}\n"
-                "- Estado: transcripción global generada; diarización generada; "
-                "mapeo hablante-texto pendiente\n"
+                "- Estado: transcripción global y diarización generadas; auditoría humana pendiente\n"
                 f"- Segmentos SRT: {transcription_meta.get('num_segments_srt')}\n"
                 f"- Caracteres transcritos: {transcription_meta.get('text_characters')}\n"
                 f"- Hablantes detectados: {diarization_meta.get('num_speakers_detected')}\n"
@@ -137,8 +149,8 @@ def run_preaudit() -> int:
                 "3. Transcripción global generada\n"
                 "4. Detección de idioma estimada\n"
                 "5. Diarización generada\n"
-                "6. Pendiente asignación robusta texto-hablante\n"
-                "7. Pendiente propuesta real de identidades\n"
+                "6. Pendiente propuesta real de identidades\n"
+                "7. Pendiente auditoría humana\n"
             ),
             encoding="utf-8",
         )
@@ -150,7 +162,7 @@ def run_preaudit() -> int:
             "source_url_original": str(episode.url),
             "source_url_normalized": normalized_url,
             "status_after_preaudit": "pending_review",
-            "downloaded_audio_filename": audio_path.name,
+            "downloaded_audio_filename": audio_path.name if audio_path else None,
             "audio_probe": audio_probe,
             "language_detected": transcription_meta.get("language"),
             "transcription": {
@@ -163,6 +175,7 @@ def run_preaudit() -> int:
                 "num_speakers_detected": diarization_meta.get("num_speakers_detected"),
                 "num_segments": diarization_meta.get("num_segments"),
                 "speaker_ids": diarization_meta.get("speaker_ids"),
+                "timing_seconds": diarization_meta.get("timing_seconds"),
             },
             "speaker_candidates": [
                 {
@@ -179,8 +192,11 @@ def run_preaudit() -> int:
         }
         write_json(work_dir / "episode.json", episode_payload)
 
-        archive_path = create_zip_archive(work_dir, work_dir / f"{episode.id}_preaudit.zip")
-        report_payload["notes"].append(f"Archivo comprimido generado: {archive_path.name}")
+        # Limpieza de audio temporal antes de finalizar
+        if normalized_for_diarization is not None:
+            _safe_unlink(normalized_for_diarization)
+        if audio_path is not None:
+            _safe_unlink(audio_path)
 
         report_payload["result"] = "pending_review"
         report_payload["finished_at"] = utc_now_iso()
@@ -219,8 +235,6 @@ def run_preaudit() -> int:
         return 1
 
     except Exception as exc:
-        import traceback
-
         report_payload["result"] = "failed"
         report_payload["finished_at"] = utc_now_iso()
         report_payload["notes"].append(f"Excepción no controlada: {exc}")
