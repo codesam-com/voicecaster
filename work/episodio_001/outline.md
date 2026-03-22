@@ -2,6 +2,7 @@
 
 1. Descarga verificada
 2. Validación técnica del audio
-3. Pendiente transcripción completa
-4. Pendiente diarización
-5. Pendiente propuesta real de identidades
+3. Transcripción global generada
+4. Detección de idioma estimada
+5. Pendiente diarización
+6. Pendiente propuesta real de identidades

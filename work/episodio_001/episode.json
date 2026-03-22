@@ -16,6 +16,12 @@
     "channels": 2,
     "channel_layout": "stereo"
   },
+  "language_detected": "es",
+  "transcription": {
+    "model_name": "base",
+    "num_segments": 180,
+    "text_preview": "y que ese giro sobre sí mismo era, o sea, la órbita era el momento angular orbital y el giro sobre sí mismo era el spin. Es lo que yo tenía entendido, ¿no? Porque claro, cuando te pones a carga muy bien. Eso que, ese verdad que tienes razón que históricamente verdad es como se entendía el spin por algunos físicos alrededor del año 1924. Eso dejó de ser verdad en 1927 y dejó de ser absolutamente verdad y se convertió una absolutamente ira en 1928, con la ocasión te dirá. Lo que pasa es que la gen"
+  },
   "speaker_candidates": [
     {
       "speaker_id": "speaker_01",
