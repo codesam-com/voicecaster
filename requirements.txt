@@ -1,0 +1,15 @@
+PyYAML==6.0.2
+pydantic==2.11.1
+requests==2.32.3
+python-slugify==8.0.4
+tenacity==9.0.0
+google-api-python-client==2.164.0
+google-auth==2.38.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+
+# Base de audio / ASR / diarización para v1
+openai-whisper==20250625
+whisperx==3.8.2
+pyannote.audio==3.3.2
+ffmpeg-python==0.2.0
