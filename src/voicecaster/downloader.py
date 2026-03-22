@@ -7,8 +7,11 @@ from urllib.parse import urlparse
 import requests
 from tenacity import retry, stop_after_attempt, wait_exponential
 
-from .config import MAX_DOWNLOAD_RETRIES
-
+from .config import (
+    HTTP_CONNECT_TIMEOUT_SECONDS,
+    HTTP_READ_TIMEOUT_SECONDS,
+    MAX_DOWNLOAD_RETRIES,
+)
 
 class DownloadError(Exception):
     pass
@@ -69,7 +72,7 @@ def download_audio_to_workdir(url: str, target_dir: Path, episode_id: str) -> Pa
     }
 
     try:
-        with requests.get(url, headers=headers, stream=True, timeout=(15, 120), allow_redirects=True) as response:
+        with requests.get(url, headers=headers, stream=True, timeout=(HTTP_CONNECT_TIMEOUT_SECONDS, HTTP_READ_TIMEOUT_SECONDS), allow_redirects=True) as response:
             response.raise_for_status()
 
             if not _is_probably_downloadable_audio(response):
