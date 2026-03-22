@@ -65,6 +65,9 @@ def run_preaudit() -> int:
         report_payload["notes"].append(
             f"Transcripción generada ({transcription_meta['num_segments']} segmentos)"
         )
+        report_payload["notes"].append(
+            f"Idioma detectado: {transcription_meta.get('language') or 'desconocido'}"
+        )
         print(f"Transcripción completada: {transcription_meta['num_segments']} segmentos")
 
         duration_seconds = audio_probe.get("duration_seconds")
@@ -118,6 +121,7 @@ def run_preaudit() -> int:
             "transcription": {
                 "model_name": transcription_meta.get("model_name"),
                 "num_segments": transcription_meta.get("num_segments"),
+                "text_preview": transcription_meta.get("text_preview"),
             },
             "speaker_candidates": [
                 {
