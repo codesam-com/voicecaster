@@ -7,9 +7,4 @@ google-api-python-client==2.164.0
 google-auth==2.38.0
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.1
-
-# Base de audio / ASR / diarización
-openai-whisper==20250625
-whisperx==3.8.2
-pyannote.audio==3.3.2
 ffmpeg-python==0.2.0
