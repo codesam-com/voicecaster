@@ -6,7 +6,7 @@ from .config import MAX_PROCESSING_RETRIES, REVIEWS_DIR, WORK_DIR
 from .downloader import DownloadError, IncompatibleSourceError, download_audio_to_workdir
 from .episode_queue import reserve_next_pending_episode, update_episode_status
 from .reporting import utc_now_iso, write_json
-from .transcriber import transcribe_to_srt
+from .transcriber import transcribe_bundle
 from .url_resolver import normalize_download_url
 from .yaml_io import write_yaml
 
@@ -57,18 +57,25 @@ def run_preaudit() -> int:
             },
         )
 
-        transcription_meta = transcribe_to_srt(
+        transcription_meta = transcribe_bundle(
             audio_path,
-            work_dir / "full_transcript.srt",
+            work_dir,
             model_name="base",
         )
         report_payload["notes"].append(
-            f"Transcripción generada ({transcription_meta['num_segments']} segmentos)"
+            f"Transcripción generada ({transcription_meta['num_segments_srt']} segmentos SRT)"
         )
         report_payload["notes"].append(
             f"Idioma detectado: {transcription_meta.get('language') or 'desconocido'}"
         )
-        print(f"Transcripción completada: {transcription_meta['num_segments']} segmentos")
+        report_payload["notes"].append(
+            f"Texto transcrito: {transcription_meta.get('text_characters', 0)} caracteres"
+        )
+        print(
+            f"Transcripción completada: "
+            f"{transcription_meta['num_segments_srt']} segmentos SRT, "
+            f"{transcription_meta['num_segments_json']} segmentos JSON"
+        )
 
         duration_seconds = audio_probe.get("duration_seconds")
         duration_text = (
@@ -88,7 +95,9 @@ def run_preaudit() -> int:
                 f"- Podcast: {episode.podcast_title}\n"
                 f"- Duración detectada: {duration_text}\n"
                 f"- Idioma detectado: {language_detected}\n"
-                "- Estado: transcripción global generada; diarización pendiente\n\n"
+                "- Estado: transcripción global generada; diarización pendiente\n"
+                f"- Segmentos SRT: {transcription_meta.get('num_segments_srt')}\n"
+                f"- Caracteres transcritos: {transcription_meta.get('text_characters')}\n\n"
                 "## Vista previa\n\n"
                 f"{transcript_preview}\n"
             ),
@@ -101,9 +110,10 @@ def run_preaudit() -> int:
                 "1. Descarga verificada\n"
                 "2. Validación técnica del audio\n"
                 "3. Transcripción global generada\n"
-                "4. Detección de idioma estimada\n"
-                "5. Pendiente diarización\n"
-                "6. Pendiente propuesta real de identidades\n"
+                "4. Exportación a SRT, TXT y JSON de segmentos\n"
+                "5. Detección de idioma estimada\n"
+                "6. Pendiente diarización\n"
+                "7. Pendiente propuesta real de identidades\n"
             ),
             encoding="utf-8",
         )
@@ -120,8 +130,9 @@ def run_preaudit() -> int:
             "language_detected": transcription_meta.get("language"),
             "transcription": {
                 "model_name": transcription_meta.get("model_name"),
-                "num_segments": transcription_meta.get("num_segments"),
-                "text_preview": transcription_meta.get("text_preview"),
+                "num_segments_srt": transcription_meta.get("num_segments_srt"),
+                "num_segments_json": transcription_meta.get("num_segments_json"),
+                "text_characters": transcription_meta.get("text_characters"),
             },
             "speaker_candidates": [
                 {
