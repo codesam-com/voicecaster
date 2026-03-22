@@ -12,7 +12,7 @@ concurrency:
 jobs:
   preaudit:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
 
     permissions:
       contents: write
@@ -30,6 +30,12 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
+
+      - name: Cache whisper models
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/whisper
+          key: whisper-${{ runner.os }}-base-v1
 
       - name: Install dependencies
         run: |
@@ -54,6 +60,7 @@ jobs:
           path: |
             work/**
             reviews/**
+            inputs/**
           retention-days: 5
 
       - name: Commit generated files
