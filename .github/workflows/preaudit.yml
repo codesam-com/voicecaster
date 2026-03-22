@@ -44,6 +44,7 @@ jobs:
 
       - name: Run PREAUDITORÍA
         env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           DRIVE_ROOT_FOLDER_ID: ${{ secrets.DRIVE_ROOT_FOLDER_ID }}
           PREAUDIT_ARCHIVE_RETENTION_DAYS: "5"
