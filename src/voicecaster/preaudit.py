@@ -5,11 +5,16 @@ from pathlib import Path
 
 from .audio_normalize import normalize_audio_for_diarization
 from .audio_probe import AudioProbeError, probe_audio_file
-from .config import HF_TOKEN, MAX_PROCESSING_RETRIES, REVIEWS_DIR, WORK_DIR
+from .config import HF_TOKEN, REVIEWS_DIR, WORK_DIR
 from .diarizer import diarize_audio
 from .downloader import DownloadError, IncompatibleSourceError, download_audio_to_workdir
 from .episode_queue import reserve_next_pending_episode, update_episode_status
 from .reporting import utc_now_iso, write_json
+from .speaker_alignment import (
+    assign_speakers_to_transcript_segments,
+    write_full_transcript_with_speakers,
+    write_per_speaker_srts,
+)
 from .transcriber import transcribe_bundle
 from .url_resolver import normalize_download_url
 from .yaml_io import write_yaml
@@ -112,6 +117,36 @@ def run_preaudit() -> int:
             f"Diarización completada: {diarization_meta['num_speakers_detected']} hablantes, {diarization_meta['num_segments']} segmentos"
         )
 
+        print("Cruzando transcripción + diarización...")
+        alignment_meta = assign_speakers_to_transcript_segments(
+            work_dir / "transcript_segments.json",
+            work_dir / "speaker_segments.json",
+            work_dir / "aligned_transcript_segments.json",
+        )
+
+        num_full_srt_segments = write_full_transcript_with_speakers(
+            work_dir / "aligned_transcript_segments.json",
+            work_dir / "full_transcript_speakers.srt",
+        )
+
+        per_speaker_outputs = write_per_speaker_srts(
+            work_dir / "aligned_transcript_segments.json",
+            work_dir / "speakers",
+        )
+
+        report_payload["notes"].append(
+            f"Cruce transcripción+diarización generado ({alignment_meta['num_aligned_segments']} segmentos alineados)"
+        )
+        report_payload["notes"].append(
+            f"SRT con hablantes generado ({num_full_srt_segments} segmentos)"
+        )
+        report_payload["notes"].append(
+            f"SRT por hablante generados ({len(per_speaker_outputs)} archivos)"
+        )
+        print(
+            f"Cruce completado: {alignment_meta['num_aligned_segments']} segmentos, {len(per_speaker_outputs)} speakers"
+        )
+
         duration_seconds = audio_probe.get("duration_seconds")
         duration_text = (
             f"{duration_seconds:.2f} segundos"
@@ -134,7 +169,9 @@ def run_preaudit() -> int:
                 f"- Segmentos SRT: {transcription_meta.get('num_segments_srt')}\n"
                 f"- Caracteres transcritos: {transcription_meta.get('text_characters')}\n"
                 f"- Hablantes detectados: {diarization_meta.get('num_speakers_detected')}\n"
-                f"- Segmentos de diarización: {diarization_meta.get('num_segments')}\n\n"
+                f"- Segmentos de diarización: {diarization_meta.get('num_segments')}\n"
+                f"- Segmentos alineados: {alignment_meta.get('num_aligned_segments')}\n"
+                f"- Hablantes distintos en alineado: {alignment_meta.get('num_distinct_speakers')}\n\n"
                 "## Vista previa\n\n"
                 f"{transcript_preview}\n"
             ),
@@ -149,8 +186,10 @@ def run_preaudit() -> int:
                 "3. Transcripción global generada\n"
                 "4. Detección de idioma estimada\n"
                 "5. Diarización generada\n"
-                "6. Pendiente propuesta real de identidades\n"
-                "7. Pendiente auditoría humana\n"
+                "6. Cruce transcripción + diarización generado\n"
+                "7. SRT por hablante generados\n"
+                "8. Pendiente propuesta real de identidades\n"
+                "9. Pendiente auditoría humana\n"
             ),
             encoding="utf-8",
         )
@@ -177,22 +216,38 @@ def run_preaudit() -> int:
                 "speaker_ids": diarization_meta.get("speaker_ids"),
                 "timing_seconds": diarization_meta.get("timing_seconds"),
             },
+            "alignment": {
+                "num_aligned_segments": alignment_meta.get("num_aligned_segments"),
+                "num_distinct_speakers": alignment_meta.get("num_distinct_speakers"),
+                "total_aligned_time_seconds": alignment_meta.get("total_aligned_time_seconds"),
+            },
+            "speaker_metrics": alignment_meta.get("speaker_metrics"),
             "speaker_candidates": [
                 {
-                    "speaker_id": speaker_id,
+                    "speaker_id": metric["speaker_id"],
                     "inferred_name": "pendiente_de_validar",
                     "confidence": 0.0,
                     "alternatives": [],
                 }
-                for speaker_id in diarization_meta.get("speaker_ids", [])
+                for metric in alignment_meta.get("speaker_metrics", [])
+                if metric["speaker_id"] != "speaker_unknown"
             ],
+            "artifacts": {
+                "full_transcript_srt": "full_transcript.srt",
+                "full_transcript_txt": "full_transcript.txt",
+                "transcript_segments_json": "transcript_segments.json",
+                "speaker_segments_json": "speaker_segments.json",
+                "speaker_timeline_rttm": "speaker_timeline.rttm",
+                "aligned_transcript_segments_json": "aligned_transcript_segments.json",
+                "full_transcript_speakers_srt": "full_transcript_speakers.srt",
+                "speakers_dir": "speakers",
+            },
             "duration_seconds": audio_probe.get("duration_seconds"),
             "topics_detected": [],
             "participants_declared": episode.participants or [],
         }
         write_json(work_dir / "episode.json", episode_payload)
 
-        # Limpieza de audio temporal antes de finalizar
         if normalized_for_diarization is not None:
             _safe_unlink(normalized_for_diarization)
         if audio_path is not None:
