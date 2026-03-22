@@ -1,16 +1,16 @@
 {
   "episode_id": "episodio_001",
   "phase": "preaudit",
-  "started_at": "2026-03-22T17:50:42.794459+00:00",
-  "finished_at": "2026-03-22T17:53:39.919876+00:00",
-  "result": "pending_review",
+  "started_at": "2026-03-22T18:15:51.858654+00:00",
+  "finished_at": "2026-03-22T18:19:42.826146+00:00",
+  "result": "failed",
   "notes": [
     "Audio descargado en: episodio_001_source.mp3",
     "Audio validado con ffprobe.",
-    "Transcripción generada (180 segmentos SRT)",
+    "Transcripción generada (180 segmentos)",
     "Idioma detectado: es",
     "Texto transcrito: 23166 caracteres",
-    "Archivo comprimido generado: episodio_001_preaudit.zip"
+    "Excepción no controlada: HF_TOKEN no configurado."
   ],
   "source_url_original": "https://drive.google.com/uc?export=download&id=1jPyqmKrDykS9sRlBA9VyV8nSVUl0CXwA",
   "source_url_normalized": "https://drive.google.com/uc?export=download&id=1jPyqmKrDykS9sRlBA9VyV8nSVUl0CXwA"
