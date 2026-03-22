@@ -1,14 +1,15 @@
 {
   "episode_id": "episodio_001",
   "phase": "preaudit",
-  "started_at": "2026-03-22T16:38:46.069088+00:00",
-  "finished_at": "2026-03-22T16:41:41.514229+00:00",
+  "started_at": "2026-03-22T17:50:42.794459+00:00",
+  "finished_at": "2026-03-22T17:53:39.919876+00:00",
   "result": "pending_review",
   "notes": [
     "Audio descargado en: episodio_001_source.mp3",
     "Audio validado con ffprobe.",
-    "Transcripción generada (180 segmentos)",
+    "Transcripción generada (180 segmentos SRT)",
     "Idioma detectado: es",
+    "Texto transcrito: 23166 caracteres",
     "Archivo comprimido generado: episodio_001_preaudit.zip"
   ],
   "source_url_original": "https://drive.google.com/uc?export=download&id=1jPyqmKrDykS9sRlBA9VyV8nSVUl0CXwA",

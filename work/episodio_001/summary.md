@@ -7,6 +7,8 @@ PREAUDITORÍA técnica completada.
 - Duración detectada: 1356.49 segundos
 - Idioma detectado: es
 - Estado: transcripción global generada; diarización pendiente
+- Segmentos SRT: 180
+- Caracteres transcritos: 23166
 
 ## Vista previa
 
