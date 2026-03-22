@@ -61,6 +61,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add inputs/ reviews/ work/ data/
+
+          git add -A
+
           git diff --cached --quiet || git commit -m "chore: preaudit outputs"
-          git push
+          git diff --cached --quiet || git push
