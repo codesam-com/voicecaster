@@ -219,11 +219,14 @@ def run_preaudit() -> int:
         return 1
 
     except Exception as exc:
+        import traceback
+
         report_payload["result"] = "failed"
         report_payload["finished_at"] = utc_now_iso()
         report_payload["notes"].append(f"Excepción no controlada: {exc}")
+        report_payload["notes"].append(traceback.format_exc())
         write_json(work_dir / "report.json", report_payload)
 
         update_episode_status(episode.id, "failed", increment_retries=True)
         print(f"{episode.id}: excepción no controlada -> failed")
-        return 1
+        raise
