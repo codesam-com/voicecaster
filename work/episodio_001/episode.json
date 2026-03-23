@@ -32,10 +32,10 @@
       "SPEAKER_02"
     ],
     "timing_seconds": {
-      "load_pipeline": 3.081,
-      "run_pipeline": 111.36,
+      "load_pipeline": 2.693,
+      "run_pipeline": 112.851,
       "serialize_outputs": 0.001,
-      "total": 114.442
+      "total": 115.545
     }
   },
   "alignment": {
@@ -86,7 +86,7 @@
   "review_structure": {
     "speakers_auto_dir": "speakers_auto",
     "speakers_reviewed_dir": "speakers_reviewed",
-    "reviewed_initialized_from_auto": true
+    "reviewed_initialized_from_auto": false
   },
   "duration_seconds": 127.033469,
   "topics_detected": [],

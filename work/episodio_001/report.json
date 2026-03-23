@@ -1,8 +1,8 @@
 {
   "episode_id": "episodio_001",
   "phase": "preaudit",
-  "started_at": "2026-03-23T00:26:01.947356+00:00",
-  "finished_at": "2026-03-23T00:28:18.646892+00:00",
+  "started_at": "2026-03-23T00:38:23.430867+00:00",
+  "finished_at": "2026-03-23T00:40:38.780180+00:00",
   "result": "pending_review",
   "notes": [
     "Audio descargado en: episodio_001_source.mp3",
@@ -11,11 +11,11 @@
     "Idioma detectado: es",
     "Texto transcrito: 2217 caracteres",
     "Diarización generada (3 hablantes, 30 segmentos)",
-    "Tiempos diarización: {'load_pipeline': 3.081, 'run_pipeline': 111.36, 'serialize_outputs': 0.001, 'total': 114.442}",
+    "Tiempos diarización: {'load_pipeline': 2.693, 'run_pipeline': 112.851, 'serialize_outputs': 0.001, 'total': 115.545}",
     "Cruce transcripción+diarización generado (13 segmentos alineados)",
     "SRT con hablantes generado (13 segmentos)",
     "SRT automáticos por hablante generados (3 archivos)",
-    "speakers_reviewed inicializado desde speakers_auto"
+    "speakers_reviewed ya existía y no se sobrescribió"
   ],
   "source_url_original": "https://drive.google.com/uc?export=download&id=1A4AjcUrZR8TN8vqvOvU-GB97jZpnQaRZ",
   "source_url_normalized": "https://drive.google.com/uc?export=download&id=1A4AjcUrZR8TN8vqvOvU-GB97jZpnQaRZ"
