@@ -1,0 +1,120 @@
+{
+  "episode_id": "episodio_002",
+  "podcast_title": "Podcast de prueba",
+  "episode_title": "Episodio 2",
+  "source_url_original": "https://drive.google.com/uc?export=download&id=16PFiu6KRe6jqfqhOVOUIHsKA6vBbU8eD",
+  "source_url_normalized": "https://drive.google.com/uc?export=download&id=16PFiu6KRe6jqfqhOVOUIHsKA6vBbU8eD",
+  "status_after_preaudit": "pending_review",
+  "downloaded_audio_filename": "episodio_002_source.mp3",
+  "audio_probe": {
+    "duration_seconds": 8694.282449,
+    "container_format": "mp3",
+    "bit_rate": "64000",
+    "size_bytes": "69554640",
+    "audio_codec": "mp3",
+    "sample_rate": "44100",
+    "channels": 2,
+    "channel_layout": "stereo"
+  },
+  "language_detected": "es",
+  "transcription": {
+    "model_name": "base",
+    "num_segments_srt": 1575,
+    "num_segments_json": 1575,
+    "text_characters": 145823
+  },
+  "diarization": {
+    "num_speakers_detected": 5,
+    "num_segments": 1873,
+    "speaker_ids": [
+      "SPEAKER_00",
+      "SPEAKER_01",
+      "SPEAKER_02",
+      "SPEAKER_03",
+      "SPEAKER_04"
+    ],
+    "timing_seconds": {
+      "load_pipeline": 2.382,
+      "run_pipeline": 8671.896,
+      "serialize_outputs": 0.015,
+      "total": 8674.292
+    }
+  },
+  "alignment": {
+    "num_aligned_segments": 1575,
+    "num_distinct_speakers": 5,
+    "total_aligned_time_seconds": 8472.8
+  },
+  "speaker_metrics": [
+    {
+      "speaker_id": "SPEAKER_00",
+      "speaking_time_seconds": 1.0,
+      "participation_pct": 0.012,
+      "num_assigned_segments": 1
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "speaking_time_seconds": 3000.36,
+      "participation_pct": 35.412,
+      "num_assigned_segments": 579
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "speaking_time_seconds": 2425.84,
+      "participation_pct": 28.631,
+      "num_assigned_segments": 448
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "speaking_time_seconds": 1367.14,
+      "participation_pct": 16.136,
+      "num_assigned_segments": 249
+    },
+    {
+      "speaker_id": "SPEAKER_04",
+      "speaking_time_seconds": 1678.46,
+      "participation_pct": 19.81,
+      "num_assigned_segments": 298
+    }
+  ],
+  "speaker_candidates": [
+    {
+      "speaker_id": "SPEAKER_00",
+      "inferred_name": "pendiente_de_validar",
+      "confidence": 0.0,
+      "alternatives": []
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "inferred_name": "pendiente_de_validar",
+      "confidence": 0.0,
+      "alternatives": []
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "inferred_name": "pendiente_de_validar",
+      "confidence": 0.0,
+      "alternatives": []
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "inferred_name": "pendiente_de_validar",
+      "confidence": 0.0,
+      "alternatives": []
+    },
+    {
+      "speaker_id": "SPEAKER_04",
+      "inferred_name": "pendiente_de_validar",
+      "confidence": 0.0,
+      "alternatives": []
+    }
+  ],
+  "review_structure": {
+    "speakers_auto_dir": "speakers_auto",
+    "speakers_reviewed_dir": "speakers_reviewed",
+    "reviewed_initialized_from_auto": true
+  },
+  "duration_seconds": 8694.282449,
+  "topics_detected": [],
+  "participants_declared": []
+}

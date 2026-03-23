@@ -1,0 +1,2315 @@
+1
+00:00:21,000 --> 00:00:26,000
+Aquí comienza cofibreik, la tertulia semanal de la actualidad científica.
+
+2
+00:00:26,000 --> 00:00:29,000
+Son como Isaka Simov, pero en jóvenes.
+
+3
+00:03:52,000 --> 00:03:55,000
+Hola Hola, muy buenas, ¿qué tal? ¿Cómo estáis?
+
+4
+00:05:17,000 --> 00:05:21,000
+Hay el verbo existir que verbo tan que lo está complicado, tan problemático.
+
+5
+00:05:56,000 --> 00:05:58,000
+El ejemplo abro yo el fuego.
+
+6
+00:06:04,000 --> 00:06:23,000
+Bueno, a ver una partícula, el concepto es diferente cuando estás hablando antes de física cuántica y después de física cuántica, luego hablaremos de cuál es la intervirtación moderna, pero clásicamente pues una partícula es un objeto muy pequeñito del que están compuestas otras cosas básicamente.
+
+7
+00:06:24,000 --> 00:06:29,000
+Quizá en el siglo XIX pues la gente habría pensado que los átomos son las partículas más pequeñas que hay.
+
+8
+00:06:29,000 --> 00:06:40,000
+Lo que pasa es que a finales el siglo XIX, cuando se descubre el electron o cuando más bien, se descubre que una cosa que se llamaban rayos católicos y que llevaban décadas viendo en tubos de vacío,
+
+9
+00:06:40,000 --> 00:06:50,000
+resulta que tiene una masa muy pequeña y una carga también muy pequeñita y se identifica como una partícula subatómica pues de repente has descubierto algo más pequeño que un átomo.
+
+10
+00:06:51,000 --> 00:07:03,000
+Si queréis, sólo hago una pequeña explicación de esta cosa en el siglo XIX tenían unos tubos de vacío a los que le metían el electricidad dentro y veían que había algo que chocaba contra una de las paredes del tubo.
+
+11
+00:07:03,000 --> 00:07:11,000
+Ese algo se le llamó rayos católicos, veían que excitaba una flor esencia en las paredes de cristal y las paredes brillaban pues a veces de color verde o algo así.
+
+12
+00:07:11,000 --> 00:07:28,000
+Ese algo no se sabía lo que era y a finales del siglo XIX, Jota J. Tomson hizo una serie de experimentos, midió la relación entre carga y masa de ese objeto, desde los rayos católicos y resulta que descubrió que esa masa era mucho más pequeña que la de cualquier átomo que se hubiera estimado.
+
+13
+00:07:28,000 --> 00:07:34,000
+Todavía no se había medido propiamente la masa de átomos en ese momento pero si había estimaciones y esa masa era pequeñísima.
+
+14
+00:07:34,000 --> 00:07:46,000
+Entonces al ver que era algo cargado con carga eléctrica mientras que los átomos son neutros y que era mucho más pequeño que un átomo aparentemente o de una masa mucho menor, dijo esto tiene que ser una cosa que está dentro de los átomos.
+
+15
+00:07:46,000 --> 00:07:55,000
+Tiene que ser algo subatómico y el electrón es como llamamos hoy en día a esa objeto pues resulta que fue la primera partícula que se descubrió.
+
+16
+00:07:55,000 --> 00:08:04,000
+Un objeto pequeñito que está dentro de otras cosas y que cuando se desplaza tú lo observas como un puntito simplemente.
+
+17
+00:10:25,000 --> 00:10:43,000
+Tengo un comentario al alilo precisamente de esto que vas diciendo que es que luego vamos a hablar mucho más de las interacciones que son las interacciones y todo esto pero normalmente pensamos que los objetos que vemos que tocamos con los que interaccionamos son objetos estamos
+
+18
+00:10:43,000 --> 00:11:02,000
+reaccionando con la materia que hay en esos objetos y en realidad todos todas estas cosas mi mi mano los átomos todas estas cosas son sobre todo interacciones mi mano está básicamente vacía los átomos están muy lejos unos de otros y realmente yo cuando la veo sin embargo la veo como si estuviese llena como si fuese una cantidad continua de materia eso
+
+19
+00:11:02,000 --> 00:11:31,960
+eso se debe a que lo que estoy viendo son las interacciones entre el electrones de diferentes átomos y esas interacciones son más grandes que los átomos cuando yo pienso en el átomo y tú dices el átomo está básicamente vacío es verdad está básicamente vacío pero está lleno de la interacción electromagnética que une al electron con el núcleo y eso es lo que le da entidad a la tomo eso es lo que hace que el átomo sea un objeto y bueno para los físicos en particular las interacciones son muy muy importantes y ya seguiremos hablando de ellas pero son
+
+20
+00:15:24,320 --> 00:15:30,320
+es decir hasta ahora lo que hemos contado es un relato histórico digamos hemos ido contando por orden como iban pasando las cosas
+
+21
+00:15:30,320 --> 00:15:37,320
+ahora con esa tablita que vosotros tenéis y de la que vamos a empezar a hablar en realidad pasamos de un relato histórico un relato ordenado
+
+22
+00:15:37,320 --> 00:15:41,320
+de repente en esa tabla ya está ordenado todo lo que sabemos sobre las partículas elementales
+
+23
+00:15:42,320 --> 00:15:48,320
+y eso se ha descubierto a lo largo de muchas décadas y a veces de manera discontinua y esta parte nos entendía y luego hace un descubrimiento y se entiende
+
+24
+00:15:49,320 --> 00:15:54,320
+o sea que ahí digamos hay un montón de historia condensada en apenas unos cuantos centímetros cuadrados
+
+25
+00:16:19,320 --> 00:16:26,320
+esas partículas que aparecen en la tablita me dejáis que haga un pequeñísimo comentario antes de que empecemos a hablar de esto
+
+26
+00:16:31,320 --> 00:16:39,320
+hemos hablado de manera muy natural de partículas elementales o fundamentales y a lo mejor vale la pena decir que es exactamente lo que significa eso
+
+27
+00:16:39,320 --> 00:16:48,320
+decir que son elementales no significa que es que son muy importantes o algo por el estilo sino que son partículas que hasta donde sabemos
+
+28
+00:16:48,320 --> 00:16:57,320
+sólo están hechas de ellas mismas y no de otra cosa realmente tenemos en ese sentido tenemos dos tipos de partículas que son las elementales y las compuestas
+
+29
+00:16:57,320 --> 00:17:05,320
+las compuestas sabemos que están hechas de otras cosas mientras que las elementales hasta donde sabemos no sabemos que están hechas de otras cosas
+
+30
+00:17:05,320 --> 00:17:12,320
+eso no quiere decir que dentro de diez años no surja un experimento que de repente rompa el electrón y dizara a su otra el electrón resulta que estaba hecho de otras cosas
+
+31
+00:17:12,320 --> 00:17:22,320
+así que el concepto de elementalidad o fundamentalidad en partículas esta siempre bajo revisión siempre está ante la posibilidad de que un nuevo experimento te quite una de esas
+
+32
+00:17:22,320 --> 00:17:31,320
+partículas de la tabla de elementales y te la meta en la lista de compuestas y para que veáis hasta que punto está descompensado conocemos entre dos cientos cuarenta y doscientas
+
+33
+00:17:31,320 --> 00:17:49,320
+cincuenta partículas en total y de ellas sólo un puñado sólo una ventena o así son son elementales el resto son todas compuestas si quieres e introducimos primero la tabla y después de ejemplo sólo decir una cosa sobre alilo de lo que estaba mencionando ahora alberto porque sobre la posibilidad que
+
+34
+00:18:56,840 --> 00:19:05,000
+orden de magnitud ya no hay nada más exacto todo se mantiene exactamente igual y nada se va a romper estoy muy muy de acuerdo eso es una reflexión que siempre me hacía mi
+
+35
+00:19:05,000 --> 00:19:13,840
+director de tresis y aunque enciencia las cosas hay que afirmar las comproevas que a nosotros nos parezca o no nos parezca es bueno más o menos relevante pero no me
+
+36
+00:19:13,840 --> 00:19:21,360
+me hacía la verdad es que tiene todo sentido del mundo porque todo ese desierto y en ese desierto no va a haber nada nuevo tiene tiene toda la
+
+37
+00:22:39,060 --> 00:22:51,100
+del del fotón después si nos vamos a la que creo que lo que haces es super interesante y super importante a la hora de hacer el
+
+38
+00:22:51,100 --> 00:23:00,300
+paso de física clásica a una teoría cuántica de las partículas cuando nosotros hablamos antes del siglo XX de fuerzas la fuerza gravitatoria la fuerza
+
+39
+00:23:00,300 --> 00:23:09,140
+electromagnética las ecuaciones de Maxwell todo eso todo eso son fuerzas que actúan sobre todo a distancia las ecuaciones de
+
+40
+00:23:09,140 --> 00:23:14,740
+máscual ya no tanto pero la fuerza gravitatoria por ejemplo es una fuerza que actúa distancia y aunque entre el sol y la
+
+41
+00:23:14,740 --> 00:23:27,660
+tierra y 150 millones de kilómetros pues hay una fuerza de la gravedad que actúa sobre la tierra cuando nosotros pasamos al mundo cuántico una parte de ese paso es entender volver a entender esas fuerzas
+
+42
+00:23:27,660 --> 00:23:36,980
+reinterpretarlas como partículas que van viajando entre dos lugares y que transportan energía transportan momento y entonces pasamos a llamar las
+
+43
+00:23:36,980 --> 00:23:43,220
+interacciones abandonamos la palabra fuerza un poquito tampoco es que la tiramos a la basura pero abandonamos un poquito y le pasamos a
+
+44
+00:23:43,220 --> 00:23:51,500
+llamar interacción porque la interacción consiste en que hay una partícula que emite parte de su energía en forma de otra partícula y esa
+
+45
+00:23:51,500 --> 00:23:57,580
+partícula que emite y se convierte en una mensajera que llega hasta otra partícula transporta energía y momento y luego quizá ya
+
+46
+00:23:57,580 --> 00:24:03,420
+otra partícula que vuelva y ahí como una especie de juego como del partido de tenis entre las partículas que se van pasando
+
+47
+00:24:03,420 --> 00:24:09,940
+cosas se van pasando información y energía y entonces tú comprendes que lo que veías a grandes distancias como una fuerza
+
+48
+00:24:09,940 --> 00:24:18,300
+realmente lo que es es un intercambio de energía y momento continuo entre las partículas a través de otras partículas o a través de campos como diremos
+
+49
+00:24:18,300 --> 00:24:19,780
+de un jugato.
+
+50
+00:32:56,220 --> 00:33:00,900
+sí solamente quería decir que es lo origen de la padre cuando uno hace eso o sea haciendo haciendo
+
+51
+00:33:00,900 --> 00:33:06,500
+ejercicios e fisica cuántica en la carrera tú consideras el espin como un momento angular y lo sumas al
+
+52
+00:33:06,500 --> 00:33:12,740
+momento angular orbital y todo esto y toda la física se comporta como si el espin fue ese un momento angular
+
+53
+00:33:12,740 --> 00:33:18,300
+entonces hay algo en él que de alguna manera hace que muchas cosas cuadren pero luego resulta que cuando
+
+54
+00:33:18,300 --> 00:33:23,580
+lo quieres entender a un nivel más fundamental esa interpretación no es la buena la mejor es la que
+
+55
+00:33:23,580 --> 00:33:29,420
+tú acabas de describir de entender fermiones como cosas que no les gusta estar juntos y se apilan unos
+
+56
+00:33:29,420 --> 00:33:34,460
+unos encima de otros o unos al lado de los otros y los bosones como cosas que si les gusta estar juntos y se
+
+57
+00:33:34,460 --> 00:33:40,580
+agrupan en grupos lo más coherentes posible luego a partir de ahí pues ya vienen unas heridas propiedades como que
+
+58
+00:33:40,580 --> 00:33:45,740
+las partículas eredan un pequeño imán y se comportan como pequeños imánes cuando se mueven por ahí
+
+59
+00:33:45,740 --> 00:33:51,900
+yo también también quería decir que este asunto de decir los fermiones son las partículas de la
+
+60
+00:33:51,900 --> 00:33:57,940
+materia los bosones son las partículas asociadas a las interacciones es verdad que históricamente de
+
+61
+00:33:57,940 --> 00:34:02,700
+alguna manera lo hemos visto así los elecciones están en la materia y son fermiones vale los protones
+
+62
+00:34:02,700 --> 00:34:09,140
+están en la materia y son fermiones sería sería atonto decirlo contrario pero hay un poco la sensación de que
+
+63
+00:34:09,140 --> 00:34:14,380
+como la propiedad de ser un fermión o ser un bosón es mucho más fundamental tiene que ver con esto
+
+64
+00:34:14,380 --> 00:34:19,380
+que ha dicho francis de cómo se ocupa el espacio y cómo se comportan cuando están juntos a lo mejor en
+
+65
+00:34:19,380 --> 00:34:25,100
+algún momento podremos encontrar una formulación de las leyes de la física en la que no estén tan
+
+66
+00:34:25,100 --> 00:34:30,380
+relacionadas unas cosas con las otras al al mejor simplemente ha sido por motivos históricos por motivos
+
+67
+00:34:30,380 --> 00:34:34,140
+históricos hemos visto que el fotón tenía que ver con el campo electromagnético y hemos dicho a
+
+68
+00:34:34,140 --> 00:34:38,580
+el fotón es un bosón puede haber de ser que los bosones tal y luego hemos seguido desarrollando hemos
+
+69
+00:34:38,580 --> 00:34:43,020
+encontrado más bosones asociados a otras interacciones y hemos dicho a pues será que los bosones están
+
+70
+00:34:43,020 --> 00:34:47,660
+osacios a las interacciones pero no parece que eso sea fundamental quizá quizá tiene que ver con la
+
+71
+00:34:47,660 --> 00:34:51,460
+formulación actual que tenemos en la teoría cuántica de campos que es una formulación muy buena que
+
+72
+00:34:51,460 --> 00:34:59,020
+funciona muy bien pero a lo mejor algún día encontraremos otra de hecho hay hay algunos indicios que
+
+73
+00:34:59,020 --> 00:35:04,260
+sugieren que la teoría cuántica de campos que lo usamos hoy en día no es la teoría última no es
+
+74
+00:35:04,260 --> 00:35:08,740
+la teoría fundamental tiene algunos pequeños problemitas entonces quizá en algún momento
+
+75
+00:35:08,740 --> 00:35:14,180
+encontraremos una teoría que la supere y a lo mejor esa teoría nos explicará cosas igual igual en
+
+76
+00:35:14,180 --> 00:35:20,180
+esa otra teoría entenderemos mejor porque el espín se hereda como una especie de imán cuando
+
+77
+00:35:20,180 --> 00:35:26,060
+cuando uno forma partículas en teoría cuántica de campos es un poco oscuro y conceptualmente no muy
+
+78
+00:35:26,060 --> 00:35:31,300
+claro pero a lo mejor en otra teoría lo mejor lo veremos mucho más claramente cuando superemos
+
+79
+00:35:31,300 --> 00:35:37,100
+la teoría cuántica de campos que yo sospecho que sucederá pues continuamos con la tabla y así
+
+80
+00:38:30,780 --> 00:38:39,500
+Sí, yo solo quería comentar que la diferencia conceptual más importante entre quarks y leptones
+
+81
+00:38:39,500 --> 00:38:44,940
+en realidad es que los quarks sienten una interacción que los leptones no los quarks sienten lo que
+
+82
+00:38:44,940 --> 00:38:50,100
+llamamos la interacción fuerte que luego contaremos lo que es y por sentir la interacción fuerte tienen
+
+83
+00:38:50,100 --> 00:38:55,460
+una serie de propiedades que los hacen muy muy diferentes a los leptones entonces esa separación
+
+84
+00:38:55,460 --> 00:39:00,100
+entre quarks y leptones es solo a las cosas que sienten interacción fuerte y son fermiones.
+
+85
+00:39:00,100 --> 00:39:05,260
+Yo les llamo quarks a las cosas que son fermiones pero no sienten interacción fuerte son leptones.
+
+86
+00:39:05,260 --> 00:39:11,860
+La diferencia más importante es que los leptones existen como partículas individuales de una
+
+87
+00:39:11,860 --> 00:39:17,460
+manera muy natural. Yo puedo tener un electron 2, 3, 3, pero por motivos que si queréis contamos luego
+
+88
+00:39:17,460 --> 00:39:23,900
+tener un cuarkú y cogerlo y hacer cosas con él es o muy difícil o completamente imposible.
+
+89
+00:39:23,900 --> 00:39:30,020
+Entonces eso hace que sean muy muy distintos. Yo voy a tener los leptones por separado, voy a poder
+
+90
+00:39:30,020 --> 00:39:37,180
+coger de alguna manera estudiar un neutrino o un electron pero me va a ser muy difícil hacerlo con un
+
+91
+00:39:37,180 --> 00:39:43,740
+cuark y eso hace que esa separación sea muy natural porque de alguna manera vas a tratar de manera
+
+92
+00:39:43,740 --> 00:39:46,580
+muy diferente a los que son de una familia y los que son de la otra.
+
+93
+00:39:52,500 --> 00:39:58,940
+proton o para formar un neutron. Eso es. Y de hecho no pueden hacer otra cosa, es que no tienen
+
+94
+00:40:02,300 --> 00:40:08,100
+Eso es de 3 o puede también estar juntados en parejas. Los quarks hasta donde, bueno, ahora que se
+
+95
+00:40:08,100 --> 00:40:12,340
+ha descubierto el Pentacuar, que también deberíamos decir que también en quintetos, pero los
+
+96
+00:40:12,340 --> 00:40:20,940
+quarks no tienen opción a bajas energías, los quarks necesitan estar metidos dentro de uno de esos
+
+97
+00:40:20,940 --> 00:40:26,420
+grupitos que hoy en día sabemos que pueden ser de 3 y se llaman mariones, que pueden ser de 2 y se
+
+98
+00:40:26,420 --> 00:40:32,180
+llaman mesones y ahora parece que se han descubierto grupos de 4 y de 5, que sería el tetraquark y el
+
+99
+00:40:32,180 --> 00:40:36,820
+Pentacuar, vale, pero siempre están en esos grupitos. Y cuando tú intentas sacar un
+
+100
+00:40:36,820 --> 00:40:42,380
+quark de uno de esos grupitos, se vuelve a rodear de cosas y también te es imposible estudiarlo
+
+101
+00:40:42,380 --> 00:40:47,500
+por separado. Siempre están en, como en enjambres, en los que es muy difícil estudiar al
+
+102
+00:40:47,500 --> 00:40:51,180
+quark por separado. Luego, cuando hablamos de interacción fuerte, ya comentamos más cosas. Pero eso
+
+103
+00:40:51,180 --> 00:40:55,660
+hace que esa diferencia entre quarks y leptones sea como un ípal maria, porque los leptones son
+
+104
+00:40:55,660 --> 00:41:00,500
+fáciles de manejar y los quarks son un follón, porque están siempre dentro de esos enjambres y si
+
+105
+00:41:21,620 --> 00:41:28,460
+Cualquiera de los dos se utiliza. Quizá familia parecía un poco más coloquial, pero no, en realidad se usan
+
+106
+00:41:34,260 --> 00:41:39,740
+poquito más confuso, ¿no? Porque en los quarks, en los quarks, el quark es el quark C, tienen
+
+107
+00:41:39,740 --> 00:41:44,740
+sabores diferentes y están en la familia, entonces un poquito más confuso. Lo interesante de estas
+
+108
+00:43:45,860 --> 00:43:51,980
+es que en realidad ha dicho Nacho que como que la naturaleza prefiere formar la materia con los
+
+109
+00:43:51,980 --> 00:43:56,420
+de la familia más ligera, con los de la primera familia que son pelúel de, el cuarco, el cuarco
+
+110
+00:43:56,420 --> 00:44:02,500
+y el ellectron, no es que prefiera, es que no tiene muchas más opciones porque realmente cuando
+
+111
+00:44:02,500 --> 00:44:07,540
+tú te vas a construir partículas más pesadas, por ejemplo el mon, el mon es un ellectron que tiene
+
+112
+00:44:07,620 --> 00:44:15,340
+200 veces más masa que el ellectron, ese mon por tener 200 veces más masa acumula mucha energía en su masa
+
+113
+00:44:15,340 --> 00:44:21,820
+y si puede en el momento en que puede libera esa energía en forma de otras partículas, se desintegra,
+
+114
+00:44:21,820 --> 00:44:27,540
+es lo que se llama desintegración, las partículas pesadas no estén en la naturaleza que nos rodea
+
+115
+00:44:27,540 --> 00:44:32,500
+porque la naturaleza no le apetece, es que cuando aparecen se desintegran, al cabo de más o menos
+
+116
+00:44:32,500 --> 00:44:38,500
+tiempo, el mon de hecho de las partículas inestables es de las que más vive y vive 2 microsegundos,
+
+117
+00:44:59,220 --> 00:45:03,300
+casi segundo principio de la termoinámica, pero es un principio de la naturaleza,
+
+118
+00:45:03,300 --> 00:45:08,100
+¿por qué? ¿Por qué las partículas estables son las de la familia más ligera?
+
+119
+00:45:08,100 --> 00:45:12,620
+No es porque la naturaleza prefiera la familia más ligera, es porque las partículas de las
+
+120
+00:45:12,620 --> 00:45:17,620
+familias pesadas se pueden desintegrar a las partículas más ligeras y las partículas más ligeras
+
+121
+00:45:17,620 --> 00:45:22,180
+no se pueden desintegrar a nadie, entonces al final cuando el universo evoluciona de una manera
+
+122
+00:45:22,180 --> 00:45:26,020
+natural las partículas pesadas han terminado desapareciendo y solo han quedado las ligeras,
+
+123
+00:46:00,260 --> 00:46:02,100
+Hasta donde sabemos, ¿no?
+
+124
+00:46:02,100 --> 00:46:03,100
+Hasta donde se ve.
+
+125
+00:46:03,100 --> 00:46:08,940
+Pero ya te digo que eso tiene que ver con que cuando tú tienes una cosa formada por la masa de
+
+126
+00:46:08,940 --> 00:46:14,900
+200 electrones, tú puedes utilizar esa energía para crear electrones o crear otros objetos,
+
+127
+00:46:14,900 --> 00:46:19,660
+pero cuando tú tienes un electron y no hay ninguna otra partícula que sea de menos más
+
+128
+00:46:19,660 --> 00:46:24,340
+que el electron, pues no puedes hacer nada con él, simplemente vive forever porque no puede hacer
+
+129
+00:46:24,340 --> 00:46:25,340
+otra cosa.
+
+130
+00:46:25,340 --> 00:46:29,620
+Quiero decir, si la naturaleza prefiere los estados de mínima energía, es porque los
+
+131
+00:46:29,620 --> 00:46:33,700
+de mayor energía puede venir a estados de mínima energía y los de mínima energía,
+
+132
+00:46:33,700 --> 00:46:36,780
+si no les pegas una patada, no pueden ir a estados de mayor energía.
+
+133
+00:49:01,900 --> 00:49:04,420
+¿Qué son esas partículas que Ectora ha dicho?
+
+134
+00:49:04,420 --> 00:49:09,620
+O sea, se existen, caros y existen variones que no solo tienen los cuarques más ligeros,
+
+135
+00:49:09,620 --> 00:49:11,140
+sino que también tienen algún cuarque pesado.
+
+136
+00:49:11,140 --> 00:49:17,220
+Si existe una versión del protón en la que tú has cambiado el cuarque por un cuarquece,
+
+137
+00:49:17,220 --> 00:49:20,140
+lo que pasa es que es inestable como el propio cuarquece.
+
+138
+00:49:20,140 --> 00:49:25,660
+Cuando el cuarquece se desintegra, pues ese protón extraño, por así decirlo, con un
+
+139
+00:49:25,660 --> 00:49:28,940
+de sustituido por un S, también se desintegra.
+
+140
+00:49:28,940 --> 00:49:33,060
+Entonces, sí, sí, desde luego, existen todas esas cosas y de hecho, cuando antes he dicho
+
+141
+00:49:33,060 --> 00:49:40,140
+que había 200 y pico partículas compuestas, la mayor parte de ellas son en jambres de
+
+142
+00:49:40,140 --> 00:49:44,140
+estos formados por cuarques y que son cosas parecidas a protones, cosas parecidas en
+
+143
+00:49:44,140 --> 00:49:48,340
+el tronje, cosas parecidas a piones, pero con diversos cuarques, lo que pasa es que casi
+
+144
+00:49:48,340 --> 00:49:52,740
+todas ellas son inestables, porque están formadas por estos cuarques que a su vez son inestables
+
+145
+00:49:52,740 --> 00:49:54,420
+y se terminan desintegrando.
+
+146
+00:49:54,420 --> 00:49:59,260
+Entonces, sí, sí existen, pero como dice Francis, no son estables.
+
+147
+00:49:59,260 --> 00:50:02,700
+Aún está abierta la posibilidad de que esta materia extraña pudiese existir, pero
+
+148
+00:50:02,700 --> 00:50:04,420
+parece cada vez más improbable.
+
+149
+00:50:04,420 --> 00:50:07,060
+No hace unos años habríamos apostado más fuerte por ella.
+
+150
+00:55:14,580 --> 00:55:21,940
+Hay algo muy bonito relacionado con todo esto que estamos hablando ahora, que es que cuando
+
+151
+00:55:21,940 --> 00:55:26,140
+nosotros estamos hablando de que la masa del protón es en gran parte energía cinética
+
+152
+00:55:26,140 --> 00:55:31,820
+y energía potencial, estamos intrínsegamente pensando en la formulita famosa de Einstein,
+
+153
+00:55:31,820 --> 00:55:34,020
+que es igual a mc cuadrado, ¿vale?
+
+154
+00:55:34,020 --> 00:55:39,220
+Esa formula te dice que la energía E y la masa M en realidad son cosas parecidas y que
+
+155
+00:55:39,220 --> 00:55:43,700
+tú puedes transformar masa en energía y energía en masa, puedes pasar de una cosa a la
+
+156
+00:55:43,700 --> 00:55:47,860
+otra, lo que no te dices como hacerlo, para eso hay que recurrir a otras teorías que
+
+157
+00:55:47,860 --> 00:55:52,180
+dicen de qué manera se puede hacer y de qué manera no se puede hacer, pero siempre que
+
+158
+00:55:52,180 --> 00:55:57,060
+pensamos en masa en realidad hay que pensar que la masa es una forma de energía y el
+
+159
+00:55:57,060 --> 00:56:01,100
+protón es una manera super buena para ver esto, porque de alguna manera tuve el protón
+
+160
+00:56:01,100 --> 00:56:06,380
+de muy lejos y te crees que es una bola con una masa, no sé qué, pero lo ves de cerca
+
+161
+00:56:06,380 --> 00:56:09,900
+y de repente te das cuenta de que la masa de las cosas que hay dentro del protón es muy
+
+162
+00:56:09,900 --> 00:56:15,060
+pequeñita y que la mayoría de la masa que tú estabas viendo es energía cinética y de
+
+163
+00:56:15,060 --> 00:56:20,220
+alguna manera se emborrona la diferencia entre masa y energía y hay que pensarlo como
+
+164
+00:56:20,220 --> 00:56:24,420
+que realmente no son tan diferentes y se pueden transformar la una en la otra.
+
+165
+00:56:24,420 --> 00:56:28,780
+Cuando antes hemos hablado de desintegraciones, está sucediendo exactamente eso, un muón
+
+166
+00:56:28,780 --> 00:56:33,300
+se desintegra y da lugar a un electrón, un neutrino y un antineutrino y lo que está haciendo
+
+167
+00:56:33,300 --> 00:56:39,940
+es voy a coger mi masa que en realidad es energía y la voy a emplear con transformarla en la
+
+168
+00:56:39,940 --> 00:56:44,140
+masa de un electrón, en transformarla en la masa de un neutrino, de un antineutrino y todo
+
+169
+00:56:44,140 --> 00:56:48,220
+lo que me sobre se lo voy a dar en forma de energía cinética y van a salir tumbando
+
+170
+00:56:48,220 --> 00:56:49,220
+de donde yo estaba.
+
+171
+00:56:49,220 --> 00:56:53,700
+Es una transformación de masa en energía, luego de energía otra vez parcialmente en masa
+
+172
+00:56:53,700 --> 00:56:55,500
+y el resto energía cinética.
+
+173
+00:56:55,500 --> 00:56:59,820
+Hay que pensar que la masa de energía en ese sentido son muy dinámicas y que cuando
+
+174
+00:56:59,820 --> 00:57:04,180
+las vemos como cosas muy diferentes al mirar de pequeñas distancias, de repente nos
+
+175
+00:57:04,180 --> 00:57:06,940
+amos cuenta de que esa visión no es demasiado buena.
+
+176
+00:57:34,820 --> 00:57:42,100
+Bueno, hay varios criterios que uno puede utilizar, hay uno extremadamente pragmático
+
+177
+00:57:42,100 --> 00:57:46,980
+que es fundamental las cosas que yo en mi teoría considero fundamentales y luego cuadran
+
+178
+00:57:46,980 --> 00:57:48,380
+los cálculos, ¿no?
+
+179
+00:57:48,380 --> 00:57:53,460
+Es muy pragmático, pero vamos a usar un poquito más conceptual y mejor.
+
+180
+00:57:53,460 --> 00:57:58,980
+En general, yo espero de los objetos que sean compuestos que estén formados por diversas
+
+181
+00:57:58,980 --> 00:58:03,780
+componentes que estén a su vez moviéndose como en este enjambre que es el proton
+
+182
+00:58:03,780 --> 00:58:06,260
+y que está lleno de quarks y de glúones y de cosas.
+
+183
+00:58:06,260 --> 00:58:09,540
+Entonces yo espero de los objetos compuestos que tengan un tamaño.
+
+184
+00:58:09,540 --> 00:58:14,300
+Espero que a partir de un momento dado yo empecé a ver su estructura interna y por lo
+
+185
+00:58:14,300 --> 00:58:18,660
+tanto pueda decir el proton tiene este tamaño y efectivamente el proton tiene 10 elevado
+
+186
+00:58:18,660 --> 00:58:19,980
+a menos 15 metros.
+
+187
+00:58:19,980 --> 00:58:24,940
+Y si yo utilizo para mirar el proton una cosa más pequeña que 10 elevado a menos 15
+
+188
+00:58:24,940 --> 00:58:28,820
+metros ya no veo el proton, lo que veo son las cosas que hay dentro del proton.
+
+189
+00:58:28,820 --> 00:58:34,860
+Sin embargo, las partículas elementales no tienen tamaño, se caracterizan porque tú no
+
+190
+00:58:34,860 --> 00:58:37,580
+tienes capacidad para ver nada ahí dentro.
+
+191
+00:58:37,580 --> 00:58:41,700
+Por lo tanto, vas utilizando cosas cada vez más pequeñas y sigue viendo el mismo el
+
+192
+00:58:41,700 --> 00:58:47,420
+electron, se puede que veas otros fenómenos asociados porque es verdad que hay un juego
+
+193
+00:58:47,420 --> 00:58:52,140
+complicado, no es lo mismo ver un electron con una cosa muy grande que ver un electron con
+
+194
+00:58:52,140 --> 00:58:56,540
+una cosa pequeña porque necesitas energías diferentes pero sigue viendo un electron.
+
+195
+00:58:56,540 --> 00:59:00,380
+No dejas de ver el electron en ningún momento y eso hace que el electron sea elemental
+
+196
+00:59:00,380 --> 00:59:02,100
+y al muón le pasa lo mismo.
+
+197
+00:59:02,100 --> 00:59:07,500
+El hecho de que puedan desintegrarse no quiere decir que dentro del muón estuviese el
+
+198
+00:59:07,500 --> 00:59:10,740
+electron y estuviera el neutrino y el antineutrino.
+
+199
+00:59:10,740 --> 00:59:17,100
+Quiere decir que el muón puede que el campo del muón, creo que hablaremos dentro de
+
+200
+00:59:17,100 --> 00:59:21,340
+muy poquito de campos, que el campo del muón puede hablarse entre comillas, con el campo
+
+201
+00:59:21,340 --> 00:59:25,020
+del electrónico en los campos de los neutrinos y les puede ceder su energía.
+
+202
+00:59:25,020 --> 00:59:29,020
+Les puede decir, yo ya mira tengo toda esta energía aquí acumulada y ya no me apetece.
+
+203
+00:59:29,020 --> 00:59:32,340
+Te doy a ti un trozo y te conviertes en un electrónite, te doy a ti un poco y te conviertes
+
+204
+00:59:32,340 --> 00:59:34,980
+en un neutrino y también te vas.
+
+205
+00:59:34,980 --> 00:59:39,020
+El hecho de que una partícula se desintegre tiene más que ver con su capacidad de
+
+206
+00:59:39,020 --> 00:59:42,660
+interaccionar que con el hecho de que tenga cosas dentro o no las tenga.
+
+207
+00:59:42,660 --> 00:59:47,180
+Pero eso el proton, a pesar de que tiene cosas dentro, como resulta que las interacciones
+
+208
+00:59:47,180 --> 00:59:51,300
+conspiran para que sea estable, pues tiene esas cosas dentro y esas cosas nunca salen.
+
+209
+00:59:51,300 --> 00:59:52,300
+Siempre se mantienen ahí.
+
+210
+01:02:32,260 --> 01:02:33,260
+Muy bien.
+
+211
+01:02:33,260 --> 01:02:38,620
+Hay que recordar que esto es una propiedad muy fundamental de la física cuántica, que es
+
+212
+01:02:38,620 --> 01:02:42,300
+que cuando es decir tú para ver el tamaño de algo, tienes que usar una regla, tienes
+
+213
+01:02:42,300 --> 01:02:43,700
+que usar alguna cosa, ¿vale?
+
+214
+01:02:43,700 --> 01:02:46,260
+Entonces, ¿qué termina utilizando partículas?
+
+215
+01:02:46,260 --> 01:02:48,540
+Porque son las cosas más pequeñas que conoces.
+
+216
+01:02:48,540 --> 01:02:53,060
+Entonces, acordados que en física cuántica las partículas tienen asociado, lo que se llama
+
+217
+01:02:53,060 --> 01:02:59,260
+una longitud de onda, que te viene a decir básicamente que las partículas tienen un tamaño
+
+218
+01:02:59,260 --> 01:03:02,300
+diferente, según cuál sea su velocidad.
+
+219
+01:03:02,300 --> 01:03:06,020
+Cuando tú tienes una velocidad muy pequeña, las partículas son grandes, mientras que
+
+220
+01:03:06,020 --> 01:03:09,540
+cuando tú legas una velocidad muy grande, las partículas son pequeñas.
+
+221
+01:03:09,540 --> 01:03:12,820
+Entonces, ¿qué significa utilizar reglas de diferente tamaño?
+
+222
+01:03:12,820 --> 01:03:16,780
+Pues significa, si yo quiero ver algo del tamaño del proton, voy a utilizar electrones
+
+223
+01:03:16,780 --> 01:03:18,260
+a esta velocidad.
+
+224
+01:03:18,260 --> 01:03:21,740
+Si yo quiero ver algo más pequeño que el proton, voy a utilizar electrones más rápidos
+
+225
+01:03:21,740 --> 01:03:22,740
+que eso.
+
+226
+01:03:22,820 --> 01:03:27,260
+electrones van a ser más pequeños entre comillas, porque tienen esta longitud de onda más pequeñita
+
+227
+01:03:27,260 --> 01:03:29,980
+y van a poder ver la parte interna del proton.
+
+228
+01:03:29,980 --> 01:03:33,820
+Y de hecho, todos los estudios de la estructura interna del proton se hacen bombardeando
+
+229
+01:03:33,820 --> 01:03:36,420
+protones con electrones de diferentes energías.
+
+230
+01:03:36,420 --> 01:03:40,500
+Entonces, esto que ha dicho Francis, se va a ser precisamente en esta cosa.
+
+231
+01:03:40,500 --> 01:03:42,700
+Si yo quiero ver como delante es un electron, ¿vale?
+
+232
+01:03:42,700 --> 01:03:46,300
+Pues lo voy a bombardear también con otros electrones de diferentes velocidades.
+
+233
+01:03:46,300 --> 01:03:50,580
+Y cuando yo utilizo electrones cada vez más rápidos, lo que me van diciendo es que el
+
+234
+01:03:50,580 --> 01:03:52,220
+electrones cada vez más pequeño.
+
+235
+01:03:52,220 --> 01:03:57,460
+Y esa es un poco la manera experimental de descubrir que es una partícula elemental.
+
+236
+01:03:57,460 --> 01:03:58,780
+Al proton no le pasa eso.
+
+237
+01:03:58,780 --> 01:04:03,380
+Al proton yo utilizo electrones, elentos y veo que el proton es una bola.
+
+238
+01:04:03,380 --> 01:04:06,020
+Utilizo electrones un poco más rápido y lo sigo viendo una bola.
+
+239
+01:04:06,020 --> 01:04:09,460
+Pero cuando utilizo electrones, mucho más rápidos de repente dejo de ver el proton,
+
+240
+01:04:09,460 --> 01:04:10,460
+desaparece.
+
+241
+01:04:10,460 --> 01:04:11,980
+Eso es porque el proton es compuesto.
+
+242
+01:04:11,980 --> 01:04:15,940
+Porque estoy utilizando ya electrones que son demasiado pequeños y no son capaces de
+
+243
+01:04:15,940 --> 01:04:17,820
+ver el proton como un conjunto.
+
+244
+01:04:17,820 --> 01:04:19,980
+Ahora ven los componentes que hay dentro del proton.
+
+245
+01:04:35,340 --> 01:04:41,180
+Bueno, lo que tenemos son una, hay una especie de tablas o más bien funciones que te dicen
+
+246
+01:04:41,180 --> 01:04:44,460
+la composición del proton a diferentes energías.
+
+247
+01:04:44,460 --> 01:04:49,180
+Básicamente te dicen, según como de pequeñas sean las cosas que tú utilices para ver la
+
+248
+01:04:49,180 --> 01:04:53,660
+estructura del proton, tú vas a ver tantos quarks de.
+
+249
+01:04:53,660 --> 01:04:54,660
+Y cambia.
+
+250
+01:04:54,660 --> 01:04:56,340
+O sea, energías bajas.
+
+251
+01:04:56,340 --> 01:05:00,500
+Ves un cierto número de quarks de y quarks de, energías altas.
+
+252
+01:05:00,500 --> 01:05:06,100
+Empiezas a ver cada vez más quarks de tipo E, C, E y todas estas cosas.
+
+253
+01:05:06,100 --> 01:05:08,060
+Y eso se debe a una cosa muy sencilla.
+
+254
+01:05:08,060 --> 01:05:14,420
+Que es que tú realmente cuando estás viendo el proton utilizando un electron, no tienes
+
+255
+01:05:14,420 --> 01:05:16,860
+el proton como una cosa islada del electron.
+
+256
+01:05:16,860 --> 01:05:21,420
+Lo que tienes es un proton siendo golpeado por un electron o los componentes del proton
+
+257
+01:05:21,420 --> 01:05:23,380
+siendo golpeados por un electron.
+
+258
+01:05:23,380 --> 01:05:28,260
+Si el electron llega con una energía muy alta, esa energía va a ser capaz de crear
+
+259
+01:05:28,260 --> 01:05:29,580
+quarks pesados.
+
+260
+01:05:29,580 --> 01:05:31,820
+Y tú vas a empezar a ver quarks pesados.
+
+261
+01:05:31,820 --> 01:05:36,700
+Pero es en parte porque el electron está entrando dentro del proton con muchísima energía
+
+262
+01:05:36,700 --> 01:05:40,500
+y va a emplear parte de esa energía en producir quarks pesados.
+
+263
+01:05:40,500 --> 01:05:41,580
+Y tú lo vas a ver.
+
+264
+01:05:41,580 --> 01:05:47,140
+Y eso lo ves en estas que se llaman parton distribution function, las funciones de distribución
+
+265
+01:05:47,140 --> 01:05:48,140
+de partones.
+
+266
+01:05:48,140 --> 01:05:53,260
+Parton es como se llama a las cosas que hay dentro de algo como el proton.
+
+267
+01:05:53,260 --> 01:05:55,260
+Y tú ves que hay energías pequeñas.
+
+268
+01:05:55,260 --> 01:05:58,580
+Tienes una composición entre comillas y a energías altas.
+
+269
+01:05:58,580 --> 01:06:00,340
+Tienes una composición diferente.
+
+270
+01:06:00,340 --> 01:06:04,180
+Si no recuerdo mal, cuanto más energía tienes, más glúones ves.
+
+271
+01:06:04,180 --> 01:06:07,900
+Empiezas a ver un montón de glúones, a energías altas y los quarks se convierten en
+
+272
+01:06:07,900 --> 01:06:09,540
+algo casi relevante.
+
+273
+01:06:09,540 --> 01:06:13,660
+Si tú le pergas al proton con energías muy altas, casi no ves cuarks, solo ves glúones.
+
+274
+01:06:39,780 --> 01:06:45,020
+No te lo quiero garantizar, pero porque no me consta, pero que yo sepan no se ven ningún
+
+275
+01:06:45,020 --> 01:06:48,940
+tipo de estructura espacial dentro de los protons.
+
+276
+01:09:59,140 --> 01:10:02,140
+Pues si queréis, le doy yo.
+
+277
+01:10:02,140 --> 01:10:07,420
+Bueno, efectivamente, cuando hablamos de física de partículas, tenemos a pensar que el objeto
+
+278
+01:10:07,420 --> 01:10:11,700
+del que vamos a hablar son las partículas y a medida que avanzamos en la teoría,
+
+279
+01:10:11,700 --> 01:10:15,420
+y la entendemos mejor, de hecho, a medida que se fue entendiendo mejor la teoría
+
+280
+01:10:15,420 --> 01:10:21,820
+cuantica, nos empezamos a dar cuenta de que el objeto fundamental probablemente no son
+
+281
+01:10:21,820 --> 01:10:27,380
+las partículas, y las partículas son sólo una manifestación de otra cosa más fundamental
+
+282
+01:10:27,380 --> 01:10:31,380
+y que además incluye muchos otros fenómenos físicos.
+
+283
+01:10:31,380 --> 01:10:33,460
+Ese objeto son los campos, ¿vale?
+
+284
+01:10:33,460 --> 01:10:37,540
+Y por eso hablamos de teoría cuantica de campos, que la teoría cuantica de campos es
+
+285
+01:10:37,540 --> 01:10:40,340
+la teoría de la física de partículas a día de hoy.
+
+286
+01:10:40,340 --> 01:10:41,980
+Entonces, ¿qué es un campo?
+
+287
+01:10:41,980 --> 01:10:48,620
+Pues un campo es algo, no le puedo poner otro nombre, algo que llena el espacio entero y
+
+288
+01:10:48,620 --> 01:10:50,300
+que acumula energía.
+
+289
+01:10:50,300 --> 01:10:54,580
+Y ese algo que llena el espacio entero y que tiene energía, además puede vibrar, puede
+
+290
+01:10:54,580 --> 01:10:57,860
+empurrucirse como olas, como ondas en ese algo.
+
+291
+01:10:57,860 --> 01:11:03,460
+Y cuando esas ondas se propagan a lo largo de distancias grandes y tienen una serie de propiedades,
+
+292
+01:11:03,460 --> 01:11:06,420
+resulta que eso yo lo persivo como partículas.
+
+293
+01:11:06,420 --> 01:11:09,980
+Entonces, yo lo que tengo, a mí me gusta imaginar lo como una especie líquido que está
+
+294
+01:11:09,980 --> 01:11:15,540
+llenando todo el espacio y en el cual hay olas y yo hay una ola que se está moviendo
+
+295
+01:11:15,540 --> 01:11:19,700
+por ese líquido, pero yo lo que veo es un electrón, o yo lo que veo es un mon, o yo lo
+
+296
+01:11:19,700 --> 01:11:20,980
+que veo es otra cosa.
+
+297
+01:11:20,980 --> 01:11:28,140
+Entonces, cuando uno pasa a entender las partículas como ondulaciones en estos campos, de repente
+
+298
+01:11:28,140 --> 01:11:30,140
+le empiezan a cuadrar muchas cosas.
+
+299
+01:11:30,140 --> 01:11:34,420
+Antes hemos dicho que un electrón que se movía rápido era más pequeño entre comillas
+
+300
+01:11:34,420 --> 01:11:37,580
+que un electrón que se mueve grande, que se mueve, que se mueve de espacio.
+
+301
+01:11:37,580 --> 01:11:38,580
+¿Por qué es eso?
+
+302
+01:11:38,580 --> 01:11:43,020
+Pues porque la ondulación en el campo, cuando la onda se mueve muy rápido, resulta que
+
+303
+01:11:43,020 --> 01:11:44,860
+es más pequeña, es más estrecha.
+
+304
+01:11:44,860 --> 01:11:49,180
+Y de repente tienes ahí una cosa que se llama el electrón igualmente, porque es una onda
+
+305
+01:11:49,180 --> 01:11:52,740
+que se mueve por el campo, pero que es más pequeño que otra cosa que se llamaba el
+
+306
+01:11:52,740 --> 01:11:55,660
+electrón y que moviéndose a otra velocidad es más grande.
+
+307
+01:11:55,660 --> 01:12:02,660
+Entonces, la noción de campo y de las partículas como oscilaciones o ondulaciones en ese campo
+
+308
+01:12:02,660 --> 01:12:07,780
+que se mueven permite integrar un montón de ideas que están en la teoría cuántica
+
+309
+01:12:07,780 --> 01:12:12,700
+y que vamos a lo mejor es porque yo tengo la mente deformada, pero a mí me parece que antes
+
+310
+01:12:12,700 --> 01:12:16,300
+de la teoría cuántica de campo se entendía en regular y en el momento en que te introduce
+
+311
+01:12:16,300 --> 01:12:19,460
+la teoría cuántica hay campos, de repente pasa a entenderlas muchísimo mejor.
+
+312
+01:12:19,460 --> 01:12:21,860
+Entonces, ese es el cambio que hay que hacer.
+
+313
+01:12:21,860 --> 01:12:26,380
+Las partículas ya no son puntitos que se mueven, son ondulaciones en un campo que transportan
+
+314
+01:12:26,380 --> 01:12:31,380
+energía entre dos puntos, porque el campo es una cosa de positaria, de energía y al transportarla
+
+315
+01:12:31,380 --> 01:12:33,940
+entre dos puntos, se crea una partida.
+
+316
+01:21:05,960 --> 01:21:13,800
+No, eso depende de cómo hayas creado ese electrón, es decir, aquí en realidad estamos
+
+317
+01:21:13,800 --> 01:21:21,280
+manejando conceptos que pueden ser escurridizos en algún momento, porque antes hemos dicho,
+
+318
+01:21:21,280 --> 01:21:24,960
+las partículas pueden ser más grandes o más pequeñas, algún como de rápido se muevan.
+
+319
+01:21:24,960 --> 01:21:29,040
+Ahora decimos las partículas sonondas y por eso entendemos porque la onda es también
+
+320
+01:21:29,040 --> 01:21:33,680
+más grande o más pequeña, pero al final esas sonondas cuánticas y tú has hecho mucho
+
+321
+01:21:33,680 --> 01:21:39,200
+en fascizantes, Nacho, en el asunto de la medida de yo mido, de yo interacciono. Y ya
+
+322
+01:21:39,200 --> 01:21:44,760
+sabes que cuando tú interacciones con un sistema cuántico de alguna manera lo cambias y de
+
+323
+01:21:44,760 --> 01:21:49,640
+alguna manera algunas de sus propiedades se pierden, ¿no? Efectivamente, un electrón es
+
+324
+01:21:49,640 --> 01:21:54,480
+una onda que tiene un cierto tamaño, pero si tú tratas de detectar ese electrón con
+
+325
+01:21:54,480 --> 01:21:59,720
+alguna cosa más pequeña que ese tamaño, lo vas a detectar en algún punto de ese tamaño
+
+326
+01:21:59,720 --> 01:22:03,640
+grande, no lo vas a detectar en todos. Y la probabilidad de que el electrón estuviese en
+
+327
+01:22:03,640 --> 01:22:07,360
+todo el resto de sitios se va a perder, es lo que se llama el colapso de la función de onda
+
+328
+01:22:07,360 --> 01:22:10,960
+en física cuántica y que la teoría cuántica de campo seré da, la teoría cuántica de
+
+329
+01:22:10,960 --> 01:22:17,160
+campos no se los alta, sino que lo herera también de alguna manera. Entonces, cuando tú
+
+330
+01:22:17,160 --> 01:22:27,120
+hablas de qué es lo que es esa hostilación, a mí me gusta verlo como que los campos almacen
+
+331
+01:22:27,120 --> 01:22:33,320
+la energía y los campos van moviendo la energía de unos sitios a otros y lo hacen de diferentes
+
+332
+01:22:33,320 --> 01:22:37,280
+maneras, pero siguiendo una serie de reglas, que son las reglas de la teoría cuántica de
+
+333
+01:22:37,280 --> 01:22:42,240
+campos, hace un momento has dicho si yo tengo el electrón fuera de un átomo la energía
+
+334
+01:22:42,240 --> 01:22:46,080
+de ese electrón no está cuantizada y puede tener la energía que quiera, eso es exactamente
+
+335
+01:22:46,080 --> 01:22:50,840
+verdad, pero sigue viendo una cosa que está cuantizada, que es el número de electrones,
+
+336
+01:22:50,840 --> 01:22:55,040
+tú tienes que tener un electrón o dos electrones o tres electrones o cero, o puedes tener cero
+
+337
+01:22:55,040 --> 01:22:59,880
+electrones y tener el vacío, pero esa cosa sigue estando cuantizada, este el electrón
+
+338
+01:22:59,880 --> 01:23:04,040
+donde esté y sólo tienes números enteros en números de electrones, no tienes uno
+
+339
+01:23:04,040 --> 01:23:08,800
+como a tres, uno como a cinco y eso es una propiedad fundamental de estas hostilaciones
+
+340
+01:23:08,800 --> 01:23:15,080
+en los campos y lo relaciona, es que curiosamente es muy bonito porque nosotros pensábamos que
+
+341
+01:23:15,080 --> 01:23:20,320
+las partículas son puntitos que están por el espacio y la teoría cuántica nos dice no,
+
+342
+01:23:20,320 --> 01:23:25,840
+esto que tú creías que eran puntitos son un puntito o dos o tres porque hay una propiedad
+
+343
+01:23:25,840 --> 01:23:33,000
+llamada número de ondas en el campo que está cuantizada y que sólo puede valer uno o dos o
+
+344
+01:23:33,000 --> 01:23:39,080
+tres y resulta que algo superintuitivo como que yo tengo uno, dos o tres electrones, es algo
+
+345
+01:23:39,080 --> 01:23:44,800
+que surge de manera natural de las propiedades cuánticas de los campos y a mí me parece, vamos
+
+346
+01:23:44,800 --> 01:23:50,080
+a ello cuando aprendí esto casi me explota la cabeza porque es algo tan intuitivo y tan
+
+347
+01:23:50,080 --> 01:23:55,440
+evidente que tú lo puedas extraer de las propiedades cuánticas de los campos me parece
+
+348
+01:28:29,120 --> 01:28:36,560
+Vale, vale. De hecho, si queréis que sigamos hablando en términos de campos e interpretemos
+
+349
+01:28:36,560 --> 01:28:40,840
+un poco con otras palabras, esto que acaba de decir francis, que es darle una forma
+
+350
+01:28:40,840 --> 01:28:45,400
+espacial a un fotón, pues es decir, puedo coger el campo electromagnético, voy a hacer
+
+351
+01:28:45,400 --> 01:28:50,920
+una hostilación con esta forma espacial y voy a crear una de esas hostilaciones, solo
+
+352
+01:28:50,920 --> 01:28:56,280
+una, porque el número de hostilaciones está cuantizado. Y entonces yo creo un fotón,
+
+353
+01:28:56,280 --> 01:29:01,520
+que un fotón es eso, es una excitación del campo, pero tiene una forma geométrica.
+
+354
+01:29:01,520 --> 01:29:07,000
+¿Por qué? Porque la hostilación del campo espacialmente, pues es notarial y tiene la forma
+
+355
+01:29:07,000 --> 01:29:13,440
+que tiene. Y antes, he dicho por cierto nacho, que no podemos imponer condiciones de
+
+356
+01:29:13,440 --> 01:29:19,600
+contorno al campo del electron. Es verdad. Y eso es algo que hace que digamos sea menos
+
+357
+01:29:19,600 --> 01:29:24,840
+evidente que el campo del electron y el del fotón no son tan diferentes. A los fotones les
+
+358
+01:29:24,840 --> 01:29:28,680
+podemos hacer movidas, porque le podemos poner placas de metal y las placas de metal
+
+359
+01:29:28,680 --> 01:29:33,640
+son condiciones de contorno del campo electromagnético. Y eso con el campo del electron no sabemos
+
+360
+01:29:33,640 --> 01:29:37,920
+cómo se hace. Tal vez algún día aprendamos la manera a hacerlo, pero a día de hoy yo creo
+
+361
+01:29:37,920 --> 01:29:43,600
+que, de hecho, yo no conozco un solo candidato de cómo coger el campo del electron y decir,
+
+362
+01:29:43,600 --> 01:29:47,720
+mira, dentro de este material, tú vas a ser solo de esta manera y de esta otra. Sin
+
+363
+01:29:47,720 --> 01:29:51,720
+embargo, con el campo del fotón sí que lo puedo hacer. Yo puedo construir una jaula de
+
+364
+01:29:51,720 --> 01:29:57,080
+metal y prohibir ciertas frecuencias del campo electromagnético dentro de esa jaula de metal.
+
+365
+01:31:22,600 --> 01:31:27,400
+cuántico del tamaño de un radio telescopio. 100 metros o de 50 metros, ¿no? Eso a día de hoy
+
+366
+01:33:14,240 --> 01:33:20,880
+toma del campo de Higgs es correcto. Sí, sí, sí, me permites, antes de sólo durante un momentito,
+
+367
+01:33:20,880 --> 01:33:28,040
+podemos explicar el concepto de interacción en términos de campos. Los campos son cosas que llenan
+
+368
+01:33:28,040 --> 01:33:33,760
+todo el espacio y obviamente en cada parte del espacio están todos los campos. En cada centímetro
+
+369
+01:33:33,760 --> 01:33:37,320
+cúbico del espacio está el campo del electrón, también está el campo del fotón, está el campo del
+
+370
+01:33:37,320 --> 01:33:43,120
+món, están estos 118 campos campos elementales, están todos ahí a la vez. Entonces, ¿qué es
+
+371
+01:33:43,120 --> 01:33:50,800
+interaccionar? Interaccionar es que algunos campos pueden transmitir energía a otros campos,
+
+372
+01:33:50,800 --> 01:33:55,640
+entonces se dice que interaccionan y sin embargo no transmiten energía a otros campos y se dice
+
+373
+01:33:55,640 --> 01:34:01,800
+entonces que no interaccionan. Entonces, al final una interacción es un paso de la energía de estar
+
+374
+01:34:01,800 --> 01:34:06,560
+almacenada en un campo, a estar almacenada en el otro campo. Y, fijaros hasta que punto la teoría
+
+375
+01:34:06,560 --> 01:34:12,320
+cuántica de campos de nuevo nos explica cosas que antes parecían, así un poco mágicas, cuando yo
+
+376
+01:34:12,320 --> 01:34:16,920
+veo una desintegración de una partícula, veo un món, por ejemplo, transformándose en un
+
+377
+01:34:16,920 --> 01:34:21,680
+electrón, un neutrino y un antineutrino. Cuando yo entiendo eso en términos de campos, lo que
+
+378
+01:34:21,680 --> 01:34:27,920
+digo es el campo del món tenía acumulada esta energía y lo que va a hacer es darle un poco al
+
+379
+01:34:27,920 --> 01:34:32,640
+campo del electrón que creará una excitación, que yo llamo el electrón, darle un poquito al
+
+380
+01:34:32,640 --> 01:34:36,800
+campo del neutrino, darle un poquito al campo de no sé qué y esa energía se va a repartir.
+
+381
+01:34:37,120 --> 01:34:43,080
+Entonces, las interacciones entre partículas en las que nosotros vemos que aparecen y desaparecen
+
+382
+01:34:43,080 --> 01:34:47,200
+partículas, se desintegran, desaparece una, parece la otra, realmente, en otra cosa que energía
+
+383
+01:34:47,200 --> 01:34:53,120
+moviéndose de unos campos a los otros y creando estas excitaciones cuánticas al moverse de un campo
+
+384
+01:34:53,120 --> 01:34:58,400
+al otro. Y esto es lo que llamamos una interacción. Realmente, perdón, realmente no se mueve porque
+
+385
+01:35:16,960 --> 01:35:21,680
+si usamos el verbo mover, quizás no era demasiado afortunado, pasar de uno al otro, quizás sea
+
+386
+01:35:21,680 --> 01:35:26,640
+mejor, cuando se mueve, es cuando yo creo una partícula y esa partícula es una ostilación en el
+
+387
+01:35:26,640 --> 01:35:30,800
+campo que se propaga y entonces si que la energía se mueve de un sitio a otro. Es como cuando
+
+388
+01:36:06,560 --> 01:36:13,160
+Por eso yo antes no he querido deciros que era un campo y que cosa era, no he querido responder
+
+389
+01:36:13,160 --> 01:36:20,240
+al que he dicho un campo es algo que almacena energía, vale. Entonces yo tengo la idea de que realmente
+
+390
+01:36:20,240 --> 01:36:27,800
+el objeto más fundamental es la propia energía y qué es el campo es irrelevante. Es una cosa en
+
+391
+01:36:27,800 --> 01:36:34,440
+donde está la energía y la energía va a pasar de esa cosa a otra cosa. Y por eso como no es algo
+
+392
+01:36:34,440 --> 01:36:39,840
+material, pues no me cuesta ningún problema imaginar que en cada centímetro cubico del espacio es
+
+393
+01:36:39,840 --> 01:36:44,880
+tanto los campos a la vez. Porque al final lo que son es una manera en que la energía se va a
+
+394
+01:36:44,880 --> 01:36:50,240
+transportar por el espacio, se va a almacenar en el espacio y todas estas cosas. Y a veces yo la veré
+
+395
+01:36:50,240 --> 01:36:53,960
+en forma de partículas que se mueven, a veces la veré en forma de partículas quietas y por lo
+
+396
+01:36:53,960 --> 01:37:00,000
+tanto en forma de masa. Y otra vez la veré de otras maneras. Al final un campo es un vehículo para
+
+397
+01:38:07,080 --> 01:38:14,000
+Exacto. Querías que fuéramos al campo de Higgs y que te explicáramos algo. A ver, el campo de Higgs
+
+398
+01:38:14,480 --> 01:38:19,520
+es un campo que es un poquito diferente al resto de campos que tienes en el modelo estándar.
+
+399
+01:38:19,520 --> 01:38:24,320
+Cuando tuve esa tablita como la de Cavi, en donde están todas las partículas elementales o si quieres
+
+400
+01:38:24,320 --> 01:38:29,280
+los campos elementales, ahora que ya sabemos hablar en términos de campos, en esa tablita,
+
+401
+01:38:34,080 --> 01:38:37,760
+O por un objeto etereo que llena el espacio de almacén en energía.
+
+402
+01:38:42,240 --> 01:38:47,280
+Entonces, cuando veas esa tablita, el Higgs es un campo que es muy especial, que tiene una serie de
+
+403
+01:38:47,280 --> 01:38:53,840
+propiedades que los otros campos no tienen. Entonces, esas propiedades va a hacer que la energía
+
+404
+01:38:53,840 --> 01:39:00,000
+que almacena el campo de Higgs en todas las partes del espacio terminen utilizando la otros campos
+
+405
+01:39:00,000 --> 01:39:05,840
+para crear su propia masa. Esta es la base de lo que se llama el mecanismo de Higgs, que sirve para
+
+406
+01:39:05,840 --> 01:39:11,120
+que las partículas elementales tomen masa o tengan una masa en cada punto de espacio.
+
+407
+01:39:11,120 --> 01:39:16,320
+¿Cosa raras que tiene el campo de Higgs y que lo hace especial? Pues, por ejemplo, que a muy
+
+408
+01:39:16,320 --> 01:39:20,440
+altas temperaturas se comporta de manera diferente que abajas temperaturas.
+
+409
+01:39:20,440 --> 01:39:24,720
+Suffre lo que se llama una transición de fase a una temperatura que me calculó una vez y creo que es
+
+410
+01:39:24,720 --> 01:39:31,000
+100 billones de grados con B, una temperatura altísima que se dio en el universo primitivo en
+
+411
+01:39:31,000 --> 01:39:36,760
+algún momento cuando era muy muy joven y que hoy en día conseguimos reproducir en trocitos
+
+412
+01:39:36,760 --> 01:39:40,960
+muy pequeñitos en los aceleradores de partículas. Cuando hacemos tocar partículas muy rápido,
+
+413
+01:39:40,960 --> 01:39:46,120
+durante un momento, en un trocito pequeño en el espacio, hay esa temperatura tan alta y podemos
+
+414
+01:39:46,120 --> 01:39:51,520
+estudiar las propiedades del campo de Higgs. Entonces, ¿cuál es la diferencia del Higgs a muy altas y
+
+415
+01:39:51,520 --> 01:39:56,560
+a más bajas temperaturas? Pues, por ejemplo, a muy altas temperaturas, por encima de 100 billones
+
+416
+01:39:56,560 --> 01:40:03,560
+de grados, el campo de Higgs no crea es capaz de crear varios tipos de partículas. Recuerda
+
+417
+01:40:03,560 --> 01:40:07,720
+que las partículas son hostilaciones en el campo, por resultado que el campo de Higgs no puede
+
+418
+01:40:07,720 --> 01:40:12,800
+crear ni una ni dos ni tres, sino cuatro tipos de hostilaciones diferentes. Es un campo que
+
+419
+01:40:12,800 --> 01:40:18,960
+descreve cuatro partículas distintas a muy altas temperaturas. Esa particular tiene una serie
+
+420
+01:40:18,960 --> 01:40:23,360
+de propiedades, dos de ellas son neutras y una de ellas tiene carga negativa y otra de ellas tiene
+
+421
+01:40:23,360 --> 01:40:29,000
+carga positiva y son anticartícula la una de la otra. ¿Pero qué hace la faz creando continuamente
+
+422
+01:40:35,240 --> 01:40:40,760
+como siempre, el campo necesita que tu le aportes suficiente energía para que él pueda crear una
+
+423
+01:40:40,760 --> 01:40:47,240
+excitación de partícula. Estas estas partículas tienen una masa asociada y si tú no la portas
+
+424
+01:40:47,240 --> 01:40:51,720
+energía suficiente para estar por encima de esa masa, el campo no va a poder crear una
+
+425
+01:40:51,720 --> 01:40:56,120
+partícula con esa masa. Como el campo de Higgs en concreto, pues tiene una masa relativamente
+
+426
+01:40:56,120 --> 01:41:01,520
+alta, él necesita energías grandes. Pero por encima de 100 billones de grados no hay ningún problema,
+
+427
+01:41:01,520 --> 01:41:06,280
+porque los choques que tú tienes con otras partículas te da energía suficiente para que tú puedas
+
+428
+01:41:06,280 --> 01:41:11,120
+hacer eso. Entonces, tú vas a poder crear tanto las dos partículas neutras como las dos que son
+
+429
+01:41:24,200 --> 01:41:32,640
+Bueno, espontaneamente a lo mejor es un poco... No me gusta mucho como suena, porque realmente,
+
+430
+01:41:32,640 --> 01:41:37,120
+cuando se forman, es cuando algo llega a ese punto del espacio y aporta energía. Por ejemplo,
+
+431
+01:41:37,120 --> 01:41:41,200
+llega a otra partícula que se está moviendo a mucha alta velocidad, aporta energía y de refete
+
+432
+01:41:41,200 --> 01:41:44,920
+boom, se forman un par de estas partículas asociadas al campo de Higgs.
+
+433
+01:41:44,920 --> 01:41:52,040
+Tú debes, debemos imaginar el universo primitivo como algo una especie de sopa en la que hay muchas
+
+434
+01:41:52,040 --> 01:41:56,840
+partículas moviéndose a velocidades muy altas y están chocando continuamente. Como las
+
+435
+01:41:56,840 --> 01:42:02,000
+partículas son hostilaciones en los campos, que choque en las partículas significa que un campo
+
+436
+01:42:02,000 --> 01:42:08,560
+entra en contacto con el otro, se transfieren energía y tú puedes crear hostilaciones nuevas en
+
+437
+01:42:08,560 --> 01:42:13,400
+otro campo. Entonces, aparecen partículas a partir de la energía que todavía se invertido en ese
+
+438
+01:42:13,400 --> 01:42:20,160
+punto. Este es más o menos la situación a temperaturas muy muy altas. Si quieres ahora pasamos
+
+439
+01:42:20,160 --> 01:42:26,120
+a ver qué sucede cuando las temperaturas bajan. Lo que ocurre es que el campo de Higgs sufre lo que
+
+440
+01:42:26,120 --> 01:42:31,560
+físicos llamamos una transición de fase. Un ejemplo facilito de transición de fase es el hielo
+
+441
+01:42:31,560 --> 01:42:38,400
+convirtiendo en agua. El hielo se licúa y se convierte en agua y tenía unas propiedades a
+
+442
+01:42:38,400 --> 01:42:42,680
+temperaturas bajas y cuando le subes la temperatura pasa a tener otras y se convierte en agua.
+
+443
+01:42:42,680 --> 01:42:48,640
+Pues al Higgs le pasa también una de estas transiciones de fase y lo que le pasa cuando baja la
+
+444
+01:42:48,640 --> 01:42:55,920
+temperatura es que de estas cuatro partículas que tiene hay tres que son de repente digamos
+
+445
+01:42:55,920 --> 01:43:02,200
+engullidas por otros campos. Estas eran vibraciones que se movían con libertad en el campo de Higgs
+
+446
+01:43:02,200 --> 01:43:09,320
+y por debajo de esa temperatura hay otros campos que se las apropian y ya no se pueden mover ellas
+
+447
+01:43:09,320 --> 01:43:14,760
+olas. Se mueven junto con hostilaciones de estos otros campos. En concreto una de las
+
+448
+01:43:14,760 --> 01:43:20,240
+hostilaciones neutras del Higgs se asocia a lo que llamamos el bosón Z, al campo del bosón Z,
+
+449
+01:43:20,240 --> 01:43:26,280
+y las hostilaciones asociadas a las partículas de carga positiva y negativa se asocian al bosón
+
+450
+01:43:26,280 --> 01:43:32,840
+V. Entonces a partir de ese momento cuando la temperatura baja esas tres partículas que antes estaban
+
+451
+01:43:32,840 --> 01:43:39,160
+asociadas al Higgs de repente pasan a estar asociadas a estos bosones V, V y Z. Y a cambio,
+
+452
+01:43:39,160 --> 01:43:46,800
+esos bosones V y Z ganan masa. esos bosones V y Z al apropiarse de esas hostilaciones pueden tener
+
+453
+01:43:46,800 --> 01:43:51,520
+una masa muy grande y pasan a tener masa como dijimos el otro día pues comparables a átomos
+
+454
+01:43:51,520 --> 01:43:56,720
+medios como de rubidio o algo así. Entonces el campo de Higgs que alta temperatura será tenía cuatro
+
+455
+01:43:56,720 --> 01:44:01,680
+hostilaciones distintas de repente ha pasado a tener una sola y esa una sola que es una
+
+456
+01:44:01,680 --> 01:44:06,840
+partida que es una hostilación sin carga eléctrica es el bosón de Higgs que hemos visto en los
+
+457
+01:45:01,200 --> 01:45:07,320
+de responder pero yo te diría que la masa es energía y que la energía está depositada en los
+
+458
+01:45:07,320 --> 01:45:15,120
+campos entonces cuando cuando el electrón genera su masa a partir bueno esto no lo hemos dicho
+
+459
+01:45:15,120 --> 01:45:20,080
+vuelvo un par de pasos atrás cuando cuando el Higgs se queda reducido solo a esta partícula
+
+460
+01:45:20,080 --> 01:45:25,920
+neutra el pierde el control de parte de la energía que su campo almacena por el espacio. Normalmente
+
+461
+01:45:25,920 --> 01:45:30,000
+los campos utilizan la energía pues para propagar partículas para crear partículas que se propagan
+
+462
+01:45:30,000 --> 01:45:35,600
+más de un sitio otro y tal pero el Higgs al ser vampirizado y al perder parte de sus excitaciones
+
+463
+01:45:35,600 --> 01:45:40,880
+pierde el control de parte de la energía esa energía se queda pues como triste y sola por el espacio
+
+464
+01:45:40,880 --> 01:45:47,120
+entonces cuando otras partículas se propagan por el espacio e interaccionan con el campo de Higgs
+
+465
+01:45:47,120 --> 01:45:51,320
+venez a energía ahí que no lo usan a nadie y dice no yo pues yo puedo hacer un trocito de esta energía
+
+466
+01:45:51,320 --> 01:45:57,440
+para hacerme mi masa entonces en respuesta tu pregunta la energía donde está está en el campo
+
+467
+01:45:57,440 --> 01:46:03,560
+del electrón no está en el campo de Higgs pues la energía está y la almacena al campo de Higgs y el
+
+468
+01:46:03,560 --> 01:46:12,840
+electrón utiliza esa energía para crear un tipo de excitación que tiene masa vale
+
+469
+01:50:28,800 --> 01:50:35,040
+y como lo ha planteado francis que me parece que está muy bien te das cuenta de que al final lo que
+
+470
+01:50:35,040 --> 01:50:39,240
+nos estamos preguntando cuando tratamos de responder hasta pregunta es que es la masa del electrón no
+
+471
+01:50:39,840 --> 01:50:45,840
+tal y como la planteado francis la masa del electrón la tenemos que entender como una energía
+
+472
+01:50:45,840 --> 01:50:52,440
+invertida en conectar las dos componentes del electrón cuantas menos energía inviertes en eso
+
+473
+01:50:52,440 --> 01:50:58,440
+menos masa tiene la partícula y también menos se hablan las dos componentes del electrón entre sí
+
+474
+01:50:58,440 --> 01:51:03,680
+las partículas que tienen una masa muy grande tienen mucha energía invertida en eso y están una
+
+475
+01:51:03,680 --> 01:51:08,360
+componente y la otra hablando continuamente y lo hacen efectivamente a través del campo de Higgs
+
+476
+01:51:08,520 --> 01:51:12,820
+pero es que si el campo de Higgs no almacen a esa energía no podría hacerlo es decir tu
+
+477
+01:51:12,820 --> 01:51:17,000
+necesitas un acoplamiento con dimensiones de energía para hacer eso por lo tanto necesitas que haya
+
+478
+01:51:56,680 --> 01:52:01,880
+estos dos campos de los que habla a francis pues son el electrón de extrójero y el electrón lebojero
+
+479
+01:52:01,880 --> 01:52:06,720
+o el electrón izquierdo y el electrón derecho si la no la viene de la vez que la tira fijaros fijaros
+
+480
+01:53:27,400 --> 01:53:31,400
+está se está se está pasando en el tiempo por otro lado entonces de alguna manera es un
+
+481
+01:54:08,640 --> 01:54:14,320
+si puede relacionarse con esto de con esto de campo si izquierdo si derechos y la masa que es la
+
+482
+01:54:14,320 --> 01:54:20,280
+siguiente cuando tú coges sólo una de las componentes de digamos el electrón de pues cojamos la
+
+483
+01:54:20,280 --> 01:54:27,080
+izquierda vale tú esa componente por si sola si tuvieses sólo esa componente aislada en el
+
+484
+01:54:27,080 --> 01:54:33,680
+espacio y el electrón por lo tanto sólo se sólo se compusiera de eso tú no podrías en ningún
+
+485
+01:54:33,680 --> 01:54:39,760
+momento a ver cómo como decirlo esa componente tiene una propiedad que se llama elicidad ¿vale?
+
+486
+01:54:39,760 --> 01:54:46,480
+qué es la elicidad la elicidad es que es su este spin este pequeño imán que tiene el
+
+487
+01:54:46,480 --> 01:54:52,040
+electrón dentro apunta en una dirección y apunta puede tú puedes hacerlo apuntar o bien en la
+
+488
+01:54:52,040 --> 01:54:55,880
+dirección en la que se mueve el electrón o bien en la dirección opuesta ¿vale? lo que se llama
+
+489
+01:54:55,880 --> 01:55:01,760
+elicidad más uno o elicidad menos uno si tú sólo tienes la componente izquierda o la componente
+
+490
+01:55:01,760 --> 01:55:07,440
+derecha esa componente va a tener siempre la misma elicidad tú puedes por por ejemplo
+
+491
+01:55:07,440 --> 01:55:12,960
+imaginando de la siguiente manera la ese campo magnético podría ser un vectorcito apuntando en
+
+492
+01:55:12,960 --> 01:55:18,680
+una dirección ¿vale? entonces tú puedes ese vectorcito moviéndose para adelante y tratas
+
+493
+01:55:18,680 --> 01:55:23,360
+y adelantarlo tratas de moverte muy rápido la adelantas y entonces lo ves apuntando en la otra
+
+494
+01:55:23,360 --> 01:55:29,400
+dirección porque le has adelantado ¿vale? eso no puede suceder cuando sólo tienes la componente
+
+495
+01:55:29,400 --> 01:55:34,000
+izquierda o la derecha y no puede suceder por un motivo muy sencillo como no tiene masa se mueve a
+
+496
+01:55:34,000 --> 01:55:38,640
+la velocidad de luz y las cosas que se mueven a la velocidad de luz no las puedes adelantar en
+
+497
+01:55:38,640 --> 01:55:44,880
+ningún caso entonces si las partículas que no tienen masa tú no les puedes cambiar la elicidad
+
+498
+01:55:44,880 --> 01:55:51,720
+tratando de adelantarlas muy rápido sin embargo en el momento en que tú das masa esa masa hace que
+
+499
+01:55:51,720 --> 01:55:56,400
+el objeto se mueva más lento que la luz y tú puedes en un momento dado moverte muy rápido y
+
+500
+01:55:56,400 --> 01:56:01,880
+cambiar de la elicidad sólo por haberte movido muy muy rápido no es exactamente la inercia que tú
+
+501
+01:56:01,880 --> 01:56:08,560
+dices pero si es una relación con el movimiento ¿no? la masa está muy relacionada con si yo voy a
+
+502
+01:56:08,560 --> 01:56:13,360
+poder cambiar la elicidad de la partícula tratando de adelantarla y por lo tanto de si la
+
+503
+01:56:13,360 --> 01:56:17,600
+partícula se mueve la velocidad de luz o se mueve a una velocidad menor que la de la luz.
+
+504
+01:56:17,600 --> 01:56:24,240
+Está me parece una especie de manera de entender físicamente el papel de la parte izquierda y la
+
+505
+01:56:24,240 --> 01:56:28,600
+parte derecha en ese sentido bueno no sé si ha quedado claro o lo he leído más todavía pero
+
+506
+01:56:44,920 --> 01:56:51,800
+electrón tendría una contribución diferente a la elicidad pero al estar mezcladas en el
+
+507
+01:56:51,800 --> 01:56:59,720
+electrón real ya no puedes decir la elicidad recordad que es si el electrón se mueve en la
+
+508
+01:56:59,720 --> 01:57:04,840
+dirección de su campo magnético o se mueve en la dirección opuesta a la de su campo magnético cada
+
+509
+01:57:04,840 --> 01:57:10,040
+una de ellas tendría digamos una contribución diferente a esa elicidad pero en el momento en
+
+510
+01:57:10,040 --> 01:57:15,600
+que tú estás mezclada que esas dos están mezcladas porque el electrón tiene masa tú ya no ya no
+
+511
+01:57:15,600 --> 01:57:20,520
+puedes decir no no la izquierda contribuye de esta manera y la derecha de esta otra porque el
+
+512
+02:05:05,740 --> 02:05:12,500
+cambio de masa de ridícula es un campeón muy pequeño si queréis podemos podemos añadir un punto más
+
+513
+02:05:12,500 --> 02:05:17,540
+como llevamos tanto rato hablando hablando de la masa y ya la estamos reduciendo la estamos de construyendo a su
+
+514
+02:05:17,540 --> 02:05:24,060
+mínima presión sí que hay un concepto que en teoría cuántica de campos nos vale para decir lo que es la masa y que
+
+515
+02:05:24,060 --> 02:05:29,380
+no tenemos no necesitamos hacer referencia cosa en Newtonianas nada por el estilo que es la energía que
+
+516
+02:05:29,380 --> 02:05:36,180
+una partícula al macena cuando está en reposo si yo esa partícula la veo parada y le quito toda la energía
+
+517
+02:05:36,180 --> 02:05:43,020
+cinética que tiene cuánta energía está almacenada en esa partícula pues eso es su masa esa cosa es su masa y por qué no
+
+518
+02:05:43,020 --> 02:05:47,980
+le puedo quitar esa masa pues porque está en la interacción que esa partícula está teniendo con el campo de
+
+519
+02:05:47,980 --> 02:05:53,340
+hix continuamente y como el campo de hix están todas partes yo no puedo retirarle esa esa
+
+520
+02:05:53,340 --> 02:05:58,260
+interacción al electrónomo a quien sea y efectivamente esto entra un ca con lo que ha dicho francis y el
+
+521
+02:05:58,260 --> 02:06:03,700
+la si el campo de hix cambia en el sitio donde creo el electrón y en el sitio donde lo muevo pues su masa va
+
+522
+02:06:03,700 --> 02:06:09,340
+a cambiar pero es porque está en la interacción con el hix no está en ningún otro sitio y esta esta esta
+
+523
+02:06:09,340 --> 02:06:14,780
+noción de de masa como energía en reposo yo creo que a mí me es muy útil cuando cuando me
+
+524
+02:06:14,780 --> 02:06:18,740
+empiezo a volver lo que ya decir pero que es la masa y todo esto pienso no no voy a parar la
+
+525
+02:07:42,140 --> 02:07:48,100
+como energía reposo como es el verto yo creo aquí en este punto hemos llegado tan hasta la
+
+526
+02:07:48,100 --> 02:07:55,060
+cocina del asunto que podemos introducir otra cosa que yo creo que es muy profunda y muy bonita
+
+527
+02:07:55,060 --> 02:08:02,660
+que es que realmente las interacciones son una parte muy importante de la realidad es decir
+
+528
+02:08:02,820 --> 02:08:08,620
+pensando de manera un poco clásica y inocente pensamos no no la masa es una cosa que tiene el
+
+529
+02:08:08,620 --> 02:08:13,780
+electrón y ahora estamos llegando a la conclusión de que la masa realmente está en la interacción con
+
+530
+02:08:13,780 --> 02:08:17,940
+el hix que una cosa que tú asociaría hacer el electrón de una manera tan natural como su masa
+
+531
+02:08:17,940 --> 02:08:23,500
+realmente yo diría que no está casi ni en el electrón ni en el hix sino en la manera en que ambos
+
+532
+02:08:23,500 --> 02:08:29,020
+hablan el uno el uno con el otro y eso y eso sucede en otros en otros ámbitos también de teoría
+
+533
+02:08:29,020 --> 02:08:34,340
+cuántica de campos en que resulta que la interacción es lo observable la interacción es la es la
+
+534
+02:08:34,340 --> 02:08:39,660
+cosa que tú habrías asociado la partícula y que realmente está en la manera en que el campo
+
+535
+02:08:39,660 --> 02:08:43,820
+habla con otro campo esto es algo muy profundo pero pero con esto porque también
+
+536
+02:09:18,180 --> 02:09:22,980
+cuánta intensidad interacciona el electrón con el campo electromagnético si tú a una
+
+537
+02:09:22,980 --> 02:09:27,780
+partícula le pones carga más 50 quiere decir que interacciona pues de manera 50 veces más
+
+538
+02:09:27,780 --> 02:09:33,580
+intensa entonces de nuevo la carga está en la interacción la la interacción es la cosa sobre
+
+539
+02:09:33,580 --> 02:09:36,540
+la que tú te estás haciendo preguntas crees que te estás preguntando sobre el electrón y en
+
+540
+02:09:36,540 --> 02:09:40,580
+realidad estás preguntando sobre cómo el electrón habla con el electromagnetismo cómo el
+
+541
+02:09:40,580 --> 02:09:44,860
+electrón habla con el hix cómo el electrón interacciona con tal o con cuál cosa si pero una
+
+542
+02:10:56,820 --> 02:11:01,820
+de nuestro eso es así pero yo te voy a llevar un poquito en la contraria porque si tú si tú
+
+543
+02:11:01,820 --> 02:11:08,860
+lo miras a una energía dada si no cambias la energía puedes tener campos que interaccionan de
+
+544
+02:11:08,860 --> 02:11:13,980
+una cierta manera con el campo electromagnético y tener otro que interacciona el doble de intensamente
+
+545
+02:11:13,980 --> 02:11:18,940
+esa diferencia entre uno que interacciona con carga más uno en este caso y uno que interaccionaría
+
+546
+02:11:18,940 --> 02:11:24,620
+con carga más dos puedes redefinir el concepto de carga como esa diferencia no yo voy a coger este
+
+547
+02:11:24,620 --> 02:11:29,940
+como la base y todos los múltiples de eso le voy a llamar carga eléctrica aunque efectivamente
+
+548
+02:11:29,940 --> 02:11:33,980
+la intensidad de la interacción va a variar con la energía pero si tú lo miras a una energía dada
+
+549
+02:11:33,980 --> 02:11:37,580
+habrá campos que interaccionaran con carga más uno con carga más dos con carga más tres
+
+550
+02:13:32,260 --> 02:13:37,900
+adrígales y algo a ver yo te lo intentaría resumir no sé si a francés le parecerá
+
+551
+02:13:37,900 --> 02:13:44,500
+demasiado resumido pero voy a explicar que se muy resumido por favor yo te lo intentaría resumir
+
+552
+02:13:44,500 --> 02:13:51,100
+de la siguiente manera ya hemos dicho que las interacciones son la capacidad de un campo de
+
+553
+02:13:51,100 --> 02:13:56,460
+transmitirle energía a otro campo de pasarle energía a otro campo entonces la pregunta relevante
+
+554
+02:13:56,460 --> 02:14:02,860
+en este punto es cómo ocurre eso no o sea que campos van a ser capaces de hablar con cuales y
+
+555
+02:14:02,860 --> 02:14:06,940
+con cuánta intensidad van a poder hacerlo esa es la pregunta del millón lo que define la
+
+556
+02:14:06,940 --> 02:14:13,180
+interacción es que un electrón no va a interaccionar con un gluón porque no tiene cara fuerte pero un
+
+557
+02:14:13,180 --> 02:14:18,620
+cuarque sin embargo sí entonces cómo extraigo yo esa información lo hago mediante estos principios de
+
+558
+02:14:18,620 --> 02:14:24,740
+simetría que tú has dicho lo lo contamos el otro día que muchas de las interacciones en física
+
+559
+02:14:24,740 --> 02:14:30,460
+de partículas son lo que se llama interacciones gates y las interacciones gates básicamente se basan
+
+560
+02:14:30,460 --> 02:14:37,260
+en que tú coges una serie de campos y dices la física no debe ser capaz de distinguir entre todos
+
+561
+02:14:37,260 --> 02:14:44,220
+estos campos de aquí por ejemplo la interacción fuerte en la interacción fuerte los quarks pueden
+
+562
+02:14:44,220 --> 02:14:50,140
+tener tres valores de una carga vale que a esos valores porque somos gente divertida pues le llamamos
+
+563
+02:14:50,140 --> 02:14:54,620
+rojo verde y azul aunque no tiene que ver con los colores que ven nuestros ojos entonces cada quark
+
+564
+02:14:54,620 --> 02:14:59,900
+puede tener uno de esos colores puede ser un cuarco rojo un cuarco verde o un cuarco azul tú creas
+
+565
+02:14:59,900 --> 02:15:06,980
+la interacción fuerte cuando tú le dices a la física el cuarco rojo debe comportarse exactamente
+
+566
+02:15:06,980 --> 02:15:11,060
+igual que el cuarco azul y debe comportarse exactamente igual que el cuarco verde la física no
+
+567
+02:15:11,060 --> 02:15:17,460
+debe ser capaz de distinguir entre esos tres colores cuando tú haces eso las ecuaciones te arrojan
+
+568
+02:15:17,460 --> 02:15:23,140
+una serie de comunicaciones de vasos comunicantes que tiene que haber entre los campos y con el campo del
+
+569
+02:15:23,140 --> 02:15:27,900
+gluón y de repente sólo exigiendo leyes o a la física obtienes todas las interacciones de los
+
+570
+02:16:59,060 --> 02:17:04,140
+interacción perdón es la misma y sobre todo es que cuando tú le exiges eso a las ecuaciones las
+
+571
+02:17:04,140 --> 02:17:09,540
+ecuaciones te dicen de qué manera los cuarques pueden intercanviar energía con los gluones entonces
+
+572
+02:17:09,540 --> 02:17:14,340
+digamos que de alguna manera las ecuaciones te empiezan a dar en hilera todas las posibles
+
+573
+02:17:14,340 --> 02:17:18,820
+maneras de intercanviar energía entre los diferentes campos que son compatibles con esta
+
+574
+02:20:48,420 --> 02:20:55,420
+remedio que seguir hablando de este tema así que yo me temo que hoy les hemos dado droga de la
+
+575
+02:20:55,420 --> 02:21:01,460
+buena a nuestros a nuestros oyentes y tengo la esperanza de que vuelvan de que no se que no se
+
+576
+02:21:52,300 --> 02:21:57,300
+solo eres tú sino que nosotros al esforzarnos para tratar de explicar estas cosas también estamos aprendiendo
+
+577
+02:21:57,300 --> 02:22:02,020
+un montón de cosas yo me estoy dando cuenta cuáles de mi razonamiento sinternos me sirven para explicar
+
+578
+02:22:02,020 --> 02:22:06,500
+esto y cuáles me llevan a caminos y salidos o sea que creo que todos aprendemos en el día de hoy
+
+579
+02:22:25,700 --> 02:22:29,100
+hasta la próxima placer hasta la próxima un abrazo
