@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import shutil
 import traceback
 from pathlib import Path
 
@@ -26,6 +27,21 @@ def _safe_unlink(path: Path) -> None:
             path.unlink()
     except Exception:
         pass
+
+
+def _initialize_reviewed_speakers_from_auto(
+    speakers_auto_dir: Path,
+    speakers_reviewed_dir: Path,
+) -> bool:
+    """
+    Copia speakers_auto -> speakers_reviewed solo si speakers_reviewed no existe.
+    Devuelve True si ha inicializado la carpeta, False si la ha dejado intacta.
+    """
+    if speakers_reviewed_dir.exists():
+        return False
+
+    shutil.copytree(speakers_auto_dir, speakers_reviewed_dir)
+    return True
 
 
 def run_preaudit() -> int:
@@ -129,9 +145,16 @@ def run_preaudit() -> int:
             work_dir / "full_transcript_speakers.srt",
         )
 
+        speakers_auto_dir = work_dir / "speakers_auto"
         per_speaker_outputs = write_per_speaker_srts(
             work_dir / "aligned_transcript_segments.json",
-            work_dir / "speakers",
+            speakers_auto_dir,
+        )
+
+        speakers_reviewed_dir = work_dir / "speakers_reviewed"
+        reviewed_initialized = _initialize_reviewed_speakers_from_auto(
+            speakers_auto_dir,
+            speakers_reviewed_dir,
         )
 
         report_payload["notes"].append(
@@ -141,7 +164,12 @@ def run_preaudit() -> int:
             f"SRT con hablantes generado ({num_full_srt_segments} segmentos)"
         )
         report_payload["notes"].append(
-            f"SRT por hablante generados ({len(per_speaker_outputs)} archivos)"
+            f"SRT automáticos por hablante generados ({len(per_speaker_outputs)} archivos)"
+        )
+        report_payload["notes"].append(
+            "speakers_reviewed inicializado desde speakers_auto"
+            if reviewed_initialized
+            else "speakers_reviewed ya existía y no se sobrescribió"
         )
         print(
             f"Cruce completado: {alignment_meta['num_aligned_segments']} segmentos, {len(per_speaker_outputs)} speakers"
@@ -187,9 +215,10 @@ def run_preaudit() -> int:
                 "4. Detección de idioma estimada\n"
                 "5. Diarización generada\n"
                 "6. Cruce transcripción + diarización generado\n"
-                "7. SRT por hablante generados\n"
-                "8. Pendiente propuesta real de identidades\n"
-                "9. Pendiente auditoría humana\n"
+                "7. speakers_auto generado\n"
+                "8. speakers_reviewed inicializado\n"
+                "9. Pendiente propuesta real de identidades\n"
+                "10. Pendiente auditoría humana\n"
             ),
             encoding="utf-8",
         )
@@ -232,15 +261,10 @@ def run_preaudit() -> int:
                 for metric in alignment_meta.get("speaker_metrics", [])
                 if metric["speaker_id"] != "speaker_unknown"
             ],
-            "artifacts": {
-                "full_transcript_srt": "full_transcript.srt",
-                "full_transcript_txt": "full_transcript.txt",
-                "transcript_segments_json": "transcript_segments.json",
-                "speaker_segments_json": "speaker_segments.json",
-                "speaker_timeline_rttm": "speaker_timeline.rttm",
-                "aligned_transcript_segments_json": "aligned_transcript_segments.json",
-                "full_transcript_speakers_srt": "full_transcript_speakers.srt",
-                "speakers_dir": "speakers",
+            "review_structure": {
+                "speakers_auto_dir": "speakers_auto",
+                "speakers_reviewed_dir": "speakers_reviewed",
+                "reviewed_initialized_from_auto": reviewed_initialized,
             },
             "duration_seconds": audio_probe.get("duration_seconds"),
             "topics_detected": [],
