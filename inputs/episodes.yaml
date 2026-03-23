@@ -6,3 +6,13 @@
   participants: null
   status: pending_review
   retries: 0
+
+  - id: episodio_002
+  podcast_title: Podcast de prueba
+  episode_title: Episodio 2
+  url: https://drive.google.com/uc?export=download&id=16PFiu6KRe6jqfqhOVOUIHsKA6vBbU8eD
+  topics: null
+  participants: null
+  status: pending
+  retries: 0
+
