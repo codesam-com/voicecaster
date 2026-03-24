@@ -6,43 +6,5 @@
   source_drive_url: null
   topics: null
   participants: null
-  status: pending
-  retries: 0
-
-#- id: <id>
-#  podcast_title: <podcast_title>
-#  episode_title: <episode_title>
-#  url: <URL>
-#  topics: null
-#  participants: null
-#  status: pending
-#  retries: 0
-
-#- id: <id>
-#  podcast_title: <podcast_title>
-#  episode_title: <episode_title>
-#  url: <URL>
-#  topics: null
-#  participants: null
-#  status: pending
-#  retries: 0
-
-#- id: <id>
-#  podcast_title: <podcast_title>
-#  episode_title: <episode_title>
-#  url: <URL>
-#  topics: null
-#  participants: null
-#  status: pending
-#  retries: 0
-
-#- id: <id>
-#  podcast_title: <podcast_title>
-#  episode_title: <episode_title>
-#  url: "https://drive.google.com/uc?export=download&id=DRIVE_FILE_ID"
-#  source_url_original: "https://url-original-del-usuario"
-#  source_drive_url: "https://drive.google.com/uc?export=download&id=DRIVE_FILE_ID"
-#  topics: null
-#  participants: null
-#  status: pending_review
-#  retries: 0
+  status: failed
+  retries: 1
