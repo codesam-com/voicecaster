@@ -1,8 +1,46 @@
 - id: episodio_002
   podcast_title: Podcast de prueba
   episode_title: Episodio 2
-  url: https://drive.google.com/uc?export=download&id=16PFiu6KRe6jqfqhOVOUIHsKA6vBbU8eD
+  url: null
+  source_url_original: https://drive.google.com/uc?export=download&id=1A4AjcUrZR8TN8vqvOvU-GB97jZpnQaRZ
+  source_drive_url: null
   topics: null
   participants: null
   status: pending_review
   retries: 0
+
+#- id: <id>
+#  podcast_title: <podcast_title>
+#  episode_title: <episode_title>
+#  url: <URL>
+#  topics: null
+#  participants: null
+#  status: pending
+#  retries: 0
+
+#- id: <id>
+#  podcast_title: <podcast_title>
+#  episode_title: <episode_title>
+#  url: <URL>
+#  topics: null
+#  participants: null
+#  status: pending
+#  retries: 0
+
+#- id: <id>
+#  podcast_title: <podcast_title>
+#  episode_title: <episode_title>
+#  url: <URL>
+#  topics: null
+#  participants: null
+#  status: pending
+#  retries: 0
+
+#- id: <id>
+#  podcast_title: <podcast_title>
+#  episode_title: <episode_title>
+#  url: <URL>
+#  topics: null
+#  participants: null
+#  status: pending
+#  retries: 0
