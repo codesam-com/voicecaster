@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import List, Tuple
+from typing import List
 
 from .config import INPUT_EPISODES_PATH, PROCESSED_EPISODES_PATH
 from .models import EpisodeEntry
@@ -13,7 +13,10 @@ def load_pending_queue() -> List[EpisodeEntry]:
 
 
 def save_queue(items: List[EpisodeEntry]) -> None:
-    write_yaml(INPUT_EPISODES_PATH, [item.model_dump(mode="json") for item in items])
+    write_yaml(
+        INPUT_EPISODES_PATH,
+        [item.model_dump(mode="json", exclude_none=False) for item in items],
+    )
 
 
 def load_processed_queue() -> List[EpisodeEntry]:
@@ -22,7 +25,10 @@ def load_processed_queue() -> List[EpisodeEntry]:
 
 
 def save_processed_queue(items: List[EpisodeEntry]) -> None:
-    write_yaml(PROCESSED_EPISODES_PATH, [item.model_dump(mode="json") for item in items])
+    write_yaml(
+        PROCESSED_EPISODES_PATH,
+        [item.model_dump(mode="json", exclude_none=False) for item in items],
+    )
 
 
 def reserve_next_pending_episode() -> EpisodeEntry | None:
@@ -45,6 +51,26 @@ def update_episode_status(episode_id: str, new_status: str, increment_retries: b
                 item.retries += 1
             items[idx] = item
             break
+    save_queue(items)
+
+
+def update_episode_operational_audio_url(
+    episode_id: str,
+    new_url: str,
+) -> None:
+    items = load_pending_queue()
+    for idx, item in enumerate(items):
+        if item.id != episode_id:
+            continue
+
+        if item.source_url_original is None:
+            item.source_url_original = item.url
+
+        item.url = new_url
+        item.source_drive_url = new_url
+        items[idx] = item
+        break
+
     save_queue(items)
 
 
