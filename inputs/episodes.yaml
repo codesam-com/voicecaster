@@ -6,7 +6,7 @@
   source_drive_url: null
   topics: null
   participants: null
-  status: pending_review
+  status: pending
   retries: 0
 
 #- id: <id>
