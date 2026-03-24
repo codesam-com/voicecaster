@@ -6,10 +6,23 @@ from pathlib import Path
 
 from .audio_normalize import normalize_audio_for_diarization
 from .audio_probe import AudioProbeError, probe_audio_file
-from .config import HF_TOKEN, REVIEWS_DIR, WORK_DIR
+from .audio_publish import build_published_audio_filename, rewrite_audio_metadata
+from .config import (
+    DRIVE_PODCASTS_PENDING_FOLDER_ID,
+    GOOGLE_SERVICE_ACCOUNT_JSON,
+    HF_TOKEN,
+    MAX_PROCESSING_RETRIES,
+    REVIEWS_DIR,
+    WORK_DIR,
+)
 from .diarizer import diarize_audio
 from .downloader import DownloadError, IncompatibleSourceError, download_audio_to_workdir
-from .episode_queue import reserve_next_pending_episode, update_episode_status
+from .drive_uploader import publish_audio_to_podcasts_pending
+from .episode_queue import (
+    reserve_next_pending_episode,
+    update_episode_operational_audio_url,
+    update_episode_status,
+)
 from .reporting import utc_now_iso, write_json
 from .speaker_alignment import (
     assign_speakers_to_transcript_segments,
@@ -29,19 +42,25 @@ def _safe_unlink(path: Path) -> None:
         pass
 
 
-def _initialize_reviewed_speakers_from_auto(
-    speakers_auto_dir: Path,
-    speakers_reviewed_dir: Path,
-) -> bool:
-    """
-    Copia speakers_auto -> speakers_reviewed solo si speakers_reviewed no existe.
-    Devuelve True si ha inicializado la carpeta, False si la ha dejado intacta.
-    """
-    if speakers_reviewed_dir.exists():
-        return False
+def _initialize_reviewed_speakers(work_dir: Path, report_payload: dict) -> dict:
+    speakers_auto_dir = work_dir / "speakers_auto"
+    speakers_reviewed_dir = work_dir / "speakers_reviewed"
 
-    shutil.copytree(speakers_auto_dir, speakers_reviewed_dir)
-    return True
+    initialized = False
+    if not speakers_reviewed_dir.exists():
+        shutil.copytree(speakers_auto_dir, speakers_reviewed_dir)
+        initialized = True
+        print("speakers_reviewed inicializado desde speakers_auto/")
+        report_payload["notes"].append("speakers_reviewed inicializado desde speakers_auto/")
+    else:
+        print("speakers_reviewed ya existe, no se sobrescribe")
+        report_payload["notes"].append("speakers_reviewed ya existía y no se sobrescribió")
+
+    return {
+        "speakers_auto_dir": speakers_auto_dir.name,
+        "speakers_reviewed_dir": speakers_reviewed_dir.name,
+        "reviewed_initialized_from_auto": initialized,
+    }
 
 
 def run_preaudit() -> int:
@@ -68,12 +87,14 @@ def run_preaudit() -> int:
         "finished_at": None,
         "result": None,
         "notes": [],
-        "source_url_original": str(episode.url),
+        "source_url_original": str(episode.source_url_original) if episode.source_url_original else str(episode.url),
         "source_url_normalized": normalized_url,
     }
 
     audio_path: Path | None = None
     normalized_for_diarization: Path | None = None
+    published_audio_path: Path | None = None
+    drive_publication_meta: dict | None = None
 
     try:
         audio_path = download_audio_to_workdir(normalized_url, work_dir, episode.id)
@@ -81,6 +102,61 @@ def run_preaudit() -> int:
 
         audio_probe = probe_audio_file(audio_path)
         report_payload["notes"].append("Audio validado con ffprobe.")
+
+        if episode.source_drive_url:
+            drive_publication_meta = {
+                "file_id": None,
+                "operational_url": str(episode.source_drive_url),
+                "web_view_url": None,
+                "published_filename": None,
+                "reused_existing_drive_source": True,
+            }
+            report_payload["notes"].append(
+                "El episodio ya operaba desde Drive; no se republicó el audio en Podcasts/Pending."
+            )
+        else:
+            if not DRIVE_PODCASTS_PENDING_FOLDER_ID:
+                raise RuntimeError("DRIVE_PODCASTS_PENDING_FOLDER_ID no configurado.")
+            if not GOOGLE_SERVICE_ACCOUNT_JSON:
+                raise RuntimeError("GOOGLE_SERVICE_ACCOUNT_JSON no configurado.")
+
+            published_filename = build_published_audio_filename(
+                episode.podcast_title,
+                episode.episode_title,
+                audio_path.suffix,
+            )
+            published_audio_path = work_dir / published_filename
+
+            rewrite_audio_metadata(
+                input_audio=audio_path,
+                output_audio=published_audio_path,
+                podcast_title=episode.podcast_title,
+                episode_title=episode.episode_title,
+            )
+            report_payload["notes"].append(
+                f"Audio reescrito con metadatos limpios: {published_audio_path.name}"
+            )
+
+            drive_publication_meta = publish_audio_to_podcasts_pending(
+                service_account_json=GOOGLE_SERVICE_ACCOUNT_JSON,
+                local_path=published_audio_path,
+                filename=published_filename,
+                pending_folder_id=DRIVE_PODCASTS_PENDING_FOLDER_ID,
+            )
+            drive_publication_meta["published_filename"] = published_filename
+            drive_publication_meta["reused_existing_drive_source"] = False
+
+            report_payload["notes"].append(
+                f"Audio subido a Drive/Podcasts/Pending: {drive_publication_meta['file_id']}"
+            )
+
+            update_episode_operational_audio_url(
+                episode_id=episode.id,
+                new_url=drive_publication_meta["operational_url"],
+            )
+            report_payload["notes"].append(
+                "inputs/episodes.yaml actualizado para usar la URL operativa de Drive."
+            )
 
         audit_path = review_dir / "audit.yaml"
         write_yaml(
@@ -145,16 +221,9 @@ def run_preaudit() -> int:
             work_dir / "full_transcript_speakers.srt",
         )
 
-        speakers_auto_dir = work_dir / "speakers_auto"
         per_speaker_outputs = write_per_speaker_srts(
             work_dir / "aligned_transcript_segments.json",
-            speakers_auto_dir,
-        )
-
-        speakers_reviewed_dir = work_dir / "speakers_reviewed"
-        reviewed_initialized = _initialize_reviewed_speakers_from_auto(
-            speakers_auto_dir,
-            speakers_reviewed_dir,
+            work_dir / "speakers_auto",
         )
 
         report_payload["notes"].append(
@@ -166,14 +235,11 @@ def run_preaudit() -> int:
         report_payload["notes"].append(
             f"SRT automáticos por hablante generados ({len(per_speaker_outputs)} archivos)"
         )
-        report_payload["notes"].append(
-            "speakers_reviewed inicializado desde speakers_auto"
-            if reviewed_initialized
-            else "speakers_reviewed ya existía y no se sobrescribió"
-        )
         print(
             f"Cruce completado: {alignment_meta['num_aligned_segments']} segmentos, {len(per_speaker_outputs)} speakers"
         )
+
+        review_structure = _initialize_reviewed_speakers(work_dir, report_payload)
 
         duration_seconds = audio_probe.get("duration_seconds")
         duration_text = (
@@ -211,14 +277,15 @@ def run_preaudit() -> int:
                 "# Outline\n\n"
                 "1. Descarga verificada\n"
                 "2. Validación técnica del audio\n"
-                "3. Transcripción global generada\n"
-                "4. Detección de idioma estimada\n"
-                "5. Diarización generada\n"
-                "6. Cruce transcripción + diarización generado\n"
-                "7. speakers_auto generado\n"
-                "8. speakers_reviewed inicializado\n"
-                "9. Pendiente propuesta real de identidades\n"
-                "10. Pendiente auditoría humana\n"
+                "3. Publicación del audio fuente en Drive/Podcasts/Pending\n"
+                "4. Transcripción global generada\n"
+                "5. Detección de idioma estimada\n"
+                "6. Diarización generada\n"
+                "7. Cruce transcripción + diarización\n"
+                "8. Generación de SRT automáticos por hablante\n"
+                "9. Inicialización de revisión humana\n"
+                "10. Pendiente propuesta real de identidades\n"
+                "11. Pendiente auditoría humana\n"
             ),
             encoding="utf-8",
         )
@@ -227,11 +294,19 @@ def run_preaudit() -> int:
             "episode_id": episode.id,
             "podcast_title": episode.podcast_title,
             "episode_title": episode.episode_title,
-            "source_url_original": str(episode.url),
+            "source_url_original": str(episode.source_url_original) if episode.source_url_original else str(episode.url),
             "source_url_normalized": normalized_url,
+            "source_drive_url": drive_publication_meta.get("operational_url") if drive_publication_meta else str(episode.source_drive_url) if episode.source_drive_url else None,
             "status_after_preaudit": "pending_review",
             "downloaded_audio_filename": audio_path.name if audio_path else None,
             "audio_probe": audio_probe,
+            "source_drive_publication": {
+                "file_id": drive_publication_meta.get("file_id") if drive_publication_meta else None,
+                "operational_url": drive_publication_meta.get("operational_url") if drive_publication_meta else None,
+                "web_view_url": drive_publication_meta.get("web_view_url") if drive_publication_meta else None,
+                "published_filename": drive_publication_meta.get("published_filename") if drive_publication_meta else None,
+                "reused_existing_drive_source": drive_publication_meta.get("reused_existing_drive_source") if drive_publication_meta else False,
+            },
             "language_detected": transcription_meta.get("language"),
             "transcription": {
                 "model_name": transcription_meta.get("model_name"),
@@ -261,11 +336,7 @@ def run_preaudit() -> int:
                 for metric in alignment_meta.get("speaker_metrics", [])
                 if metric["speaker_id"] != "speaker_unknown"
             ],
-            "review_structure": {
-                "speakers_auto_dir": "speakers_auto",
-                "speakers_reviewed_dir": "speakers_reviewed",
-                "reviewed_initialized_from_auto": reviewed_initialized,
-            },
+            "review_structure": review_structure,
             "duration_seconds": audio_probe.get("duration_seconds"),
             "topics_detected": [],
             "participants_declared": episode.participants or [],
@@ -274,6 +345,8 @@ def run_preaudit() -> int:
 
         if normalized_for_diarization is not None:
             _safe_unlink(normalized_for_diarization)
+        if published_audio_path is not None:
+            _safe_unlink(published_audio_path)
         if audio_path is not None:
             _safe_unlink(audio_path)
 
