@@ -11,8 +11,6 @@ class EpisodeEntry(BaseModel):
     podcast_title: str = Field(min_length=1)
     episode_title: str = Field(min_length=1)
     url: HttpUrl
-    source_url_original: Optional[HttpUrl] = None
-    source_drive_url: Optional[HttpUrl] = None
     topics: Optional[str] = None
     participants: Optional[list[str]] = None
     status: EpisodeStatus
