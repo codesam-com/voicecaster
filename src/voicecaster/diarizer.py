@@ -4,6 +4,7 @@ import json
 import time
 from pathlib import Path
 
+import soundfile as sf
 import torch
 from pyannote.audio import Pipeline
 
@@ -22,6 +23,15 @@ def _write_rttm_like(segments: list[dict], output_rttm: Path, uri: str) -> None:
         )
 
     output_rttm.write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
+
+
+def _load_waveform(audio_path: Path) -> tuple[torch.Tensor, int]:
+    audio, sample_rate = sf.read(str(audio_path), dtype="float32", always_2d=True)
+
+    # soundfile devuelve shape (time, channels); pyannote espera (channels, time)
+    waveform = torch.from_numpy(audio.T)
+
+    return waveform, int(sample_rate)
 
 
 def diarize_audio(
@@ -43,14 +53,20 @@ def diarize_audio(
 
     t1 = time.time()
 
-    diarization = pipeline(str(audio_path))
+    waveform, sample_rate = _load_waveform(audio_path)
+
+    diarization_input = {
+        "waveform": waveform,
+        "sample_rate": sample_rate,
+    }
+
+    diarization = pipeline(diarization_input)
 
     t2 = time.time()
 
     segments: list[dict] = []
     speakers: set[str] = set()
 
-    # Compatibilidad con el objeto devuelto por pyannote 4.x
     speaker_tracks = getattr(diarization, "speaker_diarization", diarization)
 
     for turn, _, speaker in speaker_tracks.itertracks(yield_label=True):
