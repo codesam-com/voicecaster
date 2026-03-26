@@ -10,6 +10,7 @@ PROCESSED_EPISODES_PATH = REPO_ROOT / "inputs" / "episodes_processed.yaml"
 REVIEWS_DIR = REPO_ROOT / "reviews"
 SPEAKERS_DIR = REPO_ROOT / "data" / "speakers"
 WORK_DIR = REPO_ROOT / "work"
+RUNTIME_CONTROL_PATH = REPO_ROOT / "data" / "runtime_control.json"
 
 MAX_DOWNLOAD_RETRIES = 3
 MAX_PROCESSING_RETRIES = 2
