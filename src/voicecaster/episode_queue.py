@@ -1,28 +1,36 @@
 from __future__ import annotations
 
-from typing import List, Tuple
+from typing import List
 
 from .config import INPUT_EPISODES_PATH, PROCESSED_EPISODES_PATH
 from .models import EpisodeEntry
 from .yaml_io import read_yaml, write_yaml
 
 
+ACTIVE_STATUSES = {"pending", "processing", "pending_review", "failed"}
+PROCESSED_STATUSES = {"done"}
+
+
 def load_pending_queue() -> List[EpisodeEntry]:
     payload = read_yaml(INPUT_EPISODES_PATH) or []
-    return [EpisodeEntry.model_validate(item) for item in payload]
+    items = [EpisodeEntry.model_validate(item) for item in payload]
+    return [item for item in items if item.status in ACTIVE_STATUSES]
 
 
 def save_queue(items: List[EpisodeEntry]) -> None:
-    write_yaml(INPUT_EPISODES_PATH, [item.model_dump(mode="json") for item in items])
+    filtered = [item for item in items if item.status in ACTIVE_STATUSES]
+    write_yaml(INPUT_EPISODES_PATH, [item.model_dump(mode="json") for item in filtered])
 
 
 def load_processed_queue() -> List[EpisodeEntry]:
     payload = read_yaml(PROCESSED_EPISODES_PATH) or []
-    return [EpisodeEntry.model_validate(item) for item in payload]
+    items = [EpisodeEntry.model_validate(item) for item in payload]
+    return [item for item in items if item.status in PROCESSED_STATUSES]
 
 
 def save_processed_queue(items: List[EpisodeEntry]) -> None:
-    write_yaml(PROCESSED_EPISODES_PATH, [item.model_dump(mode="json") for item in items])
+    filtered = [item for item in items if item.status in PROCESSED_STATUSES]
+    write_yaml(PROCESSED_EPISODES_PATH, [item.model_dump(mode="json") for item in filtered])
 
 
 def reserve_next_pending_episode() -> EpisodeEntry | None:
@@ -64,6 +72,10 @@ def move_episode_to_processed(episode_id: str) -> None:
     if moved is None:
         return
 
+    moved.status = "done"
+
+    processed = [p for p in processed if p.id != episode_id]
     processed.append(moved)
+
     save_queue(remaining)
     save_processed_queue(processed)
