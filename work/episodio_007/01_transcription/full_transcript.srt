@@ -1,0 +1,179 @@
+1
+00:00:00,000 --> 00:00:02,960
+y que ese giro sobre sí mismo era
+
+2
+00:00:02,960 --> 00:00:06,280
+la órbita era el momento angular orbital y el giro sobre sí mismo
+
+3
+00:00:06,280 --> 00:00:08,300
+era el spin, es lo que yo tenía entendido
+
+4
+00:00:08,300 --> 00:00:12,620
+eso que si es verdad, que tienes razón, que históricamente es verdad
+
+5
+00:00:12,620 --> 00:00:15,700
+es como se entendía el spin por algunos
+
+6
+00:00:15,700 --> 00:00:19,020
+físicos alrededor del año 1924
+
+7
+00:00:19,020 --> 00:00:21,220
+pero eso dejó de ser verdad
+
+8
+00:00:21,220 --> 00:00:23,400
+en 1927
+
+9
+00:00:23,400 --> 00:00:27,320
+y dejó de ser absolutamente verdad y se convirtió
+
+10
+00:00:27,320 --> 00:00:29,700
+en una absoluta mentira en 1928
+
+11
+00:00:29,700 --> 00:00:32,980
+lo que pasa es que la gente lo sigue contando
+
+12
+00:00:32,980 --> 00:00:36,320
+la gente sigue contando lo que era verdad en 1924
+
+13
+00:00:36,840 --> 00:00:39,020
+y dejó de ser verdad en 1928
+
+14
+00:00:39,020 --> 00:00:42,860
+porque aparentemente el público general lo entiende
+
+15
+00:00:42,860 --> 00:00:44,300
+hay un abuso del lenguaje
+
+16
+00:00:44,300 --> 00:00:46,800
+solamente quería decir que es el origen del problema
+
+17
+00:00:46,800 --> 00:00:51,480
+haciendo ejercicios de física cuántica en la carrera
+
+18
+00:00:51,480 --> 00:00:54,140
+tú consideras el spin como un momento angular
+
+19
+00:00:54,140 --> 00:00:57,000
+y lo sumas al momento angular orbital y todo esto
+
+20
+00:00:57,000 --> 00:01:01,480
+y toda la física se comporta como si el spin fuese un momento angular
+
+21
+00:01:01,480 --> 00:01:04,100
+entonces hay algo en él que de alguna manera
+
+22
+00:01:04,100 --> 00:01:05,860
+hace que muchas cosas cuadren
+
+23
+00:01:05,860 --> 00:01:08,820
+pero luego resulta que cuando lo quieres entender a un nivel más fundamental
+
+24
+00:01:08,820 --> 00:01:11,400
+esa interpretación no es la buena
+
+25
+00:01:11,400 --> 00:01:13,260
+la mejor es la que tú acabas de describir
+
+26
+00:01:13,260 --> 00:01:17,060
+de entender fermiones como cosas que no les gusta estar juntos
+
+27
+00:01:17,060 --> 00:01:20,180
+y se apilan unos encima de otros o unos al lado de los otros
+
+28
+00:01:20,180 --> 00:01:22,880
+y los bosones como cosas que sí les gusta estar juntos
+
+29
+00:01:22,880 --> 00:01:25,760
+y se agrupan en grupos lo más coherentes posible
+
+30
+00:01:25,760 --> 00:01:26,980
+y luego a partir de ahí
+
+31
+00:01:26,980 --> 00:01:28,840
+pues ya vienen una serie de propiedades
+
+32
+00:01:28,840 --> 00:01:31,960
+como que las partículas heredan un pequeño imán
+
+33
+00:01:31,960 --> 00:01:34,600
+y se comportan como pequeños imanes cuando se mueven por ahí
+
+34
+00:01:34,600 --> 00:01:38,720
+yo también quería decir que este asunto de decir
+
+35
+00:01:38,720 --> 00:01:40,980
+los fermiones son las partículas de la materia
+
+36
+00:01:40,980 --> 00:01:44,160
+los bosones son las partículas asociadas a las interacciones
+
+37
+00:01:44,160 --> 00:01:48,000
+es verdad que históricamente de alguna manera lo hemos visto así
+
+38
+00:01:48,000 --> 00:01:50,360
+los electrones están en la materia y son fermiones
+
+39
+00:01:50,360 --> 00:01:52,860
+los protones están en la materia y son fermiones
+
+40
+00:01:52,860 --> 00:01:54,720
+sería tonto decir lo contrario
+
+41
+00:01:56,980 --> 00:01:59,840
+pero la verdad es que la propiedad de ser un fermión
+
+42
+00:01:59,840 --> 00:02:02,000
+o ser un bosón es mucho más fundamental
+
+43
+00:02:02,000 --> 00:02:03,820
+tiene que ver con esto que ha dicho Francis
+
+44
+00:02:03,820 --> 00:02:05,100
+de cómo se ocupa el espacio
+
+45
+00:02:05,100 --> 00:02:06,760
+y cómo se comportan cuando están juntos

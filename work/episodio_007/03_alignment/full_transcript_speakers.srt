@@ -1,0 +1,179 @@
+1
+00:00:00,725 --> 00:00:02,960
+[SPEAKER_00] y que ese giro sobre sí mismo era
+
+2
+00:00:03,564 --> 00:00:06,260
+[SPEAKER_00] la órbita era el momento angular orbital y el giro sobre sí mismo
+
+3
+00:00:06,300 --> 00:00:08,280
+[SPEAKER_00] era el spin, es lo que yo tenía entendido
+
+4
+00:00:10,430 --> 00:00:12,580
+[SPEAKER_01] eso que si es verdad, que tienes razón, que históricamente es verdad
+
+5
+00:00:13,083 --> 00:00:15,660
+[SPEAKER_01] es como se entendía el spin por algunos
+
+6
+00:00:16,102 --> 00:00:17,551
+[SPEAKER_01] físicos alrededor del año 1924
+
+7
+00:00:19,686 --> 00:00:21,220
+[SPEAKER_01] pero eso dejó de ser verdad
+
+8
+00:00:21,240 --> 00:00:21,826
+[SPEAKER_01] [OVERLAP] en 1927
+
+9
+00:00:24,305 --> 00:00:27,280
+[SPEAKER_01] y dejó de ser absolutamente verdad y se convirtió
+
+10
+00:00:27,441 --> 00:00:28,671
+[SPEAKER_01] en una absoluta mentira en 1928
+
+11
+00:00:29,700 --> 00:00:31,451
+[SPEAKER_01] lo que pasa es que la gente lo sigue contando
+
+12
+00:00:33,805 --> 00:00:36,119
+[SPEAKER_01] la gente sigue contando lo que era verdad en 1924
+
+13
+00:00:37,345 --> 00:00:38,354
+[SPEAKER_01] y dejó de ser verdad en 1928
+
+14
+00:00:39,442 --> 00:00:42,840
+[SPEAKER_01] porque aparentemente el público general lo entiende
+
+15
+00:00:43,306 --> 00:00:44,097
+[SPEAKER_00] [OVERLAP] hay un abuso del lenguaje
+
+16
+00:00:45,429 --> 00:00:46,800
+[SPEAKER_00] [OVERLAP] solamente quería decir que es el origen del problema
+
+17
+00:00:46,800 --> 00:00:51,359
+[SPEAKER_02] [OVERLAP] haciendo ejercicios de física cuántica en la carrera
+
+18
+00:00:51,883 --> 00:00:54,140
+[SPEAKER_02] tú consideras el spin como un momento angular
+
+19
+00:00:54,140 --> 00:00:56,980
+[SPEAKER_02] y lo sumas al momento angular orbital y todo esto
+
+20
+00:00:57,000 --> 00:01:01,460
+[SPEAKER_02] y toda la física se comporta como si el spin fuese un momento angular
+
+21
+00:01:01,500 --> 00:01:04,100
+[SPEAKER_02] entonces hay algo en él que de alguna manera
+
+22
+00:01:04,383 --> 00:01:05,840
+[SPEAKER_02] hace que muchas cosas cuadren
+
+23
+00:01:06,122 --> 00:01:08,739
+[SPEAKER_02] pero luego resulta que cuando lo quieres entender a un nivel más fundamental
+
+24
+00:01:09,304 --> 00:01:11,400
+[SPEAKER_02] esa interpretación no es la buena
+
+25
+00:01:11,784 --> 00:01:13,199
+[SPEAKER_02] [OVERLAP] la mejor es la que tú acabas de describir
+
+26
+00:01:13,743 --> 00:01:17,060
+[SPEAKER_02] de entender fermiones como cosas que no les gusta estar juntos
+
+27
+00:01:17,342 --> 00:01:20,180
+[SPEAKER_02] y se apilan unos encima de otros o unos al lado de los otros
+
+28
+00:01:20,583 --> 00:01:22,880
+[SPEAKER_02] y los bosones como cosas que sí les gusta estar juntos
+
+29
+00:01:23,142 --> 00:01:25,740
+[SPEAKER_02] y se agrupan en grupos lo más coherentes posible
+
+30
+00:01:25,760 --> 00:01:26,960
+[SPEAKER_02] y luego a partir de ahí
+
+31
+00:01:27,324 --> 00:01:28,820
+[SPEAKER_02] pues ya vienen una serie de propiedades
+
+32
+00:01:29,061 --> 00:01:31,920
+[SPEAKER_02] como que las partículas heredan un pequeño imán
+
+33
+00:01:32,182 --> 00:01:34,540
+[SPEAKER_02] y se comportan como pequeños imanes cuando se mueven por ahí
+
+34
+00:01:35,665 --> 00:01:38,680
+[SPEAKER_02] yo también quería decir que este asunto de decir
+
+35
+00:01:39,063 --> 00:01:40,960
+[SPEAKER_02] los fermiones son las partículas de la materia
+
+36
+00:01:41,443 --> 00:01:44,100
+[SPEAKER_02] los bosones son las partículas asociadas a las interacciones
+
+37
+00:01:44,803 --> 00:01:47,980
+[SPEAKER_02] es verdad que históricamente de alguna manera lo hemos visto así
+
+38
+00:01:48,323 --> 00:01:50,340
+[SPEAKER_02] los electrones están en la materia y son fermiones
+
+39
+00:01:50,985 --> 00:01:52,860
+[SPEAKER_02] los protones están en la materia y son fermiones
+
+40
+00:01:53,062 --> 00:01:54,700
+[SPEAKER_02] sería tonto decir lo contrario
+
+41
+00:01:56,980 --> 00:01:59,820
+[SPEAKER_02] pero la verdad es que la propiedad de ser un fermión
+
+42
+00:02:00,102 --> 00:02:01,980
+[SPEAKER_02] o ser un bosón es mucho más fundamental
+
+43
+00:02:02,506 --> 00:02:03,820
+[SPEAKER_02] tiene que ver con esto que ha dicho Francis
+
+44
+00:02:04,064 --> 00:02:05,080
+[SPEAKER_02] de cómo se ocupa el espacio
+
+45
+00:02:05,302 --> 00:02:06,740
+[SPEAKER_02] y cómo se comportan cuando están juntos

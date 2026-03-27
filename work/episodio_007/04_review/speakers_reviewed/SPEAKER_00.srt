@@ -1,0 +1,19 @@
+1
+00:00:00,725 --> 00:00:02,960
+y que ese giro sobre sí mismo era
+
+2
+00:00:03,564 --> 00:00:06,260
+la órbita era el momento angular orbital y el giro sobre sí mismo
+
+3
+00:00:06,300 --> 00:00:08,280
+era el spin, es lo que yo tenía entendido
+
+4
+00:00:43,306 --> 00:00:44,097
+[OVERLAP] hay un abuso del lenguaje
+
+5
+00:00:45,429 --> 00:00:46,800
+[OVERLAP] solamente quería decir que es el origen del problema

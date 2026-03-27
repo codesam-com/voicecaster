@@ -1,0 +1,272 @@
+[
+  {
+    "id": 0,
+    "start": 0.725,
+    "end": 2.96,
+    "text": "y que ese giro sobre sí mismo era"
+  },
+  {
+    "id": 1,
+    "start": 3.564,
+    "end": 6.26,
+    "text": "la órbita era el momento angular orbital y el giro sobre sí mismo"
+  },
+  {
+    "id": 2,
+    "start": 6.3,
+    "end": 8.28,
+    "text": "era el spin, es lo que yo tenía entendido"
+  },
+  {
+    "id": 3,
+    "start": 10.43,
+    "end": 12.58,
+    "text": "eso que si es verdad, que tienes razón, que históricamente es verdad"
+  },
+  {
+    "id": 4,
+    "start": 13.083,
+    "end": 15.66,
+    "text": "es como se entendía el spin por algunos"
+  },
+  {
+    "id": 5,
+    "start": 16.102,
+    "end": 17.551,
+    "text": "físicos alrededor del año 1924"
+  },
+  {
+    "id": 6,
+    "start": 19.686,
+    "end": 21.22,
+    "text": "pero eso dejó de ser verdad"
+  },
+  {
+    "id": 7,
+    "start": 21.24,
+    "end": 21.826,
+    "text": "en 1927"
+  },
+  {
+    "id": 8,
+    "start": 24.305,
+    "end": 27.28,
+    "text": "y dejó de ser absolutamente verdad y se convirtió"
+  },
+  {
+    "id": 9,
+    "start": 27.441,
+    "end": 28.671,
+    "text": "en una absoluta mentira en 1928"
+  },
+  {
+    "id": 10,
+    "start": 29.7,
+    "end": 31.451,
+    "text": "lo que pasa es que la gente lo sigue contando"
+  },
+  {
+    "id": 11,
+    "start": 33.805,
+    "end": 36.119,
+    "text": "la gente sigue contando lo que era verdad en 1924"
+  },
+  {
+    "id": 12,
+    "start": 37.345,
+    "end": 38.354,
+    "text": "y dejó de ser verdad en 1928"
+  },
+  {
+    "id": 13,
+    "start": 39.442,
+    "end": 42.84,
+    "text": "porque aparentemente el público general lo entiende"
+  },
+  {
+    "id": 14,
+    "start": 43.306,
+    "end": 44.097,
+    "text": "hay un abuso del lenguaje"
+  },
+  {
+    "id": 15,
+    "start": 45.429,
+    "end": 46.8,
+    "text": "solamente quería decir que es el origen del problema"
+  },
+  {
+    "id": 16,
+    "start": 46.8,
+    "end": 51.359,
+    "text": "haciendo ejercicios de física cuántica en la carrera"
+  },
+  {
+    "id": 17,
+    "start": 51.883,
+    "end": 54.14,
+    "text": "tú consideras el spin como un momento angular"
+  },
+  {
+    "id": 18,
+    "start": 54.14,
+    "end": 56.98,
+    "text": "y lo sumas al momento angular orbital y todo esto"
+  },
+  {
+    "id": 19,
+    "start": 57.0,
+    "end": 61.46,
+    "text": "y toda la física se comporta como si el spin fuese un momento angular"
+  },
+  {
+    "id": 20,
+    "start": 61.5,
+    "end": 64.1,
+    "text": "entonces hay algo en él que de alguna manera"
+  },
+  {
+    "id": 21,
+    "start": 64.383,
+    "end": 65.84,
+    "text": "hace que muchas cosas cuadren"
+  },
+  {
+    "id": 22,
+    "start": 66.122,
+    "end": 68.739,
+    "text": "pero luego resulta que cuando lo quieres entender a un nivel más fundamental"
+  },
+  {
+    "id": 23,
+    "start": 69.304,
+    "end": 71.4,
+    "text": "esa interpretación no es la buena"
+  },
+  {
+    "id": 24,
+    "start": 71.784,
+    "end": 73.199,
+    "text": "la mejor es la que tú acabas de describir"
+  },
+  {
+    "id": 25,
+    "start": 73.743,
+    "end": 77.06,
+    "text": "de entender fermiones como cosas que no les gusta estar juntos"
+  },
+  {
+    "id": 26,
+    "start": 77.342,
+    "end": 80.18,
+    "text": "y se apilan unos encima de otros o unos al lado de los otros"
+  },
+  {
+    "id": 27,
+    "start": 80.583,
+    "end": 82.88,
+    "text": "y los bosones como cosas que sí les gusta estar juntos"
+  },
+  {
+    "id": 28,
+    "start": 83.142,
+    "end": 85.74,
+    "text": "y se agrupan en grupos lo más coherentes posible"
+  },
+  {
+    "id": 29,
+    "start": 85.76,
+    "end": 86.96,
+    "text": "y luego a partir de ahí"
+  },
+  {
+    "id": 30,
+    "start": 87.324,
+    "end": 88.82,
+    "text": "pues ya vienen una serie de propiedades"
+  },
+  {
+    "id": 31,
+    "start": 89.061,
+    "end": 91.92,
+    "text": "como que las partículas heredan un pequeño imán"
+  },
+  {
+    "id": 32,
+    "start": 92.182,
+    "end": 94.54,
+    "text": "y se comportan como pequeños imanes cuando se mueven por ahí"
+  },
+  {
+    "id": 33,
+    "start": 95.665,
+    "end": 98.68,
+    "text": "yo también quería decir que este asunto de decir"
+  },
+  {
+    "id": 34,
+    "start": 99.063,
+    "end": 100.96,
+    "text": "los fermiones son las partículas de la materia"
+  },
+  {
+    "id": 35,
+    "start": 101.443,
+    "end": 104.1,
+    "text": "los bosones son las partículas asociadas a las interacciones"
+  },
+  {
+    "id": 36,
+    "start": 104.803,
+    "end": 107.98,
+    "text": "es verdad que históricamente de alguna manera lo hemos visto así"
+  },
+  {
+    "id": 37,
+    "start": 108.323,
+    "end": 110.34,
+    "text": "los electrones están en la materia y son fermiones"
+  },
+  {
+    "id": 38,
+    "start": 110.985,
+    "end": 112.86,
+    "text": "los protones están en la materia y son fermiones"
+  },
+  {
+    "id": 39,
+    "start": 113.062,
+    "end": 114.7,
+    "text": "sería tonto decir lo contrario"
+  },
+  {
+    "id": 40,
+    "start": 116.98,
+    "end": 119.82,
+    "text": "pero la verdad es que la propiedad de ser un fermión"
+  },
+  {
+    "id": 41,
+    "start": 120.102,
+    "end": 121.98,
+    "text": "o ser un bosón es mucho más fundamental"
+  },
+  {
+    "id": 42,
+    "start": 122.506,
+    "end": 123.82,
+    "text": "tiene que ver con esto que ha dicho Francis"
+  },
+  {
+    "id": 43,
+    "start": 124.064,
+    "end": 125.08,
+    "text": "de cómo se ocupa el espacio"
+  },
+  {
+    "id": 44,
+    "start": 125.302,
+    "end": 126.74,
+    "text": "y cómo se comportan cuando están juntos"
+  }
+]
