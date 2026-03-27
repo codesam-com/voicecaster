@@ -1,3 +1,5 @@
+# src/voicecaster/preaudit.py
+
 from __future__ import annotations
 
 import shutil
@@ -23,6 +25,8 @@ from .url_resolver import normalize_download_url
 from .work_layout import build_work_layout, write_status_json, write_work_readme
 from .yaml_io import write_yaml
 
+WORKFLOW_NAME = "preaudit"
+
 
 def _safe_unlink(path: Path) -> None:
     try:
@@ -42,9 +46,10 @@ def _init_speakers_reviewed(speakers_auto_dir: Path, speakers_reviewed_dir: Path
 def run_preaudit() -> int:
     print("Iniciando PREAUDITORÍA...")
 
-    should_run, runtime_info = should_run_now(RUNTIME_CONTROL_PATH)
+    should_run, runtime_info = should_run_now(RUNTIME_CONTROL_PATH, WORKFLOW_NAME)
     if not should_run:
         print("Runtime control: todavía no toca ejecutar. Exit limpio.")
+        print(runtime_info)
         return 0
 
     episode = reserve_next_pending_episode()
@@ -73,10 +78,16 @@ def run_preaudit() -> int:
         "started_at": started_at,
         "finished_at": None,
         "result": None,
-        "notes": [],
+        "notes": [
+            f"Runtime control workflow={WORKFLOW_NAME} decision={runtime_info.get('decision')}"
+        ],
         "source_url_original": str(episode.url),
         "source_url_normalized": normalized_url,
     }
+    if runtime_info.get("next_allowed_run_at"):
+        report_payload["notes"].append(
+            f"Next allowed run at: {runtime_info['next_allowed_run_at']}"
+        )
 
     audio_path: Path | None = None
     normalized_for_diarization: Path | None = None
@@ -87,6 +98,7 @@ def run_preaudit() -> int:
         "status": "running",
         "started_at": started_at,
         "current_step": "init",
+        "workflow_name": WORKFLOW_NAME,
     }
     write_status_json(work_dir, status_payload)
 
@@ -135,18 +147,22 @@ def run_preaudit() -> int:
         report_payload["notes"].append(
             f"Texto transcrito: {transcription_meta.get('text_characters', 0)} caracteres"
         )
+        print(f"Transcripción completada: {transcription_meta['num_segments_srt']} segmentos")
 
         status_payload["current_step"] = "normalize_for_diarization"
         write_status_json(work_dir, status_payload)
 
+        print("Normalizando audio para diarización...")
         normalized_for_diarization = normalize_audio_for_diarization(
             audio_path,
             layout["temp"] / "audio_mono_16k.wav",
         )
+        print(f"Audio normalizado: {normalized_for_diarization}")
 
         status_payload["current_step"] = "diarization"
         write_status_json(work_dir, status_payload)
 
+        print("Iniciando diarización...")
         diarization_meta = diarize_audio(
             normalized_for_diarization,
             layout["diarization"] / "speaker_timeline.rttm",
@@ -159,10 +175,14 @@ def run_preaudit() -> int:
         report_payload["notes"].append(
             f"Tiempos diarización: {diarization_meta['timing_seconds']}"
         )
+        print(
+            f"Diarización completada: {diarization_meta['num_speakers_detected']} hablantes, {diarization_meta['num_segments']} segmentos"
+        )
 
         status_payload["current_step"] = "alignment"
         write_status_json(work_dir, status_payload)
 
+        print("Cruzando transcripción + diarización...")
         alignment_meta = assign_speakers_to_transcript_segments(
             layout["transcription"] / "transcript_segments.json",
             layout["diarization"] / "speaker_segments.json",
@@ -198,8 +218,14 @@ def run_preaudit() -> int:
         )
         if reviewed_initialized:
             report_payload["notes"].append("speakers_reviewed inicializado desde speakers_auto/")
+            print("speakers_reviewed inicializado desde speakers_auto/")
         else:
-            report_payload["notes"].append("speakers_reviewed ya existía y no se sobrescribió")
+            report_payload["notes"].append("speakers_reviewed ya existe, no se sobrescribe")
+            print("speakers_reviewed ya existe, no se sobrescribe")
+
+        print(
+            f"Cruce completado: {alignment_meta['num_aligned_segments']} segmentos, {len(per_speaker_outputs)} speakers"
+        )
 
         duration_seconds = audio_probe.get("duration_seconds")
         duration_text = (
@@ -309,7 +335,7 @@ def run_preaudit() -> int:
 
         finished_dt = datetime.now(UTC)
         duration_run = (finished_dt - started_dt).total_seconds()
-        update_runtime_control(RUNTIME_CONTROL_PATH, duration_run, finished_dt)
+        update_runtime_control(RUNTIME_CONTROL_PATH, WORKFLOW_NAME, duration_run, finished_dt)
 
         status_payload["status"] = "completed"
         status_payload["current_step"] = "done"
@@ -344,7 +370,11 @@ def run_preaudit() -> int:
         report_payload["notes"].append(str(exc))
         write_json(layout["logs"] / "report.json", report_payload)
 
-        update_episode_status(episode.id, "failed", increment_retries=True)
+        update_episode_status(
+            episode.id,
+            "failed",
+            increment_retries=True,
+        )
         status_payload["status"] = "failed"
         status_payload["current_step"] = "error"
         status_payload["result"] = "failed"
