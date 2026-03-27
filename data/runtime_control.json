@@ -1,0 +1,12 @@
+{
+  "preaudit": {
+    "last_run_finished_at": null,
+    "last_run_duration_seconds": 0,
+    "multiplier": 1.0
+  },
+  "postaudit": {
+    "last_run_finished_at": null,
+    "last_run_duration_seconds": 0,
+    "multiplier": 1.0
+  }
+}
