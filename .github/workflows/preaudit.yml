@@ -1,3 +1,5 @@
+# .github/workflows/preaudit.yml
+
 name: preaudit
 
 on:
@@ -26,10 +28,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install ffmpeg
+      - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg
+          sudo apt-get install -y ffmpeg git-lfs
 
       - name: Free disk space before run
         run: |
@@ -47,7 +49,7 @@ jobs:
           echo "Disk after cleanup:"
           df -h
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
