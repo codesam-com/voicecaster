@@ -1,8 +1,8 @@
-- id: episodio_004
-  podcast_title: Podcast de prueba
-  episode_title: Episodio 4
-  url: https://drive.google.com/uc?export=download&id=1A4AjcUrZR8TN8vqvOvU-GB97jZpnQaRZ
+- id: episodio_005
+  podcast_title: "Podcast de prueba"
+  episode_title: "Episodio 5"
+  url: "https://drive.google.com/uc?export=download&id=1A4AjcUrZR8TN8vqvOvU-GB97jZpnQaRZ"
   topics: null
   participants: null
-  status: pending_review
+  status: pending
   retries: 0
