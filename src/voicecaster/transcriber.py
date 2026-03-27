@@ -3,51 +3,16 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-import soundfile as sf
-import torch
-from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
+import whisper
 
 
 _MODEL_CACHE: dict[str, object] = {}
 
 
-def _get_asr_pipeline(model_id: str = "openai/whisper-large-v3"):
-    if model_id in _MODEL_CACHE:
-        return _MODEL_CACHE[model_id]
-
-    model = AutoModelForSpeechSeq2Seq.from_pretrained(
-        model_id,
-        dtype=torch.float32,
-        low_cpu_mem_usage=True,
-        use_safetensors=True,
-    )
-    processor = AutoProcessor.from_pretrained(model_id)
-
-    asr = pipeline(
-        "automatic-speech-recognition",
-        model=model,
-        tokenizer=processor.tokenizer,
-        feature_extractor=processor.feature_extractor,
-        chunk_length_s=30,
-        batch_size=4,
-        return_timestamps=True,
-        device=-1,
-    )
-    _MODEL_CACHE[model_id] = asr
-    return asr
-
-
-def _load_audio_for_transformers(audio_path: Path) -> dict:
-    audio, sample_rate = sf.read(str(audio_path), dtype="float32", always_2d=False)
-
-    # si viene multicanal, convertir a mono por media
-    if getattr(audio, "ndim", 1) > 1:
-        audio = audio.mean(axis=1)
-
-    return {
-        "array": audio,
-        "sampling_rate": int(sample_rate),
-    }
+def _get_model(model_name: str = "large-v3"):
+    if model_name not in _MODEL_CACHE:
+        _MODEL_CACHE[model_name] = whisper.load_model(model_name)
+    return _MODEL_CACHE[model_name]
 
 
 def _format_timestamp(seconds: float) -> str:
@@ -60,34 +25,39 @@ def _format_timestamp(seconds: float) -> str:
 
 
 def transcribe_audio_large_v3(audio_path: Path) -> dict:
-    asr = _get_asr_pipeline("openai/whisper-large-v3")
-    audio_input = _load_audio_for_transformers(audio_path)
-    result = asr(audio_input)
+    model = _get_model("large-v3")
+
+    result = model.transcribe(
+        str(audio_path),
+        verbose=False,
+        word_timestamps=False,
+        condition_on_previous_text=True,
+        task="transcribe",
+    )
     return result
 
 
 def write_whisper_outputs(result: dict, work_dir: Path) -> dict:
     work_dir.mkdir(parents=True, exist_ok=True)
 
-    chunks = result.get("chunks", []) or []
+    segments = result.get("segments", []) or []
     text = (result.get("text") or "").strip()
 
     whisper_raw_segments = []
     srt_lines: list[str] = []
     kept = 0
 
-    for idx, chunk in enumerate(chunks):
-        ts = chunk.get("timestamp")
-        txt = str(chunk.get("text", "")).strip()
-        if not txt or not ts or ts[0] is None or ts[1] is None:
+    for seg in segments:
+        txt = str(seg.get("text", "")).strip()
+        if not txt:
             continue
 
-        start = float(ts[0])
-        end = float(ts[1])
+        start = float(seg["start"])
+        end = float(seg["end"])
 
         whisper_raw_segments.append(
             {
-                "id": idx,
+                "id": seg.get("id"),
                 "start": start,
                 "end": end,
                 "text": txt,
@@ -116,7 +86,7 @@ def write_whisper_outputs(result: dict, work_dir: Path) -> dict:
 
     return {
         "language": result.get("language"),
-        "model_name": "openai/whisper-large-v3",
+        "model_name": "large-v3",
         "num_segments_srt": kept,
         "num_segments_json": len(whisper_raw_segments),
         "text_characters": len(text),
