@@ -2,14 +2,18 @@ from __future__ import annotations
 
 import shutil
 import traceback
-from datetime import datetime, UTC
+from datetime import UTC, datetime
 from pathlib import Path
 
 from .audio_normalize import normalize_audio_for_diarization
 from .audio_probe import AudioProbeError, probe_audio_file
 from .config import HF_TOKEN, RUNTIME_CONTROL_PATH, REVIEWS_DIR, WORK_DIR
 from .diarizer import diarize_audio
-from .downloader import DownloadError, IncompatibleSourceError, download_audio_to_workdir
+from .downloader import (
+    DownloadError,
+    IncompatibleSourceError,
+    download_audio_to_workdir,
+)
 from .episode_queue import reserve_next_pending_episode, update_episode_status
 from .redecode import redecode_doubtful_segments
 from .reporting import utc_now_iso, write_json
@@ -29,9 +33,9 @@ from .yaml_io import write_yaml
 WORKFLOW_NAME = "preaudit"
 
 
-def _safe_unlink(path: Path) -> None:
+def _safe_unlink(path: Path | None) -> None:
     try:
-        if path.exists():
+        if path is not None and path.exists():
             path.unlink()
     except Exception:
         pass
@@ -42,6 +46,37 @@ def _init_speakers_reviewed(speakers_auto_dir: Path, speakers_reviewed_dir: Path
         shutil.copytree(speakers_auto_dir, speakers_reviewed_dir)
         return True
     return False
+
+
+def _build_initial_report(episode, normalized_url: str, started_at: str, runtime_info: dict) -> dict:
+    notes = [
+        f"Runtime control workflow={WORKFLOW_NAME} decision={runtime_info.get('decision')}",
+    ]
+    if runtime_info.get("next_allowed_run_at"):
+        notes.append(f"Next allowed run at: {runtime_info['next_allowed_run_at']}")
+
+    return {
+        "episode_id": episode.id,
+        "phase": "preaudit",
+        "started_at": started_at,
+        "finished_at": None,
+        "result": None,
+        "notes": notes,
+        "source_url_original": str(episode.url),
+        "source_url_normalized": normalized_url,
+    }
+
+
+def _build_initial_status(episode_id: str, started_at: str) -> dict:
+    return {
+        "episode_id": episode_id,
+        "phase": "preaudit",
+        "status": "running",
+        "started_at": started_at,
+        "finished_at": None,
+        "current_step": "init",
+        "result": None,
+    }
 
 
 def run_preaudit() -> int:
@@ -72,53 +107,42 @@ def run_preaudit() -> int:
     write_work_readme(work_dir, episode.id)
 
     normalized_url = normalize_download_url(str(episode.url))
-
-    report_payload = {
-        "episode_id": episode.id,
-        "phase": "preaudit",
-        "started_at": started_at,
-        "finished_at": None,
-        "result": None,
-        "notes": [
-            f"Runtime control workflow={WORKFLOW_NAME} decision={runtime_info.get('decision')}"
-        ],
-        "source_url_original": str(episode.url),
-        "source_url_normalized": normalized_url,
-    }
-    if runtime_info.get("next_allowed_run_at"):
-        report_payload["notes"].append(f"Next allowed run at: {runtime_info['next_allowed_run_at']}")
+    report_payload = _build_initial_report(episode, normalized_url, started_at, runtime_info)
+    status_payload = _build_initial_status(episode.id, started_at)
+    write_status_json(work_dir, status_payload)
 
     audio_path: Path | None = None
     normalized_for_diarization: Path | None = None
-
-    status_payload = {
-        "episode_id": episode.id,
-        "phase": "preaudit",
-        "status": "running",
-        "started_at": started_at,
-        "current_step": "init",
-    }
-    write_status_json(work_dir, status_payload)
+    prepared_vad_audio: Path | None = None
 
     try:
         status_payload["current_step"] = "download"
         write_status_json(work_dir, status_payload)
 
-        audio_path = download_audio_to_workdir(normalized_url, layout["intake"], "source_audio")
+        audio_path = download_audio_to_workdir(
+            normalized_url,
+            layout["intake"],
+            "source_audio",
+        )
         report_payload["notes"].append(f"Audio descargado en: {audio_path.name}")
 
         status_payload["current_step"] = "probe_audio"
         write_status_json(work_dir, status_payload)
+
         audio_probe = probe_audio_file(audio_path)
         report_payload["notes"].append("Audio validado con ffprobe.")
 
-        source_metadata = {
-            "episode_id": episode.id,
-            "source_url_original": str(episode.url),
-            "source_url_normalized": normalized_url,
-            "audio_probe": audio_probe,
-        }
-        write_json(layout["intake"] / "source_metadata.json", source_metadata)
+        write_json(
+            layout["intake"] / "source_metadata.json",
+            {
+                "episode_id": episode.id,
+                "podcast_title": episode.podcast_title,
+                "episode_title": episode.episode_title,
+                "source_url_original": str(episode.url),
+                "source_url_normalized": normalized_url,
+                "audio_probe": audio_probe,
+            },
+        )
 
         audit_path = review_dir / "audit.yaml"
         write_yaml(
@@ -133,30 +157,58 @@ def run_preaudit() -> int:
 
         status_payload["current_step"] = "vad"
         write_status_json(work_dir, status_payload)
-        vad_meta = detect_vad_segments(audio_path, layout["transcription"] / "vad_segments.json")
-        report_payload["notes"].append(f"VAD generado ({vad_meta['num_vad_segments']} segmentos)")
-        report_payload["notes"].append(f"Voz detectada: {vad_meta['total_speech_seconds']} segundos")
+
+        vad_meta = detect_vad_segments(
+            audio_path,
+            layout["transcription"] / "vad_segments.json",
+            layout["temp"],
+        )
+        report_payload["notes"].append(
+            f"VAD generado ({vad_meta['num_vad_segments']} segmentos)"
+        )
+        report_payload["notes"].append(
+            f"Voz detectada: {vad_meta['total_speech_seconds']} segundos"
+        )
+        if vad_meta.get("prepared_audio"):
+            prepared_vad_audio = Path(vad_meta["prepared_audio"])
 
         status_payload["current_step"] = "transcription"
         write_status_json(work_dir, status_payload)
+
         whisper_result = transcribe_audio_large_v3(audio_path)
-        transcription_meta = write_whisper_outputs(whisper_result, layout["transcription"])
-        report_payload["notes"].append(f"Transcripción generada ({transcription_meta['num_segments_srt']} segmentos)")
-        report_payload["notes"].append(f"Idioma detectado: {transcription_meta.get('language') or 'desconocido'}")
-        report_payload["notes"].append(f"Texto transcrito: {transcription_meta.get('text_characters', 0)} caracteres")
+        transcription_meta = write_whisper_outputs(
+            whisper_result,
+            layout["transcription"],
+        )
+        report_payload["notes"].append(
+            f"Transcripción generada ({transcription_meta['num_segments_srt']} segmentos)"
+        )
+        report_payload["notes"].append(
+            f"Idioma detectado: {transcription_meta.get('language') or 'desconocido'}"
+        )
+        report_payload["notes"].append(
+            f"Texto transcrito: {transcription_meta.get('text_characters', 0)} caracteres"
+        )
+        print(
+            f"Transcripción completada: {transcription_meta['num_segments_srt']} segmentos"
+        )
 
         status_payload["current_step"] = "forced_alignment"
         write_status_json(work_dir, status_payload)
+
         whisperx_meta = align_with_whisperx(
             audio_path,
             layout["transcription"] / "transcript_segments.json",
             layout["transcription"] / "whisperx_aligned_segments.json",
             transcription_meta.get("language"),
         )
-        report_payload["notes"].append(f"WhisperX alignment generado ({whisperx_meta['num_aligned_segments']} segmentos)")
+        report_payload["notes"].append(
+            f"WhisperX alignment generado ({whisperx_meta['num_aligned_segments']} segmentos)"
+        )
 
         status_payload["current_step"] = "normalize_for_diarization"
         write_status_json(work_dir, status_payload)
+
         normalized_for_diarization = normalize_audio_for_diarization(
             audio_path,
             layout["temp"] / "audio_mono_16k.wav",
@@ -164,6 +216,7 @@ def run_preaudit() -> int:
 
         status_payload["current_step"] = "diarization"
         write_status_json(work_dir, status_payload)
+
         diarization_meta = diarize_audio(
             normalized_for_diarization,
             layout["diarization"] / "speaker_timeline.rttm",
@@ -173,10 +226,16 @@ def run_preaudit() -> int:
         report_payload["notes"].append(
             f"Diarización generada ({diarization_meta['num_speakers_detected']} hablantes, {diarization_meta['num_segments']} segmentos)"
         )
-        report_payload["notes"].append(f"Tiempos diarización: {diarization_meta['timing_seconds']}")
+        report_payload["notes"].append(
+            f"Tiempos diarización: {diarization_meta['timing_seconds']}"
+        )
+        print(
+            f"Diarización completada: {diarization_meta['num_speakers_detected']} hablantes, {diarization_meta['num_segments']} segmentos"
+        )
 
         status_payload["current_step"] = "alignment"
         write_status_json(work_dir, status_payload)
+
         alignment_meta = assign_speakers_to_transcript_segments(
             layout["transcription"] / "whisperx_aligned_segments.json",
             layout["diarization"] / "speaker_segments.json",
@@ -189,9 +248,13 @@ def run_preaudit() -> int:
         report_payload["notes"].append(
             f"Segmentos dudosos detectados: {alignment_meta['num_doubtful_segments']}"
         )
+        print(
+            f"Cruce completado: {alignment_meta['num_aligned_segments']} segmentos, {alignment_meta['num_distinct_speakers']} speakers"
+        )
 
         status_payload["current_step"] = "redecode_doubtful"
         write_status_json(work_dir, status_payload)
+
         redecoded_meta = redecode_doubtful_segments(
             audio_path,
             layout["alignment"] / "doubtful_segments.json",
@@ -206,7 +269,9 @@ def run_preaudit() -> int:
             layout["alignment"] / "aligned_transcript_segments.json",
             layout["alignment"] / "full_transcript_speakers.srt",
         )
-        report_payload["notes"].append(f"SRT con hablantes generado ({num_full_srt_segments} segmentos)")
+        report_payload["notes"].append(
+            f"SRT con hablantes generado ({num_full_srt_segments} segmentos)"
+        )
 
         status_payload["current_step"] = "speaker_srts"
         write_status_json(work_dir, status_payload)
@@ -218,21 +283,32 @@ def run_preaudit() -> int:
             layout["alignment"] / "aligned_transcript_segments.json",
             speakers_auto_dir,
         )
-        reviewed_initialized = _init_speakers_reviewed(speakers_auto_dir, speakers_reviewed_dir)
+        reviewed_initialized = _init_speakers_reviewed(
+            speakers_auto_dir,
+            speakers_reviewed_dir,
+        )
 
         report_payload["notes"].append(
             f"SRT automáticos por hablante generados ({len(per_speaker_outputs)} archivos)"
         )
         if reviewed_initialized:
-            report_payload["notes"].append("speakers_reviewed inicializado desde speakers_auto/")
+            report_payload["notes"].append(
+                "speakers_reviewed inicializado desde speakers_auto/"
+            )
         else:
-            report_payload["notes"].append("speakers_reviewed ya existía y no se sobrescribió")
+            report_payload["notes"].append(
+                "speakers_reviewed ya existía y no se sobrescribió"
+            )
 
         status_payload["current_step"] = "episode_outputs"
         write_status_json(work_dir, status_payload)
 
         duration_seconds = audio_probe.get("duration_seconds")
-        duration_text = f"{duration_seconds:.2f} segundos" if isinstance(duration_seconds, float) else "desconocida"
+        duration_text = (
+            f"{duration_seconds:.2f} segundos"
+            if isinstance(duration_seconds, float)
+            else "desconocida"
+        )
         language_detected = transcription_meta.get("language") or "desconocido"
         transcript_preview = transcription_meta.get("text_preview") or ""
 
@@ -246,11 +322,13 @@ def run_preaudit() -> int:
                 f"- Idioma detectado: {language_detected}\n"
                 "- Perfil de calidad: quality_max\n"
                 f"- Segmentos VAD: {vad_meta.get('num_vad_segments')}\n"
+                f"- Voz detectada (s): {vad_meta.get('total_speech_seconds')}\n"
                 f"- Segmentos SRT: {transcription_meta.get('num_segments_srt')}\n"
                 f"- Caracteres transcritos: {transcription_meta.get('text_characters')}\n"
                 f"- Hablantes detectados: {diarization_meta.get('num_speakers_detected')}\n"
                 f"- Segmentos de diarización: {diarization_meta.get('num_segments')}\n"
                 f"- Segmentos alineados: {alignment_meta.get('num_aligned_segments')}\n"
+                f"- Hablantes distintos en alineado: {alignment_meta.get('num_distinct_speakers')}\n"
                 f"- Segmentos dudosos: {alignment_meta.get('num_doubtful_segments')}\n"
                 f"- Segmentos reprocesados: {redecoded_meta.get('num_redecoded_segments')}\n\n"
                 "## Vista previa\n\n"
@@ -332,10 +410,10 @@ def run_preaudit() -> int:
         }
         write_json(layout["episode_outputs"] / "episode.json", episode_payload)
 
-        if normalized_for_diarization is not None:
-            _safe_unlink(normalized_for_diarization)
-        if audio_path is not None:
-            _safe_unlink(audio_path)
+        # Limpieza de temporales de audio
+        _safe_unlink(prepared_vad_audio)
+        _safe_unlink(normalized_for_diarization)
+        _safe_unlink(audio_path)
 
         report_payload["result"] = "pending_review"
         report_payload["finished_at"] = utc_now_iso()
@@ -345,7 +423,12 @@ def run_preaudit() -> int:
 
         finished_dt = datetime.now(UTC)
         duration_run = (finished_dt - started_dt).total_seconds()
-        update_runtime_control(RUNTIME_CONTROL_PATH, WORKFLOW_NAME, duration_run, finished_dt)
+        update_runtime_control(
+            RUNTIME_CONTROL_PATH,
+            WORKFLOW_NAME,
+            duration_run,
+            finished_dt,
+        )
 
         status_payload["status"] = "completed"
         status_payload["current_step"] = "done"
@@ -364,9 +447,12 @@ def run_preaudit() -> int:
         report_payload["finished_at"] = utc_now_iso()
         report_payload["notes"].append(str(exc))
         write_json(layout["logs"] / "report.json", report_payload)
+
         update_episode_status(episode.id, "incompatible")
+
         status_payload["status"] = "failed"
         status_payload["current_step"] = "error"
+        status_payload["finished_at"] = utc_now_iso()
         status_payload["result"] = "incompatible"
         write_status_json(work_dir, status_payload)
         return 0
@@ -376,9 +462,12 @@ def run_preaudit() -> int:
         report_payload["finished_at"] = utc_now_iso()
         report_payload["notes"].append(str(exc))
         write_json(layout["logs"] / "report.json", report_payload)
+
         update_episode_status(episode.id, "failed", increment_retries=True)
+
         status_payload["status"] = "failed"
         status_payload["current_step"] = "error"
+        status_payload["finished_at"] = utc_now_iso()
         status_payload["result"] = "failed"
         write_status_json(work_dir, status_payload)
         return 1
@@ -389,9 +478,17 @@ def run_preaudit() -> int:
         report_payload["notes"].append(f"Excepción no controlada: {exc}")
         report_payload["notes"].append(traceback.format_exc())
         write_json(layout["logs"] / "report.json", report_payload)
+
         update_episode_status(episode.id, "failed", increment_retries=True)
+
         status_payload["status"] = "failed"
         status_payload["current_step"] = "error"
+        status_payload["finished_at"] = utc_now_iso()
         status_payload["result"] = "failed"
         write_status_json(work_dir, status_payload)
+
+        # limpieza defensiva
+        _safe_unlink(prepared_vad_audio)
+        _safe_unlink(normalized_for_diarization)
+        _safe_unlink(audio_path)
         raise
