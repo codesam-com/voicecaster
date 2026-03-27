@@ -1,3 +1,5 @@
+# src/voicecaster/speaker_alignment.py
+
 from __future__ import annotations
 
 import json
@@ -55,7 +57,10 @@ def assign_speakers_to_transcript_segments(
                 overlaps_by_speaker[speaker_id] += ov
 
         if overlaps_by_speaker:
-            best_speaker, best_overlap = max(overlaps_by_speaker.items(), key=lambda item: item[1])
+            best_speaker, best_overlap = max(
+                overlaps_by_speaker.items(),
+                key=lambda item: item[1],
+            )
 
         if best_overlap < min_overlap_seconds:
             best_speaker = "speaker_unknown"
@@ -85,7 +90,11 @@ def assign_speakers_to_transcript_segments(
 
     for speaker_id in sorted(speaker_time.keys()):
         speaking_time = round(speaker_time[speaker_id], 3)
-        participation_pct = round((speaking_time / total_aligned_time) * 100, 3) if total_aligned_time > 0 else 0.0
+        participation_pct = (
+            round((speaking_time / total_aligned_time) * 100, 3)
+            if total_aligned_time > 0
+            else 0.0
+        )
         metrics.append(
             {
                 "speaker_id": speaker_id,
@@ -127,7 +136,11 @@ def write_full_transcript_with_speakers(
         lines.append(f"[{speaker_id}] {text}")
         lines.append("")
 
-    output_srt_path.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")
+    output_srt_path.parent.mkdir(parents=True, exist_ok=True)
+    output_srt_path.write_text(
+        "\n".join(lines).strip() + "\n",
+        encoding="utf-8",
+    )
     return kept
 
 
@@ -145,6 +158,9 @@ def write_per_speaker_srts(
     result = {}
 
     for speaker_id, items in grouped.items():
+        if speaker_id == "speaker_unknown":
+            continue
+
         lines: list[str] = []
         kept = 0
 
@@ -163,7 +179,10 @@ def write_per_speaker_srts(
             lines.append("")
 
         output_path = output_dir / f"{speaker_id}.srt"
-        output_path.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")
+        output_path.write_text(
+            "\n".join(lines).strip() + "\n",
+            encoding="utf-8",
+        )
         result[speaker_id] = {
             "path": str(output_path),
             "num_segments": kept,
