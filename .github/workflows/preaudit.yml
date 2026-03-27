@@ -3,10 +3,10 @@ name: preaudit
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */4 * * *"
+    - cron: "*/15 * * * *"
 
 concurrency:
-  group: voicecaster-preaudit-${{ github.ref }}
+  group: voicecaster-preaudit
   cancel-in-progress: false
 
 jobs:
