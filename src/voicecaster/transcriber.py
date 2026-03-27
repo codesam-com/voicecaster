@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import soundfile as sf
 import torch
 from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
 
@@ -14,10 +15,9 @@ def _get_asr_pipeline(model_id: str = "openai/whisper-large-v3"):
     if model_id in _MODEL_CACHE:
         return _MODEL_CACHE[model_id]
 
-    torch_dtype = torch.float32
     model = AutoModelForSpeechSeq2Seq.from_pretrained(
         model_id,
-        torch_dtype=torch_dtype,
+        dtype=torch.float32,
         low_cpu_mem_usage=True,
         use_safetensors=True,
     )
@@ -31,11 +31,23 @@ def _get_asr_pipeline(model_id: str = "openai/whisper-large-v3"):
         chunk_length_s=30,
         batch_size=4,
         return_timestamps=True,
-        torch_dtype=torch_dtype,
         device=-1,
     )
     _MODEL_CACHE[model_id] = asr
     return asr
+
+
+def _load_audio_for_transformers(audio_path: Path) -> dict:
+    audio, sample_rate = sf.read(str(audio_path), dtype="float32", always_2d=False)
+
+    # si viene multicanal, convertir a mono por media
+    if getattr(audio, "ndim", 1) > 1:
+        audio = audio.mean(axis=1)
+
+    return {
+        "array": audio,
+        "sampling_rate": int(sample_rate),
+    }
 
 
 def _format_timestamp(seconds: float) -> str:
@@ -49,7 +61,8 @@ def _format_timestamp(seconds: float) -> str:
 
 def transcribe_audio_large_v3(audio_path: Path) -> dict:
     asr = _get_asr_pipeline("openai/whisper-large-v3")
-    result = asr(str(audio_path))
+    audio_input = _load_audio_for_transformers(audio_path)
+    result = asr(audio_input)
     return result
 
 
@@ -96,7 +109,10 @@ def write_whisper_outputs(result: dict, work_dir: Path) -> dict:
         encoding="utf-8",
     )
     (work_dir / "full_transcript.txt").write_text(text + "\n", encoding="utf-8")
-    (work_dir / "full_transcript.srt").write_text("\n".join(srt_lines).strip() + "\n", encoding="utf-8")
+    (work_dir / "full_transcript.srt").write_text(
+        "\n".join(srt_lines).strip() + "\n",
+        encoding="utf-8",
+    )
 
     return {
         "language": result.get("language"),
