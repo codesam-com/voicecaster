@@ -1,0 +1,23 @@
+{
+  "episode_id": "episodio_005",
+  "phase": "preaudit",
+  "started_at": "2026-03-27T00:25:28.252498+00:00",
+  "finished_at": "2026-03-27T00:27:39.237315+00:00",
+  "result": "pending_review",
+  "notes": [
+    "Runtime control workflow=preaudit decision=run",
+    "Audio descargado en: episodio_005_source.mp3",
+    "Audio validado con ffprobe.",
+    "Transcripción generada (13 segmentos)",
+    "Idioma detectado: es",
+    "Texto transcrito: 2217 caracteres",
+    "Diarización generada (3 hablantes, 30 segmentos)",
+    "Tiempos diarización: {'load_pipeline': 2.596, 'run_pipeline': 108.634, 'serialize_outputs': 0.001, 'total': 111.231}",
+    "Cruce transcripción+diarización generado (13 segmentos alineados)",
+    "SRT con hablantes generado (13 segmentos)",
+    "SRT automáticos por hablante generados (3 archivos)",
+    "speakers_reviewed inicializado desde speakers_auto/"
+  ],
+  "source_url_original": "https://drive.google.com/uc?export=download&id=1A4AjcUrZR8TN8vqvOvU-GB97jZpnQaRZ",
+  "source_url_normalized": "https://drive.google.com/uc?export=download&id=1A4AjcUrZR8TN8vqvOvU-GB97jZpnQaRZ"
+}
