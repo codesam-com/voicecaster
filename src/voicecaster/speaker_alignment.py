@@ -1,5 +1,3 @@
-# src/voicecaster/speaker_alignment.py
-
 from __future__ import annotations
 
 import json
@@ -28,12 +26,14 @@ def assign_speakers_to_transcript_segments(
     transcript_segments_path: Path,
     speaker_segments_path: Path,
     output_aligned_json: Path,
+    output_doubtful_json: Path,
     min_overlap_seconds: float = 0.15,
 ) -> dict:
     transcript_segments = _load_json(transcript_segments_path)
     speaker_segments = _load_json(speaker_segments_path)
 
     aligned_segments = []
+    doubtful_segments = []
     speaker_time = defaultdict(float)
     speaker_segment_count = defaultdict(int)
 
@@ -42,28 +42,32 @@ def assign_speakers_to_transcript_segments(
         seg_end = float(seg["end"])
         seg_text = str(seg["text"]).strip()
 
+        overlaps_by_speaker = defaultdict(float)
+        for spk in speaker_segments:
+            ov = _overlap(seg_start, seg_end, float(spk["start"]), float(spk["end"]))
+            if ov > 0:
+                overlaps_by_speaker[str(spk["speaker_id"])] += ov
+
+        sorted_overlaps = sorted(overlaps_by_speaker.items(), key=lambda item: item[1], reverse=True)
         best_speaker = "speaker_unknown"
         best_overlap = 0.0
+        second_best_overlap = 0.0
 
-        overlaps_by_speaker = defaultdict(float)
-
-        for spk in speaker_segments:
-            spk_start = float(spk["start"])
-            spk_end = float(spk["end"])
-            speaker_id = str(spk["speaker_id"])
-
-            ov = _overlap(seg_start, seg_end, spk_start, spk_end)
-            if ov > 0:
-                overlaps_by_speaker[speaker_id] += ov
-
-        if overlaps_by_speaker:
-            best_speaker, best_overlap = max(
-                overlaps_by_speaker.items(),
-                key=lambda item: item[1],
-            )
+        if sorted_overlaps:
+            best_speaker, best_overlap = sorted_overlaps[0]
+            if len(sorted_overlaps) > 1:
+                _, second_best_overlap = sorted_overlaps[1]
 
         if best_overlap < min_overlap_seconds:
             best_speaker = "speaker_unknown"
+
+        is_overlap_flag = second_best_overlap > 0.0
+        is_doubtful = (
+            best_speaker == "speaker_unknown"
+            or is_overlap_flag
+            or (best_overlap > 0 and second_best_overlap / max(best_overlap, 1e-6) > 0.6)
+            or (seg_end - seg_start) < 1.0
+        )
 
         aligned_segment = {
             "id": seg.get("id"),
@@ -72,9 +76,14 @@ def assign_speakers_to_transcript_segments(
             "duration": round(seg_end - seg_start, 3),
             "speaker_id": best_speaker,
             "overlap_seconds": round(best_overlap, 3),
+            "second_best_overlap_seconds": round(second_best_overlap, 3),
+            "is_doubtful": is_doubtful,
             "text": seg_text,
         }
         aligned_segments.append(aligned_segment)
+
+        if is_doubtful:
+            doubtful_segments.append(aligned_segment)
 
         speaker_time[best_speaker] += seg_end - seg_start
         speaker_segment_count[best_speaker] += 1
@@ -85,16 +94,17 @@ def assign_speakers_to_transcript_segments(
         encoding="utf-8",
     )
 
+    output_doubtful_json.parent.mkdir(parents=True, exist_ok=True)
+    output_doubtful_json.write_text(
+        json.dumps(doubtful_segments, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
     total_aligned_time = sum(item["duration"] for item in aligned_segments)
     metrics = []
-
     for speaker_id in sorted(speaker_time.keys()):
         speaking_time = round(speaker_time[speaker_id], 3)
-        participation_pct = (
-            round((speaking_time / total_aligned_time) * 100, 3)
-            if total_aligned_time > 0
-            else 0.0
-        )
+        participation_pct = round((speaking_time / total_aligned_time) * 100, 3) if total_aligned_time > 0 else 0.0
         metrics.append(
             {
                 "speaker_id": speaker_id,
@@ -108,16 +118,13 @@ def assign_speakers_to_transcript_segments(
         "num_aligned_segments": len(aligned_segments),
         "num_distinct_speakers": len({m["speaker_id"] for m in metrics}),
         "total_aligned_time_seconds": round(total_aligned_time, 3),
+        "num_doubtful_segments": len(doubtful_segments),
         "speaker_metrics": metrics,
     }
 
 
-def write_full_transcript_with_speakers(
-    aligned_segments_json_path: Path,
-    output_srt_path: Path,
-) -> int:
+def write_full_transcript_with_speakers(aligned_segments_json_path: Path, output_srt_path: Path) -> int:
     aligned_segments = _load_json(aligned_segments_json_path)
-
     lines: list[str] = []
     kept = 0
 
@@ -125,29 +132,21 @@ def write_full_transcript_with_speakers(
         text = str(seg.get("text", "")).strip()
         if not text:
             continue
-
         kept += 1
         start = _format_timestamp(float(seg["start"]))
         end = _format_timestamp(float(seg["end"]))
         speaker_id = str(seg["speaker_id"])
-
+        prefix = "[OVERLAP] " if seg.get("is_doubtful") else ""
         lines.append(str(kept))
         lines.append(f"{start} --> {end}")
-        lines.append(f"[{speaker_id}] {text}")
+        lines.append(f"[{speaker_id}] {prefix}{text}")
         lines.append("")
 
-    output_srt_path.parent.mkdir(parents=True, exist_ok=True)
-    output_srt_path.write_text(
-        "\n".join(lines).strip() + "\n",
-        encoding="utf-8",
-    )
+    output_srt_path.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")
     return kept
 
 
-def write_per_speaker_srts(
-    aligned_segments_json_path: Path,
-    output_dir: Path,
-) -> dict:
+def write_per_speaker_srts(aligned_segments_json_path: Path, output_dir: Path) -> dict:
     aligned_segments = _load_json(aligned_segments_json_path)
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -156,7 +155,6 @@ def write_per_speaker_srts(
         grouped[str(seg["speaker_id"])].append(seg)
 
     result = {}
-
     for speaker_id, items in grouped.items():
         if speaker_id == "speaker_unknown":
             continue
@@ -172,20 +170,15 @@ def write_per_speaker_srts(
             kept += 1
             start = _format_timestamp(float(seg["start"]))
             end = _format_timestamp(float(seg["end"]))
+            prefix = "[OVERLAP] " if seg.get("is_doubtful") else ""
 
             lines.append(str(kept))
             lines.append(f"{start} --> {end}")
-            lines.append(text)
+            lines.append(f"{prefix}{text}")
             lines.append("")
 
         output_path = output_dir / f"{speaker_id}.srt"
-        output_path.write_text(
-            "\n".join(lines).strip() + "\n",
-            encoding="utf-8",
-        )
-        result[speaker_id] = {
-            "path": str(output_path),
-            "num_segments": kept,
-        }
+        output_path.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")
+        result[speaker_id] = {"path": str(output_path), "num_segments": kept}
 
     return result
