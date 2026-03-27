@@ -3,15 +3,39 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-import whisper
+import torch
+from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
+
 
 _MODEL_CACHE: dict[str, object] = {}
 
 
-def _get_model(model_name: str):
-    if model_name not in _MODEL_CACHE:
-        _MODEL_CACHE[model_name] = whisper.load_model(model_name)
-    return _MODEL_CACHE[model_name]
+def _get_asr_pipeline(model_id: str = "openai/whisper-large-v3"):
+    if model_id in _MODEL_CACHE:
+        return _MODEL_CACHE[model_id]
+
+    torch_dtype = torch.float32
+    model = AutoModelForSpeechSeq2Seq.from_pretrained(
+        model_id,
+        torch_dtype=torch_dtype,
+        low_cpu_mem_usage=True,
+        use_safetensors=True,
+    )
+    processor = AutoProcessor.from_pretrained(model_id)
+
+    asr = pipeline(
+        "automatic-speech-recognition",
+        model=model,
+        tokenizer=processor.tokenizer,
+        feature_extractor=processor.feature_extractor,
+        chunk_length_s=30,
+        batch_size=4,
+        return_timestamps=True,
+        torch_dtype=torch_dtype,
+        device=-1,
+    )
+    _MODEL_CACHE[model_id] = asr
+    return asr
 
 
 def _format_timestamp(seconds: float) -> str:
@@ -23,88 +47,62 @@ def _format_timestamp(seconds: float) -> str:
     return f"{hours:02}:{minutes:02}:{secs:02},{millis:03}"
 
 
-def transcribe_audio(audio_path: Path, model_name: str = "base") -> dict:
-    model = _get_model(model_name)
-    result = model.transcribe(
-        str(audio_path),
-        verbose=False,
-        word_timestamps=False,
-        condition_on_previous_text=True,
-    )
+def transcribe_audio_large_v3(audio_path: Path) -> dict:
+    asr = _get_asr_pipeline("openai/whisper-large-v3")
+    result = asr(str(audio_path))
     return result
 
 
-def write_srt(result: dict, output_srt: Path) -> int:
-    segments = result.get("segments", [])
-    output_srt.parent.mkdir(parents=True, exist_ok=True)
+def write_whisper_outputs(result: dict, work_dir: Path) -> dict:
+    work_dir.mkdir(parents=True, exist_ok=True)
 
-    lines: list[str] = []
+    chunks = result.get("chunks", []) or []
+    text = (result.get("text") or "").strip()
+
+    whisper_raw_segments = []
+    srt_lines: list[str] = []
     kept = 0
 
-    for seg in segments:
-        text = str(seg.get("text", "")).strip()
-        if not text:
+    for idx, chunk in enumerate(chunks):
+        ts = chunk.get("timestamp")
+        txt = str(chunk.get("text", "")).strip()
+        if not txt or not ts or ts[0] is None or ts[1] is None:
             continue
 
-        kept += 1
-        start = _format_timestamp(float(seg["start"]))
-        end = _format_timestamp(float(seg["end"]))
+        start = float(ts[0])
+        end = float(ts[1])
 
-        lines.append(str(kept))
-        lines.append(f"{start} --> {end}")
-        lines.append(text)
-        lines.append("")
-
-    output_srt.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")
-    return kept
-
-
-def write_plain_text(result: dict, output_txt: Path) -> None:
-    text = (result.get("text") or "").strip()
-    output_txt.parent.mkdir(parents=True, exist_ok=True)
-    output_txt.write_text(text + "\n", encoding="utf-8")
-
-
-def write_segments_json(result: dict, output_json: Path) -> int:
-    raw_segments = result.get("segments", [])
-    payload = []
-
-    for seg in raw_segments:
-        text = str(seg.get("text", "")).strip()
-        if not text:
-            continue
-
-        payload.append(
+        whisper_raw_segments.append(
             {
-                "id": seg.get("id"),
-                "start": float(seg["start"]),
-                "end": float(seg["end"]),
-                "text": text,
+                "id": idx,
+                "start": start,
+                "end": end,
+                "text": txt,
             }
         )
 
-    output_json.parent.mkdir(parents=True, exist_ok=True)
-    output_json.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2),
+        kept += 1
+        srt_lines.append(str(kept))
+        srt_lines.append(f"{_format_timestamp(start)} --> {_format_timestamp(end)}")
+        srt_lines.append(txt)
+        srt_lines.append("")
+
+    (work_dir / "whisper_raw_segments.json").write_text(
+        json.dumps(whisper_raw_segments, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    return len(payload)
-
-
-def transcribe_bundle(audio_path: Path, work_dir: Path, model_name: str = "base") -> dict:
-    result = transcribe_audio(audio_path, model_name=model_name)
-
-    srt_segments = write_srt(result, work_dir / "full_transcript.srt")
-    write_plain_text(result, work_dir / "full_transcript.txt")
-    json_segments = write_segments_json(result, work_dir / "transcript_segments.json")
-
-    text = (result.get("text") or "").strip()
+    (work_dir / "transcript_segments.json").write_text(
+        json.dumps(whisper_raw_segments, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    (work_dir / "full_transcript.txt").write_text(text + "\n", encoding="utf-8")
+    (work_dir / "full_transcript.srt").write_text("\n".join(srt_lines).strip() + "\n", encoding="utf-8")
 
     return {
         "language": result.get("language"),
-        "model_name": model_name,
-        "num_segments_srt": srt_segments,
-        "num_segments_json": json_segments,
-        "text_preview": text[:500],
+        "model_name": "openai/whisper-large-v3",
+        "num_segments_srt": kept,
+        "num_segments_json": len(whisper_raw_segments),
         "text_characters": len(text),
+        "text_preview": text[:500],
     }
