@@ -25,6 +25,9 @@ def align_with_whisperx(
         if str(seg.get("text", "")).strip()
     ]
 
+    # Cargar audio en memoria para evitar rutas de decodificación frágiles
+    audio = whisperx.load_audio(str(audio_path))
+
     align_model, metadata = whisperx.load_align_model(
         language_code=language_code or "es",
         device="cpu",
@@ -34,19 +37,41 @@ def align_with_whisperx(
         whisperx_segments,
         align_model,
         metadata,
-        str(audio_path),
+        audio,
         "cpu",
         return_char_alignments=False,
     )
 
-    segments = aligned.get("segments", [])
+    raw_segments = aligned.get("segments", []) or []
+
+    normalized_segments = []
+    for idx, seg in enumerate(raw_segments):
+        text = str(seg.get("text", "")).strip()
+        if not text:
+            continue
+
+        start = seg.get("start")
+        end = seg.get("end")
+
+        if start is None or end is None:
+            continue
+
+        normalized_segments.append(
+            {
+                "id": seg.get("id", idx),
+                "start": float(start),
+                "end": float(end),
+                "text": text,
+            }
+        )
+
     output_json.parent.mkdir(parents=True, exist_ok=True)
     output_json.write_text(
-        json.dumps(segments, ensure_ascii=False, indent=2),
+        json.dumps(normalized_segments, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
 
     return {
-        "num_aligned_segments": len(segments),
+        "num_aligned_segments": len(normalized_segments),
         "language_code": language_code or "es",
     }
