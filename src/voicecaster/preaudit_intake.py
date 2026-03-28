@@ -13,6 +13,7 @@ from .preaudit_common import (
 )
 from .reporting import write_json
 from .stage_selector import find_episode_for_workflow
+from .status_manager import save_status_json
 from .url_resolver import normalize_download_url
 
 WORKFLOW_NAME = "preaudit-intake"
@@ -30,20 +31,37 @@ def run_preaudit_intake() -> int:
         print("No hay episodio elegible para intake.")
         return 0
 
-    layout, status_payload, report_payload = init_episode_context(ctx, WORKFLOW_NAME, STAGE_NAME, "download")
+    layout, status_payload, report_payload = init_episode_context(
+        ctx,
+        WORKFLOW_NAME,
+        STAGE_NAME,
+        "download",
+    )
 
     try:
         update_episode_status(ctx.episode.id, "processing")
 
         normalized_url = normalize_download_url(str(ctx.episode.url))
         report_payload["source_url_normalized"] = normalized_url
-        append_report_note(report_payload, f"Runtime control workflow=preaudit_intake decision={runtime_info.get('decision')}")
 
-        audio_path = download_audio_to_workdir(normalized_url, layout["intake"], "source_audio")
+        append_report_note(
+            report_payload,
+            f"Runtime control workflow=preaudit_intake decision={runtime_info.get('decision')}",
+        )
+        if runtime_info.get("next_allowed_run_at"):
+            append_report_note(
+                report_payload,
+                f"Next allowed run at: {runtime_info['next_allowed_run_at']}",
+            )
+
+        audio_path = download_audio_to_workdir(
+            normalized_url,
+            layout["intake"],
+            "source_audio",
+        )
         append_report_note(report_payload, f"Audio descargado en: {audio_path.name}")
 
         status_payload["current_step"] = "probe_audio"
-        from .status_manager import save_status_json
         save_status_json(ctx.work_dir, status_payload)
 
         audio_probe = probe_audio_file(audio_path)
@@ -63,14 +81,42 @@ def run_preaudit_intake() -> int:
 
         audit_path = ensure_audit_yaml(ctx.review_dir)
         append_report_note(report_payload, f"audit.yaml listo en: {audit_path}")
+        append_report_note(report_payload, "Artifacts de intake persistidos en 00_intake/")
 
-        finalize_workflow_success(ctx, WORKFLOW_NAME, STAGE_NAME, layout, status_payload, report_payload)
+        finalize_workflow_success(
+            ctx,
+            WORKFLOW_NAME,
+            STAGE_NAME,
+            layout,
+            status_payload,
+            report_payload,
+        )
+
         print(f"Intake completado para {ctx.episode.id}")
         return 0
 
-    except (IncompatibleSourceError, DownloadError, AudioProbeError, Exception) as exc:
+    except (IncompatibleSourceError, DownloadError, AudioProbeError) as exc:
         finalize_workflow_failure(
-            ctx, WORKFLOW_NAME, STAGE_NAME, status_payload.get("current_step", "download"),
-            layout, status_payload, report_payload, exc
+            ctx,
+            WORKFLOW_NAME,
+            STAGE_NAME,
+            status_payload.get("current_step", "download"),
+            layout,
+            status_payload,
+            report_payload,
+            exc,
+        )
+        raise
+
+    except Exception as exc:
+        finalize_workflow_failure(
+            ctx,
+            WORKFLOW_NAME,
+            STAGE_NAME,
+            status_payload.get("current_step", "download"),
+            layout,
+            status_payload,
+            report_payload,
+            exc,
         )
         raise
