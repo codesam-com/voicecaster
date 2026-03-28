@@ -1,9 +1,8 @@
-- id: episodio_008
-  podcast_title: Podcast de prueba
-  episode_title: Episodio 8
+- id: episodio_001
+  podcast_title: "Podcast de prueba"
+  episode_title: "Episodio largo de validación"
   url: https://drive.google.com/uc?export=download&id=16PFiu6KRe6jqfqhOVOUIHsKA6vBbU8eD
   topics: null
   participants: null
   status: pending
   retries: 0
-  
