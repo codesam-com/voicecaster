@@ -4,13 +4,13 @@
   "status": "completed",
   "current_workflow": "preaudit-intake",
   "current_step": "done",
-  "preaudit_stage": "intake",
+  "preaudit_stage": "not_started",
   "started_at": "2026-03-28T18:42:12.844165+00:00",
-  "updated_at": "2026-03-28T18:42:14.199651+00:00",
+  "updated_at": "2026-03-28T18:48:38.372302+00:00",
   "finished_at": "2026-03-28T18:42:14.199406+00:00",
   "result": null,
   "stage_outputs": {
-    "intake_done": true,
+    "intake_done": false,
     "transcription_done": false,
     "diarization_done": false,
     "alignment_done": false,
@@ -24,7 +24,7 @@
     "review_prepare": 0
   },
   "artifacts": {
-    "source_audio": "00_intake/source_audio_source.mp3",
+    "source_audio": null,
     "source_metadata": "00_intake/source_metadata.json",
     "vad_segments": null,
     "whisper_raw_segments": null,
