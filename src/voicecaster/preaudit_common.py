@@ -1,0 +1,147 @@
+from __future__ import annotations
+
+import shutil
+import traceback
+from datetime import UTC, datetime
+from pathlib import Path
+
+from .config import RUNTIME_CONTROL_PATH, REVIEWS_DIR, WORK_DIR
+from .reporting import utc_now_iso, write_json
+from .runtime_control import should_run_now, update_runtime_control
+from .status_manager import (
+    load_status_json,
+    mark_workflow_completed,
+    mark_workflow_failed,
+    mark_workflow_started,
+    save_status_json,
+)
+from .work_layout import ensure_work_layout
+from .yaml_io import write_yaml
+
+
+def preaudit_runtime_gate(workflow_name: str) -> tuple[bool, dict]:
+    return should_run_now(RUNTIME_CONTROL_PATH, workflow_name)
+
+
+def init_episode_context(ctx, workflow_name: str, stage_name: str, step_name: str) -> tuple[dict, dict, dict]:
+    work_dir = ctx.work_dir
+    review_dir = ctx.review_dir
+    review_dir.mkdir(parents=True, exist_ok=True)
+
+    layout = ensure_work_layout(work_dir, ctx.episode.id)
+    status_payload = load_status_json(work_dir, ctx.episode.id)
+    status_payload = mark_workflow_started(status_payload, workflow_name, stage_name, step_name)
+    save_status_json(work_dir, status_payload)
+
+    report_path = layout["logs"] / "report.json"
+    if report_path.exists():
+        import json
+        report_payload = json.loads(report_path.read_text(encoding="utf-8"))
+    else:
+        report_payload = {
+            "episode_id": ctx.episode.id,
+            "phase": "preaudit",
+            "started_at": status_payload.get("started_at") or utc_now_iso(),
+            "finished_at": None,
+            "result": None,
+            "notes": [],
+            "workflow_runs": [],
+            "source_url_original": str(ctx.episode.url),
+            "source_url_normalized": None,
+        }
+
+    report_payload.setdefault("workflow_runs", [])
+    report_payload["workflow_runs"].append(
+        {
+            "workflow": workflow_name,
+            "started_at": utc_now_iso(),
+            "finished_at": None,
+            "result": None,
+        }
+    )
+
+    return layout, status_payload, report_payload
+
+
+def append_report_note(report_payload: dict, note: str) -> None:
+    report_payload.setdefault("notes", []).append(note)
+
+
+def finalize_workflow_success(
+    ctx,
+    workflow_name: str,
+    stage_name: str,
+    layout: dict,
+    status_payload: dict,
+    report_payload: dict,
+) -> None:
+    status_payload = mark_workflow_completed(status_payload, workflow_name, stage_name)
+    save_status_json(ctx.work_dir, status_payload)
+
+    if report_payload.get("workflow_runs"):
+        report_payload["workflow_runs"][-1]["finished_at"] = utc_now_iso()
+        report_payload["workflow_runs"][-1]["result"] = "ok"
+
+    write_json(layout["logs"] / "report.json", report_payload)
+
+    started_at = status_payload.get("started_at")
+    if started_at:
+        started_dt = datetime.fromisoformat(started_at)
+        finished_dt = datetime.now(UTC)
+        duration_run = (finished_dt - started_dt).total_seconds()
+        update_runtime_control(RUNTIME_CONTROL_PATH, workflow_name.replace("-", "_"), duration_run, finished_dt)
+
+
+def finalize_workflow_failure(
+    ctx,
+    workflow_name: str,
+    stage_name: str,
+    step_name: str,
+    layout: dict,
+    status_payload: dict,
+    report_payload: dict,
+    exc: Exception,
+) -> None:
+    append_report_note(report_payload, f"Excepción no controlada: {exc}")
+    append_report_note(report_payload, traceback.format_exc())
+
+    status_payload = mark_workflow_failed(status_payload, workflow_name, stage_name, step_name, str(exc))
+    save_status_json(ctx.work_dir, status_payload)
+
+    if report_payload.get("workflow_runs"):
+        report_payload["workflow_runs"][-1]["finished_at"] = utc_now_iso()
+        report_payload["workflow_runs"][-1]["result"] = "failed"
+
+    report_payload["result"] = "failed"
+    report_payload["finished_at"] = utc_now_iso()
+    write_json(layout["logs"] / "report.json", report_payload)
+
+
+def ensure_audit_yaml(review_dir: Path) -> Path:
+    audit_path = review_dir / "audit.yaml"
+    if not audit_path.exists():
+        write_yaml(
+            audit_path,
+            {
+                "identity_review_done": False,
+                "srt_audit_done": False,
+                "approved_as_source_of_truth": False,
+                "speaker_mapping_final": {},
+            },
+        )
+    return audit_path
+
+
+def safe_unlink(path: Path | None) -> None:
+    try:
+        if path is not None and path.exists():
+            path.unlink()
+    except Exception:
+        pass
+
+
+def init_speakers_reviewed(speakers_auto_dir: Path, speakers_reviewed_dir: Path) -> bool:
+    if not speakers_reviewed_dir.exists():
+        shutil.copytree(speakers_auto_dir, speakers_reviewed_dir)
+        return True
+    return False
