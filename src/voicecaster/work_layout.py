@@ -52,3 +52,9 @@ def write_status_json(work_dir: Path, payload: dict) -> None:
         json.dumps(payload, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+
+
+def ensure_work_layout(work_dir: Path, episode_id: str) -> dict[str, Path]:
+    layout = build_work_layout(work_dir)
+    write_work_readme(work_dir, episode_id)
+    return layout
