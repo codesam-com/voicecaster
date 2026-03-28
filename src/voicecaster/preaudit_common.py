@@ -34,6 +34,17 @@ def _report_partial_result_from_stage(stage_name: str) -> str:
     return mapping.get(stage_name, "in_progress")
 
 
+def _find_source_audio_anywhere(intake_dir: Path) -> Path | None:
+    if not intake_dir.exists():
+        return None
+
+    candidates = sorted(
+        p for p in intake_dir.iterdir()
+        if p.is_file() and p.name.startswith("source_audio")
+    )
+    return candidates[0] if candidates else None
+
+
 def _sync_artifacts_into_status(
     work_dir: Path,
     review_dir: Path,
@@ -47,14 +58,8 @@ def _sync_artifacts_into_status(
     outputs_dir = work_dir / "05_episode_outputs"
     logs_dir = work_dir / "06_logs"
 
-    source_audio = None
-    if intake_dir.exists():
-        candidates = sorted(
-            p for p in intake_dir.iterdir()
-            if p.is_file() and p.name.startswith("source_audio.")
-        )
-        if candidates:
-            source_audio = candidates[0]
+    source_audio = _find_source_audio_anywhere(intake_dir)
+    source_metadata = intake_dir / "source_metadata.json"
 
     artifacts = status_payload.setdefault("artifacts", {})
 
@@ -64,7 +69,7 @@ def _sync_artifacts_into_status(
         return str(path.relative_to(work_dir))
 
     artifacts["source_audio"] = rel(source_audio)
-    artifacts["source_metadata"] = rel(intake_dir / "source_metadata.json")
+    artifacts["source_metadata"] = rel(source_metadata)
 
     artifacts["vad_segments"] = rel(transcription_dir / "vad_segments.json")
     artifacts["whisper_raw_segments"] = rel(transcription_dir / "whisper_raw_segments.json")
@@ -79,8 +84,16 @@ def _sync_artifacts_into_status(
     artifacts["redecoded_segments"] = rel(alignment_dir / "redecoded_segments.json")
     artifacts["full_transcript_speakers"] = rel(alignment_dir / "full_transcript_speakers.srt")
 
-    artifacts["speakers_auto_dir"] = rel(review_phase_dir / "speakers_auto") if (review_phase_dir / "speakers_auto").exists() else None
-    artifacts["speakers_reviewed_dir"] = rel(review_phase_dir / "speakers_reviewed") if (review_phase_dir / "speakers_reviewed").exists() else None
+    artifacts["speakers_auto_dir"] = (
+        rel(review_phase_dir / "speakers_auto")
+        if (review_phase_dir / "speakers_auto").exists()
+        else None
+    )
+    artifacts["speakers_reviewed_dir"] = (
+        rel(review_phase_dir / "speakers_reviewed")
+        if (review_phase_dir / "speakers_reviewed").exists()
+        else None
+    )
 
     artifacts["episode_json"] = rel(outputs_dir / "episode.json")
     artifacts["report_json"] = rel(logs_dir / "report.json")
@@ -144,10 +157,6 @@ def finalize_workflow_success(
     status_payload: dict,
     report_payload: dict,
 ) -> None:
-    status_payload = mark_workflow_completed(status_payload, workflow_name, stage_name)
-    status_payload = _sync_artifacts_into_status(ctx.work_dir, ctx.review_dir, status_payload)
-    save_status_json(ctx.work_dir, status_payload)
-
     finished_at = utc_now_iso()
 
     if report_payload.get("workflow_runs"):
@@ -158,6 +167,10 @@ def finalize_workflow_success(
     report_payload["result"] = _report_partial_result_from_stage(stage_name)
 
     write_json(layout["logs"] / "report.json", report_payload)
+
+    status_payload = mark_workflow_completed(status_payload, workflow_name, stage_name)
+    status_payload = _sync_artifacts_into_status(ctx.work_dir, ctx.review_dir, status_payload)
+    save_status_json(ctx.work_dir, status_payload)
 
     started_at = status_payload.get("started_at")
     if started_at:
@@ -185,10 +198,6 @@ def finalize_workflow_failure(
     append_report_note(report_payload, f"Excepción no controlada: {exc}")
     append_report_note(report_payload, traceback.format_exc())
 
-    status_payload = mark_workflow_failed(status_payload, workflow_name, stage_name, step_name, str(exc))
-    status_payload = _sync_artifacts_into_status(ctx.work_dir, ctx.review_dir, status_payload)
-    save_status_json(ctx.work_dir, status_payload)
-
     finished_at = utc_now_iso()
 
     if report_payload.get("workflow_runs"):
@@ -198,6 +207,10 @@ def finalize_workflow_failure(
     report_payload["result"] = "failed"
     report_payload["finished_at"] = finished_at
     write_json(layout["logs"] / "report.json", report_payload)
+
+    status_payload = mark_workflow_failed(status_payload, workflow_name, stage_name, step_name, str(exc))
+    status_payload = _sync_artifacts_into_status(ctx.work_dir, ctx.review_dir, status_payload)
+    save_status_json(ctx.work_dir, status_payload)
 
 
 def ensure_audit_yaml(review_dir: Path) -> Path:
