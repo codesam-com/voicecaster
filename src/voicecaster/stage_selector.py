@@ -23,7 +23,8 @@ def _first_matching_audio_file(intake_dir: Path) -> Path | None:
         return None
 
     candidates = sorted(
-        p for p in intake_dir.iterdir()
+        p
+        for p in intake_dir.iterdir()
         if p.is_file() and p.name.startswith("source_audio.")
     )
     return candidates[0] if candidates else None
@@ -36,8 +37,12 @@ def is_intake_done(work_dir: Path, review_dir: Path) -> tuple[bool, dict]:
     audit_yaml = review_dir / "audit.yaml"
 
     artifacts = {
-        "source_audio": str(source_audio.relative_to(work_dir)) if source_audio else None,
-        "source_metadata": str(source_metadata.relative_to(work_dir)) if source_metadata.exists() else None,
+        "source_audio": str(source_audio.relative_to(work_dir))
+        if source_audio
+        else None,
+        "source_metadata": str(source_metadata.relative_to(work_dir))
+        if source_metadata.exists()
+        else None,
     }
 
     done = source_audio is not None and source_metadata.exists() and audit_yaml.exists()
@@ -61,7 +66,10 @@ def is_transcription_done(work_dir: Path) -> tuple[bool, dict]:
         key: str(path.relative_to(work_dir)) if path.exists() else None
         for key, path in required.items()
     }
-    done = all(path.exists() for path in required.values()) and all(path.exists() for path in optional_summaries)
+
+    done = all(path.exists() for path in required.values()) and all(
+        path.exists() for path in optional_summaries
+    )
     return done, artifacts
 
 
@@ -71,9 +79,14 @@ def is_diarization_done(work_dir: Path) -> tuple[bool, dict]:
     speaker_timeline = ddir / "speaker_timeline.rttm"
 
     artifacts = {
-        "speaker_segments": str(speaker_segments.relative_to(work_dir)) if speaker_segments.exists() else None,
-        "speaker_timeline": str(speaker_timeline.relative_to(work_dir)) if speaker_timeline.exists() else None,
+        "speaker_segments": str(speaker_segments.relative_to(work_dir))
+        if speaker_segments.exists()
+        else None,
+        "speaker_timeline": str(speaker_timeline.relative_to(work_dir))
+        if speaker_timeline.exists()
+        else None,
     }
+
     done = speaker_segments.exists() and speaker_timeline.exists()
     return done, artifacts
 
@@ -86,12 +99,26 @@ def is_alignment_done(work_dir: Path) -> tuple[bool, dict]:
     speakers_srt = adir / "full_transcript_speakers.srt"
 
     artifacts = {
-        "aligned_transcript_segments": str(aligned.relative_to(work_dir)) if aligned.exists() else None,
-        "doubtful_segments": str(doubtful.relative_to(work_dir)) if doubtful.exists() else None,
-        "redecoded_segments": str(redecoded.relative_to(work_dir)) if redecoded.exists() else None,
-        "full_transcript_speakers": str(speakers_srt.relative_to(work_dir)) if speakers_srt.exists() else None,
+        "aligned_transcript_segments": str(aligned.relative_to(work_dir))
+        if aligned.exists()
+        else None,
+        "doubtful_segments": str(doubtful.relative_to(work_dir))
+        if doubtful.exists()
+        else None,
+        "redecoded_segments": str(redecoded.relative_to(work_dir))
+        if redecoded.exists()
+        else None,
+        "full_transcript_speakers": str(speakers_srt.relative_to(work_dir))
+        if speakers_srt.exists()
+        else None,
     }
-    done = aligned.exists() and doubtful.exists() and redecoded.exists() and speakers_srt.exists()
+
+    done = (
+        aligned.exists()
+        and doubtful.exists()
+        and redecoded.exists()
+        and speakers_srt.exists()
+    )
     return done, artifacts
 
 
@@ -109,10 +136,18 @@ def is_review_prepare_done(work_dir: Path) -> tuple[bool, dict]:
     report_json = logs_dir / "report.json"
 
     artifacts = {
-        "speakers_auto_dir": str(speakers_auto.relative_to(work_dir)) if speakers_auto.exists() else None,
-        "speakers_reviewed_dir": str(speakers_reviewed.relative_to(work_dir)) if speakers_reviewed.exists() else None,
-        "episode_json": str(episode_json.relative_to(work_dir)) if episode_json.exists() else None,
-        "report_json": str(report_json.relative_to(work_dir)) if report_json.exists() else None,
+        "speakers_auto_dir": str(speakers_auto.relative_to(work_dir))
+        if speakers_auto.exists()
+        else None,
+        "speakers_reviewed_dir": str(speakers_reviewed.relative_to(work_dir))
+        if speakers_reviewed.exists()
+        else None,
+        "episode_json": str(episode_json.relative_to(work_dir))
+        if episode_json.exists()
+        else None,
+        "report_json": str(report_json.relative_to(work_dir))
+        if report_json.exists()
+        else None,
     }
 
     done = (
@@ -185,7 +220,7 @@ def _processing_contexts() -> list[EpisodeContext]:
 def find_episode_for_intake() -> EpisodeContext | None:
     items = load_pending_queue()
 
-    # No abrir episodios nuevos si ya existe cualquiera en processing
+    # No abrir episodios nuevos si ya hay uno en curso.
     if any(item.status == "processing" for item in items):
         return None
 
@@ -214,7 +249,11 @@ def find_episode_for_diarization() -> EpisodeContext | None:
 def find_episode_for_alignment() -> EpisodeContext | None:
     for ctx in _processing_contexts():
         s = ctx.status_payload["stage_outputs"]
-        if s["transcription_done"] and s["diarization_done"] and not s["alignment_done"]:
+        if (
+            s["transcription_done"]
+            and s["diarization_done"]
+            and not s["alignment_done"]
+        ):
             return ctx
     return None
 
