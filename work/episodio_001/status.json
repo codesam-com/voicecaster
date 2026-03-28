@@ -1,0 +1,45 @@
+{
+  "episode_id": "episodio_001",
+  "phase": "preaudit",
+  "status": "completed",
+  "current_workflow": "preaudit-intake",
+  "current_step": "done",
+  "preaudit_stage": "intake",
+  "started_at": "2026-03-28T19:03:28.298035+00:00",
+  "updated_at": "2026-03-28T19:03:29.488207+00:00",
+  "finished_at": "2026-03-28T19:03:29.487968+00:00",
+  "result": null,
+  "stage_outputs": {
+    "intake_done": true,
+    "transcription_done": false,
+    "diarization_done": false,
+    "alignment_done": false,
+    "review_prepare_done": false
+  },
+  "stage_attempts": {
+    "intake": 1,
+    "transcription": 0,
+    "diarization": 0,
+    "alignment": 0,
+    "review_prepare": 0
+  },
+  "artifacts": {
+    "source_audio": "00_intake/source_audio_source.mp3",
+    "source_metadata": "00_intake/source_metadata.json",
+    "vad_segments": null,
+    "whisper_raw_segments": null,
+    "whisperx_aligned_segments": null,
+    "transcript_segments": null,
+    "speaker_segments": null,
+    "speaker_timeline": null,
+    "aligned_transcript_segments": null,
+    "doubtful_segments": null,
+    "redecoded_segments": null,
+    "full_transcript_speakers": null,
+    "speakers_auto_dir": null,
+    "speakers_reviewed_dir": null,
+    "episode_json": null,
+    "report_json": "06_logs/report.json"
+  },
+  "last_error": null
+}
