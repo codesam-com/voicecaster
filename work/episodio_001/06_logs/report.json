@@ -1,0 +1,25 @@
+{
+  "episode_id": "episodio_001",
+  "phase": "preaudit",
+  "started_at": "2026-03-28T04:33:52.192332+00:00",
+  "finished_at": "2026-03-28T04:33:53.543592+00:00",
+  "result": "intake_completed",
+  "notes": [
+    "Runtime control workflow=preaudit_intake decision=run",
+    "Next allowed run at: 2026-03-28T03:46:56.208275+00:00",
+    "Audio descargado en: source_audio_source.mp3",
+    "Audio validado con ffprobe.",
+    "audit.yaml listo en: /home/runner/work/voicecaster/voicecaster/reviews/episodio_001/audit.yaml",
+    "Artifacts de intake persistidos en 00_intake/"
+  ],
+  "workflow_runs": [
+    {
+      "workflow": "preaudit-intake",
+      "started_at": "2026-03-28T04:33:52.192701+00:00",
+      "finished_at": "2026-03-28T04:33:53.543592+00:00",
+      "result": "ok"
+    }
+  ],
+  "source_url_original": "https://drive.google.com/uc?export=download&id=1A4AjcUrZR8TN8vqvOvU-GB97jZpnQaRZ",
+  "source_url_normalized": "https://drive.google.com/uc?export=download&id=1A4AjcUrZR8TN8vqvOvU-GB97jZpnQaRZ"
+}
