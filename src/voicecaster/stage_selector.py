@@ -23,9 +23,8 @@ def _first_matching_audio_file(intake_dir: Path) -> Path | None:
         return None
 
     candidates = sorted(
-        p
-        for p in intake_dir.iterdir()
-        if p.is_file() and p.name.startswith("source_audio.")
+        p for p in intake_dir.iterdir()
+        if p.is_file() and p.name.startswith("source_audio")
     )
     return candidates[0] if candidates else None
 
