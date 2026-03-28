@@ -4,13 +4,13 @@
   "status": "completed",
   "current_workflow": "preaudit-intake",
   "current_step": "done",
-  "preaudit_stage": "intake",
+  "preaudit_stage": "not_started",
   "started_at": "2026-03-28T03:26:37.925397+00:00",
-  "updated_at": "2026-03-28T03:26:39.085794+00:00",
+  "updated_at": "2026-03-28T03:36:42.020734+00:00",
   "finished_at": "2026-03-28T03:26:39.085765+00:00",
   "result": null,
   "stage_outputs": {
-    "intake_done": true,
+    "intake_done": false,
     "transcription_done": false,
     "diarization_done": false,
     "alignment_done": false,
@@ -25,7 +25,7 @@
   },
   "artifacts": {
     "source_audio": null,
-    "source_metadata": null,
+    "source_metadata": "00_intake/source_metadata.json",
     "vad_segments": null,
     "whisper_raw_segments": null,
     "whisperx_aligned_segments": null,
@@ -39,7 +39,7 @@
     "speakers_auto_dir": null,
     "speakers_reviewed_dir": null,
     "episode_json": null,
-    "report_json": null
+    "report_json": "06_logs/report.json"
   },
   "last_error": null
 }
