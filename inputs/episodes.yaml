@@ -1,8 +1,8 @@
 - id: episodio_001
-  podcast_title: "Podcast de prueba"
-  episode_title: "Episodio largo de validación"
+  podcast_title: Podcast de prueba
+  episode_title: Episodio largo de validación
   url: https://drive.google.com/uc?export=download&id=1A4AjcUrZR8TN8vqvOvU-GB97jZpnQaRZ
   topics: null
   participants: null
-  status: pending
+  status: processing
   retries: 0
