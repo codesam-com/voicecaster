@@ -1,17 +1,7 @@
-Perfecto, ajustamos el README con el nombre correcto del archivo.
+````markdown id="inputs-readme-v2"
+# 📥 inputs/ — Entrada del sistema
 
-Aquí lo tienes listo para copiar y pegar:
-
-````markdown
-# 📥 inputs/ — Cola de episodios
-
-Este directorio contiene el **único punto de entrada del sistema**.
-
-```text
-inputs/inputs.json
-````
-
-Aquí el usuario añade episodios que serán procesados automáticamente por las GitHub Actions.
+Este directorio contiene el **único punto de entrada** y el **histórico de salida** del sistema.
 
 ---
 
@@ -19,30 +9,49 @@ Aquí el usuario añade episodios que serán procesados automáticamente por las
 
 ```text
 filesystem = source of truth
-```
+````
 
 * No hay base de datos externa
 * No hay estado oculto
-* Todo el sistema se guía por este archivo
+* Todo se deduce de los archivos del repositorio
 
 ---
 
-# 📄 Formato del archivo
+# 📂 Archivos del sistema
 
-El archivo debe ser:
+## 🔹 Entrada activa
 
 ```text
-JSON válido
+inputs/inputs.json
 ```
 
-Estructura:
-
-* Lista (`[]`) de episodios
-* Cada episodio es un objeto independiente
+* Cola de episodios a procesar
+* Editable por el usuario
 
 ---
 
-# 🧱 Plantilla (copiar y pegar)
+## 🔹 Histórico procesado
+
+```text
+inputs/processed.jsonl.gz
+```
+
+* Histórico append-only de episodios finalizados
+* Comprimido
+* No editable manualmente
+
+---
+
+# 📄 Formato: inputs/inputs.json
+
+## 🧱 Estructura
+
+* JSON válido
+* Lista de episodios
+
+---
+
+## 📋 Plantilla (copiar y pegar)
 
 ```json
   {
@@ -50,6 +59,7 @@ Estructura:
     "podcast_title": "Nombre del podcast",
     "episode_title": "Título del episodio",
     "url": "https://...",
+
     "participants": null,
     "status": "intake",
     "retries": 0
@@ -58,13 +68,12 @@ Estructura:
 
 ---
 
-# 🔍 Descripción de campos
+## 🔍 Descripción de campos
 
 ### 🔹 id
 
-* Identificador único del episodio
+* Identificador único
 * Obligatorio
-* No debe repetirse
 
 ---
 
@@ -84,57 +93,47 @@ Estructura:
 
 ### 🔹 url
 
-* URL directa a un archivo de audio descargable (normalmente `.mp3`)
+* URL directa a audio descargable
 * Obligatorio
 
 ---
 
 ### 🔹 participants
 
-* Lista opcional de participantes proporcionada por el usuario
+* Lista opcional proporcionada por el usuario
 * Puede ser `null`
-* ⚠️ No se considera fuente de verdad (solo pista inicial)
-
-Ejemplo:
-
-```json
-"participants": ["Nombre 1", "Nombre 2"]
-```
+* ⚠️ No es fuente de verdad
 
 ---
 
 ### 🔹 status
 
-* Estado del episodio
-* Define qué workflow lo procesará
-
-Valor inicial obligatorio:
-
 ```json
 "status": "intake"
 ```
+
+* Campo clave del sistema
+* Define qué workflow procesa el episodio
+* Valor inicial obligatorio: `"intake"`
 
 ---
 
 ### 🔹 retries
 
-* Número de intentos de procesamiento
+* Número de intentos
 * Inicial: `0`
-* Gestionado automáticamente por el sistema
+* Gestionado automáticamente
 
 ---
 
-# ⚙️ Cómo funciona el sistema
+# ⚙️ Funcionamiento
 
-1. El usuario añade un episodio con:
-
-```json
-"status": "intake"
+```text
+Usuario añade episodio → status=intake → sistema procesa automáticamente
 ```
 
-2. El workflow correspondiente lo detecta
-
-3. El sistema cambia el estado automáticamente según avanza
+* Solo se procesa **1 episodio por ejecución**
+* El sistema actualiza el estado internamente
 
 ---
 
@@ -144,27 +143,27 @@ Valor inicial obligatorio:
 intake → processing → pending_review → done
 ```
 
-Errores posibles:
+Errores:
 
 ```text
 failed
 incompatible
 ```
 
-⚠️ El usuario **NO debe modificar manualmente estos estados** salvo para añadir nuevos episodios.
+⚠️ El usuario no debe modificar estados manualmente
 
 ---
 
 # 🚫 Reglas importantes
 
 * No duplicar `id`
-* No modificar episodios en proceso
-* No cambiar estados manualmente (salvo añadir nuevos con `intake`)
-* La URL debe ser descargable directamente
+* No editar episodios en proceso
+* No cambiar estados manualmente
+* La URL debe ser descargable
 
 ---
 
-# ✅ Ejemplo completo
+# ✅ Ejemplo: inputs/inputs.json
 
 ```json
 [
@@ -179,10 +178,10 @@ incompatible
   },
   {
     "id": "episodio_002",
-    "podcast_title": "Otro podcast",
-    "episode_title": "Entrevista sobre IA",
+    "podcast_title": "Podcast IA",
+    "episode_title": "Debate sobre AGI",
     "url": "https://example.com/audio.mp3",
-    "participants": ["Ana", "Carlos"],
+    "participants": ["Ana López", "Carlos Ruiz"],
     "status": "intake",
     "retries": 0
   }
@@ -191,14 +190,56 @@ incompatible
 
 ---
 
-# 🧩 Notas finales
+# 📦 Formato: inputs/processed.jsonl.gz
 
-* Este archivo actúa como **cola de procesamiento**
-* Solo se procesa **1 episodio por ejecución**
-* Los episodios completados se moverán a:
+## 🧱 Características
+
+* Formato: JSON Lines (`.jsonl`)
+* Cada línea = 1 episodio finalizado
+* Comprimido con gzip (`.gz`)
+* Append-only (nunca modificar entradas existentes)
+
+---
+
+## 📄 Estructura de cada línea
+
+Cada línea es un JSON independiente:
+
+```json
+{"id":"episodio_001","podcast_title":"Podcast de prueba","episode_title":"Episodio largo de validación","url":"https://...","status":"done","processed_at":"2026-03-30T12:00:00Z"}
+```
+
+---
+
+## 🔍 Campos típicos
+
+* `id`
+* `podcast_title`
+* `episode_title`
+* `url`
+* `status`: siempre `"done"`
+* `processed_at`: timestamp ISO
+* (opcional) metadatos adicionales generados por el sistema
+
+---
+
+## ✅ Ejemplo (sin compresión, para visualizar)
+
+```json
+{"id":"episodio_001","podcast_title":"Podcast de prueba","episode_title":"Episodio largo de validación","url":"https://...","status":"done","processed_at":"2026-03-30T12:00:00Z"}
+{"id":"episodio_002","podcast_title":"Podcast IA","episode_title":"Debate sobre AGI","url":"https://example.com/audio.mp3","status":"done","processed_at":"2026-03-30T15:42:10Z"}
+```
+
+---
+
+# 🔄 Flujo completo
 
 ```text
-inputs/inputs_processed.json
+inputs/inputs.json
+   ↓
+(procesamiento automático)
+   ↓
+inputs/processed.jsonl.gz (append)
 ```
 
 ---
@@ -206,7 +247,7 @@ inputs/inputs_processed.json
 # 🚀 Resumen
 
 ```text
-Añade episodios → status=intake → el sistema hace el resto
+Añades episodios en inputs.json → status=intake → el sistema procesa → se almacenan en processed.jsonl.gz
 ```
 
 ```
