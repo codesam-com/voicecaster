@@ -1,0 +1,9 @@
+{
+  "id": "episodio_001",
+  "podcast_title": "Nombre del podcast",
+  "episode_title": "Título del episodio",
+  "url": "https://drive.google.com/uc?export=download&id=1A4AjcUrZR8TN8vqvOvU-GB97jZpnQaRZ",
+  "participants": null,
+  "status": "intake",
+  "retries": 0
+}
