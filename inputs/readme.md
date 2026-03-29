@@ -169,7 +169,6 @@ incompatible
     "podcast_title": "Podcast de prueba",
     "episode_title": "Episodio largo de validación",
     "url": "https://drive.google.com/uc?export=download&id=1A4AjcUrZR8TN8vqvOvU-GB97jZpnQaRZ",
-
     "participants": null,
     "status": "intake",
     "retries": 0
@@ -179,7 +178,6 @@ incompatible
     "podcast_title": "Otro podcast",
     "episode_title": "Entrevista sobre IA",
     "url": "https://example.com/audio.mp3",
-
     "participants": ["Ana", "Carlos"],
     "status": "intake",
     "retries": 0
