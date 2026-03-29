@@ -1,10 +1,14 @@
-````markdown id="inputs-readme-v1"
+Perfecto, ajustamos el README con el nombre correcto del archivo.
+
+Aquí lo tienes listo para copiar y pegar:
+
+````markdown
 # 📥 inputs/ — Cola de episodios
 
 Este directorio contiene el **único punto de entrada del sistema**.
 
 ```text
-inputs/episodes.json
+inputs/inputs.json
 ````
 
 Aquí el usuario añade episodios que serán procesados automáticamente por las GitHub Actions.
@@ -194,7 +198,7 @@ incompatible
 * Los episodios completados se moverán a:
 
 ```text
-inputs/episodes_processed.json
+inputs/inputs_processed.json
 ```
 
 ---
