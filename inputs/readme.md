@@ -59,7 +59,6 @@ inputs/processed.jsonl.gz
     "podcast_title": "Nombre del podcast",
     "episode_title": "Título del episodio",
     "url": "https://...",
-
     "participants": null,
     "status": "intake",
     "retries": 0
