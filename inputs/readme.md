@@ -41,7 +41,6 @@ Estructura:
 # 🧱 Plantilla (copiar y pegar)
 
 ```json
-[
   {
     "id": "episodio_001",
     "podcast_title": "Nombre del podcast",
@@ -52,7 +51,6 @@ Estructura:
     "status": "intake",
     "retries": 0
   }
-]
 ```
 
 ---
