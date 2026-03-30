@@ -8,6 +8,7 @@ on:
       - ".github/workflows/transcription.yml"
       - "inputs/inputs.json"
       - "src/voicecaster/transcription/**"
+      - "requirements.txt"
 
 #  schedule:
 #    - cron: "*/15 * * * *"
@@ -50,10 +51,6 @@ jobs:
               raise SystemExit(0)
 
           data = json.loads(inputs_path.read_text(encoding="utf-8"))
-          if not isinstance(data, list):
-              with open(github_output, "a", encoding="utf-8") as f:
-                  f.write("should_run=false\n")
-              raise SystemExit(0)
 
           should_run = any(
               isinstance(item, dict) and item.get("status") == "transcript"
@@ -94,7 +91,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-py311-transcription-pip-${{ hashFiles('requirements.txt', 'pyproject.toml', 'setup.cfg', 'setup.py') }}
+          key: ${{ runner.os }}-py311-transcription-pip-${{ hashFiles('requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-py311-transcription-pip-
 
@@ -107,12 +104,11 @@ jobs:
             pip install -r requirements.txt
           fi
 
-          pip install -e .
-
       - name: Run transcription workflow
         shell: bash
         env:
           VOICECASTER_WORKFLOW: transcription
+          PYTHONPATH: src
         run: |
           python -m voicecaster.transcription.run
 
@@ -123,7 +119,7 @@ jobs:
           git status --short
 
       - name: Commit and push changes
-        if: always()
+        if: success()
         shell: bash
         run: |
           if git diff --quiet && git diff --cached --quiet; then
