@@ -88,11 +88,9 @@ def run() -> int:
     write_status(
         status_path,
         episode_id=episode_id,
-        status="running",
+        status="intake",
         current_step="init",
         started_at=started_at,
-        result=None,
-        finished_at=None,
     )
 
     append_event(
@@ -118,7 +116,7 @@ def run() -> int:
         write_status(
             status_path,
             episode_id=episode_id,
-            status="running",
+            status="intake",
             current_step="normalize_source",
             started_at=started_at,
         )
@@ -141,7 +139,7 @@ def run() -> int:
         write_status(
             status_path,
             episode_id=episode_id,
-            status="running",
+            status="intake",
             current_step="download_audio",
             started_at=started_at,
         )
@@ -160,7 +158,7 @@ def run() -> int:
         write_status(
             status_path,
             episode_id=episode_id,
-            status="running",
+            status="intake",
             current_step="validate_audio",
             started_at=started_at,
         )
@@ -169,6 +167,10 @@ def run() -> int:
         source_metadata = validation["source_metadata"]
 
         write_json_file(source_metadata_path, source_metadata, indent=2)
+
+        # 🟡 NUEVO: guardar metadata en report
+        report["audio"] = source_metadata
+        save_report(report_path, report)
 
         append_event(
             events_log_path,
@@ -196,10 +198,11 @@ def run() -> int:
         finalize_report(report, result="success", note="Audio descargado, validado y limpiado.")
         save_report(report_path, report)
 
+        # 🔴 CORRECCIÓN: status real del episodio
         write_status(
             status_path,
             episode_id=episode_id,
-            status="completed",
+            status=episode["status"],  # ahora "transcript"
             current_step="done",
             started_at=started_at,
             result="success",
@@ -223,17 +226,9 @@ def run() -> int:
             exception=exc,
         )
         return _handle_failure(
-            episodes=episodes,
-            episode=episode,
-            episode_id=episode_id,
-            started_at=started_at,
-            status_path=status_path,
-            error_path=error_path,
-            intake_result_path=intake_result_path,
-            report=report,
-            report_path=report_path,
-            events_log_path=events_log_path,
-            payload=payload,
+            episodes, episode, episode_id, started_at,
+            status_path, error_path, intake_result_path,
+            report, report_path, events_log_path, payload
         )
 
     except AudioValidationError as exc:
@@ -243,17 +238,9 @@ def run() -> int:
             exception=exc,
         )
         return _handle_failure(
-            episodes=episodes,
-            episode=episode,
-            episode_id=episode_id,
-            started_at=started_at,
-            status_path=status_path,
-            error_path=error_path,
-            intake_result_path=intake_result_path,
-            report=report,
-            report_path=report_path,
-            events_log_path=events_log_path,
-            payload=payload,
+            episodes, episode, episode_id, started_at,
+            status_path, error_path, intake_result_path,
+            report, report_path, events_log_path, payload
         )
 
     except requests.exceptions.RequestException as exc:
@@ -263,17 +250,9 @@ def run() -> int:
             exception=exc,
         )
         return _handle_failure(
-            episodes=episodes,
-            episode=episode,
-            episode_id=episode_id,
-            started_at=started_at,
-            status_path=status_path,
-            error_path=error_path,
-            intake_result_path=intake_result_path,
-            report=report,
-            report_path=report_path,
-            events_log_path=events_log_path,
-            payload=payload,
+            episodes, episode, episode_id, started_at,
+            status_path, error_path, intake_result_path,
+            report, report_path, events_log_path, payload
         )
 
     except Exception as exc:
@@ -284,17 +263,9 @@ def run() -> int:
             extra={"traceback": traceback.format_exc()},
         )
         return _handle_failure(
-            episodes=episodes,
-            episode=episode,
-            episode_id=episode_id,
-            started_at=started_at,
-            status_path=status_path,
-            error_path=error_path,
-            intake_result_path=intake_result_path,
-            report=report,
-            report_path=report_path,
-            events_log_path=events_log_path,
-            payload=payload,
+            episodes, episode, episode_id, started_at,
+            status_path, error_path, intake_result_path,
+            report, report_path, events_log_path, payload
         )
 
     finally:
@@ -312,18 +283,17 @@ def run() -> int:
 
 
 def _handle_failure(
-    *,
-    episodes: list[dict[str, Any]],
-    episode: dict[str, Any],
-    episode_id: str,
-    started_at: str,
-    status_path: Path,
-    error_path: Path,
-    intake_result_path: Path,
-    report: dict[str, Any],
-    report_path: Path,
-    events_log_path: Path,
-    payload: dict[str, Any],
+    episodes,
+    episode,
+    episode_id,
+    started_at,
+    status_path,
+    error_path,
+    intake_result_path,
+    report,
+    report_path,
+    events_log_path,
+    payload,
 ) -> int:
     error_type = payload["error_type"]
     result_info = apply_failure_result(episode, error_type)
@@ -341,17 +311,13 @@ def _handle_failure(
         indent=2,
     )
 
-    note = (
-        f"Intake falló con error_type={error_type}. "
-        f"status_after={result_info['status_after']}, retries_after={result_info['retries_after']}"
-    )
-    finalize_report(report, result="failure", note=note)
+    finalize_report(report, result="failure")
     save_report(report_path, report)
 
     write_status(
         status_path,
         episode_id=episode_id,
-        status="failed",
+        status=episode.get("status"),
         current_step="done",
         started_at=started_at,
         result="failure",
@@ -365,7 +331,6 @@ def _handle_failure(
         error_type=error_type,
         status_after=result_info["status_after"],
         retries_after=result_info["retries_after"],
-        message=payload["message"],
     )
 
     return 1
