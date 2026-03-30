@@ -18,9 +18,13 @@ permissions:
 
 jobs:
 
-  # 🔹 1. PRECHECK (rápido y barato)
+  # 🔹 PRECHECK
   precheck:
     runs-on: ubuntu-latest
+
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"   # 🔴 FIX AQUÍ
+
     outputs:
       should_run: ${{ steps.check.outputs.should_run }}
 
@@ -47,7 +51,7 @@ jobs:
           echo "should_run=$(cat result.txt)" >> $GITHUB_OUTPUT
 
 
-  # 🔹 2. INTAKE (solo si hay trabajo)
+  # 🔹 INTAKE
   intake:
     needs: precheck
     if: needs.precheck.outputs.should_run == 'true'
