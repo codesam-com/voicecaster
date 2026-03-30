@@ -1,3 +1,2 @@
 requests==2.32.5
 faster-whisper==1.2.1
-openai-whisper==20250625
