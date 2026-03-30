@@ -1,0 +1,5 @@
+{"ts": "2026-03-30T00:29:01Z", "event": "intake_started", "episode_id": "episodio_001", "selected_index": 0, "duplicate_changes": []}
+{"ts": "2026-03-30T00:29:01Z", "event": "source_normalized", "episode_id": "episodio_001", "source_type": "google_drive", "url_normalized": "https://drive.google.com/uc?export=download&id=1A4AjcUrZR8TN8vqvOvU-GB97jZpnQaRZ"}
+{"ts": "2026-03-30T00:29:02Z", "event": "audio_downloaded", "episode_id": "episodio_001", "final_url": "https://drive.usercontent.google.com/download?id=1A4AjcUrZR8TN8vqvOvU-GB97jZpnQaRZ&export=download", "bytes_written": 1016520, "content_type": "audio/mpeg"}
+{"ts": "2026-03-30T00:29:02Z", "event": "audio_validated", "episode_id": "episodio_001", "duration_seconds": 127.033, "audio_codec": "mp3", "sample_rate": 44100, "channels": 2}
+{"ts": "2026-03-30T00:29:02Z", "event": "intake_completed", "episode_id": "episodio_001", "status_after": "transcript", "retries_after": 0}
