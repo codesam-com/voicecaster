@@ -38,24 +38,29 @@ jobs:
         run: |
           python - <<'PY'
           import json
+          import os
           from pathlib import Path
 
           inputs_path = Path("inputs/inputs.json")
+          github_output = os.environ["GITHUB_OUTPUT"]
 
           if not inputs_path.exists():
-              print("should_run=false")
-              with open(Path("${GITHUB_OUTPUT}"), "a", encoding="utf-8") as f:
+              with open(github_output, "a", encoding="utf-8") as f:
                   f.write("should_run=false\n")
               raise SystemExit(0)
 
           data = json.loads(inputs_path.read_text(encoding="utf-8"))
+          if not isinstance(data, list):
+              with open(github_output, "a", encoding="utf-8") as f:
+                  f.write("should_run=false\n")
+              raise SystemExit(0)
 
           should_run = any(
               isinstance(item, dict) and item.get("status") == "transcript"
               for item in data
           )
 
-          with open(Path("${GITHUB_OUTPUT}"), "a", encoding="utf-8") as f:
+          with open(github_output, "a", encoding="utf-8") as f:
               f.write(f"should_run={'true' if should_run else 'false'}\n")
           PY
 
@@ -118,7 +123,7 @@ jobs:
           git status --short
 
       - name: Commit and push changes
-        if: success()
+        if: always()
         shell: bash
         run: |
           if git diff --quiet && git diff --cached --quiet; then
