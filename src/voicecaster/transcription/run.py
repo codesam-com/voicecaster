@@ -20,7 +20,7 @@ RUINED_STATUS = "ruined"
 WORKFLOW_NAME = "transcription"
 MAX_RETRIES = 10
 
-DEFAULT_MODEL = os.getenv("VOICECASTER_ASR_MODEL", "turbo")
+DEFAULT_MODEL = os.getenv("VOICECASTER_ASR_MODEL", "large-v3")
 DEFAULT_ENGINE = os.getenv("VOICECASTER_ASR_ENGINE", "faster-whisper")
 DEFAULT_LANGUAGE = os.getenv("VOICECASTER_ASR_LANGUAGE") or None
 DEFAULT_SAMPLE_RATE = int(os.getenv("VOICECASTER_ASR_SAMPLE_RATE", "16000"))
@@ -28,15 +28,23 @@ DEFAULT_SAMPLE_RATE = int(os.getenv("VOICECASTER_ASR_SAMPLE_RATE", "16000"))
 DEFAULT_BEAM_SIZE = int(os.getenv("VOICECASTER_ASR_BEAM_SIZE", "5"))
 DEFAULT_BEST_OF = int(os.getenv("VOICECASTER_ASR_BEST_OF", "5"))
 DEFAULT_TEMPERATURE = float(os.getenv("VOICECASTER_ASR_TEMPERATURE", "0.0"))
-DEFAULT_LOGPROB_THRESHOLD = float(os.getenv("VOICECASTER_ASR_LOGPROB_THRESHOLD", "-0.8"))
-DEFAULT_NO_SPEECH_THRESHOLD = float(os.getenv("VOICECASTER_ASR_NO_SPEECH_THRESHOLD", "0.5"))
+
+DEFAULT_LOGPROB_THRESHOLD = float(os.getenv("VOICECASTER_ASR_LOGPROB_THRESHOLD", "-1.0"))
+DEFAULT_NO_SPEECH_THRESHOLD = float(os.getenv("VOICECASTER_ASR_NO_SPEECH_THRESHOLD", "0.6"))
 DEFAULT_COMPRESSION_RATIO_THRESHOLD = float(
-    os.getenv("VOICECASTER_ASR_COMPRESSION_RATIO_THRESHOLD", "2.0")
+    os.getenv("VOICECASTER_ASR_COMPRESSION_RATIO_THRESHOLD", "2.4")
 )
 
-DEFAULT_VAD_FILTER = os.getenv("VOICECASTER_ASR_VAD_FILTER", "true").lower() == "true"
+DEFAULT_VAD_FILTER = os.getenv("VOICECASTER_ASR_VAD_FILTER", "false").lower() == "true"
 DEFAULT_VAD_MIN_SILENCE_MS = int(
     os.getenv("VOICECASTER_ASR_VAD_MIN_SILENCE_MS", "500")
+)
+
+DEFAULT_CONDITION_ON_PREVIOUS_TEXT = (
+    os.getenv("VOICECASTER_ASR_CONDITION_ON_PREVIOUS_TEXT", "false").lower() == "true"
+)
+DEFAULT_ENABLE_INITIAL_PROMPT = (
+    os.getenv("VOICECASTER_ASR_ENABLE_INITIAL_PROMPT", "true").lower() == "true"
 )
 
 HTTP_TIMEOUT_SECONDS = int(os.getenv("VOICECASTER_HTTP_TIMEOUT_SECONDS", "120"))
@@ -351,32 +359,25 @@ def preprocess_audio(source_audio: Path, normalized_audio: Path) -> dict[str, An
     }
 
 
-def build_initial_prompt(episode: dict[str, Any]) -> str:
-    parts: list[str] = [
-        (
-            "Este es un podcast en español. "
-            "Transcribe con precisión literal, respetando nombres propios, términos técnicos y puntuación. "
-            "No inventes contenido ni reformules."
-        )
-    ]
+def build_initial_prompt(episode: dict[str, Any]) -> str | None:
+    if not DEFAULT_ENABLE_INITIAL_PROMPT:
+        return None
 
-    podcast_title = episode.get("podcast_title")
-    episode_title = episode.get("episode_title")
-    topics = episode.get("topics")
+    parts: list[str] = []
+
     participants = episode.get("participants")
+    topics = episode.get("topics")
 
-    if isinstance(podcast_title, str) and podcast_title.strip():
-        parts.append(f"Podcast: {podcast_title.strip()}.")
-    if isinstance(episode_title, str) and episode_title.strip():
-        parts.append(f"Episodio: {episode_title.strip()}.")
     if isinstance(participants, list) and participants:
         joined = ", ".join(str(item).strip() for item in participants if str(item).strip())
         if joined:
-            parts.append(f"Participantes declarados: {joined}.")
-    if isinstance(topics, str) and topics.strip():
-        parts.append(f"Temas y vocabulario relevante: {topics.strip()}.")
+            parts.append(f"Nombres propios relevantes: {joined}.")
 
-    return " ".join(parts).strip()
+    if isinstance(topics, str) and topics.strip():
+        parts.append(f"Términos técnicos relevantes: {topics.strip()}.")
+
+    prompt = " ".join(parts).strip()
+    return prompt or None
 
 
 def transcribe_with_faster_whisper(
@@ -391,23 +392,28 @@ def transcribe_with_faster_whisper(
         ) from exc
 
     model = WhisperModel(DEFAULT_MODEL)
-    prompt = build_initial_prompt(episode) or None
+    prompt = build_initial_prompt(episode)
 
-    segments, info = model.transcribe(
-        str(audio_path),
-        language=DEFAULT_LANGUAGE,
-        word_timestamps=True,
-        condition_on_previous_text=True,
-        initial_prompt=prompt,
-        beam_size=DEFAULT_BEAM_SIZE,
-        best_of=DEFAULT_BEST_OF,
-        temperature=DEFAULT_TEMPERATURE,
-        compression_ratio_threshold=DEFAULT_COMPRESSION_RATIO_THRESHOLD,
-        log_prob_threshold=DEFAULT_LOGPROB_THRESHOLD,
-        no_speech_threshold=DEFAULT_NO_SPEECH_THRESHOLD,
-        vad_filter=DEFAULT_VAD_FILTER,
-        vad_parameters={"min_silence_duration_ms": DEFAULT_VAD_MIN_SILENCE_MS},
-    )
+    transcribe_kwargs: dict[str, Any] = {
+        "language": DEFAULT_LANGUAGE,
+        "word_timestamps": True,
+        "condition_on_previous_text": DEFAULT_CONDITION_ON_PREVIOUS_TEXT,
+        "initial_prompt": prompt,
+        "beam_size": DEFAULT_BEAM_SIZE,
+        "best_of": DEFAULT_BEST_OF,
+        "temperature": DEFAULT_TEMPERATURE,
+        "compression_ratio_threshold": DEFAULT_COMPRESSION_RATIO_THRESHOLD,
+        "log_prob_threshold": DEFAULT_LOGPROB_THRESHOLD,
+        "no_speech_threshold": DEFAULT_NO_SPEECH_THRESHOLD,
+    }
+
+    if DEFAULT_VAD_FILTER:
+        transcribe_kwargs["vad_filter"] = True
+        transcribe_kwargs["vad_parameters"] = {
+            "min_silence_duration_ms": DEFAULT_VAD_MIN_SILENCE_MS
+        }
+
+    segments, info = model.transcribe(str(audio_path), **transcribe_kwargs)
 
     serialized_segments: list[dict[str, Any]] = []
     for idx, segment in enumerate(segments):
@@ -465,8 +471,8 @@ def transcribe_with_openai_whisper(
         str(audio_path),
         language=DEFAULT_LANGUAGE,
         word_timestamps=True,
-        condition_on_previous_text=True,
-        initial_prompt=build_initial_prompt(episode) or None,
+        condition_on_previous_text=DEFAULT_CONDITION_ON_PREVIOUS_TEXT,
+        initial_prompt=build_initial_prompt(episode),
         beam_size=DEFAULT_BEAM_SIZE,
         best_of=DEFAULT_BEST_OF,
         temperature=DEFAULT_TEMPERATURE,
@@ -569,10 +575,12 @@ def write_transcript_outputs(
         "best_of": DEFAULT_BEST_OF,
         "temperature": DEFAULT_TEMPERATURE,
         "vad_filter": DEFAULT_VAD_FILTER,
-        "vad_min_silence_duration_ms": DEFAULT_VAD_MIN_SILENCE_MS,
+        "vad_min_silence_duration_ms": DEFAULT_VAD_MIN_SILENCE_MS if DEFAULT_VAD_FILTER else None,
         "compression_ratio_threshold": DEFAULT_COMPRESSION_RATIO_THRESHOLD,
         "logprob_threshold": DEFAULT_LOGPROB_THRESHOLD,
         "no_speech_threshold": DEFAULT_NO_SPEECH_THRESHOLD,
+        "condition_on_previous_text": DEFAULT_CONDITION_ON_PREVIOUS_TEXT,
+        "initial_prompt_enabled": DEFAULT_ENABLE_INITIAL_PROMPT,
     }
     write_json(ctx.workspace.transcription_dir / "transcription_metadata.json", ctx.transcription_info)
 
@@ -607,6 +615,21 @@ def validate_outputs(ctx: WorkflowContext) -> None:
     srt_content = srt_path.read_text(encoding="utf-8")
     if "-->" not in srt_content:
         raise ContentError("full_transcript.srt is not parseable.")
+
+    duration_seconds = ctx.audio_info.get("duration_seconds") or ctx.transcription_info.get("duration_seconds")
+    if duration_seconds:
+        chars_per_second = len(txt_content) / float(duration_seconds)
+        if chars_per_second < 3.0:
+            raise ContentError(
+                f"Transcript too short for audio duration: {chars_per_second:.2f} chars/sec"
+            )
+
+    texts = [str(segment.get("text") or "").strip() for segment in segments]
+    unique_text_ratio = len(set(texts)) / len(texts)
+    if len(segments) >= 5 and unique_text_ratio < 0.5:
+        raise ContentError(
+            f"Transcript is excessively repetitive: unique_text_ratio={unique_text_ratio:.2f}"
+        )
 
 
 def update_episode_status(
@@ -656,7 +679,7 @@ def main() -> int:
 
     try:
         request_json, normalized_source, source_metadata = load_intake_context(ctx)
-        _ = source_metadata  # explicit: context presence matters, even if not yet reused further
+        _ = source_metadata
 
         ctx.source_info = {
             "url_original": normalized_source.get("url_original") or request_json.get("url"),
