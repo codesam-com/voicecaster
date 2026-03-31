@@ -1,0 +1,25 @@
+{
+  "episode_id": "episodio_003",
+  "workflow": "intake",
+  "started_at": "2026-03-31T17:15:54Z",
+  "finished_at": "2026-03-31T17:15:58Z",
+  "result": "success",
+  "notes": [
+    "Audio descargado, validado y limpiado."
+  ],
+  "source": {
+    "url_original": "https://drive.google.com/uc?export=download&id=16PFiu6KRe6jqfqhOVOUIHsKA6vBbU8eD",
+    "url_normalized": "https://drive.google.com/uc?export=download&id=16PFiu6KRe6jqfqhOVOUIHsKA6vBbU8eD",
+    "source_type": "google_drive"
+  },
+  "audio": {
+    "ffprobe_ok": true,
+    "duration_seconds": 8694.282,
+    "container": "mp3",
+    "audio_codec": "mp3",
+    "sample_rate": 44100,
+    "channels": 2,
+    "bit_rate": 64000,
+    "size_bytes": 69554640
+  }
+}
