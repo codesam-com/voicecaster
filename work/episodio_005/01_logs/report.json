@@ -1,25 +1,91 @@
 {
   "episode_id": "episodio_005",
-  "workflow": "intake",
-  "started_at": "2026-03-30T01:32:37Z",
-  "finished_at": "2026-03-30T01:32:41Z",
+  "workflow": "transcription",
+  "started_at": "2026-03-31T12:18:23Z",
+  "finished_at": "2026-03-31T14:14:48Z",
   "result": "success",
   "notes": [
-    "Audio descargado, validado y limpiado."
+    "Audio redescargado, preprocesado, transcrito y limpiado."
   ],
   "source": {
     "url_original": "https://drive.google.com/uc?export=download&id=16PFiu6KRe6jqfqhOVOUIHsKA6vBbU8eD",
     "url_normalized": "https://drive.google.com/uc?export=download&id=16PFiu6KRe6jqfqhOVOUIHsKA6vBbU8eD",
-    "source_type": "google_drive"
+    "source_type": "google_drive",
+    "drive_file_id": "16PFiu6KRe6jqfqhOVOUIHsKA6vBbU8eD"
   },
   "audio": {
     "ffprobe_ok": true,
-    "duration_seconds": 8694.282,
+    "duration_seconds": 8694.282449,
     "container": "mp3",
     "audio_codec": "mp3",
     "sample_rate": 44100,
     "channels": 2,
     "bit_rate": 64000,
-    "size_bytes": 69554640
+    "size_bytes": 69554640,
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "mp3",
+        "codec_long_name": "MP3 (MPEG audio layer 3)",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/14112000",
+        "start_pts": 353600,
+        "start_time": "0.025057",
+        "duration_ts": 122693713920,
+        "duration": "8694.282449",
+        "bit_rate": "64000",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        }
+      }
+    ]
+  },
+  "preprocessing": {
+    "source_audio_valid": true,
+    "source_duration_seconds": 8694.257375,
+    "normalized_audio_created": true,
+    "target_sample_rate": 16000,
+    "target_channels": 1,
+    "target_format": "wav/pcm_s16le",
+    "ffprobe_ok_after_preprocessing": true
+  },
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "turbo",
+    "language": "es",
+    "duration_seconds": 8694.257375,
+    "language_probability": 0.9988924860954285,
+    "num_segments": 7627,
+    "num_characters": 138565,
+    "srt_generated": true,
+    "txt_generated": true,
+    "segments_generated": true
   }
 }

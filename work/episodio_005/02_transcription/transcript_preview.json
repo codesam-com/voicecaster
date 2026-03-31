@@ -1,0 +1,327 @@
+{
+  "episode_id": "episodio_005",
+  "language": "es",
+  "num_segments": 7627,
+  "first_segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.24,
+      "text": "Me gusta escuchar Coffee Break, pero he de decir que no tienen ni idea de teoría de",
+      "avg_logprob": -0.26889119762927294,
+      "compression_ratio": 1.3918918918918919,
+      "no_speech_prob": 1.2242633122550028e-11,
+      "words": [
+        {
+          "word": " Me",
+          "start": 0.0,
+          "end": 0.26,
+          "probability": 0.9473051428794861
+        },
+        {
+          "word": " gusta",
+          "start": 0.26,
+          "end": 0.5,
+          "probability": 0.9995647072792053
+        },
+        {
+          "word": " escuchar",
+          "start": 0.5,
+          "end": 0.92,
+          "probability": 0.9998894035816193
+        },
+        {
+          "word": " Coffee",
+          "start": 0.92,
+          "end": 1.16,
+          "probability": 0.976426362991333
+        },
+        {
+          "word": " Break,",
+          "start": 1.16,
+          "end": 1.48,
+          "probability": 0.9981405735015869
+        },
+        {
+          "word": " pero",
+          "start": 1.68,
+          "end": 1.88,
+          "probability": 0.9996148347854614
+        },
+        {
+          "word": " he",
+          "start": 1.88,
+          "end": 2.04,
+          "probability": 0.9996707439422607
+        },
+        {
+          "word": " de",
+          "start": 2.04,
+          "end": 2.12,
+          "probability": 0.9999781847000122
+        },
+        {
+          "word": " decir",
+          "start": 2.12,
+          "end": 2.36,
+          "probability": 0.9999525547027588
+        },
+        {
+          "word": " que",
+          "start": 2.36,
+          "end": 2.5,
+          "probability": 0.9999020099639893
+        },
+        {
+          "word": " no",
+          "start": 2.5,
+          "end": 2.6,
+          "probability": 0.9999349117279053
+        },
+        {
+          "word": " tienen",
+          "start": 2.6,
+          "end": 2.84,
+          "probability": 0.9964585900306702
+        },
+        {
+          "word": " ni",
+          "start": 2.84,
+          "end": 3.14,
+          "probability": 0.9996962547302246
+        },
+        {
+          "word": " idea",
+          "start": 3.14,
+          "end": 3.54,
+          "probability": 0.9999737739562988
+        },
+        {
+          "word": " de",
+          "start": 3.54,
+          "end": 3.7,
+          "probability": 0.9998350143432617
+        },
+        {
+          "word": " teoría",
+          "start": 3.7,
+          "end": 4.1,
+          "probability": 0.9988558292388916
+        },
+        {
+          "word": " de",
+          "start": 4.1,
+          "end": 4.24,
+          "probability": 0.9999330043792725
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "start": 4.24,
+      "end": 10.24,
+      "text": "cuerdas. Y sus hipótesis sobre la estrella de Tabby son completamente ridículas. ¡Sasen",
+      "avg_logprob": -0.26889119762927294,
+      "compression_ratio": 1.3918918918918919,
+      "no_speech_prob": 1.2242633122550028e-11,
+      "words": [
+        {
+          "word": " cuerdas.",
+          "start": 4.24,
+          "end": 4.74,
+          "probability": 0.9985436002413431
+        },
+        {
+          "word": " Y",
+          "start": 5.06,
+          "end": 5.62,
+          "probability": 0.997686505317688
+        },
+        {
+          "word": " sus",
+          "start": 5.62,
+          "end": 5.82,
+          "probability": 0.999863862991333
+        },
+        {
+          "word": " hipótesis",
+          "start": 5.82,
+          "end": 6.3,
+          "probability": 0.9998938292264938
+        },
+        {
+          "word": " sobre",
+          "start": 6.3,
+          "end": 6.5,
+          "probability": 0.999935507774353
+        },
+        {
+          "word": " la",
+          "start": 6.5,
+          "end": 6.64,
+          "probability": 0.9998728036880493
+        },
+        {
+          "word": " estrella",
+          "start": 6.64,
+          "end": 6.98,
+          "probability": 0.999450147151947
+        },
+        {
+          "word": " de",
+          "start": 6.98,
+          "end": 7.1,
+          "probability": 0.9998985528945923
+        },
+        {
+          "word": " Tabby",
+          "start": 7.1,
+          "end": 7.38,
+          "probability": 0.660745233297348
+        },
+        {
+          "word": " son",
+          "start": 7.38,
+          "end": 7.58,
+          "probability": 0.9995879530906677
+        },
+        {
+          "word": " completamente",
+          "start": 7.58,
+          "end": 8.26,
+          "probability": 0.9997662901878357
+        },
+        {
+          "word": " ridículas.",
+          "start": 8.26,
+          "end": 9.22,
+          "probability": 0.9993670980135599
+        },
+        {
+          "word": " ¡Sasen",
+          "start": 9.76,
+          "end": 10.24,
+          "probability": 0.7064793109893799
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 10.24,
+      "end": 10.78,
+      "text": "toda la boca!",
+      "avg_logprob": -0.26889119762927294,
+      "compression_ratio": 1.3918918918918919,
+      "no_speech_prob": 1.2242633122550028e-11,
+      "words": [
+        {
+          "word": " toda",
+          "start": 10.24,
+          "end": 10.4,
+          "probability": 0.9571425914764404
+        },
+        {
+          "word": " la",
+          "start": 10.4,
+          "end": 10.54,
+          "probability": 0.9999721050262451
+        },
+        {
+          "word": " boca!",
+          "start": 10.54,
+          "end": 10.78,
+          "probability": 0.9997890591621399
+        }
+      ]
+    }
+  ],
+  "last_segments": [
+    {
+      "id": 7624,
+      "start": 8633.470000000001,
+      "end": 8636.29,
+      "text": "¡Suscríbete al canal!",
+      "avg_logprob": -0.3139762555559476,
+      "compression_ratio": 0.7419354838709677,
+      "no_speech_prob": 1.3078341187799936e-10,
+      "words": [
+        {
+          "word": " ¡Suscríbete",
+          "start": 8633.470000000001,
+          "end": 8634.87,
+          "probability": 0.7163001528630654
+        },
+        {
+          "word": " al",
+          "start": 8634.87,
+          "end": 8636.27,
+          "probability": 0.8933741450309753
+        },
+        {
+          "word": " canal!",
+          "start": 8636.27,
+          "end": 8636.29,
+          "probability": 0.9958069324493408
+        }
+      ]
+    },
+    {
+      "id": 7625,
+      "start": 8666.33,
+      "end": 8669.13,
+      "text": "¡Suscríbete al canal!",
+      "avg_logprob": -0.24112932135661444,
+      "compression_ratio": 0.7419354838709677,
+      "no_speech_prob": 1.6117196466325368e-10,
+      "words": [
+        {
+          "word": " ¡Suscríbete",
+          "start": 8666.33,
+          "end": 8667.73,
+          "probability": 0.7125600278377533
+        },
+        {
+          "word": " al",
+          "start": 8667.73,
+          "end": 8669.13,
+          "probability": 0.9007675647735596
+        },
+        {
+          "word": " canal!",
+          "start": 8669.13,
+          "end": 8669.13,
+          "probability": 0.9946750402450562
+        }
+      ]
+    },
+    {
+      "id": 7626,
+      "start": 8691.01,
+      "end": 8693.83,
+      "text": "¡Suscríbete al canal!",
+      "avg_logprob": -0.2346461887160937,
+      "compression_ratio": 0.7419354838709677,
+      "no_speech_prob": 1.6669041147387986e-10,
+      "words": [
+        {
+          "word": " ¡Suscríbete",
+          "start": 8691.01,
+          "end": 8692.41,
+          "probability": 0.711237051213781
+        },
+        {
+          "word": " al",
+          "start": 8692.41,
+          "end": 8693.81,
+          "probability": 0.8883334994316101
+        },
+        {
+          "word": " canal!",
+          "start": 8693.81,
+          "end": 8693.83,
+          "probability": 0.9944226145744324
+        }
+      ]
+    }
+  ]
+}
