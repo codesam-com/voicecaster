@@ -1,5 +1,3 @@
-# src/voicecaster/transcription/run.py
-
 from __future__ import annotations
 
 import json
@@ -8,7 +6,6 @@ import shutil
 import subprocess
 import traceback
 import urllib.error
-import urllib.parse
 import urllib.request
 from dataclasses import dataclass
 from datetime import UTC, datetime
@@ -27,6 +24,21 @@ DEFAULT_MODEL = os.getenv("VOICECASTER_ASR_MODEL", "turbo")
 DEFAULT_ENGINE = os.getenv("VOICECASTER_ASR_ENGINE", "faster-whisper")
 DEFAULT_LANGUAGE = os.getenv("VOICECASTER_ASR_LANGUAGE") or None
 DEFAULT_SAMPLE_RATE = int(os.getenv("VOICECASTER_ASR_SAMPLE_RATE", "16000"))
+
+DEFAULT_BEAM_SIZE = int(os.getenv("VOICECASTER_ASR_BEAM_SIZE", "5"))
+DEFAULT_BEST_OF = int(os.getenv("VOICECASTER_ASR_BEST_OF", "5"))
+DEFAULT_TEMPERATURE = float(os.getenv("VOICECASTER_ASR_TEMPERATURE", "0.0"))
+DEFAULT_LOGPROB_THRESHOLD = float(os.getenv("VOICECASTER_ASR_LOGPROB_THRESHOLD", "-0.8"))
+DEFAULT_NO_SPEECH_THRESHOLD = float(os.getenv("VOICECASTER_ASR_NO_SPEECH_THRESHOLD", "0.5"))
+DEFAULT_COMPRESSION_RATIO_THRESHOLD = float(
+    os.getenv("VOICECASTER_ASR_COMPRESSION_RATIO_THRESHOLD", "2.0")
+)
+
+DEFAULT_VAD_FILTER = os.getenv("VOICECASTER_ASR_VAD_FILTER", "true").lower() == "true"
+DEFAULT_VAD_MIN_SILENCE_MS = int(
+    os.getenv("VOICECASTER_ASR_VAD_MIN_SILENCE_MS", "500")
+)
+
 HTTP_TIMEOUT_SECONDS = int(os.getenv("VOICECASTER_HTTP_TIMEOUT_SECONDS", "120"))
 USER_AGENT = os.getenv(
     "VOICECASTER_HTTP_USER_AGENT",
@@ -203,11 +215,21 @@ def load_json(path: Path) -> dict[str, Any]:
 def ensure_readme(workspace: EpisodeWorkspace) -> None:
     if workspace.readme_path.exists():
         return
-    content = """# Work directory\n\nThis folder stores the auditable working state for one episode.\n\n- `00_intake/` contains intake outputs.\n- `01_logs/` contains structured logs and reports.\n- `02_transcription/` contains transcription outputs.\n- `99_temp/` contains only temporary files during the active run.\n"""
+    content = """# Work directory
+
+This folder stores the auditable working state for one episode.
+
+- `00_intake/` contains intake outputs.
+- `01_logs/` contains structured logs and reports.
+- `02_transcription/` contains transcription outputs.
+- `99_temp/` contains only temporary files during the active run.
+"""
     workspace.readme_path.write_text(content, encoding="utf-8")
 
 
-def load_intake_context(ctx: WorkflowContext) -> tuple[dict[str, Any], dict[str, Any], dict[str, Any]]:
+def load_intake_context(
+    ctx: WorkflowContext,
+) -> tuple[dict[str, Any], dict[str, Any], dict[str, Any]]:
     request = load_json(ctx.workspace.intake_dir / "request.json")
     normalized_source = load_json(ctx.workspace.intake_dir / "normalized_source.json")
     source_metadata = load_json(ctx.workspace.intake_dir / "source_metadata.json")
@@ -330,7 +352,14 @@ def preprocess_audio(source_audio: Path, normalized_audio: Path) -> dict[str, An
 
 
 def build_initial_prompt(episode: dict[str, Any]) -> str:
-    parts: list[str] = []
+    parts: list[str] = [
+        (
+            "Este es un podcast en español. "
+            "Transcribe con precisión literal, respetando nombres propios, términos técnicos y puntuación. "
+            "No inventes contenido ni reformules."
+        )
+    ]
+
     podcast_title = episode.get("podcast_title")
     episode_title = episode.get("episode_title")
     topics = episode.get("topics")
@@ -350,7 +379,10 @@ def build_initial_prompt(episode: dict[str, Any]) -> str:
     return " ".join(parts).strip()
 
 
-def transcribe_with_faster_whisper(audio_path: Path, episode: dict[str, Any]) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+def transcribe_with_faster_whisper(
+    audio_path: Path,
+    episode: dict[str, Any],
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     try:
         from faster_whisper import WhisperModel
     except ImportError as exc:
@@ -360,15 +392,21 @@ def transcribe_with_faster_whisper(audio_path: Path, episode: dict[str, Any]) ->
 
     model = WhisperModel(DEFAULT_MODEL)
     prompt = build_initial_prompt(episode) or None
+
     segments, info = model.transcribe(
         str(audio_path),
         language=DEFAULT_LANGUAGE,
         word_timestamps=True,
         condition_on_previous_text=True,
         initial_prompt=prompt,
-        compression_ratio_threshold=2.4,
-        log_prob_threshold=-1.0,
-        no_speech_threshold=0.6,
+        beam_size=DEFAULT_BEAM_SIZE,
+        best_of=DEFAULT_BEST_OF,
+        temperature=DEFAULT_TEMPERATURE,
+        compression_ratio_threshold=DEFAULT_COMPRESSION_RATIO_THRESHOLD,
+        log_prob_threshold=DEFAULT_LOGPROB_THRESHOLD,
+        no_speech_threshold=DEFAULT_NO_SPEECH_THRESHOLD,
+        vad_filter=DEFAULT_VAD_FILTER,
+        vad_parameters={"min_silence_duration_ms": DEFAULT_VAD_MIN_SILENCE_MS},
     )
 
     serialized_segments: list[dict[str, Any]] = []
@@ -411,7 +449,10 @@ def transcribe_with_faster_whisper(audio_path: Path, episode: dict[str, Any]) ->
     return serialized_segments, info_payload
 
 
-def transcribe_with_openai_whisper(audio_path: Path, episode: dict[str, Any]) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+def transcribe_with_openai_whisper(
+    audio_path: Path,
+    episode: dict[str, Any],
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     try:
         import whisper
     except ImportError as exc:
@@ -426,11 +467,15 @@ def transcribe_with_openai_whisper(audio_path: Path, episode: dict[str, Any]) ->
         word_timestamps=True,
         condition_on_previous_text=True,
         initial_prompt=build_initial_prompt(episode) or None,
-        compression_ratio_threshold=2.4,
-        logprob_threshold=-1.0,
-        no_speech_threshold=0.6,
+        beam_size=DEFAULT_BEAM_SIZE,
+        best_of=DEFAULT_BEST_OF,
+        temperature=DEFAULT_TEMPERATURE,
+        compression_ratio_threshold=DEFAULT_COMPRESSION_RATIO_THRESHOLD,
+        logprob_threshold=DEFAULT_LOGPROB_THRESHOLD,
+        no_speech_threshold=DEFAULT_NO_SPEECH_THRESHOLD,
         verbose=False,
     )
+
     segments_in = result.get("segments") or []
     segments_out: list[dict[str, Any]] = []
     for segment in segments_in:
@@ -446,6 +491,7 @@ def transcribe_with_openai_whisper(audio_path: Path, episode: dict[str, Any]) ->
         if "words" in segment:
             item["words"] = segment["words"]
         segments_out.append(item)
+
     info_payload = {
         "engine": "openai-whisper",
         "model": DEFAULT_MODEL,
@@ -472,7 +518,11 @@ def format_srt_timestamp(seconds: float) -> str:
     return f"{hours:02}:{minutes:02}:{secs:02},{millis:03}"
 
 
-def write_transcript_outputs(ctx: WorkflowContext, segments: list[dict[str, Any]], info: dict[str, Any]) -> None:
+def write_transcript_outputs(
+    ctx: WorkflowContext,
+    segments: list[dict[str, Any]],
+    info: dict[str, Any],
+) -> None:
     txt_path = ctx.workspace.transcription_dir / "full_transcript.txt"
     srt_path = ctx.workspace.transcription_dir / "full_transcript.srt"
     segments_path = ctx.workspace.transcription_dir / "transcript_segments.json"
@@ -515,6 +565,14 @@ def write_transcript_outputs(ctx: WorkflowContext, segments: list[dict[str, Any]
         "srt_generated": True,
         "txt_generated": True,
         "segments_generated": True,
+        "beam_size": DEFAULT_BEAM_SIZE,
+        "best_of": DEFAULT_BEST_OF,
+        "temperature": DEFAULT_TEMPERATURE,
+        "vad_filter": DEFAULT_VAD_FILTER,
+        "vad_min_silence_duration_ms": DEFAULT_VAD_MIN_SILENCE_MS,
+        "compression_ratio_threshold": DEFAULT_COMPRESSION_RATIO_THRESHOLD,
+        "logprob_threshold": DEFAULT_LOGPROB_THRESHOLD,
+        "no_speech_threshold": DEFAULT_NO_SPEECH_THRESHOLD,
     }
     write_json(ctx.workspace.transcription_dir / "transcription_metadata.json", ctx.transcription_info)
 
@@ -551,7 +609,13 @@ def validate_outputs(ctx: WorkflowContext) -> None:
         raise ContentError("full_transcript.srt is not parseable.")
 
 
-def update_episode_status(data: list[dict[str, Any]], selection: EpisodeSelection, *, status: str, retries: int) -> None:
+def update_episode_status(
+    data: list[dict[str, Any]],
+    selection: EpisodeSelection,
+    *,
+    status: str,
+    retries: int,
+) -> None:
     data[selection.index]["status"] = status
     data[selection.index]["retries"] = retries
     save_inputs(data)
@@ -592,6 +656,8 @@ def main() -> int:
 
     try:
         request_json, normalized_source, source_metadata = load_intake_context(ctx)
+        _ = source_metadata  # explicit: context presence matters, even if not yet reused further
+
         ctx.source_info = {
             "url_original": normalized_source.get("url_original") or request_json.get("url"),
             "url_normalized": normalized_source.get("url_normalized") or request_json.get("url"),
@@ -636,7 +702,11 @@ def main() -> int:
         ctx.write_status(status=TARGET_STATUS, current_step="run_transcription", result="running")
         segments, info = transcribe_audio(normalized_audio_path, selection.episode)
         write_transcript_outputs(ctx, segments, info)
-        ctx.log_event("transcription_generated", num_segments=len(segments), language=info.get("language"))
+        ctx.log_event(
+            "transcription_generated",
+            num_segments=len(segments),
+            language=info.get("language"),
+        )
 
         ctx.write_status(status=TARGET_STATUS, current_step="validate_outputs", result="running")
         validate_outputs(ctx)
