@@ -1,0 +1,9 @@
+{
+  "episode_id": "episodio_002",
+  "podcast_title": "Nombre del podcast",
+  "episode_title": "Título del episodio",
+  "url": "https://drive.google.com/uc?export=download&id=1A4AjcUrZR8TN8vqvOvU-GB97jZpnQaRZ",
+  "status_before": "transcript",
+  "retries_before": 0,
+  "requested_at": "2026-03-31T19:41:21Z"
+}
