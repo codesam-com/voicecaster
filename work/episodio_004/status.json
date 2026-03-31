@@ -1,9 +1,0 @@
-{
-  "episode_id": "episodio_004",
-  "workflow": "transcription",
-  "status": "diarization",
-  "current_step": "cleanup",
-  "started_at": "2026-03-31T12:14:26Z",
-  "finished_at": "2026-03-31T12:16:54Z",
-  "result": "success"
-}

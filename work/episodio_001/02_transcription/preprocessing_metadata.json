@@ -1,9 +1,0 @@
-{
-  "source_audio_valid": true,
-  "source_duration_seconds": 127.0215,
-  "normalized_audio_created": true,
-  "target_sample_rate": 16000,
-  "target_channels": 1,
-  "target_format": "wav/pcm_s16le",
-  "ffprobe_ok_after_preprocessing": true
-}
