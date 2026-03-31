@@ -1,0 +1,2659 @@
+[
+  {
+    "id": 0,
+    "start": 0.0,
+    "end": 10.08,
+    "text": "Y que ese giro sobre sí mismo era... O sea, la órbita era el momento angular orbital y el giro sobre sí mismo era el spin. Es lo que yo tenía entendido, ¿no? Porque claro, cuando tiene una carga de movimiento...",
+    "avg_logprob": -0.180482333847161,
+    "compression_ratio": 1.4210526315789473,
+    "no_speech_prob": 1.1075728875709068e-11,
+    "words": [
+      {
+        "word": " Y",
+        "start": 0.0,
+        "end": 0.74,
+        "probability": 0.3003683388233185
+      },
+      {
+        "word": " que",
+        "start": 0.74,
+        "end": 0.96,
+        "probability": 0.9940955638885498
+      },
+      {
+        "word": " ese",
+        "start": 0.96,
+        "end": 2.0,
+        "probability": 0.9447854161262512
+      },
+      {
+        "word": " giro",
+        "start": 2.0,
+        "end": 2.22,
+        "probability": 0.9995415806770325
+      },
+      {
+        "word": " sobre",
+        "start": 2.22,
+        "end": 2.4,
+        "probability": 0.9970735311508179
+      },
+      {
+        "word": " sí",
+        "start": 2.4,
+        "end": 2.54,
+        "probability": 0.9983116388320923
+      },
+      {
+        "word": " mismo",
+        "start": 2.54,
+        "end": 2.78,
+        "probability": 0.9995099306106567
+      },
+      {
+        "word": " era...",
+        "start": 2.78,
+        "end": 3.08,
+        "probability": 0.7577010095119476
+      },
+      {
+        "word": " O",
+        "start": 3.08,
+        "end": 3.28,
+        "probability": 0.8306163549423218
+      },
+      {
+        "word": " sea,",
+        "start": 3.28,
+        "end": 3.34,
+        "probability": 0.9995443224906921
+      },
+      {
+        "word": " la",
+        "start": 3.44,
+        "end": 3.6,
+        "probability": 0.9850159883499146
+      },
+      {
+        "word": " órbita",
+        "start": 3.6,
+        "end": 3.98,
+        "probability": 0.9997212688128153
+      },
+      {
+        "word": " era",
+        "start": 3.98,
+        "end": 4.12,
+        "probability": 0.9989022016525269
+      },
+      {
+        "word": " el",
+        "start": 4.12,
+        "end": 4.24,
+        "probability": 0.9996029734611511
+      },
+      {
+        "word": " momento",
+        "start": 4.24,
+        "end": 4.48,
+        "probability": 0.9992551207542419
+      },
+      {
+        "word": " angular",
+        "start": 4.48,
+        "end": 4.78,
+        "probability": 0.9997416138648987
+      },
+      {
+        "word": " orbital",
+        "start": 4.78,
+        "end": 5.1,
+        "probability": 0.9980517625808716
+      },
+      {
+        "word": " y",
+        "start": 5.1,
+        "end": 5.42,
+        "probability": 0.934614360332489
+      },
+      {
+        "word": " el",
+        "start": 5.42,
+        "end": 5.52,
+        "probability": 0.9999306201934814
+      },
+      {
+        "word": " giro",
+        "start": 5.52,
+        "end": 5.72,
+        "probability": 0.9999698400497437
+      },
+      {
+        "word": " sobre",
+        "start": 5.72,
+        "end": 5.9,
+        "probability": 0.9999717473983765
+      },
+      {
+        "word": " sí",
+        "start": 5.9,
+        "end": 6.06,
+        "probability": 0.999937891960144
+      },
+      {
+        "word": " mismo",
+        "start": 6.06,
+        "end": 6.26,
+        "probability": 0.999772846698761
+      },
+      {
+        "word": " era",
+        "start": 6.26,
+        "end": 6.44,
+        "probability": 0.9998774528503418
+      },
+      {
+        "word": " el",
+        "start": 6.44,
+        "end": 6.58,
+        "probability": 0.999806821346283
+      },
+      {
+        "word": " spin.",
+        "start": 6.58,
+        "end": 6.84,
+        "probability": 0.9935309290885925
+      },
+      {
+        "word": " Es",
+        "start": 7.06,
+        "end": 7.44,
+        "probability": 0.9981027245521545
+      },
+      {
+        "word": " lo",
+        "start": 7.44,
+        "end": 7.52,
+        "probability": 0.9999328851699829
+      },
+      {
+        "word": " que",
+        "start": 7.52,
+        "end": 7.58,
+        "probability": 0.9999940395355225
+      },
+      {
+        "word": " yo",
+        "start": 7.58,
+        "end": 7.66,
+        "probability": 0.9999542236328125
+      },
+      {
+        "word": " tenía",
+        "start": 7.66,
+        "end": 7.82,
+        "probability": 0.9998857975006104
+      },
+      {
+        "word": " entendido,",
+        "start": 7.82,
+        "end": 8.28,
+        "probability": 0.9999457001686096
+      },
+      {
+        "word": " ¿no?",
+        "start": 8.36,
+        "end": 8.4,
+        "probability": 0.9536556899547577
+      },
+      {
+        "word": " Porque",
+        "start": 8.48,
+        "end": 8.68,
+        "probability": 0.9430609345436096
+      },
+      {
+        "word": " claro,",
+        "start": 8.68,
+        "end": 8.86,
+        "probability": 0.6749675273895264
+      },
+      {
+        "word": " cuando",
+        "start": 8.94,
+        "end": 9.06,
+        "probability": 0.9990308284759521
+      },
+      {
+        "word": " tiene",
+        "start": 9.06,
+        "end": 9.3,
+        "probability": 0.4856673777103424
+      },
+      {
+        "word": " una",
+        "start": 9.3,
+        "end": 9.5,
+        "probability": 0.9968024492263794
+      },
+      {
+        "word": " carga",
+        "start": 9.5,
+        "end": 9.7,
+        "probability": 0.9988137483596802
+      },
+      {
+        "word": " de",
+        "start": 9.7,
+        "end": 9.78,
+        "probability": 0.45181599259376526
+      },
+      {
+        "word": " movimiento...",
+        "start": 9.78,
+        "end": 10.08,
+        "probability": 0.9981912076473236
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "start": 10.08,
+    "end": 31.0,
+    "text": "Eso, que si es verdad, que tienes razón, que históricamente es verdad, es como se entendía el spin por algunos físicos alrededor del año 1924. Pero eso dejó de ser verdad en 1927. Y dejó de ser absolutamente verdad y se convirtió en una absoluta mentira en 1928, con la ocasión de Dirac, ¿vale?",
+    "avg_logprob": -0.10970287150647266,
+    "compression_ratio": 1.5124378109452736,
+    "no_speech_prob": 4.495255296471656e-12,
+    "words": [
+      {
+        "word": " Eso,",
+        "start": 10.08,
+        "end": 10.2,
+        "probability": 0.4874425232410431
+      },
+      {
+        "word": " que",
+        "start": 10.22,
+        "end": 10.7,
+        "probability": 0.9286121726036072
+      },
+      {
+        "word": " si",
+        "start": 10.7,
+        "end": 10.88,
+        "probability": 0.6641727685928345
+      },
+      {
+        "word": " es",
+        "start": 10.88,
+        "end": 10.96,
+        "probability": 0.9997684359550476
+      },
+      {
+        "word": " verdad,",
+        "start": 10.96,
+        "end": 11.12,
+        "probability": 0.9998623132705688
+      },
+      {
+        "word": " que",
+        "start": 11.2,
+        "end": 11.24,
+        "probability": 0.9956539869308472
+      },
+      {
+        "word": " tienes",
+        "start": 11.24,
+        "end": 11.38,
+        "probability": 0.9779892563819885
+      },
+      {
+        "word": " razón,",
+        "start": 11.38,
+        "end": 11.68,
+        "probability": 0.9999414682388306
+      },
+      {
+        "word": " que",
+        "start": 11.78,
+        "end": 11.82,
+        "probability": 0.9967490434646606
+      },
+      {
+        "word": " históricamente",
+        "start": 11.82,
+        "end": 12.28,
+        "probability": 0.9996762871742249
+      },
+      {
+        "word": " es",
+        "start": 12.28,
+        "end": 12.44,
+        "probability": 0.9995636343955994
+      },
+      {
+        "word": " verdad,",
+        "start": 12.44,
+        "end": 12.6,
+        "probability": 0.9998764991760254
+      },
+      {
+        "word": " es",
+        "start": 13.0,
+        "end": 13.12,
+        "probability": 0.9996860027313232
+      },
+      {
+        "word": " como",
+        "start": 13.12,
+        "end": 13.32,
+        "probability": 0.7645981311798096
+      },
+      {
+        "word": " se",
+        "start": 13.32,
+        "end": 13.52,
+        "probability": 0.9998661279678345
+      },
+      {
+        "word": " entendía",
+        "start": 13.52,
+        "end": 14.06,
+        "probability": 0.999919593334198
+      },
+      {
+        "word": " el",
+        "start": 14.06,
+        "end": 14.24,
+        "probability": 0.990527868270874
+      },
+      {
+        "word": " spin",
+        "start": 14.24,
+        "end": 14.6,
+        "probability": 0.9631522297859192
+      },
+      {
+        "word": " por",
+        "start": 14.6,
+        "end": 15.14,
+        "probability": 0.9155822992324829
+      },
+      {
+        "word": " algunos",
+        "start": 15.14,
+        "end": 15.64,
+        "probability": 0.9998261332511902
+      },
+      {
+        "word": " físicos",
+        "start": 15.64,
+        "end": 16.54,
+        "probability": 0.9998821914196014
+      },
+      {
+        "word": " alrededor",
+        "start": 16.54,
+        "end": 17.08,
+        "probability": 0.9967048764228821
+      },
+      {
+        "word": " del",
+        "start": 17.08,
+        "end": 17.28,
+        "probability": 0.9999812841415405
+      },
+      {
+        "word": " año",
+        "start": 17.28,
+        "end": 17.46,
+        "probability": 0.9999635219573975
+      },
+      {
+        "word": " 1924.",
+        "start": 17.46,
+        "end": 18.88,
+        "probability": 0.998195469379425
+      },
+      {
+        "word": " Pero",
+        "start": 19.36,
+        "end": 19.76,
+        "probability": 0.9106482267379761
+      },
+      {
+        "word": " eso",
+        "start": 19.76,
+        "end": 19.86,
+        "probability": 0.9999074935913086
+      },
+      {
+        "word": " dejó",
+        "start": 19.86,
+        "end": 20.36,
+        "probability": 0.9998908936977386
+      },
+      {
+        "word": " de",
+        "start": 20.36,
+        "end": 20.5,
+        "probability": 0.9999752044677734
+      },
+      {
+        "word": " ser",
+        "start": 20.5,
+        "end": 20.74,
+        "probability": 0.9999799728393555
+      },
+      {
+        "word": " verdad",
+        "start": 20.74,
+        "end": 21.2,
+        "probability": 0.9998214840888977
+      },
+      {
+        "word": " en",
+        "start": 21.2,
+        "end": 21.82,
+        "probability": 0.999671459197998
+      },
+      {
+        "word": " 1927.",
+        "start": 21.82,
+        "end": 23.22,
+        "probability": 0.9995379745960236
+      },
+      {
+        "word": " Y",
+        "start": 24.0,
+        "end": 24.4,
+        "probability": 0.9972904920578003
+      },
+      {
+        "word": " dejó",
+        "start": 24.4,
+        "end": 25.12,
+        "probability": 0.999650239944458
+      },
+      {
+        "word": " de",
+        "start": 25.12,
+        "end": 25.22,
+        "probability": 0.999993085861206
+      },
+      {
+        "word": " ser",
+        "start": 25.22,
+        "end": 25.4,
+        "probability": 0.9999911785125732
+      },
+      {
+        "word": " absolutamente",
+        "start": 25.4,
+        "end": 26.28,
+        "probability": 0.9997542500495911
+      },
+      {
+        "word": " verdad",
+        "start": 26.28,
+        "end": 26.76,
+        "probability": 0.9997805953025818
+      },
+      {
+        "word": " y",
+        "start": 26.76,
+        "end": 26.88,
+        "probability": 0.7683354616165161
+      },
+      {
+        "word": " se",
+        "start": 26.88,
+        "end": 26.98,
+        "probability": 0.9999672174453735
+      },
+      {
+        "word": " convirtió",
+        "start": 26.98,
+        "end": 27.32,
+        "probability": 0.9993257323900858
+      },
+      {
+        "word": " en",
+        "start": 27.32,
+        "end": 27.42,
+        "probability": 0.9975321292877197
+      },
+      {
+        "word": " una",
+        "start": 27.42,
+        "end": 27.5,
+        "probability": 0.957600474357605
+      },
+      {
+        "word": " absoluta",
+        "start": 27.5,
+        "end": 27.9,
+        "probability": 0.9958922863006592
+      },
+      {
+        "word": " mentira",
+        "start": 27.9,
+        "end": 28.24,
+        "probability": 0.9998748302459717
+      },
+      {
+        "word": " en",
+        "start": 28.24,
+        "end": 28.66,
+        "probability": 0.9995156526565552
+      },
+      {
+        "word": " 1928,",
+        "start": 28.66,
+        "end": 29.68,
+        "probability": 0.9995937645435333
+      },
+      {
+        "word": " con",
+        "start": 29.82,
+        "end": 29.86,
+        "probability": 0.9539377689361572
+      },
+      {
+        "word": " la",
+        "start": 29.86,
+        "end": 29.92,
+        "probability": 0.9797840118408203
+      },
+      {
+        "word": " ocasión",
+        "start": 29.92,
+        "end": 30.1,
+        "probability": 0.988135576248169
+      },
+      {
+        "word": " de",
+        "start": 30.1,
+        "end": 30.2,
+        "probability": 0.9963629841804504
+      },
+      {
+        "word": " Dirac,",
+        "start": 30.2,
+        "end": 30.46,
+        "probability": 0.32444749772548676
+      },
+      {
+        "word": " ¿vale?",
+        "start": 30.86,
+        "end": 31.0,
+        "probability": 0.9990403950214386
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "start": 31.0,
+    "end": 42.86,
+    "text": "Lo que pasa es que la gente lo sigue contando. La gente sigue contando lo que era verdad en 1924 y dejó de ser verdad en 1928 porque aparentemente el público general lo entiende.",
+    "avg_logprob": -0.08704767577971022,
+    "compression_ratio": 1.4285714285714286,
+    "no_speech_prob": 8.698342393587133e-12,
+    "words": [
+      {
+        "word": " Lo",
+        "start": 31.0,
+        "end": 31.44,
+        "probability": 0.863185703754425
+      },
+      {
+        "word": " que",
+        "start": 31.44,
+        "end": 31.52,
+        "probability": 0.9999698400497437
+      },
+      {
+        "word": " pasa",
+        "start": 31.52,
+        "end": 31.66,
+        "probability": 0.9999477863311768
+      },
+      {
+        "word": " es",
+        "start": 31.66,
+        "end": 31.78,
+        "probability": 0.9993407130241394
+      },
+      {
+        "word": " que",
+        "start": 31.78,
+        "end": 31.86,
+        "probability": 0.9999959468841553
+      },
+      {
+        "word": " la",
+        "start": 31.86,
+        "end": 31.96,
+        "probability": 0.9999607801437378
+      },
+      {
+        "word": " gente",
+        "start": 31.96,
+        "end": 32.14,
+        "probability": 0.9999752044677734
+      },
+      {
+        "word": " lo",
+        "start": 32.14,
+        "end": 32.28,
+        "probability": 0.9931036829948425
+      },
+      {
+        "word": " sigue",
+        "start": 32.28,
+        "end": 32.44,
+        "probability": 0.9999616146087646
+      },
+      {
+        "word": " contando.",
+        "start": 32.44,
+        "end": 32.96,
+        "probability": 0.999947726726532
+      },
+      {
+        "word": " La",
+        "start": 33.38,
+        "end": 33.84,
+        "probability": 0.9955939650535583
+      },
+      {
+        "word": " gente",
+        "start": 33.84,
+        "end": 34.0,
+        "probability": 0.9999740123748779
+      },
+      {
+        "word": " sigue",
+        "start": 34.0,
+        "end": 34.2,
+        "probability": 0.9999468326568604
+      },
+      {
+        "word": " contando",
+        "start": 34.2,
+        "end": 34.78,
+        "probability": 0.999983549118042
+      },
+      {
+        "word": " lo",
+        "start": 34.78,
+        "end": 35.16,
+        "probability": 0.9962210059165955
+      },
+      {
+        "word": " que",
+        "start": 35.16,
+        "end": 35.3,
+        "probability": 0.9999948740005493
+      },
+      {
+        "word": " era",
+        "start": 35.3,
+        "end": 35.46,
+        "probability": 0.9999593496322632
+      },
+      {
+        "word": " verdad",
+        "start": 35.46,
+        "end": 35.76,
+        "probability": 0.9997828602790833
+      },
+      {
+        "word": " en",
+        "start": 35.76,
+        "end": 35.98,
+        "probability": 0.999756395816803
+      },
+      {
+        "word": " 1924",
+        "start": 35.98,
+        "end": 36.82,
+        "probability": 0.9989734292030334
+      },
+      {
+        "word": " y",
+        "start": 36.82,
+        "end": 37.34,
+        "probability": 0.982980489730835
+      },
+      {
+        "word": " dejó",
+        "start": 37.34,
+        "end": 37.7,
+        "probability": 0.9998662173748016
+      },
+      {
+        "word": " de",
+        "start": 37.7,
+        "end": 37.78,
+        "probability": 0.9983932375907898
+      },
+      {
+        "word": " ser",
+        "start": 37.78,
+        "end": 37.92,
+        "probability": 0.9996613264083862
+      },
+      {
+        "word": " verdad",
+        "start": 37.92,
+        "end": 38.14,
+        "probability": 0.9997174143791199
+      },
+      {
+        "word": " en",
+        "start": 38.14,
+        "end": 38.28,
+        "probability": 0.9997138381004333
+      },
+      {
+        "word": " 1928",
+        "start": 38.28,
+        "end": 39.02,
+        "probability": 0.9989307522773743
+      },
+      {
+        "word": " porque",
+        "start": 39.02,
+        "end": 39.62,
+        "probability": 0.8897363543510437
+      },
+      {
+        "word": " aparentemente",
+        "start": 39.62,
+        "end": 40.92,
+        "probability": 0.9231564601262411
+      },
+      {
+        "word": " el",
+        "start": 40.92,
+        "end": 41.16,
+        "probability": 0.9997020363807678
+      },
+      {
+        "word": " público",
+        "start": 41.16,
+        "end": 41.42,
+        "probability": 0.9997677206993103
+      },
+      {
+        "word": " general",
+        "start": 41.42,
+        "end": 41.84,
+        "probability": 0.9759159088134766
+      },
+      {
+        "word": " lo",
+        "start": 41.84,
+        "end": 42.46,
+        "probability": 0.999840259552002
+      },
+      {
+        "word": " entiende.",
+        "start": 42.46,
+        "end": 42.86,
+        "probability": 0.9999520182609558
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "start": 42.86,
+    "end": 44.26,
+    "text": "Hay un abuso del lenguaje.",
+    "avg_logprob": -0.11891407527104773,
+    "compression_ratio": 1.6288209606986899,
+    "no_speech_prob": 1.2268930663084099e-11,
+    "words": [
+      {
+        "word": " Hay",
+        "start": 42.86,
+        "end": 43.34,
+        "probability": 0.8944988250732422
+      },
+      {
+        "word": " un",
+        "start": 43.34,
+        "end": 43.46,
+        "probability": 0.9990027546882629
+      },
+      {
+        "word": " abuso",
+        "start": 43.46,
+        "end": 43.68,
+        "probability": 0.9973984956741333
+      },
+      {
+        "word": " del",
+        "start": 43.68,
+        "end": 43.84,
+        "probability": 0.6013962626457214
+      },
+      {
+        "word": " lenguaje.",
+        "start": 43.84,
+        "end": 44.26,
+        "probability": 0.9998562534650167
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "start": 44.5,
+    "end": 45.34,
+    "text": "Y también porque...",
+    "avg_logprob": -0.11891407527104773,
+    "compression_ratio": 1.6288209606986899,
+    "no_speech_prob": 1.2268930663084099e-11,
+    "words": [
+      {
+        "word": " Y",
+        "start": 44.5,
+        "end": 44.5,
+        "probability": 0.7477819323539734
+      },
+      {
+        "word": " también",
+        "start": 44.5,
+        "end": 44.7,
+        "probability": 0.9995527863502502
+      },
+      {
+        "word": " porque...",
+        "start": 44.7,
+        "end": 45.34,
+        "probability": 0.5766215100884438
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "start": 45.34,
+    "end": 46.78,
+    "text": "Sí, solamente quería decir que es el origen de la palabra.",
+    "avg_logprob": -0.11891407527104773,
+    "compression_ratio": 1.6288209606986899,
+    "no_speech_prob": 1.2268930663084099e-11,
+    "words": [
+      {
+        "word": " Sí,",
+        "start": 45.34,
+        "end": 45.46,
+        "probability": 0.4759126603603363
+      },
+      {
+        "word": " solamente",
+        "start": 45.46,
+        "end": 45.64,
+        "probability": 0.9983187913894653
+      },
+      {
+        "word": " quería",
+        "start": 45.64,
+        "end": 45.86,
+        "probability": 0.4967755675315857
+      },
+      {
+        "word": " decir",
+        "start": 45.86,
+        "end": 46.02,
+        "probability": 0.9997478127479553
+      },
+      {
+        "word": " que",
+        "start": 46.02,
+        "end": 46.1,
+        "probability": 0.9985910058021545
+      },
+      {
+        "word": " es",
+        "start": 46.1,
+        "end": 46.18,
+        "probability": 0.9938721656799316
+      },
+      {
+        "word": " el",
+        "start": 46.18,
+        "end": 46.24,
+        "probability": 0.9416245222091675
+      },
+      {
+        "word": " origen",
+        "start": 46.24,
+        "end": 46.52,
+        "probability": 0.9988693594932556
+      },
+      {
+        "word": " de",
+        "start": 46.52,
+        "end": 46.62,
+        "probability": 0.8141362071037292
+      },
+      {
+        "word": " la",
+        "start": 46.62,
+        "end": 46.68,
+        "probability": 0.958180844783783
+      },
+      {
+        "word": " palabra.",
+        "start": 46.68,
+        "end": 46.78,
+        "probability": 0.9727301597595215
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "start": 46.88,
+    "end": 61.44,
+    "text": "...cuadran cuando uno hace eso. O sea, haciendo ejercicios de física cuántica en la carrera, tú consideras el spin como un momento angular y lo sumas al momento angular orbital y todo esto, y toda la física se comporta como si el spin fuese un momento angular.",
+    "avg_logprob": -0.11891407527104773,
+    "compression_ratio": 1.6288209606986899,
+    "no_speech_prob": 1.2268930663084099e-11,
+    "words": [
+      {
+        "word": " ...cuadran",
+        "start": 46.88,
+        "end": 46.98,
+        "probability": 0.9263141453266144
+      },
+      {
+        "word": " cuando",
+        "start": 46.98,
+        "end": 47.26,
+        "probability": 0.9998195767402649
+      },
+      {
+        "word": " uno",
+        "start": 47.26,
+        "end": 47.42,
+        "probability": 0.9999585151672363
+      },
+      {
+        "word": " hace",
+        "start": 47.42,
+        "end": 47.62,
+        "probability": 0.9999579191207886
+      },
+      {
+        "word": " eso.",
+        "start": 47.62,
+        "end": 47.86,
+        "probability": 0.9999744892120361
+      },
+      {
+        "word": " O",
+        "start": 48.18,
+        "end": 48.26,
+        "probability": 0.9358824491500854
+      },
+      {
+        "word": " sea,",
+        "start": 48.26,
+        "end": 48.4,
+        "probability": 0.999704897403717
+      },
+      {
+        "word": " haciendo",
+        "start": 48.72,
+        "end": 49.28,
+        "probability": 0.9993584752082825
+      },
+      {
+        "word": " ejercicios",
+        "start": 49.28,
+        "end": 50.0,
+        "probability": 0.9997401535511017
+      },
+      {
+        "word": " de",
+        "start": 50.0,
+        "end": 50.12,
+        "probability": 0.9998123049736023
+      },
+      {
+        "word": " física",
+        "start": 50.12,
+        "end": 50.36,
+        "probability": 0.9919189810752869
+      },
+      {
+        "word": " cuántica",
+        "start": 50.36,
+        "end": 50.8,
+        "probability": 0.9998684823513031
+      },
+      {
+        "word": " en",
+        "start": 50.8,
+        "end": 50.98,
+        "probability": 0.9997784495353699
+      },
+      {
+        "word": " la",
+        "start": 50.98,
+        "end": 51.08,
+        "probability": 0.9999821186065674
+      },
+      {
+        "word": " carrera,",
+        "start": 51.08,
+        "end": 51.48,
+        "probability": 0.9999604821205139
+      },
+      {
+        "word": " tú",
+        "start": 51.6,
+        "end": 51.96,
+        "probability": 0.9984391331672668
+      },
+      {
+        "word": " consideras",
+        "start": 51.96,
+        "end": 52.58,
+        "probability": 0.999951183795929
+      },
+      {
+        "word": " el",
+        "start": 52.58,
+        "end": 52.72,
+        "probability": 0.9999595880508423
+      },
+      {
+        "word": " spin",
+        "start": 52.72,
+        "end": 53.02,
+        "probability": 0.9955794215202332
+      },
+      {
+        "word": " como",
+        "start": 53.02,
+        "end": 53.34,
+        "probability": 0.9998785257339478
+      },
+      {
+        "word": " un",
+        "start": 53.34,
+        "end": 53.5,
+        "probability": 0.9999852180480957
+      },
+      {
+        "word": " momento",
+        "start": 53.5,
+        "end": 53.82,
+        "probability": 0.9997785687446594
+      },
+      {
+        "word": " angular",
+        "start": 53.82,
+        "end": 54.1,
+        "probability": 0.9998025298118591
+      },
+      {
+        "word": " y",
+        "start": 54.1,
+        "end": 54.34,
+        "probability": 0.9657116532325745
+      },
+      {
+        "word": " lo",
+        "start": 54.34,
+        "end": 54.46,
+        "probability": 0.9997503161430359
+      },
+      {
+        "word": " sumas",
+        "start": 54.46,
+        "end": 55.0,
+        "probability": 0.999971330165863
+      },
+      {
+        "word": " al",
+        "start": 55.0,
+        "end": 55.32,
+        "probability": 0.9999363422393799
+      },
+      {
+        "word": " momento",
+        "start": 55.32,
+        "end": 55.68,
+        "probability": 0.9997434020042419
+      },
+      {
+        "word": " angular",
+        "start": 55.68,
+        "end": 56.02,
+        "probability": 0.9999104738235474
+      },
+      {
+        "word": " orbital",
+        "start": 56.02,
+        "end": 56.38,
+        "probability": 0.9997913241386414
+      },
+      {
+        "word": " y",
+        "start": 56.38,
+        "end": 56.54,
+        "probability": 0.9987947940826416
+      },
+      {
+        "word": " todo",
+        "start": 56.54,
+        "end": 56.7,
+        "probability": 0.9985219836235046
+      },
+      {
+        "word": " esto,",
+        "start": 56.7,
+        "end": 56.98,
+        "probability": 0.9994907379150391
+      },
+      {
+        "word": " y",
+        "start": 57.32,
+        "end": 57.58,
+        "probability": 0.9996697902679443
+      },
+      {
+        "word": " toda",
+        "start": 57.58,
+        "end": 58.56,
+        "probability": 0.9993250370025635
+      },
+      {
+        "word": " la",
+        "start": 58.56,
+        "end": 58.76,
+        "probability": 0.9999920129776001
+      },
+      {
+        "word": " física",
+        "start": 58.76,
+        "end": 59.06,
+        "probability": 0.9999042749404907
+      },
+      {
+        "word": " se",
+        "start": 59.06,
+        "end": 59.32,
+        "probability": 0.9999090433120728
+      },
+      {
+        "word": " comporta",
+        "start": 59.32,
+        "end": 59.8,
+        "probability": 0.9999562501907349
+      },
+      {
+        "word": " como",
+        "start": 59.8,
+        "end": 59.98,
+        "probability": 0.9999406337738037
+      },
+      {
+        "word": " si",
+        "start": 59.98,
+        "end": 60.1,
+        "probability": 0.9999817609786987
+      },
+      {
+        "word": " el",
+        "start": 60.1,
+        "end": 60.22,
+        "probability": 0.9999717473983765
+      },
+      {
+        "word": " spin",
+        "start": 60.22,
+        "end": 60.48,
+        "probability": 0.9999219179153442
+      },
+      {
+        "word": " fuese",
+        "start": 60.48,
+        "end": 60.72,
+        "probability": 0.9992563426494598
+      },
+      {
+        "word": " un",
+        "start": 60.72,
+        "end": 60.88,
+        "probability": 0.9999266862869263
+      },
+      {
+        "word": " momento",
+        "start": 60.88,
+        "end": 61.16,
+        "probability": 0.9997716546058655
+      },
+      {
+        "word": " angular.",
+        "start": 61.16,
+        "end": 61.44,
+        "probability": 0.9998540878295898
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "start": 61.44,
+    "end": 71.38,
+    "text": "Entonces, hay algo en él que, de alguna manera, hace que muchas cosas cuadren. Pero luego resulta que cuando lo quieres entender a un nivel más fundamental, esa interpretación no es la buena.",
+    "avg_logprob": -0.03747739359340836,
+    "compression_ratio": 1.7216117216117217,
+    "no_speech_prob": 1.1964198728953157e-11,
+    "words": [
+      {
+        "word": " Entonces,",
+        "start": 61.44,
+        "end": 61.94,
+        "probability": 0.9399973750114441
+      },
+      {
+        "word": " hay",
+        "start": 62.14,
+        "end": 62.4,
+        "probability": 0.9996621608734131
+      },
+      {
+        "word": " algo",
+        "start": 62.4,
+        "end": 62.66,
+        "probability": 0.9999874830245972
+      },
+      {
+        "word": " en",
+        "start": 62.66,
+        "end": 62.88,
+        "probability": 0.9999788999557495
+      },
+      {
+        "word": " él",
+        "start": 62.88,
+        "end": 63.08,
+        "probability": 0.9996309280395508
+      },
+      {
+        "word": " que,",
+        "start": 63.08,
+        "end": 63.28,
+        "probability": 0.9989340901374817
+      },
+      {
+        "word": " de",
+        "start": 63.36,
+        "end": 63.42,
+        "probability": 0.999984622001648
+      },
+      {
+        "word": " alguna",
+        "start": 63.42,
+        "end": 63.7,
+        "probability": 0.9999382495880127
+      },
+      {
+        "word": " manera,",
+        "start": 63.7,
+        "end": 64.06,
+        "probability": 0.9999406337738037
+      },
+      {
+        "word": " hace",
+        "start": 64.28,
+        "end": 64.54,
+        "probability": 0.9999022483825684
+      },
+      {
+        "word": " que",
+        "start": 64.54,
+        "end": 64.72,
+        "probability": 0.9999816417694092
+      },
+      {
+        "word": " muchas",
+        "start": 64.72,
+        "end": 65.08,
+        "probability": 0.9999488592147827
+      },
+      {
+        "word": " cosas",
+        "start": 65.08,
+        "end": 65.42,
+        "probability": 0.9999821186065674
+      },
+      {
+        "word": " cuadren.",
+        "start": 65.42,
+        "end": 65.86,
+        "probability": 0.9997748732566833
+      },
+      {
+        "word": " Pero",
+        "start": 65.96,
+        "end": 66.22,
+        "probability": 0.9997838139533997
+      },
+      {
+        "word": " luego",
+        "start": 66.22,
+        "end": 66.42,
+        "probability": 0.9919519424438477
+      },
+      {
+        "word": " resulta",
+        "start": 66.42,
+        "end": 66.76,
+        "probability": 0.9972614645957947
+      },
+      {
+        "word": " que",
+        "start": 66.76,
+        "end": 66.84,
+        "probability": 0.9999969005584717
+      },
+      {
+        "word": " cuando",
+        "start": 66.84,
+        "end": 67.02,
+        "probability": 0.6881598234176636
+      },
+      {
+        "word": " lo",
+        "start": 67.02,
+        "end": 67.14,
+        "probability": 0.99992835521698
+      },
+      {
+        "word": " quieres",
+        "start": 67.14,
+        "end": 67.38,
+        "probability": 0.9997238516807556
+      },
+      {
+        "word": " entender",
+        "start": 67.38,
+        "end": 67.8,
+        "probability": 0.9999415874481201
+      },
+      {
+        "word": " a",
+        "start": 67.8,
+        "end": 67.92,
+        "probability": 0.9999109506607056
+      },
+      {
+        "word": " un",
+        "start": 67.92,
+        "end": 68.0,
+        "probability": 0.999985933303833
+      },
+      {
+        "word": " nivel",
+        "start": 68.0,
+        "end": 68.16,
+        "probability": 0.999967098236084
+      },
+      {
+        "word": " más",
+        "start": 68.16,
+        "end": 68.34,
+        "probability": 0.9999626874923706
+      },
+      {
+        "word": " fundamental,",
+        "start": 68.34,
+        "end": 68.82,
+        "probability": 0.9999798536300659
+      },
+      {
+        "word": " esa",
+        "start": 69.16,
+        "end": 69.38,
+        "probability": 0.9999169111251831
+      },
+      {
+        "word": " interpretación",
+        "start": 69.38,
+        "end": 70.0,
+        "probability": 0.9999685287475586
+      },
+      {
+        "word": " no",
+        "start": 70.0,
+        "end": 70.26,
+        "probability": 0.999985933303833
+      },
+      {
+        "word": " es",
+        "start": 70.26,
+        "end": 70.62,
+        "probability": 0.999991774559021
+      },
+      {
+        "word": " la",
+        "start": 70.62,
+        "end": 70.88,
+        "probability": 0.9999679327011108
+      },
+      {
+        "word": " buena.",
+        "start": 70.88,
+        "end": 71.38,
+        "probability": 0.9998878240585327
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "start": 71.54,
+    "end": 85.7,
+    "text": "La mejor es la que tú acabas de describir, de entender fermiones como cosas que no les gusta estar juntos y se apilan unos encima de otros o unos al lado de los otros, y los bosones como cosas que sí les gusta estar juntos y se agrupan en grupos lo más coherentes posible.",
+    "avg_logprob": -0.03747739359340836,
+    "compression_ratio": 1.7216117216117217,
+    "no_speech_prob": 1.1964198728953157e-11,
+    "words": [
+      {
+        "word": " La",
+        "start": 71.54,
+        "end": 71.76,
+        "probability": 0.9996957778930664
+      },
+      {
+        "word": " mejor",
+        "start": 71.76,
+        "end": 72.02,
+        "probability": 0.9998133778572083
+      },
+      {
+        "word": " es",
+        "start": 72.02,
+        "end": 72.16,
+        "probability": 0.999565064907074
+      },
+      {
+        "word": " la",
+        "start": 72.16,
+        "end": 72.24,
+        "probability": 0.999976396560669
+      },
+      {
+        "word": " que",
+        "start": 72.24,
+        "end": 72.34,
+        "probability": 0.999977707862854
+      },
+      {
+        "word": " tú",
+        "start": 72.34,
+        "end": 72.44,
+        "probability": 0.9997149109840393
+      },
+      {
+        "word": " acabas",
+        "start": 72.44,
+        "end": 72.72,
+        "probability": 0.9999164342880249
+      },
+      {
+        "word": " de",
+        "start": 72.72,
+        "end": 72.8,
+        "probability": 0.9999986886978149
+      },
+      {
+        "word": " describir,",
+        "start": 72.8,
+        "end": 73.24,
+        "probability": 0.9996127784252167
+      },
+      {
+        "word": " de",
+        "start": 73.38,
+        "end": 73.8,
+        "probability": 0.9997703433036804
+      },
+      {
+        "word": " entender",
+        "start": 73.8,
+        "end": 74.24,
+        "probability": 0.9999504089355469
+      },
+      {
+        "word": " fermiones",
+        "start": 74.24,
+        "end": 74.74,
+        "probability": 0.9941992461681366
+      },
+      {
+        "word": " como",
+        "start": 74.74,
+        "end": 75.1,
+        "probability": 0.9998661279678345
+      },
+      {
+        "word": " cosas",
+        "start": 75.1,
+        "end": 75.46,
+        "probability": 0.9999531507492065
+      },
+      {
+        "word": " que",
+        "start": 75.46,
+        "end": 75.74,
+        "probability": 0.9999700784683228
+      },
+      {
+        "word": " no",
+        "start": 75.74,
+        "end": 76.2,
+        "probability": 0.999955415725708
+      },
+      {
+        "word": " les",
+        "start": 76.2,
+        "end": 76.34,
+        "probability": 0.9986439347267151
+      },
+      {
+        "word": " gusta",
+        "start": 76.34,
+        "end": 76.52,
+        "probability": 0.9996830224990845
+      },
+      {
+        "word": " estar",
+        "start": 76.52,
+        "end": 76.68,
+        "probability": 0.999680757522583
+      },
+      {
+        "word": " juntos",
+        "start": 76.68,
+        "end": 77.02,
+        "probability": 0.9999328851699829
+      },
+      {
+        "word": " y",
+        "start": 77.02,
+        "end": 77.32,
+        "probability": 0.9782693982124329
+      },
+      {
+        "word": " se",
+        "start": 77.32,
+        "end": 77.44,
+        "probability": 0.9994034767150879
+      },
+      {
+        "word": " apilan",
+        "start": 77.44,
+        "end": 77.8,
+        "probability": 0.9990042448043823
+      },
+      {
+        "word": " unos",
+        "start": 77.8,
+        "end": 78.26,
+        "probability": 0.9998167157173157
+      },
+      {
+        "word": " encima",
+        "start": 78.26,
+        "end": 78.84,
+        "probability": 0.9997631907463074
+      },
+      {
+        "word": " de",
+        "start": 78.84,
+        "end": 79.02,
+        "probability": 0.9999865293502808
+      },
+      {
+        "word": " otros",
+        "start": 79.02,
+        "end": 79.24,
+        "probability": 0.9997351765632629
+      },
+      {
+        "word": " o",
+        "start": 79.24,
+        "end": 79.38,
+        "probability": 0.8861972689628601
+      },
+      {
+        "word": " unos",
+        "start": 79.38,
+        "end": 79.54,
+        "probability": 0.9971823692321777
+      },
+      {
+        "word": " al",
+        "start": 79.54,
+        "end": 79.68,
+        "probability": 0.9987220168113708
+      },
+      {
+        "word": " lado",
+        "start": 79.68,
+        "end": 79.76,
+        "probability": 0.9997474551200867
+      },
+      {
+        "word": " de",
+        "start": 79.76,
+        "end": 79.84,
+        "probability": 0.9999876022338867
+      },
+      {
+        "word": " los",
+        "start": 79.84,
+        "end": 79.96,
+        "probability": 0.9987984895706177
+      },
+      {
+        "word": " otros,",
+        "start": 79.96,
+        "end": 80.16,
+        "probability": 0.9997712969779968
+      },
+      {
+        "word": " y",
+        "start": 80.22,
+        "end": 80.6,
+        "probability": 0.9998880624771118
+      },
+      {
+        "word": " los",
+        "start": 80.6,
+        "end": 80.76,
+        "probability": 0.99997878074646
+      },
+      {
+        "word": " bosones",
+        "start": 80.76,
+        "end": 81.12,
+        "probability": 0.999180257320404
+      },
+      {
+        "word": " como",
+        "start": 81.12,
+        "end": 81.36,
+        "probability": 0.9999498128890991
+      },
+      {
+        "word": " cosas",
+        "start": 81.36,
+        "end": 81.6,
+        "probability": 0.9999549388885498
+      },
+      {
+        "word": " que",
+        "start": 81.6,
+        "end": 81.74,
+        "probability": 0.9999943971633911
+      },
+      {
+        "word": " sí",
+        "start": 81.74,
+        "end": 81.88,
+        "probability": 0.999241828918457
+      },
+      {
+        "word": " les",
+        "start": 81.88,
+        "end": 82.04,
+        "probability": 0.9999747276306152
+      },
+      {
+        "word": " gusta",
+        "start": 82.04,
+        "end": 82.28,
+        "probability": 0.9989739656448364
+      },
+      {
+        "word": " estar",
+        "start": 82.28,
+        "end": 82.5,
+        "probability": 0.9999768733978271
+      },
+      {
+        "word": " juntos",
+        "start": 82.5,
+        "end": 82.84,
+        "probability": 0.9999439716339111
+      },
+      {
+        "word": " y",
+        "start": 82.84,
+        "end": 83.12,
+        "probability": 0.9998819828033447
+      },
+      {
+        "word": " se",
+        "start": 83.12,
+        "end": 83.26,
+        "probability": 0.9999823570251465
+      },
+      {
+        "word": " agrupan",
+        "start": 83.26,
+        "end": 83.74,
+        "probability": 0.9993486801783243
+      },
+      {
+        "word": " en",
+        "start": 83.74,
+        "end": 84.14,
+        "probability": 0.9999818801879883
+      },
+      {
+        "word": " grupos",
+        "start": 84.14,
+        "end": 84.42,
+        "probability": 0.9999364614486694
+      },
+      {
+        "word": " lo",
+        "start": 84.42,
+        "end": 84.62,
+        "probability": 0.9997592568397522
+      },
+      {
+        "word": " más",
+        "start": 84.62,
+        "end": 84.84,
+        "probability": 0.9999641180038452
+      },
+      {
+        "word": " coherentes",
+        "start": 84.84,
+        "end": 85.32,
+        "probability": 0.9953640699386597
+      },
+      {
+        "word": " posible.",
+        "start": 85.32,
+        "end": 85.7,
+        "probability": 0.9983232617378235
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "start": 85.7,
+    "end": 94.54,
+    "text": "Y luego, a partir de ahí, pues ya vienen una serie de propiedades como que las partículas heredan un pequeño imán y se comportan como pequeños imanes cuando se mueven por ahí.",
+    "avg_logprob": -0.04841835355317151,
+    "compression_ratio": 1.7178423236514522,
+    "no_speech_prob": 1.6626510931927463e-11,
+    "words": [
+      {
+        "word": " Y",
+        "start": 85.7,
+        "end": 86.2,
+        "probability": 0.8890812397003174
+      },
+      {
+        "word": " luego,",
+        "start": 86.2,
+        "end": 86.3,
+        "probability": 0.9976339340209961
+      },
+      {
+        "word": " a",
+        "start": 86.38,
+        "end": 86.4,
+        "probability": 0.99996018409729
+      },
+      {
+        "word": " partir",
+        "start": 86.4,
+        "end": 86.64,
+        "probability": 0.9999966621398926
+      },
+      {
+        "word": " de",
+        "start": 86.64,
+        "end": 86.78,
+        "probability": 0.9999972581863403
+      },
+      {
+        "word": " ahí,",
+        "start": 86.78,
+        "end": 86.96,
+        "probability": 0.9998669624328613
+      },
+      {
+        "word": " pues",
+        "start": 87.34,
+        "end": 87.4,
+        "probability": 0.6241504549980164
+      },
+      {
+        "word": " ya",
+        "start": 87.4,
+        "end": 87.54,
+        "probability": 0.991685688495636
+      },
+      {
+        "word": " vienen",
+        "start": 87.54,
+        "end": 87.82,
+        "probability": 0.9976820945739746
+      },
+      {
+        "word": " una",
+        "start": 87.82,
+        "end": 88.04,
+        "probability": 0.99982088804245
+      },
+      {
+        "word": " serie",
+        "start": 88.04,
+        "end": 88.2,
+        "probability": 0.9999144077301025
+      },
+      {
+        "word": " de",
+        "start": 88.2,
+        "end": 88.32,
+        "probability": 0.9999915361404419
+      },
+      {
+        "word": " propiedades",
+        "start": 88.32,
+        "end": 88.82,
+        "probability": 0.9999126394589742
+      },
+      {
+        "word": " como",
+        "start": 88.82,
+        "end": 89.12,
+        "probability": 0.5381973385810852
+      },
+      {
+        "word": " que",
+        "start": 89.12,
+        "end": 89.38,
+        "probability": 0.9999552965164185
+      },
+      {
+        "word": " las",
+        "start": 89.38,
+        "end": 89.78,
+        "probability": 0.9999779462814331
+      },
+      {
+        "word": " partículas",
+        "start": 89.78,
+        "end": 90.28,
+        "probability": 0.9998980164527893
+      },
+      {
+        "word": " heredan",
+        "start": 90.28,
+        "end": 90.82,
+        "probability": 0.9997632304827372
+      },
+      {
+        "word": " un",
+        "start": 90.82,
+        "end": 91.16,
+        "probability": 0.9999816417694092
+      },
+      {
+        "word": " pequeño",
+        "start": 91.16,
+        "end": 91.54,
+        "probability": 0.9999741315841675
+      },
+      {
+        "word": " imán",
+        "start": 91.54,
+        "end": 91.94,
+        "probability": 0.9997695982456207
+      },
+      {
+        "word": " y",
+        "start": 91.94,
+        "end": 92.14,
+        "probability": 0.9992673993110657
+      },
+      {
+        "word": " se",
+        "start": 92.14,
+        "end": 92.28,
+        "probability": 0.9999926090240479
+      },
+      {
+        "word": " comportan",
+        "start": 92.28,
+        "end": 92.78,
+        "probability": 0.9999786615371704
+      },
+      {
+        "word": " como",
+        "start": 92.78,
+        "end": 92.98,
+        "probability": 0.9999732971191406
+      },
+      {
+        "word": " pequeños",
+        "start": 92.98,
+        "end": 93.34,
+        "probability": 0.9999224543571472
+      },
+      {
+        "word": " imanes",
+        "start": 93.34,
+        "end": 93.62,
+        "probability": 0.9993106126785278
+      },
+      {
+        "word": " cuando",
+        "start": 93.62,
+        "end": 93.86,
+        "probability": 0.999882698059082
+      },
+      {
+        "word": " se",
+        "start": 93.86,
+        "end": 94.0,
+        "probability": 0.9999978542327881
+      },
+      {
+        "word": " mueven",
+        "start": 94.0,
+        "end": 94.22,
+        "probability": 0.9997243881225586
+      },
+      {
+        "word": " por",
+        "start": 94.22,
+        "end": 94.38,
+        "probability": 0.9999889135360718
+      },
+      {
+        "word": " ahí.",
+        "start": 94.38,
+        "end": 94.54,
+        "probability": 0.9998364448547363
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "start": 95.24,
+    "end": 107.98,
+    "text": "Yo también quería decir que este asunto de decir los fermiones son las partículas de la materia, los bosones son las partículas asociadas a las interacciones, es verdad que históricamente, de alguna manera, lo hemos visto así.",
+    "avg_logprob": -0.04841835355317151,
+    "compression_ratio": 1.7178423236514522,
+    "no_speech_prob": 1.6626510931927463e-11,
+    "words": [
+      {
+        "word": " Yo",
+        "start": 95.24,
+        "end": 95.72,
+        "probability": 0.9990522265434265
+      },
+      {
+        "word": " también",
+        "start": 95.72,
+        "end": 96.02,
+        "probability": 0.9999316930770874
+      },
+      {
+        "word": " quería",
+        "start": 96.02,
+        "end": 96.66,
+        "probability": 0.9963801503181458
+      },
+      {
+        "word": " decir",
+        "start": 96.66,
+        "end": 97.22,
+        "probability": 0.9999313354492188
+      },
+      {
+        "word": " que",
+        "start": 97.22,
+        "end": 97.5,
+        "probability": 0.9999932050704956
+      },
+      {
+        "word": " este",
+        "start": 97.5,
+        "end": 97.78,
+        "probability": 0.9997438788414001
+      },
+      {
+        "word": " asunto",
+        "start": 97.78,
+        "end": 98.16,
+        "probability": 0.999970555305481
+      },
+      {
+        "word": " de",
+        "start": 98.16,
+        "end": 98.34,
+        "probability": 0.9999842643737793
+      },
+      {
+        "word": " decir",
+        "start": 98.34,
+        "end": 98.68,
+        "probability": 0.9995954632759094
+      },
+      {
+        "word": " los",
+        "start": 98.68,
+        "end": 99.14,
+        "probability": 0.9436948299407959
+      },
+      {
+        "word": " fermiones",
+        "start": 99.14,
+        "end": 99.58,
+        "probability": 0.9961337149143219
+      },
+      {
+        "word": " son",
+        "start": 99.58,
+        "end": 99.84,
+        "probability": 0.9999839067459106
+      },
+      {
+        "word": " las",
+        "start": 99.84,
+        "end": 100.02,
+        "probability": 0.999984860420227
+      },
+      {
+        "word": " partículas",
+        "start": 100.02,
+        "end": 100.48,
+        "probability": 0.9999597867329916
+      },
+      {
+        "word": " de",
+        "start": 100.48,
+        "end": 100.56,
+        "probability": 0.9999926090240479
+      },
+      {
+        "word": " la",
+        "start": 100.56,
+        "end": 100.64,
+        "probability": 0.9999902248382568
+      },
+      {
+        "word": " materia,",
+        "start": 100.64,
+        "end": 100.98,
+        "probability": 0.9999140501022339
+      },
+      {
+        "word": " los",
+        "start": 101.22,
+        "end": 101.5,
+        "probability": 0.9999638795852661
+      },
+      {
+        "word": " bosones",
+        "start": 101.5,
+        "end": 101.94,
+        "probability": 0.998431384563446
+      },
+      {
+        "word": " son",
+        "start": 101.94,
+        "end": 102.18,
+        "probability": 0.9999619722366333
+      },
+      {
+        "word": " las",
+        "start": 102.18,
+        "end": 102.34,
+        "probability": 0.9999914169311523
+      },
+      {
+        "word": " partículas",
+        "start": 102.34,
+        "end": 102.82,
+        "probability": 0.9999736150105795
+      },
+      {
+        "word": " asociadas",
+        "start": 102.82,
+        "end": 103.22,
+        "probability": 0.9999193698167801
+      },
+      {
+        "word": " a",
+        "start": 103.22,
+        "end": 103.38,
+        "probability": 0.999976396560669
+      },
+      {
+        "word": " las",
+        "start": 103.38,
+        "end": 103.5,
+        "probability": 0.999970555305481
+      },
+      {
+        "word": " interacciones,",
+        "start": 103.5,
+        "end": 104.16,
+        "probability": 0.9999247392018636
+      },
+      {
+        "word": " es",
+        "start": 104.3,
+        "end": 104.84,
+        "probability": 0.999848484992981
+      },
+      {
+        "word": " verdad",
+        "start": 104.84,
+        "end": 105.04,
+        "probability": 0.9999501705169678
+      },
+      {
+        "word": " que",
+        "start": 105.04,
+        "end": 105.22,
+        "probability": 0.9999974966049194
+      },
+      {
+        "word": " históricamente,",
+        "start": 105.22,
+        "end": 106.16,
+        "probability": 0.9958581725756327
+      },
+      {
+        "word": " de",
+        "start": 106.36,
+        "end": 106.68,
+        "probability": 0.9999814033508301
+      },
+      {
+        "word": " alguna",
+        "start": 106.68,
+        "end": 106.92,
+        "probability": 0.9999619722366333
+      },
+      {
+        "word": " manera,",
+        "start": 106.92,
+        "end": 107.2,
+        "probability": 0.9999573230743408
+      },
+      {
+        "word": " lo",
+        "start": 107.26,
+        "end": 107.36,
+        "probability": 0.9999421834945679
+      },
+      {
+        "word": " hemos",
+        "start": 107.36,
+        "end": 107.52,
+        "probability": 0.9999486207962036
+      },
+      {
+        "word": " visto",
+        "start": 107.52,
+        "end": 107.76,
+        "probability": 0.9999775886535645
+      },
+      {
+        "word": " así.",
+        "start": 107.76,
+        "end": 107.98,
+        "probability": 0.9999539852142334
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "start": 107.98,
+    "end": 114.72,
+    "text": "Los electrones están en la materia y son fermiones, los protones están en la materia y son fermiones, sería tonto decir lo contrario.",
+    "avg_logprob": -0.04640885147747103,
+    "compression_ratio": 1.701834862385321,
+    "no_speech_prob": 1.5001454939378434e-11,
+    "words": [
+      {
+        "word": " Los",
+        "start": 107.98,
+        "end": 108.38,
+        "probability": 0.2788734436035156
+      },
+      {
+        "word": " electrones",
+        "start": 108.38,
+        "end": 108.82,
+        "probability": 0.9935720264911652
+      },
+      {
+        "word": " están",
+        "start": 108.82,
+        "end": 108.98,
+        "probability": 0.9994702935218811
+      },
+      {
+        "word": " en",
+        "start": 108.98,
+        "end": 109.12,
+        "probability": 0.9999696016311646
+      },
+      {
+        "word": " la",
+        "start": 109.12,
+        "end": 109.18,
+        "probability": 0.999852180480957
+      },
+      {
+        "word": " materia",
+        "start": 109.18,
+        "end": 109.48,
+        "probability": 0.9998914003372192
+      },
+      {
+        "word": " y",
+        "start": 109.48,
+        "end": 109.74,
+        "probability": 0.9871088266372681
+      },
+      {
+        "word": " son",
+        "start": 109.74,
+        "end": 109.88,
+        "probability": 0.9999328851699829
+      },
+      {
+        "word": " fermiones,",
+        "start": 109.88,
+        "end": 110.32,
+        "probability": 0.9907748699188232
+      },
+      {
+        "word": " los",
+        "start": 110.5,
+        "end": 111.0,
+        "probability": 0.49341338872909546
+      },
+      {
+        "word": " protones",
+        "start": 111.0,
+        "end": 111.42,
+        "probability": 0.9988594055175781
+      },
+      {
+        "word": " están",
+        "start": 111.42,
+        "end": 111.62,
+        "probability": 0.9999005794525146
+      },
+      {
+        "word": " en",
+        "start": 111.62,
+        "end": 111.72,
+        "probability": 0.999995231628418
+      },
+      {
+        "word": " la",
+        "start": 111.72,
+        "end": 111.78,
+        "probability": 0.9999898672103882
+      },
+      {
+        "word": " materia",
+        "start": 111.78,
+        "end": 112.08,
+        "probability": 0.9999628067016602
+      },
+      {
+        "word": " y",
+        "start": 112.08,
+        "end": 112.3,
+        "probability": 0.9999185800552368
+      },
+      {
+        "word": " son",
+        "start": 112.3,
+        "end": 112.42,
+        "probability": 0.9999343156814575
+      },
+      {
+        "word": " fermiones,",
+        "start": 112.42,
+        "end": 112.86,
+        "probability": 0.9998210370540619
+      },
+      {
+        "word": " sería",
+        "start": 113.02,
+        "end": 113.2,
+        "probability": 0.9977310299873352
+      },
+      {
+        "word": " tonto",
+        "start": 113.2,
+        "end": 114.08,
+        "probability": 0.9991149604320526
+      },
+      {
+        "word": " decir",
+        "start": 114.08,
+        "end": 114.26,
+        "probability": 0.9998668432235718
+      },
+      {
+        "word": " lo",
+        "start": 114.26,
+        "end": 114.38,
+        "probability": 0.9960523843765259
+      },
+      {
+        "word": " contrario.",
+        "start": 114.38,
+        "end": 114.72,
+        "probability": 0.999933123588562
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "start": 115.56,
+    "end": 126.72,
+    "text": "Pero hay un poco la sensación de que como la propiedad de ser un fermión o ser un bosón es mucho más fundamental, tiene que ver con esto que ha dicho Francis, de cómo se ocupa el espacio y cómo se comportan cuando están juntos.",
+    "avg_logprob": -0.04640885147747103,
+    "compression_ratio": 1.701834862385321,
+    "no_speech_prob": 1.5001454939378434e-11,
+    "words": [
+      {
+        "word": " Pero",
+        "start": 115.56,
+        "end": 115.94,
+        "probability": 0.9978389143943787
+      },
+      {
+        "word": " hay",
+        "start": 115.94,
+        "end": 116.32,
+        "probability": 0.9964032173156738
+      },
+      {
+        "word": " un",
+        "start": 116.32,
+        "end": 116.44,
+        "probability": 0.9999278783798218
+      },
+      {
+        "word": " poco",
+        "start": 116.44,
+        "end": 116.62,
+        "probability": 0.9999600648880005
+      },
+      {
+        "word": " la",
+        "start": 116.62,
+        "end": 116.78,
+        "probability": 0.9999864101409912
+      },
+      {
+        "word": " sensación",
+        "start": 116.78,
+        "end": 117.32,
+        "probability": 0.9999457597732544
+      },
+      {
+        "word": " de",
+        "start": 117.32,
+        "end": 117.78,
+        "probability": 0.9999815225601196
+      },
+      {
+        "word": " que",
+        "start": 117.78,
+        "end": 117.88,
+        "probability": 0.9999552965164185
+      },
+      {
+        "word": " como",
+        "start": 117.88,
+        "end": 118.12,
+        "probability": 0.9759383797645569
+      },
+      {
+        "word": " la",
+        "start": 118.12,
+        "end": 118.32,
+        "probability": 0.9999911785125732
+      },
+      {
+        "word": " propiedad",
+        "start": 118.32,
+        "end": 119.0,
+        "probability": 0.9999715089797974
+      },
+      {
+        "word": " de",
+        "start": 119.0,
+        "end": 119.12,
+        "probability": 0.9999752044677734
+      },
+      {
+        "word": " ser",
+        "start": 119.12,
+        "end": 119.3,
+        "probability": 0.9999667406082153
+      },
+      {
+        "word": " un",
+        "start": 119.3,
+        "end": 119.42,
+        "probability": 0.999954342842102
+      },
+      {
+        "word": " fermión",
+        "start": 119.42,
+        "end": 119.82,
+        "probability": 0.9910931885242462
+      },
+      {
+        "word": " o",
+        "start": 119.82,
+        "end": 120.06,
+        "probability": 0.9992045760154724
+      },
+      {
+        "word": " ser",
+        "start": 120.06,
+        "end": 120.22,
+        "probability": 0.9976834058761597
+      },
+      {
+        "word": " un",
+        "start": 120.22,
+        "end": 120.32,
+        "probability": 0.9999792575836182
+      },
+      {
+        "word": " bosón",
+        "start": 120.32,
+        "end": 120.68,
+        "probability": 0.9977499544620514
+      },
+      {
+        "word": " es",
+        "start": 120.68,
+        "end": 121.04,
+        "probability": 0.999849796295166
+      },
+      {
+        "word": " mucho",
+        "start": 121.04,
+        "end": 121.28,
+        "probability": 0.9999656677246094
+      },
+      {
+        "word": " más",
+        "start": 121.28,
+        "end": 121.46,
+        "probability": 0.999983549118042
+      },
+      {
+        "word": " fundamental,",
+        "start": 121.46,
+        "end": 122.04,
+        "probability": 0.9999512434005737
+      },
+      {
+        "word": " tiene",
+        "start": 122.34,
+        "end": 122.62,
+        "probability": 0.999818742275238
+      },
+      {
+        "word": " que",
+        "start": 122.62,
+        "end": 122.74,
+        "probability": 0.999988317489624
+      },
+      {
+        "word": " ver",
+        "start": 122.74,
+        "end": 122.84,
+        "probability": 0.999991774559021
+      },
+      {
+        "word": " con",
+        "start": 122.84,
+        "end": 123.0,
+        "probability": 0.9999943971633911
+      },
+      {
+        "word": " esto",
+        "start": 123.0,
+        "end": 123.14,
+        "probability": 0.9998132586479187
+      },
+      {
+        "word": " que",
+        "start": 123.14,
+        "end": 123.24,
+        "probability": 0.9999769926071167
+      },
+      {
+        "word": " ha",
+        "start": 123.24,
+        "end": 123.28,
+        "probability": 0.9999097585678101
+      },
+      {
+        "word": " dicho",
+        "start": 123.28,
+        "end": 123.44,
+        "probability": 0.9999563694000244
+      },
+      {
+        "word": " Francis,",
+        "start": 123.44,
+        "end": 123.8,
+        "probability": 0.9966073036193848
+      },
+      {
+        "word": " de",
+        "start": 123.94,
+        "end": 124.0,
+        "probability": 0.9998500347137451
+      },
+      {
+        "word": " cómo",
+        "start": 124.0,
+        "end": 124.22,
+        "probability": 0.9997510313987732
+      },
+      {
+        "word": " se",
+        "start": 124.22,
+        "end": 124.4,
+        "probability": 0.9999949932098389
+      },
+      {
+        "word": " ocupa",
+        "start": 124.4,
+        "end": 124.62,
+        "probability": 0.9998005330562592
+      },
+      {
+        "word": " el",
+        "start": 124.62,
+        "end": 124.74,
+        "probability": 0.9999829530715942
+      },
+      {
+        "word": " espacio",
+        "start": 124.74,
+        "end": 125.1,
+        "probability": 0.9999773502349854
+      },
+      {
+        "word": " y",
+        "start": 125.1,
+        "end": 125.26,
+        "probability": 0.9995563626289368
+      },
+      {
+        "word": " cómo",
+        "start": 125.26,
+        "end": 125.4,
+        "probability": 0.9999099969863892
+      },
+      {
+        "word": " se",
+        "start": 125.4,
+        "end": 125.52,
+        "probability": 0.9999939203262329
+      },
+      {
+        "word": " comportan",
+        "start": 125.52,
+        "end": 125.98,
+        "probability": 0.9998143911361694
+      },
+      {
+        "word": " cuando",
+        "start": 125.98,
+        "end": 126.18,
+        "probability": 0.9998605251312256
+      },
+      {
+        "word": " están",
+        "start": 126.18,
+        "end": 126.36,
+        "probability": 0.9998760223388672
+      },
+      {
+        "word": " juntos.",
+        "start": 126.36,
+        "end": 126.72,
+        "probability": 0.9999176263809204
+      }
+    ]
+  }
+]
