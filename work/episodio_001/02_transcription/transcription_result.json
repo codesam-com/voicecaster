@@ -1,0 +1,9 @@
+{
+  "result": "success",
+  "status_before": "transcript",
+  "status_after": "diarization",
+  "retries_before": 0,
+  "retries_after": 0,
+  "message": "Transcription completed successfully.",
+  "finished_at": "2026-03-31T17:52:20Z"
+}
