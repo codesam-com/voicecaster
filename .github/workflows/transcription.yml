@@ -109,6 +109,24 @@ jobs:
         env:
           VOICECASTER_WORKFLOW: transcription
           PYTHONPATH: src
+
+          VOICECASTER_ASR_ENGINE: faster-whisper
+          VOICECASTER_ASR_MODEL: large-v3
+          VOICECASTER_ASR_LANGUAGE: es
+
+          VOICECASTER_ASR_BEAM_SIZE: "5"
+          VOICECASTER_ASR_BEST_OF: "5"
+          VOICECASTER_ASR_TEMPERATURE: "0.0"
+
+          VOICECASTER_ASR_LOGPROB_THRESHOLD: "-0.8"
+          VOICECASTER_ASR_NO_SPEECH_THRESHOLD: "0.5"
+          VOICECASTER_ASR_COMPRESSION_RATIO_THRESHOLD: "2.0"
+
+          VOICECASTER_ASR_VAD_FILTER: "true"
+          VOICECASTER_ASR_VAD_MIN_SILENCE_MS: "500"
+
+          VOICECASTER_ASR_SAMPLE_RATE: "16000"
+          VOICECASTER_HTTP_TIMEOUT_SECONDS: "120"
         run: |
           python -m voicecaster.transcription.run
 
