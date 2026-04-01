@@ -1,5 +1,3 @@
-# src/voicecaster/diarization/precheck.py
-
 from __future__ import annotations
 
 import json
@@ -10,33 +8,49 @@ from pathlib import Path
 INPUTS_PATH = Path("inputs/inputs.json")
 
 
-def find_next_diarization_episode() -> dict | None:
+def load_inputs() -> list[dict]:
     if not INPUTS_PATH.exists():
-        return None
+        return []
 
-    data = json.loads(INPUTS_PATH.read_text(encoding="utf-8"))
+    try:
+        data = json.loads(INPUTS_PATH.read_text(encoding="utf-8"))
+    except Exception as exc:
+        print(f"[precheck] Failed to parse inputs file: {exc}", file=sys.stderr)
+        return []
 
-    for episode in data:
+    if not isinstance(data, list):
+        print("[precheck] inputs.json is not a list.", file=sys.stderr)
+        return []
+
+    return data
+
+
+def find_next_diarization_episode(inputs_data: list[dict]) -> dict | None:
+    for episode in inputs_data:
+        if not isinstance(episode, dict):
+            continue
         if episode.get("status") == "diarization":
             return episode
-
     return None
 
 
-def main() -> None:
-    episode = find_next_diarization_episode()
+def main() -> int:
+    inputs_data = load_inputs()
+    episode = find_next_diarization_episode(inputs_data)
 
     should_run = "true" if episode else "false"
+    episode_id = str(episode.get("id", "")) if episode else ""
 
-    # GitHub Actions output
     print(f"should_run={should_run}")
+    print(f"episode_id={episode_id}")
 
-    # También útil para logs
     if episode:
-        print(f"[precheck] Found episode: {episode.get('id')}")
+        print(f"[precheck] Found episode with status=diarization: {episode_id}")
     else:
-        print("[precheck] No episode in status=diarization")
+        print("[precheck] No episode with status=diarization found.")
+
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
