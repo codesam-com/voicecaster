@@ -6,6 +6,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from .audio import AudioPreparationError, prepare_temp_audio_path
 from .config import (
     ACTION_NAME,
     ACTION_VERSION,
@@ -200,32 +201,6 @@ def mark_status_failure(
     status_payload["retries"] = retries
     status_payload["status"] = "ruined" if ruined else "diarization"
     return status_payload
-
-
-def prepare_temp_audio_path(temp_dir: Path, episode: dict[str, Any]) -> Path:
-    """
-    Placeholder temporal.
-
-    En tu arquitectura real aquí irá:
-    - redescarga del audio desde episode['url']
-    - posible conversión a wav mono 16 kHz
-    - devolución de la ruta final preparada para pyannote
-
-    Para poder avanzar ya con la action, esta versión espera que exista
-    manualmente un archivo en:
-      work/<episode_id>/99_temp/audio.wav
-    """
-    temp_dir.mkdir(parents=True, exist_ok=True)
-    audio_path = temp_dir / "audio.wav"
-
-    if not audio_path.exists():
-        raise RecoverableError(
-            "Temporary audio file not found. Expected prepared audio at: "
-            f"{audio_path}. "
-            "Next integration step: connect run.py with your existing download/preprocess layer."
-        )
-
-    return audio_path
 
 
 def compute_speaker_metrics(utterances: list[Any]) -> dict[str, Any]:
@@ -461,7 +436,12 @@ def main() -> int:
         )
         return 2
 
-    except (RecoverableError, PyannotePipelineLoadError, PyannoteDiarizationError) as exc:
+    except (
+        RecoverableError,
+        AudioPreparationError,
+        PyannotePipelineLoadError,
+        PyannoteDiarizationError,
+    ) as exc:
         retries_after = retries_before + 1
 
         status_payload = load_status_json(paths["status_path"])
