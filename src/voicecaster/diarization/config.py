@@ -1,0 +1,22 @@
+# src/voicecaster/diarization/config.py
+
+from __future__ import annotations
+
+DIARIZATION_ENGINE = "pyannote"
+
+PYANNOTE_PRIMARY_PIPELINE = "pyannote/speaker-diarization-community-1"
+PYANNOTE_FALLBACK_PIPELINE = "pyannote/speaker-diarization-3.1"
+
+USE_GPU_IF_AVAILABLE = False
+
+AUDIO_TARGET_SAMPLE_RATE = 16000
+AUDIO_TARGET_CHANNELS = 1
+
+MIN_SEGMENT_SECONDS = 0.80
+MERGE_GAP_SECONDS = 0.50
+LOW_CONFIDENCE_THRESHOLD = 0.60
+MIN_TRANSCRIPT_ASSIGNMENT_RATIO = 0.85
+
+MAX_RETRIES = 10
+SPEAKER_LABEL_PREFIX = "speaker_"
+SPEAKER_LABEL_PADDING = 2
