@@ -1,5 +1,3 @@
-# src/voicecaster/diarization/metrics.py
-
 from __future__ import annotations
 
 from statistics import median
@@ -46,15 +44,19 @@ def compute_speaker_metrics(
                 "speaker": speaker,
                 "speech_seconds": speech_seconds,
                 "speech_ratio": round(speech_seconds / total_speech_seconds, 4)
-                if total_speech_seconds else 0.0,
+                if total_speech_seconds
+                else 0.0,
                 "num_turns": len(segs),
-                "avg_turn_seconds": round(speech_seconds / len(segs), 3) if segs else 0.0,
+                "avg_turn_seconds": round(speech_seconds / len(segs), 3)
+                if segs
+                else 0.0,
                 "median_turn_seconds": round(median(durations), 3) if durations else 0.0,
                 "longest_turn_seconds": round(max(durations), 3) if durations else 0.0,
                 "first_seen": min((seg.start for seg in segs), default=None),
                 "last_seen": max((seg.end for seg in segs), default=None),
                 "assignment_confidence_mean": round(sum(confidences) / len(confidences), 4)
-                if confidences else None,
+                if confidences
+                else None,
                 "low_confidence_segments": low_confidence_segments,
             }
         )
