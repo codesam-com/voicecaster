@@ -9,6 +9,8 @@ on:
       - "inputs/inputs.json"
       - "src/voicecaster/**"
       - ".github/workflows/diarization.yml"
+      - "pyproject.toml"
+      - "requirements*.txt"
 
 permissions:
   contents: write
@@ -22,49 +24,87 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       should_run: ${{ steps.precheck.outputs.should_run }}
+      episode_id: ${{ steps.precheck.outputs.episode_id }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - id: precheck
+      - name: Run diarization precheck
+        id: precheck
+        shell: bash
         run: |
-          echo "$(python -m voicecaster.diarization.precheck)" >> $GITHUB_OUTPUT
+          set -euo pipefail
+
+          output="$(python -m voicecaster.diarization.precheck)"
+          echo "$output"
+
+          should_run="$(echo "$output" | awk -F= '/^should_run=/{print $2}' | tail -n1)"
+          episode_id="$(echo "$output" | awk -F= '/^episode_id=/{print $2}' | tail -n1)"
+
+          echo "should_run=${should_run}" >> "$GITHUB_OUTPUT"
+          echo "episode_id=${episode_id}" >> "$GITHUB_OUTPUT"
 
   diarization:
     needs: precheck
     if: needs.precheck.outputs.should_run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 360
-
     env:
       HF_TOKEN: ${{ secrets.HF_TOKEN }}
-
+      PYTHONUNBUFFERED: "1"
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Install ffmpeg
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
 
-      - name: Install deps
+      - name: Install package and diarization dependencies
+        shell: bash
         run: |
-          pip install --upgrade pip
+          set -euo pipefail
+          python -m pip install --upgrade pip
           pip install pyannote.audio torch torchaudio
           pip install -e .
 
-      - name: Run diarization
-        run: python -m voicecaster.diarization.run
+      - name: Show target episode
+        run: echo "Running diarization for episode ${{ needs.precheck.outputs.episode_id }}"
 
-      - name: Commit results
+      - name: Run diarization
+        shell: bash
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          set -euo pipefail
+          python -m voicecaster.diarization.run
+
+      - name: Commit updated state
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add inputs/inputs.json work/
-          git diff --cached --quiet || git commit -m "diarization: update state"
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "diarization: update work state"
           git push
