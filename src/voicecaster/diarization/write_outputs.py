@@ -1,5 +1,3 @@
-# src/voicecaster/diarization/write_outputs.py
-
 from __future__ import annotations
 
 import json
@@ -107,8 +105,14 @@ def write_per_speaker_outputs(
             if utt.text:
                 full_text_parts.append(utt.text)
 
-        srt_path.write_text("\n\n".join(srt_blocks) + ("\n" if srt_blocks else ""), encoding="utf-8")
-        txt_path.write_text("\n".join(full_text_parts).strip() + ("\n" if full_text_parts else ""), encoding="utf-8")
+        srt_path.write_text(
+            "\n\n".join(srt_blocks) + ("\n" if srt_blocks else ""),
+            encoding="utf-8",
+        )
+        txt_path.write_text(
+            "\n".join(full_text_parts).strip() + ("\n" if full_text_parts else ""),
+            encoding="utf-8",
+        )
 
         speech_seconds = round(sum(utt.duration for utt in items), 3)
         payload = {
@@ -128,72 +132,10 @@ def write_per_speaker_outputs(
 
 def write_speaker_metrics_json(
     diarization_dir: Path,
-    speaker_segments: list[SpeakerSegment],
-    utterances: list[TranscriptUtterance],
+    metrics_payload: dict[str, Any],
 ) -> Path:
     output_path = diarization_dir / "speaker_metrics.json"
-
-    per_speaker_turns: dict[str, list[float]] = defaultdict(list)
-    per_speaker_utterances: dict[str, list[TranscriptUtterance]] = defaultdict(list)
-
-    for seg in speaker_segments:
-        per_speaker_turns[seg.speaker].append(seg.duration)
-
-    for utt in utterances:
-        if utt.speaker:
-            per_speaker_utterances[utt.speaker].append(utt)
-
-    total_speech_seconds = round(sum(seg.duration for seg in speaker_segments), 3)
-
-    speakers_payload = []
-    for speaker in sorted(set(per_speaker_turns) | set(per_speaker_utterances)):
-        turn_durations = per_speaker_turns.get(speaker, [])
-        utterance_items = per_speaker_utterances.get(speaker, [])
-
-        speech_seconds = round(sum(turn_durations), 3)
-        num_turns = len(turn_durations)
-        avg_turn_seconds = round(speech_seconds / num_turns, 3) if num_turns else 0.0
-        sorted_turns = sorted(turn_durations)
-        median_turn_seconds = (
-            round(sorted_turns[len(sorted_turns) // 2], 3) if sorted_turns else 0.0
-        )
-        longest_turn_seconds = round(max(sorted_turns), 3) if sorted_turns else 0.0
-
-        confidences = [
-            utt.speaker_confidence
-            for utt in utterance_items
-            if utt.speaker_confidence is not None
-        ]
-        assignment_confidence_mean = (
-            round(sum(confidences) / len(confidences), 4) if confidences else None
-        )
-
-        low_confidence_segments = sum(
-            1 for utt in utterance_items if "low_confidence_assignment" in utt.flags
-        )
-
-        speakers_payload.append(
-            {
-                "speaker": speaker,
-                "speech_seconds": speech_seconds,
-                "speech_ratio": round(speech_seconds / total_speech_seconds, 4) if total_speech_seconds else 0.0,
-                "num_turns": num_turns,
-                "avg_turn_seconds": avg_turn_seconds,
-                "median_turn_seconds": median_turn_seconds,
-                "longest_turn_seconds": longest_turn_seconds,
-                "first_seen": min((utt.start for utt in utterance_items), default=None),
-                "last_seen": max((utt.end for utt in utterance_items), default=None),
-                "assignment_confidence_mean": assignment_confidence_mean,
-                "low_confidence_segments": low_confidence_segments,
-            }
-        )
-
-    payload = {
-        "num_speakers_detected": len(speakers_payload),
-        "total_speech_seconds": total_speech_seconds,
-        "speakers": speakers_payload,
-    }
-    _write_json(output_path, payload)
+    _write_json(output_path, metrics_payload)
     return output_path
 
 
