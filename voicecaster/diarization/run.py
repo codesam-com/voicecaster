@@ -121,7 +121,7 @@ def get_episode_paths(episode_id: str) -> dict[str, Path]:
         "status_path": status_path,
         "transcript_preview_path": transcription_dir / "transcript_preview.json",
         "full_transcript_path": transcription_dir / "full_transcript.txt",
-        "subtitles_path": transcription_dir / "subtitles.srt",
+        "subtitles_path": transcription_dir / "full_transcript.srt",
         "transcription_metadata_path": transcription_dir / "transcription_metadata.json",
     }
 
