@@ -1,0 +1,31 @@
+# src/voicecaster/diarization/__init__.py
+
+from .config import (
+    AUDIO_TARGET_CHANNELS,
+    AUDIO_TARGET_SAMPLE_RATE,
+    DIARIZATION_ENGINE,
+    LOW_CONFIDENCE_THRESHOLD,
+    MERGE_GAP_SECONDS,
+    MIN_SEGMENT_SECONDS,
+    MIN_TRANSCRIPT_ASSIGNMENT_RATIO,
+    PYANNOTE_FALLBACK_PIPELINE,
+    PYANNOTE_PRIMARY_PIPELINE,
+    USE_GPU_IF_AVAILABLE,
+)
+from .models import RawSpeakerSegment, SpeakerSegment, TranscriptUtterance
+
+__all__ = [
+    "DIARIZATION_ENGINE",
+    "PYANNOTE_PRIMARY_PIPELINE",
+    "PYANNOTE_FALLBACK_PIPELINE",
+    "USE_GPU_IF_AVAILABLE",
+    "AUDIO_TARGET_SAMPLE_RATE",
+    "AUDIO_TARGET_CHANNELS",
+    "MIN_SEGMENT_SECONDS",
+    "MERGE_GAP_SECONDS",
+    "LOW_CONFIDENCE_THRESHOLD",
+    "MIN_TRANSCRIPT_ASSIGNMENT_RATIO",
+    "RawSpeakerSegment",
+    "SpeakerSegment",
+    "TranscriptUtterance",
+]
