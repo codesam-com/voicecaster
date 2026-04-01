@@ -1,5 +1,3 @@
-# src/voicecaster/diarization/engine_pyannote.py
-
 from __future__ import annotations
 
 from pathlib import Path
@@ -24,8 +22,9 @@ def run_pyannote_diarization(
     """
     Run speaker diarization with pyannote and return a neutral internal format.
 
-    Returns:
-        (raw_segments, metadata)
+    This implementation loads the waveform in memory and passes:
+        {"waveform": tensor, "sample_rate": int}
+    to the pipeline, to avoid depending on pyannote's path-based audio decoding.
     """
     if not audio_path.exists():
         raise PyannoteEngineError(f"Audio file does not exist: {audio_path}")
@@ -34,11 +33,12 @@ def run_pyannote_diarization(
         raise PyannoteEngineError("HF_TOKEN is required to load pyannote pipelines.")
 
     try:
+        import soundfile as sf
         import torch
         from pyannote.audio import Pipeline
     except Exception as exc:
         raise PyannoteEngineError(
-            "Unable to import pyannote.audio and dependencies."
+            "Unable to import pyannote.audio and diarization dependencies."
         ) from exc
 
     load_errors: list[dict[str, str]] = []
@@ -74,10 +74,31 @@ def run_pyannote_diarization(
         device = "cuda"
 
     try:
-        diarization = pipeline(str(audio_path))
+        waveform_np, sample_rate = sf.read(str(audio_path), dtype="float32", always_2d=True)
     except Exception as exc:
         raise PyannoteEngineError(
-            f"pyannote diarization failed for audio: {audio_path}"
+            f"Unable to read audio into memory: {audio_path}"
+        ) from exc
+
+    # soundfile returns shape [time, channels]
+    # pyannote expects waveform tensor shaped [channels, time]
+    try:
+        waveform = torch.from_numpy(waveform_np.T)
+    except Exception as exc:
+        raise PyannoteEngineError(
+            "Failed to convert waveform to torch tensor."
+        ) from exc
+
+    try:
+        diarization = pipeline(
+            {
+                "waveform": waveform,
+                "sample_rate": int(sample_rate),
+            }
+        )
+    except Exception as exc:
+        raise PyannoteEngineError(
+            f"pyannote diarization failed for in-memory audio: {audio_path}"
         ) from exc
 
     raw_segments: list[RawSpeakerSegment] = []
@@ -98,6 +119,9 @@ def run_pyannote_diarization(
         "pipeline": selected_pipeline_name,
         "device": device,
         "audio_path": str(audio_path),
+        "audio_loaded_in_memory": True,
+        "sample_rate": int(sample_rate),
+        "num_channels": int(waveform.shape[0]),
         "num_raw_segments": len(raw_segments),
         "load_errors": load_errors,
     }
