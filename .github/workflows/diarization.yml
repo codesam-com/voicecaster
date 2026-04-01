@@ -22,6 +22,8 @@ concurrency:
 jobs:
   precheck:
     runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: src
     outputs:
       should_run: ${{ steps.precheck.outputs.should_run }}
       episode_id: ${{ steps.precheck.outputs.episode_id }}
@@ -57,6 +59,7 @@ jobs:
     env:
       HF_TOKEN: ${{ secrets.HF_TOKEN }}
       PYTHONUNBUFFERED: "1"
+      PYTHONPATH: src
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
