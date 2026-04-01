@@ -107,7 +107,7 @@ def load_transcript_preview(work_episode_dir: Path) -> dict[str, Any]:
 def ensure_required_paths(work_episode_dir: Path) -> None:
     required_paths = [
         work_episode_dir / "02_transcription" / "transcript_preview.json",
-        work_episode_dir / "02_transcription" / "subtitles.srt",
+        work_episode_dir / "02_transcription" / "full_transcript.srt",
         work_episode_dir / "02_transcription" / "full_transcript.txt",
         work_episode_dir / "02_transcription" / "transcription_metadata.json",
     ]
