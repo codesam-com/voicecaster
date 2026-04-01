@@ -1,5 +1,3 @@
-# src/voicecaster/diarization/qa.py
-
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass, field
@@ -46,114 +44,127 @@ def run_diarization_qa(
 
     stats = _build_stats(speaker_segments, utterances)
 
-    # 1. Existencia mínima
     if not speaker_segments:
-        issues.append(QAIssue(
-            severity="error",
-            code="no_speaker_segments",
-            message="No speaker segments were produced.",
-        ))
+        issues.append(
+            QAIssue(
+                severity="error",
+                code="no_speaker_segments",
+                message="No speaker segments were produced.",
+            )
+        )
 
     if not utterances:
-        issues.append(QAIssue(
-            severity="error",
-            code="no_utterances",
-            message="No transcript utterances were available after reconciliation.",
-        ))
+        issues.append(
+            QAIssue(
+                severity="error",
+                code="no_utterances",
+                message="No transcript utterances were available after reconciliation.",
+            )
+        )
 
-    # 2. Integridad temporal
     invalid_segments = [
         seg.segment_id
         for seg in speaker_segments
         if seg.start < 0 or seg.end <= seg.start or seg.duration <= 0
     ]
     if invalid_segments:
-        issues.append(QAIssue(
-            severity="error",
-            code="invalid_segment_timing",
-            message="One or more normalized speaker segments have invalid timing.",
-            details={"segment_ids": invalid_segments[:20]},
-        ))
+        issues.append(
+            QAIssue(
+                severity="error",
+                code="invalid_segment_timing",
+                message="One or more normalized speaker segments have invalid timing.",
+                details={"segment_ids": invalid_segments[:20]},
+            )
+        )
 
     unordered_segments = _count_unordered_segments(speaker_segments)
     if unordered_segments > 0:
-        issues.append(QAIssue(
-            severity="error",
-            code="unordered_segments",
-            message="Speaker segments are not strictly ordered by time.",
-            details={"count": unordered_segments},
-        ))
+        issues.append(
+            QAIssue(
+                severity="error",
+                code="unordered_segments",
+                message="Speaker segments are not strictly ordered by time.",
+                details={"count": unordered_segments},
+            )
+        )
 
-    # 3. Assignment ratio
     assignment_ratio = stats["assignment_ratio"]
     if assignment_ratio < min_assignment_ratio:
-        issues.append(QAIssue(
-            severity="error",
-            code="low_assignment_ratio",
-            message="Too many transcript utterances could not be assigned to a speaker.",
-            details={
-                "assignment_ratio": assignment_ratio,
-                "required_minimum": min_assignment_ratio,
-            },
-        ))
+        issues.append(
+            QAIssue(
+                severity="error",
+                code="low_assignment_ratio",
+                message="Too many transcript utterances could not be assigned to a speaker.",
+                details={
+                    "assignment_ratio": assignment_ratio,
+                    "required_minimum": min_assignment_ratio,
+                },
+            )
+        )
 
-    # 4. Speaker explosion
     num_speakers = stats["num_speakers"]
     if num_speakers > max_reasonable_speakers:
-        issues.append(QAIssue(
-            severity="warning",
-            code="too_many_speakers_detected",
-            message="Detected speaker count is unusually high.",
-            details={
-                "num_speakers": num_speakers,
-                "max_reasonable_speakers": max_reasonable_speakers,
-            },
-        ))
+        issues.append(
+            QAIssue(
+                severity="warning",
+                code="too_many_speakers_detected",
+                message="Detected speaker count is unusually high.",
+                details={
+                    "num_speakers": num_speakers,
+                    "max_reasonable_speakers": max_reasonable_speakers,
+                },
+            )
+        )
 
-    # 5. Fragmentación excesiva
     short_segment_ratio = stats["short_segment_ratio"]
     if short_segment_ratio > max_short_segment_ratio:
-        issues.append(QAIssue(
-            severity="warning",
-            code="high_short_segment_ratio",
-            message="A high fraction of segments are very short, suggesting over-fragmentation.",
-            details={
-                "short_segment_ratio": short_segment_ratio,
-                "threshold": max_short_segment_ratio,
-            },
-        ))
+        issues.append(
+            QAIssue(
+                severity="warning",
+                code="high_short_segment_ratio",
+                message="A high fraction of segments are very short, suggesting over-fragmentation.",
+                details={
+                    "short_segment_ratio": short_segment_ratio,
+                    "threshold": max_short_segment_ratio,
+                },
+            )
+        )
 
     rapid_switches = _count_rapid_alternations(speaker_segments)
     if rapid_switches > 0:
-        issues.append(QAIssue(
-            severity="warning",
-            code="rapid_speaker_alternation",
-            message="Detected suspicious rapid alternation between speakers.",
-            details={"count": rapid_switches},
-        ))
+        issues.append(
+            QAIssue(
+                severity="warning",
+                code="rapid_speaker_alternation",
+                message="Detected suspicious rapid alternation between speakers.",
+                details={"count": rapid_switches},
+            )
+        )
 
-    # 6. Baja confianza
     low_conf_ratio = stats["low_confidence_ratio"]
     if low_conf_ratio > max_low_confidence_ratio:
-        issues.append(QAIssue(
-            severity="warning",
-            code="high_low_confidence_ratio",
-            message="A large fraction of utterances were assigned with low confidence.",
-            details={
-                "low_confidence_ratio": low_conf_ratio,
-                "threshold": max_low_confidence_ratio,
-            },
-        ))
+        issues.append(
+            QAIssue(
+                severity="warning",
+                code="high_low_confidence_ratio",
+                message="A large fraction of utterances were assigned with low confidence.",
+                details={
+                    "low_confidence_ratio": low_conf_ratio,
+                    "threshold": max_low_confidence_ratio,
+                },
+            )
+        )
 
-    # 7. Dominio extremo de un speaker
     dominant_ratio = stats["dominant_speaker_ratio"]
     if dominant_ratio is not None and dominant_ratio > 0.95 and num_speakers > 1:
-        issues.append(QAIssue(
-            severity="warning",
-            code="dominant_speaker_extreme",
-            message="One speaker dominates almost the entire episode despite multiple detected speakers.",
-            details={"dominant_speaker_ratio": dominant_ratio},
-        ))
+        issues.append(
+            QAIssue(
+                severity="warning",
+                code="dominant_speaker_extreme",
+                message="One speaker dominates almost the entire episode despite multiple detected speakers.",
+                details={"dominant_speaker_ratio": dominant_ratio},
+            )
+        )
 
     passed = not any(issue.severity == "error" for issue in issues)
 
@@ -175,22 +186,22 @@ def _build_stats(
     short_segments = [seg for seg in speaker_segments if seg.duration < 1.0]
     short_segment_ratio = (
         round(len(short_segments) / len(speaker_segments), 4)
-        if speaker_segments else 0.0
+        if speaker_segments
+        else 0.0
     )
 
     assigned_utterances = [utt for utt in utterances if utt.speaker]
     assignment_ratio = (
-        round(len(assigned_utterances) / len(utterances), 4)
-        if utterances else 0.0
+        round(len(assigned_utterances) / len(utterances), 4) if utterances else 0.0
     )
 
     low_confidence_utterances = [
-        utt for utt in utterances
-        if "low_confidence_assignment" in utt.flags
+        utt for utt in utterances if "low_confidence_assignment" in utt.flags
     ]
     low_confidence_ratio = (
         round(len(low_confidence_utterances) / len(utterances), 4)
-        if utterances else 0.0
+        if utterances
+        else 0.0
     )
 
     seconds_by_speaker: dict[str, float] = {}
@@ -217,7 +228,7 @@ def _build_stats(
 
 def _count_unordered_segments(speaker_segments: list[SpeakerSegment]) -> int:
     count = 0
-    previous_end = None
+    previous_end: float | None = None
 
     for seg in speaker_segments:
         if previous_end is not None and seg.start < previous_end:
@@ -228,9 +239,6 @@ def _count_unordered_segments(speaker_segments: list[SpeakerSegment]) -> int:
 
 
 def _count_rapid_alternations(speaker_segments: list[SpeakerSegment]) -> int:
-    """
-    Detect patterns like A/B/A or rapid back-and-forth with tiny turns.
-    """
     count = 0
 
     for i in range(1, len(speaker_segments) - 1):
