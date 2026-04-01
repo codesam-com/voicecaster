@@ -77,13 +77,12 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      - name: Install package and diarization dependencies
+      - name: Install diarization dependencies
         shell: bash
         run: |
           set -euo pipefail
           python -m pip install --upgrade pip
           pip install pyannote.audio torch torchaudio
-          pip install -e .
 
       - name: Show target episode
         run: echo "Running diarization for episode ${{ needs.precheck.outputs.episode_id }}"
