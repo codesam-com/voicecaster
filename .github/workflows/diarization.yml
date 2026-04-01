@@ -1,0 +1,75 @@
+name: diarization
+
+on:
+  workflow_dispatch:
+#  schedule:
+#    - cron: "17 * * * *"
+  push:
+    paths:
+      - "inputs/inputs.json"
+      - "voicecaster/**"
+      - ".github/workflows/03_diarization.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: voicecaster-03-diarization
+  cancel-in-progress: false
+
+jobs:
+  precheck:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.precheck.outputs.should_run }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run precheck
+        id: precheck
+        run: python -m voicecaster.diarization.precheck
+
+  diarization:
+    needs: precheck
+    if: needs.precheck.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install torch torchaudio pyannote.audio
+          pip install -e .
+
+      - name: Run diarization
+        run: python -m voicecaster.diarization.run
+
+      - name: Commit state changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add inputs/inputs.json work/
+          git diff --cached --quiet || git commit -m "03_diarization: update work state"
+          git push
