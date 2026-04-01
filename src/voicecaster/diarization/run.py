@@ -32,6 +32,9 @@ from .write_outputs import (
     write_transcript_with_speakers_json,
 )
 
+# Reuse the real downloader/validator already used by transcription.
+from voicecaster.transcription.run import ContentError, NetworkError, download_file, ffprobe_audio
+
 INPUTS_PATH = Path("inputs/inputs.json")
 WORK_DIR = Path("work")
 
@@ -39,7 +42,10 @@ WORK_DIR = Path("work")
 def load_inputs() -> list[dict]:
     if not INPUTS_PATH.exists():
         raise RuntimeError(f"Inputs file not found: {INPUTS_PATH}")
-    return json.loads(INPUTS_PATH.read_text(encoding="utf-8"))
+    data = json.loads(INPUTS_PATH.read_text(encoding="utf-8"))
+    if not isinstance(data, list):
+        raise RuntimeError("inputs/inputs.json must contain a JSON array.")
+    return data
 
 
 def save_inputs(data: list[dict]) -> None:
@@ -92,19 +98,10 @@ def load_transcript_preview(work_episode_dir: Path) -> dict[str, Any]:
     path = work_episode_dir / "02_transcription" / "transcript_preview.json"
     if not path.exists():
         raise RuntimeError(f"Missing transcript preview file: {path}")
-    return json.loads(path.read_text(encoding="utf-8"))
-
-
-def fake_download_audio(url: str, target: Path) -> Path:
-    """
-    Placeholder.
-
-    Replace this with the same downloader already used by intake/transcription.
-    Do not duplicate downloader logic here.
-    """
-    raise NotImplementedError(
-        f"Integrate diarization with the existing audio downloader. URL: {url}, target: {target}"
-    )
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        raise RuntimeError(f"Invalid transcript preview JSON object: {path}")
+    return data
 
 
 def ensure_required_paths(work_episode_dir: Path) -> None:
@@ -118,6 +115,28 @@ def ensure_required_paths(work_episode_dir: Path) -> None:
     missing = [str(path) for path in required_paths if not path.exists()]
     if missing:
         raise RuntimeError(f"Missing required transcription artifacts: {missing}")
+
+
+def is_network_error(exc: BaseException) -> bool:
+    return isinstance(exc, NetworkError)
+
+
+def download_audio_with_existing_pipeline(url: str, target: Path) -> tuple[Path, dict[str, Any], dict[str, Any]]:
+    """
+    Reuse the downloader and ffprobe validation already implemented in transcription.
+
+    Returns:
+        (audio_path, download_info, audio_probe)
+    """
+    target.parent.mkdir(parents=True, exist_ok=True)
+
+    download_info = download_file(url, target)
+    audio_probe = ffprobe_audio(target)
+
+    if not audio_probe.get("ffprobe_ok", False):
+        raise ContentError("Downloaded resource is not a valid audio file for diarization.")
+
+    return target, download_info, audio_probe
 
 
 def main() -> int:
@@ -144,10 +163,13 @@ def main() -> int:
     try:
         ensure_required_paths(work_episode_dir)
 
-        temp_audio = work_episode_dir / "99_temp" / "audio.wav"
+        temp_audio = work_episode_dir / "99_temp" / "audio_for_diarization"
         temp_audio.parent.mkdir(parents=True, exist_ok=True)
 
-        audio_path = fake_download_audio(url, temp_audio)
+        audio_path, download_info, audio_probe = download_audio_with_existing_pipeline(
+            url,
+            temp_audio,
+        )
 
         raw_segments, engine_metadata = run_pyannote_diarization(
             audio_path,
@@ -193,7 +215,11 @@ def main() -> int:
         write_speaker_metrics_json(diarization_dir, metrics_payload)
 
         debug_payload = build_debug_report(
-            engine_metadata=engine_metadata,
+            engine_metadata={
+                **engine_metadata,
+                "download": download_info,
+                "audio_probe": audio_probe,
+            },
             label_map=label_map,
             normalization_warnings=norm_warnings,
             assignment_stats=assignment_stats,
@@ -235,6 +261,7 @@ def main() -> int:
                     "retries_before": int(episode.get("retries", 0)),
                     "retries_after": retries_after,
                     "error": repr(exc),
+                    "retry_consumed": not is_network_error(exc),
                 },
             )
         except Exception as write_exc:
