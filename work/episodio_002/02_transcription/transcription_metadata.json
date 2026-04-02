@@ -1,0 +1,22 @@
+{
+  "engine": "faster-whisper",
+  "model": "large-v3",
+  "language": "es",
+  "duration_seconds": 1356.4745625,
+  "language_probability": 1,
+  "num_segments": 434,
+  "num_characters": 22103,
+  "srt_generated": true,
+  "txt_generated": true,
+  "segments_generated": true,
+  "beam_size": 5,
+  "best_of": 5,
+  "temperature": 0.0,
+  "vad_filter": true,
+  "vad_min_silence_duration_ms": 500,
+  "compression_ratio_threshold": 2.0,
+  "logprob_threshold": -0.8,
+  "no_speech_threshold": 0.5,
+  "condition_on_previous_text": false,
+  "initial_prompt_enabled": true
+}
