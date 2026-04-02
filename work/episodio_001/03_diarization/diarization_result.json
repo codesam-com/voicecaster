@@ -1,0 +1,8 @@
+{
+  "result": "success",
+  "status_before": "diarization",
+  "status_after": "alignment",
+  "retries_before": 0,
+  "retries_after": 0,
+  "num_speakers_detected": 3
+}

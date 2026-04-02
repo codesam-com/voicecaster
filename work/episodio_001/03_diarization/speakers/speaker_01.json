@@ -1,0 +1,436 @@
+{
+  "speaker": "speaker_01",
+  "num_utterances": 5,
+  "speech_seconds": 11.86,
+  "first_seen": 0.27,
+  "last_seen": 46.67,
+  "utterances": [
+    {
+      "utterance_id": "utt_000001",
+      "start": 0.27,
+      "end": 2.89,
+      "duration": 2.62,
+      "text": "y que ese giro sobre sí mismo era",
+      "speaker": "speaker_01",
+      "speaker_confidence": 1.0,
+      "assignment_source": "diarization_overlap_assignment",
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 2.62,
+        "coverage_ratio": 1.0,
+        "candidate_speakers": [
+          {
+            "speaker": "speaker_01",
+            "overlap_seconds": 2.62
+          }
+        ]
+      },
+      "flags": [],
+      "words": [
+        {
+          "word": " y",
+          "start": 0.27,
+          "end": 0.71,
+          "probability": 0.6458660960197449,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " que",
+          "start": 0.71,
+          "end": 0.85,
+          "probability": 0.9994833469390869,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " ese",
+          "start": 0.85,
+          "end": 1.95,
+          "probability": 0.9881722331047058,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " giro",
+          "start": 1.95,
+          "end": 2.19,
+          "probability": 0.9999423623085022,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " sobre",
+          "start": 2.19,
+          "end": 2.33,
+          "probability": 0.9995356798171997,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " sí",
+          "start": 2.33,
+          "end": 2.45,
+          "probability": 0.9980213642120361,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " mismo",
+          "start": 2.45,
+          "end": 2.69,
+          "probability": 0.9998706579208374,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " era",
+          "start": 2.69,
+          "end": 2.89,
+          "probability": 0.927745521068573,
+          "speaker": "speaker_01"
+        }
+      ]
+    },
+    {
+      "utterance_id": "utt_000002",
+      "start": 2.89,
+      "end": 6.17,
+      "duration": 3.28,
+      "text": "la órbita era el momento angular orbital y el giro sobre sí mismo",
+      "speaker": "speaker_01",
+      "speaker_confidence": 1.0,
+      "assignment_source": "diarization_overlap_assignment",
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 3.28,
+        "coverage_ratio": 1.0,
+        "candidate_speakers": [
+          {
+            "speaker": "speaker_01",
+            "overlap_seconds": 3.28
+          }
+        ]
+      },
+      "flags": [],
+      "words": [
+        {
+          "word": " la",
+          "start": 2.89,
+          "end": 3.29,
+          "probability": 0.2052738517522812,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " órbita",
+          "start": 3.29,
+          "end": 3.87,
+          "probability": 0.9995267589886984,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " era",
+          "start": 3.87,
+          "end": 4.09,
+          "probability": 0.846702516078949,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " el",
+          "start": 4.09,
+          "end": 4.19,
+          "probability": 0.9999446868896484,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " momento",
+          "start": 4.19,
+          "end": 4.35,
+          "probability": 0.997357189655304,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " angular",
+          "start": 4.35,
+          "end": 4.69,
+          "probability": 0.9994725584983826,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " orbital",
+          "start": 4.69,
+          "end": 4.99,
+          "probability": 0.9979804158210754,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " y",
+          "start": 4.99,
+          "end": 5.35,
+          "probability": 0.9970244765281677,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " el",
+          "start": 5.35,
+          "end": 5.45,
+          "probability": 0.9998207688331604,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " giro",
+          "start": 5.45,
+          "end": 5.69,
+          "probability": 0.9999908804893494,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " sobre",
+          "start": 5.69,
+          "end": 5.83,
+          "probability": 0.9999535083770752,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " sí",
+          "start": 5.83,
+          "end": 5.97,
+          "probability": 0.9999345541000366,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " mismo",
+          "start": 5.97,
+          "end": 6.17,
+          "probability": 0.9999810457229614,
+          "speaker": "speaker_01"
+        }
+      ]
+    },
+    {
+      "utterance_id": "utt_000003",
+      "start": 6.17,
+      "end": 8.21,
+      "duration": 2.04,
+      "text": "era el spin, es lo que yo tenía entendido",
+      "speaker": "speaker_01",
+      "speaker_confidence": 1.0,
+      "assignment_source": "diarization_overlap_assignment",
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 2.04,
+        "coverage_ratio": 1.0,
+        "candidate_speakers": [
+          {
+            "speaker": "speaker_01",
+            "overlap_seconds": 2.040000000000001
+          }
+        ]
+      },
+      "flags": [],
+      "words": [
+        {
+          "word": " era",
+          "start": 6.17,
+          "end": 6.37,
+          "probability": 0.9996321201324463,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " el",
+          "start": 6.37,
+          "end": 6.49,
+          "probability": 0.9997565150260925,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " spin,",
+          "start": 6.49,
+          "end": 6.71,
+          "probability": 0.9726832509040833,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " es",
+          "start": 6.87,
+          "end": 7.37,
+          "probability": 0.9995669722557068,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " lo",
+          "start": 7.37,
+          "end": 7.47,
+          "probability": 0.999991774559021,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " que",
+          "start": 7.47,
+          "end": 7.57,
+          "probability": 0.9999985694885254,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " yo",
+          "start": 7.57,
+          "end": 7.59,
+          "probability": 0.9999827146530151,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " tenía",
+          "start": 7.59,
+          "end": 7.75,
+          "probability": 0.999826967716217,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " entendido",
+          "start": 7.75,
+          "end": 8.21,
+          "probability": 0.9996834695339203,
+          "speaker": "speaker_01"
+        }
+      ]
+    },
+    {
+      "utterance_id": "utt_000016",
+      "start": 42.75,
+      "end": 44.11,
+      "duration": 1.36,
+      "text": "hay un abuso del lenguaje",
+      "speaker": "speaker_01",
+      "speaker_confidence": 0.6713,
+      "assignment_source": "diarization_overlap_assignment",
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 0.913,
+        "coverage_ratio": 0.6713,
+        "candidate_speakers": [
+          {
+            "speaker": "speaker_01",
+            "overlap_seconds": 0.9129999999999967
+          },
+          {
+            "speaker": "speaker_02",
+            "overlap_seconds": 0.4129999999999967
+          }
+        ]
+      },
+      "flags": [],
+      "words": [
+        {
+          "word": " hay",
+          "start": 42.75,
+          "end": 43.29,
+          "probability": 0.5941957235336304,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " un",
+          "start": 43.29,
+          "end": 43.39,
+          "probability": 0.9995476603507996,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " abuso",
+          "start": 43.39,
+          "end": 43.63,
+          "probability": 0.9981147944927216,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " del",
+          "start": 43.63,
+          "end": 43.81,
+          "probability": 0.7719829678535461,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " lenguaje",
+          "start": 43.81,
+          "end": 44.11,
+          "probability": 0.9998963475227356,
+          "speaker": "speaker_01"
+        }
+      ]
+    },
+    {
+      "utterance_id": "utt_000017",
+      "start": 44.11,
+      "end": 46.67,
+      "duration": 2.56,
+      "text": "solamente quería decir que es el origen del problema",
+      "speaker": "speaker_01",
+      "speaker_confidence": 1.0,
+      "assignment_source": "diarization_overlap_assignment",
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 2.56,
+        "coverage_ratio": 1.0,
+        "candidate_speakers": [
+          {
+            "speaker": "speaker_01",
+            "overlap_seconds": 2.5600000000000023
+          }
+        ]
+      },
+      "flags": [],
+      "words": [
+        {
+          "word": " solamente",
+          "start": 44.11,
+          "end": 45.17,
+          "probability": 0.8683517575263977,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " quería",
+          "start": 45.17,
+          "end": 45.81,
+          "probability": 0.7136834263801575,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " decir",
+          "start": 45.81,
+          "end": 45.95,
+          "probability": 0.9996987581253052,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " que",
+          "start": 45.95,
+          "end": 46.09,
+          "probability": 0.9975824356079102,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " es",
+          "start": 46.09,
+          "end": 46.11,
+          "probability": 0.988852858543396,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " el",
+          "start": 46.11,
+          "end": 46.19,
+          "probability": 0.997211754322052,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " origen",
+          "start": 46.19,
+          "end": 46.47,
+          "probability": 0.9996704757213593,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " del",
+          "start": 46.47,
+          "end": 46.51,
+          "probability": 0.7143731117248535,
+          "speaker": "speaker_01"
+        },
+        {
+          "word": " problema",
+          "start": 46.51,
+          "end": 46.67,
+          "probability": 0.8291551470756531,
+          "speaker": "speaker_01"
+        }
+      ]
+    }
+  ]
+}
