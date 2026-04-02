@@ -82,7 +82,8 @@ jobs:
         run: |
           set -euo pipefail
           python -m pip install --upgrade pip
-          pip install pyannote.audio torch torchaudio
+          pip install --index-url https://download.pytorch.org/whl/cpu torch torchaudio
+          pip install pyannote.audio soundfile
 
       - name: Show target episode
         run: echo "Running diarization for episode ${{ needs.precheck.outputs.episode_id }}"
