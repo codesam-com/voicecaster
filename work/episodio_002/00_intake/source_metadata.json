@@ -1,10 +1,10 @@
 {
   "ffprobe_ok": true,
-  "duration_seconds": 127.033,
+  "duration_seconds": 1356.487,
   "container": "mp3",
   "audio_codec": "mp3",
   "sample_rate": 44100,
   "channels": 2,
-  "bit_rate": 64015,
-  "size_bytes": 1016520
+  "bit_rate": 64001,
+  "size_bytes": 10852145
 }
