@@ -1,5 +1,3 @@
-# src/voicecaster/diarization/reconcile_with_transcript.py
-
 from __future__ import annotations
 
 from typing import Any
@@ -8,7 +6,7 @@ from .models import SpeakerSegment, TranscriptUtterance
 
 
 def assign_speakers_to_transcript(
-    transcript_preview: dict[str, Any],
+    transcript_preview: dict[str, Any] | list[dict[str, Any]],
     speaker_segments: list[SpeakerSegment],
     low_confidence_threshold: float,
 ) -> tuple[list[TranscriptUtterance], dict[str, Any]]:
@@ -97,14 +95,20 @@ def assign_speakers_to_transcript(
     return utterances, stats
 
 
-def _extract_utterance_dicts(transcript_preview: dict[str, Any]) -> list[dict[str, Any]]:
-    if isinstance(transcript_preview.get("segments"), list):
-        return transcript_preview["segments"]
+def _extract_utterance_dicts(
+    transcript_preview: dict[str, Any] | list[dict[str, Any]]
+) -> list[dict[str, Any]]:
+    if isinstance(transcript_preview, list):
+        return transcript_preview
 
-    if isinstance(transcript_preview.get("utterances"), list):
-        return transcript_preview["utterances"]
+    if isinstance(transcript_preview, dict):
+        if isinstance(transcript_preview.get("segments"), list):
+            return transcript_preview["segments"]
 
-    raise ValueError("transcript_preview does not contain 'segments' or 'utterances' list.")
+        if isinstance(transcript_preview.get("utterances"), list):
+            return transcript_preview["utterances"]
+
+    raise ValueError("transcript input does not contain a usable segments/utterances list.")
 
 
 def _compute_overlap(a_start: float, a_end: float, b_start: float, b_end: float) -> float:
