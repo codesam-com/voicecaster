@@ -1,0 +1,84 @@
+{
+  "num_speakers_detected": 6,
+  "total_speech_seconds": 8253.962,
+  "speakers": [
+    {
+      "speaker": "speaker_01",
+      "speech_seconds": 2289.367,
+      "speech_ratio": 0.2774,
+      "num_turns": 221,
+      "avg_turn_seconds": 10.359,
+      "median_turn_seconds": 6.733,
+      "longest_turn_seconds": 78.114,
+      "first_seen": 0.166,
+      "last_seen": 8539.237,
+      "assignment_confidence_mean": 0.9273,
+      "low_confidence_segments": 55
+    },
+    {
+      "speaker": "speaker_02",
+      "speech_seconds": 2929.841,
+      "speech_ratio": 0.355,
+      "num_turns": 175,
+      "avg_turn_seconds": 16.742,
+      "median_turn_seconds": 10.479,
+      "longest_turn_seconds": 99.799,
+      "first_seen": 0.2,
+      "last_seen": 8549.547,
+      "assignment_confidence_mean": 0.9475,
+      "low_confidence_segments": 45
+    },
+    {
+      "speaker": "speaker_03",
+      "speech_seconds": 8.269,
+      "speech_ratio": 0.001,
+      "num_turns": 11,
+      "avg_turn_seconds": 0.752,
+      "median_turn_seconds": 0.422,
+      "longest_turn_seconds": 2.784,
+      "first_seen": 26.12,
+      "last_seen": 6639.196,
+      "assignment_confidence_mean": 0.9251,
+      "low_confidence_segments": 0
+    },
+    {
+      "speaker": "speaker_04",
+      "speech_seconds": 1684.565,
+      "speech_ratio": 0.2041,
+      "num_turns": 128,
+      "avg_turn_seconds": 13.161,
+      "median_turn_seconds": 4.548,
+      "longest_turn_seconds": 103.41,
+      "first_seen": 40.936,
+      "last_seen": 8547.387,
+      "assignment_confidence_mean": 0.9668,
+      "low_confidence_segments": 18
+    },
+    {
+      "speaker": "speaker_05",
+      "speech_seconds": 1332.84,
+      "speech_ratio": 0.1615,
+      "num_turns": 105,
+      "avg_turn_seconds": 12.694,
+      "median_turn_seconds": 4.539,
+      "longest_turn_seconds": 137.751,
+      "first_seen": 193.992,
+      "last_seen": 8488.443,
+      "assignment_confidence_mean": 0.965,
+      "low_confidence_segments": 13
+    },
+    {
+      "speaker": "speaker_06",
+      "speech_seconds": 9.08,
+      "speech_ratio": 0.0011,
+      "num_turns": 27,
+      "avg_turn_seconds": 0.336,
+      "median_turn_seconds": 0.152,
+      "longest_turn_seconds": 3.966,
+      "first_seen": 757.55,
+      "last_seen": 8678.455,
+      "assignment_confidence_mean": null,
+      "low_confidence_segments": 0
+    }
+  ]
+}

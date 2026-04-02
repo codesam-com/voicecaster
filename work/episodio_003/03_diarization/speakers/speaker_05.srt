@@ -1,0 +1,1595 @@
+1
+00:03:15,250 --> 00:03:19,650
+que lo de equipo médico es porque somos doctores, pero es la única cosa más cercana que tenemos a
+
+2
+00:05:59,560 --> 00:06:01,940
+definiendo el propio concepto de que consideramos
+
+3
+00:06:01,940 --> 00:06:02,560
+una partícula elemental
+
+4
+00:11:44,830 --> 00:11:46,970
+Ya nos desmaterializaremos poco a poco.
+
+5
+00:12:28,010 --> 00:12:32,150
+No, pero podríamos cometer el error que queremos subsanar,
+
+6
+00:12:32,170 --> 00:12:35,610
+porque si resulta que finalmente las otras partículas que nosotros llamamos fundamentales ahora
+
+7
+00:12:35,610 --> 00:12:40,450
+en el furo no lo son, habremos movido el problema del nombre, ¿no?
+
+8
+00:12:40,450 --> 00:12:42,570
+Es decir que, bueno, yo creo que está bien por una cuestión histórica
+
+9
+00:12:42,570 --> 00:12:44,110
+y por lo que tú has comentado, ¿no?
+
+10
+00:12:44,130 --> 00:12:49,190
+Es decir, es la unidad mínima que define una sustancia macroscópica,
+
+11
+00:12:49,190 --> 00:12:50,390
+digamos, por ejemplo, como el oro, ¿no?
+
+12
+00:13:53,570 --> 00:13:54,770
+¿Querías decir algo Francis?
+
+13
+00:17:40,670 --> 00:17:42,010
+Introducimos primero la
+
+14
+00:19:22,950 --> 00:19:25,410
+Bueno, lo puedes ver al revés, ¿no? Desde nuestra escala a la escala
+
+15
+00:19:25,410 --> 00:19:27,530
+del universo más grande conocido, que también son un montón
+
+16
+00:19:27,530 --> 00:19:29,450
+de órdenes de magnitud, va a aparecer
+
+17
+00:19:29,450 --> 00:19:31,810
+un montón de estructuras que no tienen nada que ver con nosotros, ¿no?
+
+18
+00:19:33,750 --> 00:19:34,550
+planetas, galaxias
+
+19
+00:19:35,290 --> 00:19:36,270
+cúmulos de galaxias
+
+20
+00:19:36,270 --> 00:19:37,470
+gran estructura
+
+21
+00:19:48,550 --> 00:19:50,530
+lo que sí sabemos a ciencia cierta de hoy
+
+22
+00:19:50,530 --> 00:19:52,450
+por darle el punto de vista un poco de la astrofísica
+
+23
+00:19:52,450 --> 00:19:53,430
+es que
+
+24
+00:19:53,890 --> 00:19:55,730
+como tenemos un universo observable
+
+25
+00:19:56,310 --> 00:19:57,570
+al que no podemos superar
+
+26
+00:19:57,570 --> 00:19:59,790
+lo podremos ver con más detalle las fronteras
+
+27
+00:19:59,790 --> 00:20:01,630
+la radiación de fondo y eso
+
+28
+00:20:01,630 --> 00:20:03,490
+pero no podemos saber, ante la pregunta que
+
+29
+00:20:03,490 --> 00:20:05,650
+normalmente cuando hablas con los amigos
+
+30
+00:20:05,650 --> 00:20:06,950
+después de varias copas de vino te dicen
+
+31
+00:20:06,950 --> 00:20:09,150
+¿el universo es finito o infinito?
+
+32
+00:20:09,390 --> 00:20:11,270
+pues no lo sé, el observado
+
+33
+00:20:11,270 --> 00:20:13,550
+solo te puedo hablar del observado, no sé que hay más allá
+
+34
+00:20:13,550 --> 00:20:14,990
+del observado, entonces
+
+35
+00:20:15,790 --> 00:20:16,510
+ahí tampoco
+
+36
+00:20:17,410 --> 00:20:19,450
+lo que quiero decir es mientras que tenemos
+
+37
+00:20:19,450 --> 00:20:21,710
+argumentos teóricos para decir entre 10 a la menos
+
+38
+00:20:21,710 --> 00:20:23,730
+15 metros y 10 a la menos 30 metros
+
+39
+00:20:23,730 --> 00:20:25,670
+no sabemos si hay más estructura
+
+40
+00:20:25,670 --> 00:20:27,350
+lo que sí sabemos es que
+
+41
+00:20:28,170 --> 00:20:28,970
+podemos decir
+
+42
+00:20:29,330 --> 00:20:34,650
+decir, si nuestro conocimiento es correcto, es que no podremos decir mucho tampoco del universo más
+
+43
+00:20:34,650 --> 00:20:39,550
+allá de la escala observable, ¿no? No tenemos ni idea y puede haber infinitas escalas todavía por
+
+44
+00:20:39,550 --> 00:20:44,570
+explorar que se nos escapan simplemente de nuestra burbuja observable. Sí, que hay una limitación ahí
+
+45
+00:20:44,570 --> 00:20:50,250
+física, ¿no? Yo después, antes de... Sí, ya por meternos en la tabla, pero después sí que me gustaría
+
+46
+00:20:50,250 --> 00:20:54,670
+debatir el tema de cómo sabemos que algo es fundamental o no, no sólo por las cuestiones
+
+47
+00:20:54,670 --> 00:20:58,230
+de energía, sino que esté compuesto o que no esté compuesto, porque creo que es un tema muy
+
+48
+00:20:58,230 --> 00:20:59,730
+muy interesante y que se suele debatir poco.
+
+49
+00:21:01,010 --> 00:21:04,350
+Por ejemplo, en el episodio 116 hablamos de que el mesón B
+
+50
+00:21:04,350 --> 00:21:07,110
+estaba compuesto de varias partículas, o que el protón y eso.
+
+51
+00:21:07,890 --> 00:21:11,890
+Pero estaría bien que debatiéramos cómo se puede llegar a ese conocimiento.
+
+52
+00:21:12,560 --> 00:21:16,600
+Bueno, volviendo a la tabla, yo cuando miro la tabla veo dos grandes,
+
+53
+00:21:16,780 --> 00:21:19,780
+bueno, veo muchas familias diferentes, pero dos grandes bloques.
+
+54
+00:21:20,500 --> 00:21:23,600
+Un bloque que es el bloque de los fermiones,
+
+55
+00:21:24,200 --> 00:21:27,700
+que contiene a los quarks y los leptones, ahora hablaremos de ellos,
+
+56
+00:21:27,700 --> 00:21:31,580
+y otro bloque, que es el bloque de los bosones,
+
+57
+00:21:31,580 --> 00:21:35,220
+que son las partículas que median las interacciones.
+
+58
+00:21:35,540 --> 00:21:37,760
+Entonces está como dos grandes columnas, ¿no?
+
+59
+00:21:37,760 --> 00:21:41,640
+La columna de lo que es, de lo que diríamos lo que va a interaccionar
+
+60
+00:21:41,640 --> 00:21:45,200
+y lo que hace que esas cosas interaccionen, ¿no?
+
+61
+00:22:02,040 --> 00:22:03,760
+todo, ¿no? Me gustaría hablar de como
+
+62
+00:22:03,760 --> 00:22:05,760
+que, o sea, en la
+
+63
+00:22:05,760 --> 00:22:07,480
+física clásica uno hablaría como de
+
+64
+00:22:07,480 --> 00:22:09,840
+materia y fuerzas
+
+65
+00:22:09,840 --> 00:22:11,520
+¿no? Pero aquí resulta que cuando
+
+66
+00:22:11,520 --> 00:22:12,740
+vas a la física de partículas
+
+67
+00:22:12,740 --> 00:22:15,360
+las fuerzas están también compuestas por materia
+
+68
+00:22:15,360 --> 00:22:18,060
+con lo cual, porque son partículas
+
+69
+00:22:21,620 --> 00:22:22,680
+y además son bastante
+
+70
+00:22:23,620 --> 00:22:24,060
+masivos
+
+71
+00:22:24,060 --> 00:22:27,780
+los que producen la interacción entre partículas
+
+72
+00:22:27,780 --> 00:22:29,480
+con lo cual, esta es una de las primeras
+
+73
+00:22:29,480 --> 00:22:31,440
+cosas que a uno debería llamarle la atención cuando ve
+
+74
+00:22:31,440 --> 00:22:33,580
+el mundo de las partículas, que es que las fuerzas
+
+75
+00:22:33,580 --> 00:22:34,720
+de repente adquieren
+
+76
+00:22:34,720 --> 00:22:37,280
+las fuerzas se vuelven materiales de alguna forma
+
+77
+00:22:37,940 --> 00:22:38,980
+salvo por lo que tú decías
+
+78
+00:22:38,980 --> 00:22:40,440
+del fotón
+
+79
+00:22:41,400 --> 00:22:42,760
+después si nos vamos a la
+
+80
+00:22:42,760 --> 00:22:44,560
+espera, creo que Alberto tiene un comentario
+
+81
+00:24:20,080 --> 00:24:28,740
+Pues una vez separamos entre estos dos grandes bloques que habíamos dicho, los fermiones, digamos las partículas que sufren las interacciones, y los bosones que son las que las transmiten.
+
+82
+00:31:02,420 --> 00:31:03,760
+Después vino
+
+83
+00:35:34,640 --> 00:35:35,620
+vamos a ir con la tablita
+
+84
+00:35:36,000 --> 00:35:37,920
+continuamos con la tabla y así introducimos
+
+85
+00:35:37,920 --> 00:35:39,720
+todos los elementos de la discusión
+
+86
+00:35:39,720 --> 00:35:40,860
+y ya nos metemos
+
+87
+00:35:41,560 --> 00:35:43,440
+claro, y ya nos metemos en la harina
+
+88
+00:36:01,000 --> 00:36:16,040
+Pues aparte de la separación en bloques entre fermiones y bosones, dentro del grupo de los fermiones hay otra separación en dos grandes bloques, que son el bloque de los quarks y el bloque de los leptones.
+
+89
+00:36:16,040 --> 00:36:43,200
+El bloque de la separación, aquí en la tabla se ve inmediatamente que la separación podría asociarse a la carga. ¿En qué sentido? Cuando la carga es un valor entero, bien la carga electromagnética, bien cero en el caso de los neutrinos o bien la unidad negativa en el caso de electrones, muones y tal, pues tenemos la familia de los leptones.
+
+90
+00:36:43,660 --> 00:36:45,680
+pero cuando la carga es una fracción
+
+91
+00:36:45,680 --> 00:36:46,860
+de unidad, por ejemplo
+
+92
+00:36:48,400 --> 00:36:49,620
+dos tercios o menos
+
+93
+00:36:49,620 --> 00:36:51,620
+un tercio o lo que sea, pues tenemos
+
+94
+00:36:51,620 --> 00:36:52,820
+la familia de los quarks
+
+95
+00:36:53,600 --> 00:36:55,660
+esto evidentemente vuelve a ser una cuestión histórica
+
+96
+00:36:55,660 --> 00:36:57,640
+porque decir que la carga, podríamos definirla
+
+97
+00:36:57,640 --> 00:36:59,320
+como que las cargas de los quarks son enteros
+
+98
+00:36:59,320 --> 00:37:01,320
+y la carga del electrón
+
+99
+00:37:01,320 --> 00:37:03,600
+es tres veces la carga del quark, por ejemplo
+
+100
+00:37:03,600 --> 00:37:05,800
+o lo que sea, la de un quark
+
+101
+00:37:05,800 --> 00:37:06,300
+concreto, ¿no?
+
+102
+00:37:07,280 --> 00:37:09,520
+Sí, pero tendría la misma distinción entre las que son
+
+103
+00:37:09,520 --> 00:37:11,520
+uno y las que son tres. Exacto, pero lo que te quiero decir
+
+104
+00:37:11,520 --> 00:37:13,180
+decir es que, claro, cuando a mí, la primera vez que
+
+105
+00:37:13,180 --> 00:37:15,300
+la carga es un tercio. ¿Cómo que la
+
+106
+00:37:15,300 --> 00:37:17,200
+carga es un tercio? Quiero decir,
+
+107
+00:37:17,240 --> 00:37:19,240
+es una notación histórica, como
+
+108
+00:37:19,240 --> 00:37:21,220
+se han desarrollado las cosas. Igual que en astronomía utilizamos
+
+109
+00:37:21,220 --> 00:37:23,100
+magnitud en vez de otras
+
+110
+00:37:39,300 --> 00:37:41,060
+dos grandes familias, leptones y quarks.
+
+111
+00:37:58,000 --> 00:38:18,410
+En realidad es un poquito más complejo porque dentro de estas familias vuelven a haber otras separaciones que serían el quark arriba y abajo, serían los que forman las partículas conocidas, protones, neutrones y las partículas del mundo que estamos acostumbrados a ver.
+
+112
+00:38:18,750 --> 00:38:22,870
+Y dentro de la familia de los leptones estaríamos acostumbrados a hablar de los electrones.
+
+113
+00:38:22,870 --> 00:38:26,440
+después tenemos otras familias
+
+114
+00:38:26,440 --> 00:38:27,560
+que son más energéticas
+
+115
+00:38:27,560 --> 00:38:29,260
+donde entran quarks
+
+116
+00:41:02,810 --> 00:41:04,670
+Otra cosa interesantísima es que tanto
+
+117
+00:41:04,670 --> 00:41:06,430
+quarks como leptones, hasta donde sabemos
+
+118
+00:41:06,430 --> 00:41:08,610
+hoy en día, aparecen en tres familias distintas
+
+119
+00:41:08,610 --> 00:41:10,350
+que son familias
+
+120
+00:41:10,350 --> 00:41:12,450
+agrupadas por su masa, una masa
+
+121
+00:41:12,450 --> 00:41:13,290
+masa creciente, ¿no?
+
+122
+00:41:14,030 --> 00:41:15,490
+Son generaciones, no lo llaman...
+
+123
+00:41:15,970 --> 00:41:18,190
+No sé cómo lo decía, en términos más
+
+124
+00:41:18,650 --> 00:41:19,130
+familias o
+
+125
+00:41:20,490 --> 00:41:21,370
+generaciones, no lo sé.
+
+126
+00:41:43,690 --> 00:41:46,610
+Lo interesante de estas familias es que la primera familia
+
+127
+00:41:46,610 --> 00:41:50,730
+es aquella cuyas partículas, tanto quarks como leptiones,
+
+128
+00:41:50,810 --> 00:41:54,790
+tienen menos masa y serían los que la naturaleza utiliza
+
+129
+00:41:54,790 --> 00:41:58,690
+o prefiere para formar la materia ordinaria
+
+130
+00:41:58,690 --> 00:42:01,250
+que es de la que estamos principalmente compuestos nosotros.
+
+131
+00:42:01,910 --> 00:42:05,950
+Las otras familias son más masivas y por lo tanto
+
+132
+00:42:05,950 --> 00:42:08,770
+se han ido descubriendo más tarde en el tiempo
+
+133
+00:42:08,770 --> 00:42:11,370
+porque se requería más energía para poder acceder
+
+134
+00:42:11,370 --> 00:42:12,550
+a estas partículas
+
+135
+00:42:12,550 --> 00:42:15,450
+y hasta donde yo sé
+
+136
+00:42:15,450 --> 00:42:17,330
+se hubieran podido descubrir
+
+137
+00:42:17,330 --> 00:42:19,610
+si la física de partículas no existiera como tal
+
+138
+00:42:19,610 --> 00:42:21,730
+por ejemplo en los rayos cósmicos
+
+139
+00:42:21,730 --> 00:42:23,650
+que ya se ven, por ejemplo los muones
+
+140
+00:42:25,270 --> 00:42:25,870
+aparecían
+
+141
+00:42:25,870 --> 00:42:26,990
+en los rayos cósmicos
+
+142
+00:42:26,990 --> 00:42:28,590
+es decir que en ese sentido
+
+143
+00:42:28,590 --> 00:42:31,450
+al menos sabemos que más allá
+
+144
+00:42:31,450 --> 00:42:32,790
+de los aceleradores de partículas
+
+145
+00:42:32,790 --> 00:42:35,050
+la naturaleza es capaz de fabricar
+
+146
+00:42:35,050 --> 00:42:37,410
+estos elementos
+
+147
+00:42:37,410 --> 00:42:38,750
+más energéticos
+
+148
+00:42:38,750 --> 00:42:40,470
+en alguna
+
+149
+00:42:41,350 --> 00:42:42,990
+variante concreta como son los rayos cósmicos
+
+150
+00:42:42,990 --> 00:42:44,950
+es decir, que nos hubiera dado pistas
+
+151
+00:42:44,950 --> 00:42:47,350
+aunque no hubiéramos sido capaces de hacer aceleradores de partículas
+
+152
+00:42:47,350 --> 00:42:48,830
+de que había algo más
+
+153
+00:42:48,830 --> 00:42:50,030
+el estudio por ejemplo
+
+154
+00:42:50,030 --> 00:42:52,090
+de los rayos cósmicos
+
+155
+00:44:39,090 --> 00:44:41,190
+pero es una partícula elemental
+
+156
+00:44:41,590 --> 00:44:42,770
+efectivamente, ahí es donde iba yo
+
+157
+00:44:42,770 --> 00:44:45,050
+es decir, que aquí ya podemos quizás entrar ya con el debate
+
+158
+00:44:45,050 --> 00:44:46,390
+de qué es lo fundamental y lo que no
+
+159
+00:44:46,390 --> 00:44:48,410
+y cuando digo prefiere, me refiero a que
+
+160
+00:44:48,990 --> 00:44:51,150
+no deja de ser algo fundamental
+
+161
+00:44:51,150 --> 00:44:53,090
+entre comillas, un principio de la naturaleza
+
+162
+00:44:53,090 --> 00:44:55,370
+que prefiera vivir en los estados con menos
+
+163
+00:44:55,370 --> 00:44:57,490
+energía. Pero es que
+
+164
+00:45:01,470 --> 00:45:03,370
+digo, pero que es un principio de la naturaleza.
+
+165
+00:45:27,850 --> 00:45:29,870
+No Alberto, pero al utilizar
+
+166
+00:45:29,870 --> 00:45:31,830
+la palabra preferir, claro, le he dado una cierta
+
+167
+00:45:31,830 --> 00:45:33,650
+conciencia y un deseo de hacer algo
+
+168
+00:45:33,650 --> 00:45:35,630
+lo que me refería con eso, evidentemente
+
+169
+00:45:35,630 --> 00:45:37,250
+es que la naturaleza
+
+170
+00:45:38,790 --> 00:45:39,830
+tiende, vamos a decirlo así
+
+171
+00:45:39,830 --> 00:45:41,970
+no es que prefiera, tiende a vivir
+
+172
+00:45:41,970 --> 00:45:44,050
+en los estados menos energéticos y que eso
+
+173
+00:45:44,050 --> 00:45:46,090
+es algo de tipo fundamental en la naturaleza
+
+174
+00:45:46,550 --> 00:45:47,830
+es decir, el hecho de porque hay
+
+175
+00:45:47,830 --> 00:45:49,550
+por ejemplo, las partículas de más baja
+
+176
+00:45:49,550 --> 00:45:51,450
+energía son las que
+
+177
+00:45:51,450 --> 00:45:55,150
+que, hasta donde sabemos, tienen una vida infinita, ¿no?, entre comillas.
+
+178
+00:45:56,990 --> 00:46:00,150
+El electrón dura toda... no se desintegra, vamos.
+
+179
+00:52:54,370 --> 00:52:57,390
+De hecho, se podría decir que la vida interna del protón
+
+180
+00:52:57,390 --> 00:52:59,610
+es bastante agitada, porque todo lo que estás hablando
+
+181
+00:52:59,610 --> 00:53:01,690
+son continuos cambios de estado,
+
+182
+00:53:01,850 --> 00:53:04,190
+y formando, es decir, los glúteos no se mueven de un lado a otro,
+
+183
+00:53:04,250 --> 00:53:05,830
+los cuartos se están intercambiando entre sí,
+
+184
+00:53:06,310 --> 00:53:10,110
+con lo cual no es nada estático el interior de un protón.
+
+185
+00:57:06,020 --> 00:57:32,980
+Yo creo que estamos irremediablemente abocados a chocarnos contra la siguiente pregunta y es, entonces, ¿cómo definimos que algo es fundamental? Porque obviamente no va a ser su estabilidad temporal, porque hemos dicho que partículas de tipo fundamental como el muón se desintegra en otras y hemos dicho que partículas que están compuestas como el protón, hasta donde sabemos, viven para siempre. Entonces, ¿cómo podemos decir que algo es fundamental o no?
+
+186
+00:59:52,280 --> 01:00:17,320
+Pero tú has puesto el hincapié en que la fundamentalidad está relacionada con el tamaño, y yo estoy dispuesto a comprar este argumento, que parece un argumento que se puede medir, por ejemplo. En el caso de las partículas como el muón o otras partículas que apenas viven tiempo, me imagino que habrá grupos o se habrá hecho en algún momento investigaciones sobre lo que tú estás diciendo, sobre su tamaño.
+
+187
+01:00:17,320 --> 01:00:19,400
+es decir, hasta donde ustedes saben
+
+188
+01:00:19,400 --> 01:00:20,840
+que saben más que nosotros sobre esto
+
+189
+01:00:20,840 --> 01:00:23,120
+¿la gente ha investigado el tamaño del muón
+
+190
+01:00:23,120 --> 01:00:25,420
+bombardeándolo de alguna forma o así?
+
+191
+01:04:19,850 --> 01:04:34,090
+Y aquí, haciendo la analogía que hacíamos al principio del experimento de Radeford, ¿tenemos también la distribución de las partículas dentro del protón confinadas a algún sitio en concreto o están distribuidas como una nube de manera homogénea?
+
+192
+01:06:13,350 --> 01:06:30,550
+Pero lo que quiero decir es que a diferencia de lo que veíamos con el átomo, que cuando lo bombardeábamos el 99,9% de las veces no chocaba con nada, por decir algo, no existe una distribución espacial dentro del protón concentrada en un punto como existía en el átomo.
+
+193
+01:06:30,650 --> 01:06:38,540
+Me estás diciendo que cada vez que le tiro algo veo algo diferente en función de la energía, pero siempre veo algo. No atravieso nunca el protón.
+
+194
+01:07:31,360 --> 01:07:48,720
+Sé que sería meternos en arena de otro costal y mejor desplazarnos hacia otras cosas, pero claro, la pregunta que surge de manera natural es cuando has dicho, se están moviendo a una velocidad tremenda, cercana a la velocidad de la luz, pues uno pensaría que con esas velocidades deberían escaparse, pero claro, ahí está que la interacción fuerte se llama fuerte por algo.
+
+195
+01:13:05,190 --> 01:13:08,570
+quiero añadir más cosas y la mayor
+
+196
+01:13:08,570 --> 01:13:10,030
+parte de ellas dudas que tengo
+
+197
+01:13:10,030 --> 01:13:11,570
+porque el cambio
+
+198
+01:13:12,110 --> 01:13:14,450
+es tan radical con respecto
+
+199
+01:13:14,450 --> 01:13:16,890
+a la visión clásica
+
+200
+01:13:16,890 --> 01:13:18,230
+de lo que estamos hablando, es tan radical
+
+201
+01:13:18,230 --> 01:13:20,010
+es un cambio conceptualmente tan
+
+202
+01:13:20,010 --> 01:13:23,930
+tan diferente, que es una revolución conceptual como puede ser
+
+203
+01:13:23,930 --> 01:13:25,970
+la teoría de la evolución de las especies o algo así,
+
+204
+01:13:26,070 --> 01:13:30,650
+en nuestro conocimiento de la sustancia, de la realidad última de la naturaleza.
+
+205
+01:13:32,350 --> 01:13:37,930
+Porque, claro, la visión clásica es partículas, es decir, bolitas de algo,
+
+206
+01:13:38,010 --> 01:13:41,130
+bolitas de billar o lo que sea, que interaccionan entre ellas.
+
+207
+01:13:41,190 --> 01:13:45,130
+Esa es la visión de la naturaleza que hemos tenido durante siglos,
+
+208
+01:13:45,150 --> 01:13:48,350
+de cualquiera que haya pensado desde los átomos de los griegos.
+
+209
+01:13:48,350 --> 01:13:50,350
+es decir, partículitas, puntitos
+
+210
+01:13:50,350 --> 01:13:52,650
+si quieres, interaccionando entre ellas
+
+211
+01:13:52,650 --> 01:13:53,970
+y ahora venimos a decir que
+
+212
+01:13:53,970 --> 01:13:56,310
+las interacciones, ya hemos dicho, primer cambio radical
+
+213
+01:13:56,310 --> 01:13:58,290
+las interacciones también son mediadas por
+
+214
+01:13:58,290 --> 01:14:00,370
+partículas, ¿vale? primer cambio
+
+215
+01:14:00,370 --> 01:14:02,070
+no es una acción a distancia, sino que tiene
+
+216
+01:14:02,070 --> 01:14:04,430
+unas partículas, y el segundo cambio radical
+
+217
+01:14:04,430 --> 01:14:06,330
+es que, no, olvídate de las partículas
+
+218
+01:14:06,330 --> 01:14:07,910
+las partículas son unas representaciones
+
+219
+01:14:08,970 --> 01:14:10,130
+útiles, si quieres, para
+
+220
+01:14:10,690 --> 01:14:11,130
+entender
+
+221
+01:14:12,010 --> 01:14:13,810
+los momentos en que uno mide algo
+
+222
+01:14:13,810 --> 01:14:16,330
+pero la realidad fundamental es otra cosa
+
+223
+01:14:16,330 --> 01:14:17,810
+es algo desmaterializado
+
+224
+01:14:17,810 --> 01:14:21,990
+desmaterializado, un campo es algo desmaterializado de alguna forma, porque estás hablando de una
+
+225
+01:14:21,990 --> 01:14:25,850
+sustancia hasta donde yo te entiendo. Vamos a intentar poner, yo voy a intentar decirlo en
+
+226
+01:14:25,850 --> 01:14:32,270
+mis palabras y ustedes me corrigen si estoy equivocado. El campo del electrón. En principio
+
+227
+01:14:32,270 --> 01:14:36,990
+tú has dicho que es un campo que llena todo, pero que llena todo el universo. Es decir,
+
+228
+01:14:37,030 --> 01:14:43,010
+el campo del electrón es un único campo. Eso es. Lo que pasa es que electrones hay miles de millones
+
+229
+01:14:43,010 --> 01:14:47,750
+de millones de millones de perturbaciones en ese campo, pero es un único campo. ¿De acuerdo?
+
+230
+01:14:48,210 --> 01:14:50,390
+entonces hay una única sustancia
+
+231
+01:14:50,970 --> 01:14:51,650
+llamémosle campo
+
+232
+01:14:51,650 --> 01:14:54,450
+que tiene perturbaciones que yo puedo medir
+
+233
+01:14:54,450 --> 01:14:55,030
+a nivel local
+
+234
+01:14:56,230 --> 01:14:58,970
+que llamo electrones, que tendrán sus propiedades
+
+235
+01:14:58,970 --> 01:15:00,770
+pero imagínate el cambio
+
+236
+01:15:00,770 --> 01:15:03,050
+radical de concepto
+
+237
+01:15:27,570 --> 01:15:30,750
+pero claro, es que la perturbación, ¿cómo es esa perturbación?
+
+238
+01:15:30,750 --> 01:15:32,590
+cuando hablamos de un electrón y así volvemos un poco
+
+239
+01:15:32,590 --> 01:15:34,470
+a la pregunta de Héctor
+
+240
+01:15:34,850 --> 01:15:36,350
+es decir, es una perturbación
+
+241
+01:15:36,350 --> 01:15:38,590
+que yo mido localmente porque es la única
+
+242
+01:15:38,590 --> 01:15:40,130
+forma, es que medir
+
+243
+01:15:40,130 --> 01:15:42,070
+es actuar
+
+244
+01:15:42,710 --> 01:15:44,070
+localmente en un sitio, eso es medir
+
+245
+01:15:44,690 --> 01:15:46,530
+por eso yo hablo de que la partícula
+
+246
+01:15:46,530 --> 01:15:48,770
+es una partícula puntual, porque no tiene
+
+247
+01:15:48,770 --> 01:15:50,610
+tamaño, porque medir
+
+248
+01:15:50,610 --> 01:15:52,530
+implica eso, pero si
+
+249
+01:15:52,530 --> 01:15:54,950
+yo digo que no mido, y esto es una de las cosas
+
+250
+01:15:54,950 --> 01:15:56,890
+que decía Francis, si no recuerdo mal
+
+251
+01:15:56,890 --> 01:15:58,470
+en el episodio 116
+
+252
+01:15:58,470 --> 01:16:00,890
+si no mido, a priori
+
+253
+01:16:00,890 --> 01:16:03,090
+el tamaño, es decir, a priori la partícula
+
+254
+01:16:03,090 --> 01:16:04,150
+está distribuida en todo el espacio
+
+255
+01:16:04,590 --> 01:16:06,290
+con mayor o menor probabilidad
+
+256
+01:16:06,290 --> 01:16:08,250
+pero es una cosa que no es local
+
+257
+01:16:09,470 --> 01:16:10,990
+y eso engancha bien con el
+
+258
+01:16:10,990 --> 01:16:13,490
+tema que siempre hemos estado hablando de la dualidad onda-corpúsculo
+
+259
+01:16:13,490 --> 01:16:16,950
+el holismo que tiene la mecánica cuántica
+
+260
+01:16:16,950 --> 01:16:19,450
+frente a la localidad
+
+261
+01:16:19,450 --> 01:16:20,110
+cuando tú mides
+
+262
+01:16:20,110 --> 01:16:22,470
+yo vuelvo a insistir a los oyentes
+
+263
+01:16:22,470 --> 01:16:24,870
+que esto es un tema brutal
+
+264
+01:16:24,870 --> 01:16:25,870
+es muy profundo
+
+265
+01:16:25,870 --> 01:16:28,430
+los conceptos, estoy de acuerdo también
+
+266
+01:16:28,430 --> 01:16:29,970
+con Alberto cuando dice que
+
+267
+01:16:29,970 --> 01:16:32,410
+cuando hablamos en términos de campo
+
+268
+01:16:32,410 --> 01:16:34,150
+muchas de las cosas
+
+269
+01:16:34,150 --> 01:16:35,710
+de la ontología
+
+270
+01:16:35,710 --> 01:16:37,750
+de la realidad
+
+271
+01:16:37,750 --> 01:16:40,230
+de repente encajan mejor
+
+272
+01:16:40,230 --> 01:16:42,910
+porque podemos entender el experimento de la doble rendija
+
+273
+01:16:42,910 --> 01:16:50,630
+más fácilmente, pero entendemos que cuando medimos es cuando estamos obligando a que las cosas pasen
+
+274
+01:16:50,630 --> 01:16:55,530
+de estar distribuidas en un espacio de manera no local a que se localicen.
+
+275
+01:16:56,330 --> 01:16:59,070
+Quiero decir que hay muchas cosas aquí de las que hablar.
+
+276
+01:19:28,670 --> 01:19:46,270
+Yo quiero insistir en que creo que a nivel divulgativo no se explica bien esto o que es muy complicado porque se suelen poner las analogías de, por ejemplo, el tambor o la piel del tambor que cuando le das o las ondas en un lago y todo esto.
+
+277
+01:19:46,270 --> 01:19:53,210
+Pero en todas estas analogías hay una especie de, digamos, contorno.
+
+278
+01:19:54,510 --> 01:19:57,630
+Mientras que, si tenemos una condición de contorno de alguna forma,
+
+279
+01:19:57,710 --> 01:20:01,330
+mientras que en el campo del electrón, hasta donde yo sé,
+
+280
+01:20:01,430 --> 01:20:04,410
+no hay una condición de contorno, o sea, global,
+
+281
+01:20:04,550 --> 01:20:06,250
+en el universo no hay una condición de contorno.
+
+282
+01:20:06,530 --> 01:20:08,350
+O sea, el universo puede ser infinito.
+
+283
+01:20:09,770 --> 01:20:13,190
+Lo digo esto porque, aunque me estoy metiendo en harinas complicadas,
+
+284
+01:20:13,750 --> 01:20:14,990
+pero a ver si lo explico.
+
+285
+01:20:14,990 --> 01:20:34,110
+Cuando hablamos de los estados cuánticos aparecen cuando hay condiciones de contorno, como por ejemplo puede ser la estructura del átomo, donde yo ocupo una serie de niveles concretos, pero si yo estoy fuera de algo que me condiciona, como puede ser la estructura del átomo, en realidad puedo tener cualquier tipo de energía.
+
+286
+01:20:34,110 --> 01:20:54,010
+O sea, un electrón propagándose libremente en un medio, o sea, el electrón solo propagándose puede tener a priori cualquier energía, no está cuantizado. Con lo cual, quiero decir que es un tema más complejo, ¿no? Es un tema complejo entender qué significa esta perturbación. Por ejemplo, es una de las cosas que yo les quería hacer la pregunta concreta.
+
+287
+01:20:54,010 --> 01:20:58,950
+Imagínate que un electrón se está propagando en el vacío, en el vacío más perfecto que me puedo imaginar.
+
+288
+01:20:59,430 --> 01:21:04,390
+¿Cuál es la forma de la perturbación? ¿Es un frente de ondas? ¿Qué es lo que es?
+
+289
+01:31:29,570 --> 01:31:31,090
+¿Podemos movernos entonces al tema de
+
+290
+01:31:31,090 --> 01:31:32,110
+una vez definido que
+
+291
+01:31:32,110 --> 01:31:35,490
+la sustancia fundamental son los campos
+
+292
+01:31:35,490 --> 01:31:36,770
+a las interacciones
+
+293
+01:35:44,580 --> 01:36:06,660
+Sí, pero la cosa curiosa es que todos los campos coexisten a la vez en el mismo espacio, con lo cual el tema es todavía más abstracto a la hora de visualizarlo, porque normalmente estamos acostumbrados a que el mar está en un sitio, el aire en otro, la tierra en otro, pero aquí estamos hablando de que todo está mezclado, porque todos los campos están a la vez ocupando la misma región.
+
+294
+01:51:23,180 --> 01:51:26,460
+La erótica del campo de Higgs con las excitaciones
+
+295
+01:52:45,770 --> 01:52:47,070
+En la analogía que creo que
+
+296
+01:52:47,070 --> 01:52:48,930
+ha hecho o que ha querido transmitir Francis
+
+297
+01:52:48,930 --> 01:52:51,250
+en el tema de la masa de las
+
+298
+01:52:51,250 --> 01:52:53,170
+partículas, ha puesto como ejemplo el electrón, pero
+
+299
+01:52:53,170 --> 01:52:55,010
+podría haber puesto como ejemplo cualquier otra, me imagino,
+
+300
+01:52:56,190 --> 01:53:00,870
+se podría relacionar con la idea de cuánto tarda en desplazarse un fotón
+
+301
+01:53:00,870 --> 01:53:03,170
+de un lugar a otro cuando está en el espacio vacío
+
+302
+01:53:03,170 --> 01:53:05,610
+o cuánto tarda cuando atraviesa un medio
+
+303
+01:53:05,610 --> 01:53:08,290
+porque tiene que ir rebotando de un lado a otro
+
+304
+01:53:08,290 --> 01:53:11,350
+lo que pasa es que la analogía no es perfecta del todo
+
+305
+01:53:11,350 --> 01:53:14,690
+en el sentido de que mientras en uno se produce un desplazamiento en el espacio
+
+306
+01:53:15,550 --> 01:53:18,230
+aquí el electrón podría estar quieto
+
+307
+01:53:18,230 --> 01:53:20,170
+y tener masa simplemente porque está desplazándose
+
+308
+01:53:21,650 --> 01:53:23,850
+entre un estado y otro
+
+309
+01:53:23,850 --> 01:53:26,430
+pero aunque estuviera físicamente quieto en un único sitio
+
+310
+02:08:42,720 --> 02:08:48,220
+Cuidado con esto porque también estamos hablando todo el rato del campo de Higgs, de la masa,
+
+311
+02:08:48,860 --> 02:08:51,520
+porque es algo que le gusta particularmente a Héctor,
+
+312
+02:08:51,600 --> 02:08:56,120
+pero podríamos haber estado hablando de la carga electromagnética o la carga eléctrica
+
+313
+02:08:56,120 --> 02:09:00,320
+o podríamos haber estado hablando de la hipercarga de color, de las fuerzas nucleares.
+
+314
+02:09:00,980 --> 02:09:08,940
+¿También ahí la carga está en el campo de la interacción o es una propiedad de la partícula?
+
+315
+02:09:08,940 --> 02:09:12,660
+Y cuando digo la carga del electrón es menos uno, ¿dónde está la carga?
+
+316
+02:09:12,680 --> 02:09:15,460
+La carga también es la... son cosas diferentes.
+
+317
+02:12:32,540 --> 02:12:34,480
+si no, no funciona
+
+318
+02:12:34,480 --> 02:12:36,380
+para terminar un poco esta parte de las interacciones
+
+319
+02:12:36,380 --> 02:12:37,360
+que hemos estado hablando un montón
+
+320
+02:12:37,360 --> 02:12:40,400
+podríamos introducir, aunque fuera ligeramente
+
+321
+02:12:40,400 --> 02:12:42,420
+las cuestiones de los principios de simetría
+
+322
+02:12:42,420 --> 02:12:44,420
+que juegan un papel fundamental
+
+323
+02:12:44,420 --> 02:12:46,860
+aunque sea por decir algo mínimo
+
+324
+02:12:48,640 --> 02:12:50,220
+porque si hemos dicho que
+
+325
+02:12:50,220 --> 02:12:54,740
+Porque las cargas son la fuerza del acoplo, de las interacciones, digamos así.
+
+326
+02:12:54,860 --> 02:12:57,080
+La masa, lo mismo para el campo de Higgs.
+
+327
+02:12:58,200 --> 02:13:06,920
+Al final, los principios de simetría son algo también de tipo fundamental en la física de partículas.
+
+328
+02:13:07,120 --> 02:13:11,320
+O sea, no podemos entender la física de partículas sin hablar de los principios de simetría.
+
+329
+02:13:11,400 --> 02:13:19,040
+Sé que es un tema extremadamente abstracto, porque supone meternos con cosas que ya son matemáticas avanzadas.
+
+330
+02:13:19,680 --> 02:13:21,600
+pero sí al menos podríamos dar unos retazos
+
+331
+02:13:21,600 --> 02:13:23,980
+de que lo que se utilizan para construir la teoría
+
+332
+02:13:23,980 --> 02:13:28,220
+son que las interacciones, los campos
+
+333
+02:13:28,680 --> 02:13:30,480
+cumplan una serie de requisitos
+
+334
+02:13:31,840 --> 02:13:32,920
+¿Alguno se atreve a decir algo?
+
+335
+02:15:28,840 --> 02:15:42,240
+Es decir, que lo entendemos entonces como que los grupos, lo que se llama las simetrías, en realidad lo que estamos diciendo son las restricciones que le ponemos a las interacciones para definirlas, para su existencia.
+
+336
+02:15:42,240 --> 02:16:04,440
+Entonces tú, por ejemplo, has hablado de tres colores y eso se caracterizará técnicamente, no sé, es el grupo SU3, me imagino, o el que como se llame técnicamente, y significa que nosotros, es una especie de que yo puedo intercambiar esos colores entre las partículas y tengo que las interaccionar.
+
+337
+02:16:05,560 --> 02:16:30,000
+Efectivamente. Para que el oyente pueda tener una cierta imagen mental, es como si yo tuviera una simetría esférica. Yo puedo girar un cierto ángulo y veo, por ejemplo, que si yo estoy quieto mirando una pared, tiro una manzana y cae.
+
+338
+02:16:30,000 --> 02:16:32,140
+me giro 90 grados, tiro la manzana
+
+339
+02:16:32,140 --> 02:16:33,860
+y vuelve a caer con las mismas propiedades
+
+340
+02:16:33,860 --> 02:16:35,760
+¿por qué? porque existe, en este caso tengo
+
+341
+02:16:35,760 --> 02:16:38,200
+una cierta simetría
+
+342
+02:16:38,200 --> 02:16:39,480
+de rotación, por decir algo así
+
+343
+02:16:39,480 --> 02:16:42,240
+no cambian las leyes de la física porque yo me giro a la derecha o a la izquierda
+
+344
+02:16:42,240 --> 02:16:43,800
+un ejemplo muy simple pero para
+
+345
+02:16:43,800 --> 02:16:45,320
+indicar un poco por donde va la cosa
+
+346
+02:16:45,320 --> 02:16:47,960
+y aquí estamos diciéndole que en el caso
+
+347
+02:16:47,960 --> 02:16:49,080
+de la fuerza nuclear
+
+348
+02:16:50,220 --> 02:16:51,940
+fuerte, pues tiene esta simetría
+
+349
+02:16:51,940 --> 02:16:53,840
+que da igual el color
+
+350
+02:16:53,840 --> 02:16:56,000
+de los quarks
+
+351
+02:16:56,000 --> 02:16:58,160
+que la fuerza
+
+352
+02:16:58,160 --> 02:16:59,660
+es la misma, o la interacción, perdón
+
+353
+02:17:21,240 --> 02:17:23,180
+creo que Héctor quiere ya ir terminando
+
+354
+02:17:23,180 --> 02:17:24,840
+la discusión
+
+355
+02:17:24,840 --> 02:17:27,260
+y sí, se ha alargado un montón
+
+356
+02:17:27,260 --> 02:17:29,240
+llevamos un montón de programa, pero a mí
+
+357
+02:17:29,240 --> 02:17:32,940
+A mí sí me gustaría hacer una reflexión final, porque creo que desde el punto de vista metafísico
+
+358
+02:17:32,940 --> 02:17:38,620
+y a mí es una de las cosas que más me interesa, comprender lo que nos está describiendo la realidad
+
+359
+02:17:38,620 --> 02:17:46,320
+en sus últimas consecuencias, al final parece que estamos de acuerdo en que esa visión que dijimos
+
+360
+02:17:46,320 --> 02:17:54,880
+primitiva de partículas interaccionando entre ellas, eso es un concepto clásico que se va deshaciendo.
+
+361
+02:17:54,880 --> 02:18:21,980
+Hablamos de campos como unidades fundamentales, sus perturbaciones como las cosas que podemos medir, y describimos sus interacciones finalmente con unos principios de simetría que son unos pocos, digamos, entre comillas, no son tantos, y que esa es la descripción última de la realidad que tenemos en la física del siglo XXI al principio, en el año 2017, por si alguien nos escucha dentro de unos años.
+
+362
+02:18:21,980 --> 02:18:23,960
+hasta aquí es donde sabemos
+
+363
+02:18:23,960 --> 02:18:25,880
+y a mí me parece que
+
+364
+02:18:25,880 --> 02:18:28,100
+desde el punto de vista de la metafísica
+
+365
+02:18:28,100 --> 02:18:29,980
+supone un cambio tan bestial
+
+366
+02:18:29,980 --> 02:18:32,380
+de lo que consideramos
+
+367
+02:18:32,380 --> 02:18:33,900
+que era la realidad tan solo
+
+368
+02:18:33,900 --> 02:18:35,440
+hace 100 años, por decir algo así
+
+369
+02:18:35,440 --> 02:18:37,960
+y que es algo que está
+
+370
+02:18:37,960 --> 02:18:40,060
+tan alejado de la cotidianidad
+
+371
+02:18:40,060 --> 02:18:40,900
+y de lo que digamos
+
+372
+02:18:40,900 --> 02:18:43,600
+la persona media de la
+
+373
+02:18:44,060 --> 02:18:45,960
+calle puede tener sobre lo que es la visión
+
+374
+02:18:45,960 --> 02:18:47,760
+del mundo, como puede ser
+
+375
+02:18:47,760 --> 02:18:50,040
+las revoluciones que antes hablaba
+
+376
+02:18:50,040 --> 02:18:51,680
+de la biología, de la teoría de la evolución
+
+377
+02:18:51,680 --> 02:18:56,300
+o los conceptos, por ejemplo, tal como entendemos la cosmología,
+
+378
+02:18:56,500 --> 02:18:57,920
+con el tamaño del universo o algo así.
+
+379
+02:18:58,260 --> 02:19:02,420
+Estamos en la física del siglo XX, por mucho que mucha gente dijera
+
+380
+02:19:02,420 --> 02:19:06,380
+después de los años XX no se sabe nada, pero en cambio la física de partículas
+
+381
+02:19:06,380 --> 02:19:09,340
+nos demuestra que ha habido una revolución conceptual bestial
+
+382
+02:19:10,180 --> 02:19:12,220
+sobre nuestro conocimiento de lo que es la realidad última.
+
+383
+02:19:12,580 --> 02:19:16,020
+Y que, una cosa que yo aporto desde el punto de vista personal,
+
+384
+02:19:17,020 --> 02:19:18,740
+se ha vuelto tan matemática,
+
+385
+02:19:18,860 --> 02:19:21,300
+y eso es una cosa que siempre hablo con Héctor así en los pasillos,
+
+386
+02:19:21,680 --> 02:19:29,460
+Que de alguna manera pasamos de un cierto universo material a una especie de universo platónico
+
+387
+02:19:29,460 --> 02:19:36,920
+donde los elementos fundamentales son entidades matemáticas abstractas como las simetrías o los campos.
+
+388
+02:19:36,960 --> 02:19:37,740
+Y ya está, me he caído.
+
+389
+02:19:41,100 --> 02:19:47,780
+Sí, sí. Por platónico no quiero decir que esté en el mundo de las ideas.
+
+390
+02:19:47,780 --> 02:19:50,920
+aunque sí quiero decir que el nivel de abstracción
+
+391
+02:19:50,920 --> 02:19:53,980
+sobre la representación que hacemos de la naturaleza es tan alto
+
+392
+02:19:54,440 --> 02:19:56,720
+que lo describimos con cosas matemáticas
+
+393
+02:19:57,920 --> 02:20:00,380
+altamente complejas y que al desaparecer
+
+394
+02:20:00,380 --> 02:20:02,800
+el concepto de partícula como algo
+
+395
+02:20:04,060 --> 02:20:06,280
+material, la partícula que todo el mundo
+
+396
+02:20:06,280 --> 02:20:09,120
+puede tener en la cabeza, de los átomos golpeándose unos con otros
+
+397
+02:20:09,780 --> 02:20:12,420
+se quedan en cosas que se nos diluyen
+
+398
+02:20:12,420 --> 02:20:14,500
+como sustancia material, no sé cómo decirlo de otra forma
+
+399
+02:21:27,130 --> 02:21:28,170
+al menos tienes dos oyentes

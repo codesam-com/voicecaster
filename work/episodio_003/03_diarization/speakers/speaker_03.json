@@ -1,0 +1,195 @@
+{
+  "speaker": "speaker_03",
+  "num_utterances": 3,
+  "speech_seconds": 5.36,
+  "first_seen": 26.08,
+  "last_seen": 33.58,
+  "utterances": [
+    {
+      "utterance_id": "utt_000005",
+      "start": 26.08,
+      "end": 27.84,
+      "duration": 1.76,
+      "text": "Son como Isaac Asimov...",
+      "speaker": "speaker_03",
+      "speaker_confidence": 0.9773,
+      "assignment_source": "diarization_overlap_assignment",
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 1.72,
+        "coverage_ratio": 0.9773,
+        "candidate_speakers": [
+          {
+            "speaker": "speaker_03",
+            "overlap_seconds": 1.7199999999999989
+          },
+          {
+            "speaker": "speaker_02",
+            "overlap_seconds": 0.0400000000000027
+          }
+        ]
+      },
+      "flags": [],
+      "words": [
+        {
+          "word": " Son",
+          "start": 26.08,
+          "end": 26.26,
+          "probability": 0.9921534657478333,
+          "speaker": "speaker_03"
+        },
+        {
+          "word": " como",
+          "start": 26.26,
+          "end": 26.58,
+          "probability": 0.9999878406524658,
+          "speaker": "speaker_03"
+        },
+        {
+          "word": " Isaac",
+          "start": 26.58,
+          "end": 26.96,
+          "probability": 0.9951654672622681,
+          "speaker": "speaker_03"
+        },
+        {
+          "word": " Asimov...",
+          "start": 26.96,
+          "end": 27.84,
+          "probability": 0.846701979637146,
+          "speaker": "speaker_03"
+        }
+      ]
+    },
+    {
+      "utterance_id": "utt_000007",
+      "start": 29.06,
+      "end": 32.46,
+      "duration": 3.4,
+      "text": "Exacto, en jóvenes y en vez de libro, en radio.",
+      "speaker": "speaker_03",
+      "speaker_confidence": 0.7979,
+      "assignment_source": "diarization_overlap_assignment",
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 2.713,
+        "coverage_ratio": 0.7979,
+        "candidate_speakers": [
+          {
+            "speaker": "speaker_03",
+            "overlap_seconds": 2.713000000000001
+          },
+          {
+            "speaker": "speaker_03",
+            "overlap_seconds": 0.6030000000000015
+          },
+          {
+            "speaker": "speaker_02",
+            "overlap_seconds": 0.08399999999999963
+          }
+        ]
+      },
+      "flags": [],
+      "words": [
+        {
+          "word": " Exacto,",
+          "start": 29.06,
+          "end": 29.54,
+          "probability": 0.99898761510849,
+          "speaker": "speaker_03"
+        },
+        {
+          "word": " en",
+          "start": 29.54,
+          "end": 29.66,
+          "probability": 0.9999808073043823,
+          "speaker": "speaker_03"
+        },
+        {
+          "word": " jóvenes",
+          "start": 29.66,
+          "end": 30.14,
+          "probability": 0.9999973773956299,
+          "speaker": "speaker_03"
+        },
+        {
+          "word": " y",
+          "start": 30.14,
+          "end": 30.54,
+          "probability": 0.7249676585197449,
+          "speaker": "speaker_03"
+        },
+        {
+          "word": " en",
+          "start": 30.54,
+          "end": 30.68,
+          "probability": 0.9996888637542725,
+          "speaker": "speaker_03"
+        },
+        {
+          "word": " vez",
+          "start": 30.68,
+          "end": 30.92,
+          "probability": 0.9997585415840149,
+          "speaker": "speaker_03"
+        },
+        {
+          "word": " de",
+          "start": 30.92,
+          "end": 31.12,
+          "probability": 0.9910356998443604,
+          "speaker": "speaker_03"
+        },
+        {
+          "word": " libro,",
+          "start": 31.12,
+          "end": 31.42,
+          "probability": 0.9637210965156555,
+          "speaker": "speaker_03"
+        },
+        {
+          "word": " en",
+          "start": 31.54,
+          "end": 31.86,
+          "probability": 0.9999897480010986,
+          "speaker": "speaker_03"
+        },
+        {
+          "word": " radio.",
+          "start": 31.86,
+          "end": 32.46,
+          "probability": 0.9960903525352478,
+          "speaker": "speaker_03"
+        }
+      ]
+    },
+    {
+      "utterance_id": "utt_000009",
+      "start": 33.38,
+      "end": 33.58,
+      "duration": 0.2,
+      "text": "Eso.",
+      "speaker": "speaker_03",
+      "speaker_confidence": 1.0,
+      "assignment_source": "diarization_overlap_assignment",
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 0.2,
+        "coverage_ratio": 1.0,
+        "candidate_speakers": [
+          {
+            "speaker": "speaker_03",
+            "overlap_seconds": 0.19999999999999574
+          }
+        ]
+      },
+      "flags": [],
+      "words": [
+        {
+          "word": " Eso.",
+          "start": 33.38,
+          "end": 33.58,
+          "probability": 0.9688613414764404,
+          "speaker": "speaker_03"
+        }
+      ]
+    }
+  ]
+}

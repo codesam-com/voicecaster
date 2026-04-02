@@ -1,0 +1,738 @@
+Aquí comienza Coffee Break, la tertulia semanal de la actualidad científica.
+Pero en jóvenes, digamos.
+Y podcast.
+Alberto. Hola, hola, muy buenas. ¿Qué tal? ¿Cómo estáis? Y creo, bueno, olvidé mencionar
+¡Ay, el verbo existir! ¡Qué verbo tan complicado, tan problemático!
+Si queréis, abro yo el fuego
+Casi por empezar
+Bueno, a ver
+una partícula, el concepto es
+diferente cuando estás hablando antes de física
+cuántica y después de física cuántica
+luego hablaremos de cuál es la interpretación
+moderna, pero
+clásicamente una partícula es
+un objeto muy pequeñito
+del que están compuestas otras cosas
+básicamente
+Exactamente. Quizá en el siglo XIX la gente habría pensado que los átomos son las partículas más pequeñas que hay.
+Lo que pasa es que a finales del siglo XIX, cuando se descubre el electrón o cuando más bien se descubre que una cosa que se llamaban rayos catódicos
+y que llevaban décadas viendo en tubos de vacío resulta que tiene una masa muy pequeña y una carga también muy pequeñita
+y se identifica como una partícula subatómica, pues de repente has descubierto algo más pequeño que un átomo.
+Si queréis, solo hago una pequeña explicación de esta cosa. En el siglo XIX tenían unos tubos de vacío a los que le metían electricidad dentro y veían que había algo que chocaba contra una de las paredes del tubo. Ese algo se le llamó rayos catódicos, veían que excitaba una fluorescencia en las paredes de cristal y las paredes brillaban a veces de color verde o algo así. Ese algo no se sabía lo que era.
+Y a finales del siglo XIX, J. J. Thomson hizo una serie de experimentos, midió la relación entre carga y masa de ese objeto, de esos rayos catódicos, y resulta que descubrió que esa masa era mucho más pequeña que la de cualquier átomo que se hubiera estimado.
+Todavía no se había medido propiamente la masa de átomos en ese momento, pero sí había estimaciones y esa masa era pequeñísima. Entonces, al ver que era algo cargado con carga eléctrica, mientras que los átomos son neutros y que eran mucho más pequeños que un átomo, aparentemente, o de una masa mucho menor, dijo, esto tiene que ser una cosa que está dentro de los átomos.
+Tiene que ser algo subatómico. Y el electrón, que es como llamamos hoy en día a ese objeto, pues resulta que fue la primera partícula que se descubrió. Un objeto pequeñito que está dentro de otras cosas y que cuando se desplaza tú lo observas como un puntito, simplemente.
+Simplemente.
+Tengo un comentario al hilo
+precisamente de esto que vas diciendo
+que es que luego vamos
+vamos a hablar mucho más de las interacciones,
+qué son las interacciones y todo esto,
+pero normalmente pensamos que los
+objetos que vemos, que tocamos, con los
+que interaccionamos, son objetos,
+estamos interaccionando con la materia
+que hay en esos objetos, y en realidad
+todas estas cosas,
+mi mano, los átomos, todas estas
+cosas, son sobre todo interacciones.
+Mi mano está básicamente vacía.
+Los átomos están muy lejos unos de otros.
+Y realmente yo cuando la veo,
+sin embargo, la veo como si estuviese llena, como si
+fuese una cantidad continua de materia.
+Eso se debe a que lo que estoy viendo son las interacciones entre electrones de diferentes átomos y esas interacciones son más grandes que los átomos. Cuando yo pienso en el átomo y tú dices el átomo está básicamente vacío, es verdad, está básicamente vacío, pero está lleno de la interacción electromagnética que une al electrón con el núcleo.
+Y eso es lo que le da entidad al átomo. Eso es lo que hace que el átomo sea un objeto. Y bueno, para los físicos en partículas las interacciones son muy muy importantes y ya seguiremos hablando de ellas, pero son tan importantes hasta el punto de que toda la realidad son interacciones.
+Que lo que nosotros vemos como materia muy continua y llena de cosas, en realidad está vacía y si nosotros lo vemos lleno es porque está lleno de interacción.
+Es decir, hasta ahora lo que hemos contado es un relato histórico, digamos, hemos ido contando por orden cómo iban pasando las cosas. Ahora, con esa tablita que vosotros tenéis y de la que vamos a empezar a hablar, en realidad pasamos de un relato histórico a un relato ordenado.
+De repente, en esa tabla ya está ordenado todo lo que sabemos sobre las partículas elementales. Y eso se ha descubierto a lo largo de muchas décadas y a veces de manera discontinua y esta parte no se entendía y luego se hace un descubrimiento y se entiende.
+O sea que hay, digamos, hay un montón de historia condensada en apenas unos cuantos centímetros cuadrados, ¿no?
+¿Me dejáis que haga un pequeñísimo comentario antes de que empecemos a hablar de esto?
+Pues no sé si dejarte, bueno, venga
+Hemos hablado de manera muy natural
+de partículas elementales o fundamentales
+y a lo mejor vale la pena decir qué es exactamente lo que significa eso
+decir que son elementales
+no significa que son muy importantes
+o algo por el estilo, sino que son
+partículas que hasta donde
+sabemos, solo están hechas de ellas
+mismas y no de otra cosa
+realmente tenemos, en ese sentido
+tenemos dos tipos de partículas, que son las
+elementales y las compuestas
+las compuestas sabemos que están hechas de otras
+cosas, mientras que las elementales
+hasta donde sabemos
+no sabemos que estén hechas de otras cosas
+eso no quiere decir que dentro de 10 años
+no surja un experimento que de repente rompa el electrón
+y dices, ostras, el electrón resulta que estaba hecho de otras cosas
+así que el concepto de elementalidad o fundamentalidad
+en partículas está siempre bajo revisión
+siempre está ante la posibilidad de que un nuevo experimento
+te quite una de esas partículas de la tabla de elementales
+y te la meta en la lista de compuestas
+y para que veáis hasta qué punto está descompensado
+conocemos entre 240 y 250 partículas en total
+y de ellas solo un puñado, solo una veintena o así
+sí, son elementales. El resto son
+todas compuestas.
+Todo se mantiene exactamente igual y nada
+se va a romper. Estoy muy, muy de acuerdo. Eso es
+una reflexión que siempre me hacía mi director de tesis
+y aunque
+en ciencia las cosas hay que afirmarlas con pruebas
+que a nosotros nos parezca o no nos parezca
+es, bueno, más o menos relevante
+pero no demasiado, la verdad es que
+tiene todo el sentido del mundo, ¿no?
+¿Por qué todo ese desierto? Y en ese desierto
+no va a haber nada nuevo, ¿no? Tiene toda la pinta
+de que puede haber algo nuevo.
+lo que acaba de decir Nacho es
+súper interesante y súper importante
+a la hora de hacer el paso
+de física clásica a una teoría cuántica de las partículas. Cuando nosotros hablamos antes del siglo XX de fuerzas, la fuerza gravitatoria, la fuerza electromagnética, las ecuaciones de Maxwell, todo eso son fuerzas que actúan sobre todo a distancia. Las ecuaciones de Maxwell ya no tanto, pero la fuerza gravitatoria, por ejemplo, es una fuerza que actúa a distancia y aunque entre el Sol y la Tierra hay 150 millones de kilómetros, pues hay una fuerza de la gravedad que actúa sobre la Tierra.
+O sea, cuando nosotros pasamos al mundo cuántico, una parte de ese paso es entender, volver a entender esas fuerzas, reinterpretarlas como partículas que van viajando entre dos lugares y que transportan energía, transportan momento y entonces pasamos a llamarlas interacciones.
+abandonamos la palabra fuerza un poquito
+tampoco es que la tiremos a la basura
+pero la abandonamos un poquito y le pasamos a llamar interacción
+porque la interacción
+consiste en que hay una partícula
+que emite parte de su energía en forma
+de otra partícula y esa partícula
+que ha emitido se convierte en una mensajera
+que llega hasta otra partícula, transporta
+energía y momento y luego quizá haya otra
+partícula que vuelva y hay ahí como una especie
+de juego, como de partido de tenis
+entre las partículas que se van pasando cosas
+se van pasando información y energía
+Y entonces tú comprendes que lo que veías a grandes distancias como una fuerza, realmente lo que es es un intercambio de energía y momento continuo entre las partículas a través de otras partículas o a través de campos, como diremos dentro de un rato.
+...cuadran cuando uno hace eso.
+O sea, haciendo ejercicios de física cuántica en la carrera,
+tú consideras el spin como un momento
+angular y lo sumas al momento
+angular orbital y todo esto
+y toda la física se comporta
+como si el spin fuese un momento angular
+entonces hay algo en él que de alguna
+manera hace que muchas cosas cuadren
+pero luego resulta que cuando lo quieres entender
+a un nivel más fundamental, esa interpretación
+no es la buena
+la mejor es la que tú acabas de describir
+de entender fermiones como cosas que
+no les gusta estar juntos y se apilan
+unos encima de otros o unos al lado
+de los otros, y los bosones como cosas que sí les gusta estar juntos y se agrupan en grupos lo más
+coherentes posible. Luego, a partir de ahí, pues ya vienen una serie de propiedades como que las
+partículas heredan un pequeño imán y se comportan como pequeños imanes cuando se mueven por ahí.
+Yo también quería decir que este asunto de decir los fermiones son las partículas de la materia,
+los bosones son las partículas asociadas a las interacciones, es verdad que históricamente,
+De alguna manera lo hemos visto así. Los electrones están en la materia y son fermiones. Los protones están en la materia y son fermiones. Sería tonto decir lo contrario. Pero hay un poco la sensación de que como la propiedad de ser un fermión o ser un bosón es mucho más fundamental, tiene que ver con esto que ha dicho Francis, de cómo se ocupa el espacio y cómo se comportan cuando están juntos, a lo mejor en algún momento podremos encontrar una formulación de las leyes de la física en la que no estén tan relacionadas unas cosas con las otras.
+A lo mejor simplemente ha sido por motivos históricos, ¿no? Por motivos históricos hemos visto que el fotón tenía que ver con el campo electromagnético y hemos dicho, ah, el fotón es un bosón, pues debe de ser que los bosones tal.
+Y luego hemos seguido desarrollando, hemos encontrado más bosones asociados a otras interacciones y hemos dicho, ah, pues será que los bosones están asociados a las interacciones.
+Pero no parece que eso sea fundamental. Quizá tiene que ver con la formulación actual que tenemos en la teoría cuántica de campos, que es una formulación muy buena y que funciona muy bien, pero a lo mejor algún día encontraremos otra.
+De hecho, hay algunos indicios que sugieren que la teoría cuántica de Campos, que es lo que usamos hoy en día, no es la teoría última, no es la teoría fundamental, tiene algunos pequeños problemitas. Entonces, quizá en algún momento encontraremos una teoría que la supere y a lo mejor esa teoría nos explicará cosas.
+Igual en esa otra teoría entenderemos mejor por qué el spin se hereda como una especie de imán cuando uno forma partículas. En teoría cuántica de campos es un poco oscuro y conceptualmente no muy claro, pero a lo mejor en otra teoría lo veremos mucho más claramente cuando superemos la teoría cuántica de campos que yo sospecho que sucederá.
+yo solo quería comentar
+que la diferencia conceptual más importante
+entre quarks y leptones
+en realidad es que los quarks sienten una interacción
+que los leptones no
+los quarks sienten lo que llamamos la interacción fuerte
+que luego contaremos lo que es
+y por sentir la interacción fuerte
+tienen una serie de propiedades que los hacen
+muy, muy, muy diferentes a los
+leptones. Entonces, esa separación
+entre quarks y leptones es sólo
+a las cosas que sienten interacción fuerte
+y son fermiones. Yo les llamo quarks
+a las cosas que son fermiones, pero
+no sienten interacción fuerte, son leptones.
+La diferencia más importante es
+que los leptones existen
+como partículas individuales
+de una manera muy natural. Yo puedo tener
+un electrón, dos electrones, tres electrones.
+Pero por motivos que, si queréis, contamos luego,
+tener un quark Q y
+cogerlo y hacer cosas con él es
+o muy difícil o completamente imposible
+entonces eso hace que sean muy muy distintos
+yo voy a tener los leptones por separado
+voy a poder coger o de alguna manera estudiar
+un neutrino o un electrón pero me va a ser
+muy difícil hacerlo con un quark y eso hace que esa separación
+sea muy natural porque de alguna manera
+vas a tratar de manera muy diferente
+a los que son de una familia y a los que son de la otra
+Y de hecho no pueden hacer otra cosa.
+Es que no tienen otra opción.
+De tres pueden también estar juntados en parejas.
+Los quarks hasta donde...
+Bueno, ahora que se ha descubierto el pentacuark
+a lo mejor deberíamos decir que también en quintetos.
+Pero los quarks no tienen opción a bajas energías.
+los quarks necesitan
+estar metidos dentro de uno de esos
+grupitos que hoy en día sabemos
+que pueden ser de tres y se llaman bariones
+que pueden ser de dos y se llaman mesones
+y ahora parece que se han
+descubierto grupos de cuatro y de cinco
+que sería el tetraquark y el pentaquark
+¿vale? pero siempre están en
+esos grupitos y cuando tú intentas sacar a un
+quark de uno de esos grupitos
+se vuelve a rodear de cosas y
+también te es imposible estudiarlo por separado
+siempre están como
+como en enjambres, ¿no? En los que es muy difícil
+estudiar al quark por separado. Luego cuando hablemos
+de interacción fuerte ya comentamos más cosas.
+Pero eso hace que esa diferencia entre quarks
+y leptones sea como muy palmaria, ¿no?
+Porque los leptones son fáciles de manejar
+y los quarks son un follón, porque están siempre
+dentro de esos enjambres y si tú quieres
+estudiarlo por separado, es muy difícil.
+Cualquiera de los dos se utiliza.
+Quizá familia parece un poco
+más coloquial, pero no, en realidad
+se usan los dos, familia, generación.
+Efectivamente, pero ese es
+un poquito más confuso, ¿no? Porque
+en los quarks,
+el quark S y el quark C tienen sabores
+diferentes y están en la misma familia, entonces
+es un poquitín más confuso.
+A ver, ha dicho, es que en realidad, ha dicho Nacho que como que la naturaleza prefiere formar la materia con los de la familia más ligera, con los de la primera familia, que son el U, el D, el quark U, el quark D y el electrón.
+no es que prefiera, es que no tiene muchas más opciones
+porque realmente cuando tú te vas a construir partículas más pesadas
+por ejemplo, el muón, el muón es un electrón
+que tiene 200 veces más masa que el electrón
+ese muón, por tener 200 veces más masa
+acumula mucha energía en su masa
+y si puede, en el momento en que puede, libera esa energía
+en forma de otras partículas, se desintegra
+es lo que se llama desintegración
+las partículas pesadas no es que no estén
+en la naturaleza que nos rodea
+porque a la naturaleza no le apetece
+es que cuando aparecen se desintegran
+al cabo de más o menos tiempo
+el muón de hecho de las partículas inestables
+es de las que más vive y vive
+dos microsegundos, que es poquísimo
+no puede hacer otra cosa, es que es casi
+segundo principio de la termodinámica. Pero por eso
+¿Por qué? Porque las
+partículas estables son las de la familia
+más ligera. No es porque la naturaleza
+prefiera la familia más ligera, es porque
+las partículas de las familias pesadas
+se pueden desintegrar a partículas
+más ligeras y las partículas más ligeras
+no se pueden desintegrar a nadie. Entonces
+al final, cuando el universo evoluciona
+de una manera natural, las partículas pesadas
+han terminado desapareciendo y solo han quedado las
+ligeras, pero no es porque sean muy especiales
+Hasta donde sabemos, ¿no?, efectivamente.
+Pero ya te digo que eso tiene que ver con que cuando tú tienes una cosa
+formada por la masa de 200 electrones,
+tú puedes utilizar esa energía para crear electrones o crear otros objetos,
+pero cuando tú tienes un electrón y no hay ninguna otra partícula
+que sea de menos masa que el electrón, pues no puedes hacer nada con él.
+simplemente vive forever porque no puede hacer otra cosa.
+Quiero decir, si la naturaleza prefiere los estados de mínima energía,
+es porque los de mayor energía pueden ir a estados de mínima energía
+y los de mínima energía, si no les pegas una patada,
+no pueden ir a estados de mayor energía.
+desde luego existen todas esas cosas
+y de hecho cuando antes he dicho que había
+200 y pico partículas compuestas
+la mayor parte de ellas son
+enjambres
+de estos formados por quarks
+y que son cosas parecidas a protones, cosas parecidas
+a neutrones, cosas parecidas a piones
+pero con diversos quarks, lo que pasa es que
+casi todas ellas son inestables
+porque están formadas por estos quarks que a su vez
+son inestables y se terminan desintegrando
+entonces sí, sí existen
+pero como dice Francis, no son estables
+aún está abierta la posibilidad
+de que esta materia extraña pudiese existir
+pero parece cada vez más improbable
+hace unos años habríamos apostado más fuerte
+Hay algo muy bonito relacionado con todo esto que estamos hablando ahora, que es que cuando nosotros estamos hablando de que la masa del protón es en gran parte energía cinética y energía potencial, estamos intrínsecamente pensando en la formulita famosa de Einstein, que es igual a mc cuadrado.
+Esa fórmula te dice que la energía E y la masa M en realidad son cosas parecidas y que tú puedes transformar masa en energía y energía en masa.
+Puedes pasar de una cosa a la otra. Lo que no te dice es cómo hacerlo.
+Para eso hay que recurrir a otras teorías que te dicen de qué manera se puede hacer y de qué manera no se puede hacer.
+Pero siempre que pensamos en masa, en realidad hay que pensar que la masa es una forma de energía.
+Y el protón es una manera súper buena para ver esto, porque de alguna manera tú ves el protón de muy lejos y te crees que es una bola con una masa no sé qué, pero lo ves de cerca y de repente te das cuenta de que la masa de las cosas que hay dentro del protón es muy pequeñita y que la mayoría de la masa que tú estabas viendo es energía cinética y de alguna manera se emborrona la diferencia entre masa y energía.
+Y hay que pensarlo como que realmente no son tan diferentes y se pueden transformar la una en la otra. Cuando antes hemos hablado de desintegraciones, está sucediendo exactamente eso. Un muón se desintegra y da lugar a un electrón, un neutrino y un antineutrino y lo que está haciendo es voy a coger mi masa, que en realidad es energía, y la voy a emplear en transformarla en la masa de un electrón, en transformarla en la masa de un neutrino, de un antineutrino y todo lo que me sobre se lo voy a dar en forma de energía cinética.
+Y van a salir zumbando de donde yo estaba. Es una transformación de masa en energía, luego de energía otra vez parcialmente en masa y el resto energía cinética. Hay que pensar que la masa y la energía en ese sentido son muy dinámicas y que cuando las vemos como cosas muy diferentes, al mirar a pequeñas distancias, de repente nos damos cuenta de que esa visión no es demasiado buena.
+Bueno, hay varios criterios que uno puede utilizar. Hay uno extremadamente pragmático, que es, es fundamental las cosas que yo en mi teoría considero fundamentales y luego cuadran los cálculos. Ese es muy pragmático, pero vamos a usar uno un poquito más conceptual y mejor.
+En general yo espero de los objetos que sean compuestos que estén formados por diversas componentes que estén a su vez moviéndose como en este enjambre que es el protón y que está lleno de quarks y de gluones y de cosas.
+Entonces yo espero de los objetos compuestos que tengan un tamaño. Espero que a partir de un momento dado yo empece a ver su estructura interna y por lo tanto pueda decir el protón tiene este tamaño y efectivamente el protón tiene 10 elevado a menos 15 metros.
+Y si yo utilizo para mirar el protón una cosa más pequeña que 10 elevado a menos 15 metros, ya no veo el protón. Lo que veo son las cosas que hay dentro del protón. Sin embargo, las partículas elementales no tienen tamaño. Se caracterizan porque tú no tienes capacidad para ver nada ahí dentro.
+Por lo tanto, vas utilizando cosas cada vez más pequeñas y sigues viendo el mismo electrón. Puede que veas otros fenómenos asociados, porque es verdad que hay un juego complicado. No es lo mismo ver un electrón con una cosa muy grande que ver un electrón con una cosa pequeña, porque necesitas energías diferentes, pero sigues viendo un electrón. No dejas de ver el electrón en ningún momento y eso hace que el electrón sea elemental. Y al muón le pasa lo mismo.
+El hecho de que puedan desintegrarse no quiere decir que dentro del muón estuviese el electrón y estuviera el neutrino y el antineutrino. Quiere decir que el campo del muón puede hablarse, entre comillas, con el campo del electrón y con los campos de los neutrinos y les puede ceder su energía.
+Les puede decir, oye, mira, tengo toda esta energía aquí acumulada y ya no me apetece. Te doy a ti un trozo y te conviertes en un electrón y te vas, te doy a ti un poco y te conviertes en un neutrino y también te vas. El hecho de que una partícula se desintegre tiene más que ver con su capacidad de interaccionar que con el hecho de que tenga cosas dentro o no las tenga. Por eso el protón, a pesar de que tiene cosas dentro, como resulta que las interacciones conspiran para que sea estable, pues tiene esas cosas dentro y esas cosas nunca salen. Siempre se mantienen ahí.
+Muy bien. Hay que recordar que esto es una propiedad muy fundamental de la física cuántica, que es que cuando, es decir, tú para ver el tamaño de algo tienes que usar una regla, tienes que usar alguna cosa, ¿vale? Entonces, ¿qué terminas utilizando? Partículas, porque son las cosas más pequeñas que conoces.
+Entonces, acordaos que en física cuántica las partículas tienen asociado lo que se llama una longitud de onda,
+que te viene a decir, básicamente, que las partículas tienen un tamaño diferente según cuál sea su velocidad.
+Cuando tú tienes una velocidad muy pequeña, las partículas son grandes,
+mientras que cuando tú le das una velocidad muy grande, las partículas son pequeñas.
+Entonces, ¿qué significa utilizar reglas de diferente tamaño?
+Pues significa, si yo quiero ver algo del tamaño del protón, voy a utilizar electrones a esta velocidad.
+Si yo quiero ver algo más pequeño que el protón, voy a utilizar electrones más rápidos que eso. Y esos electrones van a ser más pequeños, entre comillas, porque tienen esta longitud de onda más pequeñita, y van a poder ver la parte interna del protón. Y, de hecho, todos los estudios de la estructura interna del protón se hacen bombardeando protones con electrones de diferentes energías.
+Entonces, esto que ha dicho Francis se basa precisamente en esta cosa.
+Si yo quiero ver cómo de grande es un electrón,
+pues lo voy a bombardear también con otros electrones de diferentes velocidades.
+Y cuando yo utilizo electrones cada vez más rápidos,
+lo que me van diciendo es que el electrón es cada vez más pequeño.
+Y esa es un poco la manera experimental de descubrir que es una partícula elemental.
+Al protón no le pasa eso.
+Al protón yo utilizo electrones lentos y veo que el protón es una bola.
+Utilizo electrones un poco más rápido y lo sigo viendo una bola.
+Pero cuando utilizo electrones mucho más rápidos, de repente dejo de ver el protón, desaparece. Eso es porque el protón es compuesto. Porque estoy utilizando ya electrones que son demasiado pequeños y no son capaces de ver el protón como un conjunto. Ahora ven los componentes que hay dentro del protón.
+Bueno, lo que tenemos son una, hay una especie de tablas o más bien funciones que te dicen la composición del protón a diferentes energías. Básicamente te dicen, según como de pequeñas sean las cosas que tú utilices para ver la estructura del protón, tú vas a ver tantos quarks U, vas a ver tantos quarks D y cambia.
+O sea, a energías bajas ves un cierto número de quarks U y quarks T, a energías altas empiezas a ver cada vez más quarks de tipo S, C y todas estas cosas, y eso se debe a una cosa muy sencilla, que es que tú realmente, cuando estás viendo el protón utilizando un electrón, no tienes el protón como una cosa aislada del electrón.
+Lo que tienes es un protón siendo golpeado por un electrón o los componentes del protón siendo golpeados por un electrón. Si el electrón llega con una energía muy alta, esa energía va a ser capaz de crear quarks pesados y tú vas a empezar a ver quarks pesados, pero es en parte porque el electrón está entrando dentro del protón con muchísima energía y va a emplear parte de esa energía en producir quarks pesados y tú lo vas a ver.
+Y eso lo ves en estas que se llaman Parton Distribution Functions, las funciones de distribución de partones. Partón es como se llama a las cosas que hay dentro de algo como el protón. Y tú ves que a energías pequeñas tienes una composición, entre comillas, y a energías altas tienes una composición diferente.
+Si no recuerdo mal, cuanto más energía tienes, más gluones ves. Empiezas a ver un montón de gluones a energías altas y los quarks se convierten en algo casi irrelevante. Si tú le pegas al protón con energías muy altas, casi no ves quarks, solo ves gluones.
+No te lo quiero garantizar
+porque no me consta, pero que yo sepan
+no se ve ningún tipo de estructura espacial
+dentro de los protones
+Pues si queréis lo doy yo.
+Bueno, efectivamente cuando hablamos de física de partículas tendemos a pensar que el objeto del que vamos a hablar son las partículas.
+Y a medida que avanzamos en la teoría y la entendemos mejor,
+De hecho, a medida que se fue entendiendo mejor la teoría cuántica, nos empezamos a dar cuenta de que el objeto fundamental probablemente no son las partículas,
+y las partículas son solo una manifestación de otra cosa más fundamental y que además incluye muchos otros fenómenos físicos.
+Ese objeto son los campos, ¿vale? Y por eso hablamos de teoría cuántica de campos,
+de que la teoría cuántica de campos es la teoría de la física de partículas a día de hoy.
+Entonces, ¿qué es un campo? Pues un campo es un algo, no le puedo poner otro nombre, algo que llena el espacio entero y que acumula energía, y ese algo que llena el espacio entero y que tiene energía, además puede vibrar, pueden producirse como olas, como ondas en ese algo, y cuando esas ondas se propagan a lo largo de distancias grandes y tienen una serie de propiedades, resulta que eso yo lo percibo como partículas.
+Entonces, yo lo que tengo, a mí me gusta imaginarlo como una especie de líquido que está llenando todo el espacio y en el cual hay olas.
+Y yo, hay una ola que se está moviendo por ese líquido, pero yo lo que veo es un electrón, o yo lo que veo es un muón, o yo lo que veo es otra cosa.
+Entonces, cuando uno pasa a entender las partículas como ondulaciones en estos campos, de repente le empiezan a cuadrar muchas cosas.
+Antes hemos dicho que un electrón que se movía rápido era más pequeño, entre comillas, que un electrón que se mueve grande.
+Que se mueve despacio. ¿Por qué es eso? Pues porque la ondulación en el campo cuando la onda se mueve muy rápido resulta que es más pequeña, es más estrecha. Y de repente tienes ahí una cosa que se llama electrón igualmente porque es una onda que se mueve por el campo pero que es más pequeño que otra cosa que se llamaba electrón y que moviéndose a otra velocidad es más grande.
+Entonces, la noción de campo y de las partículas como oscilaciones o ondulaciones en ese campo que se mueven permite integrar un montón de ideas que están en la teoría cuántica y que, vamos, a lo mejor es porque yo tengo la mente deformada, pero a mí me parece que antes de la teoría cuántica de campos se entendía en regular y en el momento en que tú introduces la teoría cuántica de campos de repente pasas a entenderlas muchísimo mejor.
+Entonces, ese es el cambio que hay que hacer. Las partículas ya no son puntitos que se mueven, son ondulaciones en un campo que transportan energía entre dos puntos. Porque el campo es una cosa depositaria de energía y al transportarla entre dos puntos se crea una partícula.
+Bueno, eso depende de cómo hayas creado ese electrón.
+Es decir, aquí en realidad estamos manejando conceptos que pueden ser escurridizos en algún momento.
+Porque antes hemos dicho, las partículas pueden ser más grandes o más pequeñas según cómo de rápido se muevan.
+Ahora decimos, las partículas son ondas y por eso entendemos porque la onda es también más grande o más pequeña, pero al final esas ondas son ondas cuánticas y tú has hecho mucho énfasis antes, Nacho, en el asunto de la medida, de yo mido, de yo interacciono y ya sabes que cuando tú interaccionas con un sistema cuántico, de alguna manera lo cambias y de alguna manera algunas de sus propiedades se pierden, ¿no?
+efectivamente un electrón es una onda
+que tiene un cierto tamaño, pero
+si tú tratas de detectar ese
+electrón con alguna cosa más pequeña que ese
+tamaño, lo vas a detectar en
+algún punto de ese tamaño
+grande, no lo vas a detectar en todos
+y la probabilidad de que el electrón estuviese en
+todo el resto de sitios se va a perder, es lo que se
+llama el colapso de la función de onda en física
+cuántica y que la teoría cuántica de campos
+hereda, la teoría cuántica de campos no se lo
+salta, sino que lo hereda también de
+alguna manera
+Entonces, cuando tú hablas de qué es lo que es esa oscilación, a mí me gusta verlo como que los campos almacenan energía y los campos van moviendo la energía de unos sitios a otros y lo hacen de diferentes maneras, pero siguiendo una serie de reglas, que son las reglas de la teoría cuántica de campos.
+hace un momento has dicho, si yo tengo el electrón
+fuera de un átomo, la energía
+de ese electrón no está cuantizada y puede tener
+la energía que quiera, eso es exactamente verdad
+pero sigue habiendo una cosa que está
+cuantizada, que es el número de electrones
+tú tienes que tener un electrón
+o dos electrones, o tres electrones, o cero
+o puedes tener cero electrones y tener
+el vacío, pero esa cosa sigue
+estando cuantizada, esté el electrón donde
+esté, y solo tienes números enteros
+en números de electrones, no tienes 1,3
+o 1,5, y eso es una
+Es una propiedad fundamental de estas oscilaciones en los campos y lo relaciona, es que curiosamente es muy bonito porque nosotros pensábamos que las partículas son puntitos que están por el espacio y la teoría cuántica nos dice no, no, esto que tú creías que eran puntitos son un puntito o dos o tres porque hay una propiedad llamada número de ondas en el campo que está cuantizada y que solo puede valer uno o dos o tres.
+Y resulta que algo súper intuitivo, como que yo tengo uno, dos o tres electrones, es algo que surge de manera natural de las propiedades cuánticas de los campos. Y a mí me parece, vamos, yo cuando aprendí esto casi me explota la cabeza, porque es algo tan intuitivo y tan evidente que tú lo puedas extraer de las propiedades cuánticas de los campos, me parece súper, súper bonito.
+De hecho, si queréis
+que sigamos hablando en términos
+de campos e interpretemos
+un poco con otras palabras esto que acaba de decir
+Francis, que es darle una forma
+espacial a un fotón. Pues es decir,
+voy a coger el campo electromagnético,
+voy a hacer una oscilación con
+esta forma espacial y voy a
+crear una de esas oscilaciones,
+solo una, porque el número de oscilaciones
+está cuantizado. Y entonces
+yo creo un fotón, porque un fotón
+es eso, es una excitación del campo, pero tiene una forma geométrica. ¿Por qué? Porque la oscilación
+del campo espacialmente es no trivial y tiene la forma que tiene. Y antes ha dicho, por cierto,
+Nacho, que no podemos imponer condiciones de contorno al campo del electrón. Eso es verdad.
+Y eso es algo que hace que, digamos, sea menos evidente que el campo del electrón y el del
+fotón no son tan diferentes. A los fotones
+les podemos hacer movidas porque le podemos
+poner placas de metal y las placas de metal
+son condiciones de contorno del campo electromagnético
+y eso con el campo del electrón
+no sabemos cómo se hace.
+Tal vez algún día aprendamos la manera de hacerlo
+pero a día de hoy yo creo que, de hecho
+yo no conozco un solo candidato de cómo
+coger el campo del electrón
+y decir, mira, dentro de este
+material tú vas a ser solo de esta manera
+y de esta otra. Sin embargo, con el campo del fotón
+sí que lo puedo hacer. Yo puedo construir
+una jaula de metal
+y prohibir ciertas
+frecuencias del campo electromagnético
+dentro de esa jaula de metal
+de 100 metros o de 50 metros
+eso a día de hoy no se puede hacer
+Sí, si me permites
+antes de, solo
+durante un momentito, podemos explicar
+el concepto de interacción en términos
+de campos
+los campos son cosas que llenan
+todo el espacio y obviamente en cada
+parte del espacio están todos
+los campos, en cada centímetro cúbico
+del espacio está el campo del electrón, también está
+el campo del fotón, está el campo del muón
+están estos 118 campos
+campos elementales, están todos ahí a la vez. Entonces, ¿qué es interaccionar? Interaccionar
+es que algunos campos pueden transmitir energía a otros campos, entonces se dice que interaccionan,
+y sin embargo no transmiten energía a otros campos, y se dice entonces que no interaccionan.
+Entonces, al final una interacción es un paso de la energía de estar almacenada en un campo a estar
+almacenada en el otro campo. Y fijaos hasta qué punto la teoría cuántica de campos, de nuevo,
+nos explica cosas que antes parecían así un poco mágicas.
+Cuando yo veo una desintegración de una partícula,
+veo un muón, por ejemplo, transformándose en un electrón,
+un neutrino y un antineutrino.
+Cuando yo entiendo eso en términos de campos,
+lo que digo es, el campo del muón tenía acumulada esta energía
+y lo que va a hacer es darle un poco al campo del electrón,
+que creará una excitación, que yo llamo electrón,
+darle un poquito al campo del neutrino,
+darle un poquito al campo de no sé qué,
+y esa energía se va a repartir.
+Entonces, las interacciones entre partículas,
+en las que nosotros vemos que aparecen y desaparecen partículas,
+se desintegran, desaparece una, aparece la otra,
+realmente no es otra cosa que energía moviéndose de unos campos a los otros
+y creando estas excitaciones cuánticas al moverse de un campo al otro.
+Y esto es lo que llamamos una interacción.
+Totalmente de acuerdo. Le he usado el verbo mover que quizá no era demasiado afortunado. Pasar de uno al otro quizá sea mejor.
+Cuando se mueve es cuando yo creo una partícula y esa partícula es una oscilación en el campo que se propaga y entonces sí que la energía se mueve de un sitio a otro.
+por eso yo antes no he querido
+deciros qué era un campo y qué cosa
+era, no he querido responder al qué
+he dicho un campo es algo que almacena
+energía, ¿vale? Entonces
+yo tengo la idea de que
+realmente el objeto
+más fundamental es la propia energía
+y qué es el campo es
+irrelevante, es una cosa en
+donde está la energía y la energía va a pasar
+de esa cosa a otra cosa
+y por eso como
+no es algo material pues
+pues no me cuesta ningún problema imaginar que en cada centímetro cúbico del espacio
+están todos los campos a la vez, porque al final lo que son es una manera
+en que la energía se va a transportar por el espacio, se va a almacenar en el espacio
+y todas estas cosas. Y a veces yo la veré en forma de partículas que se mueven,
+a veces la veré en forma de partículas quietas y, por lo tanto, en forma de masa
+y otras veces la veré de otras maneras. Al final, un campo es un vehículo
+para que la energía haga cosas por el espacio-tiempo.
+Exacto. Querías que fuéramos al
+campo de Higgs y que te explicáramos algo.
+A ver, el campo de Higgs
+es un campo
+que es un poquito diferente al resto
+de campos que tienes en el modelo estándar. Cuando tú ves
+esa tablita, como la de Cavi, en donde
+están todas las partículas elementales,
+o si quieres, los campos elementales, ahora que ya
+sabemos hablar en términos de campos,
+en esa tablita... Le diremos a Cavi
+O por un objeto etéreo
+que llena el espacio y almacena energía.
+Entonces, cuando veas esa tablita,
+el Higgs es un campo que es muy especial,
+que tiene una serie de propiedades
+que los otros campos no tienen.
+Entonces, esas propiedades
+van a hacer que la energía
+que almacena el campo de Higgs
+en todas las partes del espacio
+terminen utilizándola otros campos
+para crear su propia masa.
+Esta es la base de lo que se llama el mecanismo de Higgs
+que sirve para que las partículas elementales tomen masa
+o tengan una masa en cada punto del espacio.
+Cosas raras que tiene el campo de Higgs y que lo hace especial.
+Por ejemplo, que a muy altas temperaturas
+se comporta de manera diferente que a bajas temperaturas.
+Sufre lo que se llama una transición de fase
+a una temperatura que me calculé una vez
+y creo que es 100 billones de grados con B.
+Una temperatura altísima que se dio en el universo primitivo en algún momento, cuando era muy muy joven, y que hoy en día conseguimos reproducir en trocitos muy pequeñitos en los aceleradores de partículas.
+Cuando hacemos chocar partículas muy rápido, durante un momento, en un trocito pequeñín del espacio, hay esa temperatura tan alta y podemos estudiar las propiedades del campo de Higgs.
+Entonces, ¿cuál es la diferencia del Higgs a muy altas y a más bajas temperaturas?
+Pues, por ejemplo, a muy altas temperaturas, por encima de 100 billones de grados, el campo de Higgs es capaz de crear varios tipos de partículas.
+Recordad que las partículas son oscilaciones en el campo, pues resulta que el campo de Higgs no puede crear ni una, ni dos, ni tres, sino cuatro tipos de oscilaciones diferentes.
+Es un campo que describe cuatro partículas distintas a muy altas temperaturas.
+Sin embargo, esas partículas tienen una serie de propiedades.
+Dos de ellas son neutras y una de ellas tiene carga negativa y otra de ellas tiene carga positiva
+y son antipartículas la una de la otra.
+Bueno, como siempre, el campo necesita que tú le aportes suficiente energía
+para que él pueda crear una excitación de partículas.
+estas partículas
+tienen una masa asociada
+y si tú no le aportas energía suficiente
+para estar por encima de esa masa
+el campo no va a poder crear una partícula
+con esa masa, como el campo de Higgs
+en concreto pues tiene una masa relativamente alta
+él necesita energías
+grandes, pero por encima de 100 billones
+de grados no hay ningún problema, porque
+los choques que tú tienes con otras partículas
+te dan energía suficiente para que tú puedas
+hacer eso, entonces tú vas a poder
+crear tanto las dos partículas neutras
+como las dos que son cargadas, signo más
+y signo menos. Vale, a eso me refiero
+Bueno, espontáneamente a lo mejor
+es un poco
+no me gusta muy bien
+mucho como suena, porque
+realmente cuando se forman es cuando
+algo llega a ese punto del espacio y aporta
+energía, por ejemplo, llega otra partícula que se está
+moviendo a muy alta velocidad, pam
+¡pam! Aporta energía y de repente ¡pum! Se forman un par de estas partículas asociadas al campo de Higgs.
+Tú debes, debemos imaginar el universo primitivo como algo, una especie de sopa en la que hay muchas
+partículas moviéndose a velocidades muy altas y están chocando continuamente. Como las partículas
+son oscilaciones en los campos, que choquen las partículas significa que un campo entra en
+contacto con el otro, se transfiere en energía y tú puedes crear oscilaciones nuevas en otro campo.
+Entonces, aparecen partículas a partir de la energía que tú habías invertido en ese punto, ¿vale? Entonces, esta es más o menos la situación a temperaturas muy, muy altas. Si quieres, ahora pasamos a ver qué sucede cuando las temperaturas bajan.
+Pues lo que le ocurre es que el campo de Higgs
+Sufre lo que los físicos llamamos una transición de fase
+Un ejemplo facilito de transición de fase
+Es el hielo convirtiéndose en agua
+El hielo se licúa y se convierte en agua
+Y tenía unas propiedades a temperaturas bajas
+Y cuando le subes la temperatura pasa a tener otras y se convierte en agua
+Pues al Higgs le pasa también una de estas transiciones de fase
+Y lo que le pasa cuando baja la temperatura
+Es que de estas cuatro partículas que tiene
+hay tres que son de repente, digamos, engullidas por otros campos. Estas eran vibraciones que se movían con libertad en el campo de Higgs y por debajo de esa temperatura hay otros campos que se las apropian y ya no se pueden mover ellas solas, se mueven junto con oscilaciones de estos otros campos.
+En concreto, una de las oscilaciones neutras del Higgs se asocia a lo que llamamos el bosón Z, al campo del bosón Z, y las oscilaciones asociadas a las partículas de carga positiva y negativa se asocian al bosón W.
+Entonces, a partir de ese momento, cuando la temperatura baja, esas tres partículas que antes estaban asociadas al Higgs, de repente pasan a estar asociadas a estos bosones W y Z. Y a cambio, esos bosones W y Z ganan masa. Esos bosones W y Z, al apropiarse de esas oscilaciones, pueden tener una masa muy grande y pasan a tener masas, como dijimos el otro día, comparables a átomos medios, como de rubidio o algo así.
+Entonces el campo de Higgs, que a altas temperaturas tenía cuatro oscilaciones distintas, de repente ha pasado a tener una sola. Y esa una sola, que es una oscilación sin carga eléctrica, es el bosón de Higgs que hemos visto en los aceleradores de partículas hoy en día.
+Es una pregunta muy difícil de responder, pero yo te diría que la masa es energía
+y que la energía está depositada en los campos.
+Entonces, cuando el electrón genera su masa a partir...
+Bueno, esto no lo hemos dicho, vuelvo un par de pasos atrás.
+Cuando el Higgs se queda reducido solo a esta partícula neutra,
+él pierde el control
+de parte de la energía que su campo almacena
+por el espacio, normalmente los campos
+utilizan la energía pues para propagar partículas
+para crear partículas que se propagan
+de un sitio a otro y tal, pero el Higgs
+al ser vampirizado y al perder
+parte de sus excitaciones
+pierde el control de parte de la energía
+y esa energía se queda pues como triste y sola
+por el espacio, entonces cuando
+otras partículas se propagan por el
+espacio e interaccionan
+con el campo de Higgs, ven esa energía ahí
+que no la usa nadie y dicen oye pues yo puedo
+coger un trocito de esta energía para hacerme mi
+masa. Entonces,
+en respuesta a tu pregunta, ¿la energía dónde está?
+¿Está en el campo del electrón
+o está en el campo de Higgs? Pues la energía
+está y la almacena
+el campo de Higgs y el electrón
+utiliza esa energía
+para crear un tipo
+de excitación
+que tiene masa.
+¿Vale?
+Es que realmente, tal y como lo ha planteado Francis
+que a mí me parece que
+está muy bien, te das
+das cuenta de que al final lo que nos estamos preguntando cuando tratamos de responder a esta
+pregunta es qué es la masa del electrón. Tal y como lo ha planteado Francis, la masa del
+electrón la tenemos que entender como una energía invertida en conectar las dos componentes del
+electrón. Cuanta menos energía inviertes en eso, menos masa tiene la partícula y también menos se
+hablan las dos componentes del electrón entre sí. Las partículas que tienen una masa muy grande
+tienen mucha energía invertida en eso
+y están una componente y la otra hablando continuamente
+y lo hacen efectivamente a través del campo de Higgs
+pero es que si el campo de Higgs no almacenase esa energía
+no podría hacerlo, es decir, tú necesitas un acoplamiento
+con dimensiones de energía para hacer eso, por lo tanto necesitas
+que haya energía en el espacio
+sí, efectivamente
+estos dos campos de los que
+que habla Francis, pues son
+el electrón dextrógiro y el electrón
+levógiro, o el electrón izquierdo y el
+electrón derecho.
+Bueno, también se está desplazando en el tiempo, por otro lado
+entonces de alguna manera es un desplazamiento
+Hay una cosa que sí puede relacionarse
+con esto de campos
+izquierdos y derechos y la masa
+que es la siguiente
+cuando tú coges solo una de las
+componentes de digamos el electrón
+cojamos la izquierda
+Tú, esa componente por sí sola, si tuvieses solo esa componente aislada en el espacio y el electrón, por lo tanto, solo se compusiera de eso, tú no podrías en ningún momento... A ver, ¿cómo decirlo? Esa componente tiene una propiedad que se llama helicidad. ¿Qué es la helicidad?
+La helicidad es que este spin, este pequeño imán que tiene el electrón dentro, apunta en una dirección y tú puedes hacerlo apuntar o bien en la dirección en la que se mueve el electrón o bien en la dirección opuesta, lo que se llama helicidad más uno o helicidad menos uno.
+Si tú solo tienes la componente izquierda o la componente derecha, esa componente va a tener siempre la misma helicidad. Tú puedes, porque por ejemplo, imaginalo de la siguiente manera. Ese campo magnético podría ser un vectorcito apuntando en una dirección, ¿vale? Entonces, tú ves ese vectorcito moviéndose para adelante y tratas de adelantarlo.
+tratas de moverte muy rápido, la adelantas
+y entonces lo ves apuntando en la otra dirección
+porque le has adelantado
+eso no puede suceder
+cuando solo tienes la componente izquierda
+o la derecha, y no puede suceder por un motivo
+muy sencillo, como no tiene masa
+se mueve a la velocidad de la luz
+y las cosas que se mueven a la velocidad de la luz
+no las puedes adelantar en ningún caso
+entonces, si
+las partículas que no tienen masa
+tú no les puedes cambiar la helicidad
+tratando de adelantarlas muy rápido
+Sin embargo, en el momento en que tú das masa, esa masa hace que el objeto se mueva más lento que la luz y tú puedes en un momento dado moverte muy, muy rápido y cambiarle la helicidad solo por haberte movido muy, muy rápido.
+No es exactamente la inercia que tú dices, pero sí es una relación con el movimiento. La masa está muy relacionada con si yo voy a poder cambiar la helicidad de la partícula tratando de adelantarla y, por lo tanto, de si la partícula se mueve a la velocidad de la luz o se mueve a una velocidad menor que la de la luz.
+Esta me parece una especie de manera de entender físicamente el papel de la parte izquierda y la parte derecha en ese sentido. No sé si ha quedado claro o lo he liado más todavía.
+tendrían una contribución
+diferente a la helicidad
+pero al estar mezcladas
+en el electrón real
+ya no puedes decir
+la helicidad
+es decir, la helicidad recordad que es
+si el electrón se mueve en la dirección de su campo magnético
+o se mueve en la dirección opuesta
+a la de su campo magnético
+cada una de ellas tendría
+digamos una contribución diferente a esa helicidad
+pero en el momento en que tú estás mezclada
+que esas dos están mezcladas
+porque el electrón tiene masa
+tú ya no puedes decir
+no, no, la izquierda
+contribuye de esta manera y la derecha de esta otra
+porque el electrón es una sola entidad
+Si queréis, podemos añadir
+un punto más.
+Como llevamos tanto rato
+hablando de la masa
+y ya la estamos reduciendo,
+la estamos deconstruyendo
+a su mínima expresión, sí que hay un concepto que en teoría cuántica de Campos nos vale para decir
+lo que es la masa y que no necesitamos hacer referencia a cosas newtonianas ni nada por el
+estilo, que es la energía que una partícula almacena cuando está en reposo. Si yo esa partícula la veo
+parada y le quito toda la energía cinética que tiene, ¿cuánta energía está almacenada en esa
+partícula? Pues eso es su masa, esa cosa es su masa. ¿Y por qué no le puedo quitar esa masa? Pues porque
+que está en la interacción que esa partícula
+está teniendo con el campo de Higgs
+continuamente. Y como el campo de Higgs está
+en todas partes, yo no puedo retirarle
+esa interacción al electrón
+o a quien sea. Y efectivamente
+esto entronca con lo que ha dicho Francis.
+Si el campo de Higgs cambia
+en el sitio donde creo el electrón y en el sitio
+donde lo muevo, pues su masa va a cambiar.
+Pero es porque está en la interacción con el Higgs,
+no está en ningún otro sitio.
+Y esta noción de
+masa como energía en reposo,
+yo creo que a mí me es muy útil
+cuando me empiezo a volver loco y a decir
+¿pero qué es la masa y todo esto?
+pienso, no, no, voy a parar la partícula y esto es la masa
+Yo creo, aquí en este punto hemos llegado tan hasta la cocina del asunto, que podemos introducir otra cosa que yo creo que es muy profunda y muy bonita, que es que realmente las interacciones son una parte muy importante de la realidad.
+Es decir, pensando de manera un poco clásica e inocente, pensamos, no, no, la masa es una cosa que tiene el electrón. Y ahora estamos llegando a la conclusión de que la masa realmente está en la interacción con el Higgs, que una cosa que tú asociarías al electrón de una manera tan natural como su masa, realmente yo diría que no está casi ni en el electrón ni en el Higgs, sino en la manera en que ambos hablan el uno con el otro.
+Y eso sucede en otros ámbitos también de teoría cuántica de campos, en que resulta que la interacción es lo observable. La interacción es la cosa que tú habrías asociado a la partícula y que realmente está en la manera en que el campo habla con otro campo. Esto es algo muy profundo de teoría cuántica de campos.
+La carga es con cuánta intensidad interacciona el electrón con el campo electromagnético.
+Si tú a una partícula le pones carga más 50, quiere decir que interacciona de manera 50 veces más intensa.
+Entonces, de nuevo, la carga está en la interacción.
+La interacción es la cosa sobre la que tú te estás haciendo preguntas.
+¿Crees que te estás preguntando sobre el electrón y en realidad te estás preguntando sobre cómo el electrón habla con el electromagnetismo? ¿Cómo el electrón habla con el Higgs? ¿Cómo el electrón interacciona con tal o con cual cosa?
+Eso es así
+Pero yo te voy a llevar un poquitín la contraria
+Porque si tú lo miras
+A una energía dada
+si no cambias la energía, puedes tener campos que interaccionan de una cierta manera con el campo electromagnético
+y tener otro que interacciona el doble de intensamente.
+Esa diferencia entre uno que interacciona con carga más uno, en este caso,
+y uno que interaccionaría con carga más dos, puedes redefinir el concepto de carga como esa diferencia.
+Yo voy a coger este como la base y todos los múltiplos de eso le voy a llamar carga eléctrica,
+aunque efectivamente la intensidad de la interacción va a variar con la energía.
+Pero si tú lo miras a una energía dada, habrá campos que interaccionarán con carga más 1, con carga más 2, con carga más 3.
+A ver, yo te lo intentaría resumir
+no sé si a Francis le parecerá demasiado resumido
+Yo te lo intentaría resumir de la siguiente manera
+Ya hemos dicho que las interacciones son
+la capacidad de un campo de transmitirle energía a otro campo, de pasarle energía a otro campo.
+Entonces, la pregunta relevante en este punto es ¿cómo ocurre eso?
+O sea, ¿qué campos van a ser capaces de hablar con cuáles y con cuánta intensidad van a poder hacerlo?
+Esa es la pregunta del millón. Lo que define la interacción es que un electrón no va a interaccionar con un gluón
+porque no tiene carga fuerte, pero un quark, sin embargo, sí.
+Entonces, ¿cómo extraigo yo esa información? Lo hago mediante estos principios de simetría que tú has dicho. Lo contamos el otro día que muchas de las interacciones en física de partículas son lo que se llama interacciones gauge.
+Y las interacciones gauge básicamente se basan en que tú coges una serie de campos y dices, la física no debe ser capaz de distinguir entre todos estos campos de aquí. Por ejemplo, en la interacción fuerte los quarks pueden tener tres valores de una carga, que a esos valores, porque somos gente divertida, pues le llamamos rojo, verde y azul, aunque no tiene que ver con los colores que ven nuestros ojos.
+Entonces, cada quark puede tener uno de esos colores. Puede ser un quark rojo, un quark verde o un quark azul. Tú creas la interacción fuerte cuando tú le dices a la física, el quark rojo debe comportarse exactamente igual que el quark azul y debe comportarse exactamente igual que el quark verde. La física no debe ser capaz de distinguir entre esos tres colores.
+Cuando tú haces eso, las ecuaciones te arrojan una serie de comunicaciones, de vasos comunicantes, que tiene que haber entre los campos y con el campo del gluón. Y de repente, solo exigiéndole eso a la física, obtienes todas las interacciones de los quarks con los gluones.
+No debes notar ninguna diferencia.
+es la misma. Y sobre todo es que
+cuando tú le exiges eso a las ecuaciones
+las ecuaciones te dicen de qué manera
+los quarks pueden intercambiar
+energía con los gluones, entonces
+digamos que de alguna manera las ecuaciones
+te empiezan a dar en hilera
+todas las posibles maneras de intercambiar
+energía entre los diferentes campos que son
+compatibles con esta restricción
+que tú acabas de poner. Pues yo
+Pero esas entidades representan cosas físicas.
+yo me temo que hoy
+les hemos dado droga de la buena
+a nuestros oyentes
+y tengo la esperanza de que vuelvan
+de que no se queden
+patidifusos en sus casas
+La verdad es que no solo eres tú, sino que
+nosotros al esforzarnos para tratar
+de explicar estas cosas, también estamos aprendiendo
+un montón de cosas, yo me estoy dando cuenta
+cuáles de mis razonamientos internos
+me sirven para explicar esto y cuáles me llevan
+a caminos sin salida, o sea que
+yo creo que todos aprendemos en el día a día
+con toda seguridad, yo también
+un abrazo
