@@ -32,7 +32,6 @@ from .write_outputs import (
     write_transcript_with_speakers_json,
 )
 
-# Reuse the real downloader/validator already used by transcription.
 from voicecaster.transcription.run import ContentError, NetworkError, download_file, ffprobe_audio
 
 INPUTS_PATH = Path("inputs/inputs.json")
@@ -94,19 +93,32 @@ def mark_ruined(episode_id: str) -> None:
     save_inputs(data)
 
 
-def load_transcript_preview(work_episode_dir: Path) -> dict[str, Any]:
+def load_transcript_segments(work_episode_dir: Path) -> dict[str, Any]:
+    path = work_episode_dir / "02_transcription" / "transcript_segments.json"
+    if not path.exists():
+        raise RuntimeError(f"Missing transcript segments file: {path}")
+
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, list):
+        raise RuntimeError(f"Invalid transcript segments JSON list: {path}")
+
+    return {"segments": data}
+
+
+def load_transcript_preview_if_exists(work_episode_dir: Path) -> dict[str, Any] | None:
     path = work_episode_dir / "02_transcription" / "transcript_preview.json"
     if not path.exists():
-        raise RuntimeError(f"Missing transcript preview file: {path}")
+        return None
+
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict):
-        raise RuntimeError(f"Invalid transcript preview JSON object: {path}")
+        return None
     return data
 
 
 def ensure_required_paths(work_episode_dir: Path) -> None:
     required_paths = [
-        work_episode_dir / "02_transcription" / "transcript_preview.json",
+        work_episode_dir / "02_transcription" / "transcript_segments.json",
         work_episode_dir / "02_transcription" / "full_transcript.srt",
         work_episode_dir / "02_transcription" / "full_transcript.txt",
         work_episode_dir / "02_transcription" / "transcription_metadata.json",
@@ -122,12 +134,6 @@ def is_network_error(exc: BaseException) -> bool:
 
 
 def download_audio_with_existing_pipeline(url: str, target: Path) -> tuple[Path, dict[str, Any], dict[str, Any]]:
-    """
-    Reuse the downloader and ffprobe validation already implemented in transcription.
-
-    Returns:
-        (audio_path, download_info, audio_probe)
-    """
     target.parent.mkdir(parents=True, exist_ok=True)
 
     download_info = download_file(url, target)
@@ -183,10 +189,11 @@ def main() -> int:
             merge_gap_seconds=MERGE_GAP_SECONDS,
         )
 
-        transcript_preview = load_transcript_preview(work_episode_dir)
+        transcript_data = load_transcript_segments(work_episode_dir)
+        transcript_preview = load_transcript_preview_if_exists(work_episode_dir)
 
         utterances, assignment_stats = assign_speakers_to_transcript(
-            transcript_preview,
+            transcript_data,
             speaker_segments,
             low_confidence_threshold=LOW_CONFIDENCE_THRESHOLD,
         )
@@ -225,6 +232,9 @@ def main() -> int:
             assignment_stats=assignment_stats,
             qa_result=qa_result,
         )
+        if transcript_preview is not None:
+            debug_payload["transcript_preview"] = transcript_preview
+
         write_diarization_metadata_json(diarization_dir, debug_payload)
 
         write_diarization_result_json(
