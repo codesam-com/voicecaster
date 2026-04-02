@@ -1,0 +1,191 @@
+{
+  "speaker": "unknown",
+  "num_utterances": 4,
+  "speech_seconds": 5.1,
+  "first_seen": 27.84,
+  "last_seen": 33.58,
+  "utterances": [
+    {
+      "utterance_id": "utt_000006",
+      "start": 27.84,
+      "end": 28.94,
+      "duration": 1.1,
+      "text": "Pero en jóvenes, digamos.",
+      "speaker": null,
+      "speaker_confidence": null,
+      "assignment_source": null,
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 0.0,
+        "coverage_ratio": 0.0,
+        "candidate_speakers": []
+      },
+      "flags": [
+        "no_speaker_overlap"
+      ],
+      "words": [
+        {
+          "word": " Pero",
+          "start": 27.84,
+          "end": 28.08,
+          "probability": 0.9893481731414795
+        },
+        {
+          "word": " en",
+          "start": 28.08,
+          "end": 28.22,
+          "probability": 0.999994158744812
+        },
+        {
+          "word": " jóvenes,",
+          "start": 28.22,
+          "end": 28.58,
+          "probability": 0.9978742599487305
+        },
+        {
+          "word": " digamos.",
+          "start": 28.76,
+          "end": 28.94,
+          "probability": 0.946867823600769
+        }
+      ]
+    },
+    {
+      "utterance_id": "utt_000007",
+      "start": 29.06,
+      "end": 32.46,
+      "duration": 3.4,
+      "text": "Exacto, en jóvenes y en vez de libro, en radio.",
+      "speaker": null,
+      "speaker_confidence": null,
+      "assignment_source": null,
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 0.0,
+        "coverage_ratio": 0.0,
+        "candidate_speakers": []
+      },
+      "flags": [
+        "no_speaker_overlap"
+      ],
+      "words": [
+        {
+          "word": " Exacto,",
+          "start": 29.06,
+          "end": 29.54,
+          "probability": 0.99898761510849
+        },
+        {
+          "word": " en",
+          "start": 29.54,
+          "end": 29.66,
+          "probability": 0.9999808073043823
+        },
+        {
+          "word": " jóvenes",
+          "start": 29.66,
+          "end": 30.14,
+          "probability": 0.9999973773956299
+        },
+        {
+          "word": " y",
+          "start": 30.14,
+          "end": 30.54,
+          "probability": 0.7249676585197449
+        },
+        {
+          "word": " en",
+          "start": 30.54,
+          "end": 30.68,
+          "probability": 0.9996888637542725
+        },
+        {
+          "word": " vez",
+          "start": 30.68,
+          "end": 30.92,
+          "probability": 0.9997585415840149
+        },
+        {
+          "word": " de",
+          "start": 30.92,
+          "end": 31.12,
+          "probability": 0.9910356998443604
+        },
+        {
+          "word": " libro,",
+          "start": 31.12,
+          "end": 31.42,
+          "probability": 0.9637210965156555
+        },
+        {
+          "word": " en",
+          "start": 31.54,
+          "end": 31.86,
+          "probability": 0.9999897480010986
+        },
+        {
+          "word": " radio.",
+          "start": 31.86,
+          "end": 32.46,
+          "probability": 0.9960903525352478
+        }
+      ]
+    },
+    {
+      "utterance_id": "utt_000008",
+      "start": 32.72,
+      "end": 33.12,
+      "duration": 0.4,
+      "text": "Y podcast.",
+      "speaker": null,
+      "speaker_confidence": null,
+      "assignment_source": null,
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 0.0,
+        "coverage_ratio": 0.0,
+        "candidate_speakers": []
+      },
+      "flags": [
+        "no_speaker_overlap"
+      ],
+      "words": [
+        {
+          "word": " Y",
+          "start": 32.72,
+          "end": 32.84,
+          "probability": 0.9989363551139832
+        },
+        {
+          "word": " podcast.",
+          "start": 32.84,
+          "end": 33.12,
+          "probability": 0.9994514584541321
+        }
+      ]
+    },
+    {
+      "utterance_id": "utt_000009",
+      "start": 33.38,
+      "end": 33.58,
+      "duration": 0.2,
+      "text": "Eso.",
+      "speaker": null,
+      "speaker_confidence": null,
+      "assignment_source": null,
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 0.0,
+        "coverage_ratio": 0.0,
+        "candidate_speakers": []
+      },
+      "flags": [
+        "no_speaker_overlap"
+      ],
+      "words": [
+        {
+          "word": " Eso.",
+          "start": 33.38,
+          "end": 33.58,
+          "probability": 0.9688613414764404
+        }
+      ]
+    }
+  ]
+}

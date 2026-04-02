@@ -1,0 +1,530 @@
+{
+  "engine_metadata": {
+    "engine": "pyannote",
+    "pipeline": "pyannote/speaker-diarization-community-1",
+    "device": "cpu",
+    "audio_path": "work/episodio_003/99_temp/audio_for_diarization",
+    "audio_loaded_in_memory": true,
+    "sample_rate": 44100,
+    "num_channels": 2,
+    "output_type": "DiarizeOutput",
+    "diarization_source": "exclusive_speaker_diarization",
+    "num_raw_segments": 1505,
+    "load_errors": [],
+    "download": {
+      "final_url": "https://drive.usercontent.google.com/download?id=16PFiu6KRe6jqfqhOVOUIHsKA6vBbU8eD&export=download",
+      "content_type": "audio/mpeg",
+      "bytes_written": 69554640
+    },
+    "audio_probe": {
+      "ffprobe_ok": true,
+      "duration_seconds": 8694.282449,
+      "container": "mp3",
+      "audio_codec": "mp3",
+      "sample_rate": 44100,
+      "channels": 2,
+      "bit_rate": 64000,
+      "size_bytes": 69554640,
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "mp3",
+          "codec_long_name": "MP3 (MPEG audio layer 3)",
+          "codec_type": "audio",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/14112000",
+          "start_pts": 353600,
+          "start_time": "0.025057",
+          "duration_ts": 122693713920,
+          "duration": "8694.282449",
+          "bit_rate": "64000",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0
+          }
+        }
+      ]
+    }
+  },
+  "label_map": {
+    "SPEAKER_03": "speaker_01",
+    "SPEAKER_02": "speaker_02",
+    "SPEAKER_01": "speaker_03",
+    "SPEAKER_05": "speaker_04",
+    "SPEAKER_04": "speaker_05",
+    "SPEAKER_00": "speaker_06"
+  },
+  "normalization_warnings": [],
+  "assignment_stats": {
+    "total_utterances": 2432,
+    "assigned_utterances": 2428,
+    "assignment_ratio": 0.9984,
+    "low_confidence_utterances": 61
+  },
+  "qa": {
+    "passed": true,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "rapid_speaker_alternation",
+        "message": "Detected suspicious rapid alternation between speakers.",
+        "details": {
+          "count": 10
+        }
+      }
+    ],
+    "stats": {
+      "num_speakers": 4,
+      "total_segment_seconds": 8343.252,
+      "assignment_ratio": 0.9984,
+      "short_segment_ratio": 0.0533,
+      "low_confidence_ratio": 0.0251,
+      "dominant_speaker_ratio": 0.3557
+    }
+  },
+  "postprocess": {
+    "steps": [
+      {
+        "merge_same_speaker_neighbors": {
+          "merged_pairs": 173
+        }
+      },
+      {
+        "smooth_aba_patterns": {
+          "smoothed_triplets": 33
+        }
+      },
+      {
+        "drop_microsegments": {
+          "dropped_microsegments": 62
+        }
+      },
+      {
+        "prune_tiny_speakers": {
+          "pruned_speakers": [
+            "speaker_03",
+            "speaker_06"
+          ],
+          "speaker_seconds_before": {
+            "speaker_01": 2343.614,
+            "speaker_02": 2963.606,
+            "speaker_03": 8.218,
+            "speaker_04": 1683.839,
+            "speaker_05": 1341.325,
+            "speaker_06": 7.898
+          },
+          "total_seconds": 8348.5
+        }
+      },
+      {
+        "merge_after_pruning": {
+          "merged_pairs": 37
+        }
+      },
+      {
+        "relabel_speakers": {
+          "mapping": {
+            "speaker_01": "speaker_01",
+            "speaker_02": "speaker_02",
+            "speaker_04": "speaker_03",
+            "speaker_05": "speaker_04"
+          }
+        }
+      }
+    ],
+    "counts_before": {
+      "num_segments": 667,
+      "num_speakers": 6,
+      "total_seconds": 8253.962,
+      "speaker_seconds": {
+        "speaker_01": 2289.367,
+        "speaker_02": 2929.841,
+        "speaker_03": 8.269,
+        "speaker_04": 1684.565,
+        "speaker_05": 1332.84,
+        "speaker_06": 9.08
+      }
+    },
+    "counts_after": {
+      "num_segments": 319,
+      "num_speakers": 4,
+      "total_seconds": 8343.252,
+      "speaker_seconds": {
+        "speaker_01": 2348.507,
+        "speaker_02": 2967.392,
+        "speaker_03": 1684.474,
+        "speaker_04": 1342.879
+      }
+    }
+  },
+  "transcript_preview": {
+    "episode_id": "episodio_003",
+    "language": "es",
+    "num_segments": 2432,
+    "first_segments": [
+      {
+        "id": 0,
+        "start": 0.0,
+        "end": 4.7,
+        "text": "Me gusta escuchar Coffee Break, pero he de decir que no tienen ni idea de teoría de cuerdas.",
+        "avg_logprob": -0.15725630481771175,
+        "compression_ratio": 1.5357142857142858,
+        "no_speech_prob": 0.015711290761828423,
+        "words": [
+          {
+            "word": " Me",
+            "start": 0.0,
+            "end": 0.18,
+            "probability": 0.9820689558982849
+          },
+          {
+            "word": " gusta",
+            "start": 0.18,
+            "end": 0.4,
+            "probability": 0.9999885559082031
+          },
+          {
+            "word": " escuchar",
+            "start": 0.4,
+            "end": 0.9,
+            "probability": 0.9999892115592957
+          },
+          {
+            "word": " Coffee",
+            "start": 0.9,
+            "end": 1.08,
+            "probability": 0.9870251417160034
+          },
+          {
+            "word": " Break,",
+            "start": 1.08,
+            "end": 1.32,
+            "probability": 0.998571515083313
+          },
+          {
+            "word": " pero",
+            "start": 1.56,
+            "end": 1.84,
+            "probability": 0.9999731779098511
+          },
+          {
+            "word": " he",
+            "start": 1.84,
+            "end": 1.94,
+            "probability": 0.9981178045272827
+          },
+          {
+            "word": " de",
+            "start": 1.94,
+            "end": 2.08,
+            "probability": 0.9999970197677612
+          },
+          {
+            "word": " decir",
+            "start": 2.08,
+            "end": 2.3,
+            "probability": 0.9999899864196777
+          },
+          {
+            "word": " que",
+            "start": 2.3,
+            "end": 2.44,
+            "probability": 0.9999878406524658
+          },
+          {
+            "word": " no",
+            "start": 2.44,
+            "end": 2.56,
+            "probability": 0.9999920129776001
+          },
+          {
+            "word": " tienen",
+            "start": 2.56,
+            "end": 2.78,
+            "probability": 0.9990206956863403
+          },
+          {
+            "word": " ni",
+            "start": 2.78,
+            "end": 3.0,
+            "probability": 0.9999231100082397
+          },
+          {
+            "word": " idea",
+            "start": 3.0,
+            "end": 3.44,
+            "probability": 0.999995231628418
+          },
+          {
+            "word": " de",
+            "start": 3.44,
+            "end": 3.64,
+            "probability": 0.9999936819076538
+          },
+          {
+            "word": " teoría",
+            "start": 3.64,
+            "end": 4.06,
+            "probability": 0.9994457364082336
+          },
+          {
+            "word": " de",
+            "start": 4.06,
+            "end": 4.14,
+            "probability": 0.9999880790710449
+          },
+          {
+            "word": " cuerdas.",
+            "start": 4.14,
+            "end": 4.7,
+            "probability": 0.9998637437820435
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "start": 5.04,
+        "end": 9.18,
+        "text": "Y sus hipótesis sobre la estrella de Tavi son completamente ridículas.",
+        "avg_logprob": -0.15725630481771175,
+        "compression_ratio": 1.5357142857142858,
+        "no_speech_prob": 0.015711290761828423,
+        "words": [
+          {
+            "word": " Y",
+            "start": 5.04,
+            "end": 5.52,
+            "probability": 0.999955415725708
+          },
+          {
+            "word": " sus",
+            "start": 5.52,
+            "end": 5.72,
+            "probability": 0.999992847442627
+          },
+          {
+            "word": " hipótesis",
+            "start": 5.72,
+            "end": 6.26,
+            "probability": 0.9999709129333496
+          },
+          {
+            "word": " sobre",
+            "start": 6.26,
+            "end": 6.44,
+            "probability": 0.9999963045120239
+          },
+          {
+            "word": " la",
+            "start": 6.44,
+            "end": 6.58,
+            "probability": 0.9999655485153198
+          },
+          {
+            "word": " estrella",
+            "start": 6.58,
+            "end": 6.96,
+            "probability": 0.9988602697849274
+          },
+          {
+            "word": " de",
+            "start": 6.96,
+            "end": 7.06,
+            "probability": 0.9998780488967896
+          },
+          {
+            "word": " Tavi",
+            "start": 7.06,
+            "end": 7.26,
+            "probability": 0.5506017655134201
+          },
+          {
+            "word": " son",
+            "start": 7.26,
+            "end": 7.44,
+            "probability": 0.9999080896377563
+          },
+          {
+            "word": " completamente",
+            "start": 7.44,
+            "end": 7.98,
+            "probability": 0.9999556541442871
+          },
+          {
+            "word": " ridículas.",
+            "start": 7.98,
+            "end": 9.18,
+            "probability": 0.9997620185216268
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 9.68,
+        "end": 10.68,
+        "text": "¡Sasen toda la boca!",
+        "avg_logprob": -0.15725630481771175,
+        "compression_ratio": 1.5357142857142858,
+        "no_speech_prob": 0.015711290761828423,
+        "words": [
+          {
+            "word": " ¡Sasen",
+            "start": 9.68,
+            "end": 10.16,
+            "probability": 0.7127996310591698
+          },
+          {
+            "word": " toda",
+            "start": 10.16,
+            "end": 10.32,
+            "probability": 0.9926793575286865
+          },
+          {
+            "word": " la",
+            "start": 10.32,
+            "end": 10.48,
+            "probability": 0.9999963045120239
+          },
+          {
+            "word": " boca!",
+            "start": 10.48,
+            "end": 10.68,
+            "probability": 0.9999948740005493
+          }
+        ]
+      }
+    ],
+    "last_segments": [
+      {
+        "id": 2429,
+        "start": 8544.86,
+        "end": 8546.52,
+        "text": "Francis, Alberto, hasta la próxima",
+        "avg_logprob": -0.1028436542481415,
+        "compression_ratio": 1.7315175097276265,
+        "no_speech_prob": 0.0047182054258883,
+        "words": [
+          {
+            "word": " Francis,",
+            "start": 8544.86,
+            "end": 8545.18,
+            "probability": 0.6640577912330627
+          },
+          {
+            "word": " Alberto,",
+            "start": 8545.26,
+            "end": 8545.5,
+            "probability": 0.9999350309371948
+          },
+          {
+            "word": " hasta",
+            "start": 8545.74,
+            "end": 8546.26,
+            "probability": 0.9991596937179565
+          },
+          {
+            "word": " la",
+            "start": 8546.26,
+            "end": 8546.36,
+            "probability": 0.9999641180038452
+          },
+          {
+            "word": " próxima",
+            "start": 8546.36,
+            "end": 8546.52,
+            "probability": 0.999974250793457
+          }
+        ]
+      },
+      {
+        "id": 2430,
+        "start": 8546.52,
+        "end": 8548.14,
+        "text": "un placer, hasta la próxima",
+        "avg_logprob": -0.1028436542481415,
+        "compression_ratio": 1.7315175097276265,
+        "no_speech_prob": 0.0047182054258883,
+        "words": [
+          {
+            "word": " un",
+            "start": 8546.52,
+            "end": 8547.04,
+            "probability": 0.6125290989875793
+          },
+          {
+            "word": " placer,",
+            "start": 8547.04,
+            "end": 8547.62,
+            "probability": 0.7490703165531158
+          },
+          {
+            "word": " hasta",
+            "start": 8547.68,
+            "end": 8547.8,
+            "probability": 0.9997994303703308
+          },
+          {
+            "word": " la",
+            "start": 8547.8,
+            "end": 8547.94,
+            "probability": 0.9999980926513672
+          },
+          {
+            "word": " próxima",
+            "start": 8547.94,
+            "end": 8548.14,
+            "probability": 0.9999911785125732
+          }
+        ]
+      },
+      {
+        "id": 2431,
+        "start": 8548.14,
+        "end": 8549.04,
+        "text": "un abrazo",
+        "avg_logprob": -0.1028436542481415,
+        "compression_ratio": 1.7315175097276265,
+        "no_speech_prob": 0.0047182054258883,
+        "words": [
+          {
+            "word": " un",
+            "start": 8548.14,
+            "end": 8548.56,
+            "probability": 0.6737099885940552
+          },
+          {
+            "word": " abrazo",
+            "start": 8548.56,
+            "end": 8549.04,
+            "probability": 0.999669760465622
+          }
+        ]
+      }
+    ]
+  }
+}

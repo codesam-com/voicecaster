@@ -1,0 +1,675 @@
+Me gusta escuchar Coffee Break, pero he de decir que no tienen ni idea de teoría de cuerdas.
+Y sus hipótesis sobre la estrella de Tavi son completamente ridículas.
+¡Sasen toda la boca!
+Málaga. Hola Francis. ¿Qué tal? Aquí estamos y bueno, somos doctores, pero bueno, también sabemos
+Exactamente, se hicieron unos experimentos
+muy curiosos en los que se
+bombardeaban hojas
+de oro, láminas de oro
+con partículas
+alfa, que en aquel momento no se sabía lo que eran
+hoy sabemos que son núcleos de helio
+la radioactividad, hay tres
+tipos de radioactividad, la que emite partículas de luz
+la radioactividad gamma
+la radioactividad beta
+que emite electrones o su antipartícula
+el positrón, y la radioactividad alfa
+que emite núcleos de helio
+Pues con radioactividad alfa se bombardearon hojas de oro, láminas de oro, y se observó algo curiosísimo. Normalmente la partícula alfa atravesaba la hoja de oro como se esperaba, como si fuera transparente, pero de vez en cuando la partícula alfa chocaba contra algo que había en la hoja de oro y rebotaba.
+Rebotaba. Una partícula con una masa muy pequeña comparada con la masa de un átomo de oro rebotaba de vez en cuando. Entonces se hicieron los experimentos, se hicieron los cálculos y se vio que la masa de los átomos de oro estaba concentrada en unos grumos, en una parte central que se llamó núcleo, que contenía prácticamente toda la masa y que lo que pasaba es que la partícula alfa de vez en cuando chocaba contra el núcleo.
+Y eso nos dio el modelo atómico de un núcleo con gran masa rodeado de electrones de masa muy, muy pequeña.
+Sí, quería comentaros una cosa interesante
+que es que a veces tenemos la sensación de que siempre se ha sabido
+que el núcleo está hecho de protones y neutrones
+Eso no es verdad. En el año 1900 sabíamos que teníamos el núcleo y los electrones, pero no teníamos un buen modelo. El protón se propuso teóricamente y indirectamente se observó sobre el año 1920.
+1920. Y en aquella época no se sabía por qué solo con protones no podíamos explicar la masa de los núcleos. Faltaba algo, pero no sabíamos qué era. Eso que faltaba el neutrón se descubre en 1932.
+es decir, que entender el átomo
+como formado por
+electrones alrededor de un núcleo
+que a su vez está formado por neutrones y protones
+es de 1932
+el neutrino
+que es una partícula que se veía que podía
+que era necesaria para explicar la radioactividad
+es del orden de 1956
+realmente
+entender la materia que vemos todos los días
+y la radioactividad
+y las interacciones básicas
+que explican todo lo que nos rodea
+ahora mismo, lo que cualquiera de nosotros está viendo a su alrededor, eso requiere como mínimo hasta 1956. Y no estamos hablando de partículas elementales mucho más allá, que fueron apareciendo muchas más. Es decir, que ha costado medio siglo entender lo que se estudia en los libros de texto de primaria, de educación primaria.
+Sí, sí.
+Y esta tablita, esta tablita de Mola Saber, presenta partículas que se han descubierto muy recientemente.
+La tablita como tal, su estructura general, es de 1977, pero desde entonces faltaban una serie de partículas que se han ido observando.
+entonces es un punto que aparte de hablar de la tablita
+que vamos a hablar ahora, habrá que hablar también de la historia
+de cómo se han ido descubriendo esas partículitas
+que aparecen en la tablita
+esto es una cuestión bastante complicada
+explicar lo que es el spin
+porque en rigor
+el spin es una propiedad del campo cuántico
+que hereda la partícula
+entonces es imposible explicar lo que es el spin
+hablando de partículas
+aunque es cierto
+que cuando se descubrió el spin y se le puso ese nombre
+no se sabía que existían los campos cuánticos
+entonces se hablaba de partículas
+en rigor es una propiedad de los campos cuánticos
+básicamente, simplificando
+mucho, de hecho
+anuncio que mi charla
+en Naukas Bilbao en septiembre
+explicará el spin en 10 minutos
+eso quiero verlo yo
+eso quiero verlo yo
+Estoy haciendo un anuncio. Pero ya os digo, la idea clave es que el spin diferencia cómo el campo cuántico está en el espacio-tiempo. Y hay dos maneras en las que un campo cuántico puede estar en el espacio-tiempo, en cierta región del espacio-tiempo.
+Puede estar ocupando espacio o sin ocupar espacio. Cuando el campo cuántico está ocupando espacio, tenemos un spin semientero. Las partículas, como el electrón, ocupan espacio, cumplen lo que se llama el principio de exclusión de Pauli.
+Yo no puedo colocar dos partículas en la misma región del espacio-tiempo si esas partículas tienen los mismos números cuánticos. Tienen que vibrar de forma distinta, tienen que relacionarse de forma distinta con el espacio-tiempo para poder estar en la misma región, en un mismo átomo. Por eso en los átomos los electrones se colocan en niveles.
+Las otras partículas, los bosones, son partículas que no ocupan espacio. En una pequeña región del espacio-tiempo yo puedo poner tantos bosones como yo quiera. De hecho, para meter un bosón donde hay n bosones, la energía que yo necesito es una energía más pequeña si este n crece.
+Si yo tengo mil bosones y quiero meter un bosón, me cuesta menos energía que si tengo diez bosones y quiero meter un bosón. Es decir, a los bosones les encanta estar juntos, les encanta ocupar el mismo espacio.
+espacio. Sin embargo, los fermiones son partículas a las que no les gusta estar juntos y quieren estar
+separados porque ocupan espacio. Entonces, lo que diferencia el spin semientero, los fermiones,
+del spin entero, los bosones, es la relación en la que el campo cuántico tiene con el espacio-tiempo.
+Claro, es que ahí estamos mezclando cosas, ¿no?
+Porque una vez que tenemos lo que significa el spin
+a nivel de campo cuántico, después tenemos las consecuencias.
+Entonces, para las partículas que tienen carga eléctrica,
+la relación con el campo electromagnético
+vía el spin me da un momento magnético.
+Es decir, un electrón es una partícula
+que se relaciona con el campo electromagnético
+mediante dos características.
+Por un lado, su carga eléctrica,
+que, digamos, genera un campo eléctrico,
+Y por otro lado, su spin, que genera un momento magnético. Es decir, el electrón es un pequeño imán que tiene una pequeña carga eléctrica. Claro, tú me dices, ¿qué pasa con el neutrino? El neutrino también tiene spin semi entero y también tiene momento magnético. También es un pequeño imán.
+La razón por la que aparecen esos campos magnéticos es que el campo electromagnético, los fotones, son partículas de spin 1. Y como no tienen masa, tienen dos componentes.
+lo que yo veo con una gafa en 3D
+cuando voy al cine, tengo dos polarizaciones
+la luz se puede
+polarizar, hay dos campos
+asociados a la luz
+y entonces lo que marca
+el spin es las componentes
+de por ejemplo un fermión
+y cómo se relacionan con esas dos
+componentes del campo magnético
+y eso es lo que me genera
+un dipolo, me genera
+un pequeño imán
+pero yo digo, explicar esto requeriría
+explicar en detalle lo que es el spin
+Y no sé si nos vamos a desviar un poquito. Esa interpretación de que el spin se llama spin porque el spin es un pequeño imán y en un campo magnético se desvía en un sentido u otro. O sea, un haz de electrones o un haz de átomos, el spin está asociado también a los átomos, porque es la suma de los spins que los forman, se desvía en un campo magnético y gira. Y por eso se llamó spin al spin.
+spin, pero para entender bien el spin
+hay que olvidarse del concepto partícula
+hay que olvidarse de las consecuencias
+en su relación con los campos electromagnéticos
+de las consecuencias en su relación con los campos
+de la interacción fuerte, etcétera, porque si no
+nos liamos y acabamos por no entender lo que es el spin
+originariamente... No, le pusieron giro
+porque giraba en un campo
+magnético, cuando yo lanzaba partículas
+entre dos imanes, ponía dos imanes en un sentido
+y las partículas que iban giraban
+hacia arriba o hacia abajo. Entonces, las partículas
+giraban como si tuvieran
+un momento...
+como... Pero se le llamó spin
+no porque se imaginara una partícula rotando.
+Se le llamó spin porque giraba
+la trayectoria de las partículas.
+la explicación. Ah, lo vamos a explicar.
+¿Cómo lo explicamos? Si una partícula que
+gira tiene un momento
+angular y, por lo tanto,
+en un campo magnético, o sea, cuando esa carga
+eléctrica gira, aparece un campo magnético
+imaginemos que como
+las partículas que no deberían ser
+imanes giran, entonces
+imaginemos que le pasara lo mismo
+que hubiera un momento angular intrínseco
+que generara de manera clásica
+un momento magnético
+intrínseco, pero vale, eso es lo que
+eso se construyó a posteriori
+una vez que se dio el experimento, no a priori
+nadie teorizó
+el spin y después se buscó
+El experimento se cerró el resultado y se trató de explicar el experimento.
+La trata de explicar el experimento, se metió el concepto.
+eso que si es verdad, que tienes razón, que históricamente
+es verdad, es como se entendía
+el spin por algunos físicos
+alrededor del año 1924
+pero eso dejó
+de ser verdad en 1927
+y
+dejó de ser absolutamente
+Absolutamente verdad y se convirtió en una absoluta mentira en 1928, con la ocasión de dirá.
+Lo que pasa es que la gente lo sigue contando.
+La gente sigue contando lo que era verdad en 1924 y dejó de ser verdad en 1928
+porque aparentemente el público general lo entiende.
+También se usa el término sabor, sabores.
+Bueno, es una cuestión que no sabemos todavía
+la estabilidad de la materia
+formada por quarks
+es un problema muy complicado
+entonces sabemos que
+aparentemente el protón es estable
+pero sería
+estable
+una partícula formada solamente
+por quarks extraños
+ese tipo de partículas se llaman estados
+estranglet
+que son extrañetes, algo así
+eso se propuso a principios de los 80
+varios investigadores, un físico muy famoso
+Eduard Witten, propuso que podría
+haber estrellas de materia extraña
+eso que llaman materia extraña
+Esa materia, en algunos modelos muy simplificados, se logra que sea más estable que la materia ordinaria. Pero eso sí, tiene que partir de un estado de alta energía. A partir de un estado de alta energía tú puedes formar esa materia extraña en un estado que en apariencia es más estable que la materia ordinaria.
+Pero los cálculos están realizados con modelos muy, muy simplificados. Y cuando se meten detalles, cuando se complican esos cálculos, este tipo de materia deja de ser tan estable. Y pasa a ser un poco menos estable que la materia ordinaria, con lo que esa posible materia extraña se desintegraría en materia ordinaria antes de que se formaran grandes estructuras tipo estrellas, etc.
+Por lo que sabemos a día de hoy, no se puede decir con seguridad que no existan estrellas de materia extraña, pero prácticamente la mayor parte de los físicos opinamos que no existen, que la posible formación de objetos de materia extraña en el universo primordial acabó decayendo en objetos de materia ordinaria, de materia bariónica, de materia formada por protones, neutrones, etc.
+por ella. Y si me permitís un pequeño
+comentario, esto es una cosa que
+a la gente le sorprende mucho cuando se
+dice, pero yo creo que es muy importante
+decirlo
+el protón, todo el mundo dice, no, el protón está hecho
+de tres cuoros, dos cuoros arriba
+y un cuoro abajo, ¿y qué están unidos?
+están unidos por gluones
+por partículas que los unen
+son parecidos al fotón pero que transmiten
+la interacción de color, la hipercarga
+de color. Fijaros en una cosa muy curiosa
+el protón tiene
+una masa del orden de
+938 megalectrón
+voltios
+un cuor arriba
+tiene del orden de unos 2, 3 megalectrón
+voltios, de hecho no sabemos exactamente que masa tiene
+y un cuor abajo tiene entre 5
+y 6, un cuor arriba
+y un cuor abajo son como unos
+10, 12 megalectrón
+Es mucha menos masa que la masa del protón. ¿De dónde viene la masa del protón? Viene de la energía cinética, viene de la energía de los gluones. Los gluones, las partículas que unen esos quarks, tienen energías del orden de un tercio de la masa del protón.
+Energía del orden de 300 megaelectrón voltios, del orden de 100 veces la masa de un quark arriba y un quark abajo. Pero es que además la masa del quark extraño es del orden de 200 megaelectrón voltios. Es más pequeña que la energía que tienen los gluones.
+Es decir, en un protón en reposo, sus quarks no son solo quarks arriba y quarks abajo, también hay parejas quark-anticuark extraño. Y del orden del 5% de los quarks de un protón son quarks extraños.
+Porque los gluones que los unen a esos cuor arriba y abajo tienen más energía que la energía necesaria para producir parejitas de cuor extraño y anticuor extraño.
+Y de hecho, anoche estuve, hubo una charla aquí en Málaga de Javier Santaolalla y un compañero, estuvieron dando una charla para chavales de bacherato a la que yo asistí. El compañero que estaba, creo que es Rafael Barceló, creo que se llama, había trabajado en medir la cantidad de cuor encantado, cuor charm, cuor encanto, que tiene aún mayor masa que hay en un protón.
+y los protones en el HC
+hay una cierta componente de
+quark encantado
+que se puede medir, es decir
+no es verdad que un protón sean
+dos quark arriba y un quark abajo, un protón
+es una cosa muy complicada que
+de vista de lejos aparenta
+estar formado por eso, pero que
+visto en su interior está formado
+por una infinidad de quarks
+la mayoría de ellos quarks virtuales y una infinidad
+de gluones en una interacción muy
+complicada y ahí hay
+quarks extraños dentro de un protón
+dentro de todos nuestros protones.
+Sí, exactamente. O sea, está constantemente.
+las propiedades externas
+del protón son muy difíciles de calcular
+es decir, calcular teóricamente
+la masa de un protón, la
+carga de un protón
+el momento magnético de un protón
+hoy en día está más allá de lo que podemos calcular
+hoy en día tenemos que
+medirlo, podemos medirlo con mucha precisión
+pero calcularlo en nivel teórico, los errores
+son del orden del 5%, son errores
+muy grandes, y estamos hablando
+de una teoría de hace 40 años
+aún así, desde el punto de vista
+de lo que
+vemos dentro de un protón, cuando queremos ver
+lo que hay dentro de un protón, lo que
+vemos depende del microscopio
+con el que miramos
+si nosotros miramos con un microscopio que ve distancias
+muy pequeñas, vemos un mar
+terrible de muchas cosas, pero si miramos
+aún más pequeño, vemos aún más cosas
+y de hecho, igual que pasa con la carga eléctrica
+¿qué pasa con el potencial eléctrico asociado
+a una carga eléctrica? que tiende a infinito
+cuando la distancia tiende a cero
+el potencial es 1 partido r
+un partido del radio, un partido de la distancia
+cuando vas a 0 tiende a infinito
+algo parecido ocurre con el número
+de quarks y de gluones
+que hay dentro de un protón, cuando las distancias
+tienden a 0, en teoría
+todo se va a infinito
+lo que pasa es que son varios infinitos que se suman
+y resulta que cuando tú sumas los infinitos
+quarks arriba, los infinitos quarks
+abajo y los infinitos gluones
+el resultado completo de la suma
+es que en promedio, visto desde fuera
+hay 3 quarks, 2 arriba
+y 1 abajo
+Sí, por supuesto
+nosotros
+los físicos asociamos
+el tamaño de la partícula
+la partícula es como una onda
+tiene lo que se llama una longitud de onda, tiene un tamaño
+entonces lo que hemos observado
+con las partículas que llamamos fundamentales
+claro, es mucho
+más fácil medir el tamaño de un electrón
+que el tamaño de un muón
+pero un muón
+a mucha energía
+es decir, moviéndose con mucha energía cinética
+con una velocidad muy próxima a la velocidad
+de la luz, por la dilatación
+temporal, vive mucho más tiempo
+en reposo vive unos microsegundos
+pero a altísima
+velocidad, un muón
+producido en lo alto de la atmósfera
+puede llegar a la superficie de la Tierra
+y puede atravesarte tu cuerpo, Nacho
+entonces, y así fue como se detectó
+el muón en los rayos cósmicos
+muones que recorrían 10 kilómetros
+de atmósfera. ¿Por qué?
+¿Y cómo podían vivir tanto tiempo? Porque
+iban muy rápido, muy próximos a la luz.
+Entonces, con un muón puedo medir el
+tamaño en ciertos experimentos,
+aunque no tan precisamente
+con un electrón. Y lo que sí se ha observado es que
+cada vez que he medido el tamaño de partículas que
+considero fundamentales, básicamente
+el electrón y el muón, el medir
+el tamaño de las otras partículas es mucho más difícil
+y hay que hacerlo de manera mucho más indirecta,
+porque son mucho más inestables. El neutrino
+es muy difícil de trabajar con él,
+los quarks no los tengo libres,
+Pero para el electrón y el muón, lo que hemos observado es que el tamaño que yo puedo medir depende de la energía a la que lo mido y que conforme la energía sube, el tamaño baja. Y hasta donde lo hemos medido, del orden de unos 10 a la menos 18, 10 a la menos 19 metros, cada vez que subimos la energía, el tamaño se reduce, como predice la longitud de onda de Broglie, que nos dice que conforme la energía crece, el momento crece, decrece el tamaño.
+A eso le llamamos partícula fundamental, a una partícula que conforme la energía sube, su tamaño aparente decrece. Pero yo te digo, medir ese tamaño normalmente de manera directa básicamente con el electrón, con las demás partículas de manera indirecta.
+Los quarks y los regulones dentro de un protón
+están distribuidos de manera bastante uniforme
+es decir, no podemos decir dónde están, están constantemente cambiando de lugar
+y no es como el núcleo que sabemos que está más o menos en el centro
+de lo que es la distribución de carga electrónica
+de los electrones asociados al átomo
+En el protón los cuoros están constantemente moviéndose a velocidades enormes y de hecho fíjate que los cuoros tienen una energía cinética del orden de 100-150 veces su masa, por lo que se están moviendo a velocidades muy próximas a la velocidad de la luz dentro del protón y están constantemente moviéndose dentro del protón, intercambiándose, apareciendo, desapareciendo, es un proceso, entonces realmente es una especie como de gas más que quizás analogía física.
+están rodeados de una nube
+de gluones que los apantalla
+y los obliga a quedarse ahí, entonces están constantemente
+dando vueltas en trayectorias, en órbitas
+muy complicadas
+pero bueno, las
+distribuciones, las funciones de distribución
+de partones que ha comentado Alberto
+nos permiten describir estadísticamente
+las propiedades promedio de esta especie
+de gas, de cuoros y gluones
+que forma el protón
+En relación a lo que estamos comentando, John Wheeler, que era el director de tesis de Richard Feynman,
+que es un famoso, Wheeler también, propusieron sobre el año 1960 una idea muy curiosa.
+solo existe un electrón en el universo
+cuando dijeron eso
+lo que estaban diciendo es
+que en realidad el electrón es un campo
+solo existe un campo del electrón
+cuando yo tengo dos electrones
+cada uno con un tamaño
+con una longitud de onda
+es decir, cada uno tiene su energía
+no los puedo colocar en el mismo lugar
+pero los puedo colocar cerca
+a una distancia mayor
+que su propio tamaño
+y si los coloco cerca
+son indistinguibles
+desde el punto de vista cuántico
+yo no puedo decir
+puse el electrón A
+A y después a su lado puse el electrón B en un estado parecido, sino que de punto de vista cuántico, donde yo creo que puse el A puede estar el A o el B, y donde yo creo que puse el B puede estar el A o el B, porque es el campo el que vibra, porque la vibración no es como la vibración de una ola en el mar, la que yo distingo perfectamente, o una onda sonora de presión en el aire, en la que yo perfectamente distingo una onda de otra.
+En cuántica, una de las propiedades de los campos cuánticos es que son cuánticos, es decir, que tienen todas las propiedades de la cuántica y una de ellas, la clave, es la indistinguibilidad. Es decir, todas las partículas son excitaciones cuánticas, hay un cuanto, hay una excitación que es como una unidad.
+Yo no puedo tener media excitación o 1,5 veces esa excitación. Esa excitación está cuantizada, solo tengo una excitación unida y además cuando tengo varias de ellas en un estado compatible, en el caso de fermiones pues suficientemente separados para que no actúe el principio de excursión de Pauli, resulta que son completamente indistinguibles.
+Yo puedo tener 5 o 6 electrones atrapados en unos campos magnéticos y ya no sé cuál es cuál, no sé cuál puse, porque en realidad es el mismo, es el campo. El campo está oscilando en diferentes lugares y las oscilaciones se van intercambiando, hay una cierta no localidad en el concepto de campo.
+Eso es difícil de entender porque los campos clásicos no lo tienen. Un campo de temperatura, un campo de presión, un campo de velocidad, no tienen esa propiedad de ser cuánticos, de indistinguibilidad, de no localidad, pero es una pequeña extensión, es un pequeño añadido a la teoría clásica de campos del siglo XIX que tenemos que aceptar y que su matemática no es nada complicada, es relativamente sencilla.
+Sí, la pregunta que hacías antes es, ¿cómo es esa onda?
+¿Cómo es? ¿Qué estructura espaciotemporal tiene la onda asociada a un electrón?
+Y no lo podemos determinar, no podemos saberlo.
+Y no podemos saberlo porque para explorar el electrón
+tenemos que utilizar partículas.
+Entonces, al usar partículas, yo solo exploro propiedades tipo partícula de electrón. No puedo explorar su propio campo. Sin embargo, fíjate que con el fotón sí puedo hacer cosas. Hoy en día podemos, por ejemplo, dotar de estructura espacial a un fotón y cambiar la estructura espacial del campo electromagnético asociado a un fotón.
+Yo puedo lo que se llama dotar de momento magnético orbital a un fotón y puedo hacer que la distribución de campo electromagnético asociada a un solo fotón cambie y tenga propiedades.
+Y eso lo puedo utilizar para comunicar información de manera más eficiente. Fotón a fotón, no guardo que pase el fotón o que no pase el fotón, 1, 0, sino que puedo meter 20, 40, 50 numeritos asociados a los diferentes estados helicoidales de cómo he reestructurado espacialmente, he modulado espacialmente, eso se hace con redes de difracción y se puede hacer con un único fotón.
+Entonces con un fotón yo no veo, no puedo ver, igual que no puedo ver la función de onda cuántica, no puedo ver cómo fluctúa el campo electromagnético asociado a un solo fotón, pero lo puedo controlar, lo puedo cambiar y puedo hacer que tenga estructuras y eso se puede hacer en laboratorio y se lleva haciendo 20 años.
+Con el electrón no soy capaz de hacerlo, pero con el fotón lo hago. Y como el electrón es un campo cuántico, tan campo cuántico como puede ser el campo del fotón, pues con toda seguridad el campo del electrón también se podrían hacer cosas de ese tipo. Lo que pasa es que ahora mismo no somos tecnológicamente capaces de hacerlo. Pero no podemos ver cómo fluctúa exactamente ese campo, pero sí puedo controlar y cambiar cómo fluctúa. ¿En un solo fotón?
+Cuidado, cuidado. O sea, tú, a ver, cuando hablamos a veces de fotón, en ciertos contextos no es el fotón como partícula, ¿vale?
+O sea, en ciertos contextos asociamos a un paquete de fotones y le llamamos el concepto fotón, ¿vale? Entonces, a veces, pero realmente, medir la amplitud de un solo fotón, ahora mismo no lo podemos hacer, ¿eh? O sea, de un solo fotón tú puedes saber si lo detectas o no lo detectas, ¿eh?
+pero tú no puedes medir
+medio fotón, ¿vale?
+tú no puedes medir medio campo electromagnético
+asociado a un fotón, tú no puedes dar una estructura
+ahora, yo sí puedo modular esa estructura
+o sea, puedo darle forma
+y puedo ver que a este fotón le he dado una forma
+y en cierto experimento
+me da un resultado, y a este otro fotón
+le he dado otra forma, y en ese mismo experimento
+me da un resultado distinto
+exactamente
+exactamente, estás midiendo
+de lo que se llama un paquete de fotones, también de un conjunto
+de fotón.
+la razón de eso es que el fotón
+no tiene masa y el electrón sí
+el electrón tiene un tamaño mínimo
+en reposo, un electrón sin energía
+cinética, por tener masa
+tiene una longitud de onda mínima
+entonces yo no puedo poner dos espejos
+para fotones, si hay espejos para fotones
+y yo puedo hacer una cavidad para el campo
+electrónico, para el campo de los electrones
+pero el electrón que meta yo ahí
+no llega a los bordes de las paredes
+Porque su tamaño mínimo es el asociado a su masa. Sin embargo, el fotón no tiene masa. Yo puedo hacer que un fotón tenga un tamaño tan grande como yo quiera. Hay fotones que tienen el tamaño del universo entero, del universo observable entero.
+Entonces yo pongo dos espejos y tengo fotones que llegan perfectamente a ambos espejos. Las ondas de radio, por ejemplo, son métricas, son de metros, las ondas de AM. Y hay ondas de, bueno, vosotros los astrofísicos utilizáis radiotelescopios de tamaño 100 metros porque estáis viendo ondas de tamaño 100 metros, estáis recibiendo ondas formadas de fotones de 100 metros.
+fíjate, para detectar con un radiotelescopio
+un único fotón, tu radiotelescopio
+tendría que ser un sistema cuántico
+de detección fotón a fotón
+y nada prohíbe que lo sea
+pero tecnológicamente
+ahora mismo es imposible concebir
+un detector cuántico del tamaño de un radiotelescopio
+Exactamente, ahora mismo que sepamos
+Y fíjate que puedes convertir
+el magnético en eléctrico y el eléctrico en magnético.
+Porque interaccionan, o sea, son partes del mismo
+Cuando interaccionas puedes transformar unos en otros.
+Si me permitís hacer un comentario, yo lo
+diría de una manera completamente diferente,
+como lo ha dicho Alberto.
+A ver, para entender la masa del electrón tenemos que entender que el campo electrónico, el campo del electrón, tiene dos componentes. Igual que el campo electromagnético tiene componente eléctrica y componente magnética, el campo del electrón tiene una componente y otra componente.
+llamémosle izquierda, derecha, llamémosle
+arriba, abajo, llamémosle como
+queramos, ¿vale? Lebojira, destrójira
+lo que hace el campo de Higgs
+es mediar la transferencia
+de energía de la componente
+izquierda a la derecha y de la derecha a la izquierda
+la energía asociada
+a la masa está en el propio campo
+del electrón, lo que pasa es que esa energía se
+podría propagar por su
+componente, pero resulta que no se
+propaga por esa componente porque
+encuentra el campo de Higgs que le da
+a un canal para transferir esa energía
+a la otra componente. Entonces la energía
+está en el propio campo
+electrónico pasando
+de una de las componentes a la otra, de una componente a la otra
+de una componente a la otra, de una componente a la otra
+y ese pasar de una componente a la otra
+requiere un tiempo
+dura un tiempo
+y por eso cada componente
+virtualmente se comporta
+como una componente sin masa
+adquiere masa. ¿Por qué adquiere masa?
+Porque echa un tiempo en transferir la energía
+vía el campo de Higgs de una componente a la otra
+Eso produce un retraso en el movimiento de la partícula y ese retraso es lo que asociamos a que la partícula tiene una masa. No es que le robe energía al campo de Higgs o que haya una transferencia de energía del vacío del campo de Higgs al campo electrónico. No, el Higgs actúa como canal.
+Fijaros, el ejemplo clásico lo habéis visto en muchos museos de ciencia, en muchos laboratorios de física, en muchos sitios. Los dos péndulos acoplados por una cuerda. Son dos palitos que están conectados por una cuerda y de esa cuerda, en dos puntos, cuelgan dos pendulitos. Tú pones en reposo los dos y le das un golpecito a uno de los péndulos. El péndulo se mueve y por transferencia a través de la cuerda se va parando su movimiento y se pone a moverse el otro péndulo. Es una transferencia de un péndulo al otro péndulo.
+cuando este péndulo alcanza esa amplitud máxima
+la amplitud que le diste originalmente al otro
+vuelve otra vez a relajarse
+y entonces se va moviendo primero un péndulo, después el otro
+y todo se termina a través de la cuerda
+la cuerda que conecta los dos péndulos
+es el campo de Higgs
+y los dos pendulitos que se mueven son las dos componentes
+asociadas al electrón
+entonces una excitación de tipo electrón
+excita a ambos campos
+es decir, a ambas componentes
+y lo que hace el campo de Higgs es ir mediando transferencias
+de esa energía de una de las componentes
+a la otra
+eso es lo que nos dice la matemática
+Y no entendemos bien, digamos, la matemática al principio es una interacción normal y corriente, pero es esa transferencia. Entonces, realmente la energía en ningún momento realmente pasa al campo de Higgs. Si pasa al campo de Higgs es como excitación de vacío. Las excitaciones de vacío en realidad no son excitaciones de partículas, realmente no podemos verlas como energía.
+energía. El campo de Higgs se excita porque ve, hay un electrón y él se excita viendo ese electrón y
+provoca ese canal de transferencia de energía a otra componente. Entonces, el campo de Higgs se va
+como excitando de vez en cuando. Eso Roger Penrose, en varios de sus libros, lo pone muy bonito en una
+figura que va en zigzag. Entonces, tienes un zigzag y en los puntos donde se monta la montañita y el
+valle del zigzag, pone como una flechita y una X indicando el vacío. Tenemos como una transferencia
+ese vacío, y la masa realmente es la duración de ese proceso. Cada componente se movería
+como si no tuviera masa. Las componentes del electrón propagarían su energía como si
+no tuvieran masa, si no estuviera el campo de Higgs. Pero al estar en el campo de Higgs
+encuentra un camino para transferir la masa y en mecánica cuántica lo que puede ocurrir
+ocurre. O sea, si un proceso puede ocurrir, hay una cierta probabilidad de que ocurra,
+pues con cierta probabilidad se transfiere de una componente a la otra y eso dura un
+un tiempo, y ese tiempo provoca un retraso
+y provoca un retraso y hace que la partícula
+no se pueda mover a la velocidad de la luz
+como querría moverse cada una
+de sus componentes, porque individualmente no tienen
+masa, o sea, no tiene sentido decir
+que las componentes individualmente tienen masa
+pero como ocurre esa transferencia de energía
+hay un retraso en el movimiento
+que aparenta que vemos como
+una masa del electrón
+Fijaros, igual que
+podemos polarizar la luz, yo puedo
+polarizar un fotón, yo puedo
+polarizar un electrón.
+Yo puedo hacer que un electrón concreto
+tenga más energía en una de las componentes.
+Por supuesto, siempre va constantemente cambiando gracias al
+GIX, de una componente a la otra. Pero yo lo he
+creado inicialmente con más energía
+en una componente que en la otra. Y eso es muy importante
+por ejemplo en los grandes colisionadores de partículas
+que utilizan electrones, como
+era el LEP, el L-E-P, que estaba
+antes donde ahora ocupa en el CERN
+el LHC, el túnel, era muy importante
+polarizar de manera correcta
+los electrones para que cuando chocaran
+chocaran con las polarizaciones correctas.
+una magnitud cuántica, el spin es
+una propiedad del campo cuántico, entonces el campo cuántico
+del electrón, un medio
+es su spin, el campo cuántico
+del electrón tiene un spin, un medio significa que tiene
+dos componentes, o sea, eso es lo único que
+significa, que tenga spin
+un medio significa que tiene dos componentes
+ahora bien, como tiene dos componentes
+y se relaciona con el campo electromagnético
+recibe un momento magnético
+como se relacionan
+estas dos componentes
+entre sí
+tiene un momento angular
+es decir
+el spin
+por ciertas razones técnicas
+le pasa lo mismo
+que el momento angular
+el momento angular
+es una propiedad
+que proviene
+de una simetría
+ante rotaciones
+¿vale?
+un sistema que
+sea simétrico
+ante rotaciones
+tiene momento angular
+el hecho de que haya
+dos campos
+me permite cambiar
+los campos
+sin que cambie el electrón
+eso es una simetría
+rotacional
+Y esa es la que está asociada al spin. Entonces, por eso me parece un momento angular. Es cuestión de que el origen es el mismo. Técnicamente se dice, tengo un grupo de Lie y cojo el álgebra de Lie y los estados de la partícula son representaciones del álgebra de Lie.
+Pero bueno, no quiero entrar en ese detalle. Lo que quería comentar es que cuando se ha comentado el tema de la inercia, el concepto de fuerza es de Newton. En la física moderna no podemos hablar de fuerzas. Es un concepto incorrecto, es un concepto primitivo, obsoleto, de newtoniano. Modernamente ya no podemos hablar de fuerzas.
+Si tú decías, por ejemplo, hay mucha gente que dice, la relatividad especial no permite describir movimientos acelerados. Pues claro que permite describir movimientos acelerados. Pues claro que permite describir fuerzas. Pero no lo hago. ¿Por qué? Porque es un objeto primitivo. No lo necesito. No necesito hablar de fuerzas.
+El concepto de masa inercial es un concepto newtoniano. Ni en relatividad, ni en cuántica, ni en teoría cuántica de campos necesito hablar de masa inercial. El concepto de masa inercial no existe, es obsoleto. El concepto de la gravedad surge de la masa también es newtoniano. También es un concepto newtoniano. En la teoría de Einstein, la energía y el momento gravitan. La masa gravita porque es energía.
+energía. No es la masa la fuente de la gravedad, es la energía. Entonces, hablar de masa como carga
+gravitatoria no tiene sentido. Hablar del principio de equivalencia de Newton entre la masa
+inercial, la masa inercial y la masa gravitatoria, eso es completamente obsoleto a día de hoy en la
+física moderna. Eso no tiene sentido. Podemos discutir, pero a nivel histórico. Tratar de
+entender la masa, la masa inercial
+utilizando el campo de Higgs, que no tiene ningún
+Pero la masa, ¿vale? O sea...
+En teoría cuántica de campos, la masa es un concepto
+muy concreto. Para un electrón, la masa
+surge del acoplamiento del electrón
+al vacío del campo de Higgs.
+Y es un concepto perfectamente bien definido.
+Es la masa, y es eso. Ahora, todo lo que tú montes
+alrededor, y hablar de fuerza,
+no sé qué, eso ya es clásico
+o sea, el cociente masa
+carga que mides tú
+poniendo una trayectoria, un electrón en un cierto
+campo magnético y viendo cómo se curva
+entonces dices, bueno, pues tiene una frecuencia ciclotrón
+y a partir de término el cociente
+masa carga, esto ya ha sido un experimento
+clásico, pero desde el punto de vista
+de la teoría de campos, desde el punto de vista de la teoría cuántica
+de campos no tiene sentido
+ese tipo de conceptos, entonces la razón es
+por ejemplo porque la masa del electrón desaparece
+a alta energía, la masa del electrón
+no es una cosa eterna
+externa a alta energía cuando decía alberto no el campo de higgs a muy alta energía por encima de
+la transición de fase electro débil a esas temperaturas tan altas del entorno en el que
+se encuentra el campo de higgs es decir cuando el campo de higgs decimos hablamos de temperatura
+del campo de higgs nos estamos refiriendo a la energía promedio de las fluctuaciones de vacío
+del campo en cuántica las cosas no están quietas están siempre moviéndose siempre están oscilando
+en el estado mínimo de energía todas las cosas oscilan y eso es el vacío del vacío del campo
+El campo tiene oscilaciones, pues las oscilaciones del vacío del campo dependen de la energía disponible para oscilar. Entonces, a alta temperatura, en los primeros instantes del universo, a los primeros instantes del Big Bang, el universo en promedio tenía una alta temperatura. ¿Qué significa eso? Significa que había una gran cantidad de energía en el propio vacío, que las frustraciones de vacío eran muy grandes.
+Y entonces, en ese tipo de circunstancias, el campo de Higgs se comporta de manera muy distinta a baja energía y, por ejemplo, los electrones dejan de tener masa.
+A ver, a ver, es que de nuevo
+volvemos a hablar de conceptos
+muy newtonianos, ¿no? Es decir,
+la masa, la masa, tiene que ser
+la masa, ¿no? Y eso no es así, ¿vale?
+Eso no lo he dicho yo. Es un resultado de una interacción.
+Es un resultado de una interacción. Y como resultado
+de una interacción, depende de esa interacción.
+Entonces, la excitación
+del campo, que es el electrón,
+en un entorno en el que el campo de Higgs tiene un cierto tipo de interacciones,
+es distinto su acoplamiento, su manera de interaccionar con el campo de Higgs, con ese vacío,
+es distinto cuando el vacío cambia.
+Si yo cambio el vacío del Higgs, la interacción cambia.
+Entonces, si yo creo un electrón en un cierto vacío del campo de Higgs
+y lo propago a una región donde el vacío del campo de Higgs es distinto,
+pues fluctúa menos, la masa del electrón cambia.
+lo que yo llamo masa del electrón
+es como interacciona
+ese campo electrónico con el campo de Higgs
+ha cambiado
+eso lo puedo ver en los experimentos
+eso está medido
+no es que estemos aquí diciendo cosas que son abstractas
+y que son muy exóticas
+no, no, es que eso se mide
+eso es así
+lo tengo que mantener
+el dogma de la masa, no
+la masa es una interacción
+y como todas las interacciones, depende de lo que yo lo interactúe
+con qué lo interactúe
+y dónde lo interactúe.
+Pero claro, en esa galaxia lejana
+probablemente las temperaturas
+son ridículas
+comparadas con las temperaturas
+en las que esto afecta
+y el cambio de masa es ridículo.
+Es un cambio muy pequeño.
+Los campos tienen
+una propiedad de que en estado de vacío
+para, si yo le pego un bombazo
+de energía para generar un estado de partícula
+hay una mínima cantidad de energía
+la masa es la mínima cantidad
+de energía que yo tengo
+que introducir en un cierto volumen
+del espacio-tiempo, un cierto tamaño
+para generar una partícula
+de ese campo. Entonces, en el
+campo electrónico, si yo
+en la región del espacio-tiempo
+meto menos energía de la masa de un electrón,
+no produzco una excitación de tipo
+electrón, produzco una excitación
+de vacío del campo electrónico
+que acaba distribuyéndose
+y que acaba por no ser capaz de interaccionar
+con el campo de Higgs. Pero tengo
+una cantidad mínima de energía que tengo que meter ahí,
+la masa, que garantiza
+que la interacción que yo meto ahí
+empieza a interaccionar con el campo de Higgs
+y entonces ya se sostiene
+y se mantiene como partícula
+y ahora puede adquirir más energía,
+energía cinética, y ponerse a moverse.
+Y además, permitidme un pequeño detalle, la carga eléctrica tampoco existe. Igual que la masa. Son conceptos del siglo XIX que se han mantenido en el siglo XX y que hay que tener mucho cuidado con ellos.
+Lo que realmente llamamos carga es a la constante de estructura fina, es decir, a la constante de cómo se acopla el campo del electrón con el campo electromagnético. Y esa constante no es constante.
+Cuando yo digo carga más uno o carga menos uno, digo carga más uno ¿de qué? De la constante, o sea, de la carga entendida como constante de acoplamiento entre el electrón y el campo electromagnético. Y esa magnitud varía con la energía. Corre con la energía, cambia con la energía.
+Entonces, por ejemplo, en el universo primitivo
+Ese valor era distinto
+Yo sigo diciendo que el electrón tiene más uno
+Pero más uno de algo que cambia
+Que no es constante
+No es más uno en uno
+Sino que es un uno multiplicado por una cosa
+Que cambia con la energía y que depende
+En una cierta región del espacio-tiempo
+Si yo meto mucha energía en esa región
+Cambio el valor de la carga eléctrica del electrón
+Exactamente. Abusamos muchas veces de los términos. Es decir, ese concepto de carga como unidades de carga eléctrica del electrón en las mismas circunstancias.
+Es decir, la carga eléctrica de un átomo es el número de unidades de carga equivalente del electrón en esas circunstancias del átomo.
+Es un concepto. Pero ese concepto no tiene naturaleza física en teoría cuántica de campos.
+Es un concepto muy útil en electromagnetismo, es muy útil en física atómica, molecular, en química, en astrofísica, pero no se sustenta. La ventaja que tiene la carga eléctrica es que la constante de estructura fina varía muy poco con la energía, varía muy poco con la energía, entonces, a la mayor parte de las energías que podemos explorar en fenómenos astrofísicos, prácticamente la carga eléctrica es constante.
+pero no
+en los orígenes del Big Bang
+cuando tú estudias cosmología
+tienes que tener en cuenta
+estos cambios
+si no, no funciona
+Héctor, si quieres algún día podemos hablar de simetrías, es un tema muy bonito, hablar un poquito de las simetrías del modelo estándar, qué significan este tipo de grupos, eso se puede explicar de manera bastante sencilla y puede ser un motivo bonito para un futuro programa sobre estos asuntos.
+disfruto mucho hablando de estos temas
+y cada vez que hablas de estos temas, más aprendes
+porque dando clases, enseñando
+cosas, tú aprendes mucho
+sobre cómo hay que hacer las cosas, cómo relacionar a la gente
