@@ -12,12 +12,19 @@ from .config import (
     MERGE_GAP_SECONDS,
     MIN_SEGMENT_SECONDS,
     MIN_TRANSCRIPT_ASSIGNMENT_RATIO,
+    POSTPROCESS_DROP_MICROSEGMENTS_SECONDS,
+    POSTPROCESS_MAX_ABA_WINDOW_SECONDS,
+    POSTPROCESS_MAX_BRIDGE_SECONDS,
+    POSTPROCESS_MERGE_GAP_SECONDS,
+    POSTPROCESS_MIN_SPEAKER_RATIO,
+    POSTPROCESS_MIN_SPEAKER_SECONDS,
     USE_GPU_IF_AVAILABLE,
 )
 from .debug_report import build_debug_report
 from .engine_pyannote import run_pyannote_diarization
 from .metrics import compute_speaker_metrics
 from .normalize_segments import normalize_speaker_segments
+from .postprocess_segments import postprocess_speaker_segments
 from .qa import run_diarization_qa
 from .reconcile_with_transcript import assign_speakers_to_transcript
 from .write_outputs import (
@@ -183,10 +190,20 @@ def main() -> int:
             use_gpu_if_available=USE_GPU_IF_AVAILABLE,
         )
 
-        speaker_segments, label_map, norm_warnings = normalize_speaker_segments(
+        normalized_segments, label_map, norm_warnings = normalize_speaker_segments(
             raw_segments,
             min_segment_seconds=MIN_SEGMENT_SECONDS,
             merge_gap_seconds=MERGE_GAP_SECONDS,
+        )
+
+        processed_segments, postprocess_report = postprocess_speaker_segments(
+            normalized_segments,
+            min_speaker_ratio=POSTPROCESS_MIN_SPEAKER_RATIO,
+            min_speaker_seconds=POSTPROCESS_MIN_SPEAKER_SECONDS,
+            merge_gap_seconds=POSTPROCESS_MERGE_GAP_SECONDS,
+            max_bridge_seconds=POSTPROCESS_MAX_BRIDGE_SECONDS,
+            max_aba_window_seconds=POSTPROCESS_MAX_ABA_WINDOW_SECONDS,
+            drop_microsegments_seconds=POSTPROCESS_DROP_MICROSEGMENTS_SECONDS,
         )
 
         transcript_data = load_transcript_segments(work_episode_dir)
@@ -194,17 +211,17 @@ def main() -> int:
 
         utterances, assignment_stats = assign_speakers_to_transcript(
             transcript_data,
-            speaker_segments,
+            processed_segments,
             low_confidence_threshold=LOW_CONFIDENCE_THRESHOLD,
         )
 
         metrics_payload = compute_speaker_metrics(
-            speaker_segments,
+            processed_segments,
             utterances,
         )
 
         qa_result = run_diarization_qa(
-            speaker_segments,
+            processed_segments,
             utterances,
             min_assignment_ratio=MIN_TRANSCRIPT_ASSIGNMENT_RATIO,
         )
@@ -215,7 +232,7 @@ def main() -> int:
             )
 
         write_diarization_raw_json(diarization_dir, raw_segments, engine_metadata)
-        write_speaker_segments_json(diarization_dir, speaker_segments)
+        write_speaker_segments_json(diarization_dir, processed_segments)
         write_transcript_with_speakers_json(diarization_dir, utterances)
         write_subtitles_diarized_srt(diarization_dir, utterances)
         write_per_speaker_outputs(diarization_dir, utterances)
@@ -232,6 +249,8 @@ def main() -> int:
             assignment_stats=assignment_stats,
             qa_result=qa_result,
         )
+        debug_payload["postprocess"] = postprocess_report
+
         if transcript_preview is not None:
             debug_payload["transcript_preview"] = transcript_preview
 
