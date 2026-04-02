@@ -1,0 +1,585 @@
+[
+  {
+    "segment_id": "spkseg_000001",
+    "start": 0.031,
+    "end": 9.97,
+    "duration": 9.939,
+    "speaker": "speaker_01",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000002",
+    "start": 9.97,
+    "end": 43.163,
+    "duration": 33.193,
+    "speaker": "speaker_02",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments",
+      "merged_short_segments",
+      "short_segment"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000003",
+    "start": 43.248,
+    "end": 46.977,
+    "duration": 3.729,
+    "speaker": "speaker_01",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "short_segment",
+      "smoothed_aba_pattern"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000004",
+    "start": 46.977,
+    "end": 202.413,
+    "duration": 155.436,
+    "speaker": "speaker_03",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments",
+      "merged_short_segments",
+      "short_segment"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000005",
+    "start": 203.594,
+    "end": 212.555,
+    "duration": 8.961,
+    "speaker": "speaker_04",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000006",
+    "start": 212.555,
+    "end": 228.974,
+    "duration": 16.419,
+    "speaker": "speaker_01",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000007",
+    "start": 228.974,
+    "end": 313.113,
+    "duration": 84.139,
+    "speaker": "speaker_04",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments",
+      "merged_short_segments",
+      "short_segment",
+      "smoothed_aba_pattern"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000008",
+    "start": 313.45,
+    "end": 327.035,
+    "duration": 13.585,
+    "speaker": "speaker_01",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000009",
+    "start": 327.035,
+    "end": 329.971,
+    "duration": 2.936,
+    "speaker": "speaker_04",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "short_segment",
+      "smoothed_aba_pattern"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000010",
+    "start": 330.494,
+    "end": 347.032,
+    "duration": 16.538,
+    "speaker": "speaker_01",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000011",
+    "start": 347.032,
+    "end": 351.183,
+    "duration": 4.151,
+    "speaker": "speaker_04",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments",
+      "short_segment",
+      "smoothed_aba_pattern"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000012",
+    "start": 351.959,
+    "end": 364.818,
+    "duration": 12.859,
+    "speaker": "speaker_04",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000013",
+    "start": 365.307,
+    "end": 365.83,
+    "duration": 0.523,
+    "speaker": "speaker_01",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "short_segment"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000014",
+    "start": 365.83,
+    "end": 371.922,
+    "duration": 6.092,
+    "speaker": "speaker_04",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000015",
+    "start": 373.323,
+    "end": 379.735,
+    "duration": 6.412,
+    "speaker": "speaker_04",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000016",
+    "start": 380.967,
+    "end": 450.914,
+    "duration": 69.947,
+    "speaker": "speaker_03",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000017",
+    "start": 451.69,
+    "end": 455.302,
+    "duration": 3.612,
+    "speaker": "speaker_03",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000018",
+    "start": 455.808,
+    "end": 464.161,
+    "duration": 8.353,
+    "speaker": "speaker_01",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000019",
+    "start": 464.617,
+    "end": 468.059,
+    "duration": 3.442,
+    "speaker": "speaker_03",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000020",
+    "start": 468.059,
+    "end": 471.35,
+    "duration": 3.291,
+    "speaker": "speaker_01",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000021",
+    "start": 471.586,
+    "end": 531.29,
+    "duration": 59.704,
+    "speaker": "speaker_03",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments",
+      "merged_short_segments",
+      "short_segment"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000022",
+    "start": 531.56,
+    "end": 550.46,
+    "duration": 18.9,
+    "speaker": "speaker_04",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000023",
+    "start": 550.46,
+    "end": 558.273,
+    "duration": 7.813,
+    "speaker": "speaker_03",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000024",
+    "start": 558.88,
+    "end": 561.344,
+    "duration": 2.464,
+    "speaker": "speaker_02",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000025",
+    "start": 561.53,
+    "end": 572.161,
+    "duration": 10.631,
+    "speaker": "speaker_03",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000026",
+    "start": 572.701,
+    "end": 641.163,
+    "duration": 68.462,
+    "speaker": "speaker_04",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000027",
+    "start": 641.163,
+    "end": 692.952,
+    "duration": 51.789,
+    "speaker": "speaker_01",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_short_segments",
+      "short_segment"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000028",
+    "start": 693.003,
+    "end": 749.247,
+    "duration": 56.244,
+    "speaker": "speaker_03",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000029",
+    "start": 749.247,
+    "end": 764.738,
+    "duration": 15.491,
+    "speaker": "speaker_04",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000030",
+    "start": 765.903,
+    "end": 771.269,
+    "duration": 5.366,
+    "speaker": "speaker_03",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "short_segment",
+      "smoothed_aba_pattern"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000031",
+    "start": 771.269,
+    "end": 772.214,
+    "duration": 0.945,
+    "speaker": "speaker_04",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000032",
+    "start": 772.805,
+    "end": 796.7,
+    "duration": 23.895,
+    "speaker": "speaker_03",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000033",
+    "start": 797.037,
+    "end": 806.268,
+    "duration": 9.231,
+    "speaker": "speaker_04",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000034",
+    "start": 807.517,
+    "end": 829.117,
+    "duration": 21.6,
+    "speaker": "speaker_04",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000035",
+    "start": 830.078,
+    "end": 831.698,
+    "duration": 1.62,
+    "speaker": "speaker_03",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000036",
+    "start": 832.492,
+    "end": 865.246,
+    "duration": 32.754,
+    "speaker": "speaker_03",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments",
+      "merged_short_segments",
+      "short_segment"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000037",
+    "start": 865.6,
+    "end": 901.966,
+    "duration": 36.366,
+    "speaker": "speaker_01",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000038",
+    "start": 901.966,
+    "end": 910.42,
+    "duration": 8.454,
+    "speaker": "speaker_02",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000039",
+    "start": 911.298,
+    "end": 916.816,
+    "duration": 5.518,
+    "speaker": "speaker_02",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000040",
+    "start": 917.744,
+    "end": 1008.447,
+    "duration": 90.703,
+    "speaker": "speaker_02",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments",
+      "merged_short_segments",
+      "short_segment"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000041",
+    "start": 1008.835,
+    "end": 1011.046,
+    "duration": 2.211,
+    "speaker": "speaker_01",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000042",
+    "start": 1011.046,
+    "end": 1066.717,
+    "duration": 55.671,
+    "speaker": "speaker_03",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000043",
+    "start": 1067.847,
+    "end": 1075.66,
+    "duration": 7.813,
+    "speaker": "speaker_03",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000044",
+    "start": 1076.251,
+    "end": 1108.145,
+    "duration": 31.894,
+    "speaker": "speaker_02",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000045",
+    "start": 1109.326,
+    "end": 1167.41,
+    "duration": 58.084,
+    "speaker": "speaker_02",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000046",
+    "start": 1168.625,
+    "end": 1174.7,
+    "duration": 6.075,
+    "speaker": "speaker_02",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000047",
+    "start": 1175.611,
+    "end": 1243.297,
+    "duration": 67.686,
+    "speaker": "speaker_02",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000048",
+    "start": 1243.297,
+    "end": 1259.125,
+    "duration": 15.828,
+    "speaker": "speaker_04",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000049",
+    "start": 1259.446,
+    "end": 1268.052,
+    "duration": 8.606,
+    "speaker": "speaker_01",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000050",
+    "start": 1268.727,
+    "end": 1300.452,
+    "duration": 31.725,
+    "speaker": "speaker_02",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000051",
+    "start": 1301.245,
+    "end": 1340.26,
+    "duration": 39.015,
+    "speaker": "speaker_02",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000052",
+    "start": 1341.256,
+    "end": 1356.207,
+    "duration": 14.951,
+    "speaker": "speaker_02",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  }
+]

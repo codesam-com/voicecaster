@@ -1,0 +1,488 @@
+{
+  "engine_metadata": {
+    "engine": "pyannote",
+    "pipeline": "pyannote/speaker-diarization-community-1",
+    "device": "cpu",
+    "audio_path": "work/episodio_002/99_temp/audio_for_diarization",
+    "audio_loaded_in_memory": true,
+    "sample_rate": 44100,
+    "num_channels": 2,
+    "output_type": "DiarizeOutput",
+    "diarization_source": "exclusive_speaker_diarization",
+    "num_raw_segments": 246,
+    "load_errors": [],
+    "download": {
+      "final_url": "https://drive.usercontent.google.com/download?id=1jPyqmKrDykS9sRlBA9VyV8nSVUl0CXwA&export=download",
+      "content_type": "audio/mpeg",
+      "bytes_written": 10852145
+    },
+    "audio_probe": {
+      "ffprobe_ok": true,
+      "duration_seconds": 1356.486531,
+      "container": "mp3",
+      "audio_codec": "mp3",
+      "sample_rate": 44100,
+      "channels": 2,
+      "bit_rate": 64001,
+      "size_bytes": 10852145,
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "mp3",
+          "codec_long_name": "MP3 (MPEG audio layer 3)",
+          "codec_type": "audio",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/14112000",
+          "start_pts": 169280,
+          "start_time": "0.011995",
+          "duration_ts": 19142737920,
+          "duration": "1356.486531",
+          "bit_rate": "64000",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0
+          },
+          "tags": {
+            "encoder": "Lavf"
+          }
+        }
+      ]
+    }
+  },
+  "label_map": {
+    "SPEAKER_03": "speaker_01",
+    "SPEAKER_00": "speaker_02",
+    "SPEAKER_02": "speaker_03",
+    "SPEAKER_01": "speaker_04"
+  },
+  "normalization_warnings": [],
+  "assignment_stats": {
+    "total_utterances": 434,
+    "assigned_utterances": 434,
+    "assignment_ratio": 1.0,
+    "low_confidence_utterances": 15
+  },
+  "qa": {
+    "passed": true,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "rapid_speaker_alternation",
+        "message": "Detected suspicious rapid alternation between speakers.",
+        "details": {
+          "count": 2
+        }
+      }
+    ],
+    "stats": {
+      "num_speakers": 4,
+      "total_segment_seconds": 1331.066,
+      "assignment_ratio": 1.0,
+      "short_segment_ratio": 0.0385,
+      "low_confidence_ratio": 0.0346,
+      "dominant_speaker_ratio": 0.3711
+    }
+  },
+  "postprocess": {
+    "steps": [
+      {
+        "merge_same_speaker_neighbors": {
+          "merged_pairs": 29
+        }
+      },
+      {
+        "smooth_aba_patterns": {
+          "smoothed_triplets": 7
+        }
+      },
+      {
+        "drop_microsegments": {
+          "dropped_microsegments": 18
+        }
+      },
+      {
+        "prune_tiny_speakers": {
+          "pruned_speakers": [],
+          "speaker_seconds_before": {
+            "speaker_01": 171.348,
+            "speaker_02": 388.867,
+            "speaker_04": 493.171,
+            "speaker_03": 275.975
+          },
+          "total_seconds": 1329.361
+        }
+      },
+      {
+        "merge_after_pruning": {
+          "merged_pairs": 7
+        }
+      },
+      {
+        "relabel_speakers": {
+          "mapping": {
+            "speaker_01": "speaker_01",
+            "speaker_02": "speaker_02",
+            "speaker_04": "speaker_03",
+            "speaker_03": "speaker_04"
+          }
+        }
+      }
+    ],
+    "counts_before": {
+      "num_segments": 120,
+      "num_speakers": 4,
+      "total_seconds": 1314.529,
+      "speaker_seconds": {
+        "speaker_01": 172.766,
+        "speaker_02": 379.247,
+        "speaker_03": 273.209,
+        "speaker_04": 489.307
+      }
+    },
+    "counts_after": {
+      "num_segments": 52,
+      "num_speakers": 4,
+      "total_seconds": 1331.066,
+      "speaker_seconds": {
+        "speaker_01": 171.349,
+        "speaker_02": 389.762,
+        "speaker_03": 493.948,
+        "speaker_04": 276.007
+      }
+    }
+  },
+  "transcript_preview": {
+    "episode_id": "episodio_002",
+    "language": "es",
+    "num_segments": 434,
+    "first_segments": [
+      {
+        "id": 0,
+        "start": 0.27,
+        "end": 2.89,
+        "text": "y que ese giro sobre sí mismo era",
+        "avg_logprob": -0.09379018429948502,
+        "compression_ratio": 1.7639484978540771,
+        "no_speech_prob": 0.12120691686868668,
+        "words": [
+          {
+            "word": " y",
+            "start": 0.27,
+            "end": 0.71,
+            "probability": 0.643684983253479
+          },
+          {
+            "word": " que",
+            "start": 0.71,
+            "end": 0.85,
+            "probability": 0.9994811415672302
+          },
+          {
+            "word": " ese",
+            "start": 0.85,
+            "end": 1.95,
+            "probability": 0.9876619577407837
+          },
+          {
+            "word": " giro",
+            "start": 1.95,
+            "end": 2.19,
+            "probability": 0.9999414086341858
+          },
+          {
+            "word": " sobre",
+            "start": 2.19,
+            "end": 2.33,
+            "probability": 0.9995322227478027
+          },
+          {
+            "word": " sí",
+            "start": 2.33,
+            "end": 2.45,
+            "probability": 0.998030960559845
+          },
+          {
+            "word": " mismo",
+            "start": 2.45,
+            "end": 2.69,
+            "probability": 0.9998717308044434
+          },
+          {
+            "word": " era",
+            "start": 2.69,
+            "end": 2.89,
+            "probability": 0.9245707392692566
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "start": 2.89,
+        "end": 6.17,
+        "text": "la órbita era el momento angular orbital y el giro sobre sí mismo",
+        "avg_logprob": -0.09379018429948502,
+        "compression_ratio": 1.7639484978540771,
+        "no_speech_prob": 0.12120691686868668,
+        "words": [
+          {
+            "word": " la",
+            "start": 2.89,
+            "end": 3.29,
+            "probability": 0.20613135397434235
+          },
+          {
+            "word": " órbita",
+            "start": 3.29,
+            "end": 3.87,
+            "probability": 0.9995298782984415
+          },
+          {
+            "word": " era",
+            "start": 3.87,
+            "end": 4.09,
+            "probability": 0.8470690846443176
+          },
+          {
+            "word": " el",
+            "start": 4.09,
+            "end": 4.19,
+            "probability": 0.999944806098938
+          },
+          {
+            "word": " momento",
+            "start": 4.19,
+            "end": 4.35,
+            "probability": 0.9973961114883423
+          },
+          {
+            "word": " angular",
+            "start": 4.35,
+            "end": 4.69,
+            "probability": 0.9994800686836243
+          },
+          {
+            "word": " orbital",
+            "start": 4.69,
+            "end": 4.99,
+            "probability": 0.9980018734931946
+          },
+          {
+            "word": " y",
+            "start": 4.99,
+            "end": 5.35,
+            "probability": 0.9970563650131226
+          },
+          {
+            "word": " el",
+            "start": 5.35,
+            "end": 5.45,
+            "probability": 0.999821126461029
+          },
+          {
+            "word": " giro",
+            "start": 5.45,
+            "end": 5.69,
+            "probability": 0.9999908804893494
+          },
+          {
+            "word": " sobre",
+            "start": 5.69,
+            "end": 5.83,
+            "probability": 0.9999535083770752
+          },
+          {
+            "word": " sí",
+            "start": 5.83,
+            "end": 5.97,
+            "probability": 0.9999330043792725
+          },
+          {
+            "word": " mismo",
+            "start": 5.97,
+            "end": 6.17,
+            "probability": 0.9999809265136719
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 6.17,
+        "end": 8.21,
+        "text": "era el spin, es lo que yo tenía entendido",
+        "avg_logprob": -0.09379018429948502,
+        "compression_ratio": 1.7639484978540771,
+        "no_speech_prob": 0.12120691686868668,
+        "words": [
+          {
+            "word": " era",
+            "start": 6.17,
+            "end": 6.37,
+            "probability": 0.9996323585510254
+          },
+          {
+            "word": " el",
+            "start": 6.37,
+            "end": 6.49,
+            "probability": 0.9997592568397522
+          },
+          {
+            "word": " spin,",
+            "start": 6.49,
+            "end": 6.71,
+            "probability": 0.9724739789962769
+          },
+          {
+            "word": " es",
+            "start": 6.87,
+            "end": 7.37,
+            "probability": 0.9995720982551575
+          },
+          {
+            "word": " lo",
+            "start": 7.37,
+            "end": 7.47,
+            "probability": 0.9999916553497314
+          },
+          {
+            "word": " que",
+            "start": 7.47,
+            "end": 7.57,
+            "probability": 0.9999985694885254
+          },
+          {
+            "word": " yo",
+            "start": 7.57,
+            "end": 7.59,
+            "probability": 0.9999825954437256
+          },
+          {
+            "word": " tenía",
+            "start": 7.59,
+            "end": 7.75,
+            "probability": 0.9998273253440857
+          },
+          {
+            "word": " entendido",
+            "start": 7.75,
+            "end": 8.21,
+            "probability": 0.9996808469295502
+          }
+        ]
+      }
+    ],
+    "last_segments": [
+      {
+        "id": 431,
+        "start": 1353.83,
+        "end": 1355.69,
+        "text": "hay 3 quarks, 2 arriba",
+        "avg_logprob": -0.11207740040632283,
+        "compression_ratio": 1.9688715953307394,
+        "no_speech_prob": 0.15289320051670074,
+        "words": [
+          {
+            "word": " hay",
+            "start": 1353.83,
+            "end": 1354.05,
+            "probability": 0.8735838532447815
+          },
+          {
+            "word": " 3",
+            "start": 1354.05,
+            "end": 1354.59,
+            "probability": 0.781292736530304
+          },
+          {
+            "word": " quarks,",
+            "start": 1354.59,
+            "end": 1354.99,
+            "probability": 0.999821811914444
+          },
+          {
+            "word": " 2",
+            "start": 1355.09,
+            "end": 1355.43,
+            "probability": 0.9831490516662598
+          },
+          {
+            "word": " arriba",
+            "start": 1355.43,
+            "end": 1355.69,
+            "probability": 0.9998892545700073
+          }
+        ]
+      },
+      {
+        "id": 432,
+        "start": 1355.69,
+        "end": 1356.13,
+        "text": "y 1 abajo",
+        "avg_logprob": -0.11207740040632283,
+        "compression_ratio": 1.9688715953307394,
+        "no_speech_prob": 0.15289320051670074,
+        "words": [
+          {
+            "word": " y",
+            "start": 1355.69,
+            "end": 1355.85,
+            "probability": 0.9998319149017334
+          },
+          {
+            "word": " 1",
+            "start": 1355.85,
+            "end": 1355.93,
+            "probability": 0.9698534607887268
+          },
+          {
+            "word": " abajo",
+            "start": 1355.93,
+            "end": 1356.13,
+            "probability": 0.9996034502983093
+          }
+        ]
+      },
+      {
+        "id": 433,
+        "start": 1356.13,
+        "end": 1356.37,
+        "text": "Gracias.",
+        "avg_logprob": -0.6619838237762451,
+        "compression_ratio": 0.5,
+        "no_speech_prob": 0.9363115429878235,
+        "words": [
+          {
+            "word": " Gracias.",
+            "start": 1356.13,
+            "end": 1356.37,
+            "probability": 0.25589898228645325
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "num_speakers_detected": 4,
+  "total_speech_seconds": 1331.066,
+  "speakers": [
+    {
+      "speaker": "speaker_01",
+      "speech_seconds": 171.349,
+      "speech_ratio": 0.1287,
+      "num_turns": 12,
+      "avg_turn_seconds": 14.279,
+      "median_turn_seconds": 9.273,
+      "longest_turn_seconds": 51.789,
+      "first_seen": 0.031,
+      "last_seen": 1268.052,
+      "assignment_confidence_mean": 0.9673,
+      "low_confidence_segments": 1
+    },
+    {
+      "speaker": "speaker_02",
+      "speech_seconds": 389.762,
+      "speech_ratio": 0.2928,
+      "num_turns": 12,
+      "avg_turn_seconds": 32.48,
+      "median_turn_seconds": 31.809,
+      "longest_turn_seconds": 90.703,
+      "first_seen": 9.97,
+      "last_seen": 1356.207,
+      "assignment_confidence_mean": 0.961,
+      "low_confidence_segments": 6
+    },
+    {
+      "speaker": "speaker_03",
+      "speech_seconds": 493.948,
+      "speech_ratio": 0.3711,
+      "num_turns": 14,
+      "avg_turn_seconds": 35.282,
+      "median_turn_seconds": 17.263,
+      "longest_turn_seconds": 155.436,
+      "first_seen": 46.977,
+      "last_seen": 1075.66,
+      "assignment_confidence_mean": 0.9734,
+      "low_confidence_segments": 4
+    },
+    {
+      "speaker": "speaker_04",
+      "speech_seconds": 276.007,
+      "speech_ratio": 0.2074,
+      "num_turns": 14,
+      "avg_turn_seconds": 19.715,
+      "median_turn_seconds": 11.045,
+      "longest_turn_seconds": 84.139,
+      "first_seen": 203.594,
+      "last_seen": 1259.125,
+      "assignment_confidence_mean": 0.969,
+      "low_confidence_segments": 4
+    }
+  ]
+}
