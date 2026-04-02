@@ -25,6 +25,10 @@ def run_pyannote_diarization(
     This implementation loads the waveform in memory and passes:
         {"waveform": tensor, "sample_rate": int}
     to the pipeline, to avoid depending on pyannote's path-based audio decoding.
+
+    It supports both:
+    - modern community-1 outputs returning a DiarizeOutput object
+    - older outputs returning an Annotation-like object
     """
     if not audio_path.exists():
         raise PyannoteEngineError(f"Audio file does not exist: {audio_path}")
@@ -74,15 +78,19 @@ def run_pyannote_diarization(
         device = "cuda"
 
     try:
-        waveform_np, sample_rate = sf.read(str(audio_path), dtype="float32", always_2d=True)
+        waveform_np, sample_rate = sf.read(
+            str(audio_path),
+            dtype="float32",
+            always_2d=True,
+        )
     except Exception as exc:
         raise PyannoteEngineError(
             f"Unable to read audio into memory: {audio_path}"
         ) from exc
 
-    # soundfile returns shape [time, channels]
-    # pyannote expects waveform tensor shaped [channels, time]
     try:
+        # soundfile returns [time, channels]
+        # pyannote expects [channels, time]
         waveform = torch.from_numpy(waveform_np.T)
     except Exception as exc:
         raise PyannoteEngineError(
@@ -90,7 +98,7 @@ def run_pyannote_diarization(
         ) from exc
 
     try:
-        diarization = pipeline(
+        output = pipeline(
             {
                 "waveform": waveform,
                 "sample_rate": int(sample_rate),
@@ -101,18 +109,14 @@ def run_pyannote_diarization(
             f"pyannote diarization failed for in-memory audio: {audio_path}"
         ) from exc
 
-    raw_segments: list[RawSpeakerSegment] = []
-    for turn, _, speaker in diarization.itertracks(yield_label=True):
-        raw_segments.append(
-            RawSpeakerSegment(
-                start=float(turn.start),
-                end=float(turn.end),
-                speaker_raw=str(speaker),
-                confidence=None,
-                engine="pyannote",
-                extra={},
-            )
-        )
+    try:
+        diarization_obj, diarization_source = _extract_diarization_object(output)
+    except Exception as exc:
+        raise PyannoteEngineError(
+            f"Unable to extract diarization object from pipeline output of type {type(output).__name__}"
+        ) from exc
+
+    raw_segments = _serialize_diarization_output(diarization_obj)
 
     metadata: dict[str, Any] = {
         "engine": "pyannote",
@@ -122,8 +126,88 @@ def run_pyannote_diarization(
         "audio_loaded_in_memory": True,
         "sample_rate": int(sample_rate),
         "num_channels": int(waveform.shape[0]),
+        "output_type": type(output).__name__,
+        "diarization_source": diarization_source,
         "num_raw_segments": len(raw_segments),
         "load_errors": load_errors,
     }
 
     return raw_segments, metadata
+
+
+def _extract_diarization_object(output: Any) -> tuple[Any, str]:
+    """
+    Extract the diarization-bearing object from pyannote output.
+
+    community-1 returns a DiarizeOutput with:
+    - output.speaker_diarization
+    - output.exclusive_speaker_diarization
+
+    For this project, exclusive diarization is preferred because it simplifies
+    reconciliation with ASR timestamps.
+    """
+    if hasattr(output, "exclusive_speaker_diarization"):
+        diarization_obj = getattr(output, "exclusive_speaker_diarization")
+        if diarization_obj is not None:
+            return diarization_obj, "exclusive_speaker_diarization"
+
+    if hasattr(output, "speaker_diarization"):
+        diarization_obj = getattr(output, "speaker_diarization")
+        if diarization_obj is not None:
+            return diarization_obj, "speaker_diarization"
+
+    # Backward compatibility: older pyannote may return the diarization object directly
+    if hasattr(output, "itertracks"):
+        return output, "direct_annotation"
+
+    raise PyannoteEngineError(
+        f"Unsupported pyannote output structure: {type(output).__name__}"
+    )
+
+
+def _serialize_diarization_output(diarization_obj: Any) -> list[RawSpeakerSegment]:
+    """
+    Serialize pyannote diarization output into internal RawSpeakerSegment objects.
+
+    Supports:
+    - Annotation-like objects with itertracks(yield_label=True)
+    - iterables of (turn, speaker)
+    """
+    raw_segments: list[RawSpeakerSegment] = []
+
+    if hasattr(diarization_obj, "itertracks"):
+        for turn, _, speaker in diarization_obj.itertracks(yield_label=True):
+            raw_segments.append(
+                RawSpeakerSegment(
+                    start=float(turn.start),
+                    end=float(turn.end),
+                    speaker_raw=str(speaker),
+                    confidence=None,
+                    engine="pyannote",
+                    extra={},
+                )
+            )
+        return raw_segments
+
+    try:
+        for item in diarization_obj:
+            if not isinstance(item, tuple) or len(item) != 2:
+                raise ValueError(
+                    f"Unexpected diarization tuple structure: {item!r}"
+                )
+            turn, speaker = item
+            raw_segments.append(
+                RawSpeakerSegment(
+                    start=float(turn.start),
+                    end=float(turn.end),
+                    speaker_raw=str(speaker),
+                    confidence=None,
+                    engine="pyannote",
+                    extra={},
+                )
+            )
+        return raw_segments
+    except TypeError as exc:
+        raise PyannoteEngineError(
+            "Diarization object is not iterable and does not expose itertracks()."
+        ) from exc
