@@ -1,0 +1,559 @@
+1
+00:00:46,670 --> 00:00:47,790
+cuando uno hace eso
+
+2
+00:00:47,790 --> 00:00:50,690
+haciendo ejercicios de física cuántica
+
+3
+00:00:50,690 --> 00:00:52,910
+en la carrera, tú consideras el spin
+
+4
+00:00:52,910 --> 00:00:54,890
+como un momento angular y lo sumas
+
+5
+00:00:54,890 --> 00:00:56,910
+al momento angular orbital y todo esto
+
+6
+00:00:56,910 --> 00:00:58,990
+y toda la física
+
+7
+00:00:58,990 --> 00:01:25,530
+Se comporta como si el spin fuese un momento angular. Entonces, hay algo en él que de alguna manera hace que muchas cosas cuadren, pero luego resulta que cuando lo quieres entender a un nivel más fundamental, esa interpretación no es la buena. La mejor es la que tú acabas de describir, de entender fermiones como cosas que no les gusta estar juntos y se apilan unos encima de otros o unos al lado de los otros, y los bosones como cosas que sí les gusta estar juntos y se agrupan en grupos lo más coherentes posible.
+
+8
+00:01:25,530 --> 00:01:34,470
+Y luego, a partir de ahí, pues ya vienen una serie de propiedades como que las partículas heredan un pequeño imán y se comportan como pequeños imanes cuando se mueven por ahí.
+
+9
+00:01:35,150 --> 00:01:47,890
+Yo también quería decir que este asunto de decir los fermiones son las partículas de la materia, los bosones son las partículas asociadas a las interacciones, es verdad que históricamente, de alguna manera, lo hemos visto así.
+
+10
+00:01:47,890 --> 00:01:54,610
+Sí, los electrones están en la materia y son fermiones, los protones están en la materia y son fermiones, sería tonto decir lo contrario,
+
+11
+00:01:55,230 --> 00:02:01,810
+pero hay un poco la sensación de que como la propiedad de ser un fermión o ser un bosón es mucho más fundamental,
+
+12
+00:02:02,010 --> 00:02:06,650
+tiene que ver con esto que ha dicho Francis de cómo se ocupa el espacio y cómo se comportan cuando están juntos,
+
+13
+00:02:07,150 --> 00:02:15,630
+a lo mejor en algún momento podremos encontrar una formulación de las leyes de la física en la que no estén tan relacionadas unas cosas con las otras.
+
+14
+00:02:15,630 --> 00:02:18,470
+a lo mejor simplemente ha sido por motivos históricos
+
+15
+00:02:18,470 --> 00:02:20,430
+por motivos históricos hemos visto que el fotón
+
+16
+00:02:20,430 --> 00:02:21,890
+tenía que ver con el campo electromagnético
+
+17
+00:02:21,890 --> 00:02:24,370
+y hemos dicho, ah, el fotón es un bosón, pues debe de ser
+
+18
+00:02:24,370 --> 00:02:26,090
+que los bosones tal, y luego hemos
+
+19
+00:02:26,090 --> 00:02:28,330
+seguido desarrollando, hemos encontrado más bosones
+
+20
+00:02:28,330 --> 00:02:30,230
+asociados a otras interacciones y hemos
+
+21
+00:02:30,230 --> 00:02:32,130
+dicho, ah, pues será que los bosones están asociados
+
+22
+00:02:32,130 --> 00:02:34,170
+a las interacciones, pero no parece que eso
+
+23
+00:02:34,170 --> 00:02:36,110
+sea fundamental, quizá tiene que ver
+
+24
+00:02:36,110 --> 00:02:38,070
+con la formulación actual que tenemos en
+
+25
+00:02:38,070 --> 00:02:40,070
+la teoría cuántica de campos, que es una formulación muy buena
+
+26
+00:02:40,070 --> 00:02:42,230
+y que funciona muy bien, pero a lo mejor algún día
+
+27
+00:02:42,230 --> 00:02:43,850
+encontraremos otra, de hecho
+
+28
+00:02:43,850 --> 00:02:44,170
+hay
+
+29
+00:02:46,170 --> 00:02:48,110
+algunos indicios que sugieren
+
+30
+00:02:48,110 --> 00:02:50,110
+que la teoría cuántica de campos, que es lo que usamos
+
+31
+00:02:50,110 --> 00:02:52,110
+hoy en día, no es la teoría
+
+32
+00:02:52,110 --> 00:02:53,730
+última, no es la teoría fundamental
+
+33
+00:02:53,730 --> 00:02:55,330
+tiene algunos pequeños problemitas
+
+34
+00:02:55,330 --> 00:02:57,370
+entonces quizá en algún momento
+
+35
+00:02:57,370 --> 00:02:59,770
+encontraremos una teoría que la supere
+
+36
+00:02:59,770 --> 00:03:01,910
+y a lo mejor esa teoría nos explicará cosas
+
+37
+00:03:01,910 --> 00:03:04,110
+igual en esa otra teoría
+
+38
+00:03:04,110 --> 00:03:05,870
+entenderemos mejor por qué
+
+39
+00:03:05,870 --> 00:03:08,210
+el spin se hereda como una especie de imán
+
+40
+00:03:08,210 --> 00:03:10,270
+cuando uno forma partículas
+
+41
+00:03:10,270 --> 00:03:12,190
+en teoría cuántica de campos es un poco
+
+42
+00:03:12,930 --> 00:03:14,990
+oscuro y conceptualmente no muy claro
+
+43
+00:03:14,990 --> 00:03:17,370
+pero a lo mejor en otra teoría
+
+44
+00:03:17,370 --> 00:03:19,010
+a lo mejor lo veremos mucho más claramente
+
+45
+00:03:19,010 --> 00:03:21,090
+cuando superemos la teoría cuántica de Campos
+
+46
+00:03:21,090 --> 00:03:22,350
+que yo sospecho que sucederá
+
+47
+00:06:18,030 --> 00:06:23,810
+yo solo quería
+
+48
+00:06:23,810 --> 00:06:25,530
+comentar que la diferencia
+
+49
+00:06:25,530 --> 00:06:27,590
+conceptual más importante entre quarks
+
+50
+00:06:27,590 --> 00:06:29,930
+y leptones en realidad es que los quarks
+
+51
+00:06:29,930 --> 00:06:53,850
+Los quarks sienten una interacción que los leptones no. Los quarks sienten lo que llamamos la interacción fuerte, que luego contaremos lo que es, y por sentir la interacción fuerte tienen una serie de propiedades que los hacen muy, muy, muy diferentes a los leptones. Entonces, esa separación entre quarks y leptones es solo. A las cosas que sienten interacción fuerte y son fermiones, yo les llamo quarks, a las cosas que son fermiones pero no sienten interacción fuerte son leptones.
+
+52
+00:06:53,850 --> 00:07:12,850
+La diferencia más importante es que los leptones existen como partículas individuales de una manera muy natural. Yo puedo tener un electrón, dos electrones, tres electrones, pero por motivos que si queréis contamos luego, tener un quark Q y cogerlo y hacer cosas con él es o muy difícil o completamente imposible, ¿no?
+
+53
+00:07:12,850 --> 00:07:15,570
+entonces eso hace que sean muy muy distintos
+
+54
+00:07:15,570 --> 00:07:18,170
+yo voy a tener los leptones por separado
+
+55
+00:07:18,170 --> 00:07:19,190
+voy a poder coger
+
+56
+00:07:19,190 --> 00:07:21,610
+de alguna manera estudiar
+
+57
+00:07:21,610 --> 00:07:23,370
+un neutrino o un electrón
+
+58
+00:07:23,370 --> 00:07:26,150
+pero me va a ser muy difícil hacerlo con un quark
+
+59
+00:07:26,150 --> 00:07:27,890
+y eso hace que esa separación sea
+
+60
+00:07:27,890 --> 00:07:29,970
+muy natural porque de alguna manera
+
+61
+00:07:30,970 --> 00:07:32,050
+vas a tratar
+
+62
+00:07:32,050 --> 00:07:33,850
+de manera muy diferente a los que son
+
+63
+00:07:33,850 --> 00:07:35,270
+de una familia y a los que son de la otra
+
+64
+00:07:43,270 --> 00:07:45,910
+eso es, y de hecho no pueden
+
+65
+00:07:45,910 --> 00:07:48,070
+hacer otra cosa, es que no tienen otra opción
+
+66
+00:07:50,990 --> 00:07:54,230
+de tres pueden también estar juntados en parejas
+
+67
+00:07:54,230 --> 00:07:56,090
+los quarks hasta donde
+
+68
+00:07:56,090 --> 00:07:57,730
+bueno, ahora que se ha descubierto el pentacuark
+
+69
+00:07:57,730 --> 00:07:59,430
+a lo mejor deberíamos decir que también en quintetos
+
+70
+00:07:59,430 --> 00:08:02,090
+pero los quarks no tienen
+
+71
+00:08:02,090 --> 00:08:03,470
+opción a
+
+72
+00:08:04,090 --> 00:08:05,110
+bajas energías
+
+73
+00:08:05,110 --> 00:08:07,550
+los quarks necesitan
+
+74
+00:08:07,550 --> 00:08:10,070
+estar metidos dentro de uno de esos grupitos
+
+75
+00:08:10,070 --> 00:08:24,090
+que hoy en día sabemos que pueden ser de tres y se llaman bariones, que pueden ser de dos y se llaman mesones, y ahora parece que se han descubierto grupos de cuatro y de cinco, que sería el tetraquark y el pentaquark, pero siempre están en esos grupitos.
+
+76
+00:08:24,270 --> 00:08:36,870
+Y cuando tú intentas sacar a un quark de uno de esos grupitos, se vuelve a rodear de cosas y también te es imposible estudiarlo por separado. Siempre están como en enjambres, en los que es muy difícil estudiar al quark por separado.
+
+77
+00:08:36,870 --> 00:08:51,130
+Luego cuando hablemos de interacción fuerte ya comentamos más cosas, pero eso hace que esa diferencia entre quarks y leptones sea como muy palmaria, porque los leptones son fáciles de manejar y los quarks son un follón, porque están siempre dentro de esos enjambres y si tú quieres estudiarlo por separado es muy difícil.
+
+78
+00:09:10,870 --> 00:09:12,470
+Cualquiera de los dos se utiliza.
+
+79
+00:09:13,350 --> 00:09:17,370
+Quizás familia parece un poco más coloquial, pero no, en realidad se usan los dos.
+
+80
+00:09:17,410 --> 00:09:18,110
+Familia, generación.
+
+81
+00:09:21,730 --> 00:09:24,550
+Efectivamente, pero ese es un poquito más confuso, ¿no?
+
+82
+00:09:24,570 --> 00:09:30,330
+Porque en los quarks, el quark S y el quark C tienen sabores diferentes y están en la misma familia.
+
+83
+00:09:30,450 --> 00:09:32,050
+Entonces es un poquitín más confuso.
+
+84
+00:11:32,670 --> 00:11:54,490
+A ver, ha dicho Nacho que la naturaleza prefiere formar la materia con los de la familia más ligera, con los de la primera familia, que son el U, el D, el quark Q, el quark D y el electrón. No es que prefiera, es que no tiene muchas más opciones, porque realmente cuando tú te vas a construir partículas más pesadas, por ejemplo, el muón.
+
+85
+00:11:54,490 --> 00:12:11,970
+El muón es un electrón que tiene 200 veces más masa que el electrón. Ese muón, por tener 200 veces más masa, acumula mucha energía en su masa y si puede, en el momento en que puede, libera esa energía en forma de otras partículas. Se desintegra, es lo que se llama desintegración.
+
+86
+00:12:11,970 --> 00:12:14,730
+las partículas pesadas no es que no estén
+
+87
+00:12:14,730 --> 00:12:16,290
+en la naturaleza que nos rodea
+
+88
+00:12:16,290 --> 00:12:17,930
+porque a la naturaleza no le apetece
+
+89
+00:12:17,930 --> 00:12:20,070
+es que cuando aparecen se desintegran
+
+90
+00:12:20,070 --> 00:12:21,430
+al cabo de más o menos tiempo
+
+91
+00:12:21,430 --> 00:12:24,130
+el muón de hecho de las partículas inestables
+
+92
+00:12:24,130 --> 00:12:26,070
+es de las que más vive y vive
+
+93
+00:12:26,070 --> 00:12:27,850
+dos microsegundos, que es poquísimo
+
+94
+00:12:27,850 --> 00:12:29,950
+pero es una partícula elemental
+
+95
+00:12:46,250 --> 00:12:48,170
+no puede hacer otra cosa, es que es casi
+
+96
+00:12:48,170 --> 00:12:50,210
+segundo principio de la termodinámica. Pero por eso
+
+97
+00:12:52,630 --> 00:12:53,910
+¿Por qué? Porque las
+
+98
+00:12:54,550 --> 00:12:56,210
+partículas estables son las de la familia
+
+99
+00:12:56,210 --> 00:12:58,070
+más ligera, no es porque la naturaleza
+
+100
+00:12:58,070 --> 00:12:59,950
+prefiera la familia más ligera, es porque
+
+101
+00:12:59,950 --> 00:13:02,210
+las partículas de las familias pesadas
+
+102
+00:13:02,210 --> 00:13:04,450
+se pueden desintegrar a partículas
+
+103
+00:13:04,450 --> 00:13:06,370
+más ligeras y las partículas más ligeras
+
+104
+00:13:06,370 --> 00:13:08,130
+no se pueden desintegrar a nadie. Entonces
+
+105
+00:13:08,130 --> 00:13:10,470
+al final, cuando el universo evoluciona
+
+106
+00:13:10,470 --> 00:13:12,430
+de una manera natural, las partículas pesadas
+
+107
+00:13:12,430 --> 00:13:14,270
+han terminado desapareciendo y solo han quedado
+
+108
+00:13:14,270 --> 00:13:16,610
+las ligeras, pero no es porque sean muy especiales
+
+109
+00:13:49,720 --> 00:13:50,840
+Hasta donde sabemos, ¿no?
+
+110
+00:13:50,960 --> 00:13:51,400
+Efectivamente.
+
+111
+00:13:52,120 --> 00:13:54,400
+Pero ya te digo que eso tiene que ver con que
+
+112
+00:13:54,400 --> 00:13:58,800
+cuando tú tienes una cosa formada por la masa de 200 electrones,
+
+113
+00:13:58,800 --> 00:14:02,580
+tú puedes utilizar esa energía para crear electrones
+
+114
+00:14:02,580 --> 00:14:03,520
+o crear otros objetos.
+
+115
+00:14:03,760 --> 00:14:05,480
+Pero cuando tú tienes un electrón
+
+116
+00:14:05,480 --> 00:14:09,040
+y no hay ninguna otra partícula que sea de menos masa que el electrón,
+
+117
+00:14:09,100 --> 00:14:10,340
+pues no puedes hacer nada con él.
+
+118
+00:14:10,340 --> 00:14:13,460
+simplemente vive forever porque no puede hacer otra cosa.
+
+119
+00:14:14,080 --> 00:14:17,120
+Quiero decir, si la naturaleza prefiere los estados de mínima energía
+
+120
+00:14:17,120 --> 00:14:21,400
+es porque los de mayor energía pueden ir a estados de mínima energía
+
+121
+00:14:21,400 --> 00:14:23,460
+y los de mínima energía, si no les pegas una patada,
+
+122
+00:14:23,500 --> 00:14:25,000
+no pueden ir a estados de mayor energía.
+
+123
+00:17:18,390 --> 00:17:20,050
+desde luego existen todas esas cosas
+
+124
+00:17:20,050 --> 00:17:22,030
+y de hecho cuando antes he dicho que había
+
+125
+00:17:22,030 --> 00:17:24,070
+200 y pico partículas compuestas
+
+126
+00:17:24,070 --> 00:17:26,310
+la mayor parte de ellas son
+
+127
+00:17:28,170 --> 00:17:28,650
+enjambres
+
+128
+00:17:28,650 --> 00:17:29,950
+de estos formados por quarks
+
+129
+00:17:29,950 --> 00:17:32,410
+y que son cosas parecidas a protones, cosas parecidas
+
+130
+00:17:32,410 --> 00:17:33,870
+a neutrones, cosas parecidas a piones
+
+131
+00:17:33,870 --> 00:17:36,350
+pero con diversos quarks, lo que pasa es que
+
+132
+00:17:36,350 --> 00:17:38,090
+casi todas ellas son inestables
+
+133
+00:17:38,090 --> 00:17:40,570
+porque están formadas por estos quarks que a su vez
+
+134
+00:17:40,570 --> 00:17:42,470
+son inestables y se terminan desintegrando
+
+135
+00:17:42,470 --> 00:17:44,490
+entonces sí, sí existen
+
+136
+00:17:44,490 --> 00:17:46,490
+pero como dice Francis, no son estables
+
+137
+00:17:47,590 --> 00:17:48,970
+aún está abierta la posibilidad
+
+138
+00:17:48,970 --> 00:17:51,030
+de que esta materia extraña pudiese existir
+
+139
+00:17:51,030 --> 00:17:52,990
+pero parece cada vez más improbable
+
+140
+00:17:52,990 --> 00:17:55,150
+hace unos años habríamos apostado más fuerte

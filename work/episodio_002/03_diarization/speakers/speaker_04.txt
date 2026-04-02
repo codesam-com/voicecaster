@@ -1,0 +1,140 @@
+cuando uno hace eso
+haciendo ejercicios de física cuántica
+en la carrera, tú consideras el spin
+como un momento angular y lo sumas
+al momento angular orbital y todo esto
+y toda la física
+Se comporta como si el spin fuese un momento angular. Entonces, hay algo en él que de alguna manera hace que muchas cosas cuadren, pero luego resulta que cuando lo quieres entender a un nivel más fundamental, esa interpretación no es la buena. La mejor es la que tú acabas de describir, de entender fermiones como cosas que no les gusta estar juntos y se apilan unos encima de otros o unos al lado de los otros, y los bosones como cosas que sí les gusta estar juntos y se agrupan en grupos lo más coherentes posible.
+Y luego, a partir de ahí, pues ya vienen una serie de propiedades como que las partículas heredan un pequeño imán y se comportan como pequeños imanes cuando se mueven por ahí.
+Yo también quería decir que este asunto de decir los fermiones son las partículas de la materia, los bosones son las partículas asociadas a las interacciones, es verdad que históricamente, de alguna manera, lo hemos visto así.
+Sí, los electrones están en la materia y son fermiones, los protones están en la materia y son fermiones, sería tonto decir lo contrario,
+pero hay un poco la sensación de que como la propiedad de ser un fermión o ser un bosón es mucho más fundamental,
+tiene que ver con esto que ha dicho Francis de cómo se ocupa el espacio y cómo se comportan cuando están juntos,
+a lo mejor en algún momento podremos encontrar una formulación de las leyes de la física en la que no estén tan relacionadas unas cosas con las otras.
+a lo mejor simplemente ha sido por motivos históricos
+por motivos históricos hemos visto que el fotón
+tenía que ver con el campo electromagnético
+y hemos dicho, ah, el fotón es un bosón, pues debe de ser
+que los bosones tal, y luego hemos
+seguido desarrollando, hemos encontrado más bosones
+asociados a otras interacciones y hemos
+dicho, ah, pues será que los bosones están asociados
+a las interacciones, pero no parece que eso
+sea fundamental, quizá tiene que ver
+con la formulación actual que tenemos en
+la teoría cuántica de campos, que es una formulación muy buena
+y que funciona muy bien, pero a lo mejor algún día
+encontraremos otra, de hecho
+hay
+algunos indicios que sugieren
+que la teoría cuántica de campos, que es lo que usamos
+hoy en día, no es la teoría
+última, no es la teoría fundamental
+tiene algunos pequeños problemitas
+entonces quizá en algún momento
+encontraremos una teoría que la supere
+y a lo mejor esa teoría nos explicará cosas
+igual en esa otra teoría
+entenderemos mejor por qué
+el spin se hereda como una especie de imán
+cuando uno forma partículas
+en teoría cuántica de campos es un poco
+oscuro y conceptualmente no muy claro
+pero a lo mejor en otra teoría
+a lo mejor lo veremos mucho más claramente
+cuando superemos la teoría cuántica de Campos
+que yo sospecho que sucederá
+yo solo quería
+comentar que la diferencia
+conceptual más importante entre quarks
+y leptones en realidad es que los quarks
+Los quarks sienten una interacción que los leptones no. Los quarks sienten lo que llamamos la interacción fuerte, que luego contaremos lo que es, y por sentir la interacción fuerte tienen una serie de propiedades que los hacen muy, muy, muy diferentes a los leptones. Entonces, esa separación entre quarks y leptones es solo. A las cosas que sienten interacción fuerte y son fermiones, yo les llamo quarks, a las cosas que son fermiones pero no sienten interacción fuerte son leptones.
+La diferencia más importante es que los leptones existen como partículas individuales de una manera muy natural. Yo puedo tener un electrón, dos electrones, tres electrones, pero por motivos que si queréis contamos luego, tener un quark Q y cogerlo y hacer cosas con él es o muy difícil o completamente imposible, ¿no?
+entonces eso hace que sean muy muy distintos
+yo voy a tener los leptones por separado
+voy a poder coger
+de alguna manera estudiar
+un neutrino o un electrón
+pero me va a ser muy difícil hacerlo con un quark
+y eso hace que esa separación sea
+muy natural porque de alguna manera
+vas a tratar
+de manera muy diferente a los que son
+de una familia y a los que son de la otra
+eso es, y de hecho no pueden
+hacer otra cosa, es que no tienen otra opción
+de tres pueden también estar juntados en parejas
+los quarks hasta donde
+bueno, ahora que se ha descubierto el pentacuark
+a lo mejor deberíamos decir que también en quintetos
+pero los quarks no tienen
+opción a
+bajas energías
+los quarks necesitan
+estar metidos dentro de uno de esos grupitos
+que hoy en día sabemos que pueden ser de tres y se llaman bariones, que pueden ser de dos y se llaman mesones, y ahora parece que se han descubierto grupos de cuatro y de cinco, que sería el tetraquark y el pentaquark, pero siempre están en esos grupitos.
+Y cuando tú intentas sacar a un quark de uno de esos grupitos, se vuelve a rodear de cosas y también te es imposible estudiarlo por separado. Siempre están como en enjambres, en los que es muy difícil estudiar al quark por separado.
+Luego cuando hablemos de interacción fuerte ya comentamos más cosas, pero eso hace que esa diferencia entre quarks y leptones sea como muy palmaria, porque los leptones son fáciles de manejar y los quarks son un follón, porque están siempre dentro de esos enjambres y si tú quieres estudiarlo por separado es muy difícil.
+Cualquiera de los dos se utiliza.
+Quizás familia parece un poco más coloquial, pero no, en realidad se usan los dos.
+Familia, generación.
+Efectivamente, pero ese es un poquito más confuso, ¿no?
+Porque en los quarks, el quark S y el quark C tienen sabores diferentes y están en la misma familia.
+Entonces es un poquitín más confuso.
+A ver, ha dicho Nacho que la naturaleza prefiere formar la materia con los de la familia más ligera, con los de la primera familia, que son el U, el D, el quark Q, el quark D y el electrón. No es que prefiera, es que no tiene muchas más opciones, porque realmente cuando tú te vas a construir partículas más pesadas, por ejemplo, el muón.
+El muón es un electrón que tiene 200 veces más masa que el electrón. Ese muón, por tener 200 veces más masa, acumula mucha energía en su masa y si puede, en el momento en que puede, libera esa energía en forma de otras partículas. Se desintegra, es lo que se llama desintegración.
+las partículas pesadas no es que no estén
+en la naturaleza que nos rodea
+porque a la naturaleza no le apetece
+es que cuando aparecen se desintegran
+al cabo de más o menos tiempo
+el muón de hecho de las partículas inestables
+es de las que más vive y vive
+dos microsegundos, que es poquísimo
+pero es una partícula elemental
+no puede hacer otra cosa, es que es casi
+segundo principio de la termodinámica. Pero por eso
+¿Por qué? Porque las
+partículas estables son las de la familia
+más ligera, no es porque la naturaleza
+prefiera la familia más ligera, es porque
+las partículas de las familias pesadas
+se pueden desintegrar a partículas
+más ligeras y las partículas más ligeras
+no se pueden desintegrar a nadie. Entonces
+al final, cuando el universo evoluciona
+de una manera natural, las partículas pesadas
+han terminado desapareciendo y solo han quedado
+las ligeras, pero no es porque sean muy especiales
+Hasta donde sabemos, ¿no?
+Efectivamente.
+Pero ya te digo que eso tiene que ver con que
+cuando tú tienes una cosa formada por la masa de 200 electrones,
+tú puedes utilizar esa energía para crear electrones
+o crear otros objetos.
+Pero cuando tú tienes un electrón
+y no hay ninguna otra partícula que sea de menos masa que el electrón,
+pues no puedes hacer nada con él.
+simplemente vive forever porque no puede hacer otra cosa.
+Quiero decir, si la naturaleza prefiere los estados de mínima energía
+es porque los de mayor energía pueden ir a estados de mínima energía
+y los de mínima energía, si no les pegas una patada,
+no pueden ir a estados de mayor energía.
+desde luego existen todas esas cosas
+y de hecho cuando antes he dicho que había
+200 y pico partículas compuestas
+la mayor parte de ellas son
+enjambres
+de estos formados por quarks
+y que son cosas parecidas a protones, cosas parecidas
+a neutrones, cosas parecidas a piones
+pero con diversos quarks, lo que pasa es que
+casi todas ellas son inestables
+porque están formadas por estos quarks que a su vez
+son inestables y se terminan desintegrando
+entonces sí, sí existen
+pero como dice Francis, no son estables
+aún está abierta la posibilidad
+de que esta materia extraña pudiese existir
+pero parece cada vez más improbable
+hace unos años habríamos apostado más fuerte
