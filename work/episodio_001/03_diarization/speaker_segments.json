@@ -1,0 +1,50 @@
+[
+  {
+    "segment_id": "spkseg_000001",
+    "start": 0.031,
+    "end": 10.038,
+    "duration": 10.007,
+    "speaker": "speaker_01",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000002",
+    "start": 10.038,
+    "end": 43.163,
+    "duration": 33.125,
+    "speaker": "speaker_02",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments",
+      "merged_short_segments",
+      "short_segment"
+    ]
+  },
+  {
+    "segment_id": "spkseg_000003",
+    "start": 43.197,
+    "end": 47.028,
+    "duration": 3.831,
+    "speaker": "speaker_01",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": []
+  },
+  {
+    "segment_id": "spkseg_000004",
+    "start": 47.028,
+    "end": 126.863,
+    "duration": 79.835,
+    "speaker": "speaker_03",
+    "speaker_confidence": null,
+    "source": "normalized_diarization",
+    "flags": [
+      "merged_neighbor_segments",
+      "merged_short_segments",
+      "short_segment"
+    ]
+  }
+]
