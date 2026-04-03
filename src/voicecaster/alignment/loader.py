@@ -1,11 +1,8 @@
-# =========================================
-# FILE: src/voicecaster/alignment/loader.py
-# =========================================
-
 from __future__ import annotations
 
 import json
 from pathlib import Path
+from typing import Any
 
 from .schemas import AlignmentPaths
 
@@ -38,37 +35,74 @@ def build_alignment_paths(work_root: Path, episode_id: str) -> AlignmentPaths:
 
 
 def ensure_stage_dir(paths: AlignmentPaths) -> None:
+    """
+    Ensure 04_alignment output directory exists.
+    """
     paths.stage_dir.mkdir(parents=True, exist_ok=True)
 
 
-def load_json_file(path: Path) -> dict:
+def load_json_file(path: Path) -> Any:
     """
-    Load a JSON file and return a dict.
+    Load a JSON file and return parsed content.
+
+    Accepts either dict or list at root.
     """
     if not path.exists():
         raise AlignmentInputError(f"Missing required file: {path}")
 
     try:
         with path.open("r", encoding="utf-8") as fh:
-            data = json.load(fh)
+            return json.load(fh)
     except json.JSONDecodeError as exc:
         raise AlignmentInputError(f"Invalid JSON in file: {path}") from exc
 
-    if not isinstance(data, dict):
-        raise AlignmentInputError(f"Expected JSON object in file: {path}")
 
-    return data
+def _coerce_root_to_segments_dict(data: Any, label: str, path: Path) -> dict[str, Any]:
+    """
+    Normalize root JSON payload to a dict with a 'segments' key.
+
+    Accepted input forms:
+    - {"segments": [...]}
+    - [...]
+    """
+    if isinstance(data, dict):
+        return data
+
+    if isinstance(data, list):
+        return {"segments": data}
+
+    raise AlignmentInputError(
+        f"{label} must be a JSON object or a JSON list of segments: {path}"
+    )
 
 
-def load_transcript_preview(path: Path) -> dict:
-    return load_json_file(path)
+def load_transcript_preview(path: Path) -> dict[str, Any]:
+    """
+    Load transcript preview and normalize to:
+    {"segments": [...]}
+    """
+    data = load_json_file(path)
+    return _coerce_root_to_segments_dict(
+        data=data,
+        label="transcript_preview.json",
+        path=path,
+    )
 
 
-def load_speaker_segments(path: Path) -> dict:
-    return load_json_file(path)
+def load_speaker_segments(path: Path) -> dict[str, Any]:
+    """
+    Load speaker segments and normalize to:
+    {"segments": [...]}
+    """
+    data = load_json_file(path)
+    return _coerce_root_to_segments_dict(
+        data=data,
+        label="speaker_segments.json",
+        path=path,
+    )
 
 
-def validate_required_inputs(transcript_raw: dict, speakers_raw: dict) -> None:
+def validate_required_inputs(transcript_raw: dict[str, Any], speakers_raw: dict[str, Any]) -> None:
     """
     Validate minimum structural contract for alignment.
     """
