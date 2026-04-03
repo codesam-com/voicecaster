@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from .schemas import TranscriptSegment, Word, SpeakerSegment
+from .schemas import SpeakerSegment, TranscriptSegment, Word
 
 
 def load_json(path: Path) -> dict:
