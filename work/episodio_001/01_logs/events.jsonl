@@ -11,3 +11,5 @@
 {"ts": "2026-03-31T18:43:29Z", "event": "transcription_generated", "episode_id": "episodio_001", "num_segments": 29, "language": "es"}
 {"ts": "2026-03-31T18:43:29Z", "event": "transcription_outputs_validated", "episode_id": "episodio_001"}
 {"ts": "2026-03-31T18:43:29Z", "event": "transcription_completed", "episode_id": "episodio_001", "status_after": "diarization", "retries_after": 0}
+{"ts": "2026-04-03T16:52:01Z", "level": "info", "workflow": "04_alignment", "episode_id": "episodio_001", "event": "workflow_started", "status_before": "alignment"}
+{"ts": "2026-04-03T16:52:01Z", "level": "info", "workflow": "04_alignment", "episode_id": "episodio_001", "event": "workflow_completed", "status_after": "completed", "warnings": []}

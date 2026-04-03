@@ -1,9 +1,21 @@
 {
   "episode_id": "episodio_001",
   "workflow": "transcription",
-  "status": "diarization",
+  "status": "completed",
   "current_step": "cleanup",
   "started_at": "2026-03-31T18:39:53Z",
   "finished_at": "2026-03-31T18:43:29Z",
-  "result": "success"
+  "result": "success",
+  "alignment": {
+    "started_at": "2026-04-03T16:52:01Z",
+    "finished_at": "2026-04-03T16:52:01Z",
+    "result": "success",
+    "algorithm_version": "04_alignment_v1",
+    "warnings": [],
+    "word_assignment_ratio": 1.0,
+    "utterance_assignment_ratio": 1.0,
+    "unknown_word_ratio": 0.0,
+    "unknown_utterance_ratio": 0.0
+  },
+  "current_stage": "alignment"
 }
