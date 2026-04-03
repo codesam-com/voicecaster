@@ -1,12 +1,15 @@
-# =========================================
-# FILE: src/voicecaster/alignment/metrics.py
-# =========================================
-
 from __future__ import annotations
 
 from statistics import median
 
-from .schemas import AlignedUtterance, AlignedWord, AlignmentMetrics, SpeakerSegment, TranscriptSegment
+from .schemas import (
+    AlignedUtterance,
+    AlignedWord,
+    AlignmentMetrics,
+    SpeakerSegment,
+    SubtitleCue,
+    TranscriptSegment,
+)
 
 
 def compute_alignment_metrics(
@@ -14,14 +17,12 @@ def compute_alignment_metrics(
     speaker_segments: list[SpeakerSegment],
     aligned_words: list[AlignedWord],
     utterances: list[AlignedUtterance],
+    subtitle_cues: list[SubtitleCue],
     algorithm_version: str,
     high_unknown_word_ratio_warning: float,
     high_unknown_utterance_ratio_warning: float,
     high_multi_speaker_segment_ratio_warning: float,
 ) -> AlignmentMetrics:
-    """
-    Compute alignment summary metrics and warnings.
-    """
     total_words = len(aligned_words)
     total_utterances = len(utterances)
     total_segments = len(transcript_segments)
@@ -57,6 +58,12 @@ def compute_alignment_metrics(
 
     word_durations = [max(0.0, word.end - word.start) for word in aligned_words]
     utterance_durations = [max(0.0, utt.end - utt.start) for utt in utterances]
+    cue_durations = [max(0.0, cue.end - cue.start) for cue in subtitle_cues]
+    cue_char_counts = [cue.char_count for cue in subtitle_cues]
+    cue_line_counts = [cue.line_count for cue in subtitle_cues]
+
+    overlong_cues = sum(1 for cue in subtitle_cues if cue.duration > 6.0)
+    two_line_cues = sum(1 for cue in subtitle_cues if cue.line_count >= 2)
 
     warnings: list[str] = []
 
@@ -75,6 +82,10 @@ def compute_alignment_metrics(
     if total_segments > 0 and total_utterances / total_segments > 1.35:
         warnings.append("excessive_fragmentation_after_alignment")
 
+    overlong_cue_ratio = 0.0 if not subtitle_cues else overlong_cues / len(subtitle_cues)
+    if overlong_cue_ratio > 0.05:
+        warnings.append("overlong_subtitle_cues")
+
     return AlignmentMetrics(
         algorithm_version=algorithm_version,
         input_summary={
@@ -86,6 +97,7 @@ def compute_alignment_metrics(
         output_summary={
             "aligned_words": total_words,
             "aligned_utterances": total_utterances,
+            "subtitle_cues": len(subtitle_cues),
             "unknown_words": unknown_words,
             "unknown_utterances": unknown_utterances,
         },
@@ -100,6 +112,15 @@ def compute_alignment_metrics(
         timing_metrics={
             "median_word_duration": 0.0 if not word_durations else median(word_durations),
             "median_utterance_duration": 0.0 if not utterance_durations else median(utterance_durations),
+        },
+        subtitle_metrics={
+            "subtitle_cues": len(subtitle_cues),
+            "median_cue_duration": 0.0 if not cue_durations else median(cue_durations),
+            "max_cue_duration": 0.0 if not cue_durations else max(cue_durations),
+            "median_chars_per_cue": 0.0 if not cue_char_counts else median(cue_char_counts),
+            "max_chars_per_cue": 0 if not cue_char_counts else max(cue_char_counts),
+            "two_line_ratio": 0.0 if not cue_line_counts else two_line_cues / len(cue_line_counts),
+            "overlong_cue_ratio": overlong_cue_ratio,
         },
         warnings=warnings,
     )
