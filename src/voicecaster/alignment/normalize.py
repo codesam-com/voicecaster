@@ -74,7 +74,11 @@ def normalize_words(
     return normalized, report
 
 
-def normalize_single_utterance(item: dict[str, Any], index: int) -> tuple[AlignedUtterance, dict[str, int]]:
+def normalize_single_utterance(
+    item: dict[str, Any],
+    index: int,
+    valid_speakers: set[str],
+) -> tuple[AlignedUtterance, dict[str, int]]:
     source_utterance_id = str(item.get("utterance_id") or f"utt_{index:06d}")
 
     start = round_ts(float(item["start"]))
@@ -88,7 +92,15 @@ def normalize_single_utterance(item: dict[str, Any], index: int) -> tuple[Aligne
     speaker_raw = item.get("speaker")
     speaker = None if speaker_raw in ("", None) else str(speaker_raw)
 
+    speaker_invalid = 0
+    if speaker is not None and speaker not in valid_speakers:
+        speaker = None
+        speaker_invalid = 1
+
     flags = list(item.get("flags") or [])
+    if speaker_invalid and "invalid_upstream_speaker" not in flags:
+        flags.append("invalid_upstream_speaker")
+
     assignment_source = item.get("assignment_source")
     overlap_stats = dict(item.get("overlap_stats") or {})
 
@@ -125,11 +137,13 @@ def normalize_single_utterance(item: dict[str, Any], index: int) -> tuple[Aligne
             "merged_in_alignment": False,
             "text_trimmed": True,
             "word_speaker_normalized": True,
+            "speaker_fallback_applied": False,
         },
     )
 
     report = {
         "text_rebuilt_from_words": text_rebuilt_from_words,
+        "invalid_upstream_speakers_removed": speaker_invalid,
         **word_report,
     }
     return utt, report
@@ -200,7 +214,7 @@ def merge_utterances(
         "right_overlap_stats": right.overlap_stats,
     }
 
-    return AlignedUtterance(
+    merged = AlignedUtterance(
         utterance_id=merged_id,
         source_utterance_ids=list(left.source_utterance_ids) + list(right.source_utterance_ids),
         start=left.start,
@@ -217,8 +231,13 @@ def merge_utterances(
             "merged_in_alignment": True,
             "text_trimmed": True,
             "word_speaker_normalized": True,
+            "speaker_fallback_applied": bool(
+                left.normalization.get("speaker_fallback_applied", False)
+                or right.normalization.get("speaker_fallback_applied", False)
+            ),
         },
     )
+    return merged
 
 
 def merge_adjacent_same_speaker_utterances(
@@ -258,11 +277,106 @@ def merge_adjacent_same_speaker_utterances(
     return merged, merge_count
 
 
+def _neighbor_speaker(
+    utterances: list[AlignedUtterance],
+    idx: int,
+    valid_speakers: set[str],
+    max_gap_seconds: float = 2.0,
+) -> str | None:
+    current = utterances[idx]
+
+    prev_speaker = None
+    next_speaker = None
+
+    if idx > 0:
+        prev = utterances[idx - 1]
+        gap_prev = current.start - prev.end
+        if (
+            prev.speaker in valid_speakers
+            and gap_prev >= 0
+            and gap_prev <= max_gap_seconds
+        ):
+            prev_speaker = prev.speaker
+
+    if idx + 1 < len(utterances):
+        nxt = utterances[idx + 1]
+        gap_next = nxt.start - current.end
+        if (
+            nxt.speaker in valid_speakers
+            and gap_next >= 0
+            and gap_next <= max_gap_seconds
+        ):
+            next_speaker = nxt.speaker
+
+    if prev_speaker and next_speaker and prev_speaker == next_speaker:
+        return prev_speaker
+
+    if prev_speaker:
+        return prev_speaker
+
+    if next_speaker:
+        return next_speaker
+
+    return None
+
+
+def apply_speaker_fallbacks(
+    utterances: list[AlignedUtterance],
+    valid_speakers: set[str],
+) -> tuple[list[AlignedUtterance], dict[str, int]]:
+    fallback_applied = 0
+    unresolved_before_forced = 0
+
+    for idx, utt in enumerate(utterances):
+        if utt.speaker in valid_speakers:
+            continue
+
+        fallback_speaker = _neighbor_speaker(utterances, idx, valid_speakers)
+        if fallback_speaker is not None:
+            utt.speaker = fallback_speaker
+            utt.words = _rewrite_word_speakers(utt.words, fallback_speaker)
+            if "speaker_fallback_neighbor" not in utt.flags:
+                utt.flags.append("speaker_fallback_neighbor")
+            utt.normalization["speaker_fallback_applied"] = True
+            fallback_applied += 1
+
+    unresolved_indices = [
+        idx for idx, utt in enumerate(utterances) if utt.speaker not in valid_speakers
+    ]
+    unresolved_before_forced = len(unresolved_indices)
+
+    forced_speaker = sorted(valid_speakers)[0] if valid_speakers else None
+    if forced_speaker is not None:
+        for idx in unresolved_indices:
+            utt = utterances[idx]
+            utt.speaker = forced_speaker
+            utt.words = _rewrite_word_speakers(utt.words, forced_speaker)
+            if "speaker_fallback_forced" not in utt.flags:
+                utt.flags.append("speaker_fallback_forced")
+            utt.normalization["speaker_fallback_applied"] = True
+
+    report = {
+        "speaker_fallback_applied": fallback_applied,
+        "speaker_fallback_forced": unresolved_before_forced,
+    }
+    return utterances, report
+
+
+def _rewrite_word_speakers(words: list[dict[str, Any]], speaker: str) -> list[dict[str, Any]]:
+    rewritten: list[dict[str, Any]] = []
+    for item in words:
+        word = dict(item)
+        word["speaker"] = speaker
+        rewritten.append(word)
+    return rewritten
+
+
 def normalize_utterances(
     utterance_dicts: list[dict[str, Any]],
     merge_gap_seconds: float,
     max_utterance_seconds: float,
     max_utterance_chars: int,
+    valid_speakers: set[str],
 ) -> tuple[list[AlignedUtterance], dict[str, Any]]:
     normalized: list[AlignedUtterance] = []
 
@@ -270,12 +384,13 @@ def normalize_utterances(
     text_rebuilt_from_words = 0
     words_without_speaker_fixed = 0
     word_speaker_conflicts_fixed = 0
+    invalid_upstream_speakers_removed = 0
 
     for idx, item in enumerate(utterance_dicts, start=1):
         if not isinstance(item, dict):
             continue
 
-        utt, report = normalize_single_utterance(item, idx)
+        utt, report = normalize_single_utterance(item, idx, valid_speakers=valid_speakers)
 
         if not utt.text and not utt.words:
             empty_utterances_removed += 1
@@ -284,10 +399,16 @@ def normalize_utterances(
         text_rebuilt_from_words += report["text_rebuilt_from_words"]
         words_without_speaker_fixed += report["words_without_speaker_fixed"]
         word_speaker_conflicts_fixed += report["word_speaker_conflicts_fixed"]
+        invalid_upstream_speakers_removed += report["invalid_upstream_speakers_removed"]
 
         normalized.append(utt)
 
     normalized.sort(key=lambda x: (x.start, x.end, x.utterance_id))
+
+    normalized, fallback_report = apply_speaker_fallbacks(
+        normalized,
+        valid_speakers=valid_speakers,
+    )
 
     merged_output, merge_count = merge_adjacent_same_speaker_utterances(
         normalized,
@@ -305,6 +426,8 @@ def normalize_utterances(
         "text_rebuilt_from_words": text_rebuilt_from_words,
         "words_without_speaker_fixed": words_without_speaker_fixed,
         "word_speaker_conflicts_fixed": word_speaker_conflicts_fixed,
+        "invalid_upstream_speakers_removed": invalid_upstream_speakers_removed,
+        **fallback_report,
     }
 
     return merged_output, report
