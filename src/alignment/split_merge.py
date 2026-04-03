@@ -99,7 +99,6 @@ def merge_adjacent_same_speaker_utterances(
 
     merged.append(current)
 
-    # Renumerado estable
     renumbered: list[Utterance] = []
     for idx, utt in enumerate(merged):
         renumbered.append(
