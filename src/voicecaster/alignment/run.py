@@ -51,6 +51,15 @@ def utc_now_iso() -> str:
     return datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
+def extract_valid_speakers(speaker_segments: list[dict[str, Any]]) -> set[str]:
+    speakers: set[str] = set()
+    for item in speaker_segments:
+        speaker = item.get("speaker")
+        if speaker not in ("", None):
+            speakers.add(str(speaker))
+    return speakers
+
+
 def build_speakers_index(
     utterances: list[Any],
     turns: list[Any],
@@ -128,11 +137,16 @@ def main() -> int:
         speaker_metrics = load_speaker_metrics(work_episode_dir)
         diarization_metadata = load_diarization_metadata(work_episode_dir)
 
+        valid_speakers = extract_valid_speakers(speaker_segments)
+        if not valid_speakers:
+            raise RuntimeError("No valid speakers found in speaker_segments.json")
+
         utterances, normalization_report = normalize_utterances(
             transcript_with_speakers,
             merge_gap_seconds=ALIGNMENT_MERGE_GAP_SECONDS,
             max_utterance_seconds=ALIGNMENT_MAX_UTTERANCE_SECONDS,
             max_utterance_chars=ALIGNMENT_MAX_UTTERANCE_CHARS,
+            valid_speakers=valid_speakers,
         )
 
         turns, turns_report = build_turns(
@@ -168,6 +182,7 @@ def main() -> int:
                 "output_turns": len(turns),
                 "output_words": len(words),
                 "speakers_detected": len(speakers_index["speakers"]),
+                "valid_speakers_from_03": len(valid_speakers),
             },
             "normalization": normalization_report,
             "turns": turns_report,
