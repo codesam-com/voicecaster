@@ -7,6 +7,13 @@ from .config import TIMESTAMP_PRECISION
 from .models import AlignedUtterance
 
 
+CRITICAL_FLAGS = {
+    "no_speaker_overlap",
+    "speaker_conflict",
+    "timestamp_invalid",
+}
+
+
 def round_ts(value: float | None) -> float | None:
     if value is None:
         return None
@@ -38,10 +45,13 @@ def normalize_words(
             continue
 
         word_speaker = item.get("speaker")
+        start = round_ts(item.get("start")) if item.get("start") is not None else None
+        end = round_ts(item.get("end")) if item.get("end") is not None else None
+
         normalized_item = {
             "word": str(item.get("word") or ""),
-            "start": round_ts(item.get("start")) if item.get("start") is not None else None,
-            "end": round_ts(item.get("end")) if item.get("end") is not None else None,
+            "start": start,
+            "end": end,
             "probability": item.get("probability"),
         }
 
@@ -94,7 +104,8 @@ def normalize_single_utterance(item: dict[str, Any], index: int) -> tuple[Aligne
         rebuilt = rebuild_text_from_words(normalized_words)
         if rebuilt:
             text = rebuilt
-            flags.append("text_rebuilt_from_words")
+            if "text_rebuilt_from_words" not in flags:
+                flags.append("text_rebuilt_from_words")
             text_rebuilt_from_words = 1
 
     utt = AlignedUtterance(
@@ -124,16 +135,135 @@ def normalize_single_utterance(item: dict[str, Any], index: int) -> tuple[Aligne
     return utt, report
 
 
+def has_critical_flags(utt: AlignedUtterance) -> bool:
+    return any(flag in CRITICAL_FLAGS for flag in utt.flags)
+
+
+def can_merge_utterances(
+    left: AlignedUtterance,
+    right: AlignedUtterance,
+    merge_gap_seconds: float,
+    max_utterance_seconds: float,
+    max_utterance_chars: int,
+) -> bool:
+    if left.speaker is None or right.speaker is None:
+        return False
+
+    if left.speaker != right.speaker:
+        return False
+
+    if has_critical_flags(left) or has_critical_flags(right):
+        return False
+
+    gap = round(float(right.start) - float(left.end), TIMESTAMP_PRECISION)
+
+    if gap < 0:
+        return False
+
+    if gap > merge_gap_seconds:
+        return False
+
+    merged_start = left.start
+    merged_end = right.end
+    merged_duration = merged_end - merged_start
+    if merged_duration > max_utterance_seconds:
+        return False
+
+    merged_text = normalize_text(f"{left.text} {right.text}")
+    if len(merged_text) > max_utterance_chars:
+        return False
+
+    return True
+
+
+def merge_utterances(
+    left: AlignedUtterance,
+    right: AlignedUtterance,
+    merged_id: str,
+) -> AlignedUtterance:
+    merged_text = normalize_text(f"{left.text} {right.text}")
+    merged_words = list(left.words) + list(right.words)
+
+    confidence_values = [
+        float(value)
+        for value in [left.speaker_confidence, right.speaker_confidence]
+        if value is not None
+    ]
+    merged_confidence = None
+    if confidence_values:
+        merged_confidence = round(sum(confidence_values) / len(confidence_values), 4)
+
+    merged_flags = list(dict.fromkeys(list(left.flags) + list(right.flags)))
+    merged_overlap_stats = {
+        "merged_from": [left.utterance_id, right.utterance_id],
+        "left_overlap_stats": left.overlap_stats,
+        "right_overlap_stats": right.overlap_stats,
+    }
+
+    return AlignedUtterance(
+        utterance_id=merged_id,
+        source_utterance_ids=list(left.source_utterance_ids) + list(right.source_utterance_ids),
+        start=left.start,
+        end=right.end,
+        duration=round_ts(right.end - left.start) or 0.0,
+        speaker=left.speaker,
+        speaker_confidence=merged_confidence,
+        text=merged_text,
+        words=merged_words,
+        flags=merged_flags,
+        assignment_source=left.assignment_source or right.assignment_source,
+        overlap_stats=merged_overlap_stats,
+        normalization={
+            "merged_in_alignment": True,
+            "text_trimmed": True,
+            "word_speaker_normalized": True,
+        },
+    )
+
+
+def merge_adjacent_same_speaker_utterances(
+    utterances: list[AlignedUtterance],
+    merge_gap_seconds: float,
+    max_utterance_seconds: float,
+    max_utterance_chars: int,
+) -> tuple[list[AlignedUtterance], int]:
+    if not utterances:
+        return [], 0
+
+    merged: list[AlignedUtterance] = []
+    current = utterances[0]
+    merge_count = 0
+    synthetic_counter = 1
+
+    for candidate in utterances[1:]:
+        if can_merge_utterances(
+            current,
+            candidate,
+            merge_gap_seconds=merge_gap_seconds,
+            max_utterance_seconds=max_utterance_seconds,
+            max_utterance_chars=max_utterance_chars,
+        ):
+            current = merge_utterances(
+                current,
+                candidate,
+                merged_id=f"utt_align_{synthetic_counter:06d}",
+            )
+            synthetic_counter += 1
+            merge_count += 1
+        else:
+            merged.append(current)
+            current = candidate
+
+    merged.append(current)
+    return merged, merge_count
+
+
 def normalize_utterances(
     utterance_dicts: list[dict[str, Any]],
     merge_gap_seconds: float,
     max_utterance_seconds: float,
     max_utterance_chars: int,
 ) -> tuple[list[AlignedUtterance], dict[str, Any]]:
-    del merge_gap_seconds
-    del max_utterance_seconds
-    del max_utterance_chars
-
     normalized: list[AlignedUtterance] = []
 
     empty_utterances_removed = 0
@@ -159,14 +289,22 @@ def normalize_utterances(
 
     normalized.sort(key=lambda x: (x.start, x.end, x.utterance_id))
 
+    merged_output, merge_count = merge_adjacent_same_speaker_utterances(
+        normalized,
+        merge_gap_seconds=merge_gap_seconds,
+        max_utterance_seconds=max_utterance_seconds,
+        max_utterance_chars=max_utterance_chars,
+    )
+
     report = {
         "input_utterances": len(utterance_dicts),
-        "output_utterances": len(normalized),
-        "merged_same_speaker_utterances": 0,
+        "normalized_utterances_before_merge": len(normalized),
+        "output_utterances": len(merged_output),
+        "merged_same_speaker_utterances": merge_count,
         "empty_utterances_removed": empty_utterances_removed,
         "text_rebuilt_from_words": text_rebuilt_from_words,
         "words_without_speaker_fixed": words_without_speaker_fixed,
         "word_speaker_conflicts_fixed": word_speaker_conflicts_fixed,
     }
 
-    return normalized, report
+    return merged_output, report
