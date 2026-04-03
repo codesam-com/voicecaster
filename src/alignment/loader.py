@@ -1,53 +1,73 @@
+from __future__ import annotations
+
 import json
 from pathlib import Path
 
 from .schemas import TranscriptSegment, Word, SpeakerSegment
 
 
-def load_transcript_preview(path: Path) -> list[TranscriptSegment]:
-    data = json.loads(path.read_text())
+def load_json(path: Path) -> dict:
+    if not path.exists():
+        raise FileNotFoundError(f"Archivo no encontrado: {path}")
+    return json.loads(path.read_text(encoding="utf-8"))
 
-    segments = []
-    for seg in data.get("segments", []):
+
+def load_transcript_preview(path: Path) -> list[TranscriptSegment]:
+    data = load_json(path)
+
+    raw_segments = data.get("segments", [])
+    if not isinstance(raw_segments, list) or not raw_segments:
+        raise ValueError("Transcript vacío o sin campo 'segments' válido")
+
+    segments: list[TranscriptSegment] = []
+
+    for seg in raw_segments:
+        raw_words = seg.get("words", []) or []
         words = [
             Word(
-                start=w["start"],
-                end=w["end"],
-                word=w["word"],
+                start=float(w["start"]),
+                end=float(w["end"]),
+                word=str(w["word"]),
                 probability=w.get("probability"),
             )
-            for w in seg.get("words", [])
+            for w in raw_words
+            if "start" in w and "end" in w and "word" in w
         ]
 
         segments.append(
             TranscriptSegment(
-                id=seg["id"],
-                start=seg["start"],
-                end=seg["end"],
-                text=seg["text"],
+                id=int(seg["id"]),
+                start=float(seg["start"]),
+                end=float(seg["end"]),
+                text=str(seg.get("text", "")),
                 words=words,
             )
         )
 
     if not segments:
-        raise ValueError("Transcript vacío")
+        raise ValueError("Transcript vacío tras parseo")
 
     return segments
 
 
 def load_speaker_segments(path: Path) -> list[SpeakerSegment]:
-    data = json.loads(path.read_text())
+    data = load_json(path)
+
+    raw_segments = data.get("segments", [])
+    if not isinstance(raw_segments, list) or not raw_segments:
+        raise ValueError("Diarization vacía o sin campo 'segments' válido")
 
     segments = [
         SpeakerSegment(
-            start=s["start"],
-            end=s["end"],
-            speaker=s["speaker"],
+            start=float(s["start"]),
+            end=float(s["end"]),
+            speaker=str(s["speaker"]),
         )
-        for s in data.get("segments", [])
+        for s in raw_segments
+        if "start" in s and "end" in s and "speaker" in s
     ]
 
     if not segments:
-        raise ValueError("Diarization vacía")
+        raise ValueError("Diarization vacía tras parseo")
 
     return segments
