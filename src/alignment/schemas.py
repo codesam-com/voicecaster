@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import dataclass, field, asdict
+from dataclasses import asdict, dataclass, field
 from typing import Any, Optional
 
 
@@ -50,16 +50,6 @@ class AlignedWord:
     speaker_confidence: float
     assignment_method: str
     flags: list[str] = field(default_factory=list)
-
-    def to_dict(self) -> dict[str, Any]:
-        return asdict(self)
-
-
-@dataclass
-class SpeakerCandidate:
-    speaker: str
-    overlap_seconds: float
-    overlap_ratio: float
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
