@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from statistics import median
 
-from .schemas import AlignmentMetadata, AlignedWord, TranscriptSegment, SpeakerSegment, Utterance
+from .schemas import AlignmentMetadata, AlignedWord, SpeakerSegment, TranscriptSegment, Utterance
 
 
 def compute_metrics(
