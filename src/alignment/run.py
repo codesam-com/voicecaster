@@ -33,7 +33,7 @@ def _repo_root() -> Path:
     """
     Asume:
     src/voicecaster/alignment/run.py
-    -> repo root = 4 niveles arriba desde este archivo
+    -> repo root = 3 niveles arriba desde src/
     """
     return Path(__file__).resolve().parents[3]
 
