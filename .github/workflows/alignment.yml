@@ -4,94 +4,102 @@ on:
   workflow_dispatch:
 #  schedule:
 #    - cron: "17 */6 * * *"
+  push:
+    paths:
+      - "inputs/inputs.json"
+      - "src/voicecaster/**"
+      - ".github/workflows/alignment.yml"
+      - "requirements.txt"
 
 permissions:
   contents: write
 
 concurrency:
-  group: alignment
+  group: voicecaster-alignment
   cancel-in-progress: false
 
 jobs:
-  alignment:
+  precheck:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
-
+    env:
+      PYTHONPATH: src
+    outputs:
+      should_run: ${{ steps.precheck.outputs.should_run }}
+      episode_id: ${{ steps.precheck.outputs.episode_id }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Cache pip
-        uses: actions/cache@v4
+      - name: Run alignment precheck
+        id: precheck
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          output="$(python -m voicecaster.alignment.precheck)"
+          echo "$output"
+
+          should_run="$(echo "$output" | awk -F= '/^should_run=/{print $2}' | tail -n1)"
+          episode_id="$(echo "$output" | awk -F= '/^episode_id=/{print $2}' | tail -n1)"
+
+          echo "should_run=${should_run}" >> "$GITHUB_OUTPUT"
+          echo "episode_id=${episode_id}" >> "$GITHUB_OUTPUT"
+
+  alignment:
+    needs: precheck
+    if: needs.precheck.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      PYTHONUNBUFFERED: "1"
+      PYTHONPATH: src
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-alignment-${{ hashFiles('pyproject.toml', 'requirements*.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-alignment-
-            ${{ runner.os }}-pip-
+          python-version: "3.11"
+          cache: "pip"
 
       - name: Install dependencies
+        shell: bash
         run: |
+          set -euo pipefail
           python -m pip install --upgrade pip
-
-          if [ -f pyproject.toml ]; then
-            pip install -e .
-          fi
-
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           fi
 
-      - name: Ensure required directories exist
-        run: |
-          mkdir -p inputs
-          mkdir -p work
-
-      - name: Debug python import paths
-        env:
-          PYTHONPATH: ${{ github.workspace }}/src
-        run: |
-          echo "workspace: $GITHUB_WORKSPACE"
-          pwd
-          echo "---- src tree ----"
-          find src -maxdepth 4 -type f | sort || true
-          echo "---- sys.path ----"
-          python -c "import sys; print('\n'.join(sys.path))"
-          echo "---- import voicecaster ----"
-          python -c "import voicecaster; print(voicecaster.__file__)"
+      - name: Show target episode
+        run: echo "Running alignment for episode ${{ needs.precheck.outputs.episode_id }}"
 
       - name: Run alignment
-        env:
-          PYTHONPATH: ${{ github.workspace }}/src
+        shell: bash
         run: |
+          set -euo pipefail
           python -m voicecaster.alignment.run
 
-      - name: Show worktree status
-        if: always()
+      - name: Commit updated state
+        shell: bash
         run: |
-          git status --short
-          echo "----"
-          find work -maxdepth 4 -type f | sort || true
+          set -euo pipefail
 
-      - name: Commit and push changes
-        if: success()
-        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add inputs/inputs.json work/
 
           if git diff --cached --quiet; then
-            echo "No staged changes to commit"
+            echo "No changes to commit."
             exit 0
           fi
 
-          git commit -m "alignment: update episode artifacts"
+          git commit -m "alignment: update work state"
           git push
