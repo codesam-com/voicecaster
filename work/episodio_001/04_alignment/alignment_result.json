@@ -1,9 +1,0 @@
-{
-  "result": "success",
-  "status_before": "alignment",
-  "status_after": "completed",
-  "retries_before": 0,
-  "retries_after": 0,
-  "message": "Alignment completed successfully.",
-  "finished_at": "2026-04-03T23:22:27Z"
-}
