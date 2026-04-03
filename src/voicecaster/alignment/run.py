@@ -14,7 +14,7 @@ from .loader import (
     build_alignment_paths,
     ensure_stage_dir,
     load_speaker_segments,
-    load_transcript_preview,
+    load_transcript_segments,
     validate_required_inputs,
 )
 from .metrics import compute_alignment_metrics
@@ -54,17 +54,6 @@ def utc_now_iso() -> str:
 
 
 def run_alignment() -> int:
-    """
-    Repository-integrated entry point for 04_alignment.
-
-    Responsibilities:
-    - locate repo root
-    - select first episode with status='alignment'
-    - execute process_episode(...)
-    - update work/<episode_id>/status.json
-    - update inputs/inputs.json
-    - write report.json and append events.jsonl
-    """
     repo_root = resolve_repo_root()
     inputs_path = repo_root / "inputs" / "inputs.json"
     work_root = repo_root / "work"
@@ -101,7 +90,6 @@ def run_alignment() -> int:
 
     status_data = load_status_json(status_path, episode_id=episode_id)
     status_data = mark_workflow_started(status_data, started_at=started_at)
-
     save_status_json(status_path, status_data)
 
     try:
@@ -207,13 +195,10 @@ def run_alignment() -> int:
 
 
 def process_episode(episode_id: str, work_root: Path) -> dict[str, Any]:
-    """
-    Pure alignment orchestration for one already-selected episode.
-    """
     paths = build_alignment_paths(work_root=work_root, episode_id=episode_id)
     ensure_stage_dir(paths)
 
-    transcript_raw = load_transcript_preview(paths.transcript_preview_json)
+    transcript_raw = load_transcript_segments(paths.transcript_segments_json)
     speakers_raw = load_speaker_segments(paths.speaker_segments_json)
     validate_required_inputs(transcript_raw, speakers_raw)
 
@@ -310,16 +295,6 @@ def process_episode(episode_id: str, work_root: Path) -> dict[str, Any]:
 
 
 def resolve_repo_root() -> Path:
-    """
-    Assumes this file lives at:
-    src/voicecaster/alignment/run.py
-
-    Therefore:
-    parents[0] = alignment
-    parents[1] = voicecaster
-    parents[2] = src
-    parents[3] = repo root
-    """
     return Path(__file__).resolve().parents[3]
 
 
@@ -368,9 +343,6 @@ def update_inputs_episode(
 
 
 def load_status_json(path: Path, episode_id: str) -> dict[str, Any]:
-    """
-    Load status.json if present, otherwise initialize a minimal one.
-    """
     if not path.exists():
         return {
             "episode_id": episode_id,
