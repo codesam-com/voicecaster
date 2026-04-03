@@ -214,7 +214,7 @@ def merge_utterances(
         "right_overlap_stats": right.overlap_stats,
     }
 
-    merged = AlignedUtterance(
+    return AlignedUtterance(
         utterance_id=merged_id,
         source_utterance_ids=list(left.source_utterance_ids) + list(right.source_utterance_ids),
         start=left.start,
@@ -237,7 +237,6 @@ def merge_utterances(
             ),
         },
     )
-    return merged
 
 
 def merge_adjacent_same_speaker_utterances(
@@ -320,12 +319,20 @@ def _neighbor_speaker(
     return None
 
 
+def _rewrite_word_speakers(words: list[dict[str, Any]], speaker: str) -> list[dict[str, Any]]:
+    rewritten: list[dict[str, Any]] = []
+    for item in words:
+        word = dict(item)
+        word["speaker"] = speaker
+        rewritten.append(word)
+    return rewritten
+
+
 def apply_speaker_fallbacks(
     utterances: list[AlignedUtterance],
     valid_speakers: set[str],
 ) -> tuple[list[AlignedUtterance], dict[str, int]]:
     fallback_applied = 0
-    unresolved_before_forced = 0
 
     for idx, utt in enumerate(utterances):
         if utt.speaker in valid_speakers:
@@ -343,7 +350,7 @@ def apply_speaker_fallbacks(
     unresolved_indices = [
         idx for idx, utt in enumerate(utterances) if utt.speaker not in valid_speakers
     ]
-    unresolved_before_forced = len(unresolved_indices)
+    forced_count = len(unresolved_indices)
 
     forced_speaker = sorted(valid_speakers)[0] if valid_speakers else None
     if forced_speaker is not None:
@@ -357,18 +364,9 @@ def apply_speaker_fallbacks(
 
     report = {
         "speaker_fallback_applied": fallback_applied,
-        "speaker_fallback_forced": unresolved_before_forced,
+        "speaker_fallback_forced": forced_count,
     }
     return utterances, report
-
-
-def _rewrite_word_speakers(words: list[dict[str, Any]], speaker: str) -> list[dict[str, Any]]:
-    rewritten: list[dict[str, Any]] = []
-    for item in words:
-        word = dict(item)
-        word["speaker"] = speaker
-        rewritten.append(word)
-    return rewritten
 
 
 def normalize_utterances(
@@ -390,7 +388,11 @@ def normalize_utterances(
         if not isinstance(item, dict):
             continue
 
-        utt, report = normalize_single_utterance(item, idx, valid_speakers=valid_speakers)
+        utt, report = normalize_single_utterance(
+            item,
+            idx,
+            valid_speakers=valid_speakers,
+        )
 
         if not utt.text and not utt.words:
             empty_utterances_removed += 1
