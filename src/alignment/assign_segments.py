@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from collections import defaultdict
 
-from .schemas import TranscriptSegment, SpeakerSegment, AlignedWord
+from .schemas import AlignedWord, SpeakerSegment, TranscriptSegment
 
 
 def _overlap(a_start: float, a_end: float, b_start: float, b_end: float) -> float:
