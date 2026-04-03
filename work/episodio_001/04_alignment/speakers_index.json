@@ -1,0 +1,34 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_01",
+      "num_turns": 2,
+      "num_utterances": 5,
+      "num_words": 44,
+      "speech_seconds": 11.86,
+      "first_seen": 0.27,
+      "last_seen": 46.67,
+      "share_of_speech": 0.0962
+    },
+    {
+      "speaker": "speaker_02",
+      "num_turns": 1,
+      "num_utterances": 12,
+      "num_words": 82,
+      "speech_seconds": 33.34,
+      "first_seen": 8.21,
+      "last_seen": 42.75,
+      "share_of_speech": 0.2703
+    },
+    {
+      "speaker": "speaker_03",
+      "num_turns": 2,
+      "num_utterances": 12,
+      "num_words": 269,
+      "speech_seconds": 78.14,
+      "first_seen": 46.67,
+      "last_seen": 126.53,
+      "share_of_speech": 0.6335
+    }
+  ]
+}
