@@ -1,7 +1,3 @@
-# =========================================
-# FILE: src/voicecaster/alignment/schemas.py
-# =========================================
-
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass, field
@@ -126,7 +122,8 @@ class AlignmentPaths:
     episode_root: Path
     stage_dir: Path
 
-    transcript_preview_json: Path
+    transcript_segments_json: Path
+    transcript_srt: Path
     speaker_segments_json: Path
     speaker_metrics_json: Path | None = None
     diarization_metadata_json: Path | None = None
@@ -140,9 +137,6 @@ class AlignmentPaths:
 
 
 def dataclass_to_dict(obj: Any) -> Any:
-    """
-    Recursive serialization helper for dataclasses and nested structures.
-    """
     if hasattr(obj, "__dataclass_fields__"):
         return asdict(obj)
     if isinstance(obj, list):
