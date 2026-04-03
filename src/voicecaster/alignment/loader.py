@@ -15,9 +15,10 @@ def build_alignment_paths(work_root: Path, episode_id: str) -> AlignmentPaths:
     """
     Build canonical filesystem paths for 04_alignment.
 
-    Note:
-    - transcript_preview_json currently points to the existing repo artifact.
-    - This file may be only a preview summary, not the full transcript authority.
+    Real repo contract:
+    - transcription authority: transcript_segments.json
+    - transcription preview: transcript_preview.json (not used for alignment)
+    - diarization authority: speaker_segments.json
     """
     episode_root = work_root / episode_id
     stage_dir = episode_root / "04_alignment"
@@ -25,7 +26,8 @@ def build_alignment_paths(work_root: Path, episode_id: str) -> AlignmentPaths:
     return AlignmentPaths(
         episode_root=episode_root,
         stage_dir=stage_dir,
-        transcript_preview_json=episode_root / "02_transcription" / "transcript_preview.json",
+        transcript_segments_json=episode_root / "02_transcription" / "transcript_segments.json",
+        transcript_srt=episode_root / "02_transcription" / "full_transcript.srt",
         speaker_segments_json=episode_root / "03_diarization" / "speaker_segments.json",
         speaker_metrics_json=episode_root / "03_diarization" / "speaker_metrics.json",
         diarization_metadata_json=episode_root / "03_diarization" / "diarization_metadata.json",
@@ -39,20 +41,10 @@ def build_alignment_paths(work_root: Path, episode_id: str) -> AlignmentPaths:
 
 
 def ensure_stage_dir(paths: AlignmentPaths) -> None:
-    """
-    Ensure 04_alignment output directory exists.
-    """
     paths.stage_dir.mkdir(parents=True, exist_ok=True)
 
 
 def load_json_file(path: Path) -> Any:
-    """
-    Load JSON from disk.
-
-    Accepts either:
-    - dict root
-    - list root
-    """
     if not path.exists():
         raise AlignmentInputError(f"Missing required file: {path}")
 
@@ -63,27 +55,13 @@ def load_json_file(path: Path) -> Any:
         raise AlignmentInputError(f"Invalid JSON in file: {path}") from exc
 
 
-def load_transcript_preview(path: Path) -> dict[str, Any]:
+def load_transcript_segments(path: Path) -> dict[str, Any]:
     """
-    Load transcription-side artifact.
+    Load full transcription authority.
 
     Supported shapes:
-    1. Full form:
-       {"segments": [...]}
-
-    2. Preview-only form currently observed in repo:
-       {
-         "episode_id": "...",
-         "language": "...",
-         "num_segments": ...,
-         "first_segments": [...],
-         "last_segments": [...]
-       }
-
-    Important:
-    The preview-only form is NOT sufficient for alignment because it does not
-    contain the full timeline. We keep it as-is so the normalizer can emit a
-    precise and truthful error.
+    1. {"segments": [...]}
+    2. [...]
     """
     data = load_json_file(path)
 
@@ -91,17 +69,16 @@ def load_transcript_preview(path: Path) -> dict[str, Any]:
         return data
 
     if isinstance(data, list):
-        # Accept legacy/direct list form as a full transcript representation.
         return {"segments": data}
 
     raise AlignmentInputError(
-        f"transcript input must be a JSON object or JSON list: {path}"
+        f"transcript_segments.json must be a JSON object or a JSON list: {path}"
     )
 
 
 def load_speaker_segments(path: Path) -> dict[str, Any]:
     """
-    Load diarization-side artifact.
+    Load diarization authority.
 
     Supported shapes:
     1. {"segments": [...]}
@@ -121,33 +98,20 @@ def load_speaker_segments(path: Path) -> dict[str, Any]:
 
 
 def validate_required_inputs(transcript_raw: dict[str, Any], speakers_raw: dict[str, Any]) -> None:
-    """
-    Validate minimum structural contract for alignment.
-
-    We distinguish two transcript cases:
-    - full transcript: OK
-    - preview-only transcript: fail with explicit message
-    """
     if "segments" not in transcript_raw:
-        if "first_segments" in transcript_raw or "last_segments" in transcript_raw:
-            raise AlignmentInputError(
-                "transcript_preview.json is a preview-only artifact "
-                "(uses first_segments/last_segments) and does not contain the full "
-                "transcript timeline required by alignment"
-            )
         raise AlignmentInputError("transcript input missing required key: 'segments'")
 
     if not isinstance(transcript_raw["segments"], list):
         raise AlignmentInputError("transcript input 'segments' must be a list")
 
     if "segments" not in speakers_raw:
-        raise AlignmentInputError("speaker_segments.json missing required key: 'segments'")
+        raise AlignmentInputError("speaker input missing required key: 'segments'")
 
     if not isinstance(speakers_raw["segments"], list):
-        raise AlignmentInputError("speaker_segments.json 'segments' must be a list")
+        raise AlignmentInputError("speaker input 'segments' must be a list")
 
     if len(transcript_raw["segments"]) == 0:
         raise AlignmentInputError("transcript input contains no transcript segments")
 
     if len(speakers_raw["segments"]) == 0:
-        raise AlignmentInputError("speaker_segments.json contains no speaker segments")
+        raise AlignmentInputError("speaker input contains no speaker segments")
