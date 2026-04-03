@@ -1,0 +1,145 @@
+{
+  "workflow": "alignment",
+  "version": "v1",
+  "inputs": {
+    "transcript_segments_found": true,
+    "transcript_with_speakers_found": true,
+    "speaker_segments_found": true
+  },
+  "counts": {
+    "input_transcript_segments": 434,
+    "input_transcript_with_speakers": 434,
+    "input_speaker_segments": 52,
+    "output_utterances": 153,
+    "output_turns": 60,
+    "output_words": 4012,
+    "speakers_detected": 4
+  },
+  "normalization": {
+    "input_utterances": 434,
+    "normalized_utterances_before_merge": 434,
+    "output_utterances": 153,
+    "merged_same_speaker_utterances": 281,
+    "empty_utterances_removed": 0,
+    "text_rebuilt_from_words": 0,
+    "words_without_speaker_fixed": 0,
+    "word_speaker_conflicts_fixed": 0
+  },
+  "turns": {
+    "output_turns": 60,
+    "avg_turn_duration_seconds": 21.646,
+    "max_turn_duration_seconds": 43.58
+  },
+  "qa": {
+    "passed": true,
+    "checks": {
+      "monotonic_utterance_timestamps": true,
+      "monotonic_turn_timestamps": true,
+      "speaker_presence": true,
+      "text_non_empty_ratio_ok": true,
+      "turn_reconstruction_ok": true,
+      "word_coverage_ok": true,
+      "word_membership_ok": true
+    },
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "low_confidence_assignments_present",
+        "message": "Some utterances have low speaker confidence.",
+        "details": {
+          "count": 8
+        }
+      }
+    ],
+    "issues": []
+  },
+  "upstream": {
+    "speaker_metrics": {
+      "num_speakers_detected": 4,
+      "total_speech_seconds": 1331.066,
+      "speakers": [
+        {
+          "speaker": "speaker_01",
+          "speech_seconds": 171.349,
+          "speech_ratio": 0.1287,
+          "num_turns": 12,
+          "avg_turn_seconds": 14.279,
+          "median_turn_seconds": 9.273,
+          "longest_turn_seconds": 51.789,
+          "first_seen": 0.031,
+          "last_seen": 1268.052,
+          "assignment_confidence_mean": 0.9673,
+          "low_confidence_segments": 1
+        },
+        {
+          "speaker": "speaker_02",
+          "speech_seconds": 389.762,
+          "speech_ratio": 0.2928,
+          "num_turns": 12,
+          "avg_turn_seconds": 32.48,
+          "median_turn_seconds": 31.809,
+          "longest_turn_seconds": 90.703,
+          "first_seen": 9.97,
+          "last_seen": 1356.207,
+          "assignment_confidence_mean": 0.961,
+          "low_confidence_segments": 6
+        },
+        {
+          "speaker": "speaker_03",
+          "speech_seconds": 493.948,
+          "speech_ratio": 0.3711,
+          "num_turns": 14,
+          "avg_turn_seconds": 35.282,
+          "median_turn_seconds": 17.263,
+          "longest_turn_seconds": 155.436,
+          "first_seen": 46.977,
+          "last_seen": 1075.66,
+          "assignment_confidence_mean": 0.9734,
+          "low_confidence_segments": 4
+        },
+        {
+          "speaker": "speaker_04",
+          "speech_seconds": 276.007,
+          "speech_ratio": 0.2074,
+          "num_turns": 14,
+          "avg_turn_seconds": 19.715,
+          "median_turn_seconds": 11.045,
+          "longest_turn_seconds": 84.139,
+          "first_seen": 203.594,
+          "last_seen": 1259.125,
+          "assignment_confidence_mean": 0.969,
+          "low_confidence_segments": 4
+        }
+      ]
+    },
+    "diarization_metadata_summary": {
+      "assignment_stats": {
+        "total_utterances": 434,
+        "assigned_utterances": 434,
+        "assignment_ratio": 1.0,
+        "low_confidence_utterances": 15
+      },
+      "qa": {
+        "passed": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "rapid_speaker_alternation",
+            "message": "Detected suspicious rapid alternation between speakers.",
+            "details": {
+              "count": 2
+            }
+          }
+        ],
+        "stats": {
+          "num_speakers": 4,
+          "total_segment_seconds": 1331.066,
+          "assignment_ratio": 1.0,
+          "short_segment_ratio": 0.0385,
+          "low_confidence_ratio": 0.0346,
+          "dominant_speaker_ratio": 0.3711
+        }
+      }
+    }
+  }
+}

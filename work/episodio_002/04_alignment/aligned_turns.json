@@ -1,0 +1,995 @@
+[
+  {
+    "turn_id": "turn_000001",
+    "speaker": "speaker_01",
+    "start": 0.27,
+    "end": 8.21,
+    "duration": 7.94,
+    "utterance_ids": [
+      "utt_align_000002"
+    ],
+    "text": "y que ese giro sobre sí mismo era la órbita era el momento angular orbital y el giro sobre sí mismo era el spin, es lo que yo tenía entendido",
+    "num_utterances": 1,
+    "num_words": 30,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000002",
+    "speaker": "speaker_02",
+    "start": 8.21,
+    "end": 42.75,
+    "duration": 34.54,
+    "utterance_ids": [
+      "utt_align_000004",
+      "utt_000007",
+      "utt_align_000007",
+      "utt_align_000010"
+    ],
+    "text": "eso que si es verdad, que tienes razón, que históricamente es verdad es como se entendía el spin por algunos físicos alrededor del año 1924 pero eso dejó de ser verdad en 1927 y dejó de ser absolutamente verdad y se convirtió en una absoluta mentira en 1928 lo que pasa es que la gente lo sigue contando la gente sigue contando lo que era verdad en 1924 y dejó de ser verdad en 1928 porque aparentemente el público general lo entiende",
+    "num_utterances": 4,
+    "num_words": 82,
+    "avg_speaker_confidence": 0.9746,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000003",
+    "speaker": "speaker_01",
+    "start": 42.75,
+    "end": 46.67,
+    "duration": 3.92,
+    "utterance_ids": [
+      "utt_align_000011"
+    ],
+    "text": "hay un abuso del lenguaje solamente quería decir que es el origen del problema",
+    "num_utterances": 1,
+    "num_words": 14,
+    "avg_speaker_confidence": 0.8169,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000004",
+    "speaker": "speaker_03",
+    "start": 46.67,
+    "end": 85.53,
+    "duration": 38.86,
+    "utterance_ids": [
+      "utt_align_000015",
+      "utt_000023",
+      "utt_000024"
+    ],
+    "text": "cuando uno hace eso haciendo ejercicios de física cuántica en la carrera, tú consideras el spin como un momento angular y lo sumas al momento angular orbital y todo esto y toda la física Se comporta como si el spin fuese un momento angular. Entonces, hay algo en él que de alguna manera hace que muchas cosas cuadren, pero luego resulta que cuando lo quieres entender a un nivel más fundamental, esa interpretación no es la buena. La mejor es la que tú acabas de describir, de entender fermiones como cosas que no les gusta estar juntos y se apilan unos encima de otros o unos al lado de los otros, y los bosones como cosas que sí les gusta estar juntos y se agrupan en grupos lo más coherentes posible.",
+    "num_utterances": 3,
+    "num_words": 131,
+    "avg_speaker_confidence": 0.9943,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000005",
+    "speaker": "speaker_03",
+    "start": 85.53,
+    "end": 126.65,
+    "duration": 41.12,
+    "utterance_ids": [
+      "utt_000025",
+      "utt_000026",
+      "utt_000027",
+      "utt_000028",
+      "utt_000029"
+    ],
+    "text": "Y luego, a partir de ahí, pues ya vienen una serie de propiedades como que las partículas heredan un pequeño imán y se comportan como pequeños imanes cuando se mueven por ahí. Yo también quería decir que este asunto de decir los fermiones son las partículas de la materia, los bosones son las partículas asociadas a las interacciones, es verdad que históricamente, de alguna manera, lo hemos visto así. Sí, los electrones están en la materia y son fermiones, los protones están en la materia y son fermiones, sería tonto decir lo contrario, pero hay un poco la sensación de que como la propiedad de ser un fermión o ser un bosón es mucho más fundamental, tiene que ver con esto que ha dicho Francis de cómo se ocupa el espacio y cómo se comportan cuando están juntos,",
+    "num_utterances": 5,
+    "num_words": 138,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000006",
+    "speaker": "speaker_03",
+    "start": 127.15,
+    "end": 164.17,
+    "duration": 37.02,
+    "utterance_ids": [
+      "utt_align_000016",
+      "utt_align_000019",
+      "utt_align_000022",
+      "utt_align_000026",
+      "utt_000045"
+    ],
+    "text": "a lo mejor en algún momento podremos encontrar una formulación de las leyes de la física en la que no estén tan relacionadas unas cosas con las otras. a lo mejor simplemente ha sido por motivos históricos por motivos históricos hemos visto que el fotón tenía que ver con el campo electromagnético y hemos dicho, ah, el fotón es un bosón, pues debe de ser que los bosones tal, y luego hemos seguido desarrollando, hemos encontrado más bosones asociados a otras interacciones y hemos dicho, ah, pues será que los bosones están asociados a las interacciones, pero no parece que eso sea fundamental, quizá tiene que ver con la formulación actual que tenemos en la teoría cuántica de campos, que es una formulación muy buena y que funciona muy bien, pero a lo mejor algún día encontraremos otra, de hecho hay",
+    "num_utterances": 5,
+    "num_words": 141,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000007",
+    "speaker": "speaker_03",
+    "start": 166.17,
+    "end": 202.35,
+    "duration": 36.18,
+    "utterance_ids": [
+      "utt_align_000031",
+      "utt_align_000035",
+      "utt_align_000036",
+      "utt_align_000040"
+    ],
+    "text": "algunos indicios que sugieren que la teoría cuántica de campos, que es lo que usamos hoy en día, no es la teoría última, no es la teoría fundamental tiene algunos pequeños problemitas entonces quizá en algún momento encontraremos una teoría que la supere y a lo mejor esa teoría nos explicará cosas igual en esa otra teoría entenderemos mejor por qué el spin se hereda como una especie de imán cuando uno forma partículas en teoría cuántica de campos es un poco oscuro y conceptualmente no muy claro pero a lo mejor en otra teoría a lo mejor lo veremos mucho más claramente cuando superemos la teoría cuántica de Campos que yo sospecho que sucederá",
+    "num_utterances": 4,
+    "num_words": 115,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000008",
+    "speaker": "speaker_04",
+    "start": 203.29,
+    "end": 212.21,
+    "duration": 8.92,
+    "utterance_ids": [
+      "utt_align_000042",
+      "utt_000067"
+    ],
+    "text": "Vamos a ir con la tablita entonces Continuamos con la tabla y así introducimos todos los elementos de la discusión y ya nos metemos en la harina",
+    "num_utterances": 2,
+    "num_words": 27,
+    "avg_speaker_confidence": 0.9688,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000009",
+    "speaker": "speaker_01",
+    "start": 212.21,
+    "end": 229.75,
+    "duration": 17.54,
+    "utterance_ids": [
+      "utt_align_000047",
+      "utt_align_000049"
+    ],
+    "text": "No, no, pero es que esto del spin a mí me parece una cosa de verdad súper intrigante del mundo subatómico lo que significa, porque además es un concepto que no tiene un equivalente clásico no es un giro, o sea, es algo intrínseco del mundo cuántico que no existe en el mundo clásico, ¿no? Pero bueno, vamos a seguir adelante y si hay tiempo luego seguimos con el spin.",
+    "num_utterances": 2,
+    "num_words": 70,
+    "avg_speaker_confidence": 0.9222,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000010",
+    "speaker": "speaker_04",
+    "start": 229.93,
+    "end": 244.79,
+    "duration": 14.86,
+    "utterance_ids": [
+      "utt_000077",
+      "utt_align_000050"
+    ],
+    "text": "Pues aparte de la separación en bloques, digamos, entre fermiones y bosones, dentro del grupo de los fermiones hay otra separación en dos grandes bloques, que son el bloque de los quarks y el bloque de los leptones.",
+    "num_utterances": 2,
+    "num_words": 38,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000011",
+    "speaker": "speaker_04",
+    "start": 246.25,
+    "end": 275.69,
+    "duration": 29.44,
+    "utterance_ids": [
+      "utt_000080",
+      "utt_000081",
+      "utt_000082",
+      "utt_align_000051"
+    ],
+    "text": "El bloque de la separación, aquí en la tabla se ve inmediatamente que la separación podría asociarse a la carga. ¿En qué sentido? Cuando la carga es un valor entero, bien la carga electromagnética, bien cero en el caso de los neutrinos o bien la unidad negativa en el caso de electrones, muones y tal, pues tenemos la familia de los leptones. Pero cuando la carga es una fracción de unidad, por ejemplo",
+    "num_utterances": 4,
+    "num_words": 73,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000012",
+    "speaker": "speaker_04",
+    "start": 277.25,
+    "end": 312.53,
+    "duration": 35.28,
+    "utterance_ids": [
+      "utt_align_000055",
+      "utt_align_000059",
+      "utt_align_000061",
+      "utt_000098",
+      "utt_000099",
+      "utt_align_000063"
+    ],
+    "text": "dos tercios o menos un tercio o lo que sea, pues tenemos la familia de los quarks. Esto evidentemente vuelve a ser una cuestión histórica porque decir que la carga podríamos definirla como que las cargas de los quarks son enteros y la carga del electrón es tres veces la carga del quark, por ejemplo, o lo que sea la de un quark concreto ¿no? Pero... Sí, pero tendría la misma distinción entre las que son uno y las que son tres. Exacto, pero lo que te quiero decir es que, claro, cuando a mí, la primera vez que ves, la carga es un un tercio. ¿Cómo que la carga es un tercio? Quiero decir, es una anotación histórica, como se han desarrollado las cosas. Igual que en astronomía utilizamos magnitud en vez de otras unidades, ¿no?",
+    "num_utterances": 6,
+    "num_words": 137,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000013",
+    "speaker": "speaker_01",
+    "start": 313.39,
+    "end": 326.63,
+    "duration": 13.24,
+    "utterance_ids": [
+      "utt_align_000066",
+      "utt_align_000068"
+    ],
+    "text": "Bueno, pues yo creo que la carga es más fundamental porque esta sociedad la carga del electrón, que sí es una partícula fundamental y por lo tanto tiene una... La referencia tiene un sentido, ¿no? La magnitud en astrofísica es porque un señor dijo que aquello era primera magnitud, no tenía más... Bueno,",
+    "num_utterances": 2,
+    "num_words": 53,
+    "avg_speaker_confidence": 0.9977,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000014",
+    "speaker": "speaker_04",
+    "start": 327.13,
+    "end": 330.93,
+    "duration": 3.8,
+    "utterance_ids": [
+      "utt_align_000069"
+    ],
+    "text": "perdón. O sea, las dos grandes familias, leptones y quarks. Entonces, quarks",
+    "num_utterances": 1,
+    "num_words": 12,
+    "avg_speaker_confidence": 0.7366,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000015",
+    "speaker": "speaker_01",
+    "start": 330.93,
+    "end": 346.41,
+    "duration": 15.48,
+    "utterance_ids": [
+      "utt_align_000072",
+      "utt_align_000075"
+    ],
+    "text": "serían los que componen los protones y los neutrones, ¿verdad? Yo así es como lo visualizo. Entonces para mí quark se está asociado con materia en el sentido que es lo que hay en los núcleos de los átomos y luego leptones, no sé muy bien lo que es, son neutrinos, partículas que vuelan por ahí, que se forman en ciertas reacciones nucleares y... En realidad",
+    "num_utterances": 2,
+    "num_words": 66,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000016",
+    "speaker": "speaker_04",
+    "start": 346.41,
+    "end": 348.89,
+    "duration": 2.48,
+    "utterance_ids": [
+      "utt_000120"
+    ],
+    "text": "es un poquito más complejo porque",
+    "num_utterances": 1,
+    "num_words": 6,
+    "avg_speaker_confidence": 0.7492,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000017",
+    "speaker": "speaker_04",
+    "start": 351.75,
+    "end": 355.13,
+    "duration": 3.38,
+    "utterance_ids": [
+      "utt_align_000076"
+    ],
+    "text": "dentro de estas familias vuelven a haber otras separaciones que sería",
+    "num_utterances": 1,
+    "num_words": 11,
+    "avg_speaker_confidence": 0.9274,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000018",
+    "speaker": "speaker_04",
+    "start": 356.57,
+    "end": 378.03,
+    "duration": 21.46,
+    "utterance_ids": [
+      "utt_000123",
+      "utt_000124",
+      "utt_align_000081",
+      "utt_000131",
+      "utt_align_000083"
+    ],
+    "text": "el quark arriba y abajo serían los que forman las partículas conocidas, protones, neutrones y las partículas del mundo que estamos acostumbrados a ver y dentro de la familia de los leptones estaríamos acostumbrados a hablar de los electrones después tenemos otras familias que son más energéticas donde entran quarks",
+    "num_utterances": 5,
+    "num_words": 50,
+    "avg_speaker_confidence": 0.8683,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000019",
+    "speaker": "speaker_03",
+    "start": 378.03,
+    "end": 413.85,
+    "duration": 35.82,
+    "utterance_ids": [
+      "utt_align_000086",
+      "utt_000139"
+    ],
+    "text": "yo solo quería comentar que la diferencia conceptual más importante entre quarks y leptones en realidad es que los quarks Los quarks sienten una interacción que los leptones no. Los quarks sienten lo que llamamos la interacción fuerte, que luego contaremos lo que es, y por sentir la interacción fuerte tienen una serie de propiedades que los hacen muy, muy, muy diferentes a los leptones. Entonces, esa separación entre quarks y leptones es solo. A las cosas que sienten interacción fuerte y son fermiones, yo les llamo quarks, a las cosas que son fermiones pero no sienten interacción fuerte son leptones.",
+    "num_utterances": 2,
+    "num_words": 101,
+    "avg_speaker_confidence": 0.9683,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000020",
+    "speaker": "speaker_03",
+    "start": 413.85,
+    "end": 455.27,
+    "duration": 41.42,
+    "utterance_ids": [
+      "utt_000140",
+      "utt_align_000090",
+      "utt_align_000092",
+      "utt_align_000094"
+    ],
+    "text": "La diferencia más importante es que los leptones existen como partículas individuales de una manera muy natural. Yo puedo tener un electrón, dos electrones, tres electrones, pero por motivos que si queréis contamos luego, tener un quark Q y cogerlo y hacer cosas con él es o muy difícil o completamente imposible, ¿no? entonces eso hace que sean muy muy distintos yo voy a tener los leptones por separado voy a poder coger de alguna manera estudiar un neutrino o un electrón pero me va a ser muy difícil hacerlo con un quark y eso hace que esa separación sea muy natural porque de alguna manera vas a tratar de manera muy diferente a los que son de una familia y a los que son de la otra",
+    "num_utterances": 4,
+    "num_words": 128,
+    "avg_speaker_confidence": 0.9583,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000021",
+    "speaker": "speaker_01",
+    "start": 455.27,
+    "end": 462.57,
+    "duration": 7.3,
+    "utterance_ids": [
+      "utt_align_000097"
+    ],
+    "text": "o sea la interacción nuclear fuerte es la que hace que los quarks se agrupen para formar un protón o para formar un neutrón",
+    "num_utterances": 1,
+    "num_words": 24,
+    "avg_speaker_confidence": 0.93,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000022",
+    "speaker": "speaker_03",
+    "start": 463.27,
+    "end": 468.07,
+    "duration": 4.8,
+    "utterance_ids": [
+      "utt_align_000098"
+    ],
+    "text": "eso es, y de hecho no pueden hacer otra cosa, es que no tienen otra opción",
+    "num_utterances": 1,
+    "num_words": 16,
+    "avg_speaker_confidence": 0.7424,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000023",
+    "speaker": "speaker_01",
+    "start": 468.07,
+    "end": 470.99,
+    "duration": 2.92,
+    "utterance_ids": [
+      "utt_align_000099"
+    ],
+    "text": "no pueden vivir sueltos, tienen que juntarse en grupos de tres para formar estos",
+    "num_utterances": 1,
+    "num_words": 14,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000024",
+    "speaker": "speaker_03",
+    "start": 470.99,
+    "end": 504.09,
+    "duration": 33.1,
+    "utterance_ids": [
+      "utt_align_000103",
+      "utt_000165",
+      "utt_align_000105",
+      "utt_000169"
+    ],
+    "text": "de tres pueden también estar juntados en parejas los quarks hasta donde bueno, ahora que se ha descubierto el pentacuark a lo mejor deberíamos decir que también en quintetos pero los quarks no tienen opción a bajas energías los quarks necesitan estar metidos dentro de uno de esos grupitos que hoy en día sabemos que pueden ser de tres y se llaman bariones, que pueden ser de dos y se llaman mesones, y ahora parece que se han descubierto grupos de cuatro y de cinco, que sería el tetraquark y el pentaquark, pero siempre están en esos grupitos.",
+    "num_utterances": 4,
+    "num_words": 98,
+    "avg_speaker_confidence": 0.9971,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000025",
+    "speaker": "speaker_03",
+    "start": 504.27,
+    "end": 531.13,
+    "duration": 26.86,
+    "utterance_ids": [
+      "utt_000170",
+      "utt_000171"
+    ],
+    "text": "Y cuando tú intentas sacar a un quark de uno de esos grupitos, se vuelve a rodear de cosas y también te es imposible estudiarlo por separado. Siempre están como en enjambres, en los que es muy difícil estudiar al quark por separado. Luego cuando hablemos de interacción fuerte ya comentamos más cosas, pero eso hace que esa diferencia entre quarks y leptones sea como muy palmaria, porque los leptones son fáciles de manejar y los quarks son un follón, porque están siempre dentro de esos enjambres y si tú quieres estudiarlo por separado es muy difícil.",
+    "num_utterances": 2,
+    "num_words": 97,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000026",
+    "speaker": "speaker_04",
+    "start": 531.57,
+    "end": 550.11,
+    "duration": 18.54,
+    "utterance_ids": [
+      "utt_000172",
+      "utt_align_000106"
+    ],
+    "text": "Otra cosa interesantísima es que tanto quarks como leptones, hasta donde sabemos hoy en día, aparecen en tres familias distintas, que son familias agrupadas por su masa, una masa creciente. Son generaciones, ¿no? No sé cómo lo decía, en términos más familias o generaciones, no lo sé.",
+    "num_utterances": 2,
+    "num_words": 47,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000027",
+    "speaker": "speaker_03",
+    "start": 550.87,
+    "end": 558.11,
+    "duration": 7.24,
+    "utterance_ids": [
+      "utt_000175",
+      "utt_align_000107"
+    ],
+    "text": "Cualquiera de los dos se utiliza. Quizás familia parece un poco más coloquial, pero no, en realidad se usan los dos. Familia, generación.",
+    "num_utterances": 2,
+    "num_words": 23,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000028",
+    "speaker": "speaker_02",
+    "start": 558.65,
+    "end": 560.99,
+    "duration": 2.34,
+    "utterance_ids": [
+      "utt_000178"
+    ],
+    "text": "También se usa el término sabor, sabores.",
+    "num_utterances": 1,
+    "num_words": 7,
+    "avg_speaker_confidence": 0.9017,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000029",
+    "speaker": "speaker_03",
+    "start": 561.73,
+    "end": 572.05,
+    "duration": 10.32,
+    "utterance_ids": [
+      "utt_align_000109"
+    ],
+    "text": "Efectivamente, pero ese es un poquito más confuso, ¿no? Porque en los quarks, el quark S y el quark C tienen sabores diferentes y están en la misma familia. Entonces es un poquitín más confuso.",
+    "num_utterances": 1,
+    "num_words": 35,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000030",
+    "speaker": "speaker_04",
+    "start": 572.05,
+    "end": 612.41,
+    "duration": 40.36,
+    "utterance_ids": [
+      "utt_000182",
+      "utt_000183",
+      "utt_align_000114",
+      "utt_align_000118"
+    ],
+    "text": "Lo interesante de estas familias es que la primera familia es aquella cuyas partículas, tanto quark como leptina, tienen menos masa y serían los que la naturaleza utiliza o prefiere para formar la materia ordinaria que es de la que estamos principalmente compuestos nosotros. otros. Las otras familias son más masivas y por lo tanto se han ido descubriendo más tarde en el tiempo porque se requería más energía para poder acceder a estas partículas y hasta donde yo sé, se hubieran podido descubrir si la física de partículas no existiera como tal, por ejemplo en los rayos cósmicos, que ya se ven por ejemplo los muones",
+    "num_utterances": 4,
+    "num_words": 107,
+    "avg_speaker_confidence": 0.9909,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000031",
+    "speaker": "speaker_04",
+    "start": 614.15,
+    "end": 624.31,
+    "duration": 10.16,
+    "utterance_ids": [
+      "utt_align_000119",
+      "utt_align_000122"
+    ],
+    "text": "aparecían en los rayos cósmicos es decir que en ese sentido al menos sabemos que más allá de los aceleradores de partículas la naturaleza es capaz de fabricar estos",
+    "num_utterances": 2,
+    "num_words": 29,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000032",
+    "speaker": "speaker_04",
+    "start": 625.87,
+    "end": 628.59,
+    "duration": 2.72,
+    "utterance_ids": [
+      "utt_align_000123"
+    ],
+    "text": "elementos más energéticos en alguna",
+    "num_utterances": 1,
+    "num_words": 5,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000033",
+    "speaker": "speaker_04",
+    "start": 630.05,
+    "end": 640.85,
+    "duration": 10.8,
+    "utterance_ids": [
+      "utt_align_000128"
+    ],
+    "text": "variante concreta como son los rayos cósmicos es decir, que nos hubiera dado pistas aunque no hubiéramos sido capaces de hacer aceleradores de partículas de que había algo más el estudio por ejemplo de los rayos cósmicos",
+    "num_utterances": 1,
+    "num_words": 37,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000034",
+    "speaker": "speaker_01",
+    "start": 640.85,
+    "end": 672.55,
+    "duration": 31.7,
+    "utterance_ids": [
+      "utt_align_000130",
+      "utt_000212",
+      "utt_align_000132",
+      "utt_000216",
+      "utt_align_000133"
+    ],
+    "text": "dos preguntas que me surgen, ahora aprovechando que tengo aquí gente que sabe tanto de esto, la primera es sobre bueno, esto que está diciendo ahora Nacho que hay estas tres familias, que básicamente estos quarks y estos leptones, los quarks forman protones y neutrones, los leptones pueden ser electrones, pueden ser otras partículas como neutrinos, y luego hay versiones más pesadas, una segunda familia que es lo mismo pero más pesado, y una tercera familia que es lo mismo también pero más pesado. Esos más pesados son más raros, supongo que de alguna forma se producen, no sé si son más estables o se producen más habitualmente los de menos masa,",
+    "num_utterances": 5,
+    "num_words": 112,
+    "avg_speaker_confidence": 0.9947,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000035",
+    "speaker": "speaker_01",
+    "start": 672.55,
+    "end": 692.67,
+    "duration": 20.12,
+    "utterance_ids": [
+      "utt_000219"
+    ],
+    "text": "Pero entonces mi pregunta sería, ¿pueden existir protones y neutrones de familia 2 o su equivalente y formar átomos de familia 2 y formar planetas y estrellas de familia 2 o incluso de familia 3? O sea, entendiéndose que estas partículas son muy raras, pero si pudiéramos juntar muchas, ¿se podría? Alberto.",
+    "num_utterances": 1,
+    "num_words": 52,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000036",
+    "speaker": "speaker_03",
+    "start": 692.67,
+    "end": 731.97,
+    "duration": 39.3,
+    "utterance_ids": [
+      "utt_000220",
+      "utt_000221"
+    ],
+    "text": "A ver, ha dicho Nacho que la naturaleza prefiere formar la materia con los de la familia más ligera, con los de la primera familia, que son el U, el D, el quark Q, el quark D y el electrón. No es que prefiera, es que no tiene muchas más opciones, porque realmente cuando tú te vas a construir partículas más pesadas, por ejemplo, el muón. El muón es un electrón que tiene 200 veces más masa que el electrón. Ese muón, por tener 200 veces más masa, acumula mucha energía en su masa y si puede, en el momento en que puede, libera esa energía en forma de otras partículas. Se desintegra, es lo que se llama desintegración.",
+    "num_utterances": 2,
+    "num_words": 119,
+    "avg_speaker_confidence": 0.9924,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000037",
+    "speaker": "speaker_03",
+    "start": 731.97,
+    "end": 749.95,
+    "duration": 17.98,
+    "utterance_ids": [
+      "utt_align_000137",
+      "utt_align_000140"
+    ],
+    "text": "las partículas pesadas no es que no estén en la naturaleza que nos rodea porque a la naturaleza no le apetece es que cuando aparecen se desintegran al cabo de más o menos tiempo el muón de hecho de las partículas inestables es de las que más vive y vive dos microsegundos, que es poquísimo pero es una partícula elemental",
+    "num_utterances": 2,
+    "num_words": 60,
+    "avg_speaker_confidence": 0.9163,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000038",
+    "speaker": "speaker_04",
+    "start": 750.39,
+    "end": 766.25,
+    "duration": 15.86,
+    "utterance_ids": [
+      "utt_align_000143",
+      "utt_align_000146"
+    ],
+    "text": "efectivamente, ahí es donde iba yo es decir, que aquí ya podemos quizás entrar ya con el debate de qué es lo fundamental y lo que no y cuando digo prefiere, me refiero a que no deja de ser algo fundamental entre comillas, un principio de la naturaleza que prefiera vivir en los estados con menos energía. Pero es que",
+    "num_utterances": 2,
+    "num_words": 60,
+    "avg_speaker_confidence": 0.8234,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000039",
+    "speaker": "speaker_03",
+    "start": 766.25,
+    "end": 796.61,
+    "duration": 30.36,
+    "utterance_ids": [
+      "utt_align_000148",
+      "utt_000242",
+      "utt_align_000152",
+      "utt_align_000156",
+      "utt_000253"
+    ],
+    "text": "no puede hacer otra cosa, es que es casi segundo principio de la termodinámica. Pero por eso digo, pero que es un principio de la naturaleza ¿Por qué? Porque las partículas estables son las de la familia más ligera, no es porque la naturaleza prefiera la familia más ligera, es porque las partículas de las familias pesadas se pueden desintegrar a partículas más ligeras y las partículas más ligeras no se pueden desintegrar a nadie. Entonces al final, cuando el universo evoluciona de una manera natural, las partículas pesadas han terminado desapareciendo y solo han quedado las ligeras, pero no es porque sean muy especiales",
+    "num_utterances": 5,
+    "num_words": 105,
+    "avg_speaker_confidence": 0.9278,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000040",
+    "speaker": "speaker_04",
+    "start": 796.61,
+    "end": 806.01,
+    "duration": 9.4,
+    "utterance_ids": [
+      "utt_align_000160"
+    ],
+    "text": "No Alberto, pero al utilizar la palabra preferir, claro, le he dado una cierta conciencia y un deseo de hacer algo lo que me refería con eso, evidentemente es que la naturaleza",
+    "num_utterances": 1,
+    "num_words": 32,
+    "avg_speaker_confidence": 0.9868,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000041",
+    "speaker": "speaker_04",
+    "start": 807.55,
+    "end": 823.91,
+    "duration": 16.36,
+    "utterance_ids": [
+      "utt_align_000163",
+      "utt_align_000167"
+    ],
+    "text": "tiende, vamos a decirlo así no es que prefiera, tiende a vivir en los estados menos energéticos y que eso es algo de tipo fundamental en la naturaleza es decir, el hecho de por qué hay partículas por ejemplo, las partículas de más baja energía son las que hasta donde donde sabemos, tienen una vida infinita, ¿no? Entre comillas.",
+    "num_utterances": 2,
+    "num_words": 59,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000042",
+    "speaker": "speaker_04",
+    "start": 825.73,
+    "end": 828.91,
+    "duration": 3.18,
+    "utterance_ids": [
+      "utt_align_000168"
+    ],
+    "text": "El electrón dura toda... No se desintegra, vamos.",
+    "num_utterances": 1,
+    "num_words": 8,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000043",
+    "speaker": "speaker_03",
+    "start": 829.72,
+    "end": 865.0,
+    "duration": 35.28,
+    "utterance_ids": [
+      "utt_align_000169",
+      "utt_align_000172",
+      "utt_align_000175",
+      "utt_align_000177",
+      "utt_000283"
+    ],
+    "text": "Hasta donde sabemos, ¿no? Efectivamente. Pero ya te digo que eso tiene que ver con que cuando tú tienes una cosa formada por la masa de 200 electrones, tú puedes utilizar esa energía para crear electrones o crear otros objetos. Pero cuando tú tienes un electrón y no hay ninguna otra partícula que sea de menos masa que el electrón, pues no puedes hacer nada con él. simplemente vive forever porque no puede hacer otra cosa. Quiero decir, si la naturaleza prefiere los estados de mínima energía es porque los de mayor energía pueden ir a estados de mínima energía y los de mínima energía, si no les pegas una patada, no pueden ir a estados de mayor energía.",
+    "num_utterances": 5,
+    "num_words": 119,
+    "avg_speaker_confidence": 0.964,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000044",
+    "speaker": "speaker_01",
+    "start": 865.46,
+    "end": 900.07,
+    "duration": 34.61,
+    "utterance_ids": [
+      "utt_align_000178",
+      "utt_align_000180",
+      "utt_align_000183",
+      "utt_align_000185"
+    ],
+    "text": "Vale, pero la pregunta es conceptual. O sea, si yo pudiera tener un sitio donde hay una densidad de energía altísima, digamos en una fase del universo primigenio donde la densidad de energía era altísima y se forman estas partículas muy abundantemente y es verdad que luego decaen muy rápido pero durante una pequeña fracción de tiempo si yo soy capaz de poner una cámara de super alta velocidad suficientemente rápida, yo podría ver la formación de super protones de familia 2 y super neutrones de familia 2 y tendrían las propiedades tal que les permitiría juntarse y formar átomos si hubiera tiempo suficiente para que lo hicieran",
+    "num_utterances": 4,
+    "num_words": 108,
+    "avg_speaker_confidence": 0.9898,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000045",
+    "speaker": "speaker_02",
+    "start": 900.69,
+    "end": 938.01,
+    "duration": 37.32,
+    "utterance_ids": [
+      "utt_000296",
+      "utt_align_000186",
+      "utt_align_000188",
+      "utt_align_000190",
+      "utt_align_000194",
+      "utt_align_000196"
+    ],
+    "text": "Bueno, eso es una cuestión que no sabemos todavía la estabilidad de la materia formada por quarks es un problema muy complicado. Entonces sabemos que aparentemente el protón es estable pero sería estable una partícula formada solamente por quarks extraños. Ese tipo de partículas se llaman estados estrangelets, que son extrañetes, algo así. Eso se propuso a principios de los 80, varios investigadores, un físico muy famoso Edward Bitten, propuso que podría haber estrellas de materia extraña. Es lo que llaman materia extraña.",
+    "num_utterances": 6,
+    "num_words": 83,
+    "avg_speaker_confidence": 0.8977,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000046",
+    "speaker": "speaker_02",
+    "start": 938.47,
+    "end": 979.99,
+    "duration": 41.52,
+    "utterance_ids": [
+      "utt_000313",
+      "utt_000314"
+    ],
+    "text": "Esa materia, en algunos modelos muy simplificados, se logra que sea más estable que la materia ordinaria. Pero eso sí, tiene que partir de un estado de alta energía. A partir de un estado de alta energía tú puedes formar esa materia extraña en un estado que en apariencia es más estable que la materia ordinaria. Pero los cálculos están realizados con modelos muy, muy simplificados y cuando se meten detalles, cuando se complican esos cálculos, este tipo de materia deja de ser tan estable y pasa a ser un poco menos estable que la materia ordinaria, con lo que esa posible materia extraña se desintegraría en materia ordinaria antes de que se formaran grandes estructuras tipo estrellas, etc.",
+    "num_utterances": 2,
+    "num_words": 119,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000047",
+    "speaker": "speaker_02",
+    "start": 979.99,
+    "end": 1008.39,
+    "duration": 28.4,
+    "utterance_ids": [
+      "utt_000315"
+    ],
+    "text": "Por lo que sabemos a día de hoy, no se puede decir con seguridad que no existan estrellas de materia extraña, pero prácticamente la mayor parte de los físicos opinamos que no existen, que la posible formación de objetos de materia extraña en el universo primordial acabó decayendo en objetos de materia ordinaria, de materia bariónica, de materia formada por protones, neutrones, etc.",
+    "num_utterances": 1,
+    "num_words": 63,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000048",
+    "speaker": "speaker_01",
+    "start": 1008.39,
+    "end": 1010.49,
+    "duration": 2.1,
+    "utterance_ids": [
+      "utt_000316"
+    ],
+    "text": "No, mi pregunta era meramente a nivel conceptual.",
+    "num_utterances": 1,
+    "num_words": 8,
+    "avg_speaker_confidence": 0.7881,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000049",
+    "speaker": "speaker_03",
+    "start": 1038.39,
+    "end": 1046.31,
+    "duration": 7.92,
+    "utterance_ids": [
+      "utt_align_000199"
+    ],
+    "text": "desde luego existen todas esas cosas y de hecho cuando antes he dicho que había 200 y pico partículas compuestas la mayor parte de ellas son",
+    "num_utterances": 1,
+    "num_words": 26,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000050",
+    "speaker": "speaker_03",
+    "start": 1048.17,
+    "end": 1075.15,
+    "duration": 26.98,
+    "utterance_ids": [
+      "utt_align_000204",
+      "utt_align_000207",
+      "utt_align_000210"
+    ],
+    "text": "enjambres de estos formados por quarks y que son cosas parecidas a protones, cosas parecidas a neutrones, cosas parecidas a piones pero con diversos quarks, lo que pasa es que casi todas ellas son inestables porque están formadas por estos quarks que a su vez son inestables y se terminan desintegrando entonces sí, sí existen pero como dice Francis, no son estables aún está abierta la posibilidad de que esta materia extraña pudiese existir pero parece cada vez más improbable hace unos años habríamos apostado más fuerte",
+    "num_utterances": 3,
+    "num_words": 87,
+    "avg_speaker_confidence": 0.9923,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000051",
+    "speaker": "speaker_02",
+    "start": 1075.15,
+    "end": 1118.73,
+    "duration": 43.58,
+    "utterance_ids": [
+      "utt_align_000213",
+      "utt_000339",
+      "utt_align_000217",
+      "utt_align_000221",
+      "utt_align_000222",
+      "utt_align_000226"
+    ],
+    "text": "por ella. Y si me permitís un pequeño comentario, esto es una cosa que a la gente le sorprende mucho cuando se dice, pero yo creo que es muy importante decirlo el protón, todo el mundo dice, no, el protón está hecho de tres cuoros, dos cuoros arriba y un cuoro abajo, ¿y qué están unidos? están unidos por gluones por partículas que los unen son parecidos al fotón pero que transmiten la interacción de color, la hipercarga de color. Fijaros en una cosa muy curiosa el protón tiene una masa del orden de 938 megalectrón voltios un cuor arriba tiene del orden de unos 2, 3 megalectrón voltios, de hecho no sabemos exactamente que masa tiene y un cuor abajo tiene entre 5 y 6, un cuor arriba",
+    "num_utterances": 6,
+    "num_words": 129,
+    "avg_speaker_confidence": 0.9858,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000052",
+    "speaker": "speaker_02",
+    "start": 1118.73,
+    "end": 1156.75,
+    "duration": 38.02,
+    "utterance_ids": [
+      "utt_align_000227",
+      "utt_000359",
+      "utt_000360"
+    ],
+    "text": "y un cuor abajo son como unos 10, 12 megalectrón Es mucha menos masa que la masa del protón. ¿De dónde viene la masa del protón? Viene de la energía cinética, viene de la energía de los gluones. Los gluones, las partículas que unen esos quarks, tienen energía del orden de un tercio de la masa del protón. Energía del orden de 300 megaelectrón voltios, del orden de 100 veces la masa de un quark arriba y un quark abajo. Pero es que además la masa del quark extraño es del orden de 200 megaelectrón voltios. Es más pequeña que la energía que tienen los gluones.",
+    "num_utterances": 3,
+    "num_words": 106,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000053",
+    "speaker": "speaker_02",
+    "start": 1156.75,
+    "end": 1185.44,
+    "duration": 28.69,
+    "utterance_ids": [
+      "utt_000361",
+      "utt_000362"
+    ],
+    "text": "Es decir, en un protón en reposo, sus quarks no son solo quarks arriba y quarks abajo, también hay parejas quark-anticuark extraño. Y del orden del 5% de los quarks de un protón son quarks extraños. Porque los gluones que los unen a esos cuor arriba y abajo tienen más energía que la energía necesaria para producir parejitas de cuor extraño y anticuor extraño.",
+    "num_utterances": 2,
+    "num_words": 66,
+    "avg_speaker_confidence": 0.7476,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000054",
+    "speaker": "speaker_02",
+    "start": 1185.44,
+    "end": 1224.02,
+    "duration": 38.58,
+    "utterance_ids": [
+      "utt_000363",
+      "utt_align_000232"
+    ],
+    "text": "Y de hecho, anoche estuve, hubo una charla aquí en Málaga de Javier Santaolalla y un compañero, estuvieron dando una charla para chavales de bacherato a la que yo asistí. El compañero que estaba, creo que es Rafael Barceló, creo que se llama, había trabajado en medir la cantidad de cuor encantado, cuor charm, cuor encanto, que tiene aún mayor masa que hay en un protón. y los protones en el HC hay una cierta componente de quor encantado que se puede medir, es decir no es verdad que un protón sean dos quor arriba y un quor abajo, un protón",
+    "num_utterances": 2,
+    "num_words": 101,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000055",
+    "speaker": "speaker_02",
+    "start": 1224.02,
+    "end": 1243.1,
+    "duration": 19.08,
+    "utterance_ids": [
+      "utt_align_000237",
+      "utt_align_000238",
+      "utt_align_000239"
+    ],
+    "text": "es una cosa muy complicada que de vista de lejos aparenta estar formado por eso, pero que visto en su interior está formado por una infinidad de quoros la mayoría de ellos quoros virtuales y una infinidad de gluones en una interacción muy complicada y ahí hay quoros extraños dentro de un protón dentro de todos nuestros protones.",
+    "num_utterances": 3,
+    "num_words": 58,
+    "avg_speaker_confidence": 1.0,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000056",
+    "speaker": "speaker_04",
+    "start": 1243.14,
+    "end": 1258.86,
+    "duration": 15.72,
+    "utterance_ids": [
+      "utt_align_000242",
+      "utt_000384",
+      "utt_000385"
+    ],
+    "text": "De hecho, se podría decir que la vida interna del protón es bastante agitada, porque todo lo que estás hablando son continuos cambios de estado, y formando, es decir, los glúeos no se mueven de un lado a otro, los cuartos se están intercambiando entre sí, con lo cual no es nada estático el interior de un protón.",
+    "num_utterances": 3,
+    "num_words": 58,
+    "avg_speaker_confidence": 0.9978,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000057",
+    "speaker": "speaker_01",
+    "start": 1259.12,
+    "end": 1267.86,
+    "duration": 8.74,
+    "utterance_ids": [
+      "utt_align_000245"
+    ],
+    "text": "¿Y estabas hablando, Francis, de partículas virtuales? Es algo de lo que hablaremos un poco más adelante, pero ¿te refieres a que se forman pares de partículas virtuales dentro del protón?",
+    "num_utterances": 1,
+    "num_words": 31,
+    "avg_speaker_confidence": 0.9841,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000058",
+    "speaker": "speaker_02",
+    "start": 1268.58,
+    "end": 1309.87,
+    "duration": 41.29,
+    "utterance_ids": [
+      "utt_align_000249",
+      "utt_align_000253",
+      "utt_align_000257",
+      "utt_align_000261"
+    ],
+    "text": "Sí, exactamente. O sea, está constantemente. las propiedades externas del protón son muy difíciles de calcular es decir, calcular teóricamente la masa de un protón, la carga de un protón el momento magnético de un protón hoy en día está más allá de lo que podemos calcular hoy en día tenemos que medirlo, podemos medirlo con mucha precisión pero calcularlo en nivel teórico, los errores son del orden del 5%, son errores muy grandes, y estamos hablando de una teoría de hace 40 años aún así, desde el punto de vista de lo que vemos dentro de un protón. Cuando queremos ver lo que hay dentro de un protón, lo que vemos depende del microscopio con el que miramos. Si nosotros",
+    "num_utterances": 4,
+    "num_words": 121,
+    "avg_speaker_confidence": 0.9894,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000059",
+    "speaker": "speaker_02",
+    "start": 1309.87,
+    "end": 1347.73,
+    "duration": 37.86,
+    "utterance_ids": [
+      "utt_align_000265",
+      "utt_align_000267",
+      "utt_align_000272",
+      "utt_align_000276"
+    ],
+    "text": "miramos con un microscopio que ve distancias muy pequeñas, vemos un mar terrible de muchas cosas, pero si miramos aún más pequeño vemos aún más cosas y de hecho igual que pasa con la carga eléctrica. ¿Qué pasa con el potencial eléctrico asociado a una carga eléctrica? Que tiende a infinito cuando la distancia tiende a cero. El potencial es 1 partido R. un partido del radio, un partido de la distancia cuando vas a 0 tiende a infinito algo parecido ocurre con el número de quarks y de gluones que hay dentro de un protón, cuando las distancias tienden a 0, en teoría todo se va a infinito lo que pasa es que son varios infinitos que se suman y resulta que cuando tú sumas los infinitos quarks arriba, los infinitos quarks",
+    "num_utterances": 4,
+    "num_words": 133,
+    "avg_speaker_confidence": 0.9883,
+    "flags": []
+  },
+  {
+    "turn_id": "turn_000060",
+    "speaker": "speaker_02",
+    "start": 1347.73,
+    "end": 1356.37,
+    "duration": 8.64,
+    "utterance_ids": [
+      "utt_align_000281"
+    ],
+    "text": "abajo y los infinitos gluones el resultado completo de la suma es que en promedio, visto desde fuera hay 3 quarks, 2 arriba y 1 abajo Gracias.",
+    "num_utterances": 1,
+    "num_words": 27,
+    "avg_speaker_confidence": 0.6604,
+    "flags": []
+  }
+]
