@@ -1,0 +1,9 @@
+{
+  "result": "success",
+  "status_before": "alignment",
+  "status_after": "speaker_identity",
+  "retries_before": 0,
+  "retries_after": 0,
+  "message": "Alignment completed successfully.",
+  "finished_at": "2026-04-04T01:07:47Z"
+}
