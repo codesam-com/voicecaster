@@ -29,6 +29,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -61,6 +63,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -102,4 +106,7 @@ jobs:
           fi
 
           git commit -m "alignment: update work state"
-          git push
+
+          git fetch origin main
+          git pull --rebase origin main
+          git push origin HEAD:main
