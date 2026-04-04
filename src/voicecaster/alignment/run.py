@@ -210,7 +210,7 @@ def main() -> int:
             {
                 "result": "success",
                 "status_before": "alignment",
-                "status_after": "completed",
+                "status_after": "speaker_identity",
                 "retries_before": int(episode.get("retries", 0)),
                 "retries_after": 0,
                 "message": "Alignment completed successfully.",
@@ -218,7 +218,7 @@ def main() -> int:
             },
         )
 
-        update_episode_status(episode_id, "completed")
+        update_episode_status(episode_id, "speaker_identity")
 
         print("[alignment] SUCCESS")
         return 0
