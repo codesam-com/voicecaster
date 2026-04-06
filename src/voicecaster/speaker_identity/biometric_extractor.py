@@ -1,11 +1,13 @@
 from __future__ import annotations
 
+import subprocess
+import tempfile
+import wave
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
 import torch
-import torchaudio
 from speechbrain.inference.speaker import EncoderClassifier
 
 from .segment_selector import SelectedSegment
@@ -68,14 +70,58 @@ def _estimate_quality_weight(segment: SelectedSegment) -> float:
     return round(max(0.1, min(1.0, weight)), 4)
 
 
-def _load_audio_mono_16k(audio_path: Path) -> torch.Tensor:
-    waveform, sample_rate = torchaudio.load(str(audio_path))
+def _decode_audio_to_wav_16k_mono(source_audio_path: Path) -> Path:
+    temp_dir = Path(tempfile.mkdtemp(prefix="voicecaster_spkid_"))
+    wav_path = temp_dir / "audio_16k_mono.wav"
 
-    if waveform.shape[0] > 1:
-        waveform = waveform.mean(dim=0, keepdim=True)
+    cmd = [
+        "ffmpeg",
+        "-y",
+        "-i",
+        str(source_audio_path),
+        "-ac",
+        "1",
+        "-ar",
+        "16000",
+        "-f",
+        "wav",
+        str(wav_path),
+    ]
 
-    if sample_rate != 16000:
-        waveform = torchaudio.functional.resample(waveform, sample_rate, 16000)
+    result = subprocess.run(
+        cmd,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+    )
+
+    if result.returncode != 0 or not wav_path.exists():
+        raise RuntimeError(
+            f"ffmpeg failed to decode audio for speaker identity: {result.stderr}"
+        )
+
+    return wav_path
+
+
+def _load_wav_mono_16k(wav_path: Path) -> torch.Tensor:
+    with wave.open(str(wav_path), "rb") as wf:
+        n_channels = wf.getnchannels()
+        sampwidth = wf.getsampwidth()
+        framerate = wf.getframerate()
+        n_frames = wf.getnframes()
+
+        if n_channels != 1:
+            raise RuntimeError(f"Expected mono wav, got {n_channels} channels.")
+        if sampwidth != 2:
+            raise RuntimeError(f"Expected 16-bit PCM wav, got sample width {sampwidth}.")
+        if framerate != 16000:
+            raise RuntimeError(f"Expected 16kHz wav, got {framerate}Hz.")
+
+        audio_bytes = wf.readframes(n_frames)
+
+    waveform = torch.frombuffer(memoryview(audio_bytes), dtype=torch.int16).clone()
+    waveform = waveform.to(torch.float32) / 32768.0
+    waveform = waveform.unsqueeze(0)  # [1, time]
 
     return waveform
 
@@ -106,7 +152,9 @@ def extract_segment_embeddings(
     if not selected_segments:
         return []
 
-    waveform = _load_audio_mono_16k(audio_path)
+    wav_path = _decode_audio_to_wav_16k_mono(audio_path)
+    waveform = _load_wav_mono_16k(wav_path)
+
     result: list[SegmentEmbedding] = []
 
     for segment in selected_segments:
@@ -133,6 +181,12 @@ def extract_segment_embeddings(
                 quality_weight=_estimate_quality_weight(segment),
             )
         )
+
+    try:
+        wav_path.unlink(missing_ok=True)
+        wav_path.parent.rmdir()
+    except Exception:
+        pass
 
     return result
 
