@@ -1,0 +1,101 @@
+{
+  "episode_id": "episodio_003",
+  "speakers": [
+    {
+      "speaker": "speaker_01",
+      "self_identification_detected": false,
+      "self_identification_names": [],
+      "mentioned_names": [
+        "Hola Francis",
+        "Eduard Witten",
+        "Javier Santaolalla",
+        "Rafael Barceló",
+        "Broglie",
+        "Alberto",
+        "John Wheeler",
+        "Richard Feynman",
+        "Wheeler",
+        "Lebojira",
+        "Penrose",
+        "Héctor",
+        "Francis",
+        "Break",
+        "Saber",
+        "Witten",
+        "Barceló",
+        "Feynman",
+        "Bang"
+      ],
+      "participant_matches": [],
+      "text_score_hint": 0.05,
+      "evidence_notes": [
+        "name_mentions_detected"
+      ]
+    },
+    {
+      "speaker": "speaker_02",
+      "self_identification_detected": false,
+      "self_identification_names": [],
+      "mentioned_names": [
+        "Isaac Asimov",
+        "Hola",
+        "Nacho",
+        "Francis",
+        "Cavi",
+        "Higgs Sufre",
+        "Break"
+      ],
+      "participant_matches": [],
+      "text_score_hint": 0.05,
+      "evidence_notes": [
+        "name_mentions_detected"
+      ]
+    },
+    {
+      "speaker": "speaker_03",
+      "self_identification_detected": false,
+      "self_identification_names": [],
+      "mentioned_names": [
+        "Héctor Socas",
+        "Nacho Trujillo",
+        "Hola Nacho",
+        "Hola Héctor",
+        "Francis Villatoro",
+        "Alberto Aparici",
+        "Alberto",
+        "Francis",
+        "Nacho",
+        "Rutherford",
+        "Cavi Pasos",
+        "Cavi",
+        "Nacho Francis",
+        "Héctor",
+        "Madrid",
+        "Aragón",
+        "Pasos",
+        "Skylab"
+      ],
+      "participant_matches": [],
+      "text_score_hint": 0.05,
+      "evidence_notes": [
+        "name_mentions_detected"
+      ]
+    },
+    {
+      "speaker": "speaker_04",
+      "self_identification_detected": false,
+      "self_identification_names": [],
+      "mentioned_names": [
+        "Francis",
+        "Alberto",
+        "Radeford",
+        "Héctor"
+      ],
+      "participant_matches": [],
+      "text_score_hint": 0.05,
+      "evidence_notes": [
+        "name_mentions_detected"
+      ]
+    }
+  ]
+}
