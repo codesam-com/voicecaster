@@ -1,0 +1,19 @@
+{
+  "version": "v1",
+  "profiles": [
+    {
+      "testing_speaker_id": "test_spk_000001",
+      "status": "active",
+      "num_episodes": 1,
+      "total_speech_seconds": 33.34,
+      "path": "data/testing_speakers/profiles/test_spk_000001"
+    },
+    {
+      "testing_speaker_id": "test_spk_000002",
+      "status": "active",
+      "num_episodes": 1,
+      "total_speech_seconds": 76.06,
+      "path": "data/testing_speakers/profiles/test_spk_000002"
+    }
+  ]
+}
