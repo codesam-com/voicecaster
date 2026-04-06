@@ -6,13 +6,52 @@ from typing import Any
 
 
 SELF_ID_PATTERNS = [
-    re.compile(r"\bsoy\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\b"),
-    re.compile(r"\byo\s+soy\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\b"),
-    re.compile(r"\bmi\s+nombre\s+es\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\b"),
-    re.compile(r"\bos\s+habla\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\b"),
+    re.compile(r"\bsoy\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"),
+    re.compile(r"\byo\s+soy\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"),
+    re.compile(r"\bmi\s+nombre\s+es\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"),
+    re.compile(r"\bos\s+habla\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"),
 ]
 
-NAME_MENTION_PATTERN = re.compile(r"\b([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\b")
+# Uno o dos tokens con mayúscula inicial
+NAME_CANDIDATE_PATTERN = re.compile(
+    r"\b([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"
+)
+
+# Stopwords / conectores / palabras frecuentes que no deben tomarse como nombres
+STOPWORDS = {
+    "a", "al", "algo", "algún", "alguna", "algunas", "algunos",
+    "antes", "aquí", "así", "aunque", "aun",
+    "bien", "bueno", "buenos",
+    "cada", "casi", "claro", "como", "cómo", "con", "contra", "continuamos",
+    "cual", "cuál", "cualquiera", "cuando", "cuándo",
+    "de", "del", "desde", "después", "donde", "dos",
+    "e", "el", "él", "ella", "ellas", "ellos", "en", "entre", "entonces", "era", "eres", "es", "esa", "esas", "ese", "eso", "esos", "esta", "está", "están", "estar", "este", "esto", "estos",
+    "exacto", "efectivamente", "energía", "era",
+    "familia", "fijaros",
+    "gracias",
+    "ha", "hasta", "hay",
+    "igual",
+    "la", "las", "le", "les", "lo", "los", "luego",
+    "más", "mal", "me", "mi", "mis", "mientras", "muy",
+    "nada", "no", "nos", "nosotros", "nuestra", "nuestro",
+    "o", "otra", "otras", "otro", "otros", "os",
+    "para", "pero", "poco", "por", "porque", "pues",
+    "que", "qué", "quien", "quién", "quiero", "quizás",
+    "se", "sí", "si", "siempre", "sin", "sobre", "son", "soy", "su", "sus",
+    "también", "te", "tiene", "todo", "todos",
+    "un", "una", "uno", "unos", "unas",
+    "vale", "vamos", "viene",
+    "ya", "yo",
+}
+
+# Palabras frecuentes al inicio de frase que a veces aparecen capitalizadas por puntuación
+COMMON_SENTENCE_STARTERS = {
+    "Entonces", "Pero", "Bueno", "Vale", "También", "Porque", "Cuando",
+    "Cómo", "Como", "Vamos", "Continuamos", "Gracias", "Exacto", "Pues",
+    "Luego", "Siempre", "Quiero", "Otra", "Entre", "Hasta", "Claro",
+    "Esto", "Eso", "Ese", "Esa", "Los", "Las", "Son", "Por", "Qué", "Que",
+    "Fijaros", "Efectivamente", "Cualquiera", "Quizás",
+}
 
 
 @dataclass(slots=True)
@@ -29,8 +68,12 @@ class SpeakerTextEvidence:
         return asdict(self)
 
 
+def _normalize_spaces(text: str) -> str:
+    return " ".join(str(text).strip().split())
+
+
 def _normalize_name(name: str) -> str:
-    return " ".join(str(name).strip().split()).casefold()
+    return _normalize_spaces(name).casefold()
 
 
 def _build_participant_index(participants: Any) -> dict[str, str]:
@@ -42,15 +85,19 @@ def _build_participant_index(participants: Any) -> dict[str, str]:
     for item in participants:
         if not isinstance(item, str):
             continue
-        normalized = _normalize_name(item)
-        if normalized:
-            result[normalized] = item.strip()
 
-        parts = item.strip().split()
+        cleaned = _normalize_spaces(item)
+        if not cleaned:
+            continue
+
+        full_norm = _normalize_name(cleaned)
+        result[full_norm] = cleaned
+
+        parts = cleaned.split()
         if parts:
-            first = _normalize_name(parts[0])
-            if first and first not in result:
-                result[first] = item.strip()
+            first_norm = _normalize_name(parts[0])
+            if first_norm and first_norm not in result:
+                result[first_norm] = cleaned
 
     return result
 
@@ -72,33 +119,70 @@ def _extract_text_by_speaker(
     return texts_by_speaker
 
 
+def _is_valid_name_candidate(name: str) -> bool:
+    cleaned = _normalize_spaces(name)
+    if not cleaned:
+        return False
+
+    if cleaned in COMMON_SENTENCE_STARTERS:
+        return False
+
+    tokens = cleaned.split()
+    if not tokens:
+        return False
+
+    # todos los tokens deben ser plausibles
+    for token in tokens:
+        token_norm = token.casefold()
+
+        if len(token) < 3:
+            return False
+
+        if token_norm in STOPWORDS:
+            return False
+
+        # evitar tokens con signos raros
+        if not re.fullmatch(r"[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+", token):
+            return False
+
+    return True
+
+
+def _dedup_preserve_order(items: list[str]) -> list[str]:
+    seen: set[str] = set()
+    result: list[str] = []
+
+    for item in items:
+        norm = _normalize_name(item)
+        if norm in seen:
+            continue
+        seen.add(norm)
+        result.append(_normalize_spaces(item))
+
+    return result
+
+
 def _find_self_identification_names(text: str) -> list[str]:
     found: list[str] = []
 
     for pattern in SELF_ID_PATTERNS:
         for match in pattern.finditer(text):
-            name = match.group(1).strip()
-            if name and name not in found:
+            name = _normalize_spaces(match.group(1))
+            if _is_valid_name_candidate(name):
                 found.append(name)
 
-    return found
+    return _dedup_preserve_order(found)
 
 
 def _find_mentioned_names(text: str) -> list[str]:
     found: list[str] = []
 
-    for match in NAME_MENTION_PATTERN.finditer(text):
-        name = match.group(1).strip()
-
-        if len(name) < 3:
-            continue
-        if name.lower() in {"sí", "no"}:
-            continue
-
-        if name not in found:
+    for match in NAME_CANDIDATE_PATTERN.finditer(text):
+        name = _normalize_spaces(match.group(1))
+        if _is_valid_name_candidate(name):
             found.append(name)
 
-    return found
+    return _dedup_preserve_order(found)
 
 
 def build_text_evidence(
