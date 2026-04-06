@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+from collections import Counter
 from dataclasses import asdict, dataclass
 from typing import Any
 
@@ -12,12 +13,17 @@ SELF_ID_PATTERNS = [
     re.compile(r"\bos\s+habla\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"),
 ]
 
-# Uno o dos tokens con mayúscula inicial
+# Uno o dos tokens capitalizados
 NAME_CANDIDATE_PATTERN = re.compile(
     r"\b([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"
 )
 
-# Stopwords / conectores / palabras frecuentes que no deben tomarse como nombres
+# Contextos que sugieren llamada o referencia a persona
+PERSON_CONTEXT_PATTERNS = [
+    re.compile(r"\b(?:hola|oye|gracias|como dice|como dijo|según|pregunta de|ha dicho)\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\b", re.IGNORECASE),
+    re.compile(r"\b([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\s*,"),
+]
+
 STOPWORDS = {
     "a", "al", "algo", "algún", "alguna", "algunas", "algunos",
     "antes", "aquí", "así", "aunque", "aun",
@@ -29,28 +35,54 @@ STOPWORDS = {
     "exacto", "efectivamente", "energía", "era",
     "familia", "fijaros",
     "gracias",
-    "ha", "hasta", "hay",
-    "igual",
+    "ha", "hasta", "hay", "hablar",
+    "igual", "imagínate", "instituto", "investigadores",
     "la", "las", "le", "les", "lo", "los", "luego",
-    "más", "mal", "me", "mi", "mis", "mientras", "muy",
-    "nada", "no", "nos", "nosotros", "nuestra", "nuestro",
-    "o", "otra", "otras", "otro", "otros", "os",
-    "para", "pero", "poco", "por", "porque", "pues",
-    "que", "qué", "quien", "quién", "quiero", "quizás",
-    "se", "sí", "si", "siempre", "sin", "sobre", "son", "soy", "su", "sus",
-    "también", "te", "tiene", "todo", "todos",
-    "un", "una", "uno", "unos", "unas",
-    "vale", "vamos", "viene",
+    "más", "mal", "mar", "masa", "me", "mi", "mis", "mientras", "muy",
+    "nada", "no", "normalmente", "nos", "nosotros", "nuestra", "nuestro",
+    "o", "omega", "onda", "ondas", "otra", "otras", "otro", "otros", "os",
+    "para", "partículas", "pero", "poco", "por", "porque", "pues", "puede", "pueden", "podemos",
+    "que", "qué", "quien", "quién", "quiero", "quizá", "quizás",
+    "radio", "realmente", "rebotaba", "recordad", "ruido",
+    "sala", "saludos", "se", "señal", "sí", "si", "siempre", "simplemente", "sin", "sobre", "sol", "son", "soy", "su", "sus",
+    "también", "tal", "te", "tenemos", "tendemos", "técnicamente", "tienen", "tierra", "toda", "todo", "todos", "todavía", "totalmente",
+    "un", "una", "universidad", "uno", "unos", "unas", "utilizo",
+    "vale", "vamos", "venga", "vista", "voy", "viene",
     "ya", "yo",
 }
 
-# Palabras frecuentes al inicio de frase que a veces aparecen capitalizadas por puntuación
 COMMON_SENTENCE_STARTERS = {
     "Entonces", "Pero", "Bueno", "Vale", "También", "Porque", "Cuando",
-    "Cómo", "Como", "Vamos", "Continuamos", "Gracias", "Exacto", "Pues",
-    "Luego", "Siempre", "Quiero", "Otra", "Entre", "Hasta", "Claro",
-    "Esto", "Eso", "Ese", "Esa", "Los", "Las", "Son", "Por", "Qué", "Que",
-    "Fijaros", "Efectivamente", "Cualquiera", "Quizás",
+    "Cómo", "Como", "Vamos", "Continuamos", "Gracias", "Exactamente",
+    "Exacto", "Pues", "Luego", "Siempre", "Quiero", "Otra", "Entre",
+    "Hasta", "Claro", "Esto", "Eso", "Ese", "Esa", "Los", "Las", "Son",
+    "Por", "Qué", "Que", "Fijaros", "Efectivamente", "Cualquiera",
+    "Quizás", "Quizá", "Ahora", "Hoy", "Estoy", "Tenemos", "Puede",
+    "Podemos", "Tratar", "Cambio", "Significa", "Corre", "Abusamos",
+    "Supongamos", "Entraremos", "Entiendo", "Déjame", "Supongo",
+    "Pensamos", "Oye", "Digo", "Imagínate", "Hablamos", "Estamos",
+    "Querías", "Introducimos", "Cuidado", "Alguno", "Tengo", "Hemos",
+    "Sería", "Espero", "Puedes", "Quiere", "Empiezas", "Pasar", "Aporta",
+    "Estas", "Crees", "Todavía", "Simplemente", "Totalmente", "Realmente",
+    "Venga", "Ibas", "Saludos",
+}
+
+# Entidades frecuentes NO persona que en tu dominio salen mucho
+NON_PERSON_TERMS = {
+    "Argentina", "Astrofísica", "Big Bang", "Brújula", "Canarias", "Ciencia",
+    "Coffee Break", "Corpuscular", "Día", "Endaute Radio", "Física Corpuscular",
+    "Fotón", "Functions", "Higgs", "Instituto", "Lie", "Málaga", "Mar Plata",
+    "Maxwell", "Mola Saber", "Naukas Bilbao", "Newton", "Onda Cero", "Ondas Yaisa",
+    "Onda Pedriza", "Omega", "Pauli", "Parton Distribution", "Partón", "Planck",
+    "Plata", "Radio Ebro", "Radio Skylab", "Sala Omega", "Sol", "Tavi", "Técnicamente",
+    "Tierra", "Universidad", "Valencia",
+}
+
+# Apellidos o tokens ambiguos que solos no queremos aceptar
+AMBIGUOUS_SINGLE_TOKENS = {
+    "Campos", "Functions", "Instituto", "Universidad", "Canarias", "Málaga",
+    "Valencia", "Argentina", "Plata", "Omega", "Higgs", "Planck", "Pauli",
+    "Newton", "Einstein", "Fotón",
 }
 
 
@@ -119,6 +151,10 @@ def _extract_text_by_speaker(
     return texts_by_speaker
 
 
+def _is_valid_capitalized_token(token: str) -> bool:
+    return bool(re.fullmatch(r"[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+", token))
+
+
 def _is_valid_name_candidate(name: str) -> bool:
     cleaned = _normalize_spaces(name)
     if not cleaned:
@@ -127,11 +163,16 @@ def _is_valid_name_candidate(name: str) -> bool:
     if cleaned in COMMON_SENTENCE_STARTERS:
         return False
 
+    if cleaned in NON_PERSON_TERMS:
+        return False
+
     tokens = cleaned.split()
     if not tokens:
         return False
 
-    # todos los tokens deben ser plausibles
+    if len(tokens) > 2:
+        return False
+
     for token in tokens:
         token_norm = token.casefold()
 
@@ -141,8 +182,16 @@ def _is_valid_name_candidate(name: str) -> bool:
         if token_norm in STOPWORDS:
             return False
 
-        # evitar tokens con signos raros
-        if not re.fullmatch(r"[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+", token):
+        if not _is_valid_capitalized_token(token):
+            return False
+
+    # si es token único ambiguo, no lo aceptamos solo
+    if len(tokens) == 1 and tokens[0] in AMBIGUOUS_SINGLE_TOKENS:
+        return False
+
+    # dos tokens: al menos uno debe parecer nombre propio plausible
+    if len(tokens) == 2:
+        if tokens[0] in COMMON_SENTENCE_STARTERS or tokens[1] in COMMON_SENTENCE_STARTERS:
             return False
 
     return True
@@ -174,7 +223,19 @@ def _find_self_identification_names(text: str) -> list[str]:
     return _dedup_preserve_order(found)
 
 
-def _find_mentioned_names(text: str) -> list[str]:
+def _find_context_names(text: str) -> list[str]:
+    found: list[str] = []
+
+    for pattern in PERSON_CONTEXT_PATTERNS:
+        for match in pattern.finditer(text):
+            name = _normalize_spaces(match.group(1))
+            if _is_valid_name_candidate(name):
+                found.append(name)
+
+    return _dedup_preserve_order(found)
+
+
+def _find_candidate_names(text: str) -> list[str]:
     found: list[str] = []
 
     for match in NAME_CANDIDATE_PATTERN.finditer(text):
@@ -183,6 +244,38 @@ def _find_mentioned_names(text: str) -> list[str]:
             found.append(name)
 
     return _dedup_preserve_order(found)
+
+
+def _filter_by_frequency_or_context(
+    candidates: list[str],
+    context_names: list[str],
+) -> list[str]:
+    if not candidates:
+        return []
+
+    counter = Counter(_normalize_name(item) for item in candidates)
+    context_norms = {_normalize_name(item) for item in context_names}
+
+    result: list[str] = []
+    for item in candidates:
+        norm = _normalize_name(item)
+
+        # Aceptar si aparece varias veces
+        if counter[norm] >= 2:
+            result.append(item)
+            continue
+
+        # Aceptar si apareció en contexto fuerte
+        if norm in context_norms:
+            result.append(item)
+            continue
+
+        # Aceptar nombres compuestos plausibles aunque aparezcan una vez
+        if len(item.split()) == 2:
+            result.append(item)
+            continue
+
+    return _dedup_preserve_order(result)
 
 
 def build_text_evidence(
@@ -198,7 +291,15 @@ def build_text_evidence(
         joined_text = "\n".join(text_chunks)
 
         self_names = _find_self_identification_names(joined_text)
-        mentioned_names = _find_mentioned_names(joined_text)
+        context_names = _find_context_names(joined_text)
+        raw_candidates = _find_candidate_names(joined_text)
+        mentioned_names = _filter_by_frequency_or_context(raw_candidates, context_names)
+
+        # Asegurar que nombres de contexto fuertes también estén presentes
+        for name in context_names:
+            if _normalize_name(name) not in {_normalize_name(x) for x in mentioned_names}:
+                mentioned_names.append(name)
+        mentioned_names = _dedup_preserve_order(mentioned_names)
 
         participant_matches: list[str] = []
         for name in self_names + mentioned_names:
