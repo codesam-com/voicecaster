@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": {
+    "all_expected_speakers_present": true,
+    "no_duplicate_speakers": true,
+    "confidence_in_range": true,
+    "display_name_present": true
+  },
+  "issues": []
+}
