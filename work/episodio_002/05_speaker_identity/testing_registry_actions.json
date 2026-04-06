@@ -1,0 +1,33 @@
+{
+  "episode_id": "episodio_002",
+  "actions": [
+    {
+      "speaker": "speaker_01",
+      "profile_quality": "strong_profile",
+      "action": "created_new_testing_profile",
+      "testing_speaker_id": "test_spk_000003",
+      "score": null
+    },
+    {
+      "speaker": "speaker_02",
+      "profile_quality": "strong_profile",
+      "action": "matched_existing_testing_profile",
+      "testing_speaker_id": "test_spk_000001",
+      "score": 0.956688
+    },
+    {
+      "speaker": "speaker_03",
+      "profile_quality": "strong_profile",
+      "action": "matched_existing_testing_profile",
+      "testing_speaker_id": "test_spk_000002",
+      "score": 0.980132
+    },
+    {
+      "speaker": "speaker_04",
+      "profile_quality": "strong_profile",
+      "action": "created_new_testing_profile",
+      "testing_speaker_id": "test_spk_000004",
+      "score": null
+    }
+  ]
+}

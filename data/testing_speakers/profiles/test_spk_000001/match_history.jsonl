@@ -1,1 +1,2 @@
 {"episode_id": "episodio_001", "speaker": "speaker_02", "action": "created_new_testing_profile", "testing_speaker_id": "test_spk_000001", "score": null, "timestamp": "1970-01-01T00:00:00Z"}
+{"episode_id": "episodio_002", "speaker": "speaker_02", "action": "matched_existing_testing_profile", "testing_speaker_id": "test_spk_000001", "score": 0.956688, "timestamp": "1970-01-01T00:00:00Z"}

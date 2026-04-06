@@ -1,0 +1,135 @@
+{
+  "episode_id": "episodio_002",
+  "speakers": [
+    {
+      "speaker": "speaker_01",
+      "candidates": [
+        {
+          "candidate_type": "testing_registry_candidate",
+          "speaker_id": "test_spk_000002",
+          "display_name": "Test Speaker 000002",
+          "voice_score": 0.141944,
+          "text_score": 0.05,
+          "context_score": 0.0,
+          "final_score": 0.1327,
+          "decision_band": "no_match"
+        },
+        {
+          "candidate_type": "testing_registry_candidate",
+          "speaker_id": "test_spk_000001",
+          "display_name": "Test Speaker 000001",
+          "voice_score": 0.141151,
+          "text_score": 0.05,
+          "context_score": 0.0,
+          "final_score": 0.132,
+          "decision_band": "no_match"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_02",
+      "candidates": [
+        {
+          "candidate_type": "testing_registry_candidate",
+          "speaker_id": "test_spk_000001",
+          "display_name": "Test Speaker 000001",
+          "voice_score": 0.956688,
+          "text_score": 0.05,
+          "context_score": 0.0,
+          "final_score": 0.866,
+          "decision_band": "high_match"
+        },
+        {
+          "candidate_type": "testing_registry_candidate",
+          "speaker_id": "test_spk_000002",
+          "display_name": "Test Speaker 000002",
+          "voice_score": 0.487784,
+          "text_score": 0.05,
+          "context_score": 0.0,
+          "final_score": 0.444,
+          "decision_band": "no_match"
+        },
+        {
+          "candidate_type": "testing_registry_candidate",
+          "speaker_id": "test_spk_000003",
+          "display_name": "Test Speaker 000003",
+          "voice_score": 0.159365,
+          "text_score": 0.05,
+          "context_score": 0.0,
+          "final_score": 0.1484,
+          "decision_band": "no_match"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_03",
+      "candidates": [
+        {
+          "candidate_type": "testing_registry_candidate",
+          "speaker_id": "test_spk_000002",
+          "display_name": "Test Speaker 000002",
+          "voice_score": 0.980132,
+          "text_score": 0.05,
+          "context_score": 0.0,
+          "final_score": 0.8871,
+          "decision_band": "high_match"
+        },
+        {
+          "candidate_type": "testing_registry_candidate",
+          "speaker_id": "test_spk_000001",
+          "display_name": "Test Speaker 000001",
+          "voice_score": 0.501507,
+          "text_score": 0.05,
+          "context_score": 0.0,
+          "final_score": 0.4564,
+          "decision_band": "no_match"
+        },
+        {
+          "candidate_type": "testing_registry_candidate",
+          "speaker_id": "test_spk_000003",
+          "display_name": "Test Speaker 000003",
+          "voice_score": 0.124823,
+          "text_score": 0.05,
+          "context_score": 0.0,
+          "final_score": 0.1173,
+          "decision_band": "no_match"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_04",
+      "candidates": [
+        {
+          "candidate_type": "testing_registry_candidate",
+          "speaker_id": "test_spk_000003",
+          "display_name": "Test Speaker 000003",
+          "voice_score": 0.357528,
+          "text_score": 0.05,
+          "context_score": 0.0,
+          "final_score": 0.3268,
+          "decision_band": "no_match"
+        },
+        {
+          "candidate_type": "testing_registry_candidate",
+          "speaker_id": "test_spk_000001",
+          "display_name": "Test Speaker 000001",
+          "voice_score": 0.294342,
+          "text_score": 0.05,
+          "context_score": 0.0,
+          "final_score": 0.2699,
+          "decision_band": "no_match"
+        },
+        {
+          "candidate_type": "testing_registry_candidate",
+          "speaker_id": "test_spk_000002",
+          "display_name": "Test Speaker 000002",
+          "voice_score": 0.247745,
+          "text_score": 0.05,
+          "context_score": 0.0,
+          "final_score": 0.228,
+          "decision_band": "no_match"
+        }
+      ]
+    }
+  ]
+}
