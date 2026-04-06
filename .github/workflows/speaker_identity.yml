@@ -54,15 +54,32 @@ jobs:
     needs: precheck
     if: needs.precheck.outputs.should_run == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
     env:
       PYTHONUNBUFFERED: "1"
       PYTHONPATH: src
+      EPISODE_ID: ${{ needs.precheck.outputs.episode_id }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Install ffmpeg
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Check ffmpeg tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          which ffmpeg
+          which ffprobe
+          ffmpeg -version
+          ffprobe -version
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -80,7 +97,7 @@ jobs:
           fi
 
       - name: Show target episode
-        run: echo "Running speaker_identity for episode ${{ needs.precheck.outputs.episode_id }}"
+        run: echo "Running speaker_identity for episode ${EPISODE_ID}"
 
       - name: Run speaker_identity
         shell: bash
@@ -90,8 +107,6 @@ jobs:
 
       - name: Commit updated state
         shell: bash
-        env:
-          EPISODE_ID: ${{ needs.precheck.outputs.episode_id }}
         run: |
           set -euo pipefail
 
