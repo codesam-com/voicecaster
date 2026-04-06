@@ -1,0 +1,169 @@
+{
+  "episode_id": "episodio_003",
+  "speakers": [
+    {
+      "speaker": "speaker_01",
+      "matches": [
+        {
+          "testing_speaker_id": "test_spk_000001",
+          "display_label": "Test Speaker 000001",
+          "score": 0.972326,
+          "match_band": "high_match",
+          "registry_num_episodes": 2,
+          "registry_total_speech_seconds": 112.04,
+          "registry_profile_quality": "strong_profile"
+        },
+        {
+          "testing_speaker_id": "test_spk_000002",
+          "display_label": "Test Speaker 000002",
+          "score": 0.508375,
+          "match_band": "no_match",
+          "registry_num_episodes": 2,
+          "registry_total_speech_seconds": 151.62,
+          "registry_profile_quality": "strong_profile"
+        },
+        {
+          "testing_speaker_id": "test_spk_000004",
+          "display_label": "Test Speaker 000004",
+          "score": 0.263152,
+          "match_band": "no_match",
+          "registry_num_episodes": 1,
+          "registry_total_speech_seconds": 78.0,
+          "registry_profile_quality": "strong_profile"
+        },
+        {
+          "testing_speaker_id": "test_spk_000003",
+          "display_label": "Test Speaker 000003",
+          "score": 0.132945,
+          "match_band": "no_match",
+          "registry_num_episodes": 1,
+          "registry_total_speech_seconds": 75.64,
+          "registry_profile_quality": "strong_profile"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_02",
+      "matches": [
+        {
+          "testing_speaker_id": "test_spk_000002",
+          "display_label": "Test Speaker 000002",
+          "score": 0.973166,
+          "match_band": "high_match",
+          "registry_num_episodes": 2,
+          "registry_total_speech_seconds": 151.62,
+          "registry_profile_quality": "strong_profile"
+        },
+        {
+          "testing_speaker_id": "test_spk_000001",
+          "display_label": "Test Speaker 000001",
+          "score": 0.504469,
+          "match_band": "no_match",
+          "registry_num_episodes": 3,
+          "registry_total_speech_seconds": 193.47000000000003,
+          "registry_profile_quality": "usable_profile"
+        },
+        {
+          "testing_speaker_id": "test_spk_000004",
+          "display_label": "Test Speaker 000004",
+          "score": 0.250641,
+          "match_band": "no_match",
+          "registry_num_episodes": 1,
+          "registry_total_speech_seconds": 78.0,
+          "registry_profile_quality": "strong_profile"
+        },
+        {
+          "testing_speaker_id": "test_spk_000003",
+          "display_label": "Test Speaker 000003",
+          "score": 0.149698,
+          "match_band": "no_match",
+          "registry_num_episodes": 1,
+          "registry_total_speech_seconds": 75.64,
+          "registry_profile_quality": "strong_profile"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_03",
+      "matches": [
+        {
+          "testing_speaker_id": "test_spk_000003",
+          "display_label": "Test Speaker 000003",
+          "score": 0.961922,
+          "match_band": "high_match",
+          "registry_num_episodes": 1,
+          "registry_total_speech_seconds": 75.64,
+          "registry_profile_quality": "strong_profile"
+        },
+        {
+          "testing_speaker_id": "test_spk_000004",
+          "display_label": "Test Speaker 000004",
+          "score": 0.415156,
+          "match_band": "no_match",
+          "registry_num_episodes": 1,
+          "registry_total_speech_seconds": 78.0,
+          "registry_profile_quality": "strong_profile"
+        },
+        {
+          "testing_speaker_id": "test_spk_000001",
+          "display_label": "Test Speaker 000001",
+          "score": 0.136119,
+          "match_band": "no_match",
+          "registry_num_episodes": 3,
+          "registry_total_speech_seconds": 193.47000000000003,
+          "registry_profile_quality": "usable_profile"
+        },
+        {
+          "testing_speaker_id": "test_spk_000002",
+          "display_label": "Test Speaker 000002",
+          "score": 0.125379,
+          "match_band": "no_match",
+          "registry_num_episodes": 3,
+          "registry_total_speech_seconds": 218.9,
+          "registry_profile_quality": "usable_profile"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_04",
+      "matches": [
+        {
+          "testing_speaker_id": "test_spk_000004",
+          "display_label": "Test Speaker 000004",
+          "score": 0.960817,
+          "match_band": "high_match",
+          "registry_num_episodes": 1,
+          "registry_total_speech_seconds": 78.0,
+          "registry_profile_quality": "strong_profile"
+        },
+        {
+          "testing_speaker_id": "test_spk_000003",
+          "display_label": "Test Speaker 000003",
+          "score": 0.388365,
+          "match_band": "no_match",
+          "registry_num_episodes": 2,
+          "registry_total_speech_seconds": 153.57999999999998,
+          "registry_profile_quality": "usable_profile"
+        },
+        {
+          "testing_speaker_id": "test_spk_000001",
+          "display_label": "Test Speaker 000001",
+          "score": 0.278703,
+          "match_band": "no_match",
+          "registry_num_episodes": 3,
+          "registry_total_speech_seconds": 193.47000000000003,
+          "registry_profile_quality": "usable_profile"
+        },
+        {
+          "testing_speaker_id": "test_spk_000002",
+          "display_label": "Test Speaker 000002",
+          "score": 0.236732,
+          "match_band": "no_match",
+          "registry_num_episodes": 3,
+          "registry_total_speech_seconds": 218.9,
+          "registry_profile_quality": "usable_profile"
+        }
+      ]
+    }
+  ]
+}

@@ -16,6 +16,14 @@
       "num_segments_used": 8,
       "profile_quality": "strong_profile",
       "embedding_status": "ok"
+    },
+    {
+      "episode_id": "episodio_003",
+      "speaker": "speaker_01",
+      "speech_seconds_selected": 81.43,
+      "num_segments_used": 8,
+      "profile_quality": "usable_profile",
+      "embedding_status": "ok"
     }
   ]
 }

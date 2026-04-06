@@ -4,29 +4,29 @@
     {
       "testing_speaker_id": "test_spk_000001",
       "status": "active",
-      "num_episodes": 2,
-      "total_speech_seconds": 112.04,
+      "num_episodes": 3,
+      "total_speech_seconds": 193.47000000000003,
       "path": "data/testing_speakers/profiles/test_spk_000001"
     },
     {
       "testing_speaker_id": "test_spk_000002",
       "status": "active",
-      "num_episodes": 2,
-      "total_speech_seconds": 151.62,
+      "num_episodes": 3,
+      "total_speech_seconds": 218.9,
       "path": "data/testing_speakers/profiles/test_spk_000002"
     },
     {
       "testing_speaker_id": "test_spk_000003",
       "status": "active",
-      "num_episodes": 1,
-      "total_speech_seconds": 75.64,
+      "num_episodes": 2,
+      "total_speech_seconds": 153.57999999999998,
       "path": "data/testing_speakers/profiles/test_spk_000003"
     },
     {
       "testing_speaker_id": "test_spk_000004",
       "status": "active",
-      "num_episodes": 1,
-      "total_speech_seconds": 78.0,
+      "num_episodes": 2,
+      "total_speech_seconds": 133.95,
       "path": "data/testing_speakers/profiles/test_spk_000004"
     }
   ]
