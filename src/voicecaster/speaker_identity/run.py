@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import sys
+import traceback
 from pathlib import Path
 from typing import Any
 
@@ -169,15 +170,21 @@ def _build_candidates_and_decisions_from_profiles(
         text_ev = text_evidence_by_speaker.get(profile.speaker)
         text_score = text_ev.text_score_hint if text_ev else 0.0
 
+        voice_status = None
+        if profile.embedding_primary:
+            voice_status = profile.embedding_primary.get("status")
+
+        voice_score = 1.0 if voice_status == "ok" else 0.0
+
         if profile.usable_for_identity:
             candidate = IdentityCandidate(
                 candidate_type="new_hypothetical_identity",
                 speaker_id=None,
                 display_name=UNKNOWN_DISPLAY_NAME,
-                voice_score=0.0,
+                voice_score=voice_score,
                 text_score=text_score,
                 context_score=0.0,
-                final_score=text_score,
+                final_score=round(0.9 * voice_score + 0.1 * text_score, 4),
                 decision_band="review_required",
             )
             decision = IdentityDecision(
@@ -368,6 +375,7 @@ def main() -> int:
 
     except Exception as exc:
         print(f"[speaker_identity] ERROR: {repr(exc)}")
+        traceback.print_exc()
 
         retries_after = increment_retries(episode_id)
         if retries_after > MAX_RETRIES:
