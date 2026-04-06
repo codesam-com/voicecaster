@@ -1,8 +1,12 @@
 from __future__ import annotations
 
 import sys
+from pathlib import Path
 from typing import Any
 
+from voicecaster.transcription.run import ContentError, download_file, ffprobe_audio
+
+from .biometric_extractor import aggregate_biometric_profile, extract_segment_embeddings
 from .config import (
     MAX_RETRIES,
     MAX_SELECTED_SEGMENTS_PER_SPEAKER,
@@ -37,6 +41,7 @@ from .text_support import SpeakerTextEvidence, build_text_evidence
 from .voice_profile import EpisodeSpeakerVoiceProfile, build_episode_speaker_voice_profile
 from .write_outputs import (
     utc_now_iso,
+    write_biometric_summary_json,
     write_identity_candidates_json,
     write_identity_evidence_json,
     write_identity_result_json,
@@ -47,6 +52,15 @@ from .write_outputs import (
     write_speaker_voice_profiles_json,
     write_text_support_json,
 )
+
+
+def _download_audio_for_speaker_identity(url: str, target: Path) -> Path:
+    target.parent.mkdir(parents=True, exist_ok=True)
+    download_file(url, target)
+    probe = ffprobe_audio(target)
+    if not probe.get("ffprobe_ok", False):
+        raise ContentError("Downloaded resource is not a valid audio file for speaker identity.")
+    return target
 
 
 def _build_speaker_summaries(
@@ -95,6 +109,7 @@ def _build_voice_profiles(
     aligned_utterances: list[dict[str, Any]],
     *,
     language_hint: str | None,
+    audio_path: Path,
 ) -> tuple[list[EpisodeSpeakerVoiceProfile], dict[str, list[dict[str, Any]]]]:
     profiles: list[EpisodeSpeakerVoiceProfile] = []
     selected_segments_by_speaker: dict[str, list[dict[str, Any]]] = {}
@@ -108,13 +123,28 @@ def _build_voice_profiles(
             max_segments=MAX_SELECTED_SEGMENTS_PER_SPEAKER,
         )
 
-        selected_segments_by_speaker[summary.speaker] = [seg.to_dict() for seg in selected_segments]
+        selected_segments_by_speaker[summary.speaker] = [
+            seg.to_dict() for seg in selected_segments
+        ]
+
+        segment_embeddings = extract_segment_embeddings(
+            summary.speaker,
+            selected_segments,
+            audio_path,
+        )
+
+        biometric_profile = aggregate_biometric_profile(
+            summary.speaker,
+            segment_embeddings,
+        )
 
         profile = build_episode_speaker_voice_profile(
             speaker=summary.speaker,
             speech_seconds_total=summary.speech_seconds,
             selected_segments=selected_segments,
             total_candidate_segments=len(selected_segments),
+            segment_embeddings=segment_embeddings,
+            biometric_profile=biometric_profile,
             language_hint=language_hint,
         )
         profiles.append(profile)
@@ -185,6 +215,8 @@ def _build_candidates_and_decisions_from_profiles(
 
 
 def main() -> int:
+    temp_audio_path: Path | None = None
+
     try:
         episode = select_episode()
     except Exception:
@@ -201,6 +233,14 @@ def main() -> int:
         ensure_required_paths(work_episode_dir)
 
         episode_record = load_episode_inputs_record(episode_id)
+
+        source_url = episode_record.get("url")
+        if not isinstance(source_url, str) or not source_url.strip():
+            raise RuntimeError("No usable source URL found for speaker_identity.")
+
+        temp_audio_path = work_episode_dir / "99_temp" / "audio_for_speaker_identity"
+        audio_path = _download_audio_for_speaker_identity(source_url, temp_audio_path)
+
         aligned_utterances = load_aligned_utterances(work_episode_dir)
         speakers_index = load_speakers_index(work_episode_dir)
         speaker_metrics = load_speaker_metrics(work_episode_dir)
@@ -234,6 +274,7 @@ def main() -> int:
             summaries,
             aligned_utterances,
             language_hint=language_hint,
+            audio_path=audio_path,
         )
 
         candidates_by_speaker, decisions = _build_candidates_and_decisions_from_profiles(
@@ -248,7 +289,7 @@ def main() -> int:
 
         metadata_payload = {
             "workflow": "speaker_identity",
-            "version": "v1_test",
+            "version": "v2_biometric",
             "inputs": {
                 "aligned_utterances_found": True,
                 "speakers_index_found": True,
@@ -256,6 +297,7 @@ def main() -> int:
                 "alignment_metadata_found": True,
                 "transcript_with_speakers_found": True,
                 "transcript_preview_found": transcript_preview is not None,
+                "biometric_backend": "speechbrain_ecapa_tdnn",
             },
             "counts": {
                 "speakers_detected": len(summaries),
@@ -267,6 +309,14 @@ def main() -> int:
                 ),
                 "selected_segments_total": sum(
                     len(segments) for segments in selected_segments_by_speaker.values()
+                ),
+                "embedding_segments_total": sum(
+                    len(profile.segment_embeddings) for profile in voice_profiles
+                ),
+                "speakers_with_biometric_profile_ok": sum(
+                    1 for profile in voice_profiles
+                    if profile.embedding_primary
+                    and profile.embedding_primary.get("status") == "ok"
                 ),
                 "text_self_identifications_detected": sum(
                     1 for item in text_evidence if item.self_identification_detected
@@ -290,6 +340,7 @@ def main() -> int:
         }
 
         write_speaker_voice_profiles_json(identity_dir, episode_id, voice_profiles)
+        write_biometric_summary_json(identity_dir, episode_id, voice_profiles)
         write_identity_evidence_json(identity_dir, episode_id, selected_segments_by_speaker)
         write_text_support_json(identity_dir, episode_id, text_evidence)
         write_identity_candidates_json(identity_dir, episode_id, candidates_by_speaker)
@@ -340,6 +391,13 @@ def main() -> int:
             print(f"[speaker_identity] Failed to write identity_result.json: {repr(write_exc)}")
 
         return 1
+
+    finally:
+        try:
+            if temp_audio_path is not None:
+                temp_audio_path.unlink(missing_ok=True)
+        except Exception:
+            pass
 
 
 if __name__ == "__main__":
