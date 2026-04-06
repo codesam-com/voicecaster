@@ -130,6 +130,43 @@ def write_qa_summary_json(
     _write_json(identity_dir / "qa_summary.json", qa_result.to_dict())
 
 
+def write_testing_registry_matches_json(
+    identity_dir: Path,
+    episode_id: str,
+    matches_by_speaker: dict[str, list[dict[str, Any]]],
+) -> None:
+    payload = {
+        "episode_id": episode_id,
+        "speakers": [
+            {
+                "speaker": speaker,
+                "matches": matches,
+            }
+            for speaker, matches in matches_by_speaker.items()
+        ],
+    }
+    _write_json(identity_dir / "testing_registry_matches.json", payload)
+
+
+def write_testing_registry_actions_json(
+    identity_dir: Path,
+    episode_id: str,
+    actions: list[dict[str, Any]],
+) -> None:
+    payload = {
+        "episode_id": episode_id,
+        "actions": actions,
+    }
+    _write_json(identity_dir / "testing_registry_actions.json", payload)
+
+
+def write_testing_registry_summary_json(
+    identity_dir: Path,
+    payload: dict[str, Any],
+) -> None:
+    _write_json(identity_dir / "testing_registry_summary.json", payload)
+
+
 def write_identity_result_json(
     identity_dir: Path,
     payload: dict[str, Any],
