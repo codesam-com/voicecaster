@@ -1,0 +1,60 @@
+{
+  "episode_id": "episodio_002",
+  "speakers": [
+    {
+      "speaker": "speaker_01",
+      "self_identification_detected": false,
+      "self_identification_names": [],
+      "mentioned_names": [
+        "Nacho",
+        "Alberto",
+        "Francis"
+      ],
+      "participant_matches": [],
+      "text_score_hint": 0.05,
+      "evidence_notes": [
+        "name_mentions_detected"
+      ]
+    },
+    {
+      "speaker": "speaker_02",
+      "self_identification_detected": false,
+      "self_identification_names": [],
+      "mentioned_names": [
+        "Edward Bitten",
+        "Málaga",
+        "Javier Santaolalla",
+        "Rafael Barceló"
+      ],
+      "participant_matches": [],
+      "text_score_hint": 0.05,
+      "evidence_notes": [
+        "name_mentions_detected"
+      ]
+    },
+    {
+      "speaker": "speaker_03",
+      "self_identification_detected": false,
+      "self_identification_names": [],
+      "mentioned_names": [
+        "Francis",
+        "Campos",
+        "Nacho"
+      ],
+      "participant_matches": [],
+      "text_score_hint": 0.05,
+      "evidence_notes": [
+        "name_mentions_detected"
+      ]
+    },
+    {
+      "speaker": "speaker_04",
+      "self_identification_detected": false,
+      "self_identification_names": [],
+      "mentioned_names": [],
+      "participant_matches": [],
+      "text_score_hint": 0.0,
+      "evidence_notes": []
+    }
+  ]
+}
