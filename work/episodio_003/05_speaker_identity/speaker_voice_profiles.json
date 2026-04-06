@@ -1,0 +1,113 @@
+{
+  "episode_id": "episodio_003",
+  "speakers": [
+    {
+      "speaker": "speaker_01",
+      "speech_seconds_total": 2331.73,
+      "speech_seconds_selected": 81.43,
+      "num_segments_selected": 8,
+      "num_segments_rejected": 0,
+      "num_words_selected": 274,
+      "speech_rate_words_per_second": 3.3649,
+      "first_selected_start": 0.0,
+      "last_selected_end": 8538.94,
+      "temporal_coverage_seconds": 8538.94,
+      "usable_for_identity": true,
+      "quality_summary": {
+        "selected_segments": 8,
+        "rejected_segments": 0,
+        "selection_strategy": "temporal_coverage_plus_duration_fill",
+        "selected_speech_seconds": 81.43
+      },
+      "auxiliary_voice_traits": {
+        "language_hint": "es",
+        "speech_rate_words_per_second": 3.3649,
+        "pitch_mean": null,
+        "pitch_range": null,
+        "pause_ratio": null,
+        "status": "partial_profile_v1"
+      }
+    },
+    {
+      "speaker": "speaker_02",
+      "speech_seconds_total": 2921.52,
+      "speech_seconds_selected": 67.28,
+      "num_segments_selected": 8,
+      "num_segments_rejected": 0,
+      "num_words_selected": 227,
+      "speech_rate_words_per_second": 3.374,
+      "first_selected_start": 20.92,
+      "last_selected_end": 8528.03,
+      "temporal_coverage_seconds": 8507.11,
+      "usable_for_identity": true,
+      "quality_summary": {
+        "selected_segments": 8,
+        "rejected_segments": 0,
+        "selection_strategy": "temporal_coverage_plus_duration_fill",
+        "selected_speech_seconds": 67.28
+      },
+      "auxiliary_voice_traits": {
+        "language_hint": "es",
+        "speech_rate_words_per_second": 3.374,
+        "pitch_mean": null,
+        "pitch_range": null,
+        "pause_ratio": null,
+        "status": "partial_profile_v1"
+      }
+    },
+    {
+      "speaker": "speaker_03",
+      "speech_seconds_total": 1591.71,
+      "speech_seconds_selected": 77.94,
+      "num_segments_selected": 8,
+      "num_segments_rejected": 0,
+      "num_words_selected": 249,
+      "speech_rate_words_per_second": 3.1948,
+      "first_selected_start": 40.89,
+      "last_selected_end": 8548.14,
+      "temporal_coverage_seconds": 8507.25,
+      "usable_for_identity": true,
+      "quality_summary": {
+        "selected_segments": 8,
+        "rejected_segments": 0,
+        "selection_strategy": "temporal_coverage_plus_duration_fill",
+        "selected_speech_seconds": 77.94
+      },
+      "auxiliary_voice_traits": {
+        "language_hint": "es",
+        "speech_rate_words_per_second": 3.1948,
+        "pitch_mean": null,
+        "pitch_range": null,
+        "pause_ratio": null,
+        "status": "partial_profile_v1"
+      }
+    },
+    {
+      "speaker": "speaker_04",
+      "speech_seconds_total": 1278.45,
+      "speech_seconds_selected": 55.95,
+      "num_segments_selected": 8,
+      "num_segments_rejected": 0,
+      "num_words_selected": 172,
+      "speech_rate_words_per_second": 3.0742,
+      "first_selected_start": 195.25,
+      "last_selected_end": 8414.5,
+      "temporal_coverage_seconds": 8219.25,
+      "usable_for_identity": true,
+      "quality_summary": {
+        "selected_segments": 8,
+        "rejected_segments": 0,
+        "selection_strategy": "temporal_coverage_plus_duration_fill",
+        "selected_speech_seconds": 55.95
+      },
+      "auxiliary_voice_traits": {
+        "language_hint": "es",
+        "speech_rate_words_per_second": 3.0742,
+        "pitch_mean": null,
+        "pitch_range": null,
+        "pause_ratio": null,
+        "status": "partial_profile_v1"
+      }
+    }
+  ]
+}

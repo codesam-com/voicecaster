@@ -1,0 +1,38 @@
+{
+  "episode_id": "episodio_003",
+  "status": "unverified",
+  "speakers": [
+    {
+      "speaker": "speaker_01",
+      "proposed_identity": null,
+      "proposed_display_name": "Desconocido",
+      "confidence": 0.0,
+      "identity_state": "hypothesis_new_person",
+      "review_required": true
+    },
+    {
+      "speaker": "speaker_02",
+      "proposed_identity": null,
+      "proposed_display_name": "Desconocido",
+      "confidence": 0.0,
+      "identity_state": "hypothesis_new_person",
+      "review_required": true
+    },
+    {
+      "speaker": "speaker_03",
+      "proposed_identity": null,
+      "proposed_display_name": "Desconocido",
+      "confidence": 0.0,
+      "identity_state": "hypothesis_new_person",
+      "review_required": true
+    },
+    {
+      "speaker": "speaker_04",
+      "proposed_identity": null,
+      "proposed_display_name": "Desconocido",
+      "confidence": 0.0,
+      "identity_state": "hypothesis_new_person",
+      "review_required": true
+    }
+  ]
+}
