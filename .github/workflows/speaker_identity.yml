@@ -90,6 +90,8 @@ jobs:
 
       - name: Commit updated state
         shell: bash
+        env:
+          EPISODE_ID: ${{ needs.precheck.outputs.episode_id }}
         run: |
           set -euo pipefail
 
@@ -106,5 +108,38 @@ jobs:
           git commit -m "speaker_identity: update work state"
 
           git fetch origin main
-          git pull --rebase origin main
-          git push origin HEAD:main
+
+          if git pull --rebase origin main; then
+            git push origin HEAD:main
+            exit 0
+          fi
+
+          echo "Rebase conflict detected. Checking remote state..."
+          git rebase --abort || true
+          git fetch origin main
+          git reset --hard origin/main
+
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          episode_id = os.environ["EPISODE_ID"]
+          inputs_path = Path("inputs/inputs.json")
+
+          if not inputs_path.exists():
+              raise SystemExit(1)
+
+          data = json.loads(inputs_path.read_text(encoding="utf-8"))
+          found = None
+          for item in data:
+              if isinstance(item, dict) and item.get("id") == episode_id:
+                  found = item
+                  break
+
+          if found and found.get("status") == "review_preparation":
+              print("Remote already contains the processed state. Exiting successfully.")
+              raise SystemExit(0)
+
+          raise SystemExit(1)
+          PY
