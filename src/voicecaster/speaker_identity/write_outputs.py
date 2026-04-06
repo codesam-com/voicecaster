@@ -36,6 +36,25 @@ def write_speaker_voice_profiles_json(
     _write_json(identity_dir / "speaker_voice_profiles.json", payload)
 
 
+def write_biometric_summary_json(
+    identity_dir: Path,
+    episode_id: str,
+    profiles: list[Any],
+) -> None:
+    payload = {
+        "episode_id": episode_id,
+        "speakers": [
+            {
+                "speaker": profile.speaker,
+                "biometric_profile": profile.biometric_profile,
+                "segment_embeddings": profile.segment_embeddings,
+            }
+            for profile in profiles
+        ],
+    }
+    _write_json(identity_dir / "biometric_summary.json", payload)
+
+
 def write_identity_evidence_json(
     identity_dir: Path,
     episode_id: str,
