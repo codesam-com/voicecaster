@@ -1,0 +1,27 @@
+{
+  "episode_id": "episodio_001",
+  "speakers": [
+    {
+      "speaker": "speaker_01",
+      "matches": []
+    },
+    {
+      "speaker": "speaker_02",
+      "matches": []
+    },
+    {
+      "speaker": "speaker_03",
+      "matches": [
+        {
+          "testing_speaker_id": "test_spk_000001",
+          "display_label": "Test Speaker 000001",
+          "score": 0.513693,
+          "match_band": "no_match",
+          "registry_num_episodes": 1,
+          "registry_total_speech_seconds": 33.34,
+          "registry_profile_quality": "usable_profile"
+        }
+      ]
+    }
+  ]
+}
