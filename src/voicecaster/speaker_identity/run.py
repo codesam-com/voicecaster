@@ -8,6 +8,7 @@ from typing import Any
 from voicecaster.transcription.run import ContentError, download_file, ffprobe_audio
 
 from .biometric_extractor import aggregate_biometric_profile, extract_segment_embeddings
+from .biometric_matcher import rank_testing_registry_matches
 from .config import (
     MAX_RETRIES,
     MAX_SELECTED_SEGMENTS_PER_SPEAKER,
@@ -35,9 +36,15 @@ from .loader import (
     select_episode,
     update_episode_status,
 )
+from .profile_quality import classify_profile_quality, is_profile_eligible_for_testing_registry
 from .qa import run_identity_qa
 from .schemas import IdentityCandidate, IdentityDecision, SpeakerEpisodeSummary
 from .segment_selector import select_segments_for_speaker
+from .testing_registry import (
+    create_testing_profile_from_episode_speaker,
+    load_testing_registry_profiles,
+    update_testing_profile_with_episode_speaker,
+)
 from .text_support import SpeakerTextEvidence, build_text_evidence
 from .voice_profile import EpisodeSpeakerVoiceProfile, build_episode_speaker_voice_profile
 from .write_outputs import (
@@ -51,6 +58,9 @@ from .write_outputs import (
     write_speaker_identity_metadata_json,
     write_speaker_identity_request_json,
     write_speaker_voice_profiles_json,
+    write_testing_registry_actions_json,
+    write_testing_registry_matches_json,
+    write_testing_registry_summary_json,
     write_text_support_json,
 )
 
@@ -159,55 +169,194 @@ def _index_text_evidence(
     return {item.speaker: item for item in text_evidence}
 
 
+def _run_testing_registry_matching(
+    episode_id: str,
+    profiles: list[EpisodeSpeakerVoiceProfile],
+) -> tuple[dict[str, list[dict[str, Any]]], list[dict[str, Any]], dict[str, Any]]:
+    registry_profiles = load_testing_registry_profiles()
+
+    matches_by_speaker: dict[str, list[dict[str, Any]]] = {}
+    actions: list[dict[str, Any]] = []
+
+    created_new = 0
+    matched_existing = 0
+    ambiguous = 0
+    skipped = 0
+
+    for profile_obj in profiles:
+        profile = profile_obj.to_dict()
+        speaker = profile["speaker"]
+        profile_quality = classify_profile_quality(profile)
+        eligible = is_profile_eligible_for_testing_registry(profile)
+
+        ranked_matches = rank_testing_registry_matches(profile, registry_profiles)
+        matches_by_speaker[speaker] = ranked_matches[:5]
+
+        if not eligible:
+            actions.append(
+                {
+                    "speaker": speaker,
+                    "profile_quality": profile_quality,
+                    "action": "skipped_due_to_weak_profile",
+                    "testing_speaker_id": None,
+                    "score": None,
+                }
+            )
+            skipped += 1
+            continue
+
+        top = ranked_matches[0] if ranked_matches else None
+
+        if top and top["match_band"] == "high_match":
+            testing_speaker_id = str(top["testing_speaker_id"])
+            update_testing_profile_with_episode_speaker(
+                testing_speaker_id=testing_speaker_id,
+                episode_id=episode_id,
+                speaker=speaker,
+                profile=profile,
+                score=float(top["score"]),
+            )
+            actions.append(
+                {
+                    "speaker": speaker,
+                    "profile_quality": profile_quality,
+                    "action": "matched_existing_testing_profile",
+                    "testing_speaker_id": testing_speaker_id,
+                    "score": float(top["score"]),
+                }
+            )
+            matched_existing += 1
+
+            registry_profiles = load_testing_registry_profiles()
+            continue
+
+        if top and top["match_band"] == "candidate_match":
+            actions.append(
+                {
+                    "speaker": speaker,
+                    "profile_quality": profile_quality,
+                    "action": "ambiguous_candidate_match",
+                    "testing_speaker_id": str(top["testing_speaker_id"]),
+                    "score": float(top["score"]),
+                }
+            )
+            ambiguous += 1
+            continue
+
+        testing_speaker_id = create_testing_profile_from_episode_speaker(
+            episode_id=episode_id,
+            speaker=speaker,
+            profile=profile,
+        )
+        actions.append(
+            {
+                "speaker": speaker,
+                "profile_quality": profile_quality,
+                "action": "created_new_testing_profile",
+                "testing_speaker_id": testing_speaker_id,
+                "score": None,
+            }
+        )
+        created_new += 1
+        registry_profiles = load_testing_registry_profiles()
+
+    summary = {
+        "episode_id": episode_id,
+        "registry_type": "testing_speakers",
+        "source_of_truth": False,
+        "counts": {
+            "created_new_testing_profiles": created_new,
+            "matched_existing_testing_profiles": matched_existing,
+            "ambiguous_candidate_matches": ambiguous,
+            "skipped_due_to_weak_profile": skipped,
+        },
+    }
+
+    return matches_by_speaker, actions, summary
+
+
 def _build_candidates_and_decisions_from_profiles(
     profiles: list[EpisodeSpeakerVoiceProfile],
     text_evidence_by_speaker: dict[str, SpeakerTextEvidence],
+    testing_registry_matches: dict[str, list[dict[str, Any]]],
+    testing_registry_actions: list[dict[str, Any]],
 ) -> tuple[dict[str, list[IdentityCandidate]], list[IdentityDecision]]:
+    actions_by_speaker = {item["speaker"]: item for item in testing_registry_actions}
+
     candidates_by_speaker: dict[str, list[IdentityCandidate]] = {}
     decisions: list[IdentityDecision] = []
 
     for profile in profiles:
-        text_ev = text_evidence_by_speaker.get(profile.speaker)
+        speaker = profile.speaker
+        text_ev = text_evidence_by_speaker.get(speaker)
         text_score = text_ev.text_score_hint if text_ev else 0.0
 
-        voice_status = None
-        if profile.embedding_primary:
-            voice_status = profile.embedding_primary.get("status")
+        action = actions_by_speaker.get(speaker, {})
+        ranked_matches = testing_registry_matches.get(speaker, [])
 
-        voice_score = 1.0 if voice_status == "ok" else 0.0
+        candidates: list[IdentityCandidate] = []
 
-        if profile.usable_for_identity:
-            candidate = IdentityCandidate(
-                candidate_type="new_hypothetical_identity",
-                speaker_id=None,
-                display_name=UNKNOWN_DISPLAY_NAME,
-                voice_score=voice_score,
-                text_score=text_score,
-                context_score=0.0,
-                final_score=round(0.9 * voice_score + 0.1 * text_score, 4),
-                decision_band="review_required",
+        for item in ranked_matches[:3]:
+            score = float(item["score"])
+            candidates.append(
+                IdentityCandidate(
+                    candidate_type="testing_registry_candidate",
+                    speaker_id=str(item["testing_speaker_id"]),
+                    display_name=str(item["display_label"] or UNKNOWN_DISPLAY_NAME),
+                    voice_score=score,
+                    text_score=text_score,
+                    context_score=0.0,
+                    final_score=round(0.9 * score + 0.1 * text_score, 4),
+                    decision_band=item["match_band"],
+                )
             )
+
+        if not candidates:
+            candidates.append(
+                IdentityCandidate(
+                    candidate_type="new_hypothetical_identity",
+                    speaker_id=None,
+                    display_name=UNKNOWN_DISPLAY_NAME,
+                    voice_score=0.0,
+                    text_score=text_score,
+                    context_score=0.0,
+                    final_score=text_score,
+                    decision_band="review_required",
+                )
+            )
+
+        action_name = action.get("action")
+
+        if action_name == "matched_existing_testing_profile":
             decision = IdentityDecision(
-                speaker=profile.speaker,
-                proposed_identity=None,
-                proposed_display_name=UNKNOWN_DISPLAY_NAME,
+                speaker=speaker,
+                proposed_identity=str(action.get("testing_speaker_id")),
+                proposed_display_name="Testing registry match",
+                confidence=round(float(action.get("score") or 0.0), 4),
+                identity_state="hypothesis_match_existing_testing_profile",
+                review_required=True,
+            )
+        elif action_name == "ambiguous_candidate_match":
+            decision = IdentityDecision(
+                speaker=speaker,
+                proposed_identity=str(action.get("testing_speaker_id")),
+                proposed_display_name="Testing registry candidate",
+                confidence=round(float(action.get("score") or 0.0), 4),
+                identity_state="hypothesis_candidate_match_testing_profile",
+                review_required=True,
+            )
+        elif action_name == "created_new_testing_profile":
+            decision = IdentityDecision(
+                speaker=speaker,
+                proposed_identity=str(action.get("testing_speaker_id")),
+                proposed_display_name="New testing speaker bucket",
                 confidence=0.0,
-                identity_state="hypothesis_new_person",
+                identity_state="hypothesis_new_testing_profile",
                 review_required=True,
             )
         else:
-            candidate = IdentityCandidate(
-                candidate_type="unknown",
-                speaker_id=None,
-                display_name=UNKNOWN_DISPLAY_NAME,
-                voice_score=0.0,
-                text_score=text_score,
-                context_score=0.0,
-                final_score=text_score,
-                decision_band="insufficient_evidence",
-            )
             decision = IdentityDecision(
-                speaker=profile.speaker,
+                speaker=speaker,
                 proposed_identity=None,
                 proposed_display_name=UNKNOWN_DISPLAY_NAME,
                 confidence=0.0,
@@ -215,7 +364,7 @@ def _build_candidates_and_decisions_from_profiles(
                 review_required=True,
             )
 
-        candidates_by_speaker[profile.speaker] = [candidate]
+        candidates_by_speaker[speaker] = candidates
         decisions.append(decision)
 
     return candidates_by_speaker, decisions
@@ -284,9 +433,15 @@ def main() -> int:
             audio_path=audio_path,
         )
 
+        testing_registry_matches, testing_registry_actions, testing_registry_summary = (
+            _run_testing_registry_matching(episode_id, voice_profiles)
+        )
+
         candidates_by_speaker, decisions = _build_candidates_and_decisions_from_profiles(
             voice_profiles,
             text_evidence_by_speaker,
+            testing_registry_matches,
+            testing_registry_actions,
         )
 
         expected_speakers = {item.speaker for item in summaries}
@@ -296,7 +451,7 @@ def main() -> int:
 
         metadata_payload = {
             "workflow": "speaker_identity",
-            "version": "v2_biometric",
+            "version": "v3_testing_registry",
             "inputs": {
                 "aligned_utterances_found": True,
                 "speakers_index_found": True,
@@ -305,6 +460,7 @@ def main() -> int:
                 "transcript_with_speakers_found": True,
                 "transcript_preview_found": transcript_preview is not None,
                 "biometric_backend": "speechbrain_ecapa_tdnn",
+                "testing_registry_enabled": True,
             },
             "counts": {
                 "speakers_detected": len(summaries),
@@ -338,11 +494,14 @@ def main() -> int:
                 "min_selected_segment_seconds": MIN_SELECTED_SEGMENT_SECONDS,
                 "min_selected_segment_words": MIN_SELECTED_SEGMENT_WORDS,
                 "max_selected_segments_per_speaker": MAX_SELECTED_SEGMENTS_PER_SPEAKER,
+                "testing_registry_high_match_threshold": 0.85,
+                "testing_registry_candidate_match_threshold": 0.78,
             },
             "upstream": {
                 "speaker_metrics": speaker_metrics,
                 "alignment_counts": alignment_metadata.get("counts"),
             },
+            "testing_registry": testing_registry_summary,
             "qa": qa_result.to_dict(),
         }
 
@@ -350,6 +509,9 @@ def main() -> int:
         write_biometric_summary_json(identity_dir, episode_id, voice_profiles)
         write_identity_evidence_json(identity_dir, episode_id, selected_segments_by_speaker)
         write_text_support_json(identity_dir, episode_id, text_evidence)
+        write_testing_registry_matches_json(identity_dir, episode_id, testing_registry_matches)
+        write_testing_registry_actions_json(identity_dir, episode_id, testing_registry_actions)
+        write_testing_registry_summary_json(identity_dir, testing_registry_summary)
         write_identity_candidates_json(identity_dir, episode_id, candidates_by_speaker)
         write_speaker_identity_json(identity_dir, episode_id, decisions)
         write_speaker_identity_metadata_json(identity_dir, metadata_payload)
