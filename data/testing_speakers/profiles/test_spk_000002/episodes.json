@@ -1,0 +1,13 @@
+{
+  "testing_speaker_id": "test_spk_000002",
+  "episodes": [
+    {
+      "episode_id": "episodio_002",
+      "speaker": "speaker_02",
+      "speech_seconds_selected": 78.7,
+      "num_segments_used": 8,
+      "profile_quality": "strong_profile",
+      "embedding_status": "ok"
+    }
+  ]
+}

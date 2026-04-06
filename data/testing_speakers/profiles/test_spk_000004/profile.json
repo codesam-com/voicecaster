@@ -1,0 +1,9 @@
+{
+  "testing_speaker_id": "test_spk_000004",
+  "display_label": "Test Speaker 000004",
+  "status": "active",
+  "created_at": "1970-01-01T00:00:00Z",
+  "updated_at": "1970-01-01T00:00:00Z",
+  "source_of_truth": false,
+  "notes": "Temporary cross-episode speaker bucket for testing."
+}
