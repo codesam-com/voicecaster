@@ -7,20 +7,34 @@ from typing import Any
 
 
 SELF_ID_PATTERNS = [
-    re.compile(r"\bsoy\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"),
-    re.compile(r"\byo\s+soy\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"),
-    re.compile(r"\bmi\s+nombre\s+es\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"),
-    re.compile(r"\bos\s+habla\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"),
+    re.compile(
+        r"\bsoy\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"
+    ),
+    re.compile(
+        r"\byo\s+soy\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"
+    ),
+    re.compile(
+        r"\bmi\s+nombre\s+es\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"
+    ),
+    re.compile(
+        r"\bos\s+habla\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"
+    ),
 ]
 
-# Uno o dos tokens capitalizados
+# Candidatos de 1 o 2 tokens capitalizados
 NAME_CANDIDATE_PATTERN = re.compile(
     r"\b([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)?)\b"
 )
 
-# Contextos que sugieren llamada o referencia a persona
-PERSON_CONTEXT_PATTERNS = [
-    re.compile(r"\b(?:hola|oye|gracias|como dice|como dijo|según|pregunta de|ha dicho)\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\b", re.IGNORECASE),
+# Contextos fuertes de persona
+STRONG_PERSON_CONTEXT_PATTERNS = [
+    re.compile(r"\bhola\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\b", re.IGNORECASE),
+    re.compile(r"\bgracias\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\b", re.IGNORECASE),
+    re.compile(r"\boye\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\b", re.IGNORECASE),
+    re.compile(r"\bcomo\s+ha\s+dicho\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\b", re.IGNORECASE),
+    re.compile(r"\bcomo\s+dice\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\b", re.IGNORECASE),
+    re.compile(r"\bsegún\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\b", re.IGNORECASE),
+    re.compile(r"\bpregunta\s+de\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\b", re.IGNORECASE),
     re.compile(r"\b([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)\s*,"),
 ]
 
@@ -32,15 +46,15 @@ STOPWORDS = {
     "cual", "cuál", "cualquiera", "cuando", "cuándo",
     "de", "del", "desde", "después", "donde", "dos",
     "e", "el", "él", "ella", "ellas", "ellos", "en", "entre", "entonces", "era", "eres", "es", "esa", "esas", "ese", "eso", "esos", "esta", "está", "están", "estar", "este", "esto", "estos",
-    "exacto", "efectivamente", "energía", "era",
+    "exacto", "exactamente", "efectivamente", "energía",
     "familia", "fijaros",
     "gracias",
-    "ha", "hasta", "hay", "hablar",
+    "ha", "hablar", "hasta", "hay", "hola", "hoy",
     "igual", "imagínate", "instituto", "investigadores",
     "la", "las", "le", "les", "lo", "los", "luego",
     "más", "mal", "mar", "masa", "me", "mi", "mis", "mientras", "muy",
     "nada", "no", "normalmente", "nos", "nosotros", "nuestra", "nuestro",
-    "o", "omega", "onda", "ondas", "otra", "otras", "otro", "otros", "os",
+    "o", "omega", "onda", "ondas", "otra", "otras", "otro", "otros", "os", "oye",
     "para", "partículas", "pero", "poco", "por", "porque", "pues", "puede", "pueden", "podemos",
     "que", "qué", "quien", "quién", "quiero", "quizá", "quizás",
     "radio", "realmente", "rebotaba", "recordad", "ruido",
@@ -64,25 +78,41 @@ COMMON_SENTENCE_STARTERS = {
     "Querías", "Introducimos", "Cuidado", "Alguno", "Tengo", "Hemos",
     "Sería", "Espero", "Puedes", "Quiere", "Empiezas", "Pasar", "Aporta",
     "Estas", "Crees", "Todavía", "Simplemente", "Totalmente", "Realmente",
-    "Venga", "Ibas", "Saludos",
+    "Venga", "Ibas", "Saludos", "Hola",
 }
 
-# Entidades frecuentes NO persona que en tu dominio salen mucho
 NON_PERSON_TERMS = {
-    "Argentina", "Astrofísica", "Big Bang", "Brújula", "Canarias", "Ciencia",
-    "Coffee Break", "Corpuscular", "Día", "Endaute Radio", "Física Corpuscular",
-    "Fotón", "Functions", "Higgs", "Instituto", "Lie", "Málaga", "Mar Plata",
-    "Maxwell", "Mola Saber", "Naukas Bilbao", "Newton", "Onda Cero", "Ondas Yaisa",
-    "Onda Pedriza", "Omega", "Pauli", "Parton Distribution", "Partón", "Planck",
-    "Plata", "Radio Ebro", "Radio Skylab", "Sala Omega", "Sol", "Tavi", "Técnicamente",
-    "Tierra", "Universidad", "Valencia",
+    "Argentina", "Aragón", "Astrofísica", "Bang", "Big Bang", "Break", "Brújula",
+    "Canarias", "Cavi", "Cavi Pasos", "Ciencia", "Coffee Break", "Corpuscular",
+    "Día", "Endaute Radio", "Fotón", "Functions", "Higgs", "Higgs Sufre",
+    "Instituto", "Lebojira", "Lie", "Madrid", "Málaga", "Mar", "Mar Plata",
+    "Maxwell", "Mola Saber", "Naukas Bilbao", "Newton", "Onda Cero",
+    "Onda Pedriza", "Ondas Yaisa", "Omega", "Pauli", "Parton Distribution",
+    "Partículas", "Partón", "Pasos", "Planck", "Plata", "Radio Ebro",
+    "Radio Skylab", "Rutherford", "Sala Omega", "Saber", "Skylab", "Sol",
+    "Tavi", "Técnicamente", "Tierra", "Universidad", "Valencia",
 }
 
-# Apellidos o tokens ambiguos que solos no queremos aceptar
 AMBIGUOUS_SINGLE_TOKENS = {
-    "Campos", "Functions", "Instituto", "Universidad", "Canarias", "Málaga",
-    "Valencia", "Argentina", "Plata", "Omega", "Higgs", "Planck", "Pauli",
-    "Newton", "Einstein", "Fotón",
+    "Alberto", "Break", "Broglie", "Campos", "Francis", "Héctor", "Hola",
+    "Málaga", "Madrid", "Nacho", "Penrose", "Skylab", "Wheeler", "Witten",
+}
+
+VALID_SIMPLE_NAMES_ALLOWLIST = {
+    "Alberto", "Francis", "Héctor", "Nacho",
+}
+
+VALID_COMPOUND_NAMES_ALLOWLIST = {
+    "Alberto Aparici",
+    "Eduard Witten",
+    "Héctor Socas",
+    "Isaac Asimov",
+    "Javier Santaolalla",
+    "John Wheeler",
+    "Nacho Trujillo",
+    "Rafael Barceló",
+    "Richard Feynman",
+    "Francis Villatoro",
 }
 
 
@@ -160,17 +190,17 @@ def _is_valid_name_candidate(name: str) -> bool:
     if not cleaned:
         return False
 
-    if cleaned in COMMON_SENTENCE_STARTERS:
-        return False
+    if cleaned in VALID_COMPOUND_NAMES_ALLOWLIST:
+        return True
 
     if cleaned in NON_PERSON_TERMS:
         return False
 
-    tokens = cleaned.split()
-    if not tokens:
+    if cleaned in COMMON_SENTENCE_STARTERS:
         return False
 
-    if len(tokens) > 2:
+    tokens = cleaned.split()
+    if not tokens or len(tokens) > 2:
         return False
 
     for token in tokens:
@@ -185,14 +215,24 @@ def _is_valid_name_candidate(name: str) -> bool:
         if not _is_valid_capitalized_token(token):
             return False
 
-    # si es token único ambiguo, no lo aceptamos solo
-    if len(tokens) == 1 and tokens[0] in AMBIGUOUS_SINGLE_TOKENS:
+    if len(tokens) == 1:
+        token = tokens[0]
+
+        if token in VALID_SIMPLE_NAMES_ALLOWLIST:
+            return True
+
+        if token in AMBIGUOUS_SINGLE_TOKENS:
+            return False
+
         return False
 
-    # dos tokens: al menos uno debe parecer nombre propio plausible
-    if len(tokens) == 2:
-        if tokens[0] in COMMON_SENTENCE_STARTERS or tokens[1] in COMMON_SENTENCE_STARTERS:
-            return False
+    # dos tokens
+    if cleaned in NON_PERSON_TERMS:
+        return False
+
+    # al menos uno de los dos tokens no debe ser claramente basura
+    if tokens[0] in COMMON_SENTENCE_STARTERS or tokens[1] in COMMON_SENTENCE_STARTERS:
+        return False
 
     return True
 
@@ -223,10 +263,10 @@ def _find_self_identification_names(text: str) -> list[str]:
     return _dedup_preserve_order(found)
 
 
-def _find_context_names(text: str) -> list[str]:
+def _find_strong_context_names(text: str) -> list[str]:
     found: list[str] = []
 
-    for pattern in PERSON_CONTEXT_PATTERNS:
+    for pattern in STRONG_PERSON_CONTEXT_PATTERNS:
         for match in pattern.finditer(text):
             name = _normalize_spaces(match.group(1))
             if _is_valid_name_candidate(name):
@@ -246,32 +286,34 @@ def _find_candidate_names(text: str) -> list[str]:
     return _dedup_preserve_order(found)
 
 
-def _filter_by_frequency_or_context(
+def _filter_candidates(
     candidates: list[str],
-    context_names: list[str],
+    strong_context_names: list[str],
 ) -> list[str]:
     if not candidates:
         return []
 
     counter = Counter(_normalize_name(item) for item in candidates)
-    context_norms = {_normalize_name(item) for item in context_names}
+    strong_context_norms = {_normalize_name(item) for item in strong_context_names}
 
     result: list[str] = []
+
     for item in candidates:
         norm = _normalize_name(item)
+        tokens = item.split()
 
-        # Aceptar si aparece varias veces
+        # siempre aceptar si está en contexto fuerte
+        if norm in strong_context_norms:
+            result.append(item)
+            continue
+
+        # aceptar compuestos claros
+        if len(tokens) == 2:
+            result.append(item)
+            continue
+
+        # para nombres simples, exigir repetición
         if counter[norm] >= 2:
-            result.append(item)
-            continue
-
-        # Aceptar si apareció en contexto fuerte
-        if norm in context_norms:
-            result.append(item)
-            continue
-
-        # Aceptar nombres compuestos plausibles aunque aparezcan una vez
-        if len(item.split()) == 2:
             result.append(item)
             continue
 
@@ -291,12 +333,12 @@ def build_text_evidence(
         joined_text = "\n".join(text_chunks)
 
         self_names = _find_self_identification_names(joined_text)
-        context_names = _find_context_names(joined_text)
+        strong_context_names = _find_strong_context_names(joined_text)
         raw_candidates = _find_candidate_names(joined_text)
-        mentioned_names = _filter_by_frequency_or_context(raw_candidates, context_names)
+        mentioned_names = _filter_candidates(raw_candidates, strong_context_names)
 
-        # Asegurar que nombres de contexto fuertes también estén presentes
-        for name in context_names:
+        # Asegurar que los de contexto fuerte entren
+        for name in strong_context_names:
             if _normalize_name(name) not in {_normalize_name(x) for x in mentioned_names}:
                 mentioned_names.append(name)
         mentioned_names = _dedup_preserve_order(mentioned_names)
