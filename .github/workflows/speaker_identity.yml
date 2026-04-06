@@ -113,7 +113,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add inputs/inputs.json work/
+          git add inputs/inputs.json work/ data/testing_speakers/
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
@@ -141,6 +141,7 @@ jobs:
 
           episode_id = os.environ["EPISODE_ID"]
           inputs_path = Path("inputs/inputs.json")
+          testing_registry_path = Path("data/testing_speakers/index.json")
 
           if not inputs_path.exists():
               raise SystemExit(1)
@@ -152,8 +153,11 @@ jobs:
                   found = item
                   break
 
-          if found and found.get("status") == "review_preparation":
-              print("Remote already contains the processed state. Exiting successfully.")
+          status_ok = bool(found and found.get("status") == "review_preparation")
+          registry_exists = testing_registry_path.exists()
+
+          if status_ok and registry_exists:
+              print("Remote already contains the processed state and testing registry. Exiting successfully.")
               raise SystemExit(0)
 
           raise SystemExit(1)
