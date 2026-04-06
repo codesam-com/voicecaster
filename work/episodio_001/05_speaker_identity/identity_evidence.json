@@ -1,0 +1,150 @@
+{
+  "episode_id": "episodio_001",
+  "speakers": [
+    {
+      "speaker": "speaker_01",
+      "selected_segments": [
+        {
+          "speaker": "speaker_01",
+          "source": "aligned_utterances",
+          "start": 0.27,
+          "end": 8.21,
+          "duration": 7.94,
+          "text": "y que ese giro sobre sí mismo era la órbita era el momento angular orbital y el giro sobre sí mismo era el spin, es lo que yo tenía entendido",
+          "num_words": 30,
+          "selection_reason": "passed_basic_filters"
+        },
+        {
+          "speaker": "speaker_01",
+          "source": "aligned_utterances",
+          "start": 42.75,
+          "end": 46.67,
+          "duration": 3.92,
+          "text": "hay un abuso del lenguaje solamente quería decir que es el origen del problema",
+          "num_words": 14,
+          "selection_reason": "passed_basic_filters"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_02",
+      "selected_segments": [
+        {
+          "speaker": "speaker_02",
+          "source": "aligned_utterances",
+          "start": 8.21,
+          "end": 18.69,
+          "duration": 10.48,
+          "text": "eso que si es verdad, que tienes razón, que históricamente es verdad es como se entendía el spin por algunos físicos alrededor del año 1924",
+          "num_words": 25,
+          "selection_reason": "passed_basic_filters"
+        },
+        {
+          "speaker": "speaker_02",
+          "source": "aligned_utterances",
+          "start": 18.69,
+          "end": 22.93,
+          "duration": 4.24,
+          "text": "pero eso dejó de ser verdad en 1927",
+          "num_words": 8,
+          "selection_reason": "passed_basic_filters"
+        },
+        {
+          "speaker": "speaker_02",
+          "source": "aligned_utterances",
+          "start": 24.13,
+          "end": 34.67,
+          "duration": 10.54,
+          "text": "y dejó de ser absolutamente verdad y se convirtió en una absoluta mentira en 1928 lo que pasa es que la gente lo sigue contando la gente sigue contando",
+          "num_words": 29,
+          "selection_reason": "passed_basic_filters"
+        },
+        {
+          "speaker": "speaker_02",
+          "source": "aligned_utterances",
+          "start": 34.67,
+          "end": 42.75,
+          "duration": 8.08,
+          "text": "lo que era verdad en 1924 y dejó de ser verdad en 1928 porque aparentemente el público general lo entiende",
+          "num_words": 20,
+          "selection_reason": "passed_basic_filters"
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_03",
+      "selected_segments": [
+        {
+          "speaker": "speaker_03",
+          "source": "aligned_utterances",
+          "start": 46.67,
+          "end": 56.91,
+          "duration": 10.24,
+          "text": "cuando uno hace eso haciendo ejercicios de física cuántica en la carrera, tú consideras el spin como un momento angular y lo sumas al momento angular orbital y todo esto",
+          "num_words": 30,
+          "selection_reason": "passed_basic_filters"
+        },
+        {
+          "speaker": "speaker_03",
+          "source": "aligned_utterances",
+          "start": 58.99,
+          "end": 85.53,
+          "duration": 26.54,
+          "text": "Se comporta como si el spin fuese un momento angular. Entonces, hay algo en él que de alguna manera hace que muchas cosas cuadren, pero luego resulta que cuando lo quieres entender a un nivel más fundamental, esa interpretación no es la buena. La mejor es la que tú acabas de describir, de entender fermiones como cosas que no les gusta estar juntos y se apilan unos encima de otros o unos al lado de los otros, y los bosones como cosas que sí les gusta estar juntos y se agrupan en grupos lo más coherentes posible.",
+          "num_words": 97,
+          "selection_reason": "passed_basic_filters"
+        },
+        {
+          "speaker": "speaker_03",
+          "source": "aligned_utterances",
+          "start": 85.53,
+          "end": 94.47,
+          "duration": 8.94,
+          "text": "Y luego, a partir de ahí, pues ya vienen una serie de propiedades como que las partículas heredan un pequeño imán y se comportan como pequeños imanes cuando se mueven por ahí.",
+          "num_words": 32,
+          "selection_reason": "passed_basic_filters"
+        },
+        {
+          "speaker": "speaker_03",
+          "source": "aligned_utterances",
+          "start": 95.15,
+          "end": 107.89,
+          "duration": 12.74,
+          "text": "Yo también quería decir que este asunto de decir los fermiones son las partículas de la materia, los bosones son las partículas asociadas a las interacciones, es verdad que históricamente, de alguna manera, lo hemos visto así.",
+          "num_words": 37,
+          "selection_reason": "passed_basic_filters"
+        },
+        {
+          "speaker": "speaker_03",
+          "source": "aligned_utterances",
+          "start": 107.89,
+          "end": 114.61,
+          "duration": 6.72,
+          "text": "Sí, los electrones están en la materia y son fermiones, los protones están en la materia y son fermiones, sería tonto decir lo contrario,",
+          "num_words": 24,
+          "selection_reason": "passed_basic_filters"
+        },
+        {
+          "speaker": "speaker_03",
+          "source": "aligned_utterances",
+          "start": 115.43,
+          "end": 121.79,
+          "duration": 6.36,
+          "text": "pero hay un poco la sensación de que como la propiedad de ser un fermión o ser un bosón es mucho más fundamental,",
+          "num_words": 23,
+          "selection_reason": "passed_basic_filters"
+        },
+        {
+          "speaker": "speaker_03",
+          "source": "aligned_utterances",
+          "start": 122.01,
+          "end": 126.53,
+          "duration": 4.52,
+          "text": "tiene que ver con esto que ha dicho Francis de cómo se ocupa el espacio y cómo se comportan cuando están juntos.",
+          "num_words": 22,
+          "selection_reason": "passed_basic_filters"
+        }
+      ]
+    }
+  ]
+}
