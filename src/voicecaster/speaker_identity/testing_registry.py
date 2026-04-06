@@ -40,9 +40,7 @@ def _scan_existing_profile_ids_on_disk() -> list[str]:
 
     ids: list[str] = []
     for child in TESTING_REGISTRY_PROFILES.iterdir():
-        if not child.is_dir():
-            continue
-        if child.name.startswith("test_spk_"):
+        if child.is_dir() and child.name.startswith("test_spk_"):
             ids.append(child.name)
 
     ids.sort()
@@ -60,7 +58,7 @@ def _extract_numeric_suffix(testing_speaker_id: str) -> int | None:
         return None
 
 
-def _ensure_registry_structure() -> None:
+def _ensure_registry_dirs_only() -> None:
     TESTING_REGISTRY_ROOT.mkdir(parents=True, exist_ok=True)
     TESTING_REGISTRY_PROFILES.mkdir(parents=True, exist_ok=True)
 
@@ -79,11 +77,9 @@ def _ensure_registry_structure() -> None:
     if not TESTING_REGISTRY_INDEX.exists():
         _write_json(TESTING_REGISTRY_INDEX, {"version": "v1", "profiles": []})
 
-    _reconcile_index_with_disk()
 
-
-def _load_index() -> dict[str, Any]:
-    _ensure_registry_structure()
+def _load_index_raw() -> dict[str, Any]:
+    _ensure_registry_dirs_only()
     index = _read_json(TESTING_REGISTRY_INDEX, {"version": "v1", "profiles": []})
 
     if not isinstance(index, dict):
@@ -105,13 +101,9 @@ def _reconcile_index_with_disk() -> None:
     Garantiza que index.json refleje al menos todos los perfiles existentes en disco.
     Nunca borra perfiles del índice automáticamente.
     """
-    index = _read_json(TESTING_REGISTRY_INDEX, {"version": "v1", "profiles": []})
-    if not isinstance(index, dict):
-        index = {"version": "v1", "profiles": []}
-
-    profiles = index.get("profiles")
-    if not isinstance(profiles, list):
-        profiles = []
+    _ensure_registry_dirs_only()
+    index = _load_index_raw()
+    profiles = index.get("profiles", [])
 
     by_id: dict[str, dict[str, Any]] = {}
     for item in profiles:
@@ -135,9 +127,11 @@ def _reconcile_index_with_disk() -> None:
         total_speech_seconds = float(
             canonical_embedding.get("total_speech_seconds_used") or 0.0
         )
-        num_episodes = len(episodes_json.get("episodes", [])) if isinstance(
-            episodes_json.get("episodes"), list
-        ) else 0
+        num_episodes = (
+            len(episodes_json.get("episodes", []))
+            if isinstance(episodes_json.get("episodes"), list)
+            else 0
+        )
 
         by_id[testing_speaker_id] = {
             "testing_speaker_id": testing_speaker_id,
@@ -156,13 +150,17 @@ def _reconcile_index_with_disk() -> None:
         _save_index({"version": "v1", "profiles": merged_profiles})
 
 
+def _load_index() -> dict[str, Any]:
+    _reconcile_index_with_disk()
+    return _load_index_raw()
+
+
 def _next_testing_speaker_id() -> str:
     """
     Calcula el siguiente ID usando el máximo observado en disco y en index.json.
-    Así evitamos reciclar IDs incluso si el índice quedó desfasado.
     """
-    _ensure_registry_structure()
-    index = _load_index()
+    _reconcile_index_with_disk()
+    index = _load_index_raw()
 
     max_id = 0
 
@@ -226,7 +224,6 @@ def _merge_vectors(
 
 
 def load_testing_registry_profiles() -> list[dict[str, Any]]:
-    _ensure_registry_structure()
     index = _load_index()
     results: list[dict[str, Any]] = []
 
@@ -271,7 +268,9 @@ def create_testing_profile_from_episode_speaker(
     speaker: str,
     profile: dict[str, Any],
 ) -> str:
-    _ensure_registry_structure()
+    # Importante: aquí NO reconciliamos con disco al final de la creación.
+    # Solo aseguramos estructura mínima.
+    _ensure_registry_dirs_only()
 
     testing_speaker_id = _next_testing_speaker_id()
     profile_dir = _profile_dir_for(testing_speaker_id)
@@ -325,12 +324,13 @@ def create_testing_profile_from_episode_speaker(
         },
     )
 
-    index = _load_index()
+    # Importante: cargar RAW para no auto-reconciliar el perfil recién creado
+    # y luego duplicarlo en el índice.
+    index = _load_index_raw()
     profiles = index.get("profiles", [])
     if not isinstance(profiles, list):
         raise RuntimeError("Testing registry index 'profiles' must be a list.")
 
-    # seguridad extra: no duplicar entrada en índice
     for item in profiles:
         if isinstance(item, dict) and item.get("testing_speaker_id") == testing_speaker_id:
             raise RuntimeError(
@@ -364,7 +364,8 @@ def update_testing_profile_with_episode_speaker(
     profile: dict[str, Any],
     score: float,
 ) -> None:
-    _ensure_registry_structure()
+    # Aquí tampoco necesitamos reconciliar al empezar una escritura.
+    _ensure_registry_dirs_only()
 
     profile_dir = _profile_dir_for(testing_speaker_id)
     if not profile_dir.exists():
@@ -393,7 +394,6 @@ def update_testing_profile_with_episode_speaker(
     if not isinstance(episodes, list):
         raise RuntimeError("Testing registry episodes.json field 'episodes' must be a list.")
 
-    # seguridad: no duplicar el mismo episodio+speaker dentro del mismo bucket
     for item in episodes:
         if not isinstance(item, dict):
             continue
@@ -444,7 +444,7 @@ def update_testing_profile_with_episode_speaker(
         },
     )
 
-    index = _load_index()
+    index = _load_index_raw()
     profiles = index.get("profiles", [])
     if not isinstance(profiles, list):
         raise RuntimeError("Testing registry index 'profiles' must be a list.")
