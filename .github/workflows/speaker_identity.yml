@@ -1,0 +1,110 @@
+name: speaker_identity
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "inputs/inputs.json"
+      - "src/voicecaster/speaker_identity/**"
+      - ".github/workflows/speaker_identity.yml"
+      - "requirements.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: voicecaster-speaker-identity
+  cancel-in-progress: false
+
+jobs:
+  precheck:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: src
+    outputs:
+      should_run: ${{ steps.precheck.outputs.should_run }}
+      episode_id: ${{ steps.precheck.outputs.episode_id }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run speaker_identity precheck
+        id: precheck
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          output="$(python -m voicecaster.speaker_identity.precheck)"
+          echo "$output"
+
+          should_run="$(echo "$output" | awk -F= '/^should_run=/{print $2}' | tail -n1)"
+          episode_id="$(echo "$output" | awk -F= '/^episode_id=/{print $2}' | tail -n1)"
+
+          echo "should_run=${should_run}" >> "$GITHUB_OUTPUT"
+          echo "episode_id=${episode_id}" >> "$GITHUB_OUTPUT"
+
+  speaker_identity:
+    needs: precheck
+    if: needs.precheck.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      PYTHONUNBUFFERED: "1"
+      PYTHONPATH: src
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Show target episode
+        run: echo "Running speaker_identity for episode ${{ needs.precheck.outputs.episode_id }}"
+
+      - name: Run speaker_identity
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m voicecaster.speaker_identity.run
+
+      - name: Commit updated state
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add inputs/inputs.json work/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "speaker_identity: update work state"
+
+          git fetch origin main
+          git pull --rebase origin main
+          git push origin HEAD:main
