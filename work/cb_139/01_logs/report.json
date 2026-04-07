@@ -1,0 +1,25 @@
+{
+  "episode_id": "cb_139",
+  "workflow": "intake",
+  "started_at": "2026-04-07T14:09:00Z",
+  "finished_at": "2026-04-07T14:09:02Z",
+  "result": "success",
+  "notes": [
+    "Audio descargado, validado y limpiado."
+  ],
+  "source": {
+    "url_original": "https://podcastcdn-19.ivoox.com/audio/9/1/7/9/ep139especialfisicaparticulasiisime-coffeebreaksenalruido-ivoox22379719.mp3?secure=qGnOz6wPoRg-7KSj7JPyjQ==,1775577806",
+    "url_normalized": "https://podcastcdn-19.ivoox.com/audio/9/1/7/9/ep139especialfisicaparticulasiisime-coffeebreaksenalruido-ivoox22379719.mp3?secure=qGnOz6wPoRg-7KSj7JPyjQ==,1775577806",
+    "source_type": "generic_http"
+  },
+  "audio": {
+    "ffprobe_ok": true,
+    "duration_seconds": 7379.331,
+    "container": "mp3",
+    "audio_codec": "mp3",
+    "sample_rate": 44100,
+    "channels": 2,
+    "bit_rate": 64000,
+    "size_bytes": 59035025
+  }
+}

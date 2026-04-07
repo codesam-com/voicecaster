@@ -1,0 +1,9 @@
+{
+  "result": "success",
+  "status_before": "intake",
+  "status_after": "transcript",
+  "retries_before": 0,
+  "retries_after": 0,
+  "message": "Intake completado correctamente.",
+  "finished_at": "2026-04-07T14:09:02Z"
+}

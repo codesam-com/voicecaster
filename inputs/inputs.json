@@ -27,12 +27,12 @@
     "retries": 0
   },
   {
-  "id": "cb_139",
-  "podcast_title": "Coffee Break: Señal y Ruido",
-  "episode_title": "Especial Física de Partículas II. Simetrías en Física y Leyes de Conservación; Campos Cuánticos; El Spin",
-  "url": "https://podcastcdn-19.ivoox.com/audio/9/1/7/9/ep139especialfisicaparticulasiisime-coffeebreaksenalruido-ivoox22379719.mp3?secure=qGnOz6wPoRg-7KSj7JPyjQ==,1775577806",
-  "participants": null,
-  "status": "intake",
-  "retries": 0
-}
+    "id": "cb_139",
+    "podcast_title": "Coffee Break: Señal y Ruido",
+    "episode_title": "Especial Física de Partículas II. Simetrías en Física y Leyes de Conservación; Campos Cuánticos; El Spin",
+    "url": "https://podcastcdn-19.ivoox.com/audio/9/1/7/9/ep139especialfisicaparticulasiisime-coffeebreaksenalruido-ivoox22379719.mp3?secure=qGnOz6wPoRg-7KSj7JPyjQ==,1775577806",
+    "participants": null,
+    "status": "transcript",
+    "retries": 0
+  }
 ]
