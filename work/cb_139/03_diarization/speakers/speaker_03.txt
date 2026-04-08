@@ -1,0 +1,439 @@
+Hola Héctor, ¿qué tal? ¿Cómo andamos?
+porque dicen que segundas partes nunca fueron buenas
+vamos a ver. Exactamente
+Sí, depende
+Sí, tremendamente interesante. De hecho, yo espero que a lo largo de la charla,
+más adelante, cuando hablemos de la simetría, volvamos a los temas metafísicos,
+de qué significa lo que estamos describiendo, uniéndolo con lo que acaba de decir Alberto,
+de que en algún momento terminaba y decía, bueno, le expliquaba a la gente lo que era la física de las partículas como bolitas
+y después le dije, no, ahora vamos a hablar de la realidad, hablando de campos cuánticos o de la verdad o algo así.
+Y yo diría, bueno, de la verdad hasta el año 2017, por si acaso las cosas cambien mucho en los próximos años.
+En cualquier caso, sí, por repasar un poco, veíamos en el episodio 120 que había como dos grandes grupos de partículas,
+las partículas que llamábamos bosones
+encargadas de transmitir las interacciones
+en las fuerzas conocidas
+y las fermiones que era lo que
+tradicionalmente se conoce como la materia
+que son, por decirlo de otra forma
+las partículas que sufren
+esas interacciones
+a lo largo del episodio 120 vimos que todo eso está
+mucho, que es una aproximación muy bestial
+y que todo está muy entrelazado
+unas cosas se convierten en otras
+en fin
+bueno pues dentro de esos
+Esos grupos también distinguíamos entre los quarks y los leptones,
+los quarks siendo los componentes principales de las partículas más pesadas como los protones y los neutrones,
+y los leptones siendo los electrones y los neutrinos,
+y otras familias más pesadas pero muy similares a estas partículas.
+y de hecho yo recomiendo
+tanto seguir
+este episodio como el episodio 120
+con esa tabla delante
+porque al ser un montón
+de palabrejos, cuar, leptones, fermiones
+bosones, no teniendo la tabla
+pues se hace más complicado de lo que realmente es
+esto viene a ser una especie de tabla periódica
+entre comillas, pero de las
+las partículas fundamentales, y tenerla adelante ayuda en la discusión.
+Y una vez introdujimos estas partículas, después hicimos el salto de decir,
+bueno, hasta ahora habían sido representaciones más o menos clásicas,
+donde imaginamos las partículas como puntos, pero realmente tenemos que entenderlas
+como excitaciones de ciertos campos, y cada partícula tendría asociada a un campo,
+y de hecho es más, si yo lo entendí bien, todas las partículas de una misma clase,
+si por ejemplo hablamos del electrón o del
+quark-app o lo que sea, realmente
+todas corresponden a oscilación
+de un único campo, es decir, un único campo
+que cubriría todo el universo
+sería el campo del electrón
+y diferentes perturbaciones
+más o menos locales, porque esa es otra cuestión
+como son problemas cuánticos, las cosas no están
+localizadas en un punto, sino que tienen una cierta distribución
+pues todos
+los electrones
+del universo, diríamos
+son oscilaciones de ese único campo
+Después hablamos, nos metimos a discutir cómo podían adquirir las masas a través del campo del Higgs y bueno, también estuvimos hablando de otras cuestiones, pero yo creo que más o menos se podría hacer un resumen de donde nos habíamos quedado.
+con una salvedad que yo quiero introducir ahora
+aunque discutamos más tarde y es que
+cuando hemos hablado
+clásicamente de campos
+siempre los campos
+eran campos de tipo material
+me refiero a, por ejemplo, teníamos
+pues yo que sé, el agua, lo que sea
+el agua descrita como
+A ver, el agua no es un buen ejemplo, pero yo qué sé, las temperaturas en una habitación o algo así.
+La atmósfera.
+La atmósfera, sí.
+Lo que quiero decir es que siempre consideramos que había una sustancia, ¿no?
+Donde la sustancia variaba de propiedades, pero había una sustancia.
+Mientras que estos campos no están sustanciados en nada.
+Y eso sí que es muy fuerte porque decimos,
+estamos estudiando las partículas que consideramos que eran pelotitas y tal.
+y ahora decimos, no son campos, pero ¿en dónde es esa sustancia?
+Ah, no me preguntes cosas raras.
+Bueno, pues eso es una cosa...
+De acuerdo, de acuerdo que podemos cambiar la... podemos... fantástico, me parece genial que hablemos de sustancia como campo, pero lo que quiero decir es que clásicamente la gente hasta la relatividad especial se partió la cabeza para entender las oscilaciones y por eso hablaban del éter.
+O sea, el éter en última instancia era lo que intuitivamente entendemos como sustancia, ¿de acuerdo? Estoy de acuerdo que cuando... estoy totalmente de acuerdo con Francia en que cuando profundizas un poco en lo que significa la sustancia, también se te desmaterializa.
+Pero sin etiquetarlo, sin hacer una etiqueta de, bueno, digamos, sustancia o no,
+lo que quiero decir es que aquí no estamos hablando del éter.
+Quiere decir, no necesitamos de añadir una componente nueva a la materia
+para explicar cómo se propagan los campos, o se oscilan, o vibran, o lo que sea.
+sino que internamente
+esos campos, pues varían
+en el espacio-tiempo con unas ciertas propiedades
+pero no se va a añadir algo más, a ese sentido
+ese algo más era el éter antes
+pero ya si quieres por terminar
+la discusión esta
+es que esto es clave, porque cuando tú
+hablas de, hemos pasado de la imagen de la
+partícula a la imagen de los, voy a hablar ahora de la
+realidad, de los campos cuánticos, yo ahí tengo que
+poner el pie en el freno
+y decir, ojo, porque tú mismo
+estás hablando de que los campos cuánticos podrían ser
+simplemente el instrumento
+que utilizamos para describir
+la realidad última, sea lo que fuere
+¿de acuerdo? Entonces es importante y creo
+que solo en programas como Coffee Break, se lo comentaba
+a Héctor fuera de micro
+y somos
+paramos un momento y decimos, señores
+esto todavía
+vamos a, o por lo menos yo
+pondría un poquito en la precaución
+esto funciona muy bien
+pero a día de hoy no sabemos
+si son un instrumento
+o realmente una descripción
+última de lo
+que está pasando ahí abajo
+En cualquier caso, pongamos la frontera del conocimiento en los campos cuánticos actuales o nos vayamos a la teoría de cuerdas, la pregunta de nuevo de qué están hechos, lo que sí está claro, apostaría bastante de mi dinero, no todo, para poder pagar la hipoteca, pero una parte importante, a que no está hecho de nada de tipo partículas como estábamos pensando antes en última instancia.
+lo que quiero decir con esto es que a medida que vamos
+profundizando, lo que va apareciendo
+son estructuras de tipo matemático
+¿vale?
+sin una subyacente
+de tipo partícula
+es que no sé cómo explicarlo
+Estaríamos todos de acuerdo, en definitiva, que hasta donde llegamos a día de hoy en la física teórica
+y las posibles extrapolaciones que se puedan hacer a lo largo del siglo XXI, que ahora mismo se están trabajando,
+la realidad última
+no se describe en base a ninguna cuestión
+de tipo material, entendido por material
+sino a base de
+estructuras matemáticas
+ahora, ¿qué demonios son las estructuras
+matemáticas? ¿o no?
+bueno, pues esa es otra historia
+pero bueno
+en detalle que dónde nos estamos manejando
+solamente quería decir que
+solo aclarar eso
+de hecho la cosa va más allá porque
+desde el punto de vista metafísico, uno tendería
+que si tiene una teoría cerrada del universo
+tiene dos teorías cerradas del universo
+que explican todo lo conocido
+y predicen los experimentos
+uno tendería a coger
+como favorita la más simple
+pero en el caso que tú comentas, la más simple
+sería a priori la teoría de Newton
+y
+quiere decir que las cosas son más complejas
+afortunadamente
+por eso es tan importante
+los experimentos que estábamos hablando en el episodio
+116 si no recuerdo mal de
+Quim Matías, ¿no? De posibles
+¿cómo se llama esto?
+que no estaban
+que no estaban dentro del módulo
+estándar, sino que era necesario
+No podían ser explicadas con esa
+Por eso yo creo que
+los físicos teóricos, los físicos de partículas están desesperados
+por encontrar fallos
+Estamos entrando en una discusión filosófica.
+El último punto, discrepo amablemente de lo que ha dicho Alberto ahora.
+Creo que todos los grandes físicos han sido metafísicos
+y todos los que han producido revoluciones de paradigma
+han sido a partir de la metafísica.
+pero bueno, solamente quería hacer ese punto
+yo discrepo con Nacho
+pero bueno, ya está
+Es decir que en vez de ser un spin off
+fue un spin on
+Tú tenías una pregunta.
+No, cuando antes hablábamos
+de si tenía un medio
+o era menos un medio el valor
+y decíamos, cuando no mido
+es algo que está
+puede ser uno u otro o algo intermedio.
+Lo que quería decir simplemente es que cuando medimos
+forzamos a que sea un valor concreto.
+porque ponemos un campo magnético o lo que sea
+para ver hacia dónde se desvía el electrón, por lo tanto
+estamos forzando que vaya hacia un lado o hacia otro
+es decir, medir es proyectar
+es lo que quería decir
+y proyectar a un valor concreto, no pueden ser los dos
+Ya estábamos pensando en Messi dándole la patada.
+No, no, es una molécula.
+con un virus, que guapo
+y yo creo que eso también
+explica por qué se tardó tanto
+en entender bien la fuerza fuerte
+porque era muy muy compleja
+desde el punto de vista tanto teórico
+como experimental al reunir
+todos estos elementos a la vez
+Más que un comentario, una pregunta. Aprovechar que tenemos a Alberto y a Francis aquí.
+Si te he entendido bien, Francis, antes has comentado que el spin de cosas como el electrón lo hemos medido, sabemos que es un medio,
+pero cosas como el neutrino lo suponemos por cómo interacciona o lo que sea,
+pero nadie lo ha medido de manera directa, ¿es correcto esto o no he entendido bien?
+Yo creo que era un punto muy importante de aclarar este porque lo que sí podemos decir es que suponer que el spin del neutrino es un medio es compatible con todas las observaciones que tenemos hasta la fecha. Eso es lo único que... Vale, muy bien.
+empecemos por el tema de la simetría desde un punto de vista más básico
+y así después podemos llegar a esta cuestión de las roturas de simetría,
+cambios de fase, inflación?
+Por supuesto, sí.
+Vamos a meternos quizás en lo que es el concepto de simetría
+y las diferentes cuestiones, ¿no?
+podemos empezar describiendo los que se conocen como
+las simetrías en la física clásica
+por decir algo
+por empezar
+pues por ejemplo
+tenemos
+la simetría de traslación
+que viene a ser
+básicamente que si yo tengo mi laboratorio
+aquí en Tenerife
+y hago un experimento
+y exactamente
+el mismo laboratorio
+allí en Málaga
+o en cualquier sitio que se nos ocurra de la Tierra,
+hago el mismo experimento y se reproduce en el experimento exactamente igual.
+Es decir, que el lugar en el universo donde se está haciendo el experimento
+produce el mismo resultado.
+Si eso es así, se dice que hay una simetría traslacional.
+Esa sería una simetría, la de la traslación.
+Podríamos tener otra simetría que es la de la rotación, por ejemplo.
+O que significaría básicamente, si cojo mi laboratorio y giro todo el laboratorio 90 grados y a los observadores también 90 grados y repito exactamente el mismo experimento, esperamos que salgan los mismos resultados.
+Eso es.
+Y después tendríamos otra simetría clásica que es la simetría del temporal, es decir, la invariancia cuando, es decir, si repito el mismo experimento, ahora lo hago dentro de 10 años o lo hice hace 2 millones de años y sale lo mismo, pues decimos que también tiene una simetría temporal.
+Bueno, pues todas estas simetrías, que son simetrías clásicas, porque después en las cuánticas hay otras simetrías, pero son un poquito distintas o muy distintas. Estas simetrías, Emineter, una matemática del principio del siglo XX, se dio cuenta de que cuando había simetrías en las leyes de la física, asociado a esas simetrías, había unas cantidades que se conservaban.
+¿vale? y esto es muy importante
+por ejemplo, en el caso
+de la invarianza
+o de la simetría con respecto al tiempo
+lo que se conserva es la energía
+cuando uno hace las ecuaciones, sin meternos
+en las cuestiones matemáticas, se da cuenta
+que la cantidad conservada
+si la naturaleza es así, si no distingue
+cuando se realizó el experimento
+significa que la energía era la misma
+en las dos configuraciones
+y esto es muy importante
+porque nos cambia completamente
+la forma de ver la física
+en el sentido de que antes nosotros hablábamos
+la gente sabía mucho antes
+de Minéter que la energía se conservaba
+por ejemplo, estaba la ley
+de la conservación de la energía
+una ley conocida
+sin embargo se postulaba
+no se interpretaba como
+una asimetría, sino simplemente decía
+en los experimentos se conserva la energía
+o en los experimentos se conserva el momento
+lineal o se conservaba el momento angular
+mientras que ahora en la visión
+más moderna de la física
+y es un desarrollo sobre todo del siglo XX, lo que se impone en la física son las simetrías.
+Es decir, vamos a postular una simetría que queremos que la naturaleza tenga
+y a partir de ahí deducimos unas leyes de conservación
+y también cómo son las propias leyes de la naturaleza.
+Yo creo que era un poquito por introducir el tema desde el punto de vista más clásico.
+De hecho eso es lo que complica tanto encontrar cuáles son las simetrías de las leyes de la naturaleza, porque como dices tú, en cualquier configuración experimental la naturaleza está totalmente intrincada, tenemos efectos de todos lados.
+Cuando la miramos en detalle, descubrimos que estamos sobre la Tierra, o que estamos recibiendo la radiación del Sol, o los rayos cósmicos de la galaxia. Es muy difícil pensar en un sistema completamente aislado para probar las leyes de la naturaleza de forma aislada, porque la naturaleza está toda intrincada.
+Es importante el punto que ha dicho Alberto, de que estas son las simetrías
+de las leyes de la naturaleza.
+Más que de la experimentación
+que hacemos, que puede tener más o menos
+Sí, estamos hablando de un experimento ideal.
+de hecho creo que es importante cuando has hablado del tema
+de donde prueban los físicos
+las simetrías es en la acción
+en lo que tú comentabas, la función esa que has definido
+sobre las trayectorias
+si para nosotros
+una simetría
+es una transformación
+de la variable esta que está
+variando, que es por ejemplo la posición
+que tú comentabas, en este caso
+tal que la acción
+no cambia
+es decir, eso sería una
+simetría del sistema
+tal que si la aplico
+entraría la que habíamos hablado antes
+si repito
+ese mismo experimento de soltar la piedra
+dentro de tres años
+y se produce lo mismo, sabemos que tiene
+simetría temporal. O sea, es porque la
+acción no distingue entre hacerlo
+en el tiempo hoy o dentro de un tiempo
+más otro, más un delta
+de tiempo, más un intervalo de tiempo posterior.
+Lo mismo con variar
+el experimento de sitio o
+girar todo el experimento.
+Un comentario,
+Lo bueno por seguir avanzando un poquito en el tema
+es que después de este
+teorema de Mineter
+unido con el grandísimo éxito
+que tuvo la Relatividad Especial y General
+yo creo que es cuando se produce
+ese cambio de paradigma que los físicos se dan
+cuenta que de repente lo de las
+leyes de conservación están muy bien
+pero que explorar las simetrías de la
+la naturaleza es realmente lo que nos va a dar luz en el siguiente progreso del entendimiento
+de la física. Y es a partir de ese momento yo creo que es donde explosiona la física
+de la mitad del siglo XX hasta el final del siglo XX, donde los físicos empiezan a explorar
+simetrías, a proponer simetrías y ver qué se deriva de ellas. Y ahora entraremos en
+en ellas un poquito más, con las simetrías, por ejemplo, en la mecánica cuántica y todo eso.
+Pero fíjate, hasta el año 1918, que es cuando se produce este teorema de Néter,
+uno dice, la simetría traslacional implica la conservación del momento,
+la simetría rotacional, la del momento angular,
+la simetría temporal, la conservación de la energía,
+y la simetría bajo el cambio de fase de las funciones de ondas de las partículas cargadas,
+la conservación de la carga eléctrica
+es decir, a principios del siglo XX
+todavía sin meternos en la cuántica
+ya teníamos por esas leyes
+por esas simetrías
+en las leyes
+las conservaciones
+de cuatro
+cosas tan importantes como energía, momento
+el tiempo y la carga eléctrica
+A ver si me lo pueden aclarar.
+Por concretar, la pregunta sería, ¿las simetrías en la física clásica son lo que hemos explicado?
+¿En qué se diferencian con respecto a las simetrías en la visión moderna, en la mecánica cuántica?
+¿Es simplemente un desarrollo de estas ideas antiguas pero aplicado al nuevo formalismo o hay algo nuevo?
+Esa sería un poco la pregunta.
+Pero aquí deberíamos parar un poco porque
+me surge la duda
+no sé si está relacionada con la que le puede surgir
+a Héctor también es
+nosotros postulamos
+la simetría a priori
+y entonces, por ejemplo, tú decías
+en la
+fuerza fuerte, ¿no?
+Postulamos esta simetría y por lo tanto tenemos
+ocho gluones o es
+al revés, es decir, tenemos evidencia,
+tenemos indicios observacionales de que hay
+ocho gluones, por lo tanto la simetría que hay
+debajo es esta.
+¿Cómo se alimenta esto?
+es interesante aquí a puntillar
+que mientras que las simetrías que veíamos
+en la física clásica
+eran relativamente intuitivas
+en el sentido de que uno podía decir
+bueno, no va a cambiar nada
+porque haga el experimento hoy
+a que lo haga mañana
+mientras que las simetrías
+de las que estamos hablando aquí ahora
+que han creado el modelo
+de física particular moderno
+Son simetrías distintas, no era una que tú te sentabas y decías voy a suponer que la simetría es el grupo SU3 o lo que sea, sino que es algo que creas a partir de los indicios observacionales mezclados con ciertas intuiciones teóricas, pero que no son, a nadie se le ocurre por decir algo, no, la simetría de la naturaleza es el SU3, no, eso no es por decir algo.
+algo, ¿no? Me explico,
+no sé, que son más abstractas.
+Que es volver a retomar un poquito lo que
+comentamos justo antes de empezar a hablar de la simetría
+sobre el tema de las roturas
+espontáneas de simetría, las
+fases, la unificación
+de las fuerzas a medida que vayamos aumentando
+de energía, creo que este es un tema
+que nunca hemos tratado en Coffee Break
+o lo hemos tratado de otra forma
+porque habíamos hablado de inflación
+de energía de inflación, de por qué cuando
+por ejemplo el universo era un estado inflacionario
+pero que ahora lo podemos ver desde otra perspectiva
+por ejemplo estas propias
+y unirlo a lo que aquí estamos más
+acostumbrados a hablar en Coffee Break que son cuestiones
+más cosmológicas y eso, así que creo que es un
+punto de vista muy bonito como se cierra
+todo el armazón teórico
+y por ejemplo cosas como la inflación
+que hemos hablado aquí, de que consideramos
+que es una fase del universo
+muy al principio del universo
+que expande el universo de una forma
+exponencial
+y después de esa fase distinta donde la naturaleza estaba dominada
+por un campo inflacionario, o sea, eso es lo que significa
+que nos convertíamos en este universo, básicamente,
+en el universo actual, ¿no?
+¿Y cómo se piensa que la transición de uno a otro
+se relaciona con una rotura de simetría,
+que es la rotura de la equivalente a una energía de la gran unificación
+cuando se desacopla la fuerza nuclear fuerte de la fuerza débil y la fuerza electromagnética
+y yo lo comento porque hace unos pocos años cuando apareció en las noticias
+que BICEPS, un experimento en la Antártida si no recuerdo mal
+había detectado
+indicios sobre las ondas gravitacionales
+el reflejo de las ondas gravitacionales
+asociadas a la inflación
+en la radiación de fondo
+para mí fue
+recuerdo vivir aquellos días
+con una gran emoción
+desde el punto de vista físico
+Dios mío, si esto se confirma
+hubo un momento en el universo
+en que las fuerzas
+excepto la gravedad, las otras fuerzas
+estuvieron, o sea, hay un indicio fuerte
+de que todas las fuerzas realmente estuvieron unidas
+en algún momento, sin embargo hoy
+vemos que hay distintos tipos
+de fuerzas, a las energías que nos movemos
+en el universo actual
+vemos la fuerza electromagnética, vemos la gravedad
+vemos la fuerza nuclear débil, la fuerte
+pero pensar que todo eso
+excepto la gravedad
+insisto, estaba unificado en una
+única fuerza
+sé que a Francis no le gusta el concepto de fuerza
+pero que era una única interacción, a mí me resulta, yo no sé cómo les resultará a ustedes, pero a mí eso me resulta de una belleza extrema, pensar que el universo, que toda la complejidad del universo actual es el resultado de ir rompiendo algunas simetrías de las interacciones y que todo antes era mucho más sencillo, entre comillas.
+Imagínate que lo están, sería de una belleza extrema
+Dejanos ganar el Nobel, hombre.
+Gracias a ti, Héctor, por reunirnos
+y organizar estas tertulias tan interesantes.
+Estupendo. Espero que

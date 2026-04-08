@@ -1,0 +1,155 @@
+{
+  "speaker": "unknown",
+  "num_utterances": 4,
+  "speech_seconds": 4.92,
+  "first_seen": 25.58,
+  "last_seen": 7254.97,
+  "utterances": [
+    {
+      "utterance_id": "utt_000005",
+      "start": 25.58,
+      "end": 26.14,
+      "duration": 0.56,
+      "text": "Exactamente.",
+      "speaker": null,
+      "speaker_confidence": null,
+      "assignment_source": null,
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 0.0,
+        "coverage_ratio": 0.0,
+        "candidate_speakers": []
+      },
+      "flags": [
+        "no_speaker_overlap"
+      ],
+      "words": [
+        {
+          "word": " Exactamente.",
+          "start": 25.58,
+          "end": 26.14,
+          "probability": 0.9906539022922516
+        }
+      ]
+    },
+    {
+      "utterance_id": "utt_000006",
+      "start": 26.18,
+      "end": 28.04,
+      "duration": 1.86,
+      "text": "Einstein desmiente la física de Newton.",
+      "speaker": null,
+      "speaker_confidence": null,
+      "assignment_source": null,
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 0.0,
+        "coverage_ratio": 0.0,
+        "candidate_speakers": []
+      },
+      "flags": [
+        "no_speaker_overlap"
+      ],
+      "words": [
+        {
+          "word": " Einstein",
+          "start": 26.18,
+          "end": 26.44,
+          "probability": 0.9992152452468872
+        },
+        {
+          "word": " desmiente",
+          "start": 26.44,
+          "end": 27.18,
+          "probability": 0.9999349514643351
+        },
+        {
+          "word": " la",
+          "start": 27.18,
+          "end": 27.38,
+          "probability": 0.9999871253967285
+        },
+        {
+          "word": " física",
+          "start": 27.38,
+          "end": 27.56,
+          "probability": 0.9999878406524658
+        },
+        {
+          "word": " de",
+          "start": 27.56,
+          "end": 27.84,
+          "probability": 0.9999960660934448
+        },
+        {
+          "word": " Newton.",
+          "start": 27.84,
+          "end": 28.04,
+          "probability": 0.9997135996818542
+        }
+      ]
+    },
+    {
+      "utterance_id": "utt_000010",
+      "start": 33.36,
+      "end": 35.66,
+      "duration": 2.3,
+      "text": "Soberbios, científicos soberbios.",
+      "speaker": null,
+      "speaker_confidence": null,
+      "assignment_source": null,
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 0.0,
+        "coverage_ratio": 0.0,
+        "candidate_speakers": []
+      },
+      "flags": [
+        "no_speaker_overlap"
+      ],
+      "words": [
+        {
+          "word": " Soberbios,",
+          "start": 33.36,
+          "end": 33.78,
+          "probability": 0.9830355048179626
+        },
+        {
+          "word": " científicos",
+          "start": 33.92,
+          "end": 35.02,
+          "probability": 0.9997420608997345
+        },
+        {
+          "word": " soberbios.",
+          "start": 35.02,
+          "end": 35.66,
+          "probability": 0.9995835423469543
+        }
+      ]
+    },
+    {
+      "utterance_id": "utt_002287",
+      "start": 7254.77,
+      "end": 7254.97,
+      "duration": 0.2,
+      "text": "Gracias.",
+      "speaker": null,
+      "speaker_confidence": null,
+      "assignment_source": null,
+      "overlap_stats": {
+        "best_speaker_overlap_seconds": 0.0,
+        "coverage_ratio": 0.0,
+        "candidate_speakers": []
+      },
+      "flags": [
+        "no_speaker_overlap"
+      ],
+      "words": [
+        {
+          "word": " Gracias.",
+          "start": 7254.77,
+          "end": 7254.97,
+          "probability": 0.22827008366584778
+        }
+      ]
+    }
+  ]
+}

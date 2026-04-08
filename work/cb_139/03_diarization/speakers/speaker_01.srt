@@ -1,0 +1,2343 @@
+1
+00:00:00,050 --> 00:00:03,070
+Profesor Adam Rees, Premio Nobel de Física.
+
+2
+00:00:45,760 --> 00:00:51,300
+Saludos científicos de toda la galaxia. Les habla Héctor Socas desde la Sala Omega del
+
+3
+00:00:51,300 --> 00:00:56,140
+Instituto de Astrofísica de Canarias y les damos la bienvenida a nuestra tertulia científica
+
+4
+00:00:56,140 --> 00:01:03,410
+de esta semana. Lo prometido es deuda. Dijimos que haríamos una segunda parte de nuestro
+
+5
+00:01:03,410 --> 00:01:08,730
+programa especial de física de partículas y aquí estamos, listos para cumplir con ese
+
+6
+00:01:08,730 --> 00:01:14,710
+compromiso. Vamos a sumergirnos en el mundo de lo subatómico, donde reina la física
+
+7
+00:01:14,710 --> 00:01:20,230
+cuántica a ver si podemos entender cómo funciona la naturaleza en las escalas
+
+8
+00:01:20,230 --> 00:01:24,590
+más pequeñas que conocemos o al menos hasta dónde llega el conocimiento actual
+
+9
+00:01:24,590 --> 00:01:30,950
+y que podría haber un poquito más allá intentaremos que sea digerible más que
+
+10
+00:01:30,950 --> 00:01:35,630
+nada por mí porque no soy experto y me gustaría mucho aprender de todo este
+
+11
+00:01:35,630 --> 00:01:41,260
+tema tan fascinante pero bueno si sale algo durillo seguro que nos lo sabrán
+
+12
+00:01:41,260 --> 00:01:49,630
+perdonar como en otras ocasiones. Una cosita eso sí, les recomiendo que si no lo han hecho que
+
+13
+00:01:49,630 --> 00:01:56,350
+escuchen nuestro episodio número 120 porque ahí hicimos un primer repaso a este campo, la física
+
+14
+00:01:56,350 --> 00:02:04,070
+de altas energías. En aquel episodio discutimos muchos conceptos clave que supongo que volverán
+
+15
+00:02:04,070 --> 00:02:11,140
+a salir hoy en la conversación. Por otra parte también les recuerdo que en el episodio 116
+
+16
+00:02:11,940 --> 00:02:13,840
+hablamos también sobre el modelo estándar
+
+17
+00:02:13,840 --> 00:02:17,480
+en particular algunas de las fisuras que empieza a mostrar
+
+18
+00:02:17,480 --> 00:02:21,740
+y tuvimos una conversación larga e interesante
+
+19
+00:02:21,740 --> 00:02:24,200
+con el profesor Kim Matías
+
+20
+00:02:24,200 --> 00:02:29,320
+que es uno de los investigadores más importantes en este campo a nivel internacional
+
+21
+00:02:29,320 --> 00:02:32,600
+y sobre física cuántica en general
+
+22
+00:02:32,600 --> 00:02:37,360
+también les recomiendo una conversación fascinante que tuvimos con Ignacio Sirac
+
+23
+00:02:37,360 --> 00:02:39,060
+en el episodio 108
+
+24
+00:02:40,330 --> 00:02:59,310
+Y bueno, estos son algunos de los antecedentes más relevantes sobre el tema de hoy, pero insisto, lo que sí que les recomendaría en cualquier caso sería, si no lo han hecho todavía, escuchar ese episodio número 120, que es el especial física de partículas, porque esta tertulia de hoy la hemos pensado un poco como una continuación de aquel programa.
+
+25
+00:02:59,310 --> 00:03:11,000
+programa. ¿Y dónde nos pueden escuchar? Pues ya lo saben a estas alturas. Los programas completos
+
+26
+00:03:11,000 --> 00:03:17,080
+con horas de contenido extra los tienen en internet, tanto en iVoox como en iTunes y algunas
+
+27
+00:03:17,080 --> 00:03:24,840
+otras plataformas. También pueden encontrarlos en nuestra página web señalirruido.com y en esa web
+
+28
+00:03:24,840 --> 00:03:29,400
+además pueden encontrar referencias a las cosas que contamos en cada episodio. Con cada episodio
+
+29
+00:03:29,400 --> 00:03:33,160
+ponemos ahí referencias para aprender más sobre los temas
+
+30
+00:03:33,160 --> 00:03:36,960
+o algunos enlaces útiles relacionados que recomendamos.
+
+31
+00:03:37,720 --> 00:03:41,200
+Hay también enlaces al Club de Fans y a otros materiales.
+
+32
+00:03:41,540 --> 00:03:44,180
+Insisto, la página es señalirruido.com
+
+33
+00:03:44,180 --> 00:03:47,740
+con ñ, todo junto, señalirruido, todo junto, punto com.
+
+34
+00:03:48,920 --> 00:03:50,600
+Estamos en Facebook y en Twitter,
+
+35
+00:03:50,800 --> 00:03:52,640
+ahí nos pueden dejar sus comentarios,
+
+36
+00:03:53,020 --> 00:03:55,700
+sus preguntas, sus críticas, lo que sea.
+
+37
+00:03:56,520 --> 00:03:59,440
+O también por correo electrónico en la dirección
+
+38
+00:03:59,440 --> 00:04:10,970
+oyentes arroba señal y ruido punto com estamos en varias emisoras de radio en
+
+39
+00:04:10,970 --> 00:04:17,310
+canarias en icodendaute radio radio el día radio eca y ondas yaiza en madrid en
+
+40
+00:04:17,310 --> 00:04:24,370
+onda pedrisa en aragón radio ebro y en argentina en la fm 99.9 de mar del plata
+
+41
+00:04:24,370 --> 00:04:30,030
+en nuestra web tienen todos los horarios y las frecuencias de estas emisoras
+
+42
+00:04:33,680 --> 00:04:40,120
+Venga, pues vamos ya sí con la tertulia, con el mismo equipo que teníamos en la primera parte.
+
+43
+00:04:40,500 --> 00:04:45,640
+Aquí conmigo, en la sala Omega, está Nacho Trujillo, investigador del Instituto de Astrofísica de Canarias.
+
+44
+00:04:45,740 --> 00:04:46,280
+Hola Nacho.
+
+45
+00:04:47,740 --> 00:04:53,820
+Bien, bien. Y por videoconferencia tenemos a Francis Villatoro, profesor de la Universidad de Málaga.
+
+46
+00:04:53,940 --> 00:04:54,400
+Hola Francis.
+
+47
+00:05:00,580 --> 00:05:03,360
+Sospecho que mucho. Vamos a hablar de campos cuánticos y de simetrías.
+
+48
+00:05:03,660 --> 00:05:11,840
+Y también nos acompaña, por supuesto, Alberto Aparici, que es comunicador científico en el Instituto de Física Corpuscular de Valencia
+
+49
+00:05:11,840 --> 00:05:15,040
+y director del programa La Brújula de la Ciencia en Onda Cero. Hola, Alberto.
+
+50
+00:05:23,160 --> 00:05:27,340
+Pues sí, lo mismo queda alguien por ahí. Yo no lo sé, la gente no deja de sorprenderme.
+
+51
+00:05:27,340 --> 00:05:29,340
+así que cada programa de esto es un poco
+
+52
+00:05:29,340 --> 00:05:31,140
+un experimento, ¿no? Ahora no la jugamos
+
+53
+00:05:35,620 --> 00:05:36,560
+Igual no deberíamos...
+
+54
+00:05:40,170 --> 00:05:41,670
+Claro, depende si cuentas también
+
+55
+00:05:41,670 --> 00:05:43,270
+el programa con Kim Matías
+
+56
+00:05:43,270 --> 00:05:44,930
+Sí, pero bueno, como...
+
+57
+00:06:20,870 --> 00:06:21,470
+Muy bien
+
+58
+00:06:21,470 --> 00:06:25,360
+En fin, por repasar un poco
+
+59
+00:06:25,360 --> 00:06:29,980
+algunas ideas básicas y no empezar así muy de golpe, vamos a ir entrando poco a poco en el agua.
+
+60
+00:06:30,360 --> 00:06:35,040
+¿Qué les parece si repasamos algunos de los conceptos que ya discutimos en profundidad en aquel programa?
+
+61
+00:06:35,420 --> 00:06:43,400
+Insisto, el episodio 120 y que les recomendamos, como decía antes, que si no lo han escuchado pues que lo escuchen.
+
+62
+00:06:43,840 --> 00:06:50,320
+Pero quizás uno de los conceptos fundamentales que salió de allí es la idea de que las partículas no son bolitas,
+
+63
+00:06:50,320 --> 00:06:53,640
+que tenemos que acostumbrarnos a pensar en que hay campos cuánticos
+
+64
+00:06:53,640 --> 00:06:58,720
+y que lo que tradicionalmente hemos llamado partículas son excitaciones de esos campos.
+
+65
+00:06:59,480 --> 00:07:04,700
+No sé si Nacho quieres introducirte un poco esa cuestión que siempre te ha parecido muy interesante.
+
+66
+00:08:40,260 --> 00:08:44,600
+Yo voy a hacer un inciso aquí para volver a recomendar la chuleta, que además la tengo aquí conmigo,
+
+67
+00:08:44,600 --> 00:08:47,080
+la infografía que hizo Cavi Pasos
+
+68
+00:08:47,080 --> 00:08:49,140
+de Mola Saber, si buscan en Google
+
+69
+00:08:49,140 --> 00:08:50,640
+Mola Saber Partículas
+
+70
+00:08:50,640 --> 00:08:53,380
+les aparecerá esta tablita de partículas fundamentales
+
+71
+00:10:29,420 --> 00:10:31,500
+Muy bien, muy bien. Veo que tú lo has estudiado.
+
+72
+00:12:21,560 --> 00:12:24,180
+Eso nos llevaría al problema de la simetría,
+
+73
+00:12:24,200 --> 00:12:25,760
+de por qué existe, pero
+
+74
+00:12:26,700 --> 00:12:28,200
+vamos a ver si llegamos a eso
+
+75
+00:12:28,200 --> 00:12:30,140
+más adelante, yo quería añadir
+
+76
+00:13:26,760 --> 00:13:28,040
+y quizás también
+
+77
+00:13:28,040 --> 00:13:30,160
+yo añadiría a esta discusión
+
+78
+00:13:30,160 --> 00:13:31,720
+que a lo mejor parece un poco
+
+79
+00:13:32,200 --> 00:13:33,620
+extraño, un poco místico
+
+80
+00:13:33,620 --> 00:13:36,140
+hay un campo que llena todo el universo
+
+81
+00:13:36,140 --> 00:13:38,180
+suena un poco a Star Wars
+
+82
+00:13:38,180 --> 00:13:39,940
+la fuerza que une la galaxia
+
+83
+00:13:39,940 --> 00:13:42,520
+pero realmente no lo es
+
+84
+00:13:42,520 --> 00:13:44,280
+y me gustaría poner la analogía
+
+85
+00:13:44,280 --> 00:13:45,660
+que suelo usar
+
+86
+00:13:45,660 --> 00:13:47,840
+del campo electromagnético y el fotón
+
+87
+00:13:47,840 --> 00:13:49,020
+que me parece una analogía muy buena
+
+88
+00:13:49,020 --> 00:13:51,800
+para entender intuitivamente cosas
+
+89
+00:13:51,800 --> 00:13:53,620
+porque en el fondo es lo mismo
+
+90
+00:13:53,620 --> 00:14:05,940
+Entonces tiene la misma complejidad, pero como es un concepto con el que estamos familiarizados desde hace más tiempo, parece que entender intuitivamente algo quiere decir que llevemos más años estudiándolo o pensando en esos términos.
+
+91
+00:14:05,940 --> 00:14:31,340
+Y en términos del fotón y el campo electromagnético llevamos muchos años pensándolo y entonces no nos resulta sorprendente saber que hay un campo eléctrico que llena todo el universo y que los fotones son oscilaciones de ese campo y todos los fotones del universo son vibraciones en ese campo y que incluso, como decía Francis, puede haber dos campos, el eléctrico y el magnético, que están intrínsecamente acoplados.
+
+92
+00:14:31,340 --> 00:14:33,400
+es que el fotón es una vibración de los dos
+
+93
+00:14:33,400 --> 00:14:35,340
+del campo eléctrico y el magnético, no se puede separar
+
+94
+00:14:35,340 --> 00:14:37,160
+uno del otro y en ese sentido
+
+95
+00:14:37,160 --> 00:14:38,600
+me parece que puede dar una idea
+
+96
+00:14:38,600 --> 00:14:40,980
+de esto que estamos hablando que no es nada extraño
+
+97
+00:14:40,980 --> 00:14:43,180
+que en el caso del fotón lo vemos
+
+98
+00:17:02,920 --> 00:17:04,000
+Estos campos no son éter.
+
+99
+00:17:04,000 --> 00:17:06,080
+En el fondo yo siempre he pensado que estos campos son un poco el éter.
+
+100
+00:17:06,180 --> 00:17:09,700
+O sea, cuando decimos que la velocidad no se propaga por el campo electromagnético,
+
+101
+00:17:09,780 --> 00:17:11,440
+para mí es lo mismo que decir que se propaga en el éter.
+
+102
+00:17:30,130 --> 00:17:31,950
+Ya, pero cuando dices que la materia, ¿no?
+
+103
+00:17:31,970 --> 00:17:34,770
+que la materia que está hecha de estas partículas
+
+104
+00:17:34,770 --> 00:17:36,370
+en realidad es una excitación de los campos
+
+105
+00:17:36,370 --> 00:17:38,810
+pues ya es que la distinción entre campo y materia
+
+106
+00:17:38,810 --> 00:17:40,130
+o sea, qué es materia y qué no
+
+107
+00:17:40,130 --> 00:17:41,470
+es difícil de definir, ¿no?
+
+108
+00:17:42,430 --> 00:17:42,830
+Alberto
+
+109
+00:23:48,980 --> 00:23:50,060
+Sí, desde ese punto de vista, sí.
+
+110
+00:24:21,860 --> 00:24:24,460
+yo es que la distinción entre material o matemático que tú planteas
+
+111
+00:24:24,460 --> 00:24:26,060
+no la veo así, ¿no? o sea, para mí
+
+112
+00:24:26,780 --> 00:24:28,660
+material es una percepción
+
+113
+00:24:28,660 --> 00:24:30,160
+macroscópica de
+
+114
+00:24:30,160 --> 00:24:32,020
+cosas, lo que sí creo
+
+115
+00:24:32,020 --> 00:24:33,240
+es que a lo mejor
+
+116
+00:24:33,240 --> 00:24:35,460
+es decir
+
+117
+00:24:35,690 --> 00:24:37,490
+la pregunta que quizás subyace
+
+118
+00:24:37,490 --> 00:24:39,650
+y tú y yo hemos discutido esto muchas veces
+
+119
+00:24:39,650 --> 00:24:40,670
+en conversiones de pasillo
+
+120
+00:24:40,670 --> 00:24:43,070
+es si estos elementos
+
+121
+00:24:43,070 --> 00:24:45,330
+fundamentales que tienen estas teorías
+
+122
+00:24:46,240 --> 00:24:46,920
+realmente
+
+123
+00:24:46,920 --> 00:24:49,000
+la naturaleza es así
+
+124
+00:24:49,000 --> 00:24:51,680
+o si simplemente con estos elementos fundamentales
+
+125
+00:24:51,680 --> 00:24:53,420
+somos capaces de desarrollar teorías que nos dan
+
+126
+00:24:53,420 --> 00:24:55,420
+predicciones que reproducen los experimentos
+
+127
+00:24:55,420 --> 00:24:57,540
+que observamos, es decir, las teorías de alguna forma
+
+128
+00:24:57,540 --> 00:24:58,700
+son instrumentales
+
+129
+00:24:58,700 --> 00:25:00,560
+tienen el objetivo
+
+130
+00:25:00,560 --> 00:25:03,040
+de reproducir las cosas que observamos
+
+131
+00:25:03,040 --> 00:25:05,480
+entonces si uno consigue una teoría que lo reproduce
+
+132
+00:25:05,480 --> 00:25:06,840
+todo, que te explica todo
+
+133
+00:25:06,840 --> 00:25:09,640
+y que te permite hacer cálculos
+
+134
+00:25:09,640 --> 00:25:11,160
+y predicciones, tú dices
+
+135
+00:25:11,160 --> 00:25:13,780
+bueno, esta teoría funciona, ¿significa eso que la realidad
+
+136
+00:25:13,780 --> 00:25:15,700
+sea como los principios
+
+137
+00:25:15,700 --> 00:25:17,340
+de esa teoría? pues no lo sabemos
+
+138
+00:25:17,340 --> 00:25:19,560
+pero probablemente es una pregunta que ni siquiera es científica
+
+139
+00:25:19,560 --> 00:25:20,360
+no, no lo es
+
+140
+00:25:20,360 --> 00:25:23,320
+y yo, sí, por eso creo que es una cuestión
+
+141
+00:25:23,320 --> 00:25:25,460
+que está un poco más allá de lo que la
+
+142
+00:25:25,460 --> 00:25:27,600
+yo solo quería aclarar antes de meternos
+
+143
+00:25:33,660 --> 00:25:35,920
+bueno, creo que tanto Francis como Alberto querían comentar
+
+144
+00:25:35,920 --> 00:25:36,940
+no sé si Francis, por ejemplo
+
+145
+00:28:54,350 --> 00:29:00,790
+Y luego hay otro problema todavía más fundamental con la energía, que es que no siempre es un concepto bien definido.
+
+146
+00:29:00,790 --> 00:29:11,910
+O sea, no siempre tiene sentido hablar de energía porque aquí, en el marco de teorías cuánticas de campo que están basadas en relatividad especial, pues sí, se puede definir siempre una cantidad conservativa que es la energía.
+
+147
+00:29:12,250 --> 00:29:17,790
+Pero, por ejemplo, en el marco de la relatividad general, ojo, porque la energía no es un concepto bien definido, ¿no?
+
+148
+00:29:19,890 --> 00:29:28,710
+Bueno, igual llegamos a eso más adelante, ¿no? Pero yo lo que iba es que puede haber incluso, o sea, en física hablamos a veces de formalismo y en matemática hablamos incluso de formalismos.
+
+149
+00:29:28,710 --> 00:29:47,630
+Cuando tú hablas de formalismos quieres decir que no estás afirmando que eso sea lo que pasa en realidad, sino que es una forma, una herramienta con la que tú puedes hacer un desarrollo. Y hay veces que tú tienes diferentes formalismos con los que resolver un mismo problema y son indistinguibles y son equivalentes.
+
+150
+00:29:48,310 --> 00:29:51,430
+voy a poner un ejemplo muy tonto ahora
+
+151
+00:29:51,430 --> 00:29:53,630
+pero cuando pensamos por ejemplo
+
+152
+00:29:53,630 --> 00:29:57,850
+en las fuerzas tal como las pensaba Newton
+
+153
+00:29:57,850 --> 00:30:00,150
+y en la gravedad tal como la veía Newton en forma de fuerzas
+
+154
+00:30:00,150 --> 00:30:01,710
+y los cuerpos sienten fuerzas
+
+155
+00:30:01,710 --> 00:30:05,530
+y desarrolló todo ese formalismo y funcionaba muy bien
+
+156
+00:30:05,530 --> 00:30:07,330
+y explicaba el sistema solar y los planetas y el sol
+
+157
+00:30:07,330 --> 00:30:10,890
+y luego viene la relatividad general y viene Einstein
+
+158
+00:30:10,890 --> 00:30:14,850
+y hacen unos desarrollos en los cuales se basa en otro concepto diferente
+
+159
+00:30:14,850 --> 00:30:18,430
+en los cuales la gravedad no es una fuerza, es una deformación del espacio-tiempo.
+
+160
+00:30:18,790 --> 00:30:21,350
+Hoy en día sabemos que hay pruebas que nos permiten distinguir,
+
+161
+00:30:21,370 --> 00:30:23,990
+y esas pruebas confirman la relatividad general.
+
+162
+00:30:24,370 --> 00:30:25,490
+Pero supongamos que no las hubiera.
+
+163
+00:30:25,830 --> 00:30:28,490
+Supongamos que yo lo único que tengo son manzanas que caen de los árboles.
+
+164
+00:30:29,470 --> 00:30:32,530
+Yo le explicaría a los estudiantes los dos formalismos,
+
+165
+00:30:32,530 --> 00:30:35,070
+y me preguntarían, ¿pero cómo es la realidad?
+
+166
+00:30:35,290 --> 00:30:37,850
+¿La manzana siente una fuerza que la hace caer?
+
+167
+00:30:37,870 --> 00:30:38,910
+¿La manzana ve una fuerza?
+
+168
+00:30:39,030 --> 00:30:41,550
+¿O la manzana ve que el espacio-tiempo está distorsionado?
+
+169
+00:30:41,810 --> 00:30:44,370
+Y tú dirías, pues son dos formas equivalentes.
+
+170
+00:30:44,970 --> 00:30:47,010
+no es preferible una sobre la otra
+
+171
+00:30:47,010 --> 00:30:48,470
+¿cómo es la naturaleza realmente?
+
+172
+00:30:48,990 --> 00:30:50,610
+pues probablemente no podamos distinguirla
+
+173
+00:30:50,610 --> 00:30:53,010
+probablemente no sepamos si la naturaleza
+
+174
+00:30:53,010 --> 00:30:54,610
+es como una o la otra, o ni siquiera tenga sentido
+
+175
+00:30:55,130 --> 00:30:55,970
+plantearse la pregunta
+
+176
+00:31:36,450 --> 00:31:37,930
+no, yo no he dicho eso
+
+177
+00:31:51,010 --> 00:31:52,850
+Que sí, pero no estoy diciendo eso
+
+178
+00:31:52,850 --> 00:31:53,670
+No lo has entendido
+
+179
+00:31:53,670 --> 00:31:55,830
+Es que eso no es lo que estoy diciendo
+
+180
+00:32:02,690 --> 00:32:04,410
+No estoy diciendo eso, lo estoy diciendo
+
+181
+00:32:04,410 --> 00:32:06,770
+Suponte que, en un caso hipotético
+
+182
+00:32:06,770 --> 00:32:08,150
+en un universo imaginario
+
+183
+00:32:08,150 --> 00:32:10,710
+Estoy intentando poner un ejemplo de qué pasaría
+
+184
+00:32:10,710 --> 00:32:11,870
+si tuvieras dos teorías
+
+185
+00:32:13,270 --> 00:32:15,230
+era un ejemplo ilustrativo
+
+186
+00:32:15,230 --> 00:32:16,690
+si tuvieras dos teorías
+
+187
+00:32:16,690 --> 00:32:17,830
+y si tienes dos podría haber más
+
+188
+00:32:17,830 --> 00:32:19,470
+que lo expliquen todo
+
+189
+00:32:19,470 --> 00:32:21,330
+y que no tengas un criterio
+
+190
+00:32:21,330 --> 00:32:23,390
+para decir cuál es, entre comillas, la buena
+
+191
+00:33:44,750 --> 00:33:45,790
+Desintegraciones, si no recuerdo mal
+
+192
+00:34:23,370 --> 00:34:24,910
+Sí, sí, yo simplemente
+
+193
+00:34:26,050 --> 00:34:26,450
+insisto
+
+194
+00:34:26,450 --> 00:34:29,070
+por supuesto, todas las teorías
+
+195
+00:34:29,070 --> 00:34:31,230
+lo que pretenden es buscar nuevas observaciones
+
+196
+00:34:31,230 --> 00:34:33,290
+nuevos experimentos que te permitan distinguir una de otra
+
+197
+00:34:33,290 --> 00:34:34,610
+de cuál es la correcta
+
+198
+00:34:34,610 --> 00:34:44,870
+Yo iba al problema filosófico de que puede ser que las cosas que ponemos en la teoría realmente no representen la realidad en sí, pero que nos den los observables que sí.
+
+199
+00:38:55,630 --> 00:38:59,010
+creo que cuando hablamos de metafísica
+
+200
+00:38:59,010 --> 00:39:00,770
+hablamos de diferentes cosas también
+
+201
+00:39:00,770 --> 00:39:03,110
+y esto a lo mejor daría para meternos aquí
+
+202
+00:39:03,110 --> 00:39:03,670
+en un programa entero
+
+203
+00:39:04,550 --> 00:39:06,910
+pero desde el punto de vista de la física
+
+204
+00:39:06,910 --> 00:39:09,130
+por volver a la física que creo que es
+
+205
+00:39:09,130 --> 00:39:09,610
+lo que nos gusta
+
+206
+00:39:11,770 --> 00:39:13,090
+efectivamente, yo sí que estoy
+
+207
+00:39:13,090 --> 00:39:14,930
+de acuerdo con Alberto en eso, son conceptos
+
+208
+00:39:14,930 --> 00:39:17,010
+en los que, no es que
+
+209
+00:39:17,010 --> 00:39:18,950
+no nos interesen, sino que los damos casi por
+
+210
+00:39:18,950 --> 00:39:19,770
+perdido, quiero decir
+
+211
+00:39:19,770 --> 00:39:22,510
+el ponerte a plantearte estas preguntas
+
+212
+00:39:22,510 --> 00:39:24,390
+sobre si la naturaleza última de la realidad
+
+213
+00:39:24,390 --> 00:39:26,610
+se corresponde con los constructos
+
+214
+00:39:26,610 --> 00:39:28,450
+matemáticos que yo hago, es casi una pregunta
+
+215
+00:39:29,630 --> 00:39:30,890
+filosófica, si yo soy capaz
+
+216
+00:39:30,890 --> 00:39:32,730
+de reproducir, mi teoría de reproducir
+
+217
+00:39:32,730 --> 00:39:34,690
+todo lo que observo, entonces eso es lo que es ciencia
+
+218
+00:39:34,690 --> 00:39:36,870
+y si quiero preguntarme
+
+219
+00:39:36,870 --> 00:39:38,550
+más cosas, pues tendré que buscar nuevos observables
+
+220
+00:39:38,550 --> 00:39:40,830
+que me permitan distinguir entre diferentes modelos
+
+221
+00:39:40,830 --> 00:39:42,110
+diferentes teorías, y eso es normalmente
+
+222
+00:39:42,110 --> 00:39:44,830
+lo que hacemos en el método científico
+
+223
+00:39:47,310 --> 00:39:48,410
+entonces, me gustaría
+
+224
+00:39:48,410 --> 00:39:50,410
+ir a un tema
+
+225
+00:39:50,410 --> 00:39:52,790
+que discutimos en el episodio 120
+
+226
+00:39:52,790 --> 00:39:54,550
+Francis quería hablar de las simetrías
+
+227
+00:39:54,550 --> 00:39:56,630
+y vamos a ir a eso, pero antes me gustaría
+
+228
+00:39:56,630 --> 00:39:58,310
+brevemente que hablemos de
+
+229
+00:39:58,310 --> 00:40:00,650
+un tema que me parece fascinante, que es el del spin
+
+230
+00:40:02,010 --> 00:40:02,450
+lo
+
+231
+00:40:03,150 --> 00:40:04,410
+tratamos en ese episodio 120
+
+232
+00:40:04,410 --> 00:40:06,650
+pero en aquel momento nos quedamos con un
+
+233
+00:40:06,650 --> 00:40:08,610
+adelanto de que Francis iba a
+
+234
+00:40:08,610 --> 00:40:10,590
+contar lo que era el spin en su charla de
+
+235
+00:40:10,590 --> 00:40:11,910
+Naukas Bilbao 2017
+
+236
+00:40:12,410 --> 00:40:14,630
+de septiembre, y que lo iba a hacer en 10
+
+237
+00:40:14,630 --> 00:40:14,950
+minutos
+
+238
+00:40:16,560 --> 00:40:17,780
+Y lo hizo, oiga
+
+239
+00:40:17,780 --> 00:40:20,180
+Yo he tenido ocasión de ver el vídeo
+
+240
+00:40:20,180 --> 00:40:21,080
+que está disponible
+
+241
+00:40:21,080 --> 00:40:22,080
+Lo hizo incluso en menos
+
+242
+00:40:23,840 --> 00:40:25,520
+Yo creo que fue incluso más allá
+
+243
+00:40:25,520 --> 00:40:26,800
+y contó más cosas que el spin
+
+244
+00:40:45,060 --> 00:40:46,040
+entonces me gustaría
+
+245
+00:40:46,040 --> 00:40:47,180
+recuperar esa
+
+246
+00:42:18,300 --> 00:42:20,540
+pero una partícula puede cambiar de spin
+
+247
+00:42:20,540 --> 00:42:22,780
+como un vector con diferentes componentes
+
+248
+00:42:22,780 --> 00:42:24,800
+una partícula puede cambiar de spin
+
+249
+00:42:24,800 --> 00:42:26,640
+lo que pasa es que lo tiene que hacer en múltiplos
+
+250
+00:42:26,640 --> 00:42:27,380
+de una cierta cantidad
+
+251
+00:43:01,040 --> 00:43:03,260
+Vale, tú estás hablando del spin intrínseco de la partícula.
+
+252
+00:43:03,260 --> 00:43:05,420
+yo que estaba pensando, por ejemplo, en el electrón
+
+253
+00:43:05,420 --> 00:43:07,300
+de un átomo, como
+
+254
+00:43:07,300 --> 00:43:09,320
+en un momento dado, en una transición atómica
+
+255
+00:43:09,320 --> 00:43:11,300
+puede cambiar su spin, pero claro, eso ya es un sistema
+
+256
+00:47:21,590 --> 00:47:22,870
+sería correcta la analogía
+
+257
+00:47:22,870 --> 00:47:24,710
+yo estoy pensando siempre en términos de
+
+258
+00:47:24,710 --> 00:47:26,070
+esa analogía del fotón
+
+259
+00:47:26,070 --> 00:47:28,390
+con el campo electromagnético
+
+260
+00:47:28,810 --> 00:47:29,930
+que a mí me gusta
+
+261
+00:47:30,610 --> 00:47:32,690
+porque además también está la cosa esta
+
+262
+00:47:32,690 --> 00:47:34,910
+de que todo el mundo
+
+263
+00:47:34,910 --> 00:47:37,290
+conoce de la dualidad de la luz-onda-corpúsculo.
+
+264
+00:47:37,410 --> 00:47:38,870
+¿La luz es una partícula o es una
+
+265
+00:47:38,870 --> 00:47:40,650
+onda? Dicemos, bueno, es las dos cosas.
+
+266
+00:47:42,590 --> 00:47:44,790
+Y esto nos lleva a extender esa analogía
+
+267
+00:47:44,790 --> 00:47:46,790
+a todas las partículas, entre comillas,
+
+268
+00:47:47,270 --> 00:47:48,930
+materiales. Todo esto que estábamos hablando al principio
+
+269
+00:47:48,930 --> 00:47:50,590
+de si la materia existe
+
+270
+00:47:50,590 --> 00:47:51,850
+o no, qué es lo que es la materia.
+
+271
+00:47:53,230 --> 00:47:54,830
+Realmente, la mecánica cuántica nos
+
+272
+00:47:54,830 --> 00:47:56,670
+dice que toda partícula material, un
+
+273
+00:47:56,670 --> 00:47:58,710
+electrón, también es una onda. Le pasa
+
+274
+00:47:58,710 --> 00:48:00,730
+lo mismo que a la luz. Entonces, en ese sentido, también es una
+
+275
+00:48:00,730 --> 00:48:02,810
+buena analogía. Las partículas tienen
+
+276
+00:48:02,810 --> 00:48:04,310
+esta longitud de onda de de Broglie
+
+277
+00:48:04,310 --> 00:48:07,430
+que normalmente es muy pequeña
+
+278
+00:48:07,430 --> 00:48:08,510
+para poderla percibir
+
+279
+00:48:08,510 --> 00:48:11,730
+sus características ondulatorias
+
+280
+00:48:11,730 --> 00:48:12,990
+entonces las percibimos como partículas
+
+281
+00:48:12,990 --> 00:48:15,030
+pero les pasa lo mismo que al fotón
+
+282
+00:48:15,030 --> 00:48:17,470
+el fotón tiene una longitud de onda mayor que la de un electrón
+
+283
+00:48:17,470 --> 00:48:19,630
+pero un electrón también es onda y corpúsculo
+
+284
+00:48:19,630 --> 00:48:20,350
+igual que un fotón
+
+285
+00:48:20,350 --> 00:48:23,470
+desde ese punto de vista me parece que cuadra
+
+286
+00:48:23,470 --> 00:48:24,350
+todo muy bien
+
+287
+00:49:07,890 --> 00:49:09,890
+Sí, déjame aclarar una cosa simplemente, Francis.
+
+288
+00:49:11,910 --> 00:49:13,890
+Sí, sí, que no es que sea un balón de fútbol
+
+289
+00:49:13,890 --> 00:49:15,250
+de tamaño de un balón de fútbol,
+
+290
+00:49:15,270 --> 00:49:16,370
+que a lo mejor puede estar pensando la gente.
+
+291
+00:49:16,490 --> 00:49:17,170
+Ronaldo no le dio la patada.
+
+292
+00:49:17,170 --> 00:49:19,790
+Sí, sí, yo he puesto cara o geoplástica.
+
+293
+00:49:20,010 --> 00:49:22,370
+Es una molécula que se llaman fulerenos.
+
+294
+00:49:22,370 --> 00:49:23,710
+Hay unas moléculas que se llaman fulerenos
+
+295
+00:49:23,710 --> 00:49:25,310
+que tienen forma de balón de fútbol,
+
+296
+00:49:25,350 --> 00:49:26,270
+pero tamaño de molécula.
+
+297
+00:49:26,570 --> 00:49:27,890
+No se piensen que es una cosa grande.
+
+298
+00:54:08,240 --> 00:54:09,640
+Sí, a mí me gusta también.
+
+299
+00:54:12,000 --> 00:54:13,900
+Y entonces, o sea,
+
+300
+00:54:14,440 --> 00:54:17,040
+de alguna forma sí que podemos ver el spin como un giro
+
+301
+00:54:17,040 --> 00:54:19,740
+a lo largo de la propagación de esta onda, ¿no?
+
+302
+00:54:20,040 --> 00:54:22,640
+Y por eso tiene un momento magnético,
+
+303
+00:54:23,300 --> 00:54:25,260
+porque al fin y al cabo tienes,
+
+304
+00:54:25,960 --> 00:54:27,840
+o sea, si uno piensa en el electrón, por ejemplo,
+
+305
+00:54:27,880 --> 00:54:29,000
+que tiene una carga eléctrica,
+
+306
+00:54:29,600 --> 00:54:32,380
+tienes una carga eléctrica que está haciendo esta especie de giro,
+
+307
+00:54:32,380 --> 00:54:34,300
+de alguna forma se llevaría asociado
+
+308
+00:54:34,300 --> 00:54:36,760
+una corriente y por tanto un momento magnético
+
+309
+00:54:38,120 --> 00:54:39,100
+¿partículas que no tengan
+
+310
+00:54:39,100 --> 00:54:40,980
+carga eléctrica, que no tengan
+
+311
+00:54:40,980 --> 00:54:42,020
+relación con
+
+312
+00:54:42,020 --> 00:54:44,840
+que no tengan una naturaleza electromagnética
+
+313
+00:54:46,560 --> 00:54:46,960
+¿tendrían
+
+314
+00:54:46,960 --> 00:54:48,900
+un spin asociado
+
+315
+00:54:48,900 --> 00:54:50,120
+a un momento magnético también?
+
+316
+00:54:50,360 --> 00:54:52,580
+es la duda que me surge ahora, no estoy seguro de si
+
+317
+00:58:14,740 --> 00:58:15,300
+vale
+
+318
+00:58:15,300 --> 00:58:18,040
+muy bien, pues entonces llegados a este punto
+
+319
+00:58:18,040 --> 00:58:19,700
+como llevamos ya una hora de programa
+
+320
+00:58:19,700 --> 00:58:22,500
+vamos a despedir ya el programa
+
+321
+00:58:22,500 --> 00:58:24,060
+para los amigos que nos escuchan por la radio
+
+322
+00:58:24,800 --> 00:58:26,560
+nos despedimos hasta la semana que viene
+
+323
+00:58:26,560 --> 00:58:28,300
+pero los que están escuchando
+
+324
+00:58:28,300 --> 00:58:29,340
+el podcast por internet
+
+325
+00:58:29,340 --> 00:58:31,920
+pues pueden acompañarnos un ratito más
+
+326
+00:58:31,920 --> 00:58:33,260
+ahora hacemos una pausita y volvemos
+
+327
+00:58:33,260 --> 00:58:35,840
+y seguimos hablando de este y otros interesantes temas
+
+328
+00:58:35,840 --> 00:58:37,740
+y sobre todo nos meteremos ya a fondo
+
+329
+00:58:37,740 --> 00:58:40,060
+con la importancia de las simetrías
+
+330
+00:58:40,060 --> 00:58:40,780
+en la física
+
+331
+00:58:42,020 --> 00:58:44,120
+entonces pues eso, hacemos una pequeña pausita
+
+332
+00:58:44,120 --> 00:58:46,140
+volvemos enseguida, si nos escuchan por la radio
+
+333
+00:58:46,140 --> 00:58:47,620
+muchas gracias, volvemos la semana que viene
+
+334
+00:58:48,680 --> 00:59:01,060
+Bien, pues ya estamos de vuelta. Disculpa Nacho que te corté, creo que querías hacer un comentario más sobre...
+
+335
+01:05:31,640 --> 01:05:43,460
+Y hay mucha gente que piensa que si sigues tirando a energías todavía muchísimo más altas llegas a gran unificación, pero bueno, eso ya son extensiones del modelo estándar, donde se unifican todas las fuerzas.
+
+336
+01:06:12,500 --> 01:06:36,860
+Bueno, porque por lo que yo tengo entendido hay mucha incertidumbre y muchos parámetros libres ahí también que te dan un cierto rango de juego, ¿no? Y parece que es como mucha casualidad, o sea, requiere algo de ajuste fino que esa extrapolación llegue a valores del mismo orden de magnitud, que no tendrían por qué, y que, bueno, pues la idea un poco es que con esas, variando un poco dentro de las incertidumbres y tal, pues se podría hacer encajar esa…
+
+337
+01:06:36,860 --> 01:06:40,960
+¿Les parece bien que antes de meternos en estos conceptos
+
+338
+01:07:00,560 --> 01:07:04,460
+A ver, llamamos simetría en física
+
+339
+01:07:04,460 --> 01:07:12,260
+física a una una invariancia o sea simetría un sistema físico decimos que tiene simetría siempre
+
+340
+01:07:12,260 --> 01:07:19,320
+respecto a algo alguna algún cambio decimos que cuando hacemos algún determinado cambio el sistema
+
+341
+01:07:19,320 --> 01:07:23,840
+físico no cambia una transformación diríamos no se me una transformación el sistema no cambia
+
+342
+01:07:23,840 --> 01:07:28,800
+entonces cuando eso ocurre decimos que hay una simetría respecto a esa transformación correcto
+
+343
+01:07:28,800 --> 01:07:33,240
+Por ejemplo, si yo tengo una esfera y la giro, no cambia.
+
+344
+01:07:33,600 --> 01:07:37,180
+Entonces digo que la esfera tiene simetría respecto a una rotación.
+
+345
+01:07:37,680 --> 01:07:38,680
+Tiene simetría esférica.
+
+346
+01:07:38,880 --> 01:07:39,640
+Tiene simetría esférica.
+
+347
+01:07:40,320 --> 01:07:42,820
+Eso es una perogrullada.
+
+348
+01:07:43,500 --> 01:07:44,520
+No, no lo es, pero bueno.
+
+349
+01:07:44,720 --> 01:07:48,340
+Pero es la base de lo que estamos diciendo.
+
+350
+01:07:48,480 --> 01:07:51,500
+Nosotros siempre hay que entender que cuando hablamos de simetría decimos respecto a algo.
+
+351
+01:07:51,620 --> 01:07:56,300
+No nos referimos simplemente al concepto geométrico de una reflexión en un espejo.
+
+352
+01:07:56,300 --> 01:08:12,120
+Es algo un poco más general que eso. Y hay muchos tipos diferentes de transformaciones con respecto a las cuales nuestra física puede ser simétrica, respecto a traslaciones en el tiempo, en el espacio, etc.
+
+353
+01:11:31,010 --> 01:11:33,970
+A mí hay una cosa que me gusta y que quería comentar.
+
+354
+01:11:33,990 --> 01:11:36,370
+Bueno, Alberto, no sé si tenías otro comentario sobre lo que ha dicho Nacho.
+
+355
+01:14:20,330 --> 01:14:38,470
+Es que por eso decía que es importante decir que estamos hablando de la simetría de un determinado sistema físico con respecto a una determinada transformación. O sea, el sistema físico depende, o sea, tienes que especificar de qué es lo que estás hablando. Hay determinados sistemas físicos que cumplen ciertas simetrías respecto a unas transformaciones y otros no.
+
+356
+01:14:38,470 --> 01:14:40,490
+no. Entonces, en función de qué sea
+
+357
+01:14:40,490 --> 01:14:41,890
+lo que estés hablando, puede que cumpla o puede no.
+
+358
+01:14:50,270 --> 01:14:52,210
+simetría, dependiendo. Según lo que sea lo que estás
+
+359
+01:14:52,210 --> 01:14:54,270
+estudiando, ¿no? Yo quería poner un ejemplo, y yo creo que
+
+360
+01:14:54,270 --> 01:14:56,130
+se va a ilustrar con esto,
+
+361
+01:14:56,730 --> 01:14:57,050
+porque
+
+362
+01:14:57,050 --> 01:15:00,310
+a mí me parece muy bonito el teorema este
+
+363
+01:15:00,310 --> 01:15:01,690
+de Neter, y
+
+364
+01:15:02,050 --> 01:15:04,270
+de hecho la formulación del teorema es
+
+365
+01:15:04,270 --> 01:15:06,590
+que cada simetría
+
+366
+01:15:07,390 --> 01:15:08,310
+diferenciable, vamos a olvidarnos de
+
+367
+01:15:08,310 --> 01:15:13,010
+de la palabra diferenciable. Cada simetría de la acción, que es el vocablo aquí, la acción es el
+
+368
+01:15:13,010 --> 01:15:20,330
+palabra, y ahora explicamos lo que significa esto de la acción, de un sistema físico tiene asociada
+
+369
+01:15:20,330 --> 01:15:25,910
+una ley de conservación. La acción aquí es la palabra clave. Para explicarlo, a mí es que esto
+
+370
+01:15:25,910 --> 01:15:29,830
+me gusta mucho, lo de la acción, porque es una cosa que no se suele explicar a nivel de instituto,
+
+371
+01:15:29,850 --> 01:15:34,210
+pero creo que es un concepto físico muy bonito, a mí me gusta mucho. La acción es lo siguiente,
+
+372
+01:15:34,210 --> 01:15:40,430
+Bueno, tiene una definición y se define para una determinada trayectoria de un sistema físico.
+
+373
+01:15:40,490 --> 01:15:45,070
+Un proceso físico, un proceso, es algo que ocurre en un determinado tiempo
+
+374
+01:15:46,150 --> 01:15:50,990
+y en un proceso físico el sistema describe una trayectoria en un determinado espacio de parámetros.
+
+375
+01:15:51,310 --> 01:15:52,890
+Eso es todo muy complejo y muy abstracto.
+
+376
+01:15:52,930 --> 01:15:55,110
+Vamos a poner un ejemplo particular.
+
+377
+01:15:55,650 --> 01:15:57,130
+Una cosa sencillita, una piedra.
+
+378
+01:15:57,170 --> 01:15:58,990
+Yo cojo una piedra, la suelto y se cae al suelo.
+
+379
+01:15:59,830 --> 01:16:02,170
+La piedra sigue una trayectoria cuando yo la suelto.
+
+380
+01:16:02,170 --> 01:16:04,910
+la suelto y se cae, cae al suelo siguiendo la gravedad
+
+381
+01:16:05,590 --> 01:16:07,110
+entonces eso es una trayectoria
+
+382
+01:16:07,110 --> 01:16:08,570
+la que sigue la piedra
+
+383
+01:16:10,160 --> 01:16:11,580
+hay muchas otras trayectorias
+
+384
+01:16:11,580 --> 01:16:13,600
+que yo me puedo imaginar, yo me puedo imaginar que la piedra
+
+385
+01:16:13,600 --> 01:16:15,280
+no se cae, sino que sube
+
+386
+01:16:15,280 --> 01:16:17,540
+empieza a levitar, luego da tres piruetas hacia la derecha
+
+387
+01:16:17,540 --> 01:16:19,400
+y finalmente se posa en mi otra mano
+
+388
+01:16:20,040 --> 01:16:21,280
+la piedra no hace eso
+
+389
+01:16:21,280 --> 01:16:23,460
+pero yo me puedo imaginar esa trayectoria
+
+390
+01:16:23,460 --> 01:16:25,740
+de hecho me puedo imaginar infinitas trayectorias
+
+391
+01:16:25,740 --> 01:16:27,320
+la piedra va a Marte y vuelve
+
+392
+01:16:28,960 --> 01:16:29,760
+son trayectorias
+
+393
+01:16:29,760 --> 01:16:31,900
+imaginarias en un mundo imaginario, en los mundos de Yupi
+
+394
+01:16:31,900 --> 01:16:32,880
+que no son la real
+
+395
+01:16:38,420 --> 01:16:40,380
+efectivamente, todo eso son trayectorias
+
+396
+01:16:40,380 --> 01:16:42,600
+entre comillas virtuales, trayectorias en los mundos de Yupi
+
+397
+01:16:42,600 --> 01:16:43,640
+que no es el mundo real
+
+398
+01:16:43,640 --> 01:16:45,720
+entonces todas esas trayectorias imaginarias
+
+399
+01:16:46,500 --> 01:16:48,060
+las podemos considerar
+
+400
+01:16:48,060 --> 01:16:50,360
+y cada trayectoria tiene asociado
+
+401
+01:16:50,360 --> 01:16:52,280
+un numerito, que es la acción
+
+402
+01:16:52,280 --> 01:16:54,820
+la acción es un número que se asocia a cada trayectoria
+
+403
+01:16:54,820 --> 01:16:56,560
+y ese número se calcula
+
+404
+01:16:56,560 --> 01:16:58,220
+de una forma sencilla
+
+405
+01:16:58,220 --> 01:17:00,860
+que es una integral a lo largo de la trayectoria
+
+406
+01:17:00,860 --> 01:17:02,920
+de una cantidad que se llama el Lagrangiano
+
+407
+01:17:02,920 --> 01:17:05,800
+que es un palabra pero es simplemente la energía
+
+408
+01:17:05,800 --> 01:17:09,720
+es la energía cinética y la energía potencial
+
+409
+01:17:09,720 --> 01:17:12,080
+la energía potencial depende del campo gravitatorio
+
+410
+01:17:12,080 --> 01:17:14,620
+en este caso estamos considerando que hay un campo gravitatorio
+
+411
+01:17:14,620 --> 01:17:17,900
+entonces con esas energías yo puedo definir el Lagrangiano
+
+412
+01:17:17,900 --> 01:17:19,060
+y puedo calcular el numerito
+
+413
+01:17:19,410 --> 01:17:22,350
+bueno pues, ese numerito es la acción
+
+414
+01:17:22,350 --> 01:17:24,930
+entonces tú lo calculas para diferentes trayectorias
+
+415
+01:17:24,930 --> 01:17:26,410
+y hay un principio físico muy bonito
+
+416
+01:17:26,410 --> 01:17:28,610
+que es el de mínima acción que me dice
+
+417
+01:17:28,610 --> 01:17:31,730
+que la trayectoria real, o sea, si yo suelto la piedra
+
+418
+01:17:31,730 --> 01:17:34,370
+lo que va a hacer la piedra es seguir aquella trayectoria
+
+419
+01:17:34,370 --> 01:17:37,790
+que tiene la acción mínima. O sea, de todas las posibles
+
+420
+01:17:37,790 --> 01:17:40,450
+trayectorias que yo me puedo imaginar en los mundos de Yuppie, cada una tiene su numerito
+
+421
+01:17:41,430 --> 01:17:43,510
+28, la que va a Marte y vuelve tiene 400
+
+422
+01:17:43,510 --> 01:17:46,150
+la que cae al suelo tiene 3
+
+423
+01:17:46,710 --> 01:17:49,990
+¿vale? Pues ese 3 es el menor de todos los numeritos
+
+424
+01:17:49,990 --> 01:17:51,870
+que puede hacer de cualquiera de todas las trayectorias
+
+425
+01:17:53,850 --> 01:17:57,270
+Entonces, esto es un formalismo de la mecánica
+
+426
+01:17:57,270 --> 01:17:59,050
+de la física en la cual tú puedes resolver problemas
+
+427
+01:17:59,050 --> 01:18:01,450
+yo lo podría haber resuelto también aplicando
+
+428
+01:18:02,250 --> 01:18:03,290
+la fuerza de Newton
+
+429
+01:18:03,290 --> 01:18:05,410
+fuerza igual a masa por aceleración y calculo
+
+430
+01:18:05,410 --> 01:18:07,570
+cómo sigue, qué trayectoria
+
+431
+01:18:07,570 --> 01:18:08,710
+sigue la piedra
+
+432
+01:18:08,710 --> 01:18:10,890
+pero también lo puedo calcular de esa otra forma
+
+433
+01:18:11,350 --> 01:18:12,730
+es otro formalismo diferente
+
+434
+01:18:13,590 --> 01:18:14,610
+entonces por eso
+
+435
+01:18:15,870 --> 01:18:17,650
+me gustaría recuperar lo que hablamos al principio
+
+436
+01:18:17,650 --> 01:18:19,350
+esta discusión filosófica de qué es lo que pasa
+
+437
+01:18:19,350 --> 01:18:21,330
+en la realidad, la piedra realmente
+
+438
+01:18:22,430 --> 01:18:23,550
+calcula todas las
+
+439
+01:18:23,550 --> 01:18:25,750
+posibles trayectorias y todas las acciones
+
+440
+01:18:25,750 --> 01:18:28,850
+y decide caer hacia abajo porque es la que tiene la mínima?
+
+441
+01:18:28,950 --> 01:18:31,110
+O sea, si alguien viniera y me preguntara
+
+442
+01:18:31,110 --> 01:18:32,650
+¿qué es lo que hace la piedra realmente?
+
+443
+01:18:33,170 --> 01:18:35,230
+¿Siente la fuerza de la gravedad y va siguiendo la fuerza?
+
+444
+01:18:35,450 --> 01:18:37,630
+¿O se calcula todas las trayectorias?
+
+445
+01:18:38,250 --> 01:18:40,090
+Yo diría, hombre, las piedras no calculan.
+
+446
+01:18:40,210 --> 01:18:42,090
+Que sepamos, las piedras no calculan nada.
+
+447
+01:18:42,330 --> 01:18:44,510
+La piedra no puede saber cuál es la trayectoria mínima.
+
+448
+01:18:45,210 --> 01:18:46,370
+Pero es equivalente.
+
+449
+01:18:46,410 --> 01:18:48,470
+Es decir, es otro formalismo matemático
+
+450
+01:18:49,220 --> 01:18:50,360
+que me da el mismo resultado.
+
+451
+01:18:50,740 --> 01:18:51,960
+Entonces me gusta traerlo a colación
+
+452
+01:18:51,960 --> 01:18:55,160
+para ilustrar que a veces podemos tener
+
+453
+01:18:55,160 --> 01:18:57,100
+formalismos matemáticos completamente diferentes
+
+454
+01:18:57,100 --> 01:18:59,200
+para describir la misma realidad física
+
+455
+01:18:59,200 --> 01:19:01,270
+llevo mucho rato hablando
+
+456
+01:21:39,000 --> 01:21:41,060
+de todas formas, solo quería
+
+457
+01:21:41,060 --> 01:21:42,240
+decir una cosa
+
+458
+01:21:42,240 --> 01:21:45,660
+lo que pasa es que la disipación no la solemos tener en cuenta
+
+459
+01:21:45,660 --> 01:21:47,920
+pero la disipación al fin y al cabo no es más que conversión
+
+460
+01:21:47,920 --> 01:21:48,360
+de energía
+
+461
+01:21:48,880 --> 01:21:50,960
+de energía, digamos, en termodinámica
+
+462
+01:21:50,960 --> 01:21:52,680
+diríamos reversible, como energía cinética
+
+463
+01:21:52,680 --> 01:21:54,600
+en una forma de energía irreversible, como
+
+464
+01:21:54,600 --> 01:21:56,980
+energía térmica, o sea, al final
+
+465
+01:21:56,980 --> 01:21:58,780
+esa energía no se pierde, se convierte
+
+466
+01:21:58,780 --> 01:22:00,740
+en calor, en las moléculas, bueno, en fin
+
+467
+01:23:13,040 --> 01:23:16,280
+Sí, vamos a ver, lo que quiero es empezar por una cosa
+
+468
+01:23:16,280 --> 01:23:21,240
+Cosa sencilla, clásica, antes de meternos en la cosa complicada cuántica.
+
+469
+01:23:21,700 --> 01:23:27,940
+¿Por qué lo digo? Porque de esta forma, ahí puedes aplicar esto de la conservación de energía,
+
+470
+01:23:28,000 --> 01:23:31,520
+lo que tú decías, Nacho, que ese sistema, vamos a olvidarnos de momento del rozamiento.
+
+471
+01:23:32,020 --> 01:23:36,560
+Entonces, en ese sistema en el que tú puedes definir esa acción,
+
+472
+01:23:37,380 --> 01:23:40,820
+tú encuentras una cantidad que se conserva, que es lo que llamamos la energía.
+
+473
+01:23:41,480 --> 01:23:43,740
+Si tuvieras un rozamiento, ya la energía no se conserva.
+
+474
+01:23:44,040 --> 01:23:45,920
+Es que estamos en la misma mecánica clásica.
+
+475
+01:23:46,280 --> 01:23:48,520
+O sea, estoy intentando empezar por la parte clásica.
+
+476
+01:23:49,140 --> 01:23:51,800
+Vamos a despreciar el rozamiento y las pérdidas de energía, ¿no?
+
+477
+01:23:52,340 --> 01:23:53,440
+Entonces ya no se conservaría.
+
+478
+01:23:54,640 --> 01:23:58,120
+Es un experimento ideal para ilustrar que, en ese caso,
+
+479
+01:23:58,260 --> 01:24:01,820
+lo que nos dice el teorema de Néter es que, en ese sistema,
+
+480
+01:24:02,560 --> 01:24:04,900
+donde existe esa simetría, en este caso en el tiempo,
+
+481
+01:24:04,980 --> 01:24:06,700
+hay otras simetrías que podemos discutir,
+
+482
+01:24:06,700 --> 01:24:10,420
+pero esa en el tiempo nos da y nos dice cuál es esa cantidad.
+
+483
+01:24:10,560 --> 01:24:11,560
+Porque, claro, no es simplemente decir
+
+484
+01:24:11,560 --> 01:24:13,600
+hay una cantidad que se conserva y viste tú sabes cuál es,
+
+485
+01:24:13,600 --> 01:24:16,860
+sino que el teorema te dice que hay una determinada cantidad
+
+486
+01:24:16,860 --> 01:24:19,780
+que es la energía, la energía total de la piedra que se conserva
+
+487
+01:25:00,250 --> 01:25:02,510
+y no cambia la acción, esa función que tú has
+
+488
+01:25:02,510 --> 01:25:04,690
+descrito, entonces eso sería una simetría
+
+489
+01:25:04,690 --> 01:25:06,490
+del sistema, y ahí por ejemplo
+
+490
+01:28:16,260 --> 01:28:18,620
+yo ahora aquí me surgen unas dudas
+
+491
+01:28:18,620 --> 01:28:19,760
+a partir ya de este punto
+
+492
+01:28:19,760 --> 01:28:22,460
+que es donde no entiendo yo como es el proceso
+
+493
+01:28:23,320 --> 01:28:24,260
+lógico, mental
+
+494
+01:28:24,260 --> 01:28:25,100
+por el cual
+
+495
+01:28:26,920 --> 01:28:27,880
+hemos llegado
+
+496
+01:28:27,880 --> 01:28:28,800
+a aprender cosas
+
+497
+01:28:28,800 --> 01:28:32,180
+me gustaría pedirle a Francis y Alberto
+
+498
+01:28:32,180 --> 01:28:33,700
+que nos expliquen un poco
+
+499
+01:28:33,700 --> 01:28:35,820
+cómo ha sido entonces la aplicación
+
+500
+01:28:35,820 --> 01:28:37,420
+de estos principios que yo
+
+501
+01:28:37,420 --> 01:28:39,720
+en términos clásicos los entiendo
+
+502
+01:28:39,720 --> 01:28:42,180
+parece todo muy razonable y muy sencillo
+
+503
+01:28:42,180 --> 01:28:43,840
+de entender, cómo esto nos permite
+
+504
+01:28:43,840 --> 01:28:45,540
+construir un modelo estándar, por ejemplo
+
+505
+01:28:45,540 --> 01:28:47,740
+vamos a empezar por ejemplo
+
+506
+01:28:47,740 --> 01:28:49,340
+hablando de qué queremos decir cuando decimos
+
+507
+01:28:49,340 --> 01:28:50,600
+bueno, ustedes vean cómo
+
+508
+01:28:51,560 --> 01:28:52,780
+explicarlo porque yo no lo tengo muy claro
+
+509
+01:28:52,780 --> 01:29:00,640
+Claro, pero yo veo que se habla del grupo, el SU2 y el SU3 como representativos de la interacción débil y fuerte.
+
+510
+01:29:01,200 --> 01:29:07,780
+Y claro, yo matemáticamente entiendo que eso va de unas matrices y tal, pero no veo la conexión con la física de esto.
+
+511
+01:39:18,350 --> 01:39:21,390
+Vale, me surgen algunas dudas, pero creo que Alberto quería comentar algo también
+
+512
+01:44:43,460 --> 01:44:45,320
+Yo lo oí con la pregunta que yo iba a hacer,
+
+513
+01:44:45,420 --> 01:44:46,800
+¿no? Entonces voy a formularla.
+
+514
+01:44:46,920 --> 01:44:47,940
+Es la siguiente. Entonces,
+
+515
+01:44:49,360 --> 01:44:51,440
+esto que se dice, yo creo que se exagera
+
+516
+01:44:51,440 --> 01:44:53,160
+un poco con esto de las simetrías, porque como
+
+517
+01:44:53,160 --> 01:44:55,540
+suena muy bonito y muy grandilocuente,
+
+518
+01:44:55,900 --> 01:44:57,400
+y muchas veces oímos frases
+
+519
+01:44:57,400 --> 01:44:59,140
+del tipo de que es que todo
+
+520
+01:44:59,140 --> 01:45:00,960
+se deriva de las simetrías fundamentales,
+
+521
+01:45:01,940 --> 01:45:03,320
+que es una cosa que yo no entendía,
+
+522
+01:45:03,360 --> 01:45:04,880
+porque yo clásicamente, con la
+
+523
+01:45:05,360 --> 01:45:07,320
+forma en la que yo veo esto clásicamente, tú ya
+
+524
+01:45:07,320 --> 01:45:10,260
+partes primero de una física y luego la simetría te permite
+
+525
+01:45:10,260 --> 01:45:12,500
+desarrollar cosas. El ejemplo de la piedra
+
+526
+01:45:13,280 --> 01:45:15,860
+tú ya partes de que tú sabes cómo es el campo gravitatorio
+
+527
+01:45:16,620 --> 01:45:19,560
+¿cuál es la energía potencial gravitatoria? Para poder construir
+
+528
+01:45:19,560 --> 01:45:21,500
+la acción y para poder construir esa simetría
+
+529
+01:45:22,440 --> 01:45:25,480
+Francis nos ponía un ejemplo que yo no conocía el desarrollo histórico pero me parece
+
+530
+01:45:25,480 --> 01:45:28,480
+precioso, así como lo ha explicado, de la ecuación
+
+531
+01:45:28,480 --> 01:45:29,560
+de Dirac para el electrón
+
+532
+01:45:32,280 --> 01:45:34,400
+pero partes de esa física, partes de la
+
+533
+01:45:34,400 --> 01:45:36,740
+la física del electrón de Dirac
+
+534
+01:45:36,740 --> 01:45:37,820
+y entonces
+
+535
+01:45:39,120 --> 01:45:40,520
+la simetría te
+
+536
+01:45:40,520 --> 01:45:42,320
+permite sacar el electromagnetismo de ahí.
+
+537
+01:45:43,040 --> 01:45:44,580
+Si lo he entendido correctamente es así
+
+538
+01:45:44,580 --> 01:45:46,560
+como lo has explicado, ¿verdad Francis? Me parece
+
+539
+01:45:46,560 --> 01:45:48,440
+alucinante. Pero insisto, ya tienes una física
+
+540
+01:45:48,440 --> 01:45:50,800
+de partida, ¿no? Tienes que tener un conocimiento de partida
+
+541
+01:45:50,800 --> 01:45:52,800
+de la física y luego las simetrías te permiten
+
+542
+01:45:52,800 --> 01:45:54,200
+sacar más información, ¿no?
+
+543
+01:49:59,380 --> 01:50:02,060
+pero entonces entiendo que
+
+544
+01:50:02,060 --> 01:50:04,440
+a lo que yo preguntaba, la respuesta es que sí
+
+545
+01:50:04,440 --> 01:50:05,600
+que tú partes de una física
+
+546
+01:50:06,960 --> 01:50:08,000
+ya donde tienes
+
+547
+01:50:08,000 --> 01:50:10,200
+conocimientos de cómo son esas interacciones
+
+548
+01:50:10,200 --> 01:50:12,440
+y luego las simetrías lo que te permiten es
+
+549
+01:50:13,600 --> 01:50:14,380
+desarrollar más
+
+550
+01:50:14,380 --> 01:50:15,040
+esa teoría
+
+551
+01:50:15,600 --> 01:50:18,580
+quiero decir, no son cimientos
+
+552
+01:50:18,580 --> 01:50:20,760
+son pilares
+
+553
+01:50:20,760 --> 01:50:22,580
+del edificio que estás construyendo
+
+554
+01:50:25,980 --> 01:50:28,520
+no, que cimiento es de lo que partes
+
+555
+01:50:28,520 --> 01:50:29,820
+es lo que está en la base de todo
+
+556
+01:51:47,380 --> 01:51:47,960
+Sí, Alberto.
+
+557
+01:52:44,740 --> 01:52:46,460
+Muy bien, pues ya para ir terminando
+
+558
+01:52:46,460 --> 01:52:48,100
+hay un último punto que Nacho quería
+
+559
+01:52:48,100 --> 01:52:48,880
+tocar, ¿no?
+
+560
+01:53:13,660 --> 01:53:15,340
+de gran unificación lo hemos tocado
+
+561
+01:54:42,580 --> 01:54:44,160
+la polarización famosa
+
+562
+01:58:18,930 --> 01:58:20,290
+Bueno, esas observaciones
+
+563
+01:58:20,290 --> 01:58:21,950
+las tendremos pronto, nos las traerá
+
+564
+01:58:21,950 --> 01:58:23,470
+José Alberto Rubiño con Quijote
+
+565
+01:58:23,470 --> 01:58:26,170
+y las contaremos aquí en Coffee Break cuando lo observen
+
+566
+01:58:26,170 --> 01:58:26,770
+aquí en el Teide
+
+567
+01:58:27,610 --> 01:58:28,490
+Bueno, ojalá
+
+568
+01:58:37,890 --> 01:58:39,730
+No seas aguafiesta, Francis, no me seas aguafiesta.
+
+569
+01:58:41,430 --> 01:58:42,730
+Estamos aquí ilusionados.
+
+570
+01:58:45,190 --> 01:58:49,450
+Bueno, amigos, pues yo creo que ha estado fascinante.
+
+571
+01:58:49,470 --> 01:58:50,910
+Yo por lo menos me lo he pasado muy bien.
+
+572
+01:58:50,930 --> 01:58:54,790
+Quiero darles las gracias por esta clase magistral que acabo de recibir.
+
+573
+01:58:54,950 --> 01:58:56,650
+Y además gratis, entiendo.
+
+574
+01:58:56,770 --> 01:59:00,150
+No sé si me pasará luego la factura, pero estoy encantadísimo.
+
+575
+01:59:00,410 --> 01:59:02,310
+Yo espero que a los oyentes también les haya gustado.
+
+576
+01:59:02,770 --> 01:59:04,510
+No lo sé, pero si no, la verdad me da igual,
+
+577
+01:59:04,510 --> 01:59:05,510
+igual, porque yo me lo he pasado bomba
+
+578
+01:59:06,430 --> 01:59:07,610
+y es a lo que yo he venido aquí.
+
+579
+01:59:08,330 --> 01:59:10,510
+Así que, si alguien más lo ha disfrutado,
+
+580
+01:59:10,570 --> 01:59:12,190
+genial. Y si no, pues nada,
+
+581
+01:59:12,310 --> 01:59:14,210
+otro día seguiremos.
+
+582
+01:59:15,360 --> 01:59:16,600
+Pues eso, muchas gracias.
+
+583
+01:59:16,660 --> 01:59:17,860
+Nos vemos la semana que viene.
+
+584
+01:59:18,300 --> 01:59:19,940
+Francis, Alberto, Nacho, gracias.
+
+585
+01:59:31,460 --> 01:59:32,480
+Muy bien. Gracias a todos.
+
+586
+01:59:32,520 --> 01:59:34,000
+Hasta la semana que viene. Un abrazo. Chau.

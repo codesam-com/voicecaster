@@ -1,0 +1,548 @@
+{
+  "engine_metadata": {
+    "engine": "pyannote",
+    "pipeline": "pyannote/speaker-diarization-community-1",
+    "device": "cpu",
+    "audio_path": "work/cb_139/99_temp/audio_for_diarization",
+    "audio_loaded_in_memory": true,
+    "sample_rate": 44100,
+    "num_channels": 2,
+    "output_type": "DiarizeOutput",
+    "diarization_source": "exclusive_speaker_diarization",
+    "num_raw_segments": 1047,
+    "load_errors": [],
+    "download": {
+      "final_url": "https://podcastcdn-19.ivoox.com/audio/9/1/7/9/ep139especialfisicaparticulasiisime-coffeebreaksenalruido-ivoox22379719.mp3?secure=E9lndJmOzwC_LV5R6ru32g==,1775643616",
+      "content_type": "audio/mpeg",
+      "bytes_written": 59035025
+    },
+    "audio_probe": {
+      "ffprobe_ok": true,
+      "duration_seconds": 7379.330612,
+      "container": "mp3",
+      "audio_codec": "mp3",
+      "sample_rate": 44100,
+      "channels": 2,
+      "bit_rate": 64000,
+      "size_bytes": 59035025,
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "mp3",
+          "codec_long_name": "MP3 (MPEG audio layer 3)",
+          "codec_type": "audio",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 2,
+          "channel_layout": "stereo",
+          "bits_per_sample": 0,
+          "initial_padding": 0,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/14112000",
+          "start_pts": 353600,
+          "start_time": "0.025057",
+          "duration_ts": 104137113600,
+          "duration": "7379.330612",
+          "bit_rate": "64000",
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0
+          }
+        }
+      ]
+    }
+  },
+  "label_map": {
+    "SPEAKER_03": "speaker_01",
+    "SPEAKER_02": "speaker_02",
+    "SPEAKER_04": "speaker_03",
+    "SPEAKER_00": "speaker_04",
+    "SPEAKER_01": "speaker_05",
+    "SPEAKER_05": "speaker_06"
+  },
+  "normalization_warnings": [],
+  "assignment_stats": {
+    "total_utterances": 2287,
+    "assigned_utterances": 2283,
+    "assignment_ratio": 0.9983,
+    "low_confidence_utterances": 50
+  },
+  "qa": {
+    "passed": true,
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "rapid_speaker_alternation",
+        "message": "Detected suspicious rapid alternation between speakers.",
+        "details": {
+          "count": 17
+        }
+      }
+    ],
+    "stats": {
+      "num_speakers": 4,
+      "total_segment_seconds": 7011.578,
+      "assignment_ratio": 0.9983,
+      "short_segment_ratio": 0.0873,
+      "low_confidence_ratio": 0.0219,
+      "dominant_speaker_ratio": 0.3605
+    }
+  },
+  "postprocess": {
+    "steps": [
+      {
+        "merge_same_speaker_neighbors": {
+          "merged_pairs": 126
+        }
+      },
+      {
+        "smooth_aba_patterns": {
+          "smoothed_triplets": 42
+        }
+      },
+      {
+        "drop_microsegments": {
+          "dropped_microsegments": 39
+        }
+      },
+      {
+        "prune_tiny_speakers": {
+          "pruned_speakers": [
+            "speaker_04",
+            "speaker_06"
+          ],
+          "speaker_seconds_before": {
+            "speaker_01": 1631.07,
+            "speaker_02": 1543.638,
+            "speaker_04": 10.412,
+            "speaker_03": 1305.368,
+            "speaker_05": 2525.023,
+            "speaker_06": 15.492
+          },
+          "total_seconds": 7031.003
+        }
+      },
+      {
+        "merge_after_pruning": {
+          "merged_pairs": 23
+        }
+      },
+      {
+        "relabel_speakers": {
+          "mapping": {
+            "speaker_01": "speaker_01",
+            "speaker_02": "speaker_02",
+            "speaker_03": "speaker_03",
+            "speaker_05": "speaker_04"
+          }
+        }
+      }
+    ],
+    "counts_before": {
+      "num_segments": 555,
+      "num_speakers": 6,
+      "total_seconds": 6957.929,
+      "speaker_seconds": {
+        "speaker_01": 1620.863,
+        "speaker_02": 1531.219,
+        "speaker_03": 1282.386,
+        "speaker_04": 9.788,
+        "speaker_05": 2496.459,
+        "speaker_06": 17.214
+      }
+    },
+    "counts_after": {
+      "num_segments": 275,
+      "num_speakers": 4,
+      "total_seconds": 7011.578,
+      "speaker_seconds": {
+        "speaker_01": 1631.608,
+        "speaker_02": 1546.472,
+        "speaker_03": 1306.046,
+        "speaker_04": 2527.452
+      }
+    }
+  },
+  "transcript_preview": {
+    "episode_id": "cb_139",
+    "language": "es",
+    "num_segments": 2287,
+    "first_segments": [
+      {
+        "id": 0,
+        "start": 0.05,
+        "end": 3.07,
+        "text": "Profesor Adam Rees, Premio Nobel de Física.",
+        "avg_logprob": -0.12788371309853983,
+        "compression_ratio": 1.6285714285714286,
+        "no_speech_prob": 0.017198845744132996,
+        "words": [
+          {
+            "word": " Profesor",
+            "start": 0.05,
+            "end": 0.85,
+            "probability": 0.9755095640818278
+          },
+          {
+            "word": " Adam",
+            "start": 0.85,
+            "end": 1.19,
+            "probability": 0.9999579191207886
+          },
+          {
+            "word": " Rees,",
+            "start": 1.19,
+            "end": 1.57,
+            "probability": 0.7847762405872345
+          },
+          {
+            "word": " Premio",
+            "start": 1.69,
+            "end": 2.25,
+            "probability": 0.9549615979194641
+          },
+          {
+            "word": " Nobel",
+            "start": 2.25,
+            "end": 2.45,
+            "probability": 0.9997770190238953
+          },
+          {
+            "word": " de",
+            "start": 2.45,
+            "end": 2.61,
+            "probability": 0.9999232292175293
+          },
+          {
+            "word": " Física.",
+            "start": 2.61,
+            "end": 3.07,
+            "probability": 0.9998590151468912
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "start": 3.73,
+        "end": 9.21,
+        "text": "Hola, soy Adam Rees y te recomiendo escuchar Coffee Break para aprender más sobre el universo.",
+        "avg_logprob": -0.12788371309853983,
+        "compression_ratio": 1.6285714285714286,
+        "no_speech_prob": 0.017198845744132996,
+        "words": [
+          {
+            "word": " Hola,",
+            "start": 3.73,
+            "end": 4.29,
+            "probability": 0.9912193417549133
+          },
+          {
+            "word": " soy",
+            "start": 4.85,
+            "end": 5.17,
+            "probability": 0.9999576807022095
+          },
+          {
+            "word": " Adam",
+            "start": 5.17,
+            "end": 5.41,
+            "probability": 0.9999821186065674
+          },
+          {
+            "word": " Rees",
+            "start": 5.41,
+            "end": 5.69,
+            "probability": 0.9999820590019226
+          },
+          {
+            "word": " y",
+            "start": 5.69,
+            "end": 6.03,
+            "probability": 0.9204272031784058
+          },
+          {
+            "word": " te",
+            "start": 6.03,
+            "end": 6.23,
+            "probability": 0.9999707937240601
+          },
+          {
+            "word": " recomiendo",
+            "start": 6.23,
+            "end": 6.61,
+            "probability": 0.999942421913147
+          },
+          {
+            "word": " escuchar",
+            "start": 6.61,
+            "end": 7.05,
+            "probability": 0.9999499320983887
+          },
+          {
+            "word": " Coffee",
+            "start": 7.05,
+            "end": 7.23,
+            "probability": 0.9996333122253418
+          },
+          {
+            "word": " Break",
+            "start": 7.23,
+            "end": 7.51,
+            "probability": 0.9990915060043335
+          },
+          {
+            "word": " para",
+            "start": 7.51,
+            "end": 7.97,
+            "probability": 0.9988365769386292
+          },
+          {
+            "word": " aprender",
+            "start": 7.97,
+            "end": 8.25,
+            "probability": 0.9999614953994751
+          },
+          {
+            "word": " más",
+            "start": 8.25,
+            "end": 8.51,
+            "probability": 0.9999403953552246
+          },
+          {
+            "word": " sobre",
+            "start": 8.51,
+            "end": 8.83,
+            "probability": 0.999942421913147
+          },
+          {
+            "word": " el",
+            "start": 8.83,
+            "end": 8.95,
+            "probability": 0.9997335076332092
+          },
+          {
+            "word": " universo.",
+            "start": 8.95,
+            "end": 9.21,
+            "probability": 0.7079587578773499
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start": 18.12,
+        "end": 23.02,
+        "text": "Aquí comienza Coffee Break, la tertulia semanal de la actualidad científica.",
+        "avg_logprob": -0.12788371309853983,
+        "compression_ratio": 1.6285714285714286,
+        "no_speech_prob": 0.017198845744132996,
+        "words": [
+          {
+            "word": " Aquí",
+            "start": 18.12,
+            "end": 18.68,
+            "probability": 0.997052788734436
+          },
+          {
+            "word": " comienza",
+            "start": 18.68,
+            "end": 19.18,
+            "probability": 0.9999589920043945
+          },
+          {
+            "word": " Coffee",
+            "start": 19.18,
+            "end": 19.54,
+            "probability": 0.9998995065689087
+          },
+          {
+            "word": " Break,",
+            "start": 19.54,
+            "end": 19.94,
+            "probability": 0.9999018907546997
+          },
+          {
+            "word": " la",
+            "start": 20.2,
+            "end": 20.54,
+            "probability": 0.9999440908432007
+          },
+          {
+            "word": " tertulia",
+            "start": 20.54,
+            "end": 21.04,
+            "probability": 0.9996695518493652
+          },
+          {
+            "word": " semanal",
+            "start": 21.04,
+            "end": 21.54,
+            "probability": 0.9999213814735413
+          },
+          {
+            "word": " de",
+            "start": 21.54,
+            "end": 21.64,
+            "probability": 0.9999449253082275
+          },
+          {
+            "word": " la",
+            "start": 21.64,
+            "end": 21.72,
+            "probability": 0.9983792304992676
+          },
+          {
+            "word": " actualidad",
+            "start": 21.72,
+            "end": 22.22,
+            "probability": 0.9983607828617096
+          },
+          {
+            "word": " científica.",
+            "start": 22.22,
+            "end": 23.02,
+            "probability": 0.9999714493751526
+          }
+        ]
+      }
+    ],
+    "last_segments": [
+      {
+        "id": 2284,
+        "start": 7171.46,
+        "end": 7172.48,
+        "text": "Muy bien. Gracias a todos.",
+        "avg_logprob": -0.1698013576594266,
+        "compression_ratio": 1.6254071661237786,
+        "no_speech_prob": 0.013354391790926456,
+        "words": [
+          {
+            "word": " Muy",
+            "start": 7171.46,
+            "end": 7171.78,
+            "probability": 0.9915698766708374
+          },
+          {
+            "word": " bien.",
+            "start": 7171.78,
+            "end": 7171.94,
+            "probability": 0.9999876022338867
+          },
+          {
+            "word": " Gracias",
+            "start": 7171.98,
+            "end": 7172.18,
+            "probability": 0.9969747066497803
+          },
+          {
+            "word": " a",
+            "start": 7172.18,
+            "end": 7172.34,
+            "probability": 0.9999743700027466
+          },
+          {
+            "word": " todos.",
+            "start": 7172.34,
+            "end": 7172.48,
+            "probability": 0.9998281002044678
+          }
+        ]
+      },
+      {
+        "id": 2285,
+        "start": 7172.52,
+        "end": 7174.0,
+        "text": "Hasta la semana que viene. Un abrazo. Chau.",
+        "avg_logprob": -0.1698013576594266,
+        "compression_ratio": 1.6254071661237786,
+        "no_speech_prob": 0.013354391790926456,
+        "words": [
+          {
+            "word": " Hasta",
+            "start": 7172.52,
+            "end": 7172.62,
+            "probability": 0.9981155395507812
+          },
+          {
+            "word": " la",
+            "start": 7172.62,
+            "end": 7172.7,
+            "probability": 0.9999672174453735
+          },
+          {
+            "word": " semana",
+            "start": 7172.7,
+            "end": 7172.82,
+            "probability": 0.9996927976608276
+          },
+          {
+            "word": " que",
+            "start": 7172.82,
+            "end": 7172.96,
+            "probability": 0.9999334812164307
+          },
+          {
+            "word": " viene.",
+            "start": 7172.96,
+            "end": 7173.1,
+            "probability": 0.9999730587005615
+          },
+          {
+            "word": " Un",
+            "start": 7173.3,
+            "end": 7173.42,
+            "probability": 0.9983250498771667
+          },
+          {
+            "word": " abrazo.",
+            "start": 7173.42,
+            "end": 7173.76,
+            "probability": 0.9999713897705078
+          },
+          {
+            "word": " Chau.",
+            "start": 7173.76,
+            "end": 7174.0,
+            "probability": 0.5678628832101822
+          }
+        ]
+      },
+      {
+        "id": 2286,
+        "start": 7254.77,
+        "end": 7254.97,
+        "text": "Gracias.",
+        "avg_logprob": -0.7353532314300537,
+        "compression_ratio": 0.5,
+        "no_speech_prob": 0.8444850444793701,
+        "words": [
+          {
+            "word": " Gracias.",
+            "start": 7254.77,
+            "end": 7254.97,
+            "probability": 0.22827008366584778
+          }
+        ]
+      }
+    ]
+  }
+}

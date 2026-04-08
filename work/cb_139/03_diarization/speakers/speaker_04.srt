@@ -1,0 +1,3279 @@
+1
+00:04:55,180 --> 00:05:00,040
+¿Qué tal? Aquí estamos. A ver si hablamos un poquito de campos cuánticos y de simetrías.
+
+2
+00:10:31,680 --> 00:10:32,960
+¿Me permitís un pequeño inciso?
+
+3
+00:10:32,960 --> 00:10:34,620
+Y ahora pasa Alberto a comentar algo.
+
+4
+00:10:36,520 --> 00:10:37,480
+Las partículas,
+
+5
+00:10:37,480 --> 00:10:38,980
+lo que desde el punto de vista clásico
+
+6
+00:10:38,980 --> 00:10:41,460
+llamamos partículas, tienen asociado
+
+7
+00:10:41,460 --> 00:10:43,520
+un campo cuántico. Pero ese campo cuántico
+
+8
+00:10:43,520 --> 00:10:45,420
+en realidad son varios campos
+
+9
+00:10:45,420 --> 00:10:46,720
+conectados por simetrías.
+
+10
+00:10:47,140 --> 00:10:49,240
+Por ejemplo, el electrón
+
+11
+00:10:49,240 --> 00:10:51,060
+y el positrón son
+
+12
+00:10:51,060 --> 00:10:52,660
+cuatro campos.
+
+13
+00:10:53,160 --> 00:10:55,360
+Dos campos asociados al electrón
+
+14
+00:10:55,360 --> 00:10:57,320
+y dos campos asociados al positrón
+
+15
+00:10:57,320 --> 00:10:59,400
+y son campos que vibran al unísono
+
+16
+00:10:59,400 --> 00:11:01,400
+cuando yo tengo un electrón. Cuando yo tengo un electrón
+
+17
+00:11:01,400 --> 00:11:03,160
+es una vibración de ambos campos
+
+18
+00:11:03,160 --> 00:11:04,840
+electrónicos. Lo que ocurre es que
+
+19
+00:11:04,840 --> 00:11:07,340
+en ciertas circunstancias yo puedo interaccionar
+
+20
+00:11:07,340 --> 00:11:08,500
+solo con uno de ellos.
+
+21
+00:11:08,940 --> 00:11:11,420
+Por ejemplo, la interacción débil interacciona
+
+22
+00:11:11,420 --> 00:11:12,920
+con uno de los dos campos,
+
+23
+00:11:13,360 --> 00:11:15,260
+no con el otro. Por eso sabemos que hay
+
+24
+00:11:15,260 --> 00:11:17,340
+dos campos. Pero fijaros
+
+25
+00:11:17,340 --> 00:11:19,200
+lo sorprendente. Lo que llamábamos
+
+26
+00:11:19,200 --> 00:11:21,280
+partículas no está asociado a un
+
+27
+00:11:21,280 --> 00:11:23,020
+único campo, sino que podría
+
+28
+00:11:23,020 --> 00:11:24,880
+estar asociado, y en muchos casos lo está,
+
+29
+00:11:25,040 --> 00:11:27,260
+a varios campos. Y a eso es
+
+30
+00:11:27,260 --> 00:11:29,100
+lo que le llamamos spin de la partícula.
+
+31
+00:15:37,080 --> 00:15:41,160
+En eso hay que tener esto, algunos divulgadores, algunos físicos
+
+32
+00:15:41,900 --> 00:15:44,520
+están últimamente ofreciendo esa idea, la idea de que
+
+33
+00:15:44,520 --> 00:15:48,600
+¿por qué llamamos sustancia al agua si está hecha de moléculas?
+
+34
+00:15:48,620 --> 00:15:52,500
+¿Por qué llamamos sustancia al aire si está hecho de varios tipos de moléculas?
+
+35
+00:15:52,520 --> 00:15:55,640
+Y no llamamos sustancia al campo electromagnético
+
+36
+00:15:55,640 --> 00:16:24,440
+electromagnético o al campo electrónico o al campo de un cuerpo. Y hay varios físicos importantes que están divulgando esa idea. El vacío del campo electromagnético es una sustancia, tan sustancia como puede ser una sustancia efectiva a la que llamamos agua. El agua, de hecho, no es una sustancia, no existe, no existe el agua, existen las moléculas de agua, pero sí existe el campo electromagnético. Luego es más sustancia el campo electromagnético que el agua.
+
+37
+00:20:58,140 --> 00:21:02,560
+de las teorías cuánticas de campo, porque sus vibraciones son campos cuánticos.
+
+38
+00:21:02,640 --> 00:21:07,940
+Son campos cuánticos cuyas vibraciones son campos cuánticos que se comportan como partículas
+
+39
+00:21:07,940 --> 00:21:11,180
+y que en cierto límite se comportan como cuerdas.
+
+40
+00:21:11,500 --> 00:21:16,900
+Pero la cuerda es la primera cuantización, es la cuantización tipo partículas en las teorías de cuerdas.
+
+41
+00:21:16,920 --> 00:21:21,240
+Las teorías de cuerdas de verdad son teorías de campos cuerdísticos.
+
+42
+00:21:21,340 --> 00:21:24,880
+Y yo no sé por qué mucha gente no lo quiere contar, pero así es como se escriben las ecuaciones
+
+43
+00:21:24,880 --> 00:21:26,320
+y así es como se hacen los cálculos.
+
+44
+00:21:26,320 --> 00:21:36,520
+Son campos. Luego vamos a sustituir el concepto de campo cuántico por el concepto de campo cuerdístico, que es un campo con nuevas propiedades diferentes, pero siguen siendo campos.
+
+45
+00:22:16,010 --> 00:22:17,170
+sin nada sustantivo
+
+46
+00:22:17,930 --> 00:22:20,590
+esa era la idea del éter, o sea, a veces pensamos
+
+47
+00:22:20,590 --> 00:22:22,350
+un campo cuántico es lo mismo que el éter
+
+48
+00:22:22,350 --> 00:22:24,750
+un campo clásico es lo mismo que el éter
+
+49
+00:22:24,750 --> 00:22:25,990
+no, no es lo mismo, ¿por qué?
+
+50
+00:22:26,210 --> 00:22:28,550
+porque el éter se pensaba que estaba
+
+51
+00:22:28,550 --> 00:22:29,430
+hecho de cosas
+
+52
+00:22:29,430 --> 00:22:49,810
+Y que el éter, igual que el agua, se podía congelar. Y yo podía usar el éter como sistema de referencia absoluto. Fijaros, en el agua las moléculas de agua se mueven, pero cuando yo en el frío congelo el agua, las moléculas se quedan aproximadamente quietas, formando el hielo. Eso es lo que se pensaba que ocurría con el éter.
+
+53
+00:22:49,810 --> 00:23:10,930
+El campo electromagnético se suponía una vibración de cosas y esas cosas yo las podía llegar a congelar y congelándolas yo podía conseguir tener un sistema de referencia absoluto. Y lo que se descubrió con los experimentos es que eso es falso. No existe ese sistema de referencia absoluto implicado por el éter.
+
+54
+00:23:11,470 --> 00:23:15,610
+Existen campos cuánticos, existen vibraciones acopladas al espacio-tiempo
+
+55
+00:23:15,610 --> 00:23:19,910
+y que están en el espacio-tiempo y que mueven energía en el espacio-tiempo
+
+56
+00:23:19,910 --> 00:23:20,870
+de unos lugares a otros.
+
+57
+00:23:21,070 --> 00:23:25,770
+Pero no existe la posibilidad de congelar los campos electromagnéticos
+
+58
+00:23:25,770 --> 00:23:28,890
+de tal manera de que yo obtenga un sistema de referencia absoluto.
+
+59
+00:23:28,910 --> 00:23:31,950
+Siempre tendré sistemas de referencia relativos.
+
+60
+00:23:31,950 --> 00:23:34,670
+Por lo tanto, no tiene sentido el concepto de éter.
+
+61
+00:23:34,790 --> 00:23:38,310
+Entonces, esa analogía éter-campo cuántico no tiene ningún sentido.
+
+62
+00:23:38,990 --> 00:23:43,810
+¿Por qué? Ya digo, la clave de la analogía es que haya un sistema de referencia absoluto.
+
+63
+00:23:44,440 --> 00:23:48,900
+Y lo que tenemos garantías es que no hay sistemas de referencia absolutos.
+
+64
+00:25:38,080 --> 00:25:39,700
+no, yo estoy completamente de acuerdo
+
+65
+00:25:40,220 --> 00:25:41,500
+fíjate, ¿qué es el agua?
+
+66
+00:25:41,720 --> 00:25:43,540
+el agua está hecha de moléculas de agua
+
+67
+00:25:43,540 --> 00:25:46,080
+¿de verdad? ¿de verdad el agua está hecha
+
+68
+00:25:46,080 --> 00:25:47,640
+de moléculas de agua? no
+
+69
+00:25:48,120 --> 00:25:49,600
+no está hecha de moléculas de agua
+
+70
+00:25:49,600 --> 00:25:51,280
+no existen las moléculas de agua
+
+71
+00:25:52,680 --> 00:25:54,060
+son vibraciones de campos
+
+72
+00:25:54,060 --> 00:25:55,860
+cuánticos que nosotros en cierto
+
+73
+00:25:55,860 --> 00:25:57,600
+límite las vemos como moléculas de agua
+
+74
+00:25:57,600 --> 00:25:59,720
+en cierto límite las vemos como agua continua
+
+75
+00:25:59,720 --> 00:26:17,300
+Pero, ya os digo, en cierto límite no vemos moléculas de agua. Es decir, la realidad esté constituida de lo que esté constituido y nuestro modelo matemático sea el que sea, la realidad es la que es. Y siempre nuestras teorías van a describir la realidad en ciertos márgenes de energía, de tiempo, de escala de espacio, etc.
+
+76
+00:26:17,300 --> 00:26:18,860
+etcétera. La realidad última
+
+77
+00:26:18,860 --> 00:26:20,920
+a día de hoy es una realidad que
+
+78
+00:26:20,920 --> 00:26:22,900
+sabemos que es válida desde distancias del orden
+
+79
+00:26:22,900 --> 00:26:24,780
+de 10 a la menos 18, de 10 a la menos
+
+80
+00:26:24,780 --> 00:26:26,780
+19 metros, en tiempos
+
+81
+00:26:26,780 --> 00:26:28,100
+del orden de los
+
+82
+00:26:29,320 --> 00:26:29,800
+octosegundos.
+
+83
+00:26:30,380 --> 00:26:32,480
+En ese tipo de realidad, desde ese
+
+84
+00:26:32,480 --> 00:26:34,660
+punto de vista, desde esas escalas
+
+85
+00:26:34,660 --> 00:26:36,720
+hasta las mayores escalas del universo, sabemos
+
+86
+00:26:36,720 --> 00:26:38,120
+que está descrita de campos cuánticos.
+
+87
+00:26:38,720 --> 00:26:40,640
+Para nosotros la realidad está hecha de eso.
+
+88
+00:26:41,000 --> 00:26:42,680
+Esos son nuestros modelos matemáticos
+
+89
+00:26:42,680 --> 00:26:44,680
+hasta ahora, porque no hemos encontrado
+
+90
+00:26:44,680 --> 00:26:46,300
+ningún indicio de que eso no sea verdad.
+
+91
+00:26:46,300 --> 00:26:48,520
+la realidad tiene que estar hecha de eso
+
+92
+00:26:48,520 --> 00:26:50,580
+si dentro de cien años o de mil años
+
+93
+00:26:50,580 --> 00:26:52,100
+descubrimos que está hecha de otras cosas
+
+94
+00:26:52,800 --> 00:26:54,020
+esto seguirá siendo válido
+
+95
+00:26:54,020 --> 00:26:56,520
+igual que hoy sigue siendo válido que el agua
+
+96
+00:26:56,520 --> 00:26:57,560
+está hecha de moléculas de agua
+
+97
+00:26:58,790 --> 00:27:00,850
+algo que no se sabía hace doscientos años
+
+98
+00:27:01,690 --> 00:27:03,150
+y que hoy en día todo el mundo
+
+99
+00:27:03,150 --> 00:27:03,430
+sabe
+
+100
+00:28:20,350 --> 00:28:21,530
+Yo solo comento una cosita.
+
+101
+00:28:21,630 --> 00:28:24,650
+La palabra energía es muy peligrosa, muy peligrosa.
+
+102
+00:28:24,670 --> 00:28:30,230
+Porque la palabra energía ha cambiado como siete u ocho veces en los últimos 300 años.
+
+103
+00:28:30,490 --> 00:28:34,010
+El concepto de energía para Galileo, el concepto de energía para Bohr,
+
+104
+00:28:34,110 --> 00:28:38,730
+el concepto de energía para Einstein y el concepto de energía actual son muy diferentes.
+
+105
+00:28:38,730 --> 00:28:48,170
+Y hoy en día un estudiante de física estudia todos esos conceptos en diferentes asignaturas y tiene que ser consciente de que la mayor parte de esos conceptos es mentira.
+
+106
+00:28:48,250 --> 00:28:53,770
+Y son cosas distintas. A mí la palabra energía no me gusta. Es citaciones de campos cuánticos.
+
+107
+00:31:24,750 --> 00:31:27,310
+perdona, ahí tú acabas de decir la clave Alberto
+
+108
+00:31:27,890 --> 00:31:29,770
+perdóname Héctor, perdóname Nacho
+
+109
+00:31:29,770 --> 00:31:31,690
+pero no es verdad
+
+110
+00:31:31,690 --> 00:31:33,610
+que la teoría de Newton
+
+111
+00:31:33,610 --> 00:31:35,630
+y la teoría de la gravedad de Einstein son
+
+112
+00:31:35,630 --> 00:31:36,450
+equivalentes
+
+113
+00:31:37,930 --> 00:31:41,590
+la teoría de la gravedad de Einstein explica
+
+114
+00:31:41,590 --> 00:31:42,430
+la de Newton
+
+115
+00:31:42,930 --> 00:31:44,770
+Sí, lo que quiero decir es que
+
+116
+00:31:44,770 --> 00:31:46,890
+Hay muchísimas evidencias observacionales
+
+117
+00:31:46,890 --> 00:31:48,630
+y experimentales de que la teoría de Newton
+
+118
+00:31:48,630 --> 00:31:51,010
+es incorrecta
+
+119
+00:31:55,830 --> 00:31:59,030
+No es verdad que haya dos teorías igual de buenas
+
+120
+00:31:59,030 --> 00:31:59,890
+para describir el universo
+
+121
+00:31:59,890 --> 00:32:01,730
+Tenemos una
+
+122
+00:32:23,990 --> 00:32:25,970
+Pues Héctor, eso pasa ahora mismo con nosotros
+
+123
+00:32:25,970 --> 00:32:27,590
+es decir, los físicos teóricos
+
+124
+00:32:27,590 --> 00:32:28,590
+de los últimos 40 años
+
+125
+00:32:28,590 --> 00:32:30,450
+se han dedicado, gente como Alberto
+
+126
+00:32:30,450 --> 00:32:32,310
+se han dedicado fundamentalmente
+
+127
+00:32:32,310 --> 00:32:34,210
+a inventar nuevas teorías
+
+128
+00:32:34,210 --> 00:32:36,510
+que predicen exactamente lo mismo
+
+129
+00:32:36,510 --> 00:32:37,410
+que el modelo estándar
+
+130
+00:32:37,410 --> 00:32:38,690
+y más cosas
+
+131
+00:32:38,690 --> 00:32:40,710
+pero predicen todo lo que predice
+
+132
+00:32:40,710 --> 00:32:41,390
+el modelo estándar
+
+133
+00:32:41,390 --> 00:32:59,350
+Las teorías de gran unificación, hay muchísimas variantes, todas las teorías, todos los modelos fenomenológicos de teoría de cuerdas, si son buenos, si están bien hechos, predicen el modelo estándar y más cosas. Y si son buenos de verdad, predicen el modelo estándar y más cosas a baja energía, que todavía no hemos observado.
+
+134
+00:32:59,350 --> 00:33:09,570
+Pero es que muchas de esas teorías predicen el modelo estándar, todo lo conocido, y cosas que nunca podremos llegar a observar, porque están a escalas de energía enormemente altas.
+
+135
+00:33:09,570 --> 00:33:12,310
+con lo que ahora mismo nos encontramos en esa situación
+
+136
+00:33:12,310 --> 00:33:14,570
+tenemos una teoría del modelo estándar que es muy sencilla
+
+137
+00:33:14,570 --> 00:33:16,390
+que lo explica todo y tenemos
+
+138
+00:33:17,690 --> 00:33:18,170
+extensiones
+
+139
+00:33:19,210 --> 00:33:20,490
+mejoras añadidos al modelo
+
+140
+00:33:20,490 --> 00:33:22,730
+estándar que en un caso límite
+
+141
+00:33:22,730 --> 00:33:24,410
+nos dan el modelo estándar a baja energía
+
+142
+00:33:24,410 --> 00:33:26,330
+pero que a alta energía predicen
+
+143
+00:33:26,330 --> 00:33:28,450
+la existencia de infinidad de
+
+144
+00:33:28,450 --> 00:33:30,370
+posibilidades que quizás algún día
+
+145
+00:33:30,370 --> 00:33:32,430
+descubramos alguna de ellas o quizás no
+
+146
+00:34:20,550 --> 00:34:22,890
+Bueno, vamos a empezar a hablar de simetrías
+
+147
+00:34:46,290 --> 00:34:53,110
+Pero eso te va a ocurrir siempre. Eso es Hegel. Eso es la filosofía básica del primer curso de filosofía.
+
+148
+00:34:54,150 --> 00:35:00,730
+¿Qué es lo decible? ¿De qué es lo que podemos hablar? ¿Qué es lo que podemos teorizar, matematizar, etcétera?
+
+149
+00:35:00,730 --> 00:35:15,530
+¿Qué es lo decible y qué es la realidad? Y hay una confrontación entre ambos papeles, hay cosas que podemos contar y es lo único que podemos contar y entonces hacemos una especie de correspondencia con la realidad y eso es lo único que tenemos, es la única posibilidad que tenemos.
+
+150
+00:35:57,410 --> 00:36:20,850
+En la teoría de la gravitación de Einstein se explica perfectamente la teoría de Newton. Es decir, los cuerpos se mueven de manera inercial en un espacio-tiempo curvado y eso, desde el punto de vista clásico, se observa como una fuerza a distancia y sin contacto. Es decir, la gravitación de Einstein explica perfectamente la de Newton. Y esa pregunta se la hizo Einstein y se la hicieron todos los contemporáneos de Einstein. No entiendo muy bien el argumento que has querido ofrecer.
+
+151
+00:36:46,770 --> 00:36:52,650
+Alberto, la pregunta en teoría de la relatividad metafísica es, ¿qué es el espacio-tiempo?
+
+152
+00:36:53,070 --> 00:36:58,210
+Si tú asumes que tú entiendes lo que es el espacio-tiempo, imaginemos que entendemos lo que es el espacio-tiempo.
+
+153
+00:36:59,210 --> 00:37:02,750
+Automáticamente, la teoría de la gravitación de Einstein te explica qué es la gravedad.
+
+154
+00:37:03,070 --> 00:37:08,550
+Una curvatura del espacio-tiempo relacionada con la energía contenida en un cierto volumen del espacio-tiempo.
+
+155
+00:37:08,850 --> 00:37:11,570
+Pero, claro, tú me preguntas, ¿qué es el espacio-tiempo?
+
+156
+00:37:11,750 --> 00:37:15,150
+Esa es una pregunta que tiene que ir más allá de la teoría de la relatividad general.
+
+157
+00:37:15,150 --> 00:37:36,970
+Igual que la pregunta ¿qué es un campo cuántico? Tiene que ir más allá de la teoría cuántica de campos. En teoría cuántica de campos asumimos, aceptemos que todo el mundo entiende que es un campo cuántico. Trabajemos con campos cuánticos. En la teoría de la relatividad general de Einstein aceptemos que todo el mundo sabe lo que es el espacio-tiempo, lo que es el espacio y lo que es el tiempo. Usemos ese concepto y expliquemos la gravedad.
+
+158
+00:37:36,970 --> 00:37:53,890
+Entonces la gravedad se explica perfectamente con el concepto de espacio-tiempo. Otra cosa es que no sabemos a nivel microscópico, a nivel cuántico, qué es el espacio-tiempo. Qué es el tiempo a nivel cuántico, qué es el espacio a nivel cuántico. Y probablemente una futura teoría cuántica de la gravedad lo explique.
+
+159
+00:40:47,180 --> 00:40:49,560
+la idea del spin es
+
+160
+00:40:49,560 --> 00:40:52,160
+el gran problema de conceptos como el spin
+
+161
+00:40:52,160 --> 00:40:54,220
+es igual que el concepto de energía, es que es un concepto
+
+162
+00:40:54,220 --> 00:40:56,020
+que ha ido cambiando en significado
+
+163
+00:40:56,020 --> 00:40:58,040
+conformemos y indo entendiendo mejor
+
+164
+00:40:58,040 --> 00:41:00,380
+el concepto, entonces hoy en día
+
+165
+00:41:00,380 --> 00:41:01,560
+¿qué es el spin?
+
+166
+00:41:01,780 --> 00:41:04,100
+pues básicamente el spin es el
+
+167
+00:41:04,100 --> 00:41:05,900
+hecho de que las partículas
+
+168
+00:41:05,900 --> 00:41:07,880
+cuando las entendemos como campos cuánticos
+
+169
+00:41:07,880 --> 00:41:09,940
+son varios campos
+
+170
+00:41:09,940 --> 00:41:11,800
+simultáneos, entonces
+
+171
+00:41:11,800 --> 00:41:26,860
+Entonces, el hecho de que el fotón sea una partícula de spin 1, pues una partícula de spin 1 tiene que tener tres campos, salvo que la partícula sea sin masa, como el fotón, y solo tiene dos campos.
+
+172
+00:41:27,860 --> 00:41:38,720
+Una partícula de spin 1 medio es una partícula que como partícula tiene dos campos, aunque como campo tiene cuatro campos. Son cuatro campos, dos que actúan como antipartícula y dos como partícula.
+
+173
+00:41:38,720 --> 00:41:40,840
+las partículas que tienen por ejemplo
+
+174
+00:41:40,840 --> 00:41:42,300
+spin 3 medios
+
+175
+00:41:42,300 --> 00:41:43,760
+que no hemos observado ninguna
+
+176
+00:41:43,760 --> 00:41:45,880
+pero que si tenemos partículas compuestas
+
+177
+00:41:45,880 --> 00:41:48,660
+que son análogas a una partícula
+
+178
+00:41:48,660 --> 00:41:49,360
+de spin 3 medios
+
+179
+00:41:49,360 --> 00:41:53,260
+tienen 5 campos
+
+180
+00:41:53,260 --> 00:41:54,800
+las partículas de spin
+
+181
+00:41:54,800 --> 00:41:56,980
+perdón, tienen 4 campos
+
+182
+00:41:56,980 --> 00:41:58,580
+estoy equivocándome
+
+183
+00:41:58,580 --> 00:42:00,680
+3, 4
+
+184
+00:42:00,680 --> 00:42:02,840
+4 campos, lo que pasa es que tienen 4 campos
+
+185
+00:42:02,840 --> 00:42:04,420
+más los 4 campos correspondientes
+
+186
+00:42:04,420 --> 00:42:05,660
+de la antipartícula
+
+187
+00:42:06,860 --> 00:42:08,800
+las partículas de spin 2 por ejemplo
+
+188
+00:42:08,800 --> 00:42:10,880
+tienen 5 campos, salvo que no tengan
+
+189
+00:42:10,880 --> 00:42:12,840
+masa como el gravitón y tienen solo 2 campos
+
+190
+00:42:12,840 --> 00:42:14,320
+es decir, básicamente el spin
+
+191
+00:42:14,320 --> 00:42:16,660
+significa el número de
+
+192
+00:42:16,660 --> 00:42:18,300
+campos que tiene la partícula
+
+193
+00:42:28,220 --> 00:42:29,800
+una partícula no puede cambiar de spin
+
+194
+00:42:29,800 --> 00:42:32,160
+una partícula fundamental
+
+195
+00:42:33,760 --> 00:42:34,720
+es una
+
+196
+00:42:34,720 --> 00:42:37,240
+Una excitación es algo de un campo cuántico
+
+197
+00:42:37,240 --> 00:42:40,340
+y ese campo cuántico tiene un spin, el que sea.
+
+198
+00:42:40,880 --> 00:42:44,840
+Y solo puede cambiar de spin en transformaciones de tipo supersimétrico
+
+199
+00:42:44,840 --> 00:42:46,720
+que no sabemos si existen.
+
+200
+00:42:46,800 --> 00:42:48,540
+Esto es una cosa estrictamente matemática.
+
+201
+00:42:48,760 --> 00:42:51,980
+Una supersimetría es un cambio del spin de un campo.
+
+202
+00:42:52,220 --> 00:42:55,260
+Pero, en principio, cada campo, el spin,
+
+203
+00:42:55,400 --> 00:42:57,400
+es una propiedad del campo cuántico.
+
+204
+00:42:57,880 --> 00:43:00,920
+Que heredan las partículas de dicho campo cuántico.
+
+205
+00:43:11,300 --> 00:43:13,440
+más complejo. Claro, fíjate
+
+206
+00:43:13,440 --> 00:43:15,340
+tú tienes un electrón en un átomo
+
+207
+00:43:15,340 --> 00:43:17,140
+que es un sistema acoplado, el electrón está
+
+208
+00:43:17,140 --> 00:43:19,220
+acoplado al núcleo y al resto de los electrones
+
+209
+00:43:19,220 --> 00:43:20,480
+entonces él tiene un
+
+210
+00:43:21,300 --> 00:43:23,100
+momento angular orbital
+
+211
+00:43:23,100 --> 00:43:25,320
+porque está dando vueltas, y además como
+
+212
+00:43:25,320 --> 00:43:26,880
+es un electrón, tiene un momento angular
+
+213
+00:43:27,620 --> 00:43:29,200
+intrínseco, y ambos se suman
+
+214
+00:43:29,200 --> 00:43:31,200
+entonces yo puedo cambiar ese valor
+
+215
+00:43:31,200 --> 00:43:32,860
+de la suma, pero
+
+216
+00:43:32,860 --> 00:43:37,680
+Pero el spin, el valor del spin del campo cuántico asociado al electrón es único.
+
+217
+00:43:37,860 --> 00:43:40,640
+Es decir, el electrón es una partícula de spin 1 medio,
+
+218
+00:43:41,160 --> 00:43:43,160
+porque su campo cuántico tiene spin 1 medio.
+
+219
+00:44:10,200 --> 00:44:11,860
+y claro, ahí estamos usando otra
+
+220
+00:44:11,860 --> 00:44:13,580
+definición del concepto de spin
+
+221
+00:44:14,080 --> 00:44:15,920
+ya os he dicho que el concepto de spin
+
+222
+00:44:15,920 --> 00:44:17,680
+tiene diferentes definiciones
+
+223
+00:44:17,680 --> 00:44:19,380
+en función del campo en el que lo apliques
+
+224
+00:44:19,380 --> 00:44:21,220
+entonces, claro, el spin
+
+225
+00:44:21,220 --> 00:44:23,900
+es el hecho, desde el punto de vista de la teoría
+
+226
+00:44:23,900 --> 00:44:25,640
+cuántica de campos, es el hecho de que el electrón
+
+227
+00:44:25,640 --> 00:44:26,740
+tiene dos componentes
+
+228
+00:44:26,740 --> 00:44:29,680
+pero claro, si tiene dos componentes y lo miro en una
+
+229
+00:44:29,680 --> 00:44:31,660
+esfera, en una superficie esférica
+
+230
+00:44:31,660 --> 00:44:33,500
+tengo un punto en esa esfera
+
+231
+00:44:33,500 --> 00:44:35,620
+que tiene dos ángulos, la latitud y la longitud
+
+232
+00:44:36,240 --> 00:44:37,660
+¿bien? pues eso es como
+
+233
+00:44:37,660 --> 00:44:39,240
+una flecha desde el centro de la esfera
+
+234
+00:44:39,240 --> 00:44:41,000
+hasta ese punto en la esfera
+
+235
+00:44:41,000 --> 00:44:43,760
+esa flechita también se le llama
+
+236
+00:44:43,760 --> 00:44:45,960
+spin, y es la relación
+
+237
+00:44:45,960 --> 00:44:47,180
+entre esos dos campos
+
+238
+00:44:47,180 --> 00:44:49,440
+lo que yo tengo en la realidad, entre comillas
+
+239
+00:44:49,440 --> 00:44:51,860
+son los dos campos, pero yo lo puedo
+
+240
+00:44:51,860 --> 00:44:53,280
+ver como una flechita
+
+241
+00:44:53,280 --> 00:44:55,760
+que apunta en función de la proporción
+
+242
+00:44:55,760 --> 00:44:57,240
+de cada uno de los dos campos que tengo
+
+243
+00:44:57,240 --> 00:45:12,380
+Y eso le llamo la proyección del spin sobre un eje. Yo cojo un eje, básicamente como un campo magnético, yo proyecto el spin, tiene asociado un momento magnético, yo proyecto el spin y obtengo esa flechita apuntando en una cierta dirección.
+
+244
+00:45:12,540 --> 00:45:23,570
+Pero no es verdad que el electrón tenga una flechita. La flechita se obtiene cuando yo proyecto, en un sistema de medida concreto, el spin, que es decir, la relación relativa entre los dos campos.
+
+245
+00:46:04,750 --> 00:46:06,230
+Y esa es otra manera de ver el spin.
+
+246
+00:46:06,390 --> 00:46:10,330
+Fíjate, la carga eléctrica es el acoplamiento del electrón al campo electromagnético.
+
+247
+00:46:10,330 --> 00:46:12,510
+como el campo magnético tiene dos componentes
+
+248
+00:46:12,510 --> 00:46:14,410
+y el electrón tiene dos componentes, ahí tienes
+
+249
+00:46:14,410 --> 00:46:16,350
+una serie de acoplos, en esos acoplos son
+
+250
+00:46:16,350 --> 00:46:18,350
+acoplos que van moviéndose, no son acoplos
+
+251
+00:46:18,350 --> 00:46:20,170
+fijos, es decir, la
+
+252
+00:46:20,170 --> 00:46:22,430
+carga eléctrica del electrón es fija, pero
+
+253
+00:46:22,430 --> 00:46:24,490
+cómo se acopla cada una de las componentes
+
+254
+00:46:24,490 --> 00:46:26,450
+en un electrón concreto varía, y eso
+
+255
+00:46:26,450 --> 00:46:28,630
+es lo que me da el momento, una transferencia
+
+256
+00:46:28,630 --> 00:46:30,610
+de carga eléctrica entre las dos componentes
+
+257
+00:46:30,610 --> 00:46:32,370
+entonces, las dos, cómo
+
+258
+00:46:32,370 --> 00:46:34,670
+yo acoplo cada una de las dos componentes del electrón
+
+259
+00:46:34,670 --> 00:46:36,630
+va variando, va como oscilando
+
+260
+00:46:36,630 --> 00:46:38,390
+y esa oscilación es lo que me genera
+
+261
+00:46:38,390 --> 00:46:40,630
+un campo magnético. Entonces, entre comillas
+
+262
+00:46:40,630 --> 00:46:41,830
+hay un flujo de carga.
+
+263
+00:46:42,030 --> 00:46:44,270
+Lo que en realidad hay es un flujo de
+
+264
+00:46:44,270 --> 00:46:46,550
+acoplamiento entre las componentes del electrón
+
+265
+00:46:46,550 --> 00:46:48,150
+a las componentes del campo electromagnético.
+
+266
+00:48:25,470 --> 00:48:25,970
+fíjate Héctor
+
+267
+00:48:26,610 --> 00:48:28,850
+esto es una cosa que hay que decirla despacio
+
+268
+00:48:28,850 --> 00:48:31,730
+porque es una cosa que realmente es muy sorprendente
+
+269
+00:48:33,150 --> 00:48:33,590
+todo
+
+270
+00:48:33,590 --> 00:48:38,020
+Todo en la naturaleza tiene naturaleza ondulatoria.
+
+271
+00:48:38,160 --> 00:48:40,900
+Por ejemplo, lo hemos comprobado en experimentos
+
+272
+00:48:40,900 --> 00:48:43,620
+con un balón de fútbol de átomos de carbono.
+
+273
+00:48:44,680 --> 00:48:46,680
+60 átomos de carbono
+
+274
+00:48:46,680 --> 00:48:51,490
+que tienen una barbaridad de partículas fundamentales,
+
+275
+00:48:51,490 --> 00:48:56,090
+de electrones, de protones y neutrones hechos de quarks.
+
+276
+00:48:56,210 --> 00:49:00,790
+Una estructura tremenda de cientos y cientos de partículas.
+
+277
+00:49:00,810 --> 00:49:02,990
+Hemos, en un experimento de doble rendija,
+
+278
+00:49:02,990 --> 00:49:04,670
+deja comprobado que se comporta como una onda.
+
+279
+00:49:04,790 --> 00:49:07,270
+Se comporta exactamente igual que un fotón.
+
+280
+00:49:10,070 --> 00:49:11,690
+Es fútbol de átomos de carbono.
+
+281
+00:49:31,070 --> 00:49:32,810
+son 60 átomos de carbono
+
+282
+00:49:32,810 --> 00:49:35,310
+y de hecho también se ha hecho con otros fluoreanos desde 80 átomos de carbono
+
+283
+00:49:35,310 --> 00:49:37,230
+84, no recuerdo la cifra exacta
+
+284
+00:49:37,230 --> 00:49:39,170
+y de hecho ya hay gente planeando
+
+285
+00:49:39,170 --> 00:49:41,210
+el experimento de hacerlo con un virus
+
+286
+00:49:43,150 --> 00:49:45,010
+con un virus, y probablemente
+
+287
+00:49:45,010 --> 00:49:47,330
+se acabe haciendo en los próximos lustros
+
+288
+00:50:35,590 --> 00:50:38,170
+eso es lo que yo traté de explicar en mi charla de Naukas
+
+289
+00:50:38,770 --> 00:50:41,950
+yo traté de utilizar una metáfora, una analogía clásica
+
+290
+00:50:41,950 --> 00:50:43,090
+para explicar el spin
+
+291
+00:50:43,090 --> 00:50:47,510
+el spin es una onda, pero es una onda tridimensional
+
+292
+00:50:48,030 --> 00:50:51,570
+las ondas tienen una frecuencia, una longitud de onda
+
+293
+00:50:51,570 --> 00:50:52,770
+tienen una amplitud
+
+294
+00:50:54,350 --> 00:50:56,990
+la frecuencia y la longitud de onda están relacionadas
+
+295
+00:50:56,990 --> 00:50:59,150
+con la energía y con la velocidad de la onda
+
+296
+00:50:59,150 --> 00:51:02,070
+lo que son continuos, yo puedo tener un poquito más de energía
+
+297
+00:51:02,070 --> 00:51:04,950
+o un poquito menos de energía, la energía no está cuantizada
+
+298
+00:51:04,950 --> 00:51:08,210
+en el sentido de que la longitud de onda no está cuantizada
+
+299
+00:51:08,210 --> 00:51:11,350
+yo puedo tener un fotón de cualquier frecuencia
+
+300
+00:51:11,350 --> 00:51:14,610
+del espectro, cojo dos fotones con dos frecuencias
+
+301
+00:51:14,610 --> 00:51:16,450
+y puedo encontrar un fotón que esté en medio, siempre
+
+302
+00:51:17,630 --> 00:51:20,150
+pero el fotón además tiene una propiedad
+
+303
+00:51:20,150 --> 00:51:23,010
+que sí está cuantizada, y es que al ser una onda
+
+304
+00:51:24,090 --> 00:51:26,490
+tridimensional, además de, digámoslo así
+
+305
+00:51:26,490 --> 00:51:33,610
+así oscilar en amplitud, puede oscilar de manera rotacional, puede hacer como una especie de
+
+306
+00:51:33,610 --> 00:51:39,030
+movimiento espiral, como una especie de sacacorchos. Y resulta que ese movimiento en la especie de
+
+307
+00:51:39,030 --> 00:51:45,070
+sacacorchos, el sacacorcho no puede girar, no puede dar vueltas en hélice de manera arbitraria,
+
+308
+00:51:45,130 --> 00:51:51,810
+está cuantizado. Ese movimiento en forma de sacacorchos está cuantizado y tiene que caber
+
+309
+00:51:51,810 --> 00:51:54,030
+una cantidad entera, de hecho
+
+310
+00:51:54,030 --> 00:51:56,190
+semi-entera, en las longitudes de onda
+
+311
+00:51:56,190 --> 00:51:57,850
+que sí son continuas
+
+312
+00:51:57,850 --> 00:52:00,010
+entonces la longitud de onda es continua
+
+313
+00:52:00,010 --> 00:52:01,610
+la frecuencia es continua
+
+314
+00:52:01,610 --> 00:52:04,370
+pero el número de vueltas del sacacorcho
+
+315
+00:52:04,370 --> 00:52:05,530
+de esa onda tridimensional
+
+316
+00:52:05,530 --> 00:52:07,510
+que además de oscilar en amplitud
+
+317
+00:52:08,050 --> 00:52:09,230
+rota de alguna forma
+
+318
+00:52:10,110 --> 00:52:12,250
+esa rotación está cuantizada
+
+319
+00:52:12,250 --> 00:52:14,070
+y tiene que caber un cierto número
+
+320
+00:52:14,070 --> 00:52:15,870
+de veces, y eso es como yo expliqué
+
+321
+00:52:15,870 --> 00:52:17,370
+en mi charla en Naukas lo que era la spin
+
+322
+00:52:17,370 --> 00:52:19,550
+usé esta analogía clásica
+
+323
+00:52:19,550 --> 00:52:23,110
+que en el mundo del electromagnetismo clásico se llama el momento angular orbital
+
+324
+00:52:23,110 --> 00:52:29,730
+y que se puede utilizar, por ejemplo, para transmitir información en canales no guiados,
+
+325
+00:52:29,770 --> 00:52:33,870
+es decir, con fotones en el aire sin utilizar una fibra óptica
+
+326
+00:52:33,870 --> 00:52:37,050
+y que hoy en día tiene mucho interés y está trabajando bastante.
+
+327
+00:52:37,430 --> 00:52:42,430
+Y en ese tipo de ondas se habla de pseudo spin, que es el análogo clásico al spin,
+
+328
+00:52:42,950 --> 00:52:46,410
+pero para pulsos de luz, para ondas electromagnéticas.
+
+329
+00:53:07,270 --> 00:53:08,590
+Exactamente, pero esto es una analogía
+
+330
+00:53:08,590 --> 00:53:10,750
+es para intentar ayudar a entender lo que es el spin
+
+331
+00:53:10,750 --> 00:53:12,390
+después cuando uno va a la matemática
+
+332
+00:53:12,390 --> 00:53:14,750
+de la teoría cuántica de campos, todo esto se olvida
+
+333
+00:53:15,450 --> 00:53:16,850
+No se encuentra nada
+
+334
+00:53:16,850 --> 00:53:18,650
+de todo esto. Los físicos como Alberto
+
+335
+00:53:18,650 --> 00:53:20,190
+que han estudiado teoría cuántica de campos
+
+336
+00:53:20,190 --> 00:53:22,470
+nunca han estudiado el momento angular orbital
+
+337
+00:53:22,470 --> 00:53:24,710
+del fotón, que es una cosa
+
+338
+00:53:24,710 --> 00:53:26,670
+que estudian todos los ingenieros de telecomunicaciones
+
+339
+00:53:27,640 --> 00:53:28,900
+Entonces yo traté
+
+340
+00:53:28,900 --> 00:53:30,640
+en mi charla de Naukas usar un lenguaje
+
+341
+00:53:30,640 --> 00:53:32,220
+de ingenieros de telecomunicaciones
+
+342
+00:53:32,220 --> 00:53:34,740
+para explicar un concepto de teoría cuántica
+
+343
+00:53:34,740 --> 00:53:36,840
+de campus. Mucha gente no me entendió
+
+344
+00:53:36,840 --> 00:53:38,500
+porque este tipo de metáforas tienen el problema
+
+345
+00:53:38,500 --> 00:53:40,780
+de que la gente, el público ya no
+
+346
+00:53:40,780 --> 00:53:42,700
+tenía que entender lo que entienden los
+
+347
+00:53:42,700 --> 00:53:44,800
+ingenieros de terminaciones y lo que entienden los físicos
+
+348
+00:53:44,800 --> 00:53:46,700
+cuánticos y unificar ambos conceptos
+
+349
+00:53:46,700 --> 00:53:48,360
+y quizás ahí me equivoqué
+
+350
+00:53:48,940 --> 00:53:50,680
+al elegir la metáfora, pero es una
+
+351
+00:53:50,680 --> 00:53:52,580
+cosa que en el mundo de la ingeniería de terminaciones
+
+352
+00:53:52,580 --> 00:53:54,560
+se usa habitualmente
+
+353
+00:54:52,580 --> 00:54:53,860
+no, vamos a ver
+
+354
+00:54:54,560 --> 00:54:56,980
+si y no, si y no por dos razones
+
+355
+00:54:56,980 --> 00:54:58,340
+la primera, desde el punto de vista
+
+356
+00:54:58,340 --> 00:55:01,160
+digamos a nivel de árbol
+
+357
+00:55:01,160 --> 00:55:03,300
+al nivel básico, una partícula que no tenga
+
+358
+00:55:03,300 --> 00:55:04,980
+carga eléctrica, no tiene
+
+359
+00:55:04,980 --> 00:55:06,360
+momento magnético
+
+360
+00:55:07,220 --> 00:55:09,160
+asociado a su spin, si no tiene
+
+361
+00:55:09,160 --> 00:55:10,900
+carga eléctrica, no tiene momento magnético
+
+362
+00:55:11,680 --> 00:55:12,460
+cero patater
+
+363
+00:55:12,460 --> 00:55:14,960
+problema, las correcciones
+
+364
+00:55:14,960 --> 00:55:16,980
+cuánticas, las vibraciones
+
+365
+00:55:16,980 --> 00:55:18,140
+de un campo no están
+
+366
+00:55:18,980 --> 00:55:21,420
+aisladas, sino que están rodeadas del vacío
+
+367
+00:55:21,420 --> 00:55:23,340
+y ahí están todos los campos
+
+368
+00:55:23,340 --> 00:55:24,960
+con los que cuando una partícula vibra
+
+369
+00:55:24,960 --> 00:55:26,920
+cuando una partícula está en un lugar, a su alrededor
+
+370
+00:55:26,920 --> 00:55:28,360
+aparecen como vibraciones
+
+371
+00:55:28,360 --> 00:55:30,260
+de los demás campos
+
+372
+00:55:30,260 --> 00:55:32,320
+y se recubre de pequeños efectos
+
+373
+00:55:32,320 --> 00:55:34,220
+entonces las partículas
+
+374
+00:55:34,220 --> 00:55:36,140
+que no tienen carga eléctrica
+
+375
+00:55:36,140 --> 00:55:37,840
+pueden tener un momento
+
+376
+00:55:37,840 --> 00:55:40,280
+magnético anómalo
+
+377
+00:55:40,280 --> 00:55:41,620
+asociado al spin
+
+378
+00:55:41,620 --> 00:55:44,520
+es un fenómeno intrínsecamente cuántico
+
+379
+00:55:44,520 --> 00:55:46,020
+es un momento magnético
+
+380
+00:55:46,020 --> 00:55:48,580
+muy pequeño, por ejemplo en el neutrino
+
+381
+00:55:48,580 --> 00:55:50,360
+sabemos que es distinto de cero
+
+382
+00:55:50,360 --> 00:55:51,840
+pero no lo hemos podido medir
+
+383
+00:55:51,840 --> 00:55:54,440
+ni esperamos poderlo medir en el siglo XXI
+
+384
+00:55:54,440 --> 00:55:56,300
+va a ser muy difícil
+
+385
+00:55:56,300 --> 00:55:58,360
+y medirlo, pero sabemos que su valor es distinto
+
+386
+00:55:58,360 --> 00:56:00,280
+del cero, pero es porque está rodeada
+
+387
+00:56:00,280 --> 00:56:02,240
+esa partícula por el vacío y en el vacío
+
+388
+00:56:02,240 --> 00:56:03,920
+aparecen cargas y entonces hay movimiento
+
+389
+00:56:03,920 --> 00:56:05,980
+de carga por la propia existencia de la partícula
+
+390
+00:56:05,980 --> 00:56:07,960
+una partícula no puede estar completamente aislada
+
+391
+00:56:07,960 --> 00:56:10,100
+siempre los demás campos con los que puede
+
+392
+00:56:10,100 --> 00:56:11,820
+estar acoplada acaban vibrando
+
+393
+00:56:11,820 --> 00:56:14,100
+muy poquito si el acoplamiento
+
+394
+00:56:14,100 --> 00:56:15,660
+es débil y eso va generando
+
+395
+00:56:17,360 --> 00:56:18,240
+ese pequeño
+
+396
+00:56:18,240 --> 00:56:20,380
+efecto cuántico que envuelve
+
+397
+00:56:20,380 --> 00:56:20,960
+a la partícula
+
+398
+00:59:26,780 --> 00:59:33,500
+Exactamente, o sea, el spin del neutrino debe ser el mismo que el del electrón,
+
+399
+00:59:33,500 --> 00:59:38,340
+es decir, un medio, para que la teoría funcione bien en ciertas interacciones.
+
+400
+00:59:38,340 --> 00:59:41,160
+En la interacción débil ambas tienen que acoplar de manera adecuada
+
+401
+00:59:41,160 --> 00:59:42,160
+y tienen que tener el mismo spin.
+
+402
+00:59:42,160 --> 00:59:43,840
+spin, sin embargo
+
+403
+00:59:43,840 --> 00:59:45,860
+no hemos podido medir el
+
+404
+00:59:45,860 --> 00:59:48,320
+spin del neutrino de manera específica
+
+405
+00:59:48,320 --> 00:59:49,640
+de hecho hasta tal punto
+
+406
+00:59:49,640 --> 00:59:51,700
+de que ni siquiera sabemos si
+
+407
+00:59:51,700 --> 00:59:53,980
+el neutrino es una partícula de Dirac
+
+408
+00:59:53,980 --> 00:59:55,120
+como el propio
+
+409
+00:59:55,740 --> 00:59:57,440
+electrón o es una partícula de Majorana
+
+410
+00:59:57,440 --> 00:59:59,940
+que es una alternativa, es decir, todavía tenemos
+
+411
+00:59:59,940 --> 01:00:01,440
+cierta ambigüedad
+
+412
+01:00:01,440 --> 01:00:03,140
+en cómo matemáticamente
+
+413
+01:00:03,140 --> 01:00:05,720
+construir la teoría para el neutrino
+
+414
+01:00:05,720 --> 01:00:07,780
+en relación al spin, porque todavía
+
+415
+01:00:07,780 --> 01:00:09,820
+no sabemos cuál es la teoría
+
+416
+01:00:09,820 --> 01:00:11,360
+correcta porque tenemos dos alternativas
+
+417
+01:00:25,180 --> 01:00:42,060
+Sí, y casi con toda seguridad. O sea, seguro es un medio, ¿vale? O sea, la teoría funciona demasiado bien para que fuera mentira que no fuera un medio. Lo que pasa es que ese un medio, el spin un medio para un neutrino y el spin un medio para un electrón, significa cosas distintas.
+
+418
+01:00:42,060 --> 01:00:44,940
+porque el electrón y el neutrino
+
+419
+01:00:44,940 --> 01:00:47,080
+son tan parecidos que en ciertas
+
+420
+01:00:47,080 --> 01:00:49,220
+interacciones no hay ninguna diferencia entre ellos
+
+421
+01:00:49,220 --> 01:00:50,500
+en la interacción débil
+
+422
+01:00:50,500 --> 01:00:53,260
+pero solamente para una de sus componentes
+
+423
+01:00:53,260 --> 01:00:55,000
+de sus campos, la componente izquierda
+
+424
+01:00:55,000 --> 01:00:57,280
+la componente izquierda del campo del neutrino
+
+425
+01:00:57,280 --> 01:00:59,120
+y la componente izquierda del campo del electrón
+
+426
+01:00:59,120 --> 01:01:00,980
+son indistinguibles y se pueden
+
+427
+01:01:00,980 --> 01:01:02,140
+intercambiar una con la otra
+
+428
+01:01:02,140 --> 01:01:04,900
+y yo puedo transformar neutrinos en electrones
+
+429
+01:01:04,900 --> 01:01:07,200
+pero la componente derecha
+
+430
+01:01:07,200 --> 01:01:09,100
+no, porque en el neutrino
+
+431
+01:01:09,100 --> 01:01:11,020
+no hemos encontrado componente derecha
+
+432
+01:01:11,020 --> 01:01:13,680
+no la hemos encontrado, sí del antinutrino
+
+433
+01:01:13,680 --> 01:01:15,600
+pero no del neutrino, y sin embargo el electrón
+
+434
+01:01:15,600 --> 01:01:17,680
+sí tiene componente derecha, y esto está relacionado
+
+435
+01:01:17,680 --> 01:01:19,480
+con las simetrías, las simetrías
+
+436
+01:01:19,480 --> 01:01:21,080
+en física de partículas nos dicen
+
+437
+01:01:21,080 --> 01:01:23,140
+cuando yo no soy capaz de distinguir
+
+438
+01:01:23,140 --> 01:01:25,560
+que dos cosas son iguales, para ciertas
+
+439
+01:01:25,560 --> 01:01:27,400
+propiedades Nacho y
+
+440
+01:01:27,400 --> 01:01:28,680
+Héctor son idénticos
+
+441
+01:01:28,680 --> 01:01:31,040
+desde el punto de vista de que son dos personas
+
+442
+01:01:31,040 --> 01:01:33,460
+que tienen cara, tienen ojos, tienen cejas
+
+443
+01:01:33,460 --> 01:01:35,480
+tienen boca, luego para mí son idénticos
+
+444
+01:01:35,480 --> 01:01:37,480
+sin embargo hay ciertas propiedades
+
+445
+01:01:37,480 --> 01:01:39,240
+que los hacen claramente distintos
+
+446
+01:01:39,240 --> 01:01:56,680
+Porque yo lo estoy viendo a través de la cámara, uno sentado en un lugar y otro sentado en otro lugar. Y estoy viendo que están vestidos con ropa distinta. Son distintos para ciertas propiedades, pero para otras propiedades son idénticos. Eso es como nosotros construimos las interacciones entre las partículas y los campos cuánticos.
+
+447
+01:01:56,680 --> 01:02:22,780
+Para ciertas interacciones hacemos idénticas ciertos campos y por lo tanto intercambiables entre ellos, se puede transformar uno en otro y para otras interacciones esos campos son distinguibles. El neutrino es distinguible del electrón, su componente izquierda porque uno tiene carga eléctrica y el otro no, uno está acoplado al campo electromagnético y el otro no, pero para la interacción débil, la interacción a través de bosones W y bosones Z son exactamente idénticos.
+
+448
+01:02:22,780 --> 01:02:52,010
+Y eso se ha observado en los experimentos, no me lo estoy inventando, no es pura teoría. En HERA hay un experimento precioso de interacción de electrones con protones en los que se observa perfectamente esa interacción con corrientes débiles neutras y cargadas, es decir, se observa perfectamente cómo conforme sube la energía de los electrones que chocan contra los protones, la interacción débil y la interacción electromagnética se unifican en una única interacción.
+
+449
+01:02:53,130 --> 01:02:55,050
+y a alta energía, del orden de unos
+
+450
+01:02:55,050 --> 01:02:56,570
+200 giga de tronvoltios, son
+
+451
+01:02:57,770 --> 01:02:59,620
+indistinguibles. Y eso lo
+
+452
+01:02:59,620 --> 01:03:01,660
+vemos en los experimentos. Y la teoría nos dice
+
+453
+01:03:01,660 --> 01:03:03,560
+que tiene que ser así. Es decir, que no es
+
+454
+01:03:03,560 --> 01:03:05,300
+solo teoría, también es observaciones.
+
+455
+01:03:06,040 --> 01:03:07,280
+Hay un elemento
+
+456
+01:04:06,020 --> 01:04:09,520
+Sí, algunas de la gente dice, esta imagen de Hera, no sé si te acuerdas Alberto
+
+457
+01:04:09,520 --> 01:04:10,700
+si la has visto alguna vez, preciosa
+
+458
+01:04:11,660 --> 01:04:16,820
+algunos físicos en varios libros han escrito que es la figura más bella
+
+459
+01:04:16,820 --> 01:04:18,740
+de toda la física de partículas elementales
+
+460
+01:04:18,740 --> 01:04:32,240
+Es la figura de era de hace unos 10 años en la que se ve perfectamente cómo convergen ambas fuerzas conforme la energía crece y al final acaba habiendo la misma tendencia entre lo que es el electromagnetismo, las corrientes débiles neutras y las corrientes electromagnéticas.
+
+461
+01:04:32,240 --> 01:04:49,840
+Es decir, el bosón Z acaba comportándose como si perdiera masa. Y ves perfectamente las dos curvas, cómo claramente hay muchos órdenes de magnitud de diferencia entre la interacción débil, la baja energía y el electromagnetismo, y cómo esas dos interacciones acaban unificándose prácticamente en una única interacción.
+
+462
+01:04:50,280 --> 01:04:56,500
+Y esa imagen es muy famosa, viene en muchos libros, y desde luego te lo deja clarísimo. Es puramente experimental.
+
+463
+01:19:01,270 --> 01:19:06,250
+es que esto es un tema muy muy muy complicado
+
+464
+01:19:06,250 --> 01:19:07,510
+de explicar
+
+465
+01:19:08,650 --> 01:19:09,710
+lo primero
+
+466
+01:19:09,710 --> 01:19:12,330
+el formalismo lagrangiano
+
+467
+01:19:12,330 --> 01:19:13,710
+del que estamos hablando
+
+468
+01:19:13,710 --> 01:19:16,110
+es un formalismo que solo se aplica
+
+469
+01:19:16,110 --> 01:19:17,470
+a interacciones
+
+470
+01:19:17,470 --> 01:19:19,870
+fuerzas conservativas
+
+471
+01:19:19,870 --> 01:19:21,450
+es decir
+
+472
+01:19:21,450 --> 01:19:24,250
+la simetría, la conservación de ciertas magnitudes
+
+473
+01:19:24,250 --> 01:19:41,170
+se deduce del formalismo lagrangiano, pero es que además es un prerequisito. Si tú coges, por ejemplo, un sistema disipativo, un sistema con rozamiento, no tiene lagrangiano. Si tú coges las ecuaciones de Navier-Stokes para los fluidos, no tienen formulación lagrangiana.
+
+474
+01:19:41,170 --> 01:20:09,090
+La mayor parte de la realidad clásica que nos rodea no tiene formulación lagrangiana. La formulación lagrangiana es maravillosa en mecánica celeste, porque en mecánica celeste tú asumes que no existen rozamientos, que todos los sistemas se mueven conservando la energía, lo que no es verdad, porque hay pequeños choques, porque hay pequeñas interacciones, porque los objetos pierden energía por fuerzas de marea, desprecian muchos efectos.
+
+475
+01:20:09,090 --> 01:20:27,020
+Lo que pasa es que los físicos creemos, no sé muy bien por qué, pero así parece ser la naturaleza, que las leyes fundamentales de la naturaleza, las leyes básicas y más primitivas de la naturaleza son conservativas y por lo tanto tienen formulación lagrangiana.
+
+476
+01:20:27,980 --> 01:20:29,980
+asumimos que la realidad
+
+477
+01:20:29,980 --> 01:20:31,420
+en el nivel más fundamental
+
+478
+01:20:31,420 --> 01:20:34,300
+se puede formular de esta manera
+
+479
+01:20:34,300 --> 01:20:35,980
+con un principio
+
+480
+01:20:35,980 --> 01:20:37,220
+de mínima acción
+
+481
+01:20:37,220 --> 01:20:39,720
+para un formalismo lagrangiano
+
+482
+01:20:39,720 --> 01:20:41,720
+y eso es lo que hacemos para explicar
+
+483
+01:20:41,720 --> 01:20:44,200
+la gravitación, el electromagnetismo
+
+484
+01:20:44,200 --> 01:20:46,240
+la interacción débil, la interacción fuerte
+
+485
+01:20:46,240 --> 01:20:48,060
+pero no podemos
+
+486
+01:20:48,060 --> 01:20:50,540
+hacerlo para explicar la turbulencia
+
+487
+01:20:50,540 --> 01:20:52,020
+o la dinámica de fluidos
+
+488
+01:20:52,020 --> 01:20:53,260
+o la dinámica de la atmósfera
+
+489
+01:20:53,260 --> 01:20:56,100
+o la dinámica del magma o la magnetohidrodinámica
+
+490
+01:20:56,100 --> 01:20:56,940
+no podemos
+
+491
+01:20:56,940 --> 01:21:03,980
+Pero a nivel fundamental, hasta ahora, si lo hacemos, parece que funciona bien ese formalismo.
+
+492
+01:21:04,120 --> 01:21:21,400
+Entonces, no es verdad que la piedra decida seguir esa mínima acción. Eso no es verdad, porque la piedra está sujeta a rozamientos. La piedra en el vacío y suponiendo que fuera una partícula ideal, no sé cuánto, sí seguiría un formalismo lagrangiano.
+
+493
+01:21:21,400 --> 01:21:24,220
+pero la piedra física y real
+
+494
+01:21:24,960 --> 01:21:26,320
+no lo cumple
+
+495
+01:21:26,320 --> 01:21:27,740
+pero no nos importa
+
+496
+01:21:27,740 --> 01:21:29,900
+porque cuando hablamos de física fundamental
+
+497
+01:21:29,900 --> 01:21:31,980
+nos olvidamos de sistemas tan complicados
+
+498
+01:21:31,980 --> 01:21:32,520
+como una piedra
+
+499
+01:21:32,520 --> 01:21:35,400
+ningún físico teórico va a estudiar una piedra
+
+500
+01:21:35,400 --> 01:21:38,120
+la piedra la estudian los físicos
+
+501
+01:21:38,120 --> 01:21:39,000
+que estudian piedras
+
+502
+01:22:01,260 --> 01:22:02,540
+Claro, pero estamos diciendo
+
+503
+01:22:03,760 --> 01:22:04,720
+el formalismo
+
+504
+01:22:04,720 --> 01:22:06,800
+lagrangiano no es aplicable cuando
+
+505
+01:22:06,800 --> 01:22:08,160
+metes fuerzas, ahora bien
+
+506
+01:22:08,160 --> 01:22:11,140
+si yo asumo que las leyes fundamentales
+
+507
+01:22:11,140 --> 01:22:12,500
+de la realidad son
+
+508
+01:22:12,500 --> 01:22:14,520
+lagrangianas, son conservativas
+
+509
+01:22:15,440 --> 01:22:16,820
+obviamente las leyes
+
+510
+01:22:16,820 --> 01:22:18,620
+derivadas que incluyen el rozamiento
+
+511
+01:22:18,620 --> 01:22:20,500
+las pérdidas, etcétera, tienen que
+
+512
+01:22:20,500 --> 01:22:22,580
+surgir de ellas, tienen que emerger
+
+513
+01:22:22,580 --> 01:22:24,660
+de alguna forma, y acabarán
+
+514
+01:22:24,660 --> 01:22:26,360
+emergiendo de alguna forma, pero
+
+515
+01:22:26,360 --> 01:22:27,900
+esa transición no es nada trivial
+
+516
+01:22:27,900 --> 01:22:30,580
+o sea, explicar con teoría cuántica
+
+517
+01:22:30,580 --> 01:22:32,660
+de campos cómo actúa el rozamiento
+
+518
+01:22:32,660 --> 01:22:33,640
+de las moléculas del aire
+
+519
+01:22:33,640 --> 01:22:35,580
+a día de hoy es imposible
+
+520
+01:22:36,320 --> 01:22:37,940
+asumimos que se podría hacer
+
+521
+01:22:37,940 --> 01:22:39,880
+que un ser suficientemente inteligente
+
+522
+01:22:39,880 --> 01:22:42,620
+con suficiente capacidad podría hacerlo
+
+523
+01:22:42,620 --> 01:22:44,640
+pero a priori
+
+524
+01:22:44,640 --> 01:22:46,700
+eso no es nada trivial, de hecho la transición
+
+525
+01:22:46,700 --> 01:22:49,560
+entre un sistema cuántico y un sistema clásico
+
+526
+01:22:49,560 --> 01:22:52,380
+conforme se incrementan el número de partículas
+
+527
+01:22:52,380 --> 01:22:55,720
+todavía es una incógnita, pero lo que sí quiero decir
+
+528
+01:22:55,720 --> 01:22:58,840
+es que para leyes fundamentales el formalismo lagrangiano
+
+529
+01:22:58,840 --> 01:23:01,420
+y el principio de minimización es verdad, para cosas
+
+530
+01:23:02,780 --> 01:23:04,280
+fundamentales, aplícamelo a un electrón
+
+531
+01:23:04,280 --> 01:23:07,180
+pero nunca me lo apliques a una piedra, es que Lagrange
+
+532
+01:23:07,180 --> 01:23:10,200
+lo aplicó a las piedras, vale, lo aplicó a las piedras
+
+533
+01:23:10,200 --> 01:23:12,560
+pero que el pobre Lagrange no sabía que existían los electrones
+
+534
+01:32:25,460 --> 01:32:34,580
+Si me permitís un pequeño inciso siguiendo la línea de lo que decía Nacho. Aquí esto es historia de la ciencia, historia de la física y a veces es complicado contarlo en pocas palabras.
+
+535
+01:32:34,580 --> 01:32:59,070
+El electromagnetismo es una teoría de Maxwell que incumple las leyes de Newton, es decir, las simetrías usuales asociadas al electromagnetismo son diferentes a las que implican la teoría de Newton.
+
+536
+01:32:59,070 --> 01:33:19,350
+Y eso se descubre a finales del siglo XIX y es lo que da lugar a principios del siglo XX a la teoría de la relatividad especial de Einstein. Einstein se da cuenta, deduce, Lorenz y Einstein y Poincaré y Fitzgerald y varios físicos, matemáticos, deducen unas nuevas leyes de simetría asociadas al electromagnetismo.
+
+537
+01:33:19,350 --> 01:33:33,110
+Y dicen, estas nuevas leyes de simetría para la mecánica asociada a procesos electromagnéticos podrían ser verdad para la mecánica en general, la mecánica de todos los objetos.
+
+538
+01:33:33,110 --> 01:33:49,710
+Y eso nos lleva a la relatividad. Y eso nos introduce en principios del siglo XX en la idea de David Hilbert de que toda la realidad es matematizable y de que toda la realidad en última instancia es geométrica, es describible toda la física de manera geométrica.
+
+539
+01:33:49,710 --> 01:33:52,890
+Hilbert extiende lo que se llama el programa de Klein
+
+540
+01:33:52,890 --> 01:33:55,210
+para geometrizar toda la matemática
+
+541
+01:33:55,210 --> 01:33:57,530
+la idea de Klein es geometrizar
+
+542
+01:33:57,530 --> 01:33:59,710
+toda la matemática es geometría
+
+543
+01:33:59,710 --> 01:34:03,430
+y Hilbert dice, no, no solo toda la matemática es geometría
+
+544
+01:34:03,430 --> 01:34:05,490
+toda la física es geometría
+
+545
+01:34:06,150 --> 01:34:10,110
+Amy Netter es alumna de Klein, es alumna de Hilbert
+
+546
+01:34:10,110 --> 01:34:13,710
+y sigue los trabajos de ellos y trata de geometrizar
+
+547
+01:34:13,710 --> 01:34:15,450
+la teoría de la relatividad de Einstein
+
+548
+01:34:15,450 --> 01:34:19,330
+que es claramente geométrica, pero que tenía un enorme problema
+
+549
+01:34:19,330 --> 01:34:45,910
+Y es el concepto de energía. El concepto de energía en la teoría de la realidad de Einstein no está bien definido. Y para tratar de dar un sentido al concepto de energía es para lo que Hilbert pone a Emi Neter a trabajar en lo que ahora llamamos teoremas de Neter, que son los teoremas que relacionan para lo que llamaba Héctor la acción, que es cómo cambia, cómo se integra la energía, cómo evoluciona la energía en un cierto intervalo de tiempo en un sistema.
+
+550
+01:34:45,910 --> 01:35:02,030
+Eso básicamente es la acción. La acción se conserva o se minimiza en las trayectorias de un sistema. Minimizan esa acción. Pues tratar de seguir esta idea en relatividad general para obtener un concepto de energía. Y esto nos lleva a una teoría. Porque fijaros, algo realmente sorprendente.
+
+551
+01:35:02,030 --> 01:35:27,510
+Y es que la teoría general de la relatividad, que está inspirada en la relatividad especial, que está inspirada en el electromagnetismo, la teoría general de la relatividad es como una especie de electromagnetismo avanzado. Tiene simetrías muy parecidas a las del electromagnetismo. Y eso lo descubre Weil. Son las simetrías gauge, las simetrías de contraste, las simetrías que tienen que comparten en común el electromagnetismo y la gravitación.
+
+552
+01:35:27,510 --> 01:35:42,330
+Por eso es posible, por ejemplo, construir ecuaciones en cinco dimensiones que incorporen la gravitación y el electromagnetismo. En un espacio-tiempo de cinco dimensiones yo puedo poner las mismas ecuaciones para electromagnetismo y gravitación. Eso se llama la teoría de Calusa-Klein.
+
+553
+01:35:42,330 --> 01:35:44,310
+pues todo eso es de principio
+
+554
+01:35:44,310 --> 01:35:46,030
+de la década de los 20
+
+555
+01:35:46,030 --> 01:35:48,490
+entonces cuando llega a finales de la década de los 20
+
+556
+01:35:48,490 --> 01:35:50,670
+y Dirac introduce la ecuación
+
+557
+01:35:50,670 --> 01:35:52,670
+para el electrón, la ecuación relativista
+
+558
+01:35:52,670 --> 01:35:54,470
+para el electrón, Dirac se da cuenta de algo
+
+559
+01:35:54,470 --> 01:35:56,370
+sorprendente, que es lo que comentaba Nacho
+
+560
+01:35:56,370 --> 01:35:58,710
+comentaba Nacho de que cuando yo cambio la fase
+
+561
+01:35:58,710 --> 01:36:00,650
+se conserva la fase, se conserva la carga
+
+562
+01:36:00,650 --> 01:36:02,510
+eléctrica, no es pre-nether
+
+563
+01:36:02,510 --> 01:36:04,810
+no está en el electromagnetismo clásico
+
+564
+01:36:04,810 --> 01:36:06,810
+es un resultado de la teoría
+
+565
+01:36:06,810 --> 01:36:07,430
+de Dirac
+
+566
+01:36:09,010 --> 01:36:11,010
+estaba un poco en el aire en ese momento
+
+567
+01:36:11,010 --> 01:36:15,810
+pero dirá que es el que lo instancia y es el hecho de que si la función de onda tiene fase es una
+
+568
+01:36:15,810 --> 01:36:21,010
+función compleja una flechita que tiene un módulo apunta hacia un sitio y además tiene un ángulo
+
+569
+01:36:21,010 --> 01:36:26,050
+pues si ese ángulo no influye en las magnitudes físicas porque no es medible entonces yo sólo
+
+570
+01:36:26,050 --> 01:36:31,710
+puedo medir probabilidades que la función de un al cuadrado entonces cuando yo mido el módulo del
+
+571
+01:36:31,710 --> 01:36:38,870
+tamaño de la flechita no mido el ángulo entonces el ángulo es algo no medible por lo tanto las
+
+572
+01:36:38,870 --> 01:36:41,990
+Las leyes físicas tienen que ser invariantes a este ángulo, ¿no?
+
+573
+01:36:42,110 --> 01:36:45,210
+Pues si yo cambio el ángulo en todos los lugares del universo,
+
+574
+01:36:45,830 --> 01:36:47,930
+hago lo que se llama una transformación global.
+
+575
+01:36:49,090 --> 01:36:51,450
+Pero si yo digo, ¿y por qué?
+
+576
+01:36:51,630 --> 01:36:53,250
+Yo no puedo hacer una transformación global.
+
+577
+01:36:53,490 --> 01:36:55,550
+Yo no puedo irme a un lugar muy alejado del universo
+
+578
+01:36:55,550 --> 01:36:56,890
+por la relatividad especial.
+
+579
+01:36:57,030 --> 01:37:00,350
+Está prohibido, muy lejano, y cambiar el ángulo que me afecte aquí.
+
+580
+01:37:00,510 --> 01:37:02,030
+Yo tengo que hacer transformaciones locales.
+
+581
+01:37:02,050 --> 01:37:05,670
+Y si hago las transformaciones locales, resulta que en la teoría aparece algo.
+
+582
+01:37:05,670 --> 01:37:07,390
+algo, tiene que aparecer algo que compense
+
+583
+01:37:07,390 --> 01:37:08,970
+esa pequeña transformación local
+
+584
+01:37:08,970 --> 01:37:11,710
+y da la casualidad que en la teoría de Dirac
+
+585
+01:37:11,710 --> 01:37:13,450
+lo que aparece es el
+
+586
+01:37:13,450 --> 01:37:15,550
+electromagnetismo, que la teoría
+
+587
+01:37:15,550 --> 01:37:17,410
+de Dirac sea invariante
+
+588
+01:37:17,410 --> 01:37:19,470
+ante ángulos, ante variaciones de la
+
+589
+01:37:19,470 --> 01:37:21,250
+fase de la función de onda del electrón
+
+590
+01:37:21,250 --> 01:37:23,610
+automáticamente me obliga, si esa variación
+
+591
+01:37:23,610 --> 01:37:25,690
+es local, me obliga
+
+592
+01:37:25,690 --> 01:37:26,910
+a introducir algo que lo compense
+
+593
+01:37:26,910 --> 01:37:29,490
+y ese algo coincide exactamente con
+
+594
+01:37:29,490 --> 01:37:31,150
+las ecuaciones del electromagnetismo, luego
+
+595
+01:37:31,150 --> 01:37:33,150
+el electromagnetismo se deduce
+
+596
+01:37:33,150 --> 01:37:35,450
+aparece de manera
+
+597
+01:37:35,450 --> 01:37:37,390
+natural de una simetría
+
+598
+01:37:37,390 --> 01:37:39,090
+de las ecuaciones para el electrón
+
+599
+01:37:39,090 --> 01:37:41,170
+esa idea es tan bella
+
+600
+01:37:41,170 --> 01:37:43,050
+tan bella en 1928
+
+601
+01:37:43,050 --> 01:37:45,490
+que muchos físicos tratan
+
+602
+01:37:45,490 --> 01:37:47,510
+de extenderla a otras
+
+603
+01:37:47,510 --> 01:37:49,370
+interacciones, a otras
+
+604
+01:37:49,370 --> 01:37:51,230
+partículas conforme se van descubriendo partículas
+
+605
+01:37:51,230 --> 01:37:53,410
+y por eso esa idea es la
+
+606
+01:37:53,410 --> 01:37:55,070
+que ha construido el modelo estándar
+
+607
+01:37:55,070 --> 01:37:57,610
+pero hemos de tener en cuenta algo muy importante
+
+608
+01:37:57,610 --> 01:37:59,010
+es que en 1968
+
+609
+01:37:59,010 --> 01:38:01,370
+en España no
+
+610
+01:38:01,370 --> 01:38:03,230
+había ni un solo físico trabajando en teorías
+
+611
+01:38:03,230 --> 01:38:05,230
+gauge, porque se suponía que las teorías gauge eran
+
+612
+01:38:05,230 --> 01:38:07,110
+eran basura, que esta idea de la simetría era
+
+613
+01:38:07,110 --> 01:38:09,090
+basura, era una teoría incorrecta
+
+614
+01:38:09,510 --> 01:38:11,110
+y solamente a partir
+
+615
+01:38:11,110 --> 01:38:13,030
+de 1973 todo el mundo
+
+616
+01:38:13,030 --> 01:38:14,690
+se pone a trabajar en esa idea, es decir
+
+617
+01:38:14,690 --> 01:38:15,570
+tampoco que
+
+618
+01:38:16,530 --> 01:38:18,650
+es decir, la idea original de Hilbert
+
+619
+01:38:19,350 --> 01:38:21,150
+muere en gran parte durante el siglo
+
+620
+01:38:21,150 --> 01:38:22,690
+XX, sobre todo tras los trabajos de Gödel
+
+621
+01:38:22,690 --> 01:38:24,950
+que destrozan muchas de las ideas en matemáticas de Hilbert
+
+622
+01:38:24,950 --> 01:38:27,030
+y pasan a ser una cosa
+
+623
+01:38:27,030 --> 01:38:28,290
+de poca moda
+
+624
+01:38:28,290 --> 01:38:30,950
+y unos pocos físicos, pero
+
+625
+01:38:30,950 --> 01:38:32,970
+esos pocos físicos siguen trabajando y sorprendentemente
+
+626
+01:38:32,970 --> 01:38:35,070
+la realidad les da la razón y a partir
+
+627
+01:38:35,070 --> 01:38:36,870
+aproximadamente en 1973, ya todo
+
+628
+01:38:36,870 --> 01:38:38,910
+el mundo se vuelca a que la realidad
+
+629
+01:38:38,910 --> 01:38:40,950
+es simétrica, que las simetrías son los fundamentos de
+
+630
+01:38:40,950 --> 01:38:42,890
+todo, a que toda la física
+
+631
+01:38:42,890 --> 01:38:44,790
+se puede entender como simetrías. Pero
+
+632
+01:38:44,790 --> 01:38:46,910
+cuidado, cuidado, cuidado, que ha habido gran parte
+
+633
+01:38:46,910 --> 01:38:48,810
+del siglo XX en que eso era mentira y puede
+
+634
+01:38:48,810 --> 01:38:50,870
+que dentro de unos siglos vuelva a ser mentira.
+
+635
+01:38:51,250 --> 01:38:52,610
+Pero ahora mismo estamos en una época
+
+636
+01:38:52,610 --> 01:38:54,570
+en la que copiar
+
+637
+01:38:55,090 --> 01:38:56,490
+las simetrías del electromagnetismo
+
+638
+01:38:57,130 --> 01:38:58,670
+nos ha permitido deducir
+
+639
+01:38:59,390 --> 01:39:01,010
+la relatividad y nos ha permitido
+
+640
+01:39:01,010 --> 01:39:02,930
+deducir el modelo estándar. El modelo
+
+641
+01:39:02,930 --> 01:39:04,870
+estándar básicamente son copias
+
+642
+01:39:06,210 --> 01:39:07,010
+avanzadas, ligeramente
+
+643
+01:39:07,010 --> 01:39:09,150
+modificadas del electromagnetismo clásico
+
+644
+01:39:09,150 --> 01:39:10,250
+en su versión cuántica
+
+645
+01:39:10,890 --> 01:39:12,730
+¿Por qué la realidad es así? No lo sabemos
+
+646
+01:39:13,510 --> 01:39:14,730
+¿Pero realmente es así?
+
+647
+01:39:14,850 --> 01:39:16,930
+Tampoco lo sabemos, pero ahora mismo
+
+648
+01:39:16,930 --> 01:39:17,750
+es lo mejor que tenemos
+
+649
+01:42:53,330 --> 01:43:17,450
+Y cuidado, una cosita importante que a veces se olvida, la existencia de 8 gluones no es un hecho observacional, no podemos observar los gluones, los gluones como los quarks son partículas que no se pueden observar, se deducen de forma indirecta, entonces no sabemos si hay 8 gluones, 6 gluones o 25 gluones.
+
+650
+01:43:17,450 --> 01:43:29,030
+Lo que sí sabemos es que las propiedades de las partículas que podemos observar, que son partículas compuestas de quarks y gluones, tienen ciertos parámetros que dependen de un 8.
+
+651
+01:43:29,960 --> 01:43:36,780
+Y entonces los parámetros observados experimentalmente, de manera indirecta, nos indican que tiene que haber 8 gluones.
+
+652
+01:43:37,000 --> 01:43:40,920
+Pero no hemos observado ningún gluón y no hemos observado que haya 8 gluones distintos.
+
+653
+01:43:41,860 --> 01:43:43,200
+No los hemos observado.
+
+654
+01:43:43,200 --> 01:43:45,840
+pero deducimos que deben existir 8
+
+655
+01:43:45,840 --> 01:43:47,600
+porque ciertos parámetros
+
+656
+01:43:47,600 --> 01:43:48,680
+dependen de ese número 8
+
+657
+01:45:55,160 --> 01:45:55,920
+En física
+
+658
+01:45:56,620 --> 01:45:58,640
+tenemos la realidad y queremos
+
+659
+01:45:58,640 --> 01:46:00,860
+entender la realidad. Esto no es matemática, ¿vale?
+
+660
+01:46:00,900 --> 01:46:02,820
+O sea, no es una cuestión de que
+
+661
+01:46:02,820 --> 01:46:04,320
+que yo me ponga a pensar
+
+662
+01:46:04,320 --> 01:46:06,740
+posibles grupos, no es la clasificación
+
+663
+01:46:06,740 --> 01:46:08,860
+de Cartan, de todos los grupos compactos
+
+664
+01:46:08,860 --> 01:46:11,020
+de Lee, no es pensar
+
+665
+01:46:11,020 --> 01:46:12,220
+sino es ver
+
+666
+01:46:12,220 --> 01:46:14,460
+entonces en física lo que hacemos es ver
+
+667
+01:46:14,460 --> 01:46:16,660
+y tratar de entender, y una de las cosas importantes
+
+668
+01:46:16,660 --> 01:46:18,820
+en física para ver y entender la realidad
+
+669
+01:46:18,820 --> 01:46:20,500
+es quitar detalles
+
+670
+01:46:20,500 --> 01:46:22,520
+quitar detalles innecesarios
+
+671
+01:46:22,520 --> 01:46:25,100
+entonces toda esta idea de la simetría
+
+672
+01:46:25,100 --> 01:46:26,720
+ha ido surgiendo conforme
+
+673
+01:46:26,720 --> 01:46:28,160
+hemos tratado de entender la física
+
+674
+01:46:28,160 --> 01:46:30,220
+eliminando detalles, por ejemplo
+
+675
+01:46:30,220 --> 01:46:32,320
+Heisenberg introdujo el spin
+
+676
+01:46:32,320 --> 01:46:34,180
+pin isotópico, porque se dio
+
+677
+01:46:34,180 --> 01:46:36,300
+cuenta de que dentro de los núcleos
+
+678
+01:46:36,300 --> 01:46:38,140
+los neutrones y los
+
+679
+01:46:38,140 --> 01:46:39,800
+protones se comportan
+
+680
+01:46:39,800 --> 01:46:41,420
+como si fueran indistinguibles
+
+681
+01:46:42,080 --> 01:46:44,000
+pero tú dices, pero claro, un protón tiene
+
+682
+01:46:44,000 --> 01:46:45,760
+carga eléctrica y un neutrón no
+
+683
+01:46:45,760 --> 01:46:47,860
+sí, pero dentro de un núcleo
+
+684
+01:46:47,860 --> 01:46:49,660
+la carga eléctrica prácticamente no influye
+
+685
+01:46:49,660 --> 01:46:51,960
+entonces yo puedo quitar ese pequeño detalle
+
+686
+01:46:51,960 --> 01:46:54,040
+olvidémonos de la carga eléctrica, imaginemos
+
+687
+01:46:54,040 --> 01:46:56,060
+que el neutrón y el protón son
+
+688
+01:46:56,060 --> 01:46:57,520
+dos partículas indistinguibles
+
+689
+01:46:57,520 --> 01:47:00,440
+y resulta que obtuvo una descripción
+
+690
+01:47:00,440 --> 01:47:01,960
+muy buena de los
+
+691
+01:47:01,960 --> 01:47:07,220
+los núcleos de los átomos y los espectros de los núcleos de los átomos de cómo funciona la
+
+692
+01:47:07,220 --> 01:47:15,720
+radioactividad haciendo esa hipótesis es decir la interacción fuerte efectiva que une protones y
+
+693
+01:47:15,720 --> 01:47:23,700
+neutrones dentro de un núcleo no ve diferencia en la carga eléctrica la ve en otra propiedad que
+
+694
+01:47:23,700 --> 01:47:30,160
+tienen protones y neutrones yukawa dijo será que se intercambian partículas como los fotones que
+
+695
+01:47:30,160 --> 01:47:32,680
+que son unos mesones, unas partículas de masa intermedia
+
+696
+01:47:32,680 --> 01:47:35,820
+que actúan como los fotones en el electromagnetismo cuántico,
+
+697
+01:47:35,900 --> 01:47:37,380
+en la electrodinámica cuántica.
+
+698
+01:47:37,740 --> 01:47:39,540
+Entonces, ese tipo de ideas han ido surgiendo.
+
+699
+01:47:39,640 --> 01:47:41,140
+Cuando se descubrieron los piones,
+
+700
+01:47:41,320 --> 01:47:43,380
+por ejemplo, se descubrió que los piones hay tres,
+
+701
+01:47:44,060 --> 01:47:45,120
+bueno, hemos dicho hay cuatro,
+
+702
+01:47:45,240 --> 01:47:47,320
+hay dos piones neutros y dos piones,
+
+703
+01:47:47,320 --> 01:47:48,560
+uno de carga positiva y otro negativa.
+
+704
+01:47:48,700 --> 01:47:52,020
+Y se dijo, pero tienen masas muy parecidas.
+
+705
+01:47:53,000 --> 01:47:57,060
+Imaginemos que son cuatro estados indistinguibles
+
+706
+01:47:57,060 --> 01:47:58,500
+de una misma partícula.
+
+707
+01:47:58,500 --> 01:48:01,680
+y veamos qué pasa, y se fueron construyendo
+
+708
+01:48:01,680 --> 01:48:03,400
+modelos, de ahí surgió el modelo
+
+709
+01:48:03,400 --> 01:48:05,780
+SU2, son modelos efectivos
+
+710
+01:48:05,780 --> 01:48:07,540
+cuando se empezó a hablar de que
+
+711
+01:48:07,540 --> 01:48:09,440
+los protones y neutrones
+
+712
+01:48:09,440 --> 01:48:11,340
+tenían que estar hechos de tres objetos
+
+713
+01:48:11,340 --> 01:48:13,100
+elementales, se introdujo
+
+714
+01:48:13,100 --> 01:48:15,040
+el grupo SU3
+
+715
+01:48:15,040 --> 01:48:17,240
+de sabor, que no es el
+
+716
+01:48:17,240 --> 01:48:19,380
+SU3 de color, es otro SU3
+
+717
+01:48:19,380 --> 01:48:21,160
+cuando se descubrió que hubo cuatro quarks
+
+718
+01:48:21,160 --> 01:48:23,040
+hubo que introducir el SU4
+
+719
+01:48:23,040 --> 01:48:25,620
+de sabor, es decir, en física
+
+720
+01:48:25,620 --> 01:48:27,080
+cuando yo quito detalles
+
+721
+01:48:27,080 --> 01:48:29,900
+cuando trato de quedarme en la esencia
+
+722
+01:48:29,900 --> 01:48:31,380
+de un proceso físico
+
+723
+01:48:31,380 --> 01:48:32,360
+para poderlo entender
+
+724
+01:48:32,360 --> 01:48:35,020
+lo que yo observo cuando quito detalles
+
+725
+01:48:35,020 --> 01:48:37,060
+es que las cosas se vuelven más simétricas
+
+726
+01:48:37,060 --> 01:48:39,280
+más parecidas, más indistinguibles
+
+727
+01:48:39,280 --> 01:48:40,920
+y eso me ayuda a construir un modelo
+
+728
+01:48:40,920 --> 01:48:43,400
+más sencillo, más fácil
+
+729
+01:48:43,400 --> 01:48:45,040
+de manejar matemáticamente
+
+730
+01:48:45,040 --> 01:48:46,120
+para entender la realidad
+
+731
+01:48:46,120 --> 01:48:48,820
+y sorprendentemente muchos de estos modelos
+
+732
+01:48:48,820 --> 01:48:50,440
+funcionan muy bien
+
+733
+01:48:50,440 --> 01:48:53,860
+entonces eso fue haciendo que los físicos
+
+734
+01:48:53,860 --> 01:48:55,400
+desarrollaran mucho estas ideas
+
+735
+01:48:55,400 --> 01:49:00,340
+Y esas ideas son las que han acabado en la mejor teoría que tenemos a nivel fundamental de la realidad.
+
+736
+01:50:23,440 --> 01:50:24,780
+no sé la diferencia
+
+737
+01:50:24,780 --> 01:50:25,980
+las dos cosas
+
+738
+01:50:29,820 --> 01:50:31,040
+las simetrías son un adorno
+
+739
+01:50:31,040 --> 01:50:33,320
+son un lenguaje
+
+740
+01:50:33,320 --> 01:50:35,660
+es el lenguaje geométrico
+
+741
+01:50:36,400 --> 01:50:38,540
+cuando hablamos de simetría hablamos de geometría
+
+742
+01:50:38,540 --> 01:50:40,700
+cuando hablamos de simetrías
+
+743
+01:50:40,700 --> 01:50:42,360
+en física o en cualquier rama
+
+744
+01:50:42,360 --> 01:50:44,300
+de la ciencia estamos hablando de utilizar
+
+745
+01:50:44,300 --> 01:50:45,740
+el lenguaje de la geometría
+
+746
+01:50:45,740 --> 01:50:46,660
+para entender
+
+747
+01:50:47,980 --> 01:50:49,840
+cosas, por ejemplo las leyes de la física
+
+748
+01:50:49,840 --> 01:50:51,960
+entonces ese lenguaje es un lenguaje
+
+749
+01:50:51,960 --> 01:50:54,380
+y ahora mismo nos está funcionando
+
+750
+01:50:54,380 --> 01:50:56,240
+muy bien y funciona muy bien en ciertas
+
+751
+01:50:56,240 --> 01:50:58,020
+cosas pero también tiene sus limitaciones
+
+752
+01:50:58,020 --> 01:51:17,500
+Hay cosas en las que no hablamos de simetría porque el lenguaje de la geometría no funciona bien. Pero el lenguaje de la geometría es un lenguaje muy poderoso donde las cosas son muy sencillas y donde gracias a enormes avances en la primera mitad del siglo XX de los matemáticos hemos desarrollado prácticamente una comprensión extremadamente profunda de las simetrías.
+
+753
+01:51:17,500 --> 01:51:19,680
+en matemáticas se llaman las simetrías
+
+754
+01:51:19,680 --> 01:51:21,120
+se llaman grupos, teoría de grupos
+
+755
+01:51:21,120 --> 01:51:23,800
+y hoy en día la teoría de grupos está en un estado
+
+756
+01:51:23,800 --> 01:51:25,400
+realmente maravilloso, es una
+
+757
+01:51:25,400 --> 01:51:27,560
+de las ramas matemáticas mejor desarrolladas
+
+758
+01:51:27,560 --> 01:51:29,780
+con lo que tenemos ahí
+
+759
+01:51:29,780 --> 01:51:31,440
+todo un lenguaje muy bien montado
+
+760
+01:51:31,440 --> 01:51:33,760
+con lo que podemos hacer una poesía preciosa
+
+761
+01:51:33,760 --> 01:51:35,860
+y maravillosa para describir las leyes de la física
+
+762
+01:51:35,860 --> 01:51:37,500
+por eso nos gusta ver
+
+763
+01:51:37,500 --> 01:51:39,200
+la simetría en
+
+764
+01:51:39,200 --> 01:51:41,800
+las leyes de la física, pero no es de verdad
+
+765
+01:51:41,800 --> 01:51:42,860
+que las simetrías estén ahí
+
+766
+01:51:42,860 --> 01:51:45,140
+esto es un lenguaje
+
+767
+01:56:20,890 --> 01:56:22,370
+recordar un poco para los agentes
+
+768
+01:56:23,950 --> 01:56:25,730
+BICEP2 observó un fenómeno
+
+769
+01:56:25,730 --> 01:56:27,370
+en la polarización del fondo cómico de microondas
+
+770
+01:56:27,370 --> 01:56:28,290
+que se llaman los modos B
+
+771
+01:56:28,290 --> 01:56:30,430
+que todavía no los hemos observado
+
+772
+01:56:30,430 --> 01:56:33,150
+de manera espuria
+
+773
+01:56:33,150 --> 01:56:34,510
+porque era polvo galáctico
+
+774
+01:56:36,270 --> 01:56:37,590
+esos modos B
+
+775
+01:56:37,590 --> 01:56:38,910
+que observó BICEP2
+
+776
+01:56:38,910 --> 01:56:41,630
+eran como el doble
+
+777
+01:56:41,630 --> 01:56:43,030
+de grandes en intensidad
+
+778
+01:56:43,030 --> 01:56:44,230
+de lo que se esperaba
+
+779
+01:56:44,230 --> 01:56:47,430
+y correspondían a los modelos
+
+780
+01:56:47,430 --> 01:56:49,550
+inflacionarios que nacen
+
+781
+01:56:49,550 --> 01:56:51,570
+de manera natural de las teorías de gran unificación
+
+782
+01:56:51,570 --> 01:56:53,170
+por eso Nacho dice
+
+783
+01:56:53,170 --> 01:56:55,010
+que en medios
+
+784
+01:56:55,010 --> 01:56:57,570
+se proclamó que no solo se confirmaba
+
+785
+01:56:57,570 --> 01:56:59,350
+la teoría inflacionaria sino que
+
+786
+01:56:59,350 --> 01:57:01,630
+también se le daba un enorme empujón
+
+787
+01:57:01,630 --> 01:57:03,690
+a las teorías más sencillas de gran unificación
+
+788
+01:57:04,810 --> 01:57:05,410
+teorías
+
+789
+01:57:05,410 --> 01:57:06,690
+que estaban descartadas
+
+790
+01:57:06,690 --> 01:57:09,380
+por la desintegración del protón
+
+791
+01:57:09,380 --> 01:57:11,780
+que predicen que el protón se tiene que desintegrar
+
+792
+01:57:11,780 --> 01:57:12,960
+en menos tiempo del que sabemos
+
+793
+01:57:12,960 --> 01:57:14,880
+tenemos un límite, del límite actual
+
+794
+01:57:14,880 --> 01:57:17,160
+pero esas teorías tan sencillas predecían
+
+795
+01:57:17,160 --> 01:57:19,000
+una inflación extremadamente sencilla
+
+796
+01:57:19,000 --> 01:57:21,060
+con un potencial del inflatón
+
+797
+01:57:21,060 --> 01:57:22,980
+del campo inflatón que se llama convexo
+
+798
+01:57:22,980 --> 01:57:25,280
+hoy en día los nuevos indicios
+
+799
+01:57:25,280 --> 01:57:26,680
+parecen indicar
+
+800
+01:57:26,680 --> 01:57:29,380
+sabemos que no midió correctamente
+
+801
+01:57:29,380 --> 01:57:30,400
+la señal
+
+802
+01:57:30,400 --> 01:57:32,530
+y por lo tanto los modos B
+
+803
+01:57:32,530 --> 01:57:35,030
+todavía no los hemos observado y hoy en día
+
+804
+01:57:35,030 --> 01:57:37,050
+casi todo apunta a un potencial
+
+805
+01:57:37,050 --> 01:57:38,710
+en el inflatón
+
+806
+01:57:38,710 --> 01:57:40,790
+cóncavo, no convexo
+
+807
+01:57:40,790 --> 01:57:42,730
+y por lo tanto no es
+
+808
+01:57:42,730 --> 01:57:44,130
+tan natural
+
+809
+01:57:44,130 --> 01:57:46,530
+obtenerlo de una teoría de gran unificación
+
+810
+01:57:46,530 --> 01:58:06,130
+Lo que no quita que haya teorías de gran unificación que predicen potenciales no convexos. De hecho, muchos teóricos inflacionarios ahora mismo están apostando por teorías de tipo Staronis, teorías en las que el origen de la inflación es gravitacional, no es de gran unificación.
+
+811
+01:58:06,130 --> 01:58:07,950
+pero todavía no lo sabemos
+
+812
+01:58:07,950 --> 01:58:10,570
+pero si es verdad que ahora esos modelos tan sencillos
+
+813
+01:58:10,570 --> 01:58:12,450
+con un modelo inflacionario tan sencillos
+
+814
+01:58:12,450 --> 01:58:14,430
+que parecían deducirse
+
+815
+01:58:14,430 --> 01:58:16,150
+del resultado de Paisetú, hoy en día
+
+816
+01:58:16,150 --> 01:58:17,890
+ya sabemos que están descartados
+
+817
+01:58:29,670 --> 01:58:32,230
+Será muy difícil, probablemente hay que esperar
+
+818
+01:58:32,230 --> 01:58:34,250
+a CMBS4, a los experimentos en espacio
+
+819
+01:58:34,250 --> 01:58:36,870
+Asios Prims y todos estos atletas espaciales.
+
+820
+01:58:36,890 --> 01:58:37,750
+Será en la década de los 30.

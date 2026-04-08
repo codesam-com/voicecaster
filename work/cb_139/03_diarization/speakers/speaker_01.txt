@@ -1,0 +1,586 @@
+Profesor Adam Rees, Premio Nobel de Física.
+Saludos científicos de toda la galaxia. Les habla Héctor Socas desde la Sala Omega del
+Instituto de Astrofísica de Canarias y les damos la bienvenida a nuestra tertulia científica
+de esta semana. Lo prometido es deuda. Dijimos que haríamos una segunda parte de nuestro
+programa especial de física de partículas y aquí estamos, listos para cumplir con ese
+compromiso. Vamos a sumergirnos en el mundo de lo subatómico, donde reina la física
+cuántica a ver si podemos entender cómo funciona la naturaleza en las escalas
+más pequeñas que conocemos o al menos hasta dónde llega el conocimiento actual
+y que podría haber un poquito más allá intentaremos que sea digerible más que
+nada por mí porque no soy experto y me gustaría mucho aprender de todo este
+tema tan fascinante pero bueno si sale algo durillo seguro que nos lo sabrán
+perdonar como en otras ocasiones. Una cosita eso sí, les recomiendo que si no lo han hecho que
+escuchen nuestro episodio número 120 porque ahí hicimos un primer repaso a este campo, la física
+de altas energías. En aquel episodio discutimos muchos conceptos clave que supongo que volverán
+a salir hoy en la conversación. Por otra parte también les recuerdo que en el episodio 116
+hablamos también sobre el modelo estándar
+en particular algunas de las fisuras que empieza a mostrar
+y tuvimos una conversación larga e interesante
+con el profesor Kim Matías
+que es uno de los investigadores más importantes en este campo a nivel internacional
+y sobre física cuántica en general
+también les recomiendo una conversación fascinante que tuvimos con Ignacio Sirac
+en el episodio 108
+Y bueno, estos son algunos de los antecedentes más relevantes sobre el tema de hoy, pero insisto, lo que sí que les recomendaría en cualquier caso sería, si no lo han hecho todavía, escuchar ese episodio número 120, que es el especial física de partículas, porque esta tertulia de hoy la hemos pensado un poco como una continuación de aquel programa.
+programa. ¿Y dónde nos pueden escuchar? Pues ya lo saben a estas alturas. Los programas completos
+con horas de contenido extra los tienen en internet, tanto en iVoox como en iTunes y algunas
+otras plataformas. También pueden encontrarlos en nuestra página web señalirruido.com y en esa web
+además pueden encontrar referencias a las cosas que contamos en cada episodio. Con cada episodio
+ponemos ahí referencias para aprender más sobre los temas
+o algunos enlaces útiles relacionados que recomendamos.
+Hay también enlaces al Club de Fans y a otros materiales.
+Insisto, la página es señalirruido.com
+con ñ, todo junto, señalirruido, todo junto, punto com.
+Estamos en Facebook y en Twitter,
+ahí nos pueden dejar sus comentarios,
+sus preguntas, sus críticas, lo que sea.
+O también por correo electrónico en la dirección
+oyentes arroba señal y ruido punto com estamos en varias emisoras de radio en
+canarias en icodendaute radio radio el día radio eca y ondas yaiza en madrid en
+onda pedrisa en aragón radio ebro y en argentina en la fm 99.9 de mar del plata
+en nuestra web tienen todos los horarios y las frecuencias de estas emisoras
+Venga, pues vamos ya sí con la tertulia, con el mismo equipo que teníamos en la primera parte.
+Aquí conmigo, en la sala Omega, está Nacho Trujillo, investigador del Instituto de Astrofísica de Canarias.
+Hola Nacho.
+Bien, bien. Y por videoconferencia tenemos a Francis Villatoro, profesor de la Universidad de Málaga.
+Hola Francis.
+Sospecho que mucho. Vamos a hablar de campos cuánticos y de simetrías.
+Y también nos acompaña, por supuesto, Alberto Aparici, que es comunicador científico en el Instituto de Física Corpuscular de Valencia
+y director del programa La Brújula de la Ciencia en Onda Cero. Hola, Alberto.
+Pues sí, lo mismo queda alguien por ahí. Yo no lo sé, la gente no deja de sorprenderme.
+así que cada programa de esto es un poco
+un experimento, ¿no? Ahora no la jugamos
+Igual no deberíamos...
+Claro, depende si cuentas también
+el programa con Kim Matías
+Sí, pero bueno, como...
+Muy bien
+En fin, por repasar un poco
+algunas ideas básicas y no empezar así muy de golpe, vamos a ir entrando poco a poco en el agua.
+¿Qué les parece si repasamos algunos de los conceptos que ya discutimos en profundidad en aquel programa?
+Insisto, el episodio 120 y que les recomendamos, como decía antes, que si no lo han escuchado pues que lo escuchen.
+Pero quizás uno de los conceptos fundamentales que salió de allí es la idea de que las partículas no son bolitas,
+que tenemos que acostumbrarnos a pensar en que hay campos cuánticos
+y que lo que tradicionalmente hemos llamado partículas son excitaciones de esos campos.
+No sé si Nacho quieres introducirte un poco esa cuestión que siempre te ha parecido muy interesante.
+Yo voy a hacer un inciso aquí para volver a recomendar la chuleta, que además la tengo aquí conmigo,
+la infografía que hizo Cavi Pasos
+de Mola Saber, si buscan en Google
+Mola Saber Partículas
+les aparecerá esta tablita de partículas fundamentales
+Muy bien, muy bien. Veo que tú lo has estudiado.
+Eso nos llevaría al problema de la simetría,
+de por qué existe, pero
+vamos a ver si llegamos a eso
+más adelante, yo quería añadir
+y quizás también
+yo añadiría a esta discusión
+que a lo mejor parece un poco
+extraño, un poco místico
+hay un campo que llena todo el universo
+suena un poco a Star Wars
+la fuerza que une la galaxia
+pero realmente no lo es
+y me gustaría poner la analogía
+que suelo usar
+del campo electromagnético y el fotón
+que me parece una analogía muy buena
+para entender intuitivamente cosas
+porque en el fondo es lo mismo
+Entonces tiene la misma complejidad, pero como es un concepto con el que estamos familiarizados desde hace más tiempo, parece que entender intuitivamente algo quiere decir que llevemos más años estudiándolo o pensando en esos términos.
+Y en términos del fotón y el campo electromagnético llevamos muchos años pensándolo y entonces no nos resulta sorprendente saber que hay un campo eléctrico que llena todo el universo y que los fotones son oscilaciones de ese campo y todos los fotones del universo son vibraciones en ese campo y que incluso, como decía Francis, puede haber dos campos, el eléctrico y el magnético, que están intrínsecamente acoplados.
+es que el fotón es una vibración de los dos
+del campo eléctrico y el magnético, no se puede separar
+uno del otro y en ese sentido
+me parece que puede dar una idea
+de esto que estamos hablando que no es nada extraño
+que en el caso del fotón lo vemos
+Estos campos no son éter.
+En el fondo yo siempre he pensado que estos campos son un poco el éter.
+O sea, cuando decimos que la velocidad no se propaga por el campo electromagnético,
+para mí es lo mismo que decir que se propaga en el éter.
+Ya, pero cuando dices que la materia, ¿no?
+que la materia que está hecha de estas partículas
+en realidad es una excitación de los campos
+pues ya es que la distinción entre campo y materia
+o sea, qué es materia y qué no
+es difícil de definir, ¿no?
+Alberto
+Sí, desde ese punto de vista, sí.
+yo es que la distinción entre material o matemático que tú planteas
+no la veo así, ¿no? o sea, para mí
+material es una percepción
+macroscópica de
+cosas, lo que sí creo
+es que a lo mejor
+es decir
+la pregunta que quizás subyace
+y tú y yo hemos discutido esto muchas veces
+en conversiones de pasillo
+es si estos elementos
+fundamentales que tienen estas teorías
+realmente
+la naturaleza es así
+o si simplemente con estos elementos fundamentales
+somos capaces de desarrollar teorías que nos dan
+predicciones que reproducen los experimentos
+que observamos, es decir, las teorías de alguna forma
+son instrumentales
+tienen el objetivo
+de reproducir las cosas que observamos
+entonces si uno consigue una teoría que lo reproduce
+todo, que te explica todo
+y que te permite hacer cálculos
+y predicciones, tú dices
+bueno, esta teoría funciona, ¿significa eso que la realidad
+sea como los principios
+de esa teoría? pues no lo sabemos
+pero probablemente es una pregunta que ni siquiera es científica
+no, no lo es
+y yo, sí, por eso creo que es una cuestión
+que está un poco más allá de lo que la
+yo solo quería aclarar antes de meternos
+bueno, creo que tanto Francis como Alberto querían comentar
+no sé si Francis, por ejemplo
+Y luego hay otro problema todavía más fundamental con la energía, que es que no siempre es un concepto bien definido.
+O sea, no siempre tiene sentido hablar de energía porque aquí, en el marco de teorías cuánticas de campo que están basadas en relatividad especial, pues sí, se puede definir siempre una cantidad conservativa que es la energía.
+Pero, por ejemplo, en el marco de la relatividad general, ojo, porque la energía no es un concepto bien definido, ¿no?
+Bueno, igual llegamos a eso más adelante, ¿no? Pero yo lo que iba es que puede haber incluso, o sea, en física hablamos a veces de formalismo y en matemática hablamos incluso de formalismos.
+Cuando tú hablas de formalismos quieres decir que no estás afirmando que eso sea lo que pasa en realidad, sino que es una forma, una herramienta con la que tú puedes hacer un desarrollo. Y hay veces que tú tienes diferentes formalismos con los que resolver un mismo problema y son indistinguibles y son equivalentes.
+voy a poner un ejemplo muy tonto ahora
+pero cuando pensamos por ejemplo
+en las fuerzas tal como las pensaba Newton
+y en la gravedad tal como la veía Newton en forma de fuerzas
+y los cuerpos sienten fuerzas
+y desarrolló todo ese formalismo y funcionaba muy bien
+y explicaba el sistema solar y los planetas y el sol
+y luego viene la relatividad general y viene Einstein
+y hacen unos desarrollos en los cuales se basa en otro concepto diferente
+en los cuales la gravedad no es una fuerza, es una deformación del espacio-tiempo.
+Hoy en día sabemos que hay pruebas que nos permiten distinguir,
+y esas pruebas confirman la relatividad general.
+Pero supongamos que no las hubiera.
+Supongamos que yo lo único que tengo son manzanas que caen de los árboles.
+Yo le explicaría a los estudiantes los dos formalismos,
+y me preguntarían, ¿pero cómo es la realidad?
+¿La manzana siente una fuerza que la hace caer?
+¿La manzana ve una fuerza?
+¿O la manzana ve que el espacio-tiempo está distorsionado?
+Y tú dirías, pues son dos formas equivalentes.
+no es preferible una sobre la otra
+¿cómo es la naturaleza realmente?
+pues probablemente no podamos distinguirla
+probablemente no sepamos si la naturaleza
+es como una o la otra, o ni siquiera tenga sentido
+plantearse la pregunta
+no, yo no he dicho eso
+Que sí, pero no estoy diciendo eso
+No lo has entendido
+Es que eso no es lo que estoy diciendo
+No estoy diciendo eso, lo estoy diciendo
+Suponte que, en un caso hipotético
+en un universo imaginario
+Estoy intentando poner un ejemplo de qué pasaría
+si tuvieras dos teorías
+era un ejemplo ilustrativo
+si tuvieras dos teorías
+y si tienes dos podría haber más
+que lo expliquen todo
+y que no tengas un criterio
+para decir cuál es, entre comillas, la buena
+Desintegraciones, si no recuerdo mal
+Sí, sí, yo simplemente
+insisto
+por supuesto, todas las teorías
+lo que pretenden es buscar nuevas observaciones
+nuevos experimentos que te permitan distinguir una de otra
+de cuál es la correcta
+Yo iba al problema filosófico de que puede ser que las cosas que ponemos en la teoría realmente no representen la realidad en sí, pero que nos den los observables que sí.
+creo que cuando hablamos de metafísica
+hablamos de diferentes cosas también
+y esto a lo mejor daría para meternos aquí
+en un programa entero
+pero desde el punto de vista de la física
+por volver a la física que creo que es
+lo que nos gusta
+efectivamente, yo sí que estoy
+de acuerdo con Alberto en eso, son conceptos
+en los que, no es que
+no nos interesen, sino que los damos casi por
+perdido, quiero decir
+el ponerte a plantearte estas preguntas
+sobre si la naturaleza última de la realidad
+se corresponde con los constructos
+matemáticos que yo hago, es casi una pregunta
+filosófica, si yo soy capaz
+de reproducir, mi teoría de reproducir
+todo lo que observo, entonces eso es lo que es ciencia
+y si quiero preguntarme
+más cosas, pues tendré que buscar nuevos observables
+que me permitan distinguir entre diferentes modelos
+diferentes teorías, y eso es normalmente
+lo que hacemos en el método científico
+entonces, me gustaría
+ir a un tema
+que discutimos en el episodio 120
+Francis quería hablar de las simetrías
+y vamos a ir a eso, pero antes me gustaría
+brevemente que hablemos de
+un tema que me parece fascinante, que es el del spin
+lo
+tratamos en ese episodio 120
+pero en aquel momento nos quedamos con un
+adelanto de que Francis iba a
+contar lo que era el spin en su charla de
+Naukas Bilbao 2017
+de septiembre, y que lo iba a hacer en 10
+minutos
+Y lo hizo, oiga
+Yo he tenido ocasión de ver el vídeo
+que está disponible
+Lo hizo incluso en menos
+Yo creo que fue incluso más allá
+y contó más cosas que el spin
+entonces me gustaría
+recuperar esa
+pero una partícula puede cambiar de spin
+como un vector con diferentes componentes
+una partícula puede cambiar de spin
+lo que pasa es que lo tiene que hacer en múltiplos
+de una cierta cantidad
+Vale, tú estás hablando del spin intrínseco de la partícula.
+yo que estaba pensando, por ejemplo, en el electrón
+de un átomo, como
+en un momento dado, en una transición atómica
+puede cambiar su spin, pero claro, eso ya es un sistema
+sería correcta la analogía
+yo estoy pensando siempre en términos de
+esa analogía del fotón
+con el campo electromagnético
+que a mí me gusta
+porque además también está la cosa esta
+de que todo el mundo
+conoce de la dualidad de la luz-onda-corpúsculo.
+¿La luz es una partícula o es una
+onda? Dicemos, bueno, es las dos cosas.
+Y esto nos lleva a extender esa analogía
+a todas las partículas, entre comillas,
+materiales. Todo esto que estábamos hablando al principio
+de si la materia existe
+o no, qué es lo que es la materia.
+Realmente, la mecánica cuántica nos
+dice que toda partícula material, un
+electrón, también es una onda. Le pasa
+lo mismo que a la luz. Entonces, en ese sentido, también es una
+buena analogía. Las partículas tienen
+esta longitud de onda de de Broglie
+que normalmente es muy pequeña
+para poderla percibir
+sus características ondulatorias
+entonces las percibimos como partículas
+pero les pasa lo mismo que al fotón
+el fotón tiene una longitud de onda mayor que la de un electrón
+pero un electrón también es onda y corpúsculo
+igual que un fotón
+desde ese punto de vista me parece que cuadra
+todo muy bien
+Sí, déjame aclarar una cosa simplemente, Francis.
+Sí, sí, que no es que sea un balón de fútbol
+de tamaño de un balón de fútbol,
+que a lo mejor puede estar pensando la gente.
+Ronaldo no le dio la patada.
+Sí, sí, yo he puesto cara o geoplástica.
+Es una molécula que se llaman fulerenos.
+Hay unas moléculas que se llaman fulerenos
+que tienen forma de balón de fútbol,
+pero tamaño de molécula.
+No se piensen que es una cosa grande.
+Sí, a mí me gusta también.
+Y entonces, o sea,
+de alguna forma sí que podemos ver el spin como un giro
+a lo largo de la propagación de esta onda, ¿no?
+Y por eso tiene un momento magnético,
+porque al fin y al cabo tienes,
+o sea, si uno piensa en el electrón, por ejemplo,
+que tiene una carga eléctrica,
+tienes una carga eléctrica que está haciendo esta especie de giro,
+de alguna forma se llevaría asociado
+una corriente y por tanto un momento magnético
+¿partículas que no tengan
+carga eléctrica, que no tengan
+relación con
+que no tengan una naturaleza electromagnética
+¿tendrían
+un spin asociado
+a un momento magnético también?
+es la duda que me surge ahora, no estoy seguro de si
+vale
+muy bien, pues entonces llegados a este punto
+como llevamos ya una hora de programa
+vamos a despedir ya el programa
+para los amigos que nos escuchan por la radio
+nos despedimos hasta la semana que viene
+pero los que están escuchando
+el podcast por internet
+pues pueden acompañarnos un ratito más
+ahora hacemos una pausita y volvemos
+y seguimos hablando de este y otros interesantes temas
+y sobre todo nos meteremos ya a fondo
+con la importancia de las simetrías
+en la física
+entonces pues eso, hacemos una pequeña pausita
+volvemos enseguida, si nos escuchan por la radio
+muchas gracias, volvemos la semana que viene
+Bien, pues ya estamos de vuelta. Disculpa Nacho que te corté, creo que querías hacer un comentario más sobre...
+Y hay mucha gente que piensa que si sigues tirando a energías todavía muchísimo más altas llegas a gran unificación, pero bueno, eso ya son extensiones del modelo estándar, donde se unifican todas las fuerzas.
+Bueno, porque por lo que yo tengo entendido hay mucha incertidumbre y muchos parámetros libres ahí también que te dan un cierto rango de juego, ¿no? Y parece que es como mucha casualidad, o sea, requiere algo de ajuste fino que esa extrapolación llegue a valores del mismo orden de magnitud, que no tendrían por qué, y que, bueno, pues la idea un poco es que con esas, variando un poco dentro de las incertidumbres y tal, pues se podría hacer encajar esa…
+¿Les parece bien que antes de meternos en estos conceptos
+A ver, llamamos simetría en física
+física a una una invariancia o sea simetría un sistema físico decimos que tiene simetría siempre
+respecto a algo alguna algún cambio decimos que cuando hacemos algún determinado cambio el sistema
+físico no cambia una transformación diríamos no se me una transformación el sistema no cambia
+entonces cuando eso ocurre decimos que hay una simetría respecto a esa transformación correcto
+Por ejemplo, si yo tengo una esfera y la giro, no cambia.
+Entonces digo que la esfera tiene simetría respecto a una rotación.
+Tiene simetría esférica.
+Tiene simetría esférica.
+Eso es una perogrullada.
+No, no lo es, pero bueno.
+Pero es la base de lo que estamos diciendo.
+Nosotros siempre hay que entender que cuando hablamos de simetría decimos respecto a algo.
+No nos referimos simplemente al concepto geométrico de una reflexión en un espejo.
+Es algo un poco más general que eso. Y hay muchos tipos diferentes de transformaciones con respecto a las cuales nuestra física puede ser simétrica, respecto a traslaciones en el tiempo, en el espacio, etc.
+A mí hay una cosa que me gusta y que quería comentar.
+Bueno, Alberto, no sé si tenías otro comentario sobre lo que ha dicho Nacho.
+Es que por eso decía que es importante decir que estamos hablando de la simetría de un determinado sistema físico con respecto a una determinada transformación. O sea, el sistema físico depende, o sea, tienes que especificar de qué es lo que estás hablando. Hay determinados sistemas físicos que cumplen ciertas simetrías respecto a unas transformaciones y otros no.
+no. Entonces, en función de qué sea
+lo que estés hablando, puede que cumpla o puede no.
+simetría, dependiendo. Según lo que sea lo que estás
+estudiando, ¿no? Yo quería poner un ejemplo, y yo creo que
+se va a ilustrar con esto,
+porque
+a mí me parece muy bonito el teorema este
+de Neter, y
+de hecho la formulación del teorema es
+que cada simetría
+diferenciable, vamos a olvidarnos de
+de la palabra diferenciable. Cada simetría de la acción, que es el vocablo aquí, la acción es el
+palabra, y ahora explicamos lo que significa esto de la acción, de un sistema físico tiene asociada
+una ley de conservación. La acción aquí es la palabra clave. Para explicarlo, a mí es que esto
+me gusta mucho, lo de la acción, porque es una cosa que no se suele explicar a nivel de instituto,
+pero creo que es un concepto físico muy bonito, a mí me gusta mucho. La acción es lo siguiente,
+Bueno, tiene una definición y se define para una determinada trayectoria de un sistema físico.
+Un proceso físico, un proceso, es algo que ocurre en un determinado tiempo
+y en un proceso físico el sistema describe una trayectoria en un determinado espacio de parámetros.
+Eso es todo muy complejo y muy abstracto.
+Vamos a poner un ejemplo particular.
+Una cosa sencillita, una piedra.
+Yo cojo una piedra, la suelto y se cae al suelo.
+La piedra sigue una trayectoria cuando yo la suelto.
+la suelto y se cae, cae al suelo siguiendo la gravedad
+entonces eso es una trayectoria
+la que sigue la piedra
+hay muchas otras trayectorias
+que yo me puedo imaginar, yo me puedo imaginar que la piedra
+no se cae, sino que sube
+empieza a levitar, luego da tres piruetas hacia la derecha
+y finalmente se posa en mi otra mano
+la piedra no hace eso
+pero yo me puedo imaginar esa trayectoria
+de hecho me puedo imaginar infinitas trayectorias
+la piedra va a Marte y vuelve
+son trayectorias
+imaginarias en un mundo imaginario, en los mundos de Yupi
+que no son la real
+efectivamente, todo eso son trayectorias
+entre comillas virtuales, trayectorias en los mundos de Yupi
+que no es el mundo real
+entonces todas esas trayectorias imaginarias
+las podemos considerar
+y cada trayectoria tiene asociado
+un numerito, que es la acción
+la acción es un número que se asocia a cada trayectoria
+y ese número se calcula
+de una forma sencilla
+que es una integral a lo largo de la trayectoria
+de una cantidad que se llama el Lagrangiano
+que es un palabra pero es simplemente la energía
+es la energía cinética y la energía potencial
+la energía potencial depende del campo gravitatorio
+en este caso estamos considerando que hay un campo gravitatorio
+entonces con esas energías yo puedo definir el Lagrangiano
+y puedo calcular el numerito
+bueno pues, ese numerito es la acción
+entonces tú lo calculas para diferentes trayectorias
+y hay un principio físico muy bonito
+que es el de mínima acción que me dice
+que la trayectoria real, o sea, si yo suelto la piedra
+lo que va a hacer la piedra es seguir aquella trayectoria
+que tiene la acción mínima. O sea, de todas las posibles
+trayectorias que yo me puedo imaginar en los mundos de Yuppie, cada una tiene su numerito
+28, la que va a Marte y vuelve tiene 400
+la que cae al suelo tiene 3
+¿vale? Pues ese 3 es el menor de todos los numeritos
+que puede hacer de cualquiera de todas las trayectorias
+Entonces, esto es un formalismo de la mecánica
+de la física en la cual tú puedes resolver problemas
+yo lo podría haber resuelto también aplicando
+la fuerza de Newton
+fuerza igual a masa por aceleración y calculo
+cómo sigue, qué trayectoria
+sigue la piedra
+pero también lo puedo calcular de esa otra forma
+es otro formalismo diferente
+entonces por eso
+me gustaría recuperar lo que hablamos al principio
+esta discusión filosófica de qué es lo que pasa
+en la realidad, la piedra realmente
+calcula todas las
+posibles trayectorias y todas las acciones
+y decide caer hacia abajo porque es la que tiene la mínima?
+O sea, si alguien viniera y me preguntara
+¿qué es lo que hace la piedra realmente?
+¿Siente la fuerza de la gravedad y va siguiendo la fuerza?
+¿O se calcula todas las trayectorias?
+Yo diría, hombre, las piedras no calculan.
+Que sepamos, las piedras no calculan nada.
+La piedra no puede saber cuál es la trayectoria mínima.
+Pero es equivalente.
+Es decir, es otro formalismo matemático
+que me da el mismo resultado.
+Entonces me gusta traerlo a colación
+para ilustrar que a veces podemos tener
+formalismos matemáticos completamente diferentes
+para describir la misma realidad física
+llevo mucho rato hablando
+de todas formas, solo quería
+decir una cosa
+lo que pasa es que la disipación no la solemos tener en cuenta
+pero la disipación al fin y al cabo no es más que conversión
+de energía
+de energía, digamos, en termodinámica
+diríamos reversible, como energía cinética
+en una forma de energía irreversible, como
+energía térmica, o sea, al final
+esa energía no se pierde, se convierte
+en calor, en las moléculas, bueno, en fin
+Sí, vamos a ver, lo que quiero es empezar por una cosa
+Cosa sencilla, clásica, antes de meternos en la cosa complicada cuántica.
+¿Por qué lo digo? Porque de esta forma, ahí puedes aplicar esto de la conservación de energía,
+lo que tú decías, Nacho, que ese sistema, vamos a olvidarnos de momento del rozamiento.
+Entonces, en ese sistema en el que tú puedes definir esa acción,
+tú encuentras una cantidad que se conserva, que es lo que llamamos la energía.
+Si tuvieras un rozamiento, ya la energía no se conserva.
+Es que estamos en la misma mecánica clásica.
+O sea, estoy intentando empezar por la parte clásica.
+Vamos a despreciar el rozamiento y las pérdidas de energía, ¿no?
+Entonces ya no se conservaría.
+Es un experimento ideal para ilustrar que, en ese caso,
+lo que nos dice el teorema de Néter es que, en ese sistema,
+donde existe esa simetría, en este caso en el tiempo,
+hay otras simetrías que podemos discutir,
+pero esa en el tiempo nos da y nos dice cuál es esa cantidad.
+Porque, claro, no es simplemente decir
+hay una cantidad que se conserva y viste tú sabes cuál es,
+sino que el teorema te dice que hay una determinada cantidad
+que es la energía, la energía total de la piedra que se conserva
+y no cambia la acción, esa función que tú has
+descrito, entonces eso sería una simetría
+del sistema, y ahí por ejemplo
+yo ahora aquí me surgen unas dudas
+a partir ya de este punto
+que es donde no entiendo yo como es el proceso
+lógico, mental
+por el cual
+hemos llegado
+a aprender cosas
+me gustaría pedirle a Francis y Alberto
+que nos expliquen un poco
+cómo ha sido entonces la aplicación
+de estos principios que yo
+en términos clásicos los entiendo
+parece todo muy razonable y muy sencillo
+de entender, cómo esto nos permite
+construir un modelo estándar, por ejemplo
+vamos a empezar por ejemplo
+hablando de qué queremos decir cuando decimos
+bueno, ustedes vean cómo
+explicarlo porque yo no lo tengo muy claro
+Claro, pero yo veo que se habla del grupo, el SU2 y el SU3 como representativos de la interacción débil y fuerte.
+Y claro, yo matemáticamente entiendo que eso va de unas matrices y tal, pero no veo la conexión con la física de esto.
+Vale, me surgen algunas dudas, pero creo que Alberto quería comentar algo también
+Yo lo oí con la pregunta que yo iba a hacer,
+¿no? Entonces voy a formularla.
+Es la siguiente. Entonces,
+esto que se dice, yo creo que se exagera
+un poco con esto de las simetrías, porque como
+suena muy bonito y muy grandilocuente,
+y muchas veces oímos frases
+del tipo de que es que todo
+se deriva de las simetrías fundamentales,
+que es una cosa que yo no entendía,
+porque yo clásicamente, con la
+forma en la que yo veo esto clásicamente, tú ya
+partes primero de una física y luego la simetría te permite
+desarrollar cosas. El ejemplo de la piedra
+tú ya partes de que tú sabes cómo es el campo gravitatorio
+¿cuál es la energía potencial gravitatoria? Para poder construir
+la acción y para poder construir esa simetría
+Francis nos ponía un ejemplo que yo no conocía el desarrollo histórico pero me parece
+precioso, así como lo ha explicado, de la ecuación
+de Dirac para el electrón
+pero partes de esa física, partes de la
+la física del electrón de Dirac
+y entonces
+la simetría te
+permite sacar el electromagnetismo de ahí.
+Si lo he entendido correctamente es así
+como lo has explicado, ¿verdad Francis? Me parece
+alucinante. Pero insisto, ya tienes una física
+de partida, ¿no? Tienes que tener un conocimiento de partida
+de la física y luego las simetrías te permiten
+sacar más información, ¿no?
+pero entonces entiendo que
+a lo que yo preguntaba, la respuesta es que sí
+que tú partes de una física
+ya donde tienes
+conocimientos de cómo son esas interacciones
+y luego las simetrías lo que te permiten es
+desarrollar más
+esa teoría
+quiero decir, no son cimientos
+son pilares
+del edificio que estás construyendo
+no, que cimiento es de lo que partes
+es lo que está en la base de todo
+Sí, Alberto.
+Muy bien, pues ya para ir terminando
+hay un último punto que Nacho quería
+tocar, ¿no?
+de gran unificación lo hemos tocado
+la polarización famosa
+Bueno, esas observaciones
+las tendremos pronto, nos las traerá
+José Alberto Rubiño con Quijote
+y las contaremos aquí en Coffee Break cuando lo observen
+aquí en el Teide
+Bueno, ojalá
+No seas aguafiesta, Francis, no me seas aguafiesta.
+Estamos aquí ilusionados.
+Bueno, amigos, pues yo creo que ha estado fascinante.
+Yo por lo menos me lo he pasado muy bien.
+Quiero darles las gracias por esta clase magistral que acabo de recibir.
+Y además gratis, entiendo.
+No sé si me pasará luego la factura, pero estoy encantadísimo.
+Yo espero que a los oyentes también les haya gustado.
+No lo sé, pero si no, la verdad me da igual,
+igual, porque yo me lo he pasado bomba
+y es a lo que yo he venido aquí.
+Así que, si alguien más lo ha disfrutado,
+genial. Y si no, pues nada,
+otro día seguiremos.
+Pues eso, muchas gracias.
+Nos vemos la semana que viene.
+Francis, Alberto, Nacho, gracias.
+Muy bien. Gracias a todos.
+Hasta la semana que viene. Un abrazo. Chau.
