@@ -1,0 +1,950 @@
+[speaker_01]
+Profesor Adam Rees, Premio Nobel de Física.
+
+[speaker_02]
+Hola, soy Adam Rees y te recomiendo escuchar Coffee Break para aprender más sobre el universo.
+
+[speaker_02]
+Aquí comienza Coffee Break, la tertulia semanal de la actualidad científica. Newton desmiente la física de Aristóteles. Exactamente. Einstein desmiente la física de Newton. Exacto. Pero ni siquiera ustedes mismos se ponen de acuerdo. No, hay una aproximación paulatina al... Soberbios, científicos soberbios.
+
+[speaker_01]
+Saludos científicos de toda la galaxia. Les habla Héctor Socas desde la Sala Omega del Instituto de Astrofísica de Canarias y les damos la bienvenida a nuestra tertulia científica de esta semana. Lo prometido es deuda. Dijimos que haríamos una segunda parte de nuestro programa especial de física de partículas y aquí estamos, listos para cumplir con ese compromiso. Vamos a sumergirnos en el mundo de lo subatómico, donde reina la física cuántica a ver si podemos entender cómo funciona la naturaleza en las escalas más pequeñas que conocemos o al menos hasta dónde llega el conocimiento actual
+
+[speaker_01]
+y que podría haber un poquito más allá intentaremos que sea digerible más que nada por mí porque no soy experto y me gustaría mucho aprender de todo este tema tan fascinante pero bueno si sale algo durillo seguro que nos lo sabrán perdonar como en otras ocasiones. Una cosita eso sí, les recomiendo que si no lo han hecho que escuchen nuestro episodio número 120 porque ahí hicimos un primer repaso a este campo, la física de altas energías. En aquel episodio discutimos muchos conceptos clave que supongo que volverán
+
+[speaker_01]
+a salir hoy en la conversación. Por otra parte también les recuerdo que en el episodio 116 hablamos también sobre el modelo estándar en particular algunas de las fisuras que empieza a mostrar y tuvimos una conversación larga e interesante con el profesor Kim Matías que es uno de los investigadores más importantes en este campo a nivel internacional y sobre física cuántica en general también les recomiendo una conversación fascinante que tuvimos con Ignacio Sirac en el episodio 108
+
+[speaker_01]
+Y bueno, estos son algunos de los antecedentes más relevantes sobre el tema de hoy, pero insisto, lo que sí que les recomendaría en cualquier caso sería, si no lo han hecho todavía, escuchar ese episodio número 120, que es el especial física de partículas, porque esta tertulia de hoy la hemos pensado un poco como una continuación de aquel programa. programa. ¿Y dónde nos pueden escuchar? Pues ya lo saben a estas alturas. Los programas completos con horas de contenido extra los tienen en internet, tanto en iVoox como en iTunes y algunas otras plataformas. También pueden encontrarlos en nuestra página web señalirruido.com y en esa web
+
+[speaker_01]
+además pueden encontrar referencias a las cosas que contamos en cada episodio. Con cada episodio ponemos ahí referencias para aprender más sobre los temas o algunos enlaces útiles relacionados que recomendamos. Hay también enlaces al Club de Fans y a otros materiales. Insisto, la página es señalirruido.com con ñ, todo junto, señalirruido, todo junto, punto com. Estamos en Facebook y en Twitter, ahí nos pueden dejar sus comentarios, sus preguntas, sus críticas, lo que sea. O también por correo electrónico en la dirección
+
+[speaker_01]
+oyentes arroba señal y ruido punto com estamos en varias emisoras de radio en canarias en icodendaute radio radio el día radio eca y ondas yaiza en madrid en onda pedrisa en aragón radio ebro y en argentina en la fm 99.9 de mar del plata en nuestra web tienen todos los horarios y las frecuencias de estas emisoras
+
+[speaker_01]
+Venga, pues vamos ya sí con la tertulia, con el mismo equipo que teníamos en la primera parte. Aquí conmigo, en la sala Omega, está Nacho Trujillo, investigador del Instituto de Astrofísica de Canarias. Hola Nacho.
+
+[speaker_03]
+Hola Héctor, ¿qué tal? ¿Cómo andamos?
+
+[speaker_01]
+Bien, bien. Y por videoconferencia tenemos a Francis Villatoro, profesor de la Universidad de Málaga. Hola Francis.
+
+[speaker_04]
+¿Qué tal? Aquí estamos. A ver si hablamos un poquito de campos cuánticos y de simetrías.
+
+[speaker_01]
+Sospecho que mucho. Vamos a hablar de campos cuánticos y de simetrías. Y también nos acompaña, por supuesto, Alberto Aparici, que es comunicador científico en el Instituto de Física Corpuscular de Valencia y director del programa La Brújula de la Ciencia en Onda Cero. Hola, Alberto.
+
+[speaker_02]
+Hola, hola. Muy buenas. A ver si ha quedado alguno que no hayamos asustado lo suficiente en los programas de antes y que quede para este.
+
+[speaker_01]
+Pues sí, lo mismo queda alguien por ahí. Yo no lo sé, la gente no deja de sorprenderme. así que cada programa de esto es un poco un experimento, ¿no? Ahora no la jugamos
+
+[speaker_03]
+porque dicen que segundas partes nunca fueron buenas vamos a ver. Exactamente
+
+[speaker_01]
+Igual no deberíamos...
+
+[speaker_03]
+Sí, depende
+
+[speaker_01]
+Claro, depende si cuentas también el programa con Kim Matías Sí, pero bueno, como...
+
+[speaker_02]
+Yo tengo que deciros tengo que confesar que a raíz de esos dos programas que hicimos antes del verano, yo me convencí de que se podía hacer una charla de partículas hablando de campos y de todo esto y la he hecho, la he dado en tres sitios a lo largo de este otoño y ha funcionado súper bien y vamos, yo estoy sorprendido porque ves a gente que viene y tal y tú le empiezas a contar partículas como si fueran bolitas y luego a mitad charla le cambias y le dices, ahora lo vamos a contar de verdad y la gente te dice muy bien o sea, en lugar de irse y cerrar la puerta con un portazo, le parece muy bien estoy muy contento, la verdad porque fue todo a raíz de este programa de Coffee Break
+
+[speaker_01]
+Muy bien En fin, por repasar un poco algunas ideas básicas y no empezar así muy de golpe, vamos a ir entrando poco a poco en el agua. ¿Qué les parece si repasamos algunos de los conceptos que ya discutimos en profundidad en aquel programa? Insisto, el episodio 120 y que les recomendamos, como decía antes, que si no lo han escuchado pues que lo escuchen. Pero quizás uno de los conceptos fundamentales que salió de allí es la idea de que las partículas no son bolitas, que tenemos que acostumbrarnos a pensar en que hay campos cuánticos y que lo que tradicionalmente hemos llamado partículas son excitaciones de esos campos. No sé si Nacho quieres introducirte un poco esa cuestión que siempre te ha parecido muy interesante.
+
+[speaker_03]
+Sí, tremendamente interesante. De hecho, yo espero que a lo largo de la charla, más adelante, cuando hablemos de la simetría, volvamos a los temas metafísicos, de qué significa lo que estamos describiendo, uniéndolo con lo que acaba de decir Alberto, de que en algún momento terminaba y decía, bueno, le expliquaba a la gente lo que era la física de las partículas como bolitas y después le dije, no, ahora vamos a hablar de la realidad, hablando de campos cuánticos o de la verdad o algo así. Y yo diría, bueno, de la verdad hasta el año 2017, por si acaso las cosas cambien mucho en los próximos años. En cualquier caso, sí, por repasar un poco, veíamos en el episodio 120 que había como dos grandes grupos de partículas,
+
+[speaker_03]
+las partículas que llamábamos bosones encargadas de transmitir las interacciones en las fuerzas conocidas y las fermiones que era lo que tradicionalmente se conoce como la materia que son, por decirlo de otra forma las partículas que sufren esas interacciones a lo largo del episodio 120 vimos que todo eso está mucho, que es una aproximación muy bestial y que todo está muy entrelazado unas cosas se convierten en otras en fin bueno pues dentro de esos Esos grupos también distinguíamos entre los quarks y los leptones, los quarks siendo los componentes principales de las partículas más pesadas como los protones y los neutrones,
+
+[speaker_03]
+y los leptones siendo los electrones y los neutrinos, y otras familias más pesadas pero muy similares a estas partículas.
+
+[speaker_01]
+Yo voy a hacer un inciso aquí para volver a recomendar la chuleta, que además la tengo aquí conmigo, la infografía que hizo Cavi Pasos de Mola Saber, si buscan en Google Mola Saber Partículas les aparecerá esta tablita de partículas fundamentales
+
+[speaker_03]
+y de hecho yo recomiendo tanto seguir este episodio como el episodio 120 con esa tabla delante porque al ser un montón de palabrejos, cuar, leptones, fermiones bosones, no teniendo la tabla pues se hace más complicado de lo que realmente es esto viene a ser una especie de tabla periódica entre comillas, pero de las las partículas fundamentales, y tenerla adelante ayuda en la discusión. Y una vez introdujimos estas partículas, después hicimos el salto de decir, bueno, hasta ahora habían sido representaciones más o menos clásicas, donde imaginamos las partículas como puntos, pero realmente tenemos que entenderlas como excitaciones de ciertos campos, y cada partícula tendría asociada a un campo,
+
+[speaker_03]
+y de hecho es más, si yo lo entendí bien, todas las partículas de una misma clase, si por ejemplo hablamos del electrón o del quark-app o lo que sea, realmente todas corresponden a oscilación de un único campo, es decir, un único campo que cubriría todo el universo sería el campo del electrón y diferentes perturbaciones más o menos locales, porque esa es otra cuestión como son problemas cuánticos, las cosas no están localizadas en un punto, sino que tienen una cierta distribución pues todos los electrones del universo, diríamos son oscilaciones de ese único campo
+
+[speaker_03]
+Después hablamos, nos metimos a discutir cómo podían adquirir las masas a través del campo del Higgs y bueno, también estuvimos hablando de otras cuestiones, pero yo creo que más o menos se podría hacer un resumen de donde nos habíamos quedado.
+
+[speaker_01]
+Muy bien, muy bien. Veo que tú lo has estudiado.
+
+[speaker_04]
+¿Me permitís un pequeño inciso? Y ahora pasa Alberto a comentar algo.
+
+[speaker_04]
+Las partículas, lo que desde el punto de vista clásico llamamos partículas, tienen asociado un campo cuántico. Pero ese campo cuántico en realidad son varios campos conectados por simetrías. Por ejemplo, el electrón y el positrón son cuatro campos. Dos campos asociados al electrón y dos campos asociados al positrón y son campos que vibran al unísono cuando yo tengo un electrón. Cuando yo tengo un electrón es una vibración de ambos campos electrónicos. Lo que ocurre es que en ciertas circunstancias yo puedo interaccionar solo con uno de ellos. Por ejemplo, la interacción débil interacciona con uno de los dos campos,
+
+[speaker_04]
+no con el otro. Por eso sabemos que hay dos campos. Pero fijaros lo sorprendente. Lo que llamábamos partículas no está asociado a un único campo, sino que podría estar asociado, y en muchos casos lo está, a varios campos. Y a eso es lo que le llamamos spin de la partícula.
+
+[speaker_02]
+A esto que acaba de decir Francis añadiría una cosa, los campos diferentes no son el de partícula y antipartícula, tienen que ver con el spin y con todo esto porque aunque nosotros pensamos en el electrón y el positrón como cosas diferentes el hecho es que ambos surgen al unísono de forma natural cuando uno le permite a esos campos que cree partículas nuevas, que creen nuevas excitaciones o sea, cuando pensamos en diferentes campos no es las partículas van por un lado y las antipartículas por otro y se entrelazan. Realmente tú no puedes tener la una sin la otra. La existencia de partículas y antipartículas es la consecuencia de que tú puedas crear excitaciones y que esas excitaciones estén cargadas. Entonces tú creas
+
+[speaker_02]
+una excitación de carga positiva y necesitas crear una excitación de carga negativa para compensar porque las cargas, si son cargas conservadas, pues necesitas hacer eso. Si las cargas estuvieran rotas, entonces sería otra cuestión.
+
+[speaker_01]
+Eso nos llevaría al problema de la simetría, de por qué existe, pero vamos a ver si llegamos a eso más adelante, yo quería añadir
+
+[speaker_02]
+que haga un añadido a lo que ha dicho Nacho, muy rápido cuando has hablado de quarks y leptones yo creo que hay una manera muy sencilla de diferenciar una familia y la otra en este sentido bueno, normalmente usamos familia para otra cosa, bueno, un grupo de partículas y la otra, los quarks son las que sienten la interacción fuerte y los leptones son los que no, y eso los diferencia mucho y tiene consecuencias como esta que ha comentado Nacho, de que los quarks terminan formando partículas compuestas, agregados, como protones y neutrones, mientras que los leptones se comportan mucho más como partículas individuales. Pero eso se debe todo a la interacción fuerte. La interacción fuerte es la que hace ese tipo de cosas
+
+[speaker_02]
+y todas las partículas que sienten interacción fuerte tienen esa complicación de que se forman en remolinos, en agregados, mientras que los que no sienten interacción fuerte tienen una existencia individual más real, entre comillas, si es que esta frase tiene sentido.
+
+[speaker_01]
+y quizás también yo añadiría a esta discusión que a lo mejor parece un poco extraño, un poco místico hay un campo que llena todo el universo suena un poco a Star Wars la fuerza que une la galaxia pero realmente no lo es y me gustaría poner la analogía que suelo usar del campo electromagnético y el fotón que me parece una analogía muy buena para entender intuitivamente cosas porque en el fondo es lo mismo Entonces tiene la misma complejidad, pero como es un concepto con el que estamos familiarizados desde hace más tiempo, parece que entender intuitivamente algo quiere decir que llevemos más años estudiándolo o pensando en esos términos.
+
+[speaker_01]
+Y en términos del fotón y el campo electromagnético llevamos muchos años pensándolo y entonces no nos resulta sorprendente saber que hay un campo eléctrico que llena todo el universo y que los fotones son oscilaciones de ese campo y todos los fotones del universo son vibraciones en ese campo y que incluso, como decía Francis, puede haber dos campos, el eléctrico y el magnético, que están intrínsecamente acoplados. es que el fotón es una vibración de los dos del campo eléctrico y el magnético, no se puede separar uno del otro y en ese sentido me parece que puede dar una idea de esto que estamos hablando que no es nada extraño que en el caso del fotón lo vemos
+
+[speaker_03]
+con una salvedad que yo quiero introducir ahora aunque discutamos más tarde y es que
+
+[speaker_03]
+cuando hemos hablado clásicamente de campos siempre los campos eran campos de tipo material me refiero a, por ejemplo, teníamos pues yo que sé, el agua, lo que sea el agua descrita como A ver, el agua no es un buen ejemplo, pero yo qué sé, las temperaturas en una habitación o algo así. La atmósfera. La atmósfera, sí. Lo que quiero decir es que siempre consideramos que había una sustancia, ¿no? Donde la sustancia variaba de propiedades, pero había una sustancia. Mientras que estos campos no están sustanciados en nada.
+
+[speaker_03]
+Y eso sí que es muy fuerte porque decimos, estamos estudiando las partículas que consideramos que eran pelotitas y tal. y ahora decimos, no son campos, pero ¿en dónde es esa sustancia? Ah, no me preguntes cosas raras.
+
+[speaker_03]
+Bueno, pues eso es una cosa...
+
+[speaker_04]
+En eso hay que tener esto, algunos divulgadores, algunos físicos están últimamente ofreciendo esa idea, la idea de que ¿por qué llamamos sustancia al agua si está hecha de moléculas? ¿Por qué llamamos sustancia al aire si está hecho de varios tipos de moléculas? Y no llamamos sustancia al campo electromagnético
+
+[speaker_04]
+electromagnético o al campo electrónico o al campo de un cuerpo. Y hay varios físicos importantes que están divulgando esa idea. El vacío del campo electromagnético es una sustancia, tan sustancia como puede ser una sustancia efectiva a la que llamamos agua. El agua, de hecho, no es una sustancia, no existe, no existe el agua, existen las moléculas de agua, pero sí existe el campo electromagnético. Luego es más sustancia el campo electromagnético que el agua.
+
+[speaker_03]
+De acuerdo, de acuerdo que podemos cambiar la... podemos... fantástico, me parece genial que hablemos de sustancia como campo, pero lo que quiero decir es que clásicamente la gente hasta la relatividad especial se partió la cabeza para entender las oscilaciones y por eso hablaban del éter. O sea, el éter en última instancia era lo que intuitivamente entendemos como sustancia, ¿de acuerdo? Estoy de acuerdo que cuando... estoy totalmente de acuerdo con Francia en que cuando profundizas un poco en lo que significa la sustancia, también se te desmaterializa. Pero sin etiquetarlo, sin hacer una etiqueta de, bueno, digamos, sustancia o no, lo que quiero decir es que aquí no estamos hablando del éter.
+
+[speaker_01]
+Estos campos no son éter. En el fondo yo siempre he pensado que estos campos son un poco el éter. O sea, cuando decimos que la velocidad no se propaga por el campo electromagnético, para mí es lo mismo que decir que se propaga en el éter.
+
+[speaker_03]
+Quiere decir, no necesitamos de añadir una componente nueva a la materia para explicar cómo se propagan los campos, o se oscilan, o vibran, o lo que sea. sino que internamente esos campos, pues varían en el espacio-tiempo con unas ciertas propiedades pero no se va a añadir algo más, a ese sentido ese algo más era el éter antes
+
+[speaker_01]
+Ya, pero cuando dices que la materia, ¿no? que la materia que está hecha de estas partículas en realidad es una excitación de los campos pues ya es que la distinción entre campo y materia o sea, qué es materia y qué no es difícil de definir, ¿no? Alberto
+
+[speaker_02]
+Yo os diría que realmente creo que el problema que tenemos al explicar el concepto de campo, y yo lo tengo igual Por ejemplo, cuando he dado estas charlas me he roto la cabeza porque la gente te pregunta, bueno, ¿y qué son los campos? Y esa es una pregunta muy lógica y muy razonable. El problema que tenemos, en mi opinión, es que los campos son el objeto que está en el límite de la física conocida. Es decir, nosotros construimos la física de partículas en base a estos campos cuánticos y nos damos cuenta de que estas excitaciones que aparecen en los campos describen muy bien lo que vemos de partículas, incluso lo que vemos de interacción con el vacío y todas estas cosas vienen muy bien descritos por estos campos.
+
+[speaker_02]
+Entonces la teoría llega hasta ahí. En el punto de que te preguntas qué son los campos, lo que te estás preguntando es qué hay más allá de tu teoría en realidad. A lo mejor si algún día tenemos una teoría que supera la teoría cuántica de campos, y yo creo que la tendremos en un momento o en otro, pues quizá esa teoría nos ofrezca alguna pista sobre qué son los campos. O quizá oculte esa pregunta debajo de otro objeto más fundamental y realmente no te ofrezca una gran respuesta. Pero creo que cuando nos hacemos esa pregunta estamos preguntando algo que la física no puede contestar simplemente porque le estamos preguntando cuál es el siguiente paso y qué hay más allá, de qué están hechos esos campos.
+
+[speaker_03]
+pero ya si quieres por terminar la discusión esta es que esto es clave, porque cuando tú hablas de, hemos pasado de la imagen de la partícula a la imagen de los, voy a hablar ahora de la realidad, de los campos cuánticos, yo ahí tengo que poner el pie en el freno y decir, ojo, porque tú mismo estás hablando de que los campos cuánticos podrían ser simplemente el instrumento que utilizamos para describir la realidad última, sea lo que fuere ¿de acuerdo? Entonces es importante y creo que solo en programas como Coffee Break, se lo comentaba a Héctor fuera de micro y somos paramos un momento y decimos, señores esto todavía
+
+[speaker_03]
+vamos a, o por lo menos yo pondría un poquito en la precaución esto funciona muy bien pero a día de hoy no sabemos si son un instrumento o realmente una descripción última de lo que está pasando ahí abajo
+
+[speaker_02]
+claro, por ejemplo, en física de cuerdas, solo un comentario muy breve en física de cuerdas al final lo que te dice la física de cuerdas es que esas oscilaciones de los campos pues son oscilaciones de otro objeto fundamental al que llamas cuerda y que tampoco sabes de qué está hecho pero que sus oscilaciones constituyen lo que tú macroscópicamente, entre comillas, ves como oscilaciones de los campos. Entonces digamos que es importante hablar de los límites de las teorías físicas y dejar bien claro que no son infinitas y que no llegan hasta todas partes y que la teoría cuántica de campos, esta pregunta No la sabe responder porque va más allá de ella.
+
+[speaker_04]
+de las teorías cuánticas de campo, porque sus vibraciones son campos cuánticos. Son campos cuánticos cuyas vibraciones son campos cuánticos que se comportan como partículas y que en cierto límite se comportan como cuerdas. Pero la cuerda es la primera cuantización, es la cuantización tipo partículas en las teorías de cuerdas. Las teorías de cuerdas de verdad son teorías de campos cuerdísticos. Y yo no sé por qué mucha gente no lo quiere contar, pero así es como se escriben las ecuaciones y así es como se hacen los cálculos. Son campos. Luego vamos a sustituir el concepto de campo cuántico por el concepto de campo cuerdístico, que es un campo con nuevas propiedades diferentes, pero siguen siendo campos.
+
+[speaker_03]
+En cualquier caso, pongamos la frontera del conocimiento en los campos cuánticos actuales o nos vayamos a la teoría de cuerdas, la pregunta de nuevo de qué están hechos, lo que sí está claro, apostaría bastante de mi dinero, no todo, para poder pagar la hipoteca, pero una parte importante, a que no está hecho de nada de tipo partículas como estábamos pensando antes en última instancia. lo que quiero decir con esto es que a medida que vamos profundizando, lo que va apareciendo son estructuras de tipo matemático ¿vale? sin una subyacente
+
+[speaker_03]
+de tipo partícula es que no sé cómo explicarlo
+
+[speaker_04]
+sin nada sustantivo esa era la idea del éter, o sea, a veces pensamos un campo cuántico es lo mismo que el éter un campo clásico es lo mismo que el éter no, no es lo mismo, ¿por qué? porque el éter se pensaba que estaba hecho de cosas Y que el éter, igual que el agua, se podía congelar. Y yo podía usar el éter como sistema de referencia absoluto. Fijaros, en el agua las moléculas de agua se mueven, pero cuando yo en el frío congelo el agua, las moléculas se quedan aproximadamente quietas, formando el hielo. Eso es lo que se pensaba que ocurría con el éter.
+
+[speaker_04]
+El campo electromagnético se suponía una vibración de cosas y esas cosas yo las podía llegar a congelar y congelándolas yo podía conseguir tener un sistema de referencia absoluto. Y lo que se descubrió con los experimentos es que eso es falso. No existe ese sistema de referencia absoluto implicado por el éter. Existen campos cuánticos, existen vibraciones acopladas al espacio-tiempo y que están en el espacio-tiempo y que mueven energía en el espacio-tiempo de unos lugares a otros. Pero no existe la posibilidad de congelar los campos electromagnéticos de tal manera de que yo obtenga un sistema de referencia absoluto. Siempre tendré sistemas de referencia relativos.
+
+[speaker_04]
+Por lo tanto, no tiene sentido el concepto de éter. Entonces, esa analogía éter-campo cuántico no tiene ningún sentido. ¿Por qué? Ya digo, la clave de la analogía es que haya un sistema de referencia absoluto. Y lo que tenemos garantías es que no hay sistemas de referencia absolutos.
+
+[speaker_01]
+Sí, desde ese punto de vista, sí.
+
+[speaker_03]
+Estaríamos todos de acuerdo, en definitiva, que hasta donde llegamos a día de hoy en la física teórica y las posibles extrapolaciones que se puedan hacer a lo largo del siglo XXI, que ahora mismo se están trabajando,
+
+[speaker_03]
+la realidad última no se describe en base a ninguna cuestión de tipo material, entendido por material sino a base de estructuras matemáticas ahora, ¿qué demonios son las estructuras matemáticas? ¿o no? bueno, pues esa es otra historia pero bueno
+
+[speaker_01]
+yo es que la distinción entre material o matemático que tú planteas no la veo así, ¿no? o sea, para mí material es una percepción macroscópica de cosas, lo que sí creo es que a lo mejor es decir la pregunta que quizás subyace y tú y yo hemos discutido esto muchas veces en conversiones de pasillo es si estos elementos fundamentales que tienen estas teorías realmente la naturaleza es así o si simplemente con estos elementos fundamentales somos capaces de desarrollar teorías que nos dan predicciones que reproducen los experimentos que observamos, es decir, las teorías de alguna forma son instrumentales tienen el objetivo de reproducir las cosas que observamos entonces si uno consigue una teoría que lo reproduce todo, que te explica todo
+
+[speaker_01]
+y que te permite hacer cálculos y predicciones, tú dices bueno, esta teoría funciona, ¿significa eso que la realidad sea como los principios de esa teoría? pues no lo sabemos pero probablemente es una pregunta que ni siquiera es científica no, no lo es y yo, sí, por eso creo que es una cuestión que está un poco más allá de lo que la yo solo quería aclarar antes de meternos
+
+[speaker_03]
+en detalle que dónde nos estamos manejando solamente quería decir que solo aclarar eso
+
+[speaker_01]
+bueno, creo que tanto Francis como Alberto querían comentar no sé si Francis, por ejemplo
+
+[speaker_04]
+no, yo estoy completamente de acuerdo fíjate, ¿qué es el agua? el agua está hecha de moléculas de agua ¿de verdad? ¿de verdad el agua está hecha de moléculas de agua? no no está hecha de moléculas de agua no existen las moléculas de agua
+
+[speaker_04]
+son vibraciones de campos cuánticos que nosotros en cierto límite las vemos como moléculas de agua en cierto límite las vemos como agua continua Pero, ya os digo, en cierto límite no vemos moléculas de agua. Es decir, la realidad esté constituida de lo que esté constituido y nuestro modelo matemático sea el que sea, la realidad es la que es. Y siempre nuestras teorías van a describir la realidad en ciertos márgenes de energía, de tiempo, de escala de espacio, etc. etcétera. La realidad última a día de hoy es una realidad que sabemos que es válida desde distancias del orden de 10 a la menos 18, de 10 a la menos 19 metros, en tiempos del orden de los octosegundos.
+
+[speaker_04]
+En ese tipo de realidad, desde ese punto de vista, desde esas escalas hasta las mayores escalas del universo, sabemos que está descrita de campos cuánticos. Para nosotros la realidad está hecha de eso. Esos son nuestros modelos matemáticos hasta ahora, porque no hemos encontrado ningún indicio de que eso no sea verdad. la realidad tiene que estar hecha de eso si dentro de cien años o de mil años descubrimos que está hecha de otras cosas esto seguirá siendo válido igual que hoy sigue siendo válido que el agua está hecha de moléculas de agua algo que no se sabía hace doscientos años y que hoy en día todo el mundo sabe
+
+[speaker_02]
+yo os aportaría una os puedo aportar una intuición, como esto es una tertulia, pues podemos hablar de intuiciones y no necesariamente de cosas probadas esto es algo que no sé, que a mí me corre la cabeza cuando yo observo qué es realmente lo que tú estás manejando cuando manejas campos cuánticos. Yo tengo la sensación de que los campos cuánticos están hablando de cómo la energía se propaga por el espacio y pasa entre diferentes de estos objetos a los que llamamos campos. Entonces realmente si me tengo que preguntar qué es lo que está oscilando o qué es lo que se está moviendo cuando un campo cuántico hace cosas yo creo que la respuesta es siempre energía es decir, y cuando tú creas un cuanto del campo y entonces aparece
+
+[speaker_02]
+una partícula, esa partícula puede tener masa, pero al fin y al cabo su masa no es nada más que la energía que lleva esa excitación cuando tú la ves en reposo. Entonces, tengo la sensación de que si nos tenemos que preguntar, que a lo mejor no tenemos por qué hacerlo, igual es una pregunta que llevo en Callejón sin salida, pero si nos tenemos que preguntar qué son los campos o qué hay más allá de ellos, creo que una pregunta importante que nos puede llevar en ese camino es preguntarnos qué es la energía y por qué se propaga por el espacio. Y cuando unamos esas piezas quizá estemos un poquito más cerca de imaginar esto. Al menos esta es mi intuición.
+
+[speaker_04]
+Yo solo comento una cosita. La palabra energía es muy peligrosa, muy peligrosa. Porque la palabra energía ha cambiado como siete u ocho veces en los últimos 300 años. El concepto de energía para Galileo, el concepto de energía para Bohr, el concepto de energía para Einstein y el concepto de energía actual son muy diferentes. Y hoy en día un estudiante de física estudia todos esos conceptos en diferentes asignaturas y tiene que ser consciente de que la mayor parte de esos conceptos es mentira. Y son cosas distintas. A mí la palabra energía no me gusta. Es citaciones de campos cuánticos.
+
+[speaker_01]
+Y luego hay otro problema todavía más fundamental con la energía, que es que no siempre es un concepto bien definido. O sea, no siempre tiene sentido hablar de energía porque aquí, en el marco de teorías cuánticas de campo que están basadas en relatividad especial, pues sí, se puede definir siempre una cantidad conservativa que es la energía. Pero, por ejemplo, en el marco de la relatividad general, ojo, porque la energía no es un concepto bien definido, ¿no?
+
+[speaker_01]
+Bueno, igual llegamos a eso más adelante, ¿no? Pero yo lo que iba es que puede haber incluso, o sea, en física hablamos a veces de formalismo y en matemática hablamos incluso de formalismos. Cuando tú hablas de formalismos quieres decir que no estás afirmando que eso sea lo que pasa en realidad, sino que es una forma, una herramienta con la que tú puedes hacer un desarrollo. Y hay veces que tú tienes diferentes formalismos con los que resolver un mismo problema y son indistinguibles y son equivalentes. voy a poner un ejemplo muy tonto ahora pero cuando pensamos por ejemplo en las fuerzas tal como las pensaba Newton y en la gravedad tal como la veía Newton en forma de fuerzas
+
+[speaker_01]
+y los cuerpos sienten fuerzas y desarrolló todo ese formalismo y funcionaba muy bien y explicaba el sistema solar y los planetas y el sol y luego viene la relatividad general y viene Einstein y hacen unos desarrollos en los cuales se basa en otro concepto diferente en los cuales la gravedad no es una fuerza, es una deformación del espacio-tiempo. Hoy en día sabemos que hay pruebas que nos permiten distinguir, y esas pruebas confirman la relatividad general. Pero supongamos que no las hubiera. Supongamos que yo lo único que tengo son manzanas que caen de los árboles. Yo le explicaría a los estudiantes los dos formalismos, y me preguntarían, ¿pero cómo es la realidad? ¿La manzana siente una fuerza que la hace caer? ¿La manzana ve una fuerza? ¿O la manzana ve que el espacio-tiempo está distorsionado? Y tú dirías, pues son dos formas equivalentes.
+
+[speaker_01]
+no es preferible una sobre la otra ¿cómo es la naturaleza realmente? pues probablemente no podamos distinguirla probablemente no sepamos si la naturaleza es como una o la otra, o ni siquiera tenga sentido plantearse la pregunta
+
+[speaker_03]
+de hecho la cosa va más allá porque desde el punto de vista metafísico, uno tendería que si tiene una teoría cerrada del universo tiene dos teorías cerradas del universo que explican todo lo conocido y predicen los experimentos uno tendería a coger como favorita la más simple pero en el caso que tú comentas, la más simple sería a priori la teoría de Newton y
+
+[speaker_03]
+quiere decir que las cosas son más complejas afortunadamente
+
+[speaker_02]
+por eso la teoría de Newton fue una teoría fantástica durante cientos de años
+
+[speaker_04]
+perdona, ahí tú acabas de decir la clave Alberto perdóname Héctor, perdóname Nacho pero no es verdad que la teoría de Newton y la teoría de la gravedad de Einstein son equivalentes
+
+[speaker_01]
+no, yo no he dicho eso
+
+[speaker_04]
+la teoría de la gravedad de Einstein explica la de Newton Sí, lo que quiero decir es que Hay muchísimas evidencias observacionales y experimentales de que la teoría de Newton es incorrecta
+
+[speaker_01]
+Que sí, pero no estoy diciendo eso No lo has entendido Es que eso no es lo que estoy diciendo
+
+[speaker_04]
+No es verdad que haya dos teorías igual de buenas para describir el universo Tenemos una
+
+[speaker_01]
+No estoy diciendo eso, lo estoy diciendo Suponte que, en un caso hipotético en un universo imaginario Estoy intentando poner un ejemplo de qué pasaría si tuvieras dos teorías
+
+[speaker_01]
+era un ejemplo ilustrativo si tuvieras dos teorías y si tienes dos podría haber más que lo expliquen todo y que no tengas un criterio para decir cuál es, entre comillas, la buena
+
+[speaker_04]
+Pues Héctor, eso pasa ahora mismo con nosotros es decir, los físicos teóricos de los últimos 40 años se han dedicado, gente como Alberto se han dedicado fundamentalmente a inventar nuevas teorías que predicen exactamente lo mismo que el modelo estándar y más cosas pero predicen todo lo que predice el modelo estándar Las teorías de gran unificación, hay muchísimas variantes, todas las teorías, todos los modelos fenomenológicos de teoría de cuerdas, si son buenos, si están bien hechos, predicen el modelo estándar y más cosas. Y si son buenos de verdad, predicen el modelo estándar y más cosas a baja energía, que todavía no hemos observado.
+
+[speaker_04]
+Pero es que muchas de esas teorías predicen el modelo estándar, todo lo conocido, y cosas que nunca podremos llegar a observar, porque están a escalas de energía enormemente altas. con lo que ahora mismo nos encontramos en esa situación tenemos una teoría del modelo estándar que es muy sencilla que lo explica todo y tenemos
+
+[speaker_04]
+extensiones mejoras añadidos al modelo estándar que en un caso límite nos dan el modelo estándar a baja energía pero que a alta energía predicen la existencia de infinidad de posibilidades que quizás algún día descubramos alguna de ellas o quizás no
+
+[speaker_03]
+por eso es tan importante los experimentos que estábamos hablando en el episodio 116 si no recuerdo mal de Quim Matías, ¿no? De posibles
+
+[speaker_03]
+¿cómo se llama esto?
+
+[speaker_01]
+Desintegraciones, si no recuerdo mal
+
+[speaker_03]
+que no estaban que no estaban dentro del módulo estándar, sino que era necesario No podían ser explicadas con esa
+
+[speaker_02]
+probabilidad dentro del módulo
+
+[speaker_03]
+Por eso yo creo que los físicos teóricos, los físicos de partículas están desesperados por encontrar fallos
+
+[speaker_02]
+Yo me he pasado toda mi vida consciente diciendo ¡ay, qué teoría tan bonita tienes! es muy bonito tener la teoría guay mientras la estás estudiando, pero cuando ya la has estudiado y te das cuenta de que toda la ciencia ya la han hecho personas hace 20 años pues lo que tú tienes ganas es que la teoría sea incorrecta para que tú tengas ciencia que hacer
+
+[speaker_04]
+Bueno, vamos a empezar a hablar de simetrías
+
+[speaker_01]
+Sí, sí, yo simplemente insisto por supuesto, todas las teorías lo que pretenden es buscar nuevas observaciones nuevos experimentos que te permitan distinguir una de otra de cuál es la correcta Yo iba al problema filosófico de que puede ser que las cosas que ponemos en la teoría realmente no representen la realidad en sí, pero que nos den los observables que sí.
+
+[speaker_04]
+Pero eso te va a ocurrir siempre. Eso es Hegel. Eso es la filosofía básica del primer curso de filosofía. ¿Qué es lo decible? ¿De qué es lo que podemos hablar? ¿Qué es lo que podemos teorizar, matematizar, etcétera? ¿Qué es lo decible y qué es la realidad? Y hay una confrontación entre ambos papeles, hay cosas que podemos contar y es lo único que podemos contar y entonces hacemos una especie de correspondencia con la realidad y eso es lo único que tenemos, es la única posibilidad que tenemos.
+
+[speaker_02]
+Yo de hecho os diría que la física en cierta manera ha renunciado a responder a esa pregunta en concreto. Ahora mismo la física lo que trata es de proporcionar herramientas que reproduzcan lo que observamos en la realidad, pero a responder esta pregunta de qué es la realidad, cuál de estas, realmente lo que hay debajo es esto o esto otro, yo creo que la física ahora mismo no está particularmente interesada en eso. En otras épocas sí lo estuvo. Y de hecho, si lo estuviésemos, si estuviésemos de verdad interesados, a lo mejor nos preguntaríamos ¿y qué es la fuerza de la gravedad? Vayamos a la relatividad general que incluye la fuerza de la gravedad de Newton para tratar de averiguar qué es la fuerza de la gravedad. Y realmente es una pregunta que no nos interesa. A lo mejor no la podríamos hacer, pero yo nunca he oído a nadie que se la haya hecho.
+
+[speaker_04]
+En la teoría de la gravitación de Einstein se explica perfectamente la teoría de Newton. Es decir, los cuerpos se mueven de manera inercial en un espacio-tiempo curvado y eso, desde el punto de vista clásico, se observa como una fuerza a distancia y sin contacto. Es decir, la gravitación de Einstein explica perfectamente la de Newton. Y esa pregunta se la hizo Einstein y se la hicieron todos los contemporáneos de Einstein. No entiendo muy bien el argumento que has querido ofrecer.
+
+[speaker_02]
+Lo que yo quiero decir es que efectivamente en relatividad general tú obtienes los mismos fenómenos que tienes en la teoría de Newton y de alguna manera comprendes por qué la teoría de Newton explica bien la gravedad, pero entre eso y saber qué es la fuerza creo que hay un salto diferente. Cuando te preguntas qué es la fuerza estás haciéndote una pregunta metafísica y no estoy seguro de que eso se pueda responder solo constatando que la relatividad…
+
+[speaker_04]
+Alberto, la pregunta en teoría de la relatividad metafísica es, ¿qué es el espacio-tiempo? Si tú asumes que tú entiendes lo que es el espacio-tiempo, imaginemos que entendemos lo que es el espacio-tiempo. Automáticamente, la teoría de la gravitación de Einstein te explica qué es la gravedad. Una curvatura del espacio-tiempo relacionada con la energía contenida en un cierto volumen del espacio-tiempo. Pero, claro, tú me preguntas, ¿qué es el espacio-tiempo? Esa es una pregunta que tiene que ir más allá de la teoría de la relatividad general.
+
+[speaker_04]
+Igual que la pregunta ¿qué es un campo cuántico? Tiene que ir más allá de la teoría cuántica de campos. En teoría cuántica de campos asumimos, aceptemos que todo el mundo entiende que es un campo cuántico. Trabajemos con campos cuánticos. En la teoría de la relatividad general de Einstein aceptemos que todo el mundo sabe lo que es el espacio-tiempo, lo que es el espacio y lo que es el tiempo. Usemos ese concepto y expliquemos la gravedad. Entonces la gravedad se explica perfectamente con el concepto de espacio-tiempo. Otra cosa es que no sabemos a nivel microscópico, a nivel cuántico, qué es el espacio-tiempo. Qué es el tiempo a nivel cuántico, qué es el espacio a nivel cuántico. Y probablemente una futura teoría cuántica de la gravedad lo explique.
+
+[speaker_02]
+creo que me he explicado fatal yo no quería decir estas cosas lo que quería decir es que precisamente en relatividad general el concepto interesante es el espacio-tiempo y deja de ser interesante el concepto fuerza que lo abandonas completamente y creo precisamente que eso muestra que a los físicos no nos interesa la metafísica y creo que el hecho de que no nos estemos haciendo esas preguntas y cambiemos el paradigma y nos preguntemos lo interesante es el espacio-tiempo, su curvatura y todo Todo esto lo que viene a demostrar es que a los físicos nos interesa más en qué medida la teoría te puede reproducir lo observable que qué son los objetos que hay dentro de tu teoría. Pero ya está, no era muy importante este asunto.
+
+[speaker_03]
+Estamos entrando en una discusión filosófica. El último punto, discrepo amablemente de lo que ha dicho Alberto ahora. Creo que todos los grandes físicos han sido metafísicos y todos los que han producido revoluciones de paradigma han sido a partir de la metafísica. pero bueno, solamente quería hacer ese punto yo discrepo con Nacho pero bueno, ya está
+
+[speaker_01]
+creo que cuando hablamos de metafísica hablamos de diferentes cosas también y esto a lo mejor daría para meternos aquí en un programa entero pero desde el punto de vista de la física por volver a la física que creo que es lo que nos gusta
+
+[speaker_01]
+efectivamente, yo sí que estoy de acuerdo con Alberto en eso, son conceptos en los que, no es que no nos interesen, sino que los damos casi por perdido, quiero decir el ponerte a plantearte estas preguntas sobre si la naturaleza última de la realidad se corresponde con los constructos matemáticos que yo hago, es casi una pregunta filosófica, si yo soy capaz de reproducir, mi teoría de reproducir todo lo que observo, entonces eso es lo que es ciencia y si quiero preguntarme más cosas, pues tendré que buscar nuevos observables que me permitan distinguir entre diferentes modelos diferentes teorías, y eso es normalmente lo que hacemos en el método científico
+
+[speaker_01]
+entonces, me gustaría ir a un tema que discutimos en el episodio 120 Francis quería hablar de las simetrías y vamos a ir a eso, pero antes me gustaría brevemente que hablemos de un tema que me parece fascinante, que es el del spin
+
+[speaker_01]
+lo tratamos en ese episodio 120 pero en aquel momento nos quedamos con un adelanto de que Francis iba a contar lo que era el spin en su charla de Naukas Bilbao 2017 de septiembre, y que lo iba a hacer en 10 minutos
+
+[speaker_01]
+Y lo hizo, oiga Yo he tenido ocasión de ver el vídeo que está disponible Lo hizo incluso en menos
+
+[speaker_01]
+Yo creo que fue incluso más allá y contó más cosas que el spin
+
+[speaker_02]
+Bueno, de hecho convirtió el spin en el trending topic del fin de semana, esencialmente Después de su charla, sea porque lo entendieron muy bien o sea porque no lo consiguieron entender pero les gustó mucho todo el mundo mencionaba el spin una vez tras otra
+
+[speaker_03]
+Es decir que en vez de ser un spin off fue un spin on
+
+[speaker_01]
+entonces me gustaría recuperar esa
+
+[speaker_04]
+la idea del spin es el gran problema de conceptos como el spin es igual que el concepto de energía, es que es un concepto que ha ido cambiando en significado conformemos y indo entendiendo mejor el concepto, entonces hoy en día ¿qué es el spin? pues básicamente el spin es el hecho de que las partículas cuando las entendemos como campos cuánticos son varios campos simultáneos, entonces Entonces, el hecho de que el fotón sea una partícula de spin 1, pues una partícula de spin 1 tiene que tener tres campos, salvo que la partícula sea sin masa, como el fotón, y solo tiene dos campos.
+
+[speaker_04]
+Una partícula de spin 1 medio es una partícula que como partícula tiene dos campos, aunque como campo tiene cuatro campos. Son cuatro campos, dos que actúan como antipartícula y dos como partícula. las partículas que tienen por ejemplo spin 3 medios que no hemos observado ninguna pero que si tenemos partículas compuestas que son análogas a una partícula de spin 3 medios tienen 5 campos las partículas de spin perdón, tienen 4 campos estoy equivocándome 3, 4 4 campos, lo que pasa es que tienen 4 campos más los 4 campos correspondientes de la antipartícula
+
+[speaker_04]
+las partículas de spin 2 por ejemplo tienen 5 campos, salvo que no tengan masa como el gravitón y tienen solo 2 campos es decir, básicamente el spin significa el número de campos que tiene la partícula
+
+[speaker_01]
+pero una partícula puede cambiar de spin como un vector con diferentes componentes una partícula puede cambiar de spin lo que pasa es que lo tiene que hacer en múltiplos de una cierta cantidad
+
+[speaker_04]
+una partícula no puede cambiar de spin una partícula fundamental
+
+[speaker_04]
+es una Una excitación es algo de un campo cuántico y ese campo cuántico tiene un spin, el que sea. Y solo puede cambiar de spin en transformaciones de tipo supersimétrico que no sabemos si existen. Esto es una cosa estrictamente matemática. Una supersimetría es un cambio del spin de un campo. Pero, en principio, cada campo, el spin, es una propiedad del campo cuántico. Que heredan las partículas de dicho campo cuántico.
+
+[speaker_01]
+Vale, tú estás hablando del spin intrínseco de la partícula. yo que estaba pensando, por ejemplo, en el electrón de un átomo, como en un momento dado, en una transición atómica puede cambiar su spin, pero claro, eso ya es un sistema
+
+[speaker_04]
+más complejo. Claro, fíjate tú tienes un electrón en un átomo que es un sistema acoplado, el electrón está acoplado al núcleo y al resto de los electrones entonces él tiene un momento angular orbital porque está dando vueltas, y además como es un electrón, tiene un momento angular intrínseco, y ambos se suman entonces yo puedo cambiar ese valor de la suma, pero Pero el spin, el valor del spin del campo cuántico asociado al electrón es único. Es decir, el electrón es una partícula de spin 1 medio, porque su campo cuántico tiene spin 1 medio.
+
+[speaker_02]
+Lo que sí hay es que el spin tiene una serie de grados de libertad internos que cuando utilizamos estas analogías clásicas le llamamos la orientación del spin y una partícula sí que puede pasar de estar excitada en spin para abajo o en spin para arriba teniendo spin 1 medio. y eso significa básicamente que tú pasas una excitación de uno de estos campos de los que ha hablado Francis que todos juntos forman el electrón a otro de ellos
+
+[speaker_04]
+y claro, ahí estamos usando otra definición del concepto de spin ya os he dicho que el concepto de spin tiene diferentes definiciones en función del campo en el que lo apliques entonces, claro, el spin es el hecho, desde el punto de vista de la teoría cuántica de campos, es el hecho de que el electrón tiene dos componentes pero claro, si tiene dos componentes y lo miro en una esfera, en una superficie esférica tengo un punto en esa esfera que tiene dos ángulos, la latitud y la longitud ¿bien? pues eso es como una flecha desde el centro de la esfera hasta ese punto en la esfera esa flechita también se le llama spin, y es la relación entre esos dos campos
+
+[speaker_04]
+lo que yo tengo en la realidad, entre comillas son los dos campos, pero yo lo puedo ver como una flechita que apunta en función de la proporción de cada uno de los dos campos que tengo Y eso le llamo la proyección del spin sobre un eje. Yo cojo un eje, básicamente como un campo magnético, yo proyecto el spin, tiene asociado un momento magnético, yo proyecto el spin y obtengo esa flechita apuntando en una cierta dirección. Pero no es verdad que el electrón tenga una flechita. La flechita se obtiene cuando yo proyecto, en un sistema de medida concreto, el spin, que es decir, la relación relativa entre los dos campos.
+
+[speaker_02]
+Ahora Francis ha mencionado otro aspecto diferente del spin, no diría que es otra definición, pero sí otro aspecto que es el del momento magnético. El hecho de que las partículas tengan estas componentes, estas polarizaciones que les llamamos, hace que se acoplen de diferentes maneras a los campos magnéticos y se acoplan como si tuviesen un momento magnético. Yo a veces he explicado el spin, yo creo que en el capítulo 120 lo hice, como una especie de campo magnético que tiene la partícula. Eso, efectivamente, es una metáfora quizás demasiado aventurada, pero sí que es verdad que las partículas, por tener estas componentes que llamamos spin, se acoplan a los campos magnéticos como si tuviesen una especie de campo magnético interno.
+
+[speaker_04]
+Y esa es otra manera de ver el spin. Fíjate, la carga eléctrica es el acoplamiento del electrón al campo electromagnético. como el campo magnético tiene dos componentes y el electrón tiene dos componentes, ahí tienes una serie de acoplos, en esos acoplos son acoplos que van moviéndose, no son acoplos fijos, es decir, la carga eléctrica del electrón es fija, pero cómo se acopla cada una de las componentes en un electrón concreto varía, y eso es lo que me da el momento, una transferencia de carga eléctrica entre las dos componentes entonces, las dos, cómo yo acoplo cada una de las dos componentes del electrón va variando, va como oscilando y esa oscilación es lo que me genera un campo magnético. Entonces, entre comillas hay un flujo de carga. Lo que en realidad hay es un flujo de acoplamiento entre las componentes del electrón a las componentes del campo electromagnético.
+
+[speaker_03]
+Tú tenías una pregunta. No, cuando antes hablábamos de si tenía un medio o era menos un medio el valor y decíamos, cuando no mido es algo que está puede ser uno u otro o algo intermedio. Lo que quería decir simplemente es que cuando medimos forzamos a que sea un valor concreto. porque ponemos un campo magnético o lo que sea para ver hacia dónde se desvía el electrón, por lo tanto estamos forzando que vaya hacia un lado o hacia otro es decir, medir es proyectar es lo que quería decir y proyectar a un valor concreto, no pueden ser los dos
+
+[speaker_01]
+sería correcta la analogía yo estoy pensando siempre en términos de esa analogía del fotón con el campo electromagnético que a mí me gusta porque además también está la cosa esta de que todo el mundo conoce de la dualidad de la luz-onda-corpúsculo. ¿La luz es una partícula o es una onda? Dicemos, bueno, es las dos cosas.
+
+[speaker_01]
+Y esto nos lleva a extender esa analogía a todas las partículas, entre comillas, materiales. Todo esto que estábamos hablando al principio de si la materia existe o no, qué es lo que es la materia.
+
+[speaker_01]
+Realmente, la mecánica cuántica nos dice que toda partícula material, un electrón, también es una onda. Le pasa lo mismo que a la luz. Entonces, en ese sentido, también es una buena analogía. Las partículas tienen esta longitud de onda de de Broglie que normalmente es muy pequeña para poderla percibir sus características ondulatorias entonces las percibimos como partículas pero les pasa lo mismo que al fotón el fotón tiene una longitud de onda mayor que la de un electrón pero un electrón también es onda y corpúsculo igual que un fotón desde ese punto de vista me parece que cuadra todo muy bien
+
+[speaker_04]
+fíjate Héctor esto es una cosa que hay que decirla despacio porque es una cosa que realmente es muy sorprendente
+
+[speaker_04]
+todo Todo en la naturaleza tiene naturaleza ondulatoria. Por ejemplo, lo hemos comprobado en experimentos con un balón de fútbol de átomos de carbono. 60 átomos de carbono que tienen una barbaridad de partículas fundamentales, de electrones, de protones y neutrones hechos de quarks. Una estructura tremenda de cientos y cientos de partículas. Hemos, en un experimento de doble rendija, deja comprobado que se comporta como una onda. Se comporta exactamente igual que un fotón.
+
+[speaker_01]
+Sí, déjame aclarar una cosa simplemente, Francis.
+
+[speaker_04]
+Es fútbol de átomos de carbono.
+
+[speaker_01]
+Sí, sí, que no es que sea un balón de fútbol de tamaño de un balón de fútbol, que a lo mejor puede estar pensando la gente. Ronaldo no le dio la patada. Sí, sí, yo he puesto cara o geoplástica. Es una molécula que se llaman fulerenos. Hay unas moléculas que se llaman fulerenos que tienen forma de balón de fútbol, pero tamaño de molécula. No se piensen que es una cosa grande.
+
+[speaker_03]
+Ya estábamos pensando en Messi dándole la patada. No, no, es una molécula.
+
+[speaker_04]
+son 60 átomos de carbono y de hecho también se ha hecho con otros fluoreanos desde 80 átomos de carbono 84, no recuerdo la cifra exacta y de hecho ya hay gente planeando el experimento de hacerlo con un virus
+
+[speaker_03]
+con un virus, que guapo
+
+[speaker_04]
+con un virus, y probablemente se acabe haciendo en los próximos lustros
+
+[speaker_02]
+y de todas maneras volvamos al redil, o sea todos estos comportamientos de partícula y de onda vienen explicados por los campos cuánticos es decir, en los campos cuánticos hay vibraciones que tienen ciertas características de onda y eso te explica la parte ondulatoria, tanto de electrones como de fotones como de cualquier cosa, pero a la vez esas excitaciones cuánticas solo pueden existir en cuantos. No puedes tener media excitación cuántica o 0,37, tienes una, tienes dos, tienes tres y esos son las partículas. Es decir, la noción de partícula proviene del carácter cuántico de los campos y la parte de onda proviene de que son oscilaciones propagándose por ese campo. Entonces el concepto de campo unifica
+
+[speaker_02]
+esos dos conceptos que no se entendían bien hasta el momento de introducir el concepto de campo
+
+[speaker_04]
+eso es lo que yo traté de explicar en mi charla de Naukas yo traté de utilizar una metáfora, una analogía clásica para explicar el spin el spin es una onda, pero es una onda tridimensional las ondas tienen una frecuencia, una longitud de onda tienen una amplitud
+
+[speaker_04]
+la frecuencia y la longitud de onda están relacionadas con la energía y con la velocidad de la onda lo que son continuos, yo puedo tener un poquito más de energía o un poquito menos de energía, la energía no está cuantizada en el sentido de que la longitud de onda no está cuantizada yo puedo tener un fotón de cualquier frecuencia del espectro, cojo dos fotones con dos frecuencias y puedo encontrar un fotón que esté en medio, siempre pero el fotón además tiene una propiedad que sí está cuantizada, y es que al ser una onda tridimensional, además de, digámoslo así así oscilar en amplitud, puede oscilar de manera rotacional, puede hacer como una especie de
+
+[speaker_04]
+movimiento espiral, como una especie de sacacorchos. Y resulta que ese movimiento en la especie de sacacorchos, el sacacorcho no puede girar, no puede dar vueltas en hélice de manera arbitraria, está cuantizado. Ese movimiento en forma de sacacorchos está cuantizado y tiene que caber una cantidad entera, de hecho semi-entera, en las longitudes de onda que sí son continuas entonces la longitud de onda es continua la frecuencia es continua pero el número de vueltas del sacacorcho de esa onda tridimensional que además de oscilar en amplitud rota de alguna forma
+
+[speaker_04]
+esa rotación está cuantizada y tiene que caber un cierto número de veces, y eso es como yo expliqué en mi charla en Naukas lo que era la spin usé esta analogía clásica que en el mundo del electromagnetismo clásico se llama el momento angular orbital y que se puede utilizar, por ejemplo, para transmitir información en canales no guiados, es decir, con fotones en el aire sin utilizar una fibra óptica y que hoy en día tiene mucho interés y está trabajando bastante. Y en ese tipo de ondas se habla de pseudo spin, que es el análogo clásico al spin, pero para pulsos de luz, para ondas electromagnéticas.
+
+[speaker_02]
+Y digamos de nuevo, dando otra idea más de lo que el spin puede ser, que podríamos imaginar el spin ya de una manera más abstracta y quizá más realista como el grado de libertad interno del campo que obliga a que esa rotación de la que tú has hablado esté cuantizado. El motivo por el cual esto es así.
+
+[speaker_04]
+Exactamente, pero esto es una analogía es para intentar ayudar a entender lo que es el spin después cuando uno va a la matemática de la teoría cuántica de campos, todo esto se olvida No se encuentra nada de todo esto. Los físicos como Alberto que han estudiado teoría cuántica de campos nunca han estudiado el momento angular orbital del fotón, que es una cosa que estudian todos los ingenieros de telecomunicaciones Entonces yo traté en mi charla de Naukas usar un lenguaje de ingenieros de telecomunicaciones para explicar un concepto de teoría cuántica de campus. Mucha gente no me entendió porque este tipo de metáforas tienen el problema de que la gente, el público ya no tenía que entender lo que entienden los ingenieros de terminaciones y lo que entienden los físicos cuánticos y unificar ambos conceptos y quizás ahí me equivoqué
+
+[speaker_04]
+al elegir la metáfora, pero es una cosa que en el mundo de la ingeniería de terminaciones se usa habitualmente
+
+[speaker_02]
+Pero sin embargo para mí fue súper bonito porque efectivamente yo no había estudiado esa cosa, como tú bien acabas de decir entonces yo cuando lo vi dije, anda pero oye, que de verdad que que esto es como el spin. A mí me pareció iluminador, me gustó mucho.
+
+[speaker_01]
+Sí, a mí me gusta también.
+
+[speaker_01]
+Y entonces, o sea, de alguna forma sí que podemos ver el spin como un giro a lo largo de la propagación de esta onda, ¿no? Y por eso tiene un momento magnético, porque al fin y al cabo tienes, o sea, si uno piensa en el electrón, por ejemplo, que tiene una carga eléctrica, tienes una carga eléctrica que está haciendo esta especie de giro, de alguna forma se llevaría asociado una corriente y por tanto un momento magnético
+
+[speaker_01]
+¿partículas que no tengan carga eléctrica, que no tengan relación con que no tengan una naturaleza electromagnética
+
+[speaker_01]
+¿tendrían un spin asociado a un momento magnético también? es la duda que me surge ahora, no estoy seguro de si
+
+[speaker_04]
+no, vamos a ver si y no, si y no por dos razones la primera, desde el punto de vista digamos a nivel de árbol al nivel básico, una partícula que no tenga carga eléctrica, no tiene momento magnético asociado a su spin, si no tiene carga eléctrica, no tiene momento magnético cero patater problema, las correcciones cuánticas, las vibraciones de un campo no están aisladas, sino que están rodeadas del vacío y ahí están todos los campos con los que cuando una partícula vibra cuando una partícula está en un lugar, a su alrededor aparecen como vibraciones de los demás campos
+
+[speaker_04]
+y se recubre de pequeños efectos entonces las partículas que no tienen carga eléctrica pueden tener un momento magnético anómalo asociado al spin es un fenómeno intrínsecamente cuántico es un momento magnético muy pequeño, por ejemplo en el neutrino sabemos que es distinto de cero pero no lo hemos podido medir ni esperamos poderlo medir en el siglo XXI va a ser muy difícil y medirlo, pero sabemos que su valor es distinto del cero, pero es porque está rodeada esa partícula por el vacío y en el vacío aparecen cargas y entonces hay movimiento de carga por la propia existencia de la partícula una partícula no puede estar completamente aislada siempre los demás campos con los que puede estar acoplada acaban vibrando
+
+[speaker_04]
+muy poquito si el acoplamiento es débil y eso va generando
+
+[speaker_04]
+ese pequeño efecto cuántico que envuelve a la partícula
+
+[speaker_02]
+Aquí Francis acaba de tocar una cosa que es muy bonita y que hace referencia a cómo se construye la teoría cuántica de campos que es que nosotros cuando hacemos una teoría del campo cuántico del electrón, le ponemos a ese campo cuántico una masa, le ponemos a ese campo cuántico una serie de propiedades pero luego la interacción de ese campo cuántico con los otros que tienes en tu teoría, van cambiando esas propiedades, es decir tú pones como una especie de semillita inicial y luego lo que tú observas realmente no es ese campo cuántico desnudo que has puesto ahí, sino el campo campo vestido por toda la interacción. Mientras las interacciones sean débiles, las propiedades que vas a ver al final se parecen a las que tú has puesto en ese campo cuántico. Pero en el momento
+
+[speaker_02]
+que las interacciones son fuertes, como en QCD, como en la interacción fuerte, la partícula que tú ves al final no tiene por qué parecerse en nada a lo que tú has puesto al principio. Tú en QCD pones quarks y gluones y al final ves protones y neutrones, que no se parecen absolutamente en nada. Y es porque la teoría cuántica de campos tiene esta cosa tan bonita de que lo que tú tú observas realmente es el resultado de las propiedades de los campos más su interacción. Y la interacción puede ser tan importante o más que las propiedades de los campos fundamentales. Y esto es un concepto como que yo cuando me di cuenta como que me explotó un poco la cabeza, ¿no? En plan de, pero, entonces yo estoy haciendo teoría cuántica de quarks y realmente lo que quiero llegar al final
+
+[speaker_02]
+es una suma con todas sus interacciones y todas sus cosas. Pues sí, y además no siempre se puede hacer matemáticamente bien, porque no siempre es fácil calcular el resultado de todas esas interacciones
+
+[speaker_03]
+y yo creo que eso también explica por qué se tardó tanto en entender bien la fuerza fuerte porque era muy muy compleja desde el punto de vista tanto teórico como experimental al reunir todos estos elementos a la vez
+
+[speaker_02]
+es antiintuitivo porque tú intentas explicarla con una cosa y terminas en otro objeto diferente
+
+[speaker_01]
+vale muy bien, pues entonces llegados a este punto como llevamos ya una hora de programa vamos a despedir ya el programa para los amigos que nos escuchan por la radio nos despedimos hasta la semana que viene pero los que están escuchando el podcast por internet pues pueden acompañarnos un ratito más ahora hacemos una pausita y volvemos y seguimos hablando de este y otros interesantes temas y sobre todo nos meteremos ya a fondo con la importancia de las simetrías en la física entonces pues eso, hacemos una pequeña pausita volvemos enseguida, si nos escuchan por la radio muchas gracias, volvemos la semana que viene
+
+[speaker_01]
+Bien, pues ya estamos de vuelta. Disculpa Nacho que te corté, creo que querías hacer un comentario más sobre...
+
+[speaker_03]
+Más que un comentario, una pregunta. Aprovechar que tenemos a Alberto y a Francis aquí. Si te he entendido bien, Francis, antes has comentado que el spin de cosas como el electrón lo hemos medido, sabemos que es un medio, pero cosas como el neutrino lo suponemos por cómo interacciona o lo que sea, pero nadie lo ha medido de manera directa, ¿es correcto esto o no he entendido bien?
+
+[speaker_04]
+Exactamente, o sea, el spin del neutrino debe ser el mismo que el del electrón, es decir, un medio, para que la teoría funcione bien en ciertas interacciones. En la interacción débil ambas tienen que acoplar de manera adecuada y tienen que tener el mismo spin. spin, sin embargo no hemos podido medir el spin del neutrino de manera específica de hecho hasta tal punto de que ni siquiera sabemos si el neutrino es una partícula de Dirac como el propio electrón o es una partícula de Majorana que es una alternativa, es decir, todavía tenemos cierta ambigüedad en cómo matemáticamente construir la teoría para el neutrino en relación al spin, porque todavía no sabemos cuál es la teoría correcta porque tenemos dos alternativas
+
+[speaker_03]
+Yo creo que era un punto muy importante de aclarar este porque lo que sí podemos decir es que suponer que el spin del neutrino es un medio es compatible con todas las observaciones que tenemos hasta la fecha. Eso es lo único que... Vale, muy bien.
+
+[speaker_04]
+Sí, y casi con toda seguridad. O sea, seguro es un medio, ¿vale? O sea, la teoría funciona demasiado bien para que fuera mentira que no fuera un medio. Lo que pasa es que ese un medio, el spin un medio para un neutrino y el spin un medio para un electrón, significa cosas distintas. porque el electrón y el neutrino son tan parecidos que en ciertas interacciones no hay ninguna diferencia entre ellos en la interacción débil pero solamente para una de sus componentes de sus campos, la componente izquierda la componente izquierda del campo del neutrino y la componente izquierda del campo del electrón son indistinguibles y se pueden intercambiar una con la otra
+
+[speaker_04]
+y yo puedo transformar neutrinos en electrones pero la componente derecha no, porque en el neutrino no hemos encontrado componente derecha no la hemos encontrado, sí del antinutrino pero no del neutrino, y sin embargo el electrón sí tiene componente derecha, y esto está relacionado con las simetrías, las simetrías en física de partículas nos dicen cuando yo no soy capaz de distinguir que dos cosas son iguales, para ciertas propiedades Nacho y Héctor son idénticos desde el punto de vista de que son dos personas que tienen cara, tienen ojos, tienen cejas tienen boca, luego para mí son idénticos sin embargo hay ciertas propiedades que los hacen claramente distintos
+
+[speaker_04]
+Porque yo lo estoy viendo a través de la cámara, uno sentado en un lugar y otro sentado en otro lugar. Y estoy viendo que están vestidos con ropa distinta. Son distintos para ciertas propiedades, pero para otras propiedades son idénticos. Eso es como nosotros construimos las interacciones entre las partículas y los campos cuánticos. Para ciertas interacciones hacemos idénticas ciertos campos y por lo tanto intercambiables entre ellos, se puede transformar uno en otro y para otras interacciones esos campos son distinguibles. El neutrino es distinguible del electrón, su componente izquierda porque uno tiene carga eléctrica y el otro no, uno está acoplado al campo electromagnético y el otro no, pero para la interacción débil, la interacción a través de bosones W y bosones Z son exactamente idénticos.
+
+[speaker_04]
+Y eso se ha observado en los experimentos, no me lo estoy inventando, no es pura teoría. En HERA hay un experimento precioso de interacción de electrones con protones en los que se observa perfectamente esa interacción con corrientes débiles neutras y cargadas, es decir, se observa perfectamente cómo conforme sube la energía de los electrones que chocan contra los protones, la interacción débil y la interacción electromagnética se unifican en una única interacción. y a alta energía, del orden de unos 200 giga de tronvoltios, son indistinguibles. Y eso lo vemos en los experimentos. Y la teoría nos dice que tiene que ser así. Es decir, que no es solo teoría, también es observaciones. Hay un elemento
+
+[speaker_02]
+que añadir a esto que acaba de decir Francis que está relacionado, o sea, tú cuando hablas de campos indistinguibles, estás hablando de estas simetrías de las que a veces hablamos sobre las que construimos las teorías, y dices que la interacción débil y la electromagnética unifican porque nosotros sabemos que a altas energías la interacción débil electromagnética son una sola simetría, son una sola cualidad de indistinguibilidad de estos campos, mientras que luego se rompe esa simetría a bajas energías y terminas teniendo la interacción electromagnética que conoces y la interacción débil en la cual las dos partículas, el electrón y el neutrino, ya son distinguibles porque la simetría se ha roto.
+
+[speaker_02]
+pero a altas energías, sin embargo, no debería ser capaz de distinguir un electrón de un neutrino y yo creo que no lo hemos podido ver directamente en laboratorio pero sospechamos que así fue, por ejemplo, en el universo primitivo cuando estaba muy caliente, pues allí había partículas e interaccionarían más o menos igual los electrones y los neutrinos
+
+[speaker_04]
+Sí, algunas de la gente dice, esta imagen de Hera, no sé si te acuerdas Alberto si la has visto alguna vez, preciosa algunos físicos en varios libros han escrito que es la figura más bella de toda la física de partículas elementales Es la figura de era de hace unos 10 años en la que se ve perfectamente cómo convergen ambas fuerzas conforme la energía crece y al final acaba habiendo la misma tendencia entre lo que es el electromagnetismo, las corrientes débiles neutras y las corrientes electromagnéticas. Es decir, el bosón Z acaba comportándose como si perdiera masa. Y ves perfectamente las dos curvas, cómo claramente hay muchos órdenes de magnitud de diferencia entre la interacción débil, la baja energía y el electromagnetismo, y cómo esas dos interacciones acaban unificándose prácticamente en una única interacción.
+
+[speaker_04]
+Y esa imagen es muy famosa, viene en muchos libros, y desde luego te lo deja clarísimo. Es puramente experimental.
+
+[speaker_02]
+Es espectacular porque realmente nosotros jugamos con las simetrías, imponemos las simetrías en los campos, sacamos teorías, hacemos cálculos, pero en última instancia siempre piensas, hombre, esto igual puede ser una paja mental que me he hecho yo aquí con matemáticas, pero cuando ves que la naturaleza te da la razón, cuando ves que las dos curvas unificas, dices, es que ahí está, eso es porque son la misma simetría, ¿no? Porque el electromagnetismo y la interacción débil en realidad son la misma cosa, pero a temperaturas bajas, a energías bajas, está rota y entonces lo ves como cosas distintas.
+
+[speaker_01]
+Y hay mucha gente que piensa que si sigues tirando a energías todavía muchísimo más altas llegas a gran unificación, pero bueno, eso ya son extensiones del modelo estándar, donde se unifican todas las fuerzas.
+
+[speaker_02]
+Bueno, el modelo estándar en realidad a altas energías casi unifica, o sea, no unifica bien, pero tú ves como lo que te dicen las ecuaciones sobre cómo deberían comportarse los acoplamientos electrodébiles y el de interacción fuerte a altas energías y no llegan a unificar, pero digamos que llegan a valores similares a energías muy altas. Cuando haces teorías de gran unificación lo que haces es un poco ajustar eso para que de verdad unifique bien.
+
+[speaker_01]
+Bueno, porque por lo que yo tengo entendido hay mucha incertidumbre y muchos parámetros libres ahí también que te dan un cierto rango de juego, ¿no? Y parece que es como mucha casualidad, o sea, requiere algo de ajuste fino que esa extrapolación llegue a valores del mismo orden de magnitud, que no tendrían por qué, y que, bueno, pues la idea un poco es que con esas, variando un poco dentro de las incertidumbres y tal, pues se podría hacer encajar esa… ¿Les parece bien que antes de meternos en estos conceptos
+
+[speaker_03]
+empecemos por el tema de la simetría desde un punto de vista más básico y así después podemos llegar a esta cuestión de las roturas de simetría, cambios de fase, inflación? Por supuesto, sí.
+
+[speaker_03]
+Vamos a meternos quizás en lo que es el concepto de simetría y las diferentes cuestiones, ¿no?
+
+[speaker_02]
+Claro, claro. Hemos apretado el acelerador y nos hemos ido a... Volvamos para atrás un poquito.
+
+[speaker_01]
+A ver, llamamos simetría en física física a una una invariancia o sea simetría un sistema físico decimos que tiene simetría siempre respecto a algo alguna algún cambio decimos que cuando hacemos algún determinado cambio el sistema físico no cambia una transformación diríamos no se me una transformación el sistema no cambia entonces cuando eso ocurre decimos que hay una simetría respecto a esa transformación correcto Por ejemplo, si yo tengo una esfera y la giro, no cambia. Entonces digo que la esfera tiene simetría respecto a una rotación. Tiene simetría esférica. Tiene simetría esférica. Eso es una perogrullada.
+
+[speaker_01]
+No, no lo es, pero bueno. Pero es la base de lo que estamos diciendo. Nosotros siempre hay que entender que cuando hablamos de simetría decimos respecto a algo. No nos referimos simplemente al concepto geométrico de una reflexión en un espejo. Es algo un poco más general que eso. Y hay muchos tipos diferentes de transformaciones con respecto a las cuales nuestra física puede ser simétrica, respecto a traslaciones en el tiempo, en el espacio, etc.
+
+[speaker_03]
+podemos empezar describiendo los que se conocen como las simetrías en la física clásica por decir algo por empezar
+
+[speaker_03]
+pues por ejemplo tenemos
+
+[speaker_03]
+la simetría de traslación que viene a ser básicamente que si yo tengo mi laboratorio aquí en Tenerife y hago un experimento y exactamente el mismo laboratorio allí en Málaga o en cualquier sitio que se nos ocurra de la Tierra, hago el mismo experimento y se reproduce en el experimento exactamente igual. Es decir, que el lugar en el universo donde se está haciendo el experimento produce el mismo resultado. Si eso es así, se dice que hay una simetría traslacional.
+
+[speaker_03]
+Esa sería una simetría, la de la traslación. Podríamos tener otra simetría que es la de la rotación, por ejemplo. O que significaría básicamente, si cojo mi laboratorio y giro todo el laboratorio 90 grados y a los observadores también 90 grados y repito exactamente el mismo experimento, esperamos que salgan los mismos resultados. Eso es. Y después tendríamos otra simetría clásica que es la simetría del temporal, es decir, la invariancia cuando, es decir, si repito el mismo experimento, ahora lo hago dentro de 10 años o lo hice hace 2 millones de años y sale lo mismo, pues decimos que también tiene una simetría temporal.
+
+[speaker_03]
+Bueno, pues todas estas simetrías, que son simetrías clásicas, porque después en las cuánticas hay otras simetrías, pero son un poquito distintas o muy distintas. Estas simetrías, Emineter, una matemática del principio del siglo XX, se dio cuenta de que cuando había simetrías en las leyes de la física, asociado a esas simetrías, había unas cantidades que se conservaban. ¿vale? y esto es muy importante por ejemplo, en el caso de la invarianza o de la simetría con respecto al tiempo lo que se conserva es la energía cuando uno hace las ecuaciones, sin meternos en las cuestiones matemáticas, se da cuenta que la cantidad conservada si la naturaleza es así, si no distingue cuando se realizó el experimento
+
+[speaker_03]
+significa que la energía era la misma en las dos configuraciones y esto es muy importante porque nos cambia completamente la forma de ver la física en el sentido de que antes nosotros hablábamos la gente sabía mucho antes de Minéter que la energía se conservaba por ejemplo, estaba la ley de la conservación de la energía una ley conocida sin embargo se postulaba no se interpretaba como una asimetría, sino simplemente decía en los experimentos se conserva la energía o en los experimentos se conserva el momento lineal o se conservaba el momento angular mientras que ahora en la visión más moderna de la física
+
+[speaker_03]
+y es un desarrollo sobre todo del siglo XX, lo que se impone en la física son las simetrías. Es decir, vamos a postular una simetría que queremos que la naturaleza tenga y a partir de ahí deducimos unas leyes de conservación y también cómo son las propias leyes de la naturaleza. Yo creo que era un poquito por introducir el tema desde el punto de vista más clásico.
+
+[speaker_01]
+A mí hay una cosa que me gusta y que quería comentar. Bueno, Alberto, no sé si tenías otro comentario sobre lo que ha dicho Nacho.
+
+[speaker_02]
+Sí, nada, solo un comentario muy breve bueno, no sé si muy breve o no, pero creo que es relevante que tú tienes estas simetrías de las que Nacho ha hablado y efectivamente es exactamente como él ha dicho pero puedes encontrar estas simetrías en diversos aspectos de la realidad física tú puedes, por ejemplo, encontrar una simetría de rotación en las leyes de la física como por ejemplo el campo gravitatorio de newton el campo gravitatorio de newton es invariante bajo rotaciones vale lo mires por donde por donde mires debería ser exactamente igual ahora bien tú puedes tener que tu campo gravitatorio lo esté generando una esfera y entonces efectivamente el campo gravitatorio
+
+[speaker_02]
+que verás es igual en todas las direcciones pero si tu campo gravitatorio lo genera una patata pues tu campo gravitatorio va a ser diferente en algunas de las direcciones porque la masa que está está produciendo ese campo gravitatorio, no es simétrica, igual que son las leyes. Entonces, cuando Nacho habla de que las invariancias bajo traslaciones temporales tienen asociadas conservación de la energía, en realidad se refiere a las leyes físicas. Cuando las leyes físicas son invariantes bajo eso, se conserva la energía. Pero tu setup, tu organización del sistema físico puede romper esa simetría sin ningún problema, o sea
+
+[speaker_02]
+tú puedes tener una ley física que sea invariante bajo rotaciones y que tengas una cantidad de materia o tal que no lo sea y no sucede nada, simplemente lo que verás es que el resultado de eso no es invariante bajo rotaciones, por ejemplo, imagínate que tú estás midiendo campos magnéticos en tu laboratorio y eres suficientemente sensible como para ver el campo magnético de la Tierra el campo magnético de la Tierra va de norte a sur
+
+[speaker_02]
+Por lo tanto, si tú rotas 90 grados tu laboratorio y pasas de estar de norte a sur a estar de este a oeste, tus aparatos te van a decir, oye, aquí este campo magnético es distinto. Antes entraba por la pared de atrás y ahora está entrando por la pared de la derecha. Y eso se debe a que la situación física no es invariante bajo rotaciones, a pesar de que igual las leyes físicas que tú estás estudiando sí lo son.
+
+[speaker_03]
+De hecho eso es lo que complica tanto encontrar cuáles son las simetrías de las leyes de la naturaleza, porque como dices tú, en cualquier configuración experimental la naturaleza está totalmente intrincada, tenemos efectos de todos lados. Cuando la miramos en detalle, descubrimos que estamos sobre la Tierra, o que estamos recibiendo la radiación del Sol, o los rayos cósmicos de la galaxia. Es muy difícil pensar en un sistema completamente aislado para probar las leyes de la naturaleza de forma aislada, porque la naturaleza está toda intrincada.
+
+[speaker_01]
+Es que por eso decía que es importante decir que estamos hablando de la simetría de un determinado sistema físico con respecto a una determinada transformación. O sea, el sistema físico depende, o sea, tienes que especificar de qué es lo que estás hablando. Hay determinados sistemas físicos que cumplen ciertas simetrías respecto a unas transformaciones y otros no. no. Entonces, en función de qué sea lo que estés hablando, puede que cumpla o puede no.
+
+[speaker_03]
+Es importante el punto que ha dicho Alberto, de que estas son las simetrías de las leyes de la naturaleza. Más que de la experimentación que hacemos, que puede tener más o menos
+
+[speaker_01]
+simetría, dependiendo. Según lo que sea lo que estás estudiando, ¿no? Yo quería poner un ejemplo, y yo creo que se va a ilustrar con esto, porque a mí me parece muy bonito el teorema este de Neter, y de hecho la formulación del teorema es que cada simetría diferenciable, vamos a olvidarnos de de la palabra diferenciable. Cada simetría de la acción, que es el vocablo aquí, la acción es el palabra, y ahora explicamos lo que significa esto de la acción, de un sistema físico tiene asociada una ley de conservación. La acción aquí es la palabra clave. Para explicarlo, a mí es que esto me gusta mucho, lo de la acción, porque es una cosa que no se suele explicar a nivel de instituto,
+
+[speaker_01]
+pero creo que es un concepto físico muy bonito, a mí me gusta mucho. La acción es lo siguiente, Bueno, tiene una definición y se define para una determinada trayectoria de un sistema físico. Un proceso físico, un proceso, es algo que ocurre en un determinado tiempo y en un proceso físico el sistema describe una trayectoria en un determinado espacio de parámetros. Eso es todo muy complejo y muy abstracto. Vamos a poner un ejemplo particular. Una cosa sencillita, una piedra. Yo cojo una piedra, la suelto y se cae al suelo. La piedra sigue una trayectoria cuando yo la suelto. la suelto y se cae, cae al suelo siguiendo la gravedad entonces eso es una trayectoria la que sigue la piedra
+
+[speaker_01]
+hay muchas otras trayectorias que yo me puedo imaginar, yo me puedo imaginar que la piedra no se cae, sino que sube empieza a levitar, luego da tres piruetas hacia la derecha y finalmente se posa en mi otra mano la piedra no hace eso pero yo me puedo imaginar esa trayectoria de hecho me puedo imaginar infinitas trayectorias la piedra va a Marte y vuelve
+
+[speaker_01]
+son trayectorias imaginarias en un mundo imaginario, en los mundos de Yupi que no son la real
+
+[speaker_02]
+incluso va a Marte y vuelve en dos segundos violando la relatividad
+
+[speaker_01]
+efectivamente, todo eso son trayectorias entre comillas virtuales, trayectorias en los mundos de Yupi que no es el mundo real entonces todas esas trayectorias imaginarias las podemos considerar y cada trayectoria tiene asociado un numerito, que es la acción la acción es un número que se asocia a cada trayectoria y ese número se calcula de una forma sencilla que es una integral a lo largo de la trayectoria de una cantidad que se llama el Lagrangiano que es un palabra pero es simplemente la energía es la energía cinética y la energía potencial la energía potencial depende del campo gravitatorio en este caso estamos considerando que hay un campo gravitatorio entonces con esas energías yo puedo definir el Lagrangiano y puedo calcular el numerito
+
+[speaker_01]
+bueno pues, ese numerito es la acción entonces tú lo calculas para diferentes trayectorias y hay un principio físico muy bonito que es el de mínima acción que me dice que la trayectoria real, o sea, si yo suelto la piedra lo que va a hacer la piedra es seguir aquella trayectoria que tiene la acción mínima. O sea, de todas las posibles trayectorias que yo me puedo imaginar en los mundos de Yuppie, cada una tiene su numerito 28, la que va a Marte y vuelve tiene 400 la que cae al suelo tiene 3 ¿vale? Pues ese 3 es el menor de todos los numeritos que puede hacer de cualquiera de todas las trayectorias
+
+[speaker_01]
+Entonces, esto es un formalismo de la mecánica de la física en la cual tú puedes resolver problemas yo lo podría haber resuelto también aplicando la fuerza de Newton fuerza igual a masa por aceleración y calculo cómo sigue, qué trayectoria sigue la piedra pero también lo puedo calcular de esa otra forma es otro formalismo diferente entonces por eso
+
+[speaker_01]
+me gustaría recuperar lo que hablamos al principio esta discusión filosófica de qué es lo que pasa en la realidad, la piedra realmente calcula todas las posibles trayectorias y todas las acciones y decide caer hacia abajo porque es la que tiene la mínima? O sea, si alguien viniera y me preguntara ¿qué es lo que hace la piedra realmente? ¿Siente la fuerza de la gravedad y va siguiendo la fuerza? ¿O se calcula todas las trayectorias? Yo diría, hombre, las piedras no calculan. Que sepamos, las piedras no calculan nada. La piedra no puede saber cuál es la trayectoria mínima. Pero es equivalente. Es decir, es otro formalismo matemático que me da el mismo resultado.
+
+[speaker_01]
+Entonces me gusta traerlo a colación para ilustrar que a veces podemos tener formalismos matemáticos completamente diferentes para describir la misma realidad física llevo mucho rato hablando
+
+[speaker_04]
+es que esto es un tema muy muy muy complicado de explicar lo primero el formalismo lagrangiano del que estamos hablando es un formalismo que solo se aplica a interacciones fuerzas conservativas es decir la simetría, la conservación de ciertas magnitudes se deduce del formalismo lagrangiano, pero es que además es un prerequisito. Si tú coges, por ejemplo, un sistema disipativo, un sistema con rozamiento, no tiene lagrangiano. Si tú coges las ecuaciones de Navier-Stokes para los fluidos, no tienen formulación lagrangiana.
+
+[speaker_04]
+La mayor parte de la realidad clásica que nos rodea no tiene formulación lagrangiana. La formulación lagrangiana es maravillosa en mecánica celeste, porque en mecánica celeste tú asumes que no existen rozamientos, que todos los sistemas se mueven conservando la energía, lo que no es verdad, porque hay pequeños choques, porque hay pequeñas interacciones, porque los objetos pierden energía por fuerzas de marea, desprecian muchos efectos.
+
+[speaker_04]
+Lo que pasa es que los físicos creemos, no sé muy bien por qué, pero así parece ser la naturaleza, que las leyes fundamentales de la naturaleza, las leyes básicas y más primitivas de la naturaleza son conservativas y por lo tanto tienen formulación lagrangiana. asumimos que la realidad en el nivel más fundamental se puede formular de esta manera con un principio de mínima acción para un formalismo lagrangiano y eso es lo que hacemos para explicar la gravitación, el electromagnetismo la interacción débil, la interacción fuerte pero no podemos hacerlo para explicar la turbulencia
+
+[speaker_04]
+o la dinámica de fluidos o la dinámica de la atmósfera o la dinámica del magma o la magnetohidrodinámica no podemos Pero a nivel fundamental, hasta ahora, si lo hacemos, parece que funciona bien ese formalismo. Entonces, no es verdad que la piedra decida seguir esa mínima acción. Eso no es verdad, porque la piedra está sujeta a rozamientos. La piedra en el vacío y suponiendo que fuera una partícula ideal, no sé cuánto, sí seguiría un formalismo lagrangiano. pero la piedra física y real no lo cumple pero no nos importa porque cuando hablamos de física fundamental nos olvidamos de sistemas tan complicados como una piedra ningún físico teórico va a estudiar una piedra
+
+[speaker_04]
+la piedra la estudian los físicos que estudian piedras
+
+[speaker_01]
+de todas formas, solo quería decir una cosa lo que pasa es que la disipación no la solemos tener en cuenta pero la disipación al fin y al cabo no es más que conversión de energía de energía, digamos, en termodinámica diríamos reversible, como energía cinética en una forma de energía irreversible, como energía térmica, o sea, al final esa energía no se pierde, se convierte en calor, en las moléculas, bueno, en fin
+
+[speaker_04]
+Claro, pero estamos diciendo el formalismo lagrangiano no es aplicable cuando metes fuerzas, ahora bien si yo asumo que las leyes fundamentales de la realidad son lagrangianas, son conservativas obviamente las leyes derivadas que incluyen el rozamiento las pérdidas, etcétera, tienen que surgir de ellas, tienen que emerger de alguna forma, y acabarán emergiendo de alguna forma, pero esa transición no es nada trivial o sea, explicar con teoría cuántica de campos cómo actúa el rozamiento de las moléculas del aire a día de hoy es imposible
+
+[speaker_04]
+asumimos que se podría hacer que un ser suficientemente inteligente con suficiente capacidad podría hacerlo pero a priori eso no es nada trivial, de hecho la transición entre un sistema cuántico y un sistema clásico conforme se incrementan el número de partículas todavía es una incógnita, pero lo que sí quiero decir es que para leyes fundamentales el formalismo lagrangiano y el principio de minimización es verdad, para cosas
+
+[speaker_04]
+fundamentales, aplícamelo a un electrón pero nunca me lo apliques a una piedra, es que Lagrange lo aplicó a las piedras, vale, lo aplicó a las piedras pero que el pobre Lagrange no sabía que existían los electrones
+
+[speaker_01]
+Sí, vamos a ver, lo que quiero es empezar por una cosa Cosa sencilla, clásica, antes de meternos en la cosa complicada cuántica. ¿Por qué lo digo? Porque de esta forma, ahí puedes aplicar esto de la conservación de energía, lo que tú decías, Nacho, que ese sistema, vamos a olvidarnos de momento del rozamiento. Entonces, en ese sistema en el que tú puedes definir esa acción, tú encuentras una cantidad que se conserva, que es lo que llamamos la energía. Si tuvieras un rozamiento, ya la energía no se conserva. Es que estamos en la misma mecánica clásica. O sea, estoy intentando empezar por la parte clásica. Vamos a despreciar el rozamiento y las pérdidas de energía, ¿no? Entonces ya no se conservaría.
+
+[speaker_03]
+Sí, estamos hablando de un experimento ideal.
+
+[speaker_01]
+Es un experimento ideal para ilustrar que, en ese caso, lo que nos dice el teorema de Néter es que, en ese sistema, donde existe esa simetría, en este caso en el tiempo, hay otras simetrías que podemos discutir, pero esa en el tiempo nos da y nos dice cuál es esa cantidad. Porque, claro, no es simplemente decir hay una cantidad que se conserva y viste tú sabes cuál es, sino que el teorema te dice que hay una determinada cantidad que es la energía, la energía total de la piedra que se conserva
+
+[speaker_03]
+de hecho creo que es importante cuando has hablado del tema de donde prueban los físicos las simetrías es en la acción en lo que tú comentabas, la función esa que has definido sobre las trayectorias si para nosotros
+
+[speaker_03]
+una simetría es una transformación de la variable esta que está variando, que es por ejemplo la posición que tú comentabas, en este caso tal que la acción no cambia es decir, eso sería una simetría del sistema tal que si la aplico
+
+[speaker_01]
+y no cambia la acción, esa función que tú has descrito, entonces eso sería una simetría del sistema, y ahí por ejemplo
+
+[speaker_03]
+entraría la que habíamos hablado antes si repito ese mismo experimento de soltar la piedra dentro de tres años y se produce lo mismo, sabemos que tiene simetría temporal. O sea, es porque la acción no distingue entre hacerlo en el tiempo hoy o dentro de un tiempo más otro, más un delta de tiempo, más un intervalo de tiempo posterior. Lo mismo con variar el experimento de sitio o girar todo el experimento. Un comentario,
+
+[speaker_02]
+yo interpreto lo que ha dicho Francis y me corrige si no es así, en términos un poco de lo que estabas proponiendo tú antes, Héctor, cuando decías este mundo en el que tú no podías distinguir entre la gravitación y la relatividad general. Si tú estuvieras en un mundo en el que no supieses cuáles son las leyes subyacentes y observaras que hay rozamiento y que por lo tanto el objeto está perdiendo energía, quizá tú no pensarías instantáneamente que las leyes de la física conservan la energía. Es decir, lo que sucede es que nosotros ahora observamos ese ese rozamiento y lo interpretamos en términos de cosas conservativas y decimos no no esa energía está siendo energía térmica en el suelo estás moviendo las moléculas estás perdiendo energía
+
+[speaker_02]
+por eso pero realmente ha costado tanto llegar llegar a esta formulación de la física en términos de simetrías y de cosas conservadas porque hay muchas cosas que no están conservadas entonces llegarte a convencer de que los fenómenos en los que no se conservan esas magnitudes son fenómenos explicables en base a interacciones que sí las conservan pues ha sido un camino largo y a veces tortuoso
+
+[speaker_03]
+Lo bueno por seguir avanzando un poquito en el tema es que después de este teorema de Mineter unido con el grandísimo éxito que tuvo la Relatividad Especial y General yo creo que es cuando se produce ese cambio de paradigma que los físicos se dan cuenta que de repente lo de las leyes de conservación están muy bien pero que explorar las simetrías de la la naturaleza es realmente lo que nos va a dar luz en el siguiente progreso del entendimiento de la física. Y es a partir de ese momento yo creo que es donde explosiona la física de la mitad del siglo XX hasta el final del siglo XX, donde los físicos empiezan a explorar
+
+[speaker_03]
+simetrías, a proponer simetrías y ver qué se deriva de ellas. Y ahora entraremos en en ellas un poquito más, con las simetrías, por ejemplo, en la mecánica cuántica y todo eso. Pero fíjate, hasta el año 1918, que es cuando se produce este teorema de Néter, uno dice, la simetría traslacional implica la conservación del momento, la simetría rotacional, la del momento angular, la simetría temporal, la conservación de la energía, y la simetría bajo el cambio de fase de las funciones de ondas de las partículas cargadas, la conservación de la carga eléctrica es decir, a principios del siglo XX todavía sin meternos en la cuántica
+
+[speaker_03]
+ya teníamos por esas leyes por esas simetrías en las leyes las conservaciones de cuatro
+
+[speaker_03]
+cosas tan importantes como energía, momento el tiempo y la carga eléctrica
+
+[speaker_01]
+yo ahora aquí me surgen unas dudas a partir ya de este punto que es donde no entiendo yo como es el proceso lógico, mental por el cual
+
+[speaker_01]
+hemos llegado a aprender cosas me gustaría pedirle a Francis y Alberto que nos expliquen un poco cómo ha sido entonces la aplicación de estos principios que yo en términos clásicos los entiendo parece todo muy razonable y muy sencillo de entender, cómo esto nos permite construir un modelo estándar, por ejemplo vamos a empezar por ejemplo hablando de qué queremos decir cuando decimos bueno, ustedes vean cómo explicarlo porque yo no lo tengo muy claro Claro, pero yo veo que se habla del grupo, el SU2 y el SU3 como representativos de la interacción débil y fuerte. Y claro, yo matemáticamente entiendo que eso va de unas matrices y tal, pero no veo la conexión con la física de esto.
+
+[speaker_03]
+A ver si me lo pueden aclarar. Por concretar, la pregunta sería, ¿las simetrías en la física clásica son lo que hemos explicado? ¿En qué se diferencian con respecto a las simetrías en la visión moderna, en la mecánica cuántica? ¿Es simplemente un desarrollo de estas ideas antiguas pero aplicado al nuevo formalismo o hay algo nuevo? Esa sería un poco la pregunta.
+
+[speaker_02]
+Bueno, en cuántica tú sigues manteniendo esas simetrías. O sea, tú cuando haces el formalismo cuántico no renuncias a esas simetrías que son cosas muy lógicas. Que ciertas leyes no han de cambiar con el tiempo, que ciertas leyes son invariantes bajo rotaciones. Eso lo sigues teniendo. Y de hecho obtienes la conservación de las mismas magnitudes que tienes en física clásica. Lo que pasa es que el formalismo es un poco diferente y tal. Si todo se puede aplicar, obtienes la misma conservación.
+
+[speaker_02]
+Lo que cambia cuando tú empiezas a trabajar con campos y todo esto es que empiezas a buscar simetrías internas, es decir, empiezas a buscar magnitudes o cambios bajo los cuales tus objetos fundamentales que son los campos son simétricos pero que no tienen una interpretación física tan sencilla como estoy haciendo una traslación en el espacio.
+
+[speaker_02]
+Tú hace un momento has hablado de los cambios en la fase del campo que te lleva a tener la conservación de la carga eléctrica. Esa idea no es en absoluto trivial. Es decir, la fase de un campo es que tú sabes que ese campo lo puedes representar por un número complejo y los números complejos tienen un módulo que es como la longitud de un vector y una fase que es como el ángulo de ese vector. espectro. Ese ángulo es un ángulo abstracto, es decir, tú no ves electrones con ángulos ni nada por el estilo. Y sin embargo, cuando pides que la teoría sea invariante bajo ese cambio en el ángulo,
+
+[speaker_02]
+tú obtienes la conservación de la carga eléctrica. Y eso se debe a que muchas de las simetrías importantes en teoría cuántica de campos son simetrías internas de los campos. Son simetrías que tú ves por estas propiedades conservadas o por las propiedades de las interacciones, pero no tanto porque puedas observar la partícula y de ahí deducir estos cambios en la simetría. Son cambios internos que realmente uno se podría preguntar si están realizados en la naturaleza o son solo herramientas matemáticas que estamos utilizando para justificar que existe la carga eléctrica y se conserva o que existen este tipo de interacciones para la interacción fuerte o algo por el estilo.
+
+[speaker_02]
+Por eso hace un rato cuando Francis y yo comentábamos que ves que se unifican la intensidad de la interacción débil y electromagnética, tú obtienes de repente un espaldarazo a todas estas cosas. Dices, yo todas estas cosas que podrían ser una mera herramienta estoy de repente encontrándolas en un experimento y por lo tanto de alguna manera me da cierta seguridad de que lo que estoy haciendo no es un juego, sino que es algo que tiene que ver con cómo la naturaleza funciona.
+
+[speaker_04]
+Si me permitís un pequeño inciso siguiendo la línea de lo que decía Nacho. Aquí esto es historia de la ciencia, historia de la física y a veces es complicado contarlo en pocas palabras. El electromagnetismo es una teoría de Maxwell que incumple las leyes de Newton, es decir, las simetrías usuales asociadas al electromagnetismo son diferentes a las que implican la teoría de Newton.
+
+[speaker_04]
+Y eso se descubre a finales del siglo XIX y es lo que da lugar a principios del siglo XX a la teoría de la relatividad especial de Einstein. Einstein se da cuenta, deduce, Lorenz y Einstein y Poincaré y Fitzgerald y varios físicos, matemáticos, deducen unas nuevas leyes de simetría asociadas al electromagnetismo. Y dicen, estas nuevas leyes de simetría para la mecánica asociada a procesos electromagnéticos podrían ser verdad para la mecánica en general, la mecánica de todos los objetos.
+
+[speaker_04]
+Y eso nos lleva a la relatividad. Y eso nos introduce en principios del siglo XX en la idea de David Hilbert de que toda la realidad es matematizable y de que toda la realidad en última instancia es geométrica, es describible toda la física de manera geométrica. Hilbert extiende lo que se llama el programa de Klein para geometrizar toda la matemática la idea de Klein es geometrizar toda la matemática es geometría y Hilbert dice, no, no solo toda la matemática es geometría toda la física es geometría Amy Netter es alumna de Klein, es alumna de Hilbert y sigue los trabajos de ellos y trata de geometrizar la teoría de la relatividad de Einstein
+
+[speaker_04]
+que es claramente geométrica, pero que tenía un enorme problema Y es el concepto de energía. El concepto de energía en la teoría de la realidad de Einstein no está bien definido. Y para tratar de dar un sentido al concepto de energía es para lo que Hilbert pone a Emi Neter a trabajar en lo que ahora llamamos teoremas de Neter, que son los teoremas que relacionan para lo que llamaba Héctor la acción, que es cómo cambia, cómo se integra la energía, cómo evoluciona la energía en un cierto intervalo de tiempo en un sistema.
+
+[speaker_04]
+Eso básicamente es la acción. La acción se conserva o se minimiza en las trayectorias de un sistema. Minimizan esa acción. Pues tratar de seguir esta idea en relatividad general para obtener un concepto de energía. Y esto nos lleva a una teoría. Porque fijaros, algo realmente sorprendente. Y es que la teoría general de la relatividad, que está inspirada en la relatividad especial, que está inspirada en el electromagnetismo, la teoría general de la relatividad es como una especie de electromagnetismo avanzado. Tiene simetrías muy parecidas a las del electromagnetismo. Y eso lo descubre Weil. Son las simetrías gauge, las simetrías de contraste, las simetrías que tienen que comparten en común el electromagnetismo y la gravitación.
+
+[speaker_04]
+Por eso es posible, por ejemplo, construir ecuaciones en cinco dimensiones que incorporen la gravitación y el electromagnetismo. En un espacio-tiempo de cinco dimensiones yo puedo poner las mismas ecuaciones para electromagnetismo y gravitación. Eso se llama la teoría de Calusa-Klein. pues todo eso es de principio de la década de los 20 entonces cuando llega a finales de la década de los 20 y Dirac introduce la ecuación para el electrón, la ecuación relativista para el electrón, Dirac se da cuenta de algo sorprendente, que es lo que comentaba Nacho comentaba Nacho de que cuando yo cambio la fase se conserva la fase, se conserva la carga eléctrica, no es pre-nether no está en el electromagnetismo clásico es un resultado de la teoría de Dirac
+
+[speaker_04]
+estaba un poco en el aire en ese momento pero dirá que es el que lo instancia y es el hecho de que si la función de onda tiene fase es una función compleja una flechita que tiene un módulo apunta hacia un sitio y además tiene un ángulo pues si ese ángulo no influye en las magnitudes físicas porque no es medible entonces yo sólo puedo medir probabilidades que la función de un al cuadrado entonces cuando yo mido el módulo del tamaño de la flechita no mido el ángulo entonces el ángulo es algo no medible por lo tanto las Las leyes físicas tienen que ser invariantes a este ángulo, ¿no? Pues si yo cambio el ángulo en todos los lugares del universo, hago lo que se llama una transformación global.
+
+[speaker_04]
+Pero si yo digo, ¿y por qué? Yo no puedo hacer una transformación global. Yo no puedo irme a un lugar muy alejado del universo por la relatividad especial. Está prohibido, muy lejano, y cambiar el ángulo que me afecte aquí. Yo tengo que hacer transformaciones locales. Y si hago las transformaciones locales, resulta que en la teoría aparece algo. algo, tiene que aparecer algo que compense esa pequeña transformación local y da la casualidad que en la teoría de Dirac lo que aparece es el electromagnetismo, que la teoría de Dirac sea invariante ante ángulos, ante variaciones de la fase de la función de onda del electrón automáticamente me obliga, si esa variación es local, me obliga a introducir algo que lo compense
+
+[speaker_04]
+y ese algo coincide exactamente con las ecuaciones del electromagnetismo, luego el electromagnetismo se deduce aparece de manera natural de una simetría de las ecuaciones para el electrón esa idea es tan bella tan bella en 1928 que muchos físicos tratan de extenderla a otras interacciones, a otras partículas conforme se van descubriendo partículas y por eso esa idea es la que ha construido el modelo estándar pero hemos de tener en cuenta algo muy importante es que en 1968 en España no había ni un solo físico trabajando en teorías gauge, porque se suponía que las teorías gauge eran eran basura, que esta idea de la simetría era basura, era una teoría incorrecta
+
+[speaker_04]
+y solamente a partir de 1973 todo el mundo se pone a trabajar en esa idea, es decir tampoco que es decir, la idea original de Hilbert muere en gran parte durante el siglo XX, sobre todo tras los trabajos de Gödel que destrozan muchas de las ideas en matemáticas de Hilbert y pasan a ser una cosa de poca moda y unos pocos físicos, pero esos pocos físicos siguen trabajando y sorprendentemente la realidad les da la razón y a partir aproximadamente en 1973, ya todo el mundo se vuelca a que la realidad es simétrica, que las simetrías son los fundamentos de todo, a que toda la física se puede entender como simetrías. Pero cuidado, cuidado, cuidado, que ha habido gran parte del siglo XX en que eso era mentira y puede que dentro de unos siglos vuelva a ser mentira.
+
+[speaker_04]
+Pero ahora mismo estamos en una época en la que copiar las simetrías del electromagnetismo nos ha permitido deducir la relatividad y nos ha permitido deducir el modelo estándar. El modelo estándar básicamente son copias
+
+[speaker_04]
+avanzadas, ligeramente modificadas del electromagnetismo clásico en su versión cuántica ¿Por qué la realidad es así? No lo sabemos ¿Pero realmente es así? Tampoco lo sabemos, pero ahora mismo es lo mejor que tenemos
+
+[speaker_01]
+Vale, me surgen algunas dudas, pero creo que Alberto quería comentar algo también
+
+[speaker_02]
+Nada, solo quiero apostillar una cosa que ya ha dicho Francis que es que lo potente de esa analogía con el electromagnetismo es que tú o sea, antes se ha explicado Nacho cómo a partir de la simetría sacas leyes de conservación, cuando tú aplicas esto a simetrías internas de los campos y las haces locales y dices no, hay ciertas cosas en los campos que son indistinguibles, la fase del campo por ejemplo, o los colores de los quarks, yo no puedo distinguir un quark verde de un quark rojo de un quark azul que son las tres cargas de la interacción fuerte, cuando dices que esas cosas las puedes cambiar pero solo localmente porque debido a la relatividad los cambios no se pueden propagar distancias
+
+[speaker_02]
+simetrías arbitrariamente grandes, en tiempos arbitrariamente pequeños, esa variación local de esas simetrías internas te da lugar a campos que han de compensar esa variación. Y esos campos resulta que son los famosos bosones asociados a las interacciones. Cuando tú haces eso con la simetría de fase del electromagnetismo, de repente te aparece el fotón. cuando tú haces eso asociado a los cambios de color en la interacción fuerte te aparecen los gluones es decir, te aparecen unos campos con una serie de propiedades que tú luego resulta que vas encontrando en la naturaleza y por eso dice Francis que la naturaleza le va dando la razón a esta idea, porque resulta que se van encontrando partículas correspondientes a las excitaciones de esos campos
+
+[speaker_02]
+y podría no haber sido así pero resulta que sí que ha sido así
+
+[speaker_03]
+Pero aquí deberíamos parar un poco porque me surge la duda no sé si está relacionada con la que le puede surgir a Héctor también es
+
+[speaker_03]
+nosotros postulamos la simetría a priori y entonces, por ejemplo, tú decías en la
+
+[speaker_03]
+fuerza fuerte, ¿no? Postulamos esta simetría y por lo tanto tenemos ocho gluones o es al revés, es decir, tenemos evidencia, tenemos indicios observacionales de que hay ocho gluones, por lo tanto la simetría que hay debajo es esta. ¿Cómo se alimenta esto?
+
+[speaker_02]
+Normalmente ha sido por lo segundo. En el caso de la interacción fuerte no fue porque hubiese evidencias de que había ocho gluones, sino porque había evidencias de que había tres colores para los quarks. Tú veías cuál era el ritmo de producción de una serie de partículas cuando se superaban el umbral de la masa de algunos quarks y resulta que te parecía multiplicado por tres, lo cual te hacía deducir que parecía haber tres tipos de esos quarks cuando podías producirlo. Y eso, a ver, quiero decir, no fue solo eso, pero fueron una serie de conjuntos de evidencias que te hacía pensar que había una propiedad interna de los quarks que tú no estabas observando, pero que hacía que tú pudieses distinguir quarks diferentes.
+
+[speaker_02]
+Por ejemplo, otra evidencia fue que tenías unas partículas en las que tenías tres quarks idénticos con los tres espines idénticos en la misma dirección. Y tú sabes que los quarks son fermiones y que los fermiones no pueden estar todos en el mismo estado al mismo tiempo. Entonces, al ver que esos tres quarks idénticos estaban en esa partícula, tú deducías que tenía que haber un grado de libertad interno de los quarks que los distinguía. Entonces, empezabas a pensar, pues bueno, igual este quark tiene este grado de libertad que vale uno, otro dos y otro tres, pero en lugar de llamarle uno, dos y tres, pues le llamamos azul, rojo y verde y le llamamos color.
+
+[speaker_02]
+Entonces, hubo toda una serie de evidencias que te hacían pensar que los quarks venían en esas tres variedades, tenían esos tres grados de libertad internos. Entonces, tú le pides eso a la teoría y la teoría de repente te escupe los ocho gluones.
+
+[speaker_04]
+Y cuidado, una cosita importante que a veces se olvida, la existencia de 8 gluones no es un hecho observacional, no podemos observar los gluones, los gluones como los quarks son partículas que no se pueden observar, se deducen de forma indirecta, entonces no sabemos si hay 8 gluones, 6 gluones o 25 gluones. Lo que sí sabemos es que las propiedades de las partículas que podemos observar, que son partículas compuestas de quarks y gluones, tienen ciertos parámetros que dependen de un 8.
+
+[speaker_04]
+Y entonces los parámetros observados experimentalmente, de manera indirecta, nos indican que tiene que haber 8 gluones. Pero no hemos observado ningún gluón y no hemos observado que haya 8 gluones distintos. No los hemos observado. pero deducimos que deben existir 8 porque ciertos parámetros dependen de ese número 8
+
+[speaker_03]
+es interesante aquí a puntillar que mientras que las simetrías que veíamos en la física clásica eran relativamente intuitivas en el sentido de que uno podía decir bueno, no va a cambiar nada porque haga el experimento hoy a que lo haga mañana mientras que las simetrías de las que estamos hablando aquí ahora que han creado el modelo de física particular moderno
+
+[speaker_03]
+Son simetrías distintas, no era una que tú te sentabas y decías voy a suponer que la simetría es el grupo SU3 o lo que sea, sino que es algo que creas a partir de los indicios observacionales mezclados con ciertas intuiciones teóricas, pero que no son, a nadie se le ocurre por decir algo, no, la simetría de la naturaleza es el SU3, no, eso no es por decir algo. algo, ¿no? Me explico, no sé, que son más abstractas.
+
+[speaker_01]
+Yo lo oí con la pregunta que yo iba a hacer, ¿no? Entonces voy a formularla. Es la siguiente. Entonces,
+
+[speaker_01]
+esto que se dice, yo creo que se exagera un poco con esto de las simetrías, porque como suena muy bonito y muy grandilocuente, y muchas veces oímos frases del tipo de que es que todo se deriva de las simetrías fundamentales, que es una cosa que yo no entendía, porque yo clásicamente, con la forma en la que yo veo esto clásicamente, tú ya partes primero de una física y luego la simetría te permite desarrollar cosas. El ejemplo de la piedra tú ya partes de que tú sabes cómo es el campo gravitatorio ¿cuál es la energía potencial gravitatoria? Para poder construir la acción y para poder construir esa simetría Francis nos ponía un ejemplo que yo no conocía el desarrollo histórico pero me parece precioso, así como lo ha explicado, de la ecuación de Dirac para el electrón
+
+[speaker_01]
+pero partes de esa física, partes de la la física del electrón de Dirac y entonces
+
+[speaker_01]
+la simetría te permite sacar el electromagnetismo de ahí. Si lo he entendido correctamente es así como lo has explicado, ¿verdad Francis? Me parece alucinante. Pero insisto, ya tienes una física de partida, ¿no? Tienes que tener un conocimiento de partida de la física y luego las simetrías te permiten sacar más información, ¿no?
+
+[speaker_04]
+En física tenemos la realidad y queremos entender la realidad. Esto no es matemática, ¿vale? O sea, no es una cuestión de que que yo me ponga a pensar posibles grupos, no es la clasificación de Cartan, de todos los grupos compactos de Lee, no es pensar sino es ver entonces en física lo que hacemos es ver y tratar de entender, y una de las cosas importantes en física para ver y entender la realidad es quitar detalles quitar detalles innecesarios entonces toda esta idea de la simetría ha ido surgiendo conforme hemos tratado de entender la física eliminando detalles, por ejemplo Heisenberg introdujo el spin pin isotópico, porque se dio cuenta de que dentro de los núcleos los neutrones y los protones se comportan
+
+[speaker_04]
+como si fueran indistinguibles pero tú dices, pero claro, un protón tiene carga eléctrica y un neutrón no sí, pero dentro de un núcleo la carga eléctrica prácticamente no influye entonces yo puedo quitar ese pequeño detalle olvidémonos de la carga eléctrica, imaginemos que el neutrón y el protón son dos partículas indistinguibles y resulta que obtuvo una descripción muy buena de los los núcleos de los átomos y los espectros de los núcleos de los átomos de cómo funciona la radioactividad haciendo esa hipótesis es decir la interacción fuerte efectiva que une protones y neutrones dentro de un núcleo no ve diferencia en la carga eléctrica la ve en otra propiedad que
+
+[speaker_04]
+tienen protones y neutrones yukawa dijo será que se intercambian partículas como los fotones que que son unos mesones, unas partículas de masa intermedia que actúan como los fotones en el electromagnetismo cuántico, en la electrodinámica cuántica. Entonces, ese tipo de ideas han ido surgiendo. Cuando se descubrieron los piones, por ejemplo, se descubrió que los piones hay tres, bueno, hemos dicho hay cuatro, hay dos piones neutros y dos piones, uno de carga positiva y otro negativa. Y se dijo, pero tienen masas muy parecidas. Imaginemos que son cuatro estados indistinguibles de una misma partícula. y veamos qué pasa, y se fueron construyendo modelos, de ahí surgió el modelo
+
+[speaker_04]
+SU2, son modelos efectivos cuando se empezó a hablar de que los protones y neutrones tenían que estar hechos de tres objetos elementales, se introdujo el grupo SU3 de sabor, que no es el SU3 de color, es otro SU3 cuando se descubrió que hubo cuatro quarks hubo que introducir el SU4 de sabor, es decir, en física cuando yo quito detalles cuando trato de quedarme en la esencia de un proceso físico para poderlo entender lo que yo observo cuando quito detalles es que las cosas se vuelven más simétricas
+
+[speaker_04]
+más parecidas, más indistinguibles y eso me ayuda a construir un modelo más sencillo, más fácil de manejar matemáticamente para entender la realidad y sorprendentemente muchos de estos modelos funcionan muy bien entonces eso fue haciendo que los físicos desarrollaran mucho estas ideas Y esas ideas son las que han acabado en la mejor teoría que tenemos a nivel fundamental de la realidad.
+
+[speaker_02]
+De hecho, esto que acaba de contar Francis es un buen ejemplo precisamente de cómo la física, observando lo que ves en la realidad, cambia de unos paradigmas intelectuales a otros. La gente empezó hablando del spin isotópico de protones y neutrones, pero nosotros ahora, desde luego en la carrera lo estudiamos y tal, pero a la hora de hacer divulgación me resulta mucho más fácil, en lugar de hablar de eso, decir que el protón tiene dos quarks U y un quark D y que el neutrón tiene dos quarks D y un quark Q. está haciendo referencia exactamente a la misma cosa, está haciendo, el spin isotópico realmente es el contenido de quarks del protón y el neutrón antes de que supiéramos que los quarks estaban ahí entonces es interesante ver como una misma realidad física
+
+[speaker_02]
+Heisenberg la describe de esta manera con este spin isotópico que yo cuando lo estudié en la carrera, de hecho me resultó como muy abstracto, en plan de ostras, que cosa tan extraña y tan curiosa, y cuando comprendes que al desarrollarse eso lo que estás descubriendo es el modelo quark, es súper bonito
+
+[speaker_01]
+pero entonces entiendo que a lo que yo preguntaba, la respuesta es que sí que tú partes de una física
+
+[speaker_01]
+ya donde tienes conocimientos de cómo son esas interacciones y luego las simetrías lo que te permiten es desarrollar más esa teoría quiero decir, no son cimientos son pilares del edificio que estás construyendo
+
+[speaker_04]
+no sé la diferencia las dos cosas
+
+[speaker_01]
+no, que cimiento es de lo que partes es lo que está en la base de todo
+
+[speaker_04]
+las simetrías son un adorno son un lenguaje es el lenguaje geométrico cuando hablamos de simetría hablamos de geometría cuando hablamos de simetrías en física o en cualquier rama de la ciencia estamos hablando de utilizar el lenguaje de la geometría para entender
+
+[speaker_04]
+cosas, por ejemplo las leyes de la física entonces ese lenguaje es un lenguaje y ahora mismo nos está funcionando muy bien y funciona muy bien en ciertas cosas pero también tiene sus limitaciones Hay cosas en las que no hablamos de simetría porque el lenguaje de la geometría no funciona bien. Pero el lenguaje de la geometría es un lenguaje muy poderoso donde las cosas son muy sencillas y donde gracias a enormes avances en la primera mitad del siglo XX de los matemáticos hemos desarrollado prácticamente una comprensión extremadamente profunda de las simetrías. en matemáticas se llaman las simetrías se llaman grupos, teoría de grupos y hoy en día la teoría de grupos está en un estado realmente maravilloso, es una de las ramas matemáticas mejor desarrolladas
+
+[speaker_04]
+con lo que tenemos ahí todo un lenguaje muy bien montado con lo que podemos hacer una poesía preciosa y maravillosa para describir las leyes de la física por eso nos gusta ver la simetría en las leyes de la física, pero no es de verdad que las simetrías estén ahí esto es un lenguaje
+
+[speaker_01]
+Sí, Alberto.
+
+[speaker_02]
+adelante, pasos atrás, el electromagnetismo se introdujo en la teoría de Dirac primero con el principio de correspondencia luego ya cuando hicieron teoría cuántica de campo se dieron cuenta de que podían achacarlo a las simetrías y todo esto, o sea que quiero decir que el progreso en ciencia siempre es más confuso en ese sentido y solo luego cuando vemos desde el futuro hacia el pasado decimos, ah no, podemos extraer este hilo argumental, pero cuando estás ahí metido el hilo argumental es más difícil de ver
+
+[speaker_01]
+Muy bien, pues ya para ir terminando hay un último punto que Nacho quería tocar, ¿no?
+
+[speaker_03]
+Que es volver a retomar un poquito lo que comentamos justo antes de empezar a hablar de la simetría sobre el tema de las roturas espontáneas de simetría, las fases, la unificación de las fuerzas a medida que vayamos aumentando de energía, creo que este es un tema que nunca hemos tratado en Coffee Break o lo hemos tratado de otra forma porque habíamos hablado de inflación de energía de inflación, de por qué cuando por ejemplo el universo era un estado inflacionario
+
+[speaker_01]
+de gran unificación lo hemos tocado
+
+[speaker_03]
+pero que ahora lo podemos ver desde otra perspectiva por ejemplo estas propias y unirlo a lo que aquí estamos más acostumbrados a hablar en Coffee Break que son cuestiones más cosmológicas y eso, así que creo que es un punto de vista muy bonito como se cierra todo el armazón teórico y por ejemplo cosas como la inflación que hemos hablado aquí, de que consideramos que es una fase del universo muy al principio del universo que expande el universo de una forma exponencial y después de esa fase distinta donde la naturaleza estaba dominada por un campo inflacionario, o sea, eso es lo que significa que nos convertíamos en este universo, básicamente, en el universo actual, ¿no?
+
+[speaker_03]
+¿Y cómo se piensa que la transición de uno a otro se relaciona con una rotura de simetría, que es la rotura de la equivalente a una energía de la gran unificación cuando se desacopla la fuerza nuclear fuerte de la fuerza débil y la fuerza electromagnética y yo lo comento porque hace unos pocos años cuando apareció en las noticias que BICEPS, un experimento en la Antártida si no recuerdo mal
+
+[speaker_03]
+había detectado
+
+[speaker_03]
+indicios sobre las ondas gravitacionales el reflejo de las ondas gravitacionales asociadas a la inflación en la radiación de fondo
+
+[speaker_01]
+la polarización famosa
+
+[speaker_03]
+para mí fue recuerdo vivir aquellos días con una gran emoción desde el punto de vista físico Dios mío, si esto se confirma hubo un momento en el universo en que las fuerzas excepto la gravedad, las otras fuerzas estuvieron, o sea, hay un indicio fuerte de que todas las fuerzas realmente estuvieron unidas en algún momento, sin embargo hoy vemos que hay distintos tipos de fuerzas, a las energías que nos movemos en el universo actual vemos la fuerza electromagnética, vemos la gravedad vemos la fuerza nuclear débil, la fuerte pero pensar que todo eso
+
+[speaker_03]
+excepto la gravedad insisto, estaba unificado en una única fuerza sé que a Francis no le gusta el concepto de fuerza pero que era una única interacción, a mí me resulta, yo no sé cómo les resultará a ustedes, pero a mí eso me resulta de una belleza extrema, pensar que el universo, que toda la complejidad del universo actual es el resultado de ir rompiendo algunas simetrías de las interacciones y que todo antes era mucho más sencillo, entre comillas.
+
+[speaker_02]
+Bueno, cuidado porque ahí has hablado de dos cosas realmente la gran unificación y la inflación pueden estar conectadas o pueden no estar no sabemos si están conectadas, lo único que sucede es que parece que ocurren a energías pues no sé si similares porque realmente la inflación tiene un rango de energías muy grande en el que puede ocurrir pero podrían estar conectadas porque ocurren energías más o menos
+
+[speaker_03]
+Imagínate que lo están, sería de una belleza extrema
+
+[speaker_02]
+Alberto, si me permite
+
+[speaker_04]
+recordar un poco para los agentes
+
+[speaker_04]
+BICEP2 observó un fenómeno en la polarización del fondo cómico de microondas que se llaman los modos B que todavía no los hemos observado de manera espuria porque era polvo galáctico
+
+[speaker_04]
+esos modos B que observó BICEP2 eran como el doble de grandes en intensidad de lo que se esperaba y correspondían a los modelos inflacionarios que nacen de manera natural de las teorías de gran unificación por eso Nacho dice que en medios se proclamó que no solo se confirmaba la teoría inflacionaria sino que también se le daba un enorme empujón a las teorías más sencillas de gran unificación teorías que estaban descartadas por la desintegración del protón que predicen que el protón se tiene que desintegrar en menos tiempo del que sabemos tenemos un límite, del límite actual
+
+[speaker_04]
+pero esas teorías tan sencillas predecían una inflación extremadamente sencilla con un potencial del inflatón del campo inflatón que se llama convexo hoy en día los nuevos indicios parecen indicar sabemos que no midió correctamente la señal y por lo tanto los modos B todavía no los hemos observado y hoy en día casi todo apunta a un potencial en el inflatón cóncavo, no convexo y por lo tanto no es tan natural obtenerlo de una teoría de gran unificación
+
+[speaker_04]
+Lo que no quita que haya teorías de gran unificación que predicen potenciales no convexos. De hecho, muchos teóricos inflacionarios ahora mismo están apostando por teorías de tipo Staronis, teorías en las que el origen de la inflación es gravitacional, no es de gran unificación. pero todavía no lo sabemos pero si es verdad que ahora esos modelos tan sencillos con un modelo inflacionario tan sencillos que parecían deducirse del resultado de Paisetú, hoy en día ya sabemos que están descartados
+
+[speaker_01]
+Bueno, esas observaciones las tendremos pronto, nos las traerá José Alberto Rubiño con Quijote y las contaremos aquí en Coffee Break cuando lo observen aquí en el Teide Bueno, ojalá
+
+[speaker_04]
+Será muy difícil, probablemente hay que esperar a CMBS4, a los experimentos en espacio Asios Prims y todos estos atletas espaciales. Será en la década de los 30.
+
+[speaker_01]
+No seas aguafiesta, Francis, no me seas aguafiesta.
+
+[speaker_03]
+Dejanos ganar el Nobel, hombre.
+
+[speaker_01]
+Estamos aquí ilusionados.
+
+[speaker_01]
+Bueno, amigos, pues yo creo que ha estado fascinante. Yo por lo menos me lo he pasado muy bien. Quiero darles las gracias por esta clase magistral que acabo de recibir. Y además gratis, entiendo. No sé si me pasará luego la factura, pero estoy encantadísimo. Yo espero que a los oyentes también les haya gustado. No lo sé, pero si no, la verdad me da igual, igual, porque yo me lo he pasado bomba y es a lo que yo he venido aquí. Así que, si alguien más lo ha disfrutado, genial. Y si no, pues nada, otro día seguiremos. Pues eso, muchas gracias. Nos vemos la semana que viene. Francis, Alberto, Nacho, gracias.
+
+[speaker_03]
+Gracias a ti, Héctor, por reunirnos y organizar estas tertulias tan interesantes. Estupendo. Espero que
+
+[speaker_02]
+haya quedado más claro que no claro, en medio de tanto concepto.
+
+[speaker_01]
+Muy bien. Gracias a todos. Hasta la semana que viene. Un abrazo. Chau.
+
+[speaker_01]
+Gracias.

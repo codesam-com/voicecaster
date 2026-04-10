@@ -1,0 +1,152 @@
+{
+  "workflow": "alignment",
+  "version": "v1",
+  "inputs": {
+    "transcript_segments_found": true,
+    "transcript_with_speakers_found": true,
+    "speaker_segments_found": true
+  },
+  "counts": {
+    "input_transcript_segments": 2287,
+    "input_transcript_with_speakers": 2287,
+    "input_speaker_segments": 275,
+    "output_utterances": 841,
+    "output_turns": 317,
+    "output_words": 20636,
+    "speakers_detected": 4,
+    "valid_speakers_from_03": 4
+  },
+  "normalization": {
+    "input_utterances": 2287,
+    "normalized_utterances_before_merge": 2287,
+    "output_utterances": 841,
+    "merged_same_speaker_utterances": 1446,
+    "empty_utterances_removed": 0,
+    "text_rebuilt_from_words": 0,
+    "words_without_speaker_fixed": 0,
+    "word_speaker_conflicts_fixed": 0,
+    "invalid_upstream_speakers_removed": 0,
+    "speaker_fallback_applied": 3,
+    "speaker_fallback_forced": 1
+  },
+  "turns": {
+    "output_turns": 317,
+    "avg_turn_duration_seconds": 21.836,
+    "max_turn_duration_seconds": 44.98
+  },
+  "qa": {
+    "passed": true,
+    "checks": {
+      "monotonic_utterance_timestamps": true,
+      "monotonic_turn_timestamps": true,
+      "speaker_presence": true,
+      "text_non_empty_ratio_ok": true,
+      "turn_reconstruction_ok": true,
+      "word_coverage_ok": true,
+      "word_membership_ok": true,
+      "utterance_word_bounds_ok": true,
+      "turn_text_consistency_ok": true,
+      "speaker_index_consistency_ok": true
+    },
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "low_confidence_assignments_present",
+        "message": "Some utterances have low speaker confidence.",
+        "details": {
+          "count": 44
+        }
+      }
+    ],
+    "issues": []
+  },
+  "upstream": {
+    "speaker_metrics": {
+      "num_speakers_detected": 4,
+      "total_speech_seconds": 7011.578,
+      "speakers": [
+        {
+          "speaker": "speaker_01",
+          "speech_seconds": 1631.608,
+          "speech_ratio": 0.2327,
+          "num_turns": 87,
+          "avg_turn_seconds": 18.754,
+          "median_turn_seconds": 11.12,
+          "longest_turn_seconds": 121.483,
+          "first_seen": 0.031,
+          "last_seen": 7174.218,
+          "assignment_confidence_mean": 0.9696,
+          "low_confidence_segments": 18
+        },
+        {
+          "speaker": "speaker_02",
+          "speech_seconds": 1546.472,
+          "speech_ratio": 0.2206,
+          "num_turns": 56,
+          "avg_turn_seconds": 27.616,
+          "median_turn_seconds": 19.583,
+          "longest_turn_seconds": 120.572,
+          "first_seen": 3.828,
+          "last_seen": 7170.809,
+          "assignment_confidence_mean": 0.9743,
+          "low_confidence_segments": 11
+        },
+        {
+          "speaker": "speaker_03",
+          "speech_seconds": 1306.046,
+          "speech_ratio": 0.1863,
+          "num_turns": 59,
+          "avg_turn_seconds": 22.136,
+          "median_turn_seconds": 17.331,
+          "longest_turn_seconds": 96.204,
+          "first_seen": 286.4,
+          "last_seen": 7165.983,
+          "assignment_confidence_mean": 0.9693,
+          "low_confidence_segments": 15
+        },
+        {
+          "speaker": "speaker_04",
+          "speech_seconds": 2527.452,
+          "speech_ratio": 0.3605,
+          "num_turns": 73,
+          "avg_turn_seconds": 34.623,
+          "median_turn_seconds": 18.512,
+          "longest_turn_seconds": 384.936,
+          "first_seen": 295.58,
+          "last_seen": 7118.024,
+          "assignment_confidence_mean": 0.9843,
+          "low_confidence_segments": 6
+        }
+      ]
+    },
+    "diarization_metadata_summary": {
+      "assignment_stats": {
+        "total_utterances": 2287,
+        "assigned_utterances": 2283,
+        "assignment_ratio": 0.9983,
+        "low_confidence_utterances": 50
+      },
+      "qa": {
+        "passed": true,
+        "issues": [
+          {
+            "severity": "warning",
+            "code": "rapid_speaker_alternation",
+            "message": "Detected suspicious rapid alternation between speakers.",
+            "details": {
+              "count": 17
+            }
+          }
+        ],
+        "stats": {
+          "num_speakers": 4,
+          "total_segment_seconds": 7011.578,
+          "assignment_ratio": 0.9983,
+          "short_segment_ratio": 0.0873,
+          "low_confidence_ratio": 0.0219,
+          "dominant_speaker_ratio": 0.3605
+        }
+      }
+    }
+  }
+}

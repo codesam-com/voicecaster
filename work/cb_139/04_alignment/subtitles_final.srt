@@ -1,0 +1,3363 @@
+1
+00:00:00,050 --> 00:00:03,070
+[speaker_01] Profesor Adam Rees, Premio Nobel de Física.
+
+2
+00:00:03,730 --> 00:00:09,210
+[speaker_02] Hola, soy Adam Rees y te recomiendo escuchar Coffee Break para aprender más sobre el universo.
+
+3
+00:00:18,120 --> 00:00:25,340
+[speaker_02] Aquí comienza Coffee Break, la tertulia semanal de la actualidad científica. Newton desmiente la física de Aristóteles.
+
+4
+00:00:25,580 --> 00:00:26,140
+[speaker_02] Exactamente.
+
+5
+00:00:26,180 --> 00:00:28,040
+[speaker_02] Einstein desmiente la física de Newton.
+
+6
+00:00:28,340 --> 00:00:33,360
+[speaker_02] Exacto. Pero ni siquiera ustedes mismos se ponen de acuerdo. No, hay una aproximación paulatina al...
+
+7
+00:00:33,360 --> 00:00:35,660
+[speaker_02] Soberbios, científicos soberbios.
+
+8
+00:00:45,760 --> 00:00:56,140
+[speaker_01] Saludos científicos de toda la galaxia. Les habla Héctor Socas desde la Sala Omega del Instituto de Astrofísica de Canarias y les damos la bienvenida a nuestra tertulia científica
+
+9
+00:00:56,140 --> 00:01:03,410
+[speaker_01] de esta semana. Lo prometido es deuda. Dijimos que haríamos una segunda parte de nuestro
+
+10
+00:01:03,410 --> 00:01:14,710
+[speaker_01] programa especial de física de partículas y aquí estamos, listos para cumplir con ese compromiso. Vamos a sumergirnos en el mundo de lo subatómico, donde reina la física
+
+11
+00:01:14,710 --> 00:01:24,590
+[speaker_01] cuántica a ver si podemos entender cómo funciona la naturaleza en las escalas más pequeñas que conocemos o al menos hasta dónde llega el conocimiento actual
+
+12
+00:01:24,590 --> 00:01:35,630
+[speaker_01] y que podría haber un poquito más allá intentaremos que sea digerible más que nada por mí porque no soy experto y me gustaría mucho aprender de todo este
+
+13
+00:01:35,630 --> 00:01:41,260
+[speaker_01] tema tan fascinante pero bueno si sale algo durillo seguro que nos lo sabrán
+
+14
+00:01:41,260 --> 00:01:49,630
+[speaker_01] perdonar como en otras ocasiones. Una cosita eso sí, les recomiendo que si no lo han hecho que
+
+15
+00:01:49,630 --> 00:01:56,350
+[speaker_01] escuchen nuestro episodio número 120 porque ahí hicimos un primer repaso a este campo, la física
+
+16
+00:01:56,350 --> 00:02:04,070
+[speaker_01] de altas energías. En aquel episodio discutimos muchos conceptos clave que supongo que volverán
+
+17
+00:02:04,070 --> 00:02:11,140
+[speaker_01] a salir hoy en la conversación. Por otra parte también les recuerdo que en el episodio 116
+
+18
+00:02:11,940 --> 00:02:21,740
+[speaker_01] hablamos también sobre el modelo estándar en particular algunas de las fisuras que empieza a mostrar y tuvimos una conversación larga e interesante
+
+19
+00:02:21,740 --> 00:02:32,600
+[speaker_01] con el profesor Kim Matías que es uno de los investigadores más importantes en este campo a nivel internacional y sobre física cuántica en general
+
+20
+00:02:32,600 --> 00:02:39,060
+[speaker_01] también les recomiendo una conversación fascinante que tuvimos con Ignacio Sirac en el episodio 108
+
+21
+00:02:40,330 --> 00:02:59,310
+[speaker_01] Y bueno, estos son algunos de los antecedentes más relevantes sobre el tema de hoy, pero insisto, lo que sí que les recomendaría en cualquier caso sería, si no lo han hecho todavía, escuchar ese episodio número 120, que es el especial física de partículas, porque esta tertulia de hoy la hemos pensado un poco como una continuación de aquel programa.
+
+22
+00:02:59,310 --> 00:03:11,000
+[speaker_01] programa. ¿Y dónde nos pueden escuchar? Pues ya lo saben a estas alturas. Los programas completos
+
+23
+00:03:11,000 --> 00:03:17,080
+[speaker_01] con horas de contenido extra los tienen en internet, tanto en iVoox como en iTunes y algunas
+
+24
+00:03:17,080 --> 00:03:24,840
+[speaker_01] otras plataformas. También pueden encontrarlos en nuestra página web señalirruido.com y en esa web
+
+25
+00:03:24,840 --> 00:03:33,160
+[speaker_01] además pueden encontrar referencias a las cosas que contamos en cada episodio. Con cada episodio ponemos ahí referencias para aprender más sobre los temas
+
+26
+00:03:33,160 --> 00:03:36,960
+[speaker_01] o algunos enlaces útiles relacionados que recomendamos.
+
+27
+00:03:37,720 --> 00:03:47,740
+[speaker_01] Hay también enlaces al Club de Fans y a otros materiales. Insisto, la página es señalirruido.com con ñ, todo junto, señalirruido, todo junto, punto com.
+
+28
+00:03:48,920 --> 00:03:52,640
+[speaker_01] Estamos en Facebook y en Twitter, ahí nos pueden dejar sus comentarios,
+
+29
+00:03:53,020 --> 00:03:55,700
+[speaker_01] sus preguntas, sus críticas, lo que sea.
+
+30
+00:03:56,520 --> 00:03:59,440
+[speaker_01] O también por correo electrónico en la dirección
+
+31
+00:03:59,440 --> 00:04:10,970
+[speaker_01] oyentes arroba señal y ruido punto com estamos en varias emisoras de radio en
+
+32
+00:04:10,970 --> 00:04:17,310
+[speaker_01] canarias en icodendaute radio radio el día radio eca y ondas yaiza en madrid en
+
+33
+00:04:17,310 --> 00:04:24,370
+[speaker_01] onda pedrisa en aragón radio ebro y en argentina en la fm 99.9 de mar del plata
+
+34
+00:04:24,370 --> 00:04:30,030
+[speaker_01] en nuestra web tienen todos los horarios y las frecuencias de estas emisoras
+
+35
+00:04:33,680 --> 00:04:40,120
+[speaker_01] Venga, pues vamos ya sí con la tertulia, con el mismo equipo que teníamos en la primera parte.
+
+36
+00:04:40,500 --> 00:04:46,280
+[speaker_01] Aquí conmigo, en la sala Omega, está Nacho Trujillo, investigador del Instituto de Astrofísica de Canarias. Hola Nacho.
+
+37
+00:04:46,280 --> 00:04:47,380
+[speaker_03] Hola Héctor, ¿qué tal? ¿Cómo andamos?
+
+38
+00:04:47,740 --> 00:04:54,400
+[speaker_01] Bien, bien. Y por videoconferencia tenemos a Francis Villatoro, profesor de la Universidad de Málaga. Hola Francis.
+
+39
+00:04:55,180 --> 00:05:00,040
+[speaker_04] ¿Qué tal? Aquí estamos. A ver si hablamos un poquito de campos cuánticos y de simetrías.
+
+40
+00:05:00,580 --> 00:05:11,840
+[speaker_01] Sospecho que mucho. Vamos a hablar de campos cuánticos y de simetrías. Y también nos acompaña, por supuesto, Alberto Aparici, que es comunicador científico en el Instituto de Física Corpuscular de Valencia
+
+41
+00:05:11,840 --> 00:05:15,040
+[speaker_01] y director del programa La Brújula de la Ciencia en Onda Cero. Hola, Alberto.
+
+42
+00:05:16,080 --> 00:05:22,360
+[speaker_02] Hola, hola. Muy buenas. A ver si ha quedado alguno que no hayamos asustado lo suficiente en los programas de antes y que quede para este.
+
+43
+00:05:23,160 --> 00:05:31,140
+[speaker_01] Pues sí, lo mismo queda alguien por ahí. Yo no lo sé, la gente no deja de sorprenderme. así que cada programa de esto es un poco un experimento, ¿no? Ahora no la jugamos
+
+44
+00:05:31,140 --> 00:05:34,480
+[speaker_03] porque dicen que segundas partes nunca fueron buenas vamos a ver. Exactamente
+
+45
+00:05:35,620 --> 00:05:36,560
+[speaker_01] Igual no deberíamos...
+
+46
+00:05:36,560 --> 00:05:39,490
+[speaker_03] Sí, depende
+
+47
+00:05:40,170 --> 00:05:44,930
+[speaker_01] Claro, depende si cuentas también el programa con Kim Matías Sí, pero bueno, como...
+
+48
+00:05:45,470 --> 00:05:57,030
+[speaker_02] Yo tengo que deciros tengo que confesar que a raíz de esos dos programas que hicimos antes del verano, yo me convencí de que se podía hacer una charla de partículas hablando de campos y de todo esto
+
+49
+00:05:57,030 --> 00:06:07,370
+[speaker_02] y la he hecho, la he dado en tres sitios a lo largo de este otoño y ha funcionado súper bien y vamos, yo estoy sorprendido porque ves a gente que viene y tal y tú le empiezas a contar partículas como si fueran
+
+50
+00:06:07,370 --> 00:06:16,830
+[speaker_02] bolitas y luego a mitad charla le cambias y le dices, ahora lo vamos a contar de verdad y la gente te dice muy bien o sea, en lugar de irse y cerrar la puerta con un portazo, le parece muy bien
+
+51
+00:06:16,830 --> 00:06:20,870
+[speaker_02] estoy muy contento, la verdad porque fue todo a raíz de este programa de Coffee Break
+
+52
+00:06:20,870 --> 00:06:29,980
+[speaker_01] Muy bien En fin, por repasar un poco algunas ideas básicas y no empezar así muy de golpe, vamos a ir entrando poco a poco en el agua.
+
+53
+00:06:30,360 --> 00:06:35,040
+[speaker_01] ¿Qué les parece si repasamos algunos de los conceptos que ya discutimos en profundidad en aquel programa?
+
+54
+00:06:35,420 --> 00:06:43,400
+[speaker_01] Insisto, el episodio 120 y que les recomendamos, como decía antes, que si no lo han escuchado pues que lo escuchen.
+
+55
+00:06:43,840 --> 00:06:53,640
+[speaker_01] Pero quizás uno de los conceptos fundamentales que salió de allí es la idea de que las partículas no son bolitas, que tenemos que acostumbrarnos a pensar en que hay campos cuánticos
+
+56
+00:06:53,640 --> 00:06:58,720
+[speaker_01] y que lo que tradicionalmente hemos llamado partículas son excitaciones de esos campos.
+
+57
+00:06:59,480 --> 00:07:04,700
+[speaker_01] No sé si Nacho quieres introducirte un poco esa cuestión que siempre te ha parecido muy interesante.
+
+58
+00:07:05,020 --> 00:07:14,040
+[speaker_03] Sí, tremendamente interesante. De hecho, yo espero que a lo largo de la charla, más adelante, cuando hablemos de la simetría, volvamos a los temas metafísicos,
+
+59
+00:07:14,040 --> 00:07:25,520
+[speaker_03] de qué significa lo que estamos describiendo, uniéndolo con lo que acaba de decir Alberto, de que en algún momento terminaba y decía, bueno, le expliquaba a la gente lo que era la física de las partículas como bolitas
+
+60
+00:07:25,520 --> 00:07:31,140
+[speaker_03] y después le dije, no, ahora vamos a hablar de la realidad, hablando de campos cuánticos o de la verdad o algo así.
+
+61
+00:07:31,280 --> 00:07:37,540
+[speaker_03] Y yo diría, bueno, de la verdad hasta el año 2017, por si acaso las cosas cambien mucho en los próximos años.
+
+62
+00:07:37,940 --> 00:07:48,220
+[speaker_03] En cualquier caso, sí, por repasar un poco, veíamos en el episodio 120 que había como dos grandes grupos de partículas,
+
+63
+00:07:48,220 --> 00:07:50,360
+[speaker_03] las partículas que llamábamos bosones
+
+64
+00:07:51,400 --> 00:08:03,180
+[speaker_03] encargadas de transmitir las interacciones en las fuerzas conocidas y las fermiones que era lo que tradicionalmente se conoce como la materia que son, por decirlo de otra forma las partículas que sufren
+
+65
+00:08:03,180 --> 00:08:14,280
+[speaker_03] esas interacciones a lo largo del episodio 120 vimos que todo eso está mucho, que es una aproximación muy bestial y que todo está muy entrelazado unas cosas se convierten en otras en fin
+
+66
+00:08:14,280 --> 00:08:21,600
+[speaker_03] bueno pues dentro de esos Esos grupos también distinguíamos entre los quarks y los leptones,
+
+67
+00:08:22,160 --> 00:08:30,420
+[speaker_03] los quarks siendo los componentes principales de las partículas más pesadas como los protones y los neutrones,
+
+68
+00:08:30,460 --> 00:08:40,060
+[speaker_03] y los leptones siendo los electrones y los neutrinos, y otras familias más pesadas pero muy similares a estas partículas.
+
+69
+00:08:40,260 --> 00:08:50,640
+[speaker_01] Yo voy a hacer un inciso aquí para volver a recomendar la chuleta, que además la tengo aquí conmigo, la infografía que hizo Cavi Pasos de Mola Saber, si buscan en Google Mola Saber Partículas
+
+70
+00:08:50,640 --> 00:08:53,380
+[speaker_01] les aparecerá esta tablita de partículas fundamentales
+
+71
+00:08:53,380 --> 00:09:05,100
+[speaker_03] y de hecho yo recomiendo tanto seguir este episodio como el episodio 120 con esa tabla delante porque al ser un montón de palabrejos, cuar, leptones, fermiones
+
+72
+00:09:05,100 --> 00:09:13,180
+[speaker_03] bosones, no teniendo la tabla pues se hace más complicado de lo que realmente es esto viene a ser una especie de tabla periódica entre comillas, pero de las
+
+73
+00:09:13,180 --> 00:09:16,100
+[speaker_03] las partículas fundamentales, y tenerla adelante ayuda en la discusión.
+
+74
+00:09:16,540 --> 00:09:26,900
+[speaker_03] Y una vez introdujimos estas partículas, después hicimos el salto de decir, bueno, hasta ahora habían sido representaciones más o menos clásicas,
+
+75
+00:09:26,900 --> 00:09:37,780
+[speaker_03] donde imaginamos las partículas como puntos, pero realmente tenemos que entenderlas como excitaciones de ciertos campos, y cada partícula tendría asociada a un campo,
+
+76
+00:09:37,920 --> 00:09:49,060
+[speaker_03] y de hecho es más, si yo lo entendí bien, todas las partículas de una misma clase, si por ejemplo hablamos del electrón o del quark-app o lo que sea, realmente todas corresponden a oscilación
+
+77
+00:09:49,060 --> 00:09:59,220
+[speaker_03] de un único campo, es decir, un único campo que cubriría todo el universo sería el campo del electrón y diferentes perturbaciones más o menos locales, porque esa es otra cuestión
+
+78
+00:09:59,220 --> 00:10:03,300
+[speaker_03] como son problemas cuánticos, las cosas no están localizadas en un punto, sino que tienen una cierta distribución
+
+79
+00:10:04,420 --> 00:10:11,220
+[speaker_03] pues todos los electrones del universo, diríamos son oscilaciones de ese único campo
+
+80
+00:10:11,220 --> 00:10:29,420
+[speaker_03] Después hablamos, nos metimos a discutir cómo podían adquirir las masas a través del campo del Higgs y bueno, también estuvimos hablando de otras cuestiones, pero yo creo que más o menos se podría hacer un resumen de donde nos habíamos quedado.
+
+81
+00:10:29,420 --> 00:10:31,500
+[speaker_01] Muy bien, muy bien. Veo que tú lo has estudiado.
+
+82
+00:10:31,680 --> 00:10:34,620
+[speaker_04] ¿Me permitís un pequeño inciso? Y ahora pasa Alberto a comentar algo.
+
+83
+00:10:36,520 --> 00:10:46,720
+[speaker_04] Las partículas, lo que desde el punto de vista clásico llamamos partículas, tienen asociado un campo cuántico. Pero ese campo cuántico en realidad son varios campos conectados por simetrías.
+
+84
+00:10:47,140 --> 00:10:52,660
+[speaker_04] Por ejemplo, el electrón y el positrón son cuatro campos.
+
+85
+00:10:53,160 --> 00:11:03,160
+[speaker_04] Dos campos asociados al electrón y dos campos asociados al positrón y son campos que vibran al unísono cuando yo tengo un electrón. Cuando yo tengo un electrón es una vibración de ambos campos
+
+86
+00:11:03,160 --> 00:11:08,500
+[speaker_04] electrónicos. Lo que ocurre es que en ciertas circunstancias yo puedo interaccionar solo con uno de ellos.
+
+87
+00:11:08,940 --> 00:11:12,920
+[speaker_04] Por ejemplo, la interacción débil interacciona con uno de los dos campos,
+
+88
+00:11:13,360 --> 00:11:24,880
+[speaker_04] no con el otro. Por eso sabemos que hay dos campos. Pero fijaros lo sorprendente. Lo que llamábamos partículas no está asociado a un único campo, sino que podría estar asociado, y en muchos casos lo está,
+
+89
+00:11:25,040 --> 00:11:29,100
+[speaker_04] a varios campos. Y a eso es lo que le llamamos spin de la partícula.
+
+90
+00:11:29,400 --> 00:11:40,180
+[speaker_02] A esto que acaba de decir Francis añadiría una cosa, los campos diferentes no son el de partícula y antipartícula, tienen que ver con el spin y con todo esto
+
+91
+00:11:40,180 --> 00:11:50,220
+[speaker_02] porque aunque nosotros pensamos en el electrón y el positrón como cosas diferentes el hecho es que ambos surgen al unísono de forma natural cuando
+
+92
+00:11:50,220 --> 00:11:59,980
+[speaker_02] uno le permite a esos campos que cree partículas nuevas, que creen nuevas excitaciones o sea, cuando pensamos en diferentes campos no es las partículas van por un lado y las antipartículas por otro y se entrelazan.
+
+93
+00:12:00,200 --> 00:12:10,420
+[speaker_02] Realmente tú no puedes tener la una sin la otra. La existencia de partículas y antipartículas es la consecuencia de que tú puedas crear excitaciones y que esas excitaciones estén cargadas. Entonces tú creas
+
+94
+00:12:10,420 --> 00:12:20,140
+[speaker_02] una excitación de carga positiva y necesitas crear una excitación de carga negativa para compensar porque las cargas, si son cargas conservadas, pues necesitas hacer eso. Si las cargas estuvieran rotas, entonces
+
+95
+00:12:20,140 --> 00:12:21,320
+[speaker_02] sería otra cuestión.
+
+96
+00:12:21,560 --> 00:12:25,760
+[speaker_01] Eso nos llevaría al problema de la simetría, de por qué existe, pero
+
+97
+00:12:26,700 --> 00:12:30,140
+[speaker_01] vamos a ver si llegamos a eso más adelante, yo quería añadir
+
+98
+00:12:30,140 --> 00:12:42,140
+[speaker_02] que haga un añadido a lo que ha dicho Nacho, muy rápido cuando has hablado de quarks y leptones yo creo que hay una manera muy sencilla de diferenciar una familia y la otra en este sentido
+
+99
+00:12:42,140 --> 00:12:53,900
+[speaker_02] bueno, normalmente usamos familia para otra cosa, bueno, un grupo de partículas y la otra, los quarks son las que sienten la interacción fuerte y los leptones son los que no, y eso los diferencia
+
+100
+00:12:53,900 --> 00:13:02,660
+[speaker_02] mucho y tiene consecuencias como esta que ha comentado Nacho, de que los quarks terminan formando partículas compuestas, agregados, como protones y neutrones,
+
+101
+00:13:02,840 --> 00:13:11,100
+[speaker_02] mientras que los leptones se comportan mucho más como partículas individuales. Pero eso se debe todo a la interacción fuerte. La interacción fuerte es la que hace ese tipo de cosas
+
+102
+00:13:11,100 --> 00:13:19,140
+[speaker_02] y todas las partículas que sienten interacción fuerte tienen esa complicación de que se forman en remolinos, en agregados, mientras que los que no sienten interacción fuerte
+
+103
+00:13:19,140 --> 00:13:24,940
+[speaker_02] tienen una existencia individual más real, entre comillas, si es que esta frase tiene sentido.
+
+104
+00:13:26,760 --> 00:13:31,720
+[speaker_01] y quizás también yo añadiría a esta discusión que a lo mejor parece un poco
+
+105
+00:13:32,200 --> 00:13:42,520
+[speaker_01] extraño, un poco místico hay un campo que llena todo el universo suena un poco a Star Wars la fuerza que une la galaxia pero realmente no lo es
+
+106
+00:13:42,520 --> 00:13:53,620
+[speaker_01] y me gustaría poner la analogía que suelo usar del campo electromagnético y el fotón que me parece una analogía muy buena para entender intuitivamente cosas porque en el fondo es lo mismo
+
+107
+00:13:53,620 --> 00:14:05,940
+[speaker_01] Entonces tiene la misma complejidad, pero como es un concepto con el que estamos familiarizados desde hace más tiempo, parece que entender intuitivamente algo quiere decir que llevemos más años estudiándolo o pensando en esos términos.
+
+108
+00:14:05,940 --> 00:14:31,340
+[speaker_01] Y en términos del fotón y el campo electromagnético llevamos muchos años pensándolo y entonces no nos resulta sorprendente saber que hay un campo eléctrico que llena todo el universo y que los fotones son oscilaciones de ese campo y todos los fotones del universo son vibraciones en ese campo y que incluso, como decía Francis, puede haber dos campos, el eléctrico y el magnético, que están intrínsecamente acoplados.
+
+109
+00:14:31,340 --> 00:14:40,980
+[speaker_01] es que el fotón es una vibración de los dos del campo eléctrico y el magnético, no se puede separar uno del otro y en ese sentido me parece que puede dar una idea de esto que estamos hablando que no es nada extraño
+
+110
+00:14:40,980 --> 00:14:43,180
+[speaker_01] que en el caso del fotón lo vemos
+
+111
+00:14:43,180 --> 00:14:46,500
+[speaker_03] con una salvedad que yo quiero introducir ahora aunque discutamos más tarde y es que
+
+112
+00:14:48,380 --> 00:14:56,360
+[speaker_03] cuando hemos hablado clásicamente de campos siempre los campos eran campos de tipo material me refiero a, por ejemplo, teníamos
+
+113
+00:14:57,340 --> 00:15:07,620
+[speaker_03] pues yo que sé, el agua, lo que sea el agua descrita como A ver, el agua no es un buen ejemplo, pero yo qué sé, las temperaturas en una habitación o algo así.
+
+114
+00:15:08,140 --> 00:15:17,020
+[speaker_03] La atmósfera. La atmósfera, sí. Lo que quiero decir es que siempre consideramos que había una sustancia, ¿no? Donde la sustancia variaba de propiedades, pero había una sustancia.
+
+115
+00:15:17,300 --> 00:15:22,160
+[speaker_03] Mientras que estos campos no están sustanciados en nada.
+
+116
+00:15:22,740 --> 00:15:34,280
+[speaker_03] Y eso sí que es muy fuerte porque decimos, estamos estudiando las partículas que consideramos que eran pelotitas y tal. y ahora decimos, no son campos, pero ¿en dónde es esa sustancia? Ah, no me preguntes cosas raras.
+
+117
+00:15:35,680 --> 00:15:37,080
+[speaker_03] Bueno, pues eso es una cosa...
+
+118
+00:15:37,080 --> 00:15:41,160
+[speaker_04] En eso hay que tener esto, algunos divulgadores, algunos físicos
+
+119
+00:15:41,900 --> 00:15:52,500
+[speaker_04] están últimamente ofreciendo esa idea, la idea de que ¿por qué llamamos sustancia al agua si está hecha de moléculas? ¿Por qué llamamos sustancia al aire si está hecho de varios tipos de moléculas?
+
+120
+00:15:52,520 --> 00:15:55,640
+[speaker_04] Y no llamamos sustancia al campo electromagnético
+
+121
+00:15:55,640 --> 00:16:24,440
+[speaker_04] electromagnético o al campo electrónico o al campo de un cuerpo. Y hay varios físicos importantes que están divulgando esa idea. El vacío del campo electromagnético es una sustancia, tan sustancia como puede ser una sustancia efectiva a la que llamamos agua. El agua, de hecho, no es una sustancia, no existe, no existe el agua, existen las moléculas de agua, pero sí existe el campo electromagnético. Luego es más sustancia el campo electromagnético que el agua.
+
+122
+00:16:24,440 --> 00:16:41,060
+[speaker_03] De acuerdo, de acuerdo que podemos cambiar la... podemos... fantástico, me parece genial que hablemos de sustancia como campo, pero lo que quiero decir es que clásicamente la gente hasta la relatividad especial se partió la cabeza para entender las oscilaciones y por eso hablaban del éter.
+
+123
+00:16:41,140 --> 00:16:53,540
+[speaker_03] O sea, el éter en última instancia era lo que intuitivamente entendemos como sustancia, ¿de acuerdo? Estoy de acuerdo que cuando... estoy totalmente de acuerdo con Francia en que cuando profundizas un poco en lo que significa la sustancia, también se te desmaterializa.
+
+124
+00:16:54,640 --> 00:17:01,180
+[speaker_03] Pero sin etiquetarlo, sin hacer una etiqueta de, bueno, digamos, sustancia o no, lo que quiero decir es que aquí no estamos hablando del éter.
+
+125
+00:17:02,920 --> 00:17:09,700
+[speaker_01] Estos campos no son éter. En el fondo yo siempre he pensado que estos campos son un poco el éter. O sea, cuando decimos que la velocidad no se propaga por el campo electromagnético,
+
+126
+00:17:09,780 --> 00:17:11,440
+[speaker_01] para mí es lo mismo que decir que se propaga en el éter.
+
+127
+00:17:11,520 --> 00:17:22,890
+[speaker_03] Quiere decir, no necesitamos de añadir una componente nueva a la materia para explicar cómo se propagan los campos, o se oscilan, o vibran, o lo que sea. sino que internamente
+
+128
+00:17:22,890 --> 00:17:30,130
+[speaker_03] esos campos, pues varían en el espacio-tiempo con unas ciertas propiedades pero no se va a añadir algo más, a ese sentido ese algo más era el éter antes
+
+129
+00:17:30,130 --> 00:17:40,130
+[speaker_01] Ya, pero cuando dices que la materia, ¿no? que la materia que está hecha de estas partículas en realidad es una excitación de los campos pues ya es que la distinción entre campo y materia o sea, qué es materia y qué no
+
+130
+00:17:40,130 --> 00:17:41,470
+[speaker_01] es difícil de definir, ¿no?
+
+131
+00:17:42,430 --> 00:17:42,830
+[speaker_01] Alberto
+
+132
+00:17:44,290 --> 00:17:50,210
+[speaker_02] Yo os diría que realmente creo que el problema que tenemos al explicar el concepto de campo, y yo lo tengo igual
+
+133
+00:17:50,210 --> 00:18:07,430
+[speaker_02] Por ejemplo, cuando he dado estas charlas me he roto la cabeza porque la gente te pregunta, bueno, ¿y qué son los campos? Y esa es una pregunta muy lógica y muy razonable. El problema que tenemos, en mi opinión, es que los campos son el objeto que está en el límite de la física conocida.
+
+134
+00:18:07,430 --> 00:18:23,730
+[speaker_02] Es decir, nosotros construimos la física de partículas en base a estos campos cuánticos y nos damos cuenta de que estas excitaciones que aparecen en los campos describen muy bien lo que vemos de partículas, incluso lo que vemos de interacción con el vacío y todas estas cosas vienen muy bien descritos por estos campos.
+
+135
+00:18:23,730 --> 00:18:42,250
+[speaker_02] Entonces la teoría llega hasta ahí. En el punto de que te preguntas qué son los campos, lo que te estás preguntando es qué hay más allá de tu teoría en realidad. A lo mejor si algún día tenemos una teoría que supera la teoría cuántica de campos, y yo creo que la tendremos en un momento o en otro, pues quizá esa teoría nos ofrezca alguna pista sobre qué son los campos.
+
+136
+00:18:42,250 --> 00:18:59,230
+[speaker_02] O quizá oculte esa pregunta debajo de otro objeto más fundamental y realmente no te ofrezca una gran respuesta. Pero creo que cuando nos hacemos esa pregunta estamos preguntando algo que la física no puede contestar simplemente porque le estamos preguntando cuál es el siguiente paso y qué hay más allá, de qué están hechos esos campos.
+
+137
+00:19:00,030 --> 00:19:10,030
+[speaker_03] pero ya si quieres por terminar la discusión esta es que esto es clave, porque cuando tú hablas de, hemos pasado de la imagen de la partícula a la imagen de los, voy a hablar ahora de la
+
+138
+00:19:10,030 --> 00:19:22,010
+[speaker_03] realidad, de los campos cuánticos, yo ahí tengo que poner el pie en el freno y decir, ojo, porque tú mismo estás hablando de que los campos cuánticos podrían ser simplemente el instrumento que utilizamos para describir
+
+139
+00:19:22,010 --> 00:19:29,490
+[speaker_03] la realidad última, sea lo que fuere ¿de acuerdo? Entonces es importante y creo que solo en programas como Coffee Break, se lo comentaba a Héctor fuera de micro
+
+140
+00:19:30,630 --> 00:19:31,670
+[speaker_03] y somos
+
+141
+00:19:32,210 --> 00:19:34,670
+[speaker_03] paramos un momento y decimos, señores esto todavía
+
+142
+00:19:36,090 --> 00:19:39,950
+[speaker_03] vamos a, o por lo menos yo pondría un poquito en la precaución
+
+143
+00:19:40,570 --> 00:19:50,970
+[speaker_03] esto funciona muy bien pero a día de hoy no sabemos si son un instrumento o realmente una descripción última de lo que está pasando ahí abajo
+
+144
+00:19:51,610 --> 00:19:57,860
+[speaker_02] claro, por ejemplo, en física de cuerdas, solo un comentario muy breve en física de cuerdas
+
+145
+00:19:58,660 --> 00:20:09,440
+[speaker_02] al final lo que te dice la física de cuerdas es que esas oscilaciones de los campos pues son oscilaciones de otro objeto fundamental al que llamas cuerda y que tampoco sabes de qué está hecho
+
+146
+00:20:09,440 --> 00:20:12,900
+[speaker_02] pero que sus oscilaciones constituyen lo que tú
+
+147
+00:20:13,740 --> 00:20:23,840
+[speaker_02] macroscópicamente, entre comillas, ves como oscilaciones de los campos. Entonces digamos que es importante hablar de los límites de las teorías físicas y dejar bien claro que no son infinitas
+
+148
+00:20:23,840 --> 00:20:30,100
+[speaker_02] y que no llegan hasta todas partes y que la teoría cuántica de campos, esta pregunta No la sabe responder porque va más allá de ella.
+
+149
+00:20:58,140 --> 00:21:07,940
+[speaker_04] de las teorías cuánticas de campo, porque sus vibraciones son campos cuánticos. Son campos cuánticos cuyas vibraciones son campos cuánticos que se comportan como partículas
+
+150
+00:21:07,940 --> 00:21:16,900
+[speaker_04] y que en cierto límite se comportan como cuerdas. Pero la cuerda es la primera cuantización, es la cuantización tipo partículas en las teorías de cuerdas.
+
+151
+00:21:16,920 --> 00:21:26,320
+[speaker_04] Las teorías de cuerdas de verdad son teorías de campos cuerdísticos. Y yo no sé por qué mucha gente no lo quiere contar, pero así es como se escriben las ecuaciones y así es como se hacen los cálculos.
+
+152
+00:21:26,320 --> 00:21:36,520
+[speaker_04] Son campos. Luego vamos a sustituir el concepto de campo cuántico por el concepto de campo cuerdístico, que es un campo con nuevas propiedades diferentes, pero siguen siendo campos.
+
+153
+00:21:36,520 --> 00:22:01,710
+[speaker_03] En cualquier caso, pongamos la frontera del conocimiento en los campos cuánticos actuales o nos vayamos a la teoría de cuerdas, la pregunta de nuevo de qué están hechos, lo que sí está claro, apostaría bastante de mi dinero, no todo, para poder pagar la hipoteca, pero una parte importante, a que no está hecho de nada de tipo partículas como estábamos pensando antes en última instancia.
+
+154
+00:22:01,710 --> 00:22:04,230
+[speaker_03] lo que quiero decir con esto es que a medida que vamos
+
+155
+00:22:05,030 --> 00:22:08,270
+[speaker_03] profundizando, lo que va apareciendo son estructuras de tipo matemático
+
+156
+00:22:08,990 --> 00:22:09,350
+[speaker_03] ¿vale?
+
+157
+00:22:10,490 --> 00:22:11,970
+[speaker_03] sin una subyacente
+
+158
+00:22:13,230 --> 00:22:15,510
+[speaker_03] de tipo partícula es que no sé cómo explicarlo
+
+159
+00:22:16,010 --> 00:22:17,170
+[speaker_04] sin nada sustantivo
+
+160
+00:22:17,930 --> 00:22:29,430
+[speaker_04] esa era la idea del éter, o sea, a veces pensamos un campo cuántico es lo mismo que el éter un campo clásico es lo mismo que el éter no, no es lo mismo, ¿por qué? porque el éter se pensaba que estaba hecho de cosas
+
+161
+00:22:29,430 --> 00:22:49,810
+[speaker_04] Y que el éter, igual que el agua, se podía congelar. Y yo podía usar el éter como sistema de referencia absoluto. Fijaros, en el agua las moléculas de agua se mueven, pero cuando yo en el frío congelo el agua, las moléculas se quedan aproximadamente quietas, formando el hielo. Eso es lo que se pensaba que ocurría con el éter.
+
+162
+00:22:49,810 --> 00:23:10,930
+[speaker_04] El campo electromagnético se suponía una vibración de cosas y esas cosas yo las podía llegar a congelar y congelándolas yo podía conseguir tener un sistema de referencia absoluto. Y lo que se descubrió con los experimentos es que eso es falso. No existe ese sistema de referencia absoluto implicado por el éter.
+
+163
+00:23:11,470 --> 00:23:20,870
+[speaker_04] Existen campos cuánticos, existen vibraciones acopladas al espacio-tiempo y que están en el espacio-tiempo y que mueven energía en el espacio-tiempo de unos lugares a otros.
+
+164
+00:23:21,070 --> 00:23:31,950
+[speaker_04] Pero no existe la posibilidad de congelar los campos electromagnéticos de tal manera de que yo obtenga un sistema de referencia absoluto. Siempre tendré sistemas de referencia relativos.
+
+165
+00:23:31,950 --> 00:23:38,310
+[speaker_04] Por lo tanto, no tiene sentido el concepto de éter. Entonces, esa analogía éter-campo cuántico no tiene ningún sentido.
+
+166
+00:23:38,990 --> 00:23:43,810
+[speaker_04] ¿Por qué? Ya digo, la clave de la analogía es que haya un sistema de referencia absoluto.
+
+167
+00:23:44,440 --> 00:23:48,900
+[speaker_04] Y lo que tenemos garantías es que no hay sistemas de referencia absolutos.
+
+168
+00:23:48,980 --> 00:23:50,060
+[speaker_01] Sí, desde ese punto de vista, sí.
+
+169
+00:23:51,520 --> 00:23:58,240
+[speaker_03] Estaríamos todos de acuerdo, en definitiva, que hasta donde llegamos a día de hoy en la física teórica
+
+170
+00:23:58,240 --> 00:24:04,240
+[speaker_03] y las posibles extrapolaciones que se puedan hacer a lo largo del siglo XXI, que ahora mismo se están trabajando,
+
+171
+00:24:05,560 --> 00:24:17,360
+[speaker_03] la realidad última no se describe en base a ninguna cuestión de tipo material, entendido por material sino a base de estructuras matemáticas ahora, ¿qué demonios son las estructuras
+
+172
+00:24:17,360 --> 00:24:21,860
+[speaker_03] matemáticas? ¿o no? bueno, pues esa es otra historia pero bueno
+
+173
+00:24:21,860 --> 00:24:26,060
+[speaker_01] yo es que la distinción entre material o matemático que tú planteas no la veo así, ¿no? o sea, para mí
+
+174
+00:24:26,780 --> 00:24:37,490
+[speaker_01] material es una percepción macroscópica de cosas, lo que sí creo es que a lo mejor es decir la pregunta que quizás subyace
+
+175
+00:24:37,490 --> 00:24:45,330
+[speaker_01] y tú y yo hemos discutido esto muchas veces en conversiones de pasillo es si estos elementos fundamentales que tienen estas teorías
+
+176
+00:24:46,240 --> 00:24:55,420
+[speaker_01] realmente la naturaleza es así o si simplemente con estos elementos fundamentales somos capaces de desarrollar teorías que nos dan predicciones que reproducen los experimentos
+
+177
+00:24:55,420 --> 00:25:06,840
+[speaker_01] que observamos, es decir, las teorías de alguna forma son instrumentales tienen el objetivo de reproducir las cosas que observamos entonces si uno consigue una teoría que lo reproduce todo, que te explica todo
+
+178
+00:25:06,840 --> 00:25:17,340
+[speaker_01] y que te permite hacer cálculos y predicciones, tú dices bueno, esta teoría funciona, ¿significa eso que la realidad sea como los principios de esa teoría? pues no lo sabemos
+
+179
+00:25:17,340 --> 00:25:27,600
+[speaker_01] pero probablemente es una pregunta que ni siquiera es científica no, no lo es y yo, sí, por eso creo que es una cuestión que está un poco más allá de lo que la yo solo quería aclarar antes de meternos
+
+180
+00:25:27,600 --> 00:25:31,040
+[speaker_03] en detalle que dónde nos estamos manejando solamente quería decir que
+
+181
+00:25:32,280 --> 00:25:33,240
+[speaker_03] solo aclarar eso
+
+182
+00:25:33,660 --> 00:25:36,940
+[speaker_01] bueno, creo que tanto Francis como Alberto querían comentar no sé si Francis, por ejemplo
+
+183
+00:25:38,080 --> 00:25:39,700
+[speaker_04] no, yo estoy completamente de acuerdo
+
+184
+00:25:40,220 --> 00:25:47,640
+[speaker_04] fíjate, ¿qué es el agua? el agua está hecha de moléculas de agua ¿de verdad? ¿de verdad el agua está hecha de moléculas de agua? no
+
+185
+00:25:48,120 --> 00:25:51,280
+[speaker_04] no está hecha de moléculas de agua no existen las moléculas de agua
+
+186
+00:25:52,680 --> 00:25:59,720
+[speaker_04] son vibraciones de campos cuánticos que nosotros en cierto límite las vemos como moléculas de agua en cierto límite las vemos como agua continua
+
+187
+00:25:59,720 --> 00:26:17,300
+[speaker_04] Pero, ya os digo, en cierto límite no vemos moléculas de agua. Es decir, la realidad esté constituida de lo que esté constituido y nuestro modelo matemático sea el que sea, la realidad es la que es. Y siempre nuestras teorías van a describir la realidad en ciertos márgenes de energía, de tiempo, de escala de espacio, etc.
+
+188
+00:26:17,300 --> 00:26:28,100
+[speaker_04] etcétera. La realidad última a día de hoy es una realidad que sabemos que es válida desde distancias del orden de 10 a la menos 18, de 10 a la menos 19 metros, en tiempos del orden de los
+
+189
+00:26:29,320 --> 00:26:29,800
+[speaker_04] octosegundos.
+
+190
+00:26:30,380 --> 00:26:38,120
+[speaker_04] En ese tipo de realidad, desde ese punto de vista, desde esas escalas hasta las mayores escalas del universo, sabemos que está descrita de campos cuánticos.
+
+191
+00:26:38,720 --> 00:26:40,640
+[speaker_04] Para nosotros la realidad está hecha de eso.
+
+192
+00:26:41,000 --> 00:26:50,580
+[speaker_04] Esos son nuestros modelos matemáticos hasta ahora, porque no hemos encontrado ningún indicio de que eso no sea verdad. la realidad tiene que estar hecha de eso si dentro de cien años o de mil años
+
+193
+00:26:50,580 --> 00:26:52,100
+[speaker_04] descubrimos que está hecha de otras cosas
+
+194
+00:26:52,800 --> 00:26:57,560
+[speaker_04] esto seguirá siendo válido igual que hoy sigue siendo válido que el agua está hecha de moléculas de agua
+
+195
+00:26:58,790 --> 00:27:00,850
+[speaker_04] algo que no se sabía hace doscientos años
+
+196
+00:27:01,690 --> 00:27:03,430
+[speaker_04] y que hoy en día todo el mundo sabe
+
+197
+00:27:04,570 --> 00:27:06,370
+[speaker_02] yo os aportaría una
+
+198
+00:27:06,950 --> 00:27:12,690
+[speaker_02] os puedo aportar una intuición, como esto es una tertulia, pues podemos hablar de intuiciones y no necesariamente de cosas probadas
+
+199
+00:27:13,770 --> 00:27:25,470
+[speaker_02] esto es algo que no sé, que a mí me corre la cabeza cuando yo observo qué es realmente lo que tú estás manejando cuando manejas campos cuánticos. Yo tengo la sensación de que los campos cuánticos están hablando de
+
+200
+00:27:25,470 --> 00:27:35,470
+[speaker_02] cómo la energía se propaga por el espacio y pasa entre diferentes de estos objetos a los que llamamos campos. Entonces realmente si me tengo que preguntar qué es lo que
+
+201
+00:27:35,470 --> 00:27:45,590
+[speaker_02] está oscilando o qué es lo que se está moviendo cuando un campo cuántico hace cosas yo creo que la respuesta es siempre energía es decir, y cuando tú creas un cuanto del campo y entonces aparece
+
+202
+00:27:45,590 --> 00:27:57,490
+[speaker_02] una partícula, esa partícula puede tener masa, pero al fin y al cabo su masa no es nada más que la energía que lleva esa excitación cuando tú la ves en reposo. Entonces, tengo la sensación de que si nos tenemos
+
+203
+00:27:57,490 --> 00:28:05,530
+[speaker_02] que preguntar, que a lo mejor no tenemos por qué hacerlo, igual es una pregunta que llevo en Callejón sin salida, pero si nos tenemos que preguntar qué son los campos o qué hay más allá de ellos,
+
+204
+00:28:05,690 --> 00:28:13,490
+[speaker_02] creo que una pregunta importante que nos puede llevar en ese camino es preguntarnos qué es la energía y por qué se propaga por el espacio.
+
+205
+00:28:13,790 --> 00:28:19,990
+[speaker_02] Y cuando unamos esas piezas quizá estemos un poquito más cerca de imaginar esto. Al menos esta es mi intuición.
+
+206
+00:28:20,350 --> 00:28:30,230
+[speaker_04] Yo solo comento una cosita. La palabra energía es muy peligrosa, muy peligrosa. Porque la palabra energía ha cambiado como siete u ocho veces en los últimos 300 años.
+
+207
+00:28:30,490 --> 00:28:38,730
+[speaker_04] El concepto de energía para Galileo, el concepto de energía para Bohr, el concepto de energía para Einstein y el concepto de energía actual son muy diferentes.
+
+208
+00:28:38,730 --> 00:28:48,170
+[speaker_04] Y hoy en día un estudiante de física estudia todos esos conceptos en diferentes asignaturas y tiene que ser consciente de que la mayor parte de esos conceptos es mentira.
+
+209
+00:28:48,250 --> 00:28:53,770
+[speaker_04] Y son cosas distintas. A mí la palabra energía no me gusta. Es citaciones de campos cuánticos.
+
+210
+00:28:54,350 --> 00:29:00,790
+[speaker_01] Y luego hay otro problema todavía más fundamental con la energía, que es que no siempre es un concepto bien definido.
+
+211
+00:29:00,790 --> 00:29:11,910
+[speaker_01] O sea, no siempre tiene sentido hablar de energía porque aquí, en el marco de teorías cuánticas de campo que están basadas en relatividad especial, pues sí, se puede definir siempre una cantidad conservativa que es la energía.
+
+212
+00:29:12,250 --> 00:29:17,790
+[speaker_01] Pero, por ejemplo, en el marco de la relatividad general, ojo, porque la energía no es un concepto bien definido, ¿no?
+
+213
+00:29:19,890 --> 00:29:28,710
+[speaker_01] Bueno, igual llegamos a eso más adelante, ¿no? Pero yo lo que iba es que puede haber incluso, o sea, en física hablamos a veces de formalismo y en matemática hablamos incluso de formalismos.
+
+214
+00:29:28,710 --> 00:29:47,630
+[speaker_01] Cuando tú hablas de formalismos quieres decir que no estás afirmando que eso sea lo que pasa en realidad, sino que es una forma, una herramienta con la que tú puedes hacer un desarrollo. Y hay veces que tú tienes diferentes formalismos con los que resolver un mismo problema y son indistinguibles y son equivalentes.
+
+215
+00:29:48,310 --> 00:30:00,150
+[speaker_01] voy a poner un ejemplo muy tonto ahora pero cuando pensamos por ejemplo en las fuerzas tal como las pensaba Newton y en la gravedad tal como la veía Newton en forma de fuerzas
+
+216
+00:30:00,150 --> 00:30:10,890
+[speaker_01] y los cuerpos sienten fuerzas y desarrolló todo ese formalismo y funcionaba muy bien y explicaba el sistema solar y los planetas y el sol y luego viene la relatividad general y viene Einstein
+
+217
+00:30:10,890 --> 00:30:18,430
+[speaker_01] y hacen unos desarrollos en los cuales se basa en otro concepto diferente en los cuales la gravedad no es una fuerza, es una deformación del espacio-tiempo.
+
+218
+00:30:18,790 --> 00:30:23,990
+[speaker_01] Hoy en día sabemos que hay pruebas que nos permiten distinguir, y esas pruebas confirman la relatividad general.
+
+219
+00:30:24,370 --> 00:30:28,490
+[speaker_01] Pero supongamos que no las hubiera. Supongamos que yo lo único que tengo son manzanas que caen de los árboles.
+
+220
+00:30:29,470 --> 00:30:38,910
+[speaker_01] Yo le explicaría a los estudiantes los dos formalismos, y me preguntarían, ¿pero cómo es la realidad? ¿La manzana siente una fuerza que la hace caer? ¿La manzana ve una fuerza?
+
+221
+00:30:39,030 --> 00:30:44,370
+[speaker_01] ¿O la manzana ve que el espacio-tiempo está distorsionado? Y tú dirías, pues son dos formas equivalentes.
+
+222
+00:30:44,970 --> 00:30:48,470
+[speaker_01] no es preferible una sobre la otra ¿cómo es la naturaleza realmente?
+
+223
+00:30:48,990 --> 00:30:54,610
+[speaker_01] pues probablemente no podamos distinguirla probablemente no sepamos si la naturaleza es como una o la otra, o ni siquiera tenga sentido
+
+224
+00:30:55,130 --> 00:30:55,970
+[speaker_01] plantearse la pregunta
+
+225
+00:30:55,970 --> 00:31:05,410
+[speaker_03] de hecho la cosa va más allá porque desde el punto de vista metafísico, uno tendería que si tiene una teoría cerrada del universo tiene dos teorías cerradas del universo que explican todo lo conocido
+
+226
+00:31:05,410 --> 00:31:11,410
+[speaker_03] y predicen los experimentos uno tendería a coger como favorita la más simple
+
+227
+00:31:11,890 --> 00:31:16,350
+[speaker_03] pero en el caso que tú comentas, la más simple sería a priori la teoría de Newton y
+
+228
+00:31:17,710 --> 00:31:19,710
+[speaker_03] quiere decir que las cosas son más complejas
+
+229
+00:31:20,470 --> 00:31:20,950
+[speaker_03] afortunadamente
+
+230
+00:31:20,950 --> 00:31:24,750
+[speaker_02] por eso la teoría de Newton fue una teoría fantástica durante cientos de años
+
+231
+00:31:24,750 --> 00:31:27,310
+[speaker_04] perdona, ahí tú acabas de decir la clave Alberto
+
+232
+00:31:27,890 --> 00:31:36,450
+[speaker_04] perdóname Héctor, perdóname Nacho pero no es verdad que la teoría de Newton y la teoría de la gravedad de Einstein son equivalentes
+
+233
+00:31:36,450 --> 00:31:37,930
+[speaker_01] no, yo no he dicho eso
+
+234
+00:31:37,930 --> 00:31:42,430
+[speaker_04] la teoría de la gravedad de Einstein explica la de Newton
+
+235
+00:31:42,930 --> 00:31:51,010
+[speaker_04] Sí, lo que quiero decir es que Hay muchísimas evidencias observacionales y experimentales de que la teoría de Newton es incorrecta
+
+236
+00:31:51,010 --> 00:31:55,830
+[speaker_01] Que sí, pero no estoy diciendo eso No lo has entendido Es que eso no es lo que estoy diciendo
+
+237
+00:31:55,830 --> 00:32:01,730
+[speaker_04] No es verdad que haya dos teorías igual de buenas para describir el universo Tenemos una
+
+238
+00:32:02,690 --> 00:32:11,870
+[speaker_01] No estoy diciendo eso, lo estoy diciendo Suponte que, en un caso hipotético en un universo imaginario Estoy intentando poner un ejemplo de qué pasaría si tuvieras dos teorías
+
+239
+00:32:13,270 --> 00:32:23,390
+[speaker_01] era un ejemplo ilustrativo si tuvieras dos teorías y si tienes dos podría haber más que lo expliquen todo y que no tengas un criterio para decir cuál es, entre comillas, la buena
+
+240
+00:32:23,990 --> 00:32:34,210
+[speaker_04] Pues Héctor, eso pasa ahora mismo con nosotros es decir, los físicos teóricos de los últimos 40 años se han dedicado, gente como Alberto se han dedicado fundamentalmente a inventar nuevas teorías
+
+241
+00:32:34,210 --> 00:32:41,390
+[speaker_04] que predicen exactamente lo mismo que el modelo estándar y más cosas pero predicen todo lo que predice el modelo estándar
+
+242
+00:32:41,390 --> 00:32:59,350
+[speaker_04] Las teorías de gran unificación, hay muchísimas variantes, todas las teorías, todos los modelos fenomenológicos de teoría de cuerdas, si son buenos, si están bien hechos, predicen el modelo estándar y más cosas. Y si son buenos de verdad, predicen el modelo estándar y más cosas a baja energía, que todavía no hemos observado.
+
+243
+00:32:59,350 --> 00:33:09,570
+[speaker_04] Pero es que muchas de esas teorías predicen el modelo estándar, todo lo conocido, y cosas que nunca podremos llegar a observar, porque están a escalas de energía enormemente altas.
+
+244
+00:33:09,570 --> 00:33:16,390
+[speaker_04] con lo que ahora mismo nos encontramos en esa situación tenemos una teoría del modelo estándar que es muy sencilla que lo explica todo y tenemos
+
+245
+00:33:17,690 --> 00:33:18,170
+[speaker_04] extensiones
+
+246
+00:33:19,210 --> 00:33:30,370
+[speaker_04] mejoras añadidos al modelo estándar que en un caso límite nos dan el modelo estándar a baja energía pero que a alta energía predicen la existencia de infinidad de posibilidades que quizás algún día
+
+247
+00:33:30,370 --> 00:33:32,430
+[speaker_04] descubramos alguna de ellas o quizás no
+
+248
+00:33:33,130 --> 00:33:40,190
+[speaker_03] por eso es tan importante los experimentos que estábamos hablando en el episodio 116 si no recuerdo mal de Quim Matías, ¿no? De posibles
+
+249
+00:33:42,130 --> 00:33:42,950
+[speaker_03] ¿cómo se llama esto?
+
+250
+00:33:44,750 --> 00:33:45,790
+[speaker_01] Desintegraciones, si no recuerdo mal
+
+251
+00:33:45,790 --> 00:33:53,170
+[speaker_03] que no estaban que no estaban dentro del módulo estándar, sino que era necesario No podían ser explicadas con esa
+
+252
+00:33:54,070 --> 00:33:55,210
+[speaker_02] probabilidad dentro del módulo
+
+253
+00:33:55,210 --> 00:34:00,450
+[speaker_03] Por eso yo creo que los físicos teóricos, los físicos de partículas están desesperados por encontrar fallos
+
+254
+00:34:00,450 --> 00:34:03,570
+[speaker_02] Yo me he pasado toda mi
+
+255
+00:34:04,130 --> 00:34:13,370
+[speaker_02] vida consciente diciendo ¡ay, qué teoría tan bonita tienes! es muy bonito tener la teoría guay mientras la estás estudiando, pero cuando ya la has estudiado y te das cuenta de que toda la ciencia
+
+256
+00:34:13,370 --> 00:34:19,870
+[speaker_02] ya la han hecho personas hace 20 años pues lo que tú tienes ganas es que la teoría sea incorrecta para que tú tengas ciencia que hacer
+
+257
+00:34:20,550 --> 00:34:22,890
+[speaker_04] Bueno, vamos a empezar a hablar de simetrías
+
+258
+00:34:23,370 --> 00:34:24,910
+[speaker_01] Sí, sí, yo simplemente
+
+259
+00:34:26,050 --> 00:34:34,610
+[speaker_01] insisto por supuesto, todas las teorías lo que pretenden es buscar nuevas observaciones nuevos experimentos que te permitan distinguir una de otra de cuál es la correcta
+
+260
+00:34:34,610 --> 00:34:44,870
+[speaker_01] Yo iba al problema filosófico de que puede ser que las cosas que ponemos en la teoría realmente no representen la realidad en sí, pero que nos den los observables que sí.
+
+261
+00:34:46,290 --> 00:34:53,110
+[speaker_04] Pero eso te va a ocurrir siempre. Eso es Hegel. Eso es la filosofía básica del primer curso de filosofía.
+
+262
+00:34:54,150 --> 00:35:00,730
+[speaker_04] ¿Qué es lo decible? ¿De qué es lo que podemos hablar? ¿Qué es lo que podemos teorizar, matematizar, etcétera?
+
+263
+00:35:00,730 --> 00:35:15,530
+[speaker_04] ¿Qué es lo decible y qué es la realidad? Y hay una confrontación entre ambos papeles, hay cosas que podemos contar y es lo único que podemos contar y entonces hacemos una especie de correspondencia con la realidad y eso es lo único que tenemos, es la única posibilidad que tenemos.
+
+264
+00:35:15,530 --> 00:35:37,790
+[speaker_02] Yo de hecho os diría que la física en cierta manera ha renunciado a responder a esa pregunta en concreto. Ahora mismo la física lo que trata es de proporcionar herramientas que reproduzcan lo que observamos en la realidad, pero a responder esta pregunta de qué es la realidad, cuál de estas, realmente lo que hay debajo es esto o esto otro, yo creo que la física ahora mismo no está particularmente interesada en eso.
+
+265
+00:35:37,790 --> 00:35:57,410
+[speaker_02] En otras épocas sí lo estuvo. Y de hecho, si lo estuviésemos, si estuviésemos de verdad interesados, a lo mejor nos preguntaríamos ¿y qué es la fuerza de la gravedad? Vayamos a la relatividad general que incluye la fuerza de la gravedad de Newton para tratar de averiguar qué es la fuerza de la gravedad. Y realmente es una pregunta que no nos interesa. A lo mejor no la podríamos hacer, pero yo nunca he oído a nadie que se la haya hecho.
+
+266
+00:35:57,410 --> 00:36:20,850
+[speaker_04] En la teoría de la gravitación de Einstein se explica perfectamente la teoría de Newton. Es decir, los cuerpos se mueven de manera inercial en un espacio-tiempo curvado y eso, desde el punto de vista clásico, se observa como una fuerza a distancia y sin contacto. Es decir, la gravitación de Einstein explica perfectamente la de Newton. Y esa pregunta se la hizo Einstein y se la hicieron todos los contemporáneos de Einstein. No entiendo muy bien el argumento que has querido ofrecer.
+
+267
+00:36:20,850 --> 00:36:38,250
+[speaker_02] Lo que yo quiero decir es que efectivamente en relatividad general tú obtienes los mismos fenómenos que tienes en la teoría de Newton y de alguna manera comprendes por qué la teoría de Newton explica bien la gravedad, pero entre eso y saber qué es la fuerza creo que hay un salto diferente.
+
+268
+00:36:38,510 --> 00:36:46,770
+[speaker_02] Cuando te preguntas qué es la fuerza estás haciéndote una pregunta metafísica y no estoy seguro de que eso se pueda responder solo constatando que la relatividad…
+
+269
+00:36:46,770 --> 00:36:52,650
+[speaker_04] Alberto, la pregunta en teoría de la relatividad metafísica es, ¿qué es el espacio-tiempo?
+
+270
+00:36:53,070 --> 00:36:58,210
+[speaker_04] Si tú asumes que tú entiendes lo que es el espacio-tiempo, imaginemos que entendemos lo que es el espacio-tiempo.
+
+271
+00:36:59,210 --> 00:37:08,550
+[speaker_04] Automáticamente, la teoría de la gravitación de Einstein te explica qué es la gravedad. Una curvatura del espacio-tiempo relacionada con la energía contenida en un cierto volumen del espacio-tiempo.
+
+272
+00:37:08,850 --> 00:37:15,150
+[speaker_04] Pero, claro, tú me preguntas, ¿qué es el espacio-tiempo? Esa es una pregunta que tiene que ir más allá de la teoría de la relatividad general.
+
+273
+00:37:15,150 --> 00:37:36,970
+[speaker_04] Igual que la pregunta ¿qué es un campo cuántico? Tiene que ir más allá de la teoría cuántica de campos. En teoría cuántica de campos asumimos, aceptemos que todo el mundo entiende que es un campo cuántico. Trabajemos con campos cuánticos. En la teoría de la relatividad general de Einstein aceptemos que todo el mundo sabe lo que es el espacio-tiempo, lo que es el espacio y lo que es el tiempo. Usemos ese concepto y expliquemos la gravedad.
+
+274
+00:37:36,970 --> 00:37:53,890
+[speaker_04] Entonces la gravedad se explica perfectamente con el concepto de espacio-tiempo. Otra cosa es que no sabemos a nivel microscópico, a nivel cuántico, qué es el espacio-tiempo. Qué es el tiempo a nivel cuántico, qué es el espacio a nivel cuántico. Y probablemente una futura teoría cuántica de la gravedad lo explique.
+
+275
+00:37:54,810 --> 00:38:04,410
+[speaker_02] creo que me he explicado fatal yo no quería decir estas cosas lo que quería decir es que precisamente en relatividad general el concepto interesante es el espacio-tiempo y deja
+
+276
+00:38:04,410 --> 00:38:07,130
+[speaker_02] de ser interesante el concepto fuerza que lo abandonas completamente
+
+277
+00:38:08,370 --> 00:38:14,310
+[speaker_02] y creo precisamente que eso muestra que a los físicos no nos interesa la metafísica y creo que el hecho de que
+
+278
+00:38:15,150 --> 00:38:26,210
+[speaker_02] no nos estemos haciendo esas preguntas y cambiemos el paradigma y nos preguntemos lo interesante es el espacio-tiempo, su curvatura y todo Todo esto lo que viene a demostrar es que a los físicos nos interesa más
+
+279
+00:38:26,210 --> 00:38:36,370
+[speaker_02] en qué medida la teoría te puede reproducir lo observable que qué son los objetos que hay dentro de tu teoría. Pero ya está, no era muy importante este asunto.
+
+280
+00:38:36,630 --> 00:38:46,410
+[speaker_03] Estamos entrando en una discusión filosófica. El último punto, discrepo amablemente de lo que ha dicho Alberto ahora. Creo que todos los grandes físicos han sido metafísicos
+
+281
+00:38:46,410 --> 00:38:55,630
+[speaker_03] y todos los que han producido revoluciones de paradigma han sido a partir de la metafísica. pero bueno, solamente quería hacer ese punto yo discrepo con Nacho pero bueno, ya está
+
+282
+00:38:55,630 --> 00:39:03,670
+[speaker_01] creo que cuando hablamos de metafísica hablamos de diferentes cosas también y esto a lo mejor daría para meternos aquí en un programa entero
+
+283
+00:39:04,550 --> 00:39:09,610
+[speaker_01] pero desde el punto de vista de la física por volver a la física que creo que es lo que nos gusta
+
+284
+00:39:11,770 --> 00:39:22,510
+[speaker_01] efectivamente, yo sí que estoy de acuerdo con Alberto en eso, son conceptos en los que, no es que no nos interesen, sino que los damos casi por perdido, quiero decir el ponerte a plantearte estas preguntas
+
+285
+00:39:22,510 --> 00:39:28,450
+[speaker_01] sobre si la naturaleza última de la realidad se corresponde con los constructos matemáticos que yo hago, es casi una pregunta
+
+286
+00:39:29,630 --> 00:39:38,550
+[speaker_01] filosófica, si yo soy capaz de reproducir, mi teoría de reproducir todo lo que observo, entonces eso es lo que es ciencia y si quiero preguntarme más cosas, pues tendré que buscar nuevos observables
+
+287
+00:39:38,550 --> 00:39:44,830
+[speaker_01] que me permitan distinguir entre diferentes modelos diferentes teorías, y eso es normalmente lo que hacemos en el método científico
+
+288
+00:39:47,310 --> 00:39:58,310
+[speaker_01] entonces, me gustaría ir a un tema que discutimos en el episodio 120 Francis quería hablar de las simetrías y vamos a ir a eso, pero antes me gustaría brevemente que hablemos de
+
+289
+00:39:58,310 --> 00:40:00,650
+[speaker_01] un tema que me parece fascinante, que es el del spin
+
+290
+00:40:02,010 --> 00:40:02,450
+[speaker_01] lo
+
+291
+00:40:03,150 --> 00:40:11,910
+[speaker_01] tratamos en ese episodio 120 pero en aquel momento nos quedamos con un adelanto de que Francis iba a contar lo que era el spin en su charla de Naukas Bilbao 2017
+
+292
+00:40:12,410 --> 00:40:14,950
+[speaker_01] de septiembre, y que lo iba a hacer en 10 minutos
+
+293
+00:40:16,560 --> 00:40:22,080
+[speaker_01] Y lo hizo, oiga Yo he tenido ocasión de ver el vídeo que está disponible Lo hizo incluso en menos
+
+294
+00:40:23,840 --> 00:40:26,800
+[speaker_01] Yo creo que fue incluso más allá y contó más cosas que el spin
+
+295
+00:40:27,280 --> 00:40:37,240
+[speaker_02] Bueno, de hecho convirtió el spin en el trending topic del fin de semana, esencialmente Después de su charla, sea porque lo entendieron muy bien o sea porque no lo consiguieron entender pero les gustó mucho
+
+296
+00:40:37,240 --> 00:40:39,720
+[speaker_02] todo el mundo mencionaba el spin una vez tras otra
+
+297
+00:40:39,720 --> 00:40:42,820
+[speaker_03] Es decir que en vez de ser un spin off fue un spin on
+
+298
+00:40:45,060 --> 00:40:47,180
+[speaker_01] entonces me gustaría recuperar esa
+
+299
+00:40:47,180 --> 00:40:58,040
+[speaker_04] la idea del spin es el gran problema de conceptos como el spin es igual que el concepto de energía, es que es un concepto que ha ido cambiando en significado conformemos y indo entendiendo mejor
+
+300
+00:40:58,040 --> 00:41:09,940
+[speaker_04] el concepto, entonces hoy en día ¿qué es el spin? pues básicamente el spin es el hecho de que las partículas cuando las entendemos como campos cuánticos son varios campos
+
+301
+00:41:09,940 --> 00:41:11,800
+[speaker_04] simultáneos, entonces
+
+302
+00:41:11,800 --> 00:41:26,860
+[speaker_04] Entonces, el hecho de que el fotón sea una partícula de spin 1, pues una partícula de spin 1 tiene que tener tres campos, salvo que la partícula sea sin masa, como el fotón, y solo tiene dos campos.
+
+303
+00:41:27,860 --> 00:41:38,720
+[speaker_04] Una partícula de spin 1 medio es una partícula que como partícula tiene dos campos, aunque como campo tiene cuatro campos. Son cuatro campos, dos que actúan como antipartícula y dos como partícula.
+
+304
+00:41:38,720 --> 00:41:49,360
+[speaker_04] las partículas que tienen por ejemplo spin 3 medios que no hemos observado ninguna pero que si tenemos partículas compuestas que son análogas a una partícula de spin 3 medios
+
+305
+00:41:49,360 --> 00:42:00,680
+[speaker_04] tienen 5 campos las partículas de spin perdón, tienen 4 campos estoy equivocándome 3, 4
+
+306
+00:42:00,680 --> 00:42:05,660
+[speaker_04] 4 campos, lo que pasa es que tienen 4 campos más los 4 campos correspondientes de la antipartícula
+
+307
+00:42:06,860 --> 00:42:18,300
+[speaker_04] las partículas de spin 2 por ejemplo tienen 5 campos, salvo que no tengan masa como el gravitón y tienen solo 2 campos es decir, básicamente el spin significa el número de campos que tiene la partícula
+
+308
+00:42:18,300 --> 00:42:27,380
+[speaker_01] pero una partícula puede cambiar de spin como un vector con diferentes componentes una partícula puede cambiar de spin lo que pasa es que lo tiene que hacer en múltiplos de una cierta cantidad
+
+309
+00:42:28,220 --> 00:42:32,160
+[speaker_04] una partícula no puede cambiar de spin una partícula fundamental
+
+310
+00:42:33,760 --> 00:42:40,340
+[speaker_04] es una Una excitación es algo de un campo cuántico y ese campo cuántico tiene un spin, el que sea.
+
+311
+00:42:40,880 --> 00:42:51,980
+[speaker_04] Y solo puede cambiar de spin en transformaciones de tipo supersimétrico que no sabemos si existen. Esto es una cosa estrictamente matemática. Una supersimetría es un cambio del spin de un campo.
+
+312
+00:42:52,220 --> 00:42:57,400
+[speaker_04] Pero, en principio, cada campo, el spin, es una propiedad del campo cuántico.
+
+313
+00:42:57,880 --> 00:43:00,920
+[speaker_04] Que heredan las partículas de dicho campo cuántico.
+
+314
+00:43:01,040 --> 00:43:09,320
+[speaker_01] Vale, tú estás hablando del spin intrínseco de la partícula. yo que estaba pensando, por ejemplo, en el electrón de un átomo, como en un momento dado, en una transición atómica
+
+315
+00:43:09,320 --> 00:43:11,300
+[speaker_01] puede cambiar su spin, pero claro, eso ya es un sistema
+
+316
+00:43:11,300 --> 00:43:20,480
+[speaker_04] más complejo. Claro, fíjate tú tienes un electrón en un átomo que es un sistema acoplado, el electrón está acoplado al núcleo y al resto de los electrones entonces él tiene un
+
+317
+00:43:21,300 --> 00:43:26,880
+[speaker_04] momento angular orbital porque está dando vueltas, y además como es un electrón, tiene un momento angular
+
+318
+00:43:27,620 --> 00:43:37,680
+[speaker_04] intrínseco, y ambos se suman entonces yo puedo cambiar ese valor de la suma, pero Pero el spin, el valor del spin del campo cuántico asociado al electrón es único.
+
+319
+00:43:37,860 --> 00:43:40,640
+[speaker_04] Es decir, el electrón es una partícula de spin 1 medio,
+
+320
+00:43:41,160 --> 00:43:43,160
+[speaker_04] porque su campo cuántico tiene spin 1 medio.
+
+321
+00:43:43,820 --> 00:43:53,240
+[speaker_02] Lo que sí hay es que el spin tiene una serie de grados de libertad internos que cuando utilizamos estas analogías clásicas le llamamos la orientación del spin
+
+322
+00:43:53,240 --> 00:44:03,680
+[speaker_02] y una partícula sí que puede pasar de estar excitada en spin para abajo o en spin para arriba teniendo spin 1 medio. y eso significa básicamente que tú
+
+323
+00:44:04,160 --> 00:44:09,800
+[speaker_02] pasas una excitación de uno de estos campos de los que ha hablado Francis que todos juntos forman el electrón a otro de ellos
+
+324
+00:44:10,200 --> 00:44:13,580
+[speaker_04] y claro, ahí estamos usando otra definición del concepto de spin
+
+325
+00:44:14,080 --> 00:44:23,900
+[speaker_04] ya os he dicho que el concepto de spin tiene diferentes definiciones en función del campo en el que lo apliques entonces, claro, el spin es el hecho, desde el punto de vista de la teoría
+
+326
+00:44:23,900 --> 00:44:33,500
+[speaker_04] cuántica de campos, es el hecho de que el electrón tiene dos componentes pero claro, si tiene dos componentes y lo miro en una esfera, en una superficie esférica tengo un punto en esa esfera
+
+327
+00:44:33,500 --> 00:44:35,620
+[speaker_04] que tiene dos ángulos, la latitud y la longitud
+
+328
+00:44:36,240 --> 00:44:47,180
+[speaker_04] ¿bien? pues eso es como una flecha desde el centro de la esfera hasta ese punto en la esfera esa flechita también se le llama spin, y es la relación entre esos dos campos
+
+329
+00:44:47,180 --> 00:44:57,240
+[speaker_04] lo que yo tengo en la realidad, entre comillas son los dos campos, pero yo lo puedo ver como una flechita que apunta en función de la proporción de cada uno de los dos campos que tengo
+
+330
+00:44:57,240 --> 00:45:12,380
+[speaker_04] Y eso le llamo la proyección del spin sobre un eje. Yo cojo un eje, básicamente como un campo magnético, yo proyecto el spin, tiene asociado un momento magnético, yo proyecto el spin y obtengo esa flechita apuntando en una cierta dirección.
+
+331
+00:45:12,540 --> 00:45:23,570
+[speaker_04] Pero no es verdad que el electrón tenga una flechita. La flechita se obtiene cuando yo proyecto, en un sistema de medida concreto, el spin, que es decir, la relación relativa entre los dos campos.
+
+332
+00:45:23,570 --> 00:45:44,570
+[speaker_02] Ahora Francis ha mencionado otro aspecto diferente del spin, no diría que es otra definición, pero sí otro aspecto que es el del momento magnético. El hecho de que las partículas tengan estas componentes, estas polarizaciones que les llamamos, hace que se acoplen de diferentes maneras a los campos magnéticos y se acoplan como si tuviesen un momento magnético.
+
+333
+00:45:44,570 --> 00:45:50,790
+[speaker_02] Yo a veces he explicado el spin, yo creo que en el capítulo 120 lo hice, como una especie de campo magnético que tiene la partícula.
+
+334
+00:45:50,810 --> 00:45:59,070
+[speaker_02] Eso, efectivamente, es una metáfora quizás demasiado aventurada, pero sí que es verdad que las partículas, por tener estas componentes que llamamos spin,
+
+335
+00:45:59,310 --> 00:46:04,710
+[speaker_02] se acoplan a los campos magnéticos como si tuviesen una especie de campo magnético interno.
+
+336
+00:46:04,750 --> 00:46:14,410
+[speaker_04] Y esa es otra manera de ver el spin. Fíjate, la carga eléctrica es el acoplamiento del electrón al campo electromagnético. como el campo magnético tiene dos componentes y el electrón tiene dos componentes, ahí tienes
+
+337
+00:46:14,410 --> 00:46:24,490
+[speaker_04] una serie de acoplos, en esos acoplos son acoplos que van moviéndose, no son acoplos fijos, es decir, la carga eléctrica del electrón es fija, pero cómo se acopla cada una de las componentes
+
+338
+00:46:24,490 --> 00:46:34,670
+[speaker_04] en un electrón concreto varía, y eso es lo que me da el momento, una transferencia de carga eléctrica entre las dos componentes entonces, las dos, cómo yo acoplo cada una de las dos componentes del electrón
+
+339
+00:46:34,670 --> 00:46:44,270
+[speaker_04] va variando, va como oscilando y esa oscilación es lo que me genera un campo magnético. Entonces, entre comillas hay un flujo de carga. Lo que en realidad hay es un flujo de
+
+340
+00:46:44,270 --> 00:46:48,150
+[speaker_04] acoplamiento entre las componentes del electrón a las componentes del campo electromagnético.
+
+341
+00:46:48,550 --> 00:46:59,850
+[speaker_03] Tú tenías una pregunta. No, cuando antes hablábamos de si tenía un medio o era menos un medio el valor y decíamos, cuando no mido es algo que está
+
+342
+00:46:59,850 --> 00:47:08,910
+[speaker_03] puede ser uno u otro o algo intermedio. Lo que quería decir simplemente es que cuando medimos forzamos a que sea un valor concreto. porque ponemos un campo magnético o lo que sea
+
+343
+00:47:08,910 --> 00:47:19,030
+[speaker_03] para ver hacia dónde se desvía el electrón, por lo tanto estamos forzando que vaya hacia un lado o hacia otro es decir, medir es proyectar es lo que quería decir y proyectar a un valor concreto, no pueden ser los dos
+
+344
+00:47:21,590 --> 00:47:28,390
+[speaker_01] sería correcta la analogía yo estoy pensando siempre en términos de esa analogía del fotón con el campo electromagnético
+
+345
+00:47:28,810 --> 00:47:29,930
+[speaker_01] que a mí me gusta
+
+346
+00:47:30,610 --> 00:47:40,650
+[speaker_01] porque además también está la cosa esta de que todo el mundo conoce de la dualidad de la luz-onda-corpúsculo. ¿La luz es una partícula o es una onda? Dicemos, bueno, es las dos cosas.
+
+347
+00:47:42,590 --> 00:47:46,790
+[speaker_01] Y esto nos lleva a extender esa analogía a todas las partículas, entre comillas,
+
+348
+00:47:47,270 --> 00:47:51,850
+[speaker_01] materiales. Todo esto que estábamos hablando al principio de si la materia existe o no, qué es lo que es la materia.
+
+349
+00:47:53,230 --> 00:48:02,810
+[speaker_01] Realmente, la mecánica cuántica nos dice que toda partícula material, un electrón, también es una onda. Le pasa lo mismo que a la luz. Entonces, en ese sentido, también es una buena analogía. Las partículas tienen
+
+350
+00:48:02,810 --> 00:48:12,990
+[speaker_01] esta longitud de onda de de Broglie que normalmente es muy pequeña para poderla percibir sus características ondulatorias entonces las percibimos como partículas
+
+351
+00:48:12,990 --> 00:48:23,470
+[speaker_01] pero les pasa lo mismo que al fotón el fotón tiene una longitud de onda mayor que la de un electrón pero un electrón también es onda y corpúsculo igual que un fotón desde ese punto de vista me parece que cuadra
+
+352
+00:48:23,470 --> 00:48:24,350
+[speaker_01] todo muy bien
+
+353
+00:48:25,470 --> 00:48:25,970
+[speaker_04] fíjate Héctor
+
+354
+00:48:26,610 --> 00:48:31,730
+[speaker_04] esto es una cosa que hay que decirla despacio porque es una cosa que realmente es muy sorprendente
+
+355
+00:48:33,150 --> 00:48:43,620
+[speaker_04] todo Todo en la naturaleza tiene naturaleza ondulatoria. Por ejemplo, lo hemos comprobado en experimentos con un balón de fútbol de átomos de carbono.
+
+356
+00:48:44,680 --> 00:48:56,090
+[speaker_04] 60 átomos de carbono que tienen una barbaridad de partículas fundamentales, de electrones, de protones y neutrones hechos de quarks.
+
+357
+00:48:56,210 --> 00:49:07,270
+[speaker_04] Una estructura tremenda de cientos y cientos de partículas. Hemos, en un experimento de doble rendija, deja comprobado que se comporta como una onda. Se comporta exactamente igual que un fotón.
+
+358
+00:49:07,890 --> 00:49:09,890
+[speaker_01] Sí, déjame aclarar una cosa simplemente, Francis.
+
+359
+00:49:10,070 --> 00:49:11,690
+[speaker_04] Es fútbol de átomos de carbono.
+
+360
+00:49:11,910 --> 00:49:19,790
+[speaker_01] Sí, sí, que no es que sea un balón de fútbol de tamaño de un balón de fútbol, que a lo mejor puede estar pensando la gente. Ronaldo no le dio la patada. Sí, sí, yo he puesto cara o geoplástica.
+
+361
+00:49:20,010 --> 00:49:27,890
+[speaker_01] Es una molécula que se llaman fulerenos. Hay unas moléculas que se llaman fulerenos que tienen forma de balón de fútbol, pero tamaño de molécula. No se piensen que es una cosa grande.
+
+362
+00:49:27,890 --> 00:49:31,070
+[speaker_03] Ya estábamos pensando en Messi dándole la patada. No, no, es una molécula.
+
+363
+00:49:31,070 --> 00:49:41,210
+[speaker_04] son 60 átomos de carbono y de hecho también se ha hecho con otros fluoreanos desde 80 átomos de carbono 84, no recuerdo la cifra exacta y de hecho ya hay gente planeando el experimento de hacerlo con un virus
+
+364
+00:49:41,910 --> 00:49:43,150
+[speaker_03] con un virus, que guapo
+
+365
+00:49:43,150 --> 00:49:47,330
+[speaker_04] con un virus, y probablemente se acabe haciendo en los próximos lustros
+
+366
+00:49:47,330 --> 00:49:58,890
+[speaker_02] y de todas maneras volvamos al redil, o sea todos estos comportamientos de partícula y de onda vienen explicados por los campos cuánticos es decir, en los campos cuánticos hay
+
+367
+00:49:58,890 --> 00:50:08,790
+[speaker_02] vibraciones que tienen ciertas características de onda y eso te explica la parte ondulatoria, tanto de electrones como de fotones como de cualquier cosa, pero a la vez esas excitaciones cuánticas
+
+368
+00:50:08,790 --> 00:50:18,850
+[speaker_02] solo pueden existir en cuantos. No puedes tener media excitación cuántica o 0,37, tienes una, tienes dos, tienes tres y esos son las partículas. Es decir,
+
+369
+00:50:19,310 --> 00:50:30,470
+[speaker_02] la noción de partícula proviene del carácter cuántico de los campos y la parte de onda proviene de que son oscilaciones propagándose por ese campo. Entonces el concepto de campo unifica
+
+370
+00:50:30,470 --> 00:50:35,590
+[speaker_02] esos dos conceptos que no se entendían bien hasta el momento de introducir el concepto de campo
+
+371
+00:50:35,590 --> 00:50:38,170
+[speaker_04] eso es lo que yo traté de explicar en mi charla de Naukas
+
+372
+00:50:38,770 --> 00:50:47,510
+[speaker_04] yo traté de utilizar una metáfora, una analogía clásica para explicar el spin el spin es una onda, pero es una onda tridimensional
+
+373
+00:50:48,030 --> 00:50:52,770
+[speaker_04] las ondas tienen una frecuencia, una longitud de onda tienen una amplitud
+
+374
+00:50:54,350 --> 00:51:02,070
+[speaker_04] la frecuencia y la longitud de onda están relacionadas con la energía y con la velocidad de la onda lo que son continuos, yo puedo tener un poquito más de energía
+
+375
+00:51:02,070 --> 00:51:11,350
+[speaker_04] o un poquito menos de energía, la energía no está cuantizada en el sentido de que la longitud de onda no está cuantizada yo puedo tener un fotón de cualquier frecuencia
+
+376
+00:51:11,350 --> 00:51:16,450
+[speaker_04] del espectro, cojo dos fotones con dos frecuencias y puedo encontrar un fotón que esté en medio, siempre
+
+377
+00:51:17,630 --> 00:51:23,010
+[speaker_04] pero el fotón además tiene una propiedad que sí está cuantizada, y es que al ser una onda
+
+378
+00:51:24,090 --> 00:51:33,610
+[speaker_04] tridimensional, además de, digámoslo así así oscilar en amplitud, puede oscilar de manera rotacional, puede hacer como una especie de
+
+379
+00:51:33,610 --> 00:51:45,070
+[speaker_04] movimiento espiral, como una especie de sacacorchos. Y resulta que ese movimiento en la especie de sacacorchos, el sacacorcho no puede girar, no puede dar vueltas en hélice de manera arbitraria,
+
+380
+00:51:45,130 --> 00:51:56,190
+[speaker_04] está cuantizado. Ese movimiento en forma de sacacorchos está cuantizado y tiene que caber una cantidad entera, de hecho semi-entera, en las longitudes de onda
+
+381
+00:51:56,190 --> 00:52:07,510
+[speaker_04] que sí son continuas entonces la longitud de onda es continua la frecuencia es continua pero el número de vueltas del sacacorcho de esa onda tridimensional que además de oscilar en amplitud
+
+382
+00:52:08,050 --> 00:52:09,230
+[speaker_04] rota de alguna forma
+
+383
+00:52:10,110 --> 00:52:19,550
+[speaker_04] esa rotación está cuantizada y tiene que caber un cierto número de veces, y eso es como yo expliqué en mi charla en Naukas lo que era la spin usé esta analogía clásica
+
+384
+00:52:19,550 --> 00:52:29,730
+[speaker_04] que en el mundo del electromagnetismo clásico se llama el momento angular orbital y que se puede utilizar, por ejemplo, para transmitir información en canales no guiados,
+
+385
+00:52:29,770 --> 00:52:37,050
+[speaker_04] es decir, con fotones en el aire sin utilizar una fibra óptica y que hoy en día tiene mucho interés y está trabajando bastante.
+
+386
+00:52:37,430 --> 00:52:42,430
+[speaker_04] Y en ese tipo de ondas se habla de pseudo spin, que es el análogo clásico al spin,
+
+387
+00:52:42,950 --> 00:52:46,410
+[speaker_04] pero para pulsos de luz, para ondas electromagnéticas.
+
+388
+00:52:46,410 --> 00:53:06,250
+[speaker_02] Y digamos de nuevo, dando otra idea más de lo que el spin puede ser, que podríamos imaginar el spin ya de una manera más abstracta y quizá más realista como el grado de libertad interno del campo que obliga a que esa rotación de la que tú has hablado esté cuantizado. El motivo por el cual esto es así.
+
+389
+00:53:07,270 --> 00:53:14,750
+[speaker_04] Exactamente, pero esto es una analogía es para intentar ayudar a entender lo que es el spin después cuando uno va a la matemática de la teoría cuántica de campos, todo esto se olvida
+
+390
+00:53:15,450 --> 00:53:24,710
+[speaker_04] No se encuentra nada de todo esto. Los físicos como Alberto que han estudiado teoría cuántica de campos nunca han estudiado el momento angular orbital del fotón, que es una cosa
+
+391
+00:53:24,710 --> 00:53:26,670
+[speaker_04] que estudian todos los ingenieros de telecomunicaciones
+
+392
+00:53:27,640 --> 00:53:36,840
+[speaker_04] Entonces yo traté en mi charla de Naukas usar un lenguaje de ingenieros de telecomunicaciones para explicar un concepto de teoría cuántica de campus. Mucha gente no me entendió
+
+393
+00:53:36,840 --> 00:53:46,700
+[speaker_04] porque este tipo de metáforas tienen el problema de que la gente, el público ya no tenía que entender lo que entienden los ingenieros de terminaciones y lo que entienden los físicos cuánticos y unificar ambos conceptos
+
+394
+00:53:46,700 --> 00:53:48,360
+[speaker_04] y quizás ahí me equivoqué
+
+395
+00:53:48,940 --> 00:53:54,560
+[speaker_04] al elegir la metáfora, pero es una cosa que en el mundo de la ingeniería de terminaciones se usa habitualmente
+
+396
+00:53:54,560 --> 00:54:05,860
+[speaker_02] Pero sin embargo para mí fue súper bonito porque efectivamente yo no había estudiado esa cosa, como tú bien acabas de decir entonces yo cuando lo vi dije, anda pero oye, que de verdad que que esto es como el spin.
+
+397
+00:54:06,000 --> 00:54:07,940
+[speaker_02] A mí me pareció iluminador, me gustó mucho.
+
+398
+00:54:08,240 --> 00:54:09,640
+[speaker_01] Sí, a mí me gusta también.
+
+399
+00:54:12,000 --> 00:54:13,900
+[speaker_01] Y entonces, o sea,
+
+400
+00:54:14,440 --> 00:54:22,640
+[speaker_01] de alguna forma sí que podemos ver el spin como un giro a lo largo de la propagación de esta onda, ¿no? Y por eso tiene un momento magnético,
+
+401
+00:54:23,300 --> 00:54:25,260
+[speaker_01] porque al fin y al cabo tienes,
+
+402
+00:54:25,960 --> 00:54:29,000
+[speaker_01] o sea, si uno piensa en el electrón, por ejemplo, que tiene una carga eléctrica,
+
+403
+00:54:29,600 --> 00:54:36,760
+[speaker_01] tienes una carga eléctrica que está haciendo esta especie de giro, de alguna forma se llevaría asociado una corriente y por tanto un momento magnético
+
+404
+00:54:38,120 --> 00:54:44,840
+[speaker_01] ¿partículas que no tengan carga eléctrica, que no tengan relación con que no tengan una naturaleza electromagnética
+
+405
+00:54:46,560 --> 00:54:52,580
+[speaker_01] ¿tendrían un spin asociado a un momento magnético también? es la duda que me surge ahora, no estoy seguro de si
+
+406
+00:54:52,580 --> 00:54:53,860
+[speaker_04] no, vamos a ver
+
+407
+00:54:54,560 --> 00:55:06,360
+[speaker_04] si y no, si y no por dos razones la primera, desde el punto de vista digamos a nivel de árbol al nivel básico, una partícula que no tenga carga eléctrica, no tiene momento magnético
+
+408
+00:55:07,220 --> 00:55:10,900
+[speaker_04] asociado a su spin, si no tiene carga eléctrica, no tiene momento magnético
+
+409
+00:55:11,680 --> 00:55:18,140
+[speaker_04] cero patater problema, las correcciones cuánticas, las vibraciones de un campo no están
+
+410
+00:55:18,980 --> 00:55:30,260
+[speaker_04] aisladas, sino que están rodeadas del vacío y ahí están todos los campos con los que cuando una partícula vibra cuando una partícula está en un lugar, a su alrededor aparecen como vibraciones de los demás campos
+
+411
+00:55:30,260 --> 00:55:41,620
+[speaker_04] y se recubre de pequeños efectos entonces las partículas que no tienen carga eléctrica pueden tener un momento magnético anómalo asociado al spin
+
+412
+00:55:41,620 --> 00:55:51,840
+[speaker_04] es un fenómeno intrínsecamente cuántico es un momento magnético muy pequeño, por ejemplo en el neutrino sabemos que es distinto de cero pero no lo hemos podido medir
+
+413
+00:55:51,840 --> 00:56:02,240
+[speaker_04] ni esperamos poderlo medir en el siglo XXI va a ser muy difícil y medirlo, pero sabemos que su valor es distinto del cero, pero es porque está rodeada esa partícula por el vacío y en el vacío
+
+414
+00:56:02,240 --> 00:56:11,820
+[speaker_04] aparecen cargas y entonces hay movimiento de carga por la propia existencia de la partícula una partícula no puede estar completamente aislada siempre los demás campos con los que puede estar acoplada acaban vibrando
+
+415
+00:56:11,820 --> 00:56:15,660
+[speaker_04] muy poquito si el acoplamiento es débil y eso va generando
+
+416
+00:56:17,360 --> 00:56:20,960
+[speaker_04] ese pequeño efecto cuántico que envuelve a la partícula
+
+417
+00:56:20,960 --> 00:56:32,020
+[speaker_02] Aquí Francis acaba de tocar una cosa que es muy bonita y que hace referencia a cómo se construye la teoría cuántica de campos que es que nosotros cuando hacemos una teoría del campo
+
+418
+00:56:32,020 --> 00:56:43,900
+[speaker_02] cuántico del electrón, le ponemos a ese campo cuántico una masa, le ponemos a ese campo cuántico una serie de propiedades pero luego la interacción de ese campo cuántico con los otros que tienes en tu teoría, van
+
+419
+00:56:43,900 --> 00:56:54,040
+[speaker_02] cambiando esas propiedades, es decir tú pones como una especie de semillita inicial y luego lo que tú observas realmente no es ese campo cuántico desnudo que has puesto ahí, sino el campo
+
+420
+00:56:54,040 --> 00:57:04,180
+[speaker_02] campo vestido por toda la interacción. Mientras las interacciones sean débiles, las propiedades que vas a ver al final se parecen a las que tú has puesto en ese campo cuántico. Pero en el momento
+
+421
+00:57:04,180 --> 00:57:13,200
+[speaker_02] que las interacciones son fuertes, como en QCD, como en la interacción fuerte, la partícula que tú ves al final no tiene por qué parecerse en nada a lo que tú has puesto al principio. Tú en QCD
+
+422
+00:57:13,200 --> 00:57:22,420
+[speaker_02] pones quarks y gluones y al final ves protones y neutrones, que no se parecen absolutamente en nada. Y es porque la teoría cuántica de campos tiene esta cosa tan bonita de que lo que tú
+
+423
+00:57:22,420 --> 00:57:32,080
+[speaker_02] tú observas realmente es el resultado de las propiedades de los campos más su interacción. Y la interacción puede ser tan importante o más que las propiedades de los campos fundamentales.
+
+424
+00:57:32,500 --> 00:57:43,860
+[speaker_02] Y esto es un concepto como que yo cuando me di cuenta como que me explotó un poco la cabeza, ¿no? En plan de, pero, entonces yo estoy haciendo teoría cuántica de quarks y realmente lo que quiero llegar al final
+
+425
+00:57:43,860 --> 00:57:53,720
+[speaker_02] es una suma con todas sus interacciones y todas sus cosas. Pues sí, y además no siempre se puede hacer matemáticamente bien, porque no siempre es fácil calcular el resultado de todas esas interacciones
+
+426
+00:57:53,720 --> 00:58:03,900
+[speaker_03] y yo creo que eso también explica por qué se tardó tanto en entender bien la fuerza fuerte porque era muy muy compleja desde el punto de vista tanto teórico
+
+427
+00:58:03,900 --> 00:58:07,020
+[speaker_03] como experimental al reunir todos estos elementos a la vez
+
+428
+00:58:08,000 --> 00:58:14,040
+[speaker_02] es antiintuitivo porque tú intentas explicarla con una cosa y terminas en otro objeto diferente
+
+429
+00:58:14,740 --> 00:58:24,060
+[speaker_01] vale muy bien, pues entonces llegados a este punto como llevamos ya una hora de programa vamos a despedir ya el programa para los amigos que nos escuchan por la radio
+
+430
+00:58:24,800 --> 00:58:33,260
+[speaker_01] nos despedimos hasta la semana que viene pero los que están escuchando el podcast por internet pues pueden acompañarnos un ratito más ahora hacemos una pausita y volvemos
+
+431
+00:58:33,260 --> 00:58:40,780
+[speaker_01] y seguimos hablando de este y otros interesantes temas y sobre todo nos meteremos ya a fondo con la importancia de las simetrías en la física
+
+432
+00:58:42,020 --> 00:58:47,620
+[speaker_01] entonces pues eso, hacemos una pequeña pausita volvemos enseguida, si nos escuchan por la radio muchas gracias, volvemos la semana que viene
+
+433
+00:58:48,680 --> 00:59:01,060
+[speaker_01] Bien, pues ya estamos de vuelta. Disculpa Nacho que te corté, creo que querías hacer un comentario más sobre...
+
+434
+00:59:01,060 --> 00:59:05,480
+[speaker_03] Más que un comentario, una pregunta. Aprovechar que tenemos a Alberto y a Francis aquí.
+
+435
+00:59:06,660 --> 00:59:16,920
+[speaker_03] Si te he entendido bien, Francis, antes has comentado que el spin de cosas como el electrón lo hemos medido, sabemos que es un medio,
+
+436
+00:59:16,920 --> 00:59:25,700
+[speaker_03] pero cosas como el neutrino lo suponemos por cómo interacciona o lo que sea, pero nadie lo ha medido de manera directa, ¿es correcto esto o no he entendido bien?
+
+437
+00:59:26,780 --> 00:59:38,340
+[speaker_04] Exactamente, o sea, el spin del neutrino debe ser el mismo que el del electrón, es decir, un medio, para que la teoría funcione bien en ciertas interacciones.
+
+438
+00:59:38,340 --> 00:59:49,640
+[speaker_04] En la interacción débil ambas tienen que acoplar de manera adecuada y tienen que tener el mismo spin. spin, sin embargo no hemos podido medir el spin del neutrino de manera específica de hecho hasta tal punto
+
+439
+00:59:49,640 --> 00:59:55,120
+[speaker_04] de que ni siquiera sabemos si el neutrino es una partícula de Dirac como el propio
+
+440
+00:59:55,740 --> 01:00:05,720
+[speaker_04] electrón o es una partícula de Majorana que es una alternativa, es decir, todavía tenemos cierta ambigüedad en cómo matemáticamente construir la teoría para el neutrino
+
+441
+01:00:05,720 --> 01:00:11,360
+[speaker_04] en relación al spin, porque todavía no sabemos cuál es la teoría correcta porque tenemos dos alternativas
+
+442
+01:00:11,360 --> 01:00:25,180
+[speaker_03] Yo creo que era un punto muy importante de aclarar este porque lo que sí podemos decir es que suponer que el spin del neutrino es un medio es compatible con todas las observaciones que tenemos hasta la fecha. Eso es lo único que... Vale, muy bien.
+
+443
+01:00:25,180 --> 01:00:42,060
+[speaker_04] Sí, y casi con toda seguridad. O sea, seguro es un medio, ¿vale? O sea, la teoría funciona demasiado bien para que fuera mentira que no fuera un medio. Lo que pasa es que ese un medio, el spin un medio para un neutrino y el spin un medio para un electrón, significa cosas distintas.
+
+444
+01:00:42,060 --> 01:00:53,260
+[speaker_04] porque el electrón y el neutrino son tan parecidos que en ciertas interacciones no hay ninguna diferencia entre ellos en la interacción débil pero solamente para una de sus componentes
+
+445
+01:00:53,260 --> 01:01:02,140
+[speaker_04] de sus campos, la componente izquierda la componente izquierda del campo del neutrino y la componente izquierda del campo del electrón son indistinguibles y se pueden intercambiar una con la otra
+
+446
+01:01:02,140 --> 01:01:13,680
+[speaker_04] y yo puedo transformar neutrinos en electrones pero la componente derecha no, porque en el neutrino no hemos encontrado componente derecha no la hemos encontrado, sí del antinutrino
+
+447
+01:01:13,680 --> 01:01:23,140
+[speaker_04] pero no del neutrino, y sin embargo el electrón sí tiene componente derecha, y esto está relacionado con las simetrías, las simetrías en física de partículas nos dicen cuando yo no soy capaz de distinguir
+
+448
+01:01:23,140 --> 01:01:33,460
+[speaker_04] que dos cosas son iguales, para ciertas propiedades Nacho y Héctor son idénticos desde el punto de vista de que son dos personas que tienen cara, tienen ojos, tienen cejas
+
+449
+01:01:33,460 --> 01:01:39,240
+[speaker_04] tienen boca, luego para mí son idénticos sin embargo hay ciertas propiedades que los hacen claramente distintos
+
+450
+01:01:39,240 --> 01:01:56,680
+[speaker_04] Porque yo lo estoy viendo a través de la cámara, uno sentado en un lugar y otro sentado en otro lugar. Y estoy viendo que están vestidos con ropa distinta. Son distintos para ciertas propiedades, pero para otras propiedades son idénticos. Eso es como nosotros construimos las interacciones entre las partículas y los campos cuánticos.
+
+451
+01:01:56,680 --> 01:02:22,780
+[speaker_04] Para ciertas interacciones hacemos idénticas ciertos campos y por lo tanto intercambiables entre ellos, se puede transformar uno en otro y para otras interacciones esos campos son distinguibles. El neutrino es distinguible del electrón, su componente izquierda porque uno tiene carga eléctrica y el otro no, uno está acoplado al campo electromagnético y el otro no, pero para la interacción débil, la interacción a través de bosones W y bosones Z son exactamente idénticos.
+
+452
+01:02:22,780 --> 01:02:52,010
+[speaker_04] Y eso se ha observado en los experimentos, no me lo estoy inventando, no es pura teoría. En HERA hay un experimento precioso de interacción de electrones con protones en los que se observa perfectamente esa interacción con corrientes débiles neutras y cargadas, es decir, se observa perfectamente cómo conforme sube la energía de los electrones que chocan contra los protones, la interacción débil y la interacción electromagnética se unifican en una única interacción.
+
+453
+01:02:53,130 --> 01:02:56,570
+[speaker_04] y a alta energía, del orden de unos 200 giga de tronvoltios, son
+
+454
+01:02:57,770 --> 01:03:05,300
+[speaker_04] indistinguibles. Y eso lo vemos en los experimentos. Y la teoría nos dice que tiene que ser así. Es decir, que no es solo teoría, también es observaciones.
+
+455
+01:03:06,040 --> 01:03:07,280
+[speaker_04] Hay un elemento
+
+456
+01:03:07,280 --> 01:03:17,540
+[speaker_02] que añadir a esto que acaba de decir Francis que está relacionado, o sea, tú cuando hablas de campos indistinguibles, estás hablando de estas simetrías de las que a veces hablamos sobre las
+
+457
+01:03:17,540 --> 01:03:28,680
+[speaker_02] que construimos las teorías, y dices que la interacción débil y la electromagnética unifican porque nosotros sabemos que a altas energías la interacción débil electromagnética
+
+458
+01:03:28,680 --> 01:03:37,920
+[speaker_02] son una sola simetría, son una sola cualidad de indistinguibilidad de estos campos, mientras que luego se rompe esa simetría a bajas energías
+
+459
+01:03:37,920 --> 01:03:48,920
+[speaker_02] y terminas teniendo la interacción electromagnética que conoces y la interacción débil en la cual las dos partículas, el electrón y el neutrino, ya son distinguibles porque la simetría se ha roto.
+
+460
+01:03:48,920 --> 01:03:57,840
+[speaker_02] pero a altas energías, sin embargo, no debería ser capaz de distinguir un electrón de un neutrino y yo creo que no lo hemos podido ver directamente en laboratorio
+
+461
+01:03:57,840 --> 01:04:06,020
+[speaker_02] pero sospechamos que así fue, por ejemplo, en el universo primitivo cuando estaba muy caliente, pues allí había partículas e interaccionarían más o menos igual los electrones y los neutrinos
+
+462
+01:04:06,020 --> 01:04:10,700
+[speaker_04] Sí, algunas de la gente dice, esta imagen de Hera, no sé si te acuerdas Alberto si la has visto alguna vez, preciosa
+
+463
+01:04:11,660 --> 01:04:18,740
+[speaker_04] algunos físicos en varios libros han escrito que es la figura más bella de toda la física de partículas elementales
+
+464
+01:04:18,740 --> 01:04:32,240
+[speaker_04] Es la figura de era de hace unos 10 años en la que se ve perfectamente cómo convergen ambas fuerzas conforme la energía crece y al final acaba habiendo la misma tendencia entre lo que es el electromagnetismo, las corrientes débiles neutras y las corrientes electromagnéticas.
+
+465
+01:04:32,240 --> 01:04:49,840
+[speaker_04] Es decir, el bosón Z acaba comportándose como si perdiera masa. Y ves perfectamente las dos curvas, cómo claramente hay muchos órdenes de magnitud de diferencia entre la interacción débil, la baja energía y el electromagnetismo, y cómo esas dos interacciones acaban unificándose prácticamente en una única interacción.
+
+466
+01:04:50,280 --> 01:04:56,500
+[speaker_04] Y esa imagen es muy famosa, viene en muchos libros, y desde luego te lo deja clarísimo. Es puramente experimental.
+
+467
+01:04:56,500 --> 01:05:23,460
+[speaker_02] Es espectacular porque realmente nosotros jugamos con las simetrías, imponemos las simetrías en los campos, sacamos teorías, hacemos cálculos, pero en última instancia siempre piensas, hombre, esto igual puede ser una paja mental que me he hecho yo aquí con matemáticas, pero cuando ves que la naturaleza te da la razón, cuando ves que las dos curvas unificas, dices, es que ahí está, eso es porque son la misma simetría, ¿no?
+
+468
+01:05:23,460 --> 01:05:31,280
+[speaker_02] Porque el electromagnetismo y la interacción débil en realidad son la misma cosa, pero a temperaturas bajas, a energías bajas, está rota y entonces lo ves como cosas distintas.
+
+469
+01:05:31,640 --> 01:05:43,460
+[speaker_01] Y hay mucha gente que piensa que si sigues tirando a energías todavía muchísimo más altas llegas a gran unificación, pero bueno, eso ya son extensiones del modelo estándar, donde se unifican todas las fuerzas.
+
+470
+01:05:44,420 --> 01:06:06,460
+[speaker_02] Bueno, el modelo estándar en realidad a altas energías casi unifica, o sea, no unifica bien, pero tú ves como lo que te dicen las ecuaciones sobre cómo deberían comportarse los acoplamientos electrodébiles y el de interacción fuerte a altas energías y no llegan a unificar, pero digamos que llegan a valores similares a energías muy altas.
+
+471
+01:06:07,020 --> 01:06:12,500
+[speaker_02] Cuando haces teorías de gran unificación lo que haces es un poco ajustar eso para que de verdad unifique bien.
+
+472
+01:06:12,500 --> 01:06:36,860
+[speaker_01] Bueno, porque por lo que yo tengo entendido hay mucha incertidumbre y muchos parámetros libres ahí también que te dan un cierto rango de juego, ¿no? Y parece que es como mucha casualidad, o sea, requiere algo de ajuste fino que esa extrapolación llegue a valores del mismo orden de magnitud, que no tendrían por qué, y que, bueno, pues la idea un poco es que con esas, variando un poco dentro de las incertidumbres y tal, pues se podría hacer encajar esa…
+
+473
+01:06:36,860 --> 01:06:40,960
+[speaker_01] ¿Les parece bien que antes de meternos en estos conceptos
+
+474
+01:06:41,460 --> 01:06:49,720
+[speaker_03] empecemos por el tema de la simetría desde un punto de vista más básico y así después podemos llegar a esta cuestión de las roturas de simetría, cambios de fase, inflación? Por supuesto, sí.
+
+475
+01:06:51,500 --> 01:06:56,560
+[speaker_03] Vamos a meternos quizás en lo que es el concepto de simetría y las diferentes cuestiones, ¿no?
+
+476
+01:06:57,080 --> 01:07:00,480
+[speaker_02] Claro, claro. Hemos apretado el acelerador y nos hemos ido a... Volvamos para atrás un poquito.
+
+477
+01:07:00,560 --> 01:07:12,260
+[speaker_01] A ver, llamamos simetría en física física a una una invariancia o sea simetría un sistema físico decimos que tiene simetría siempre
+
+478
+01:07:12,260 --> 01:07:23,840
+[speaker_01] respecto a algo alguna algún cambio decimos que cuando hacemos algún determinado cambio el sistema físico no cambia una transformación diríamos no se me una transformación el sistema no cambia
+
+479
+01:07:23,840 --> 01:07:33,240
+[speaker_01] entonces cuando eso ocurre decimos que hay una simetría respecto a esa transformación correcto Por ejemplo, si yo tengo una esfera y la giro, no cambia.
+
+480
+01:07:33,600 --> 01:07:37,180
+[speaker_01] Entonces digo que la esfera tiene simetría respecto a una rotación.
+
+481
+01:07:37,680 --> 01:07:39,640
+[speaker_01] Tiene simetría esférica. Tiene simetría esférica.
+
+482
+01:07:40,320 --> 01:07:42,820
+[speaker_01] Eso es una perogrullada.
+
+483
+01:07:43,500 --> 01:07:51,500
+[speaker_01] No, no lo es, pero bueno. Pero es la base de lo que estamos diciendo. Nosotros siempre hay que entender que cuando hablamos de simetría decimos respecto a algo.
+
+484
+01:07:51,620 --> 01:07:56,300
+[speaker_01] No nos referimos simplemente al concepto geométrico de una reflexión en un espejo.
+
+485
+01:07:56,300 --> 01:08:12,120
+[speaker_01] Es algo un poco más general que eso. Y hay muchos tipos diferentes de transformaciones con respecto a las cuales nuestra física puede ser simétrica, respecto a traslaciones en el tiempo, en el espacio, etc.
+
+486
+01:08:12,120 --> 01:08:19,700
+[speaker_03] podemos empezar describiendo los que se conocen como las simetrías en la física clásica por decir algo por empezar
+
+487
+01:08:21,480 --> 01:08:24,180
+[speaker_03] pues por ejemplo tenemos
+
+488
+01:08:25,650 --> 01:08:31,710
+[speaker_03] la simetría de traslación que viene a ser básicamente que si yo tengo mi laboratorio
+
+489
+01:08:32,470 --> 01:08:34,930
+[speaker_03] aquí en Tenerife y hago un experimento
+
+490
+01:08:35,830 --> 01:08:46,270
+[speaker_03] y exactamente el mismo laboratorio allí en Málaga o en cualquier sitio que se nos ocurra de la Tierra,
+
+491
+01:08:46,990 --> 01:08:57,490
+[speaker_03] hago el mismo experimento y se reproduce en el experimento exactamente igual. Es decir, que el lugar en el universo donde se está haciendo el experimento produce el mismo resultado.
+
+492
+01:08:57,710 --> 01:09:00,110
+[speaker_03] Si eso es así, se dice que hay una simetría traslacional.
+
+493
+01:09:02,640 --> 01:09:08,400
+[speaker_03] Esa sería una simetría, la de la traslación. Podríamos tener otra simetría que es la de la rotación, por ejemplo.
+
+494
+01:09:08,400 --> 01:09:24,420
+[speaker_03] O que significaría básicamente, si cojo mi laboratorio y giro todo el laboratorio 90 grados y a los observadores también 90 grados y repito exactamente el mismo experimento, esperamos que salgan los mismos resultados.
+
+495
+01:09:24,880 --> 01:09:25,640
+[speaker_03] Eso es.
+
+496
+01:09:25,640 --> 01:09:45,520
+[speaker_03] Y después tendríamos otra simetría clásica que es la simetría del temporal, es decir, la invariancia cuando, es decir, si repito el mismo experimento, ahora lo hago dentro de 10 años o lo hice hace 2 millones de años y sale lo mismo, pues decimos que también tiene una simetría temporal.
+
+497
+01:09:46,120 --> 01:10:10,660
+[speaker_03] Bueno, pues todas estas simetrías, que son simetrías clásicas, porque después en las cuánticas hay otras simetrías, pero son un poquito distintas o muy distintas. Estas simetrías, Emineter, una matemática del principio del siglo XX, se dio cuenta de que cuando había simetrías en las leyes de la física, asociado a esas simetrías, había unas cantidades que se conservaban.
+
+498
+01:10:10,780 --> 01:10:20,280
+[speaker_03] ¿vale? y esto es muy importante por ejemplo, en el caso de la invarianza o de la simetría con respecto al tiempo lo que se conserva es la energía
+
+499
+01:10:20,280 --> 01:10:30,980
+[speaker_03] cuando uno hace las ecuaciones, sin meternos en las cuestiones matemáticas, se da cuenta que la cantidad conservada si la naturaleza es así, si no distingue cuando se realizó el experimento
+
+500
+01:10:30,980 --> 01:10:41,010
+[speaker_03] significa que la energía era la misma en las dos configuraciones y esto es muy importante porque nos cambia completamente la forma de ver la física
+
+501
+01:10:41,010 --> 01:10:50,950
+[speaker_03] en el sentido de que antes nosotros hablábamos la gente sabía mucho antes de Minéter que la energía se conservaba por ejemplo, estaba la ley de la conservación de la energía
+
+502
+01:10:50,950 --> 01:11:01,670
+[speaker_03] una ley conocida sin embargo se postulaba no se interpretaba como una asimetría, sino simplemente decía en los experimentos se conserva la energía
+
+503
+01:11:01,670 --> 01:11:09,530
+[speaker_03] o en los experimentos se conserva el momento lineal o se conservaba el momento angular mientras que ahora en la visión más moderna de la física
+
+504
+01:11:09,530 --> 01:11:20,350
+[speaker_03] y es un desarrollo sobre todo del siglo XX, lo que se impone en la física son las simetrías. Es decir, vamos a postular una simetría que queremos que la naturaleza tenga
+
+505
+01:11:20,770 --> 01:11:25,950
+[speaker_03] y a partir de ahí deducimos unas leyes de conservación y también cómo son las propias leyes de la naturaleza.
+
+506
+01:11:26,850 --> 01:11:30,470
+[speaker_03] Yo creo que era un poquito por introducir el tema desde el punto de vista más clásico.
+
+507
+01:11:31,010 --> 01:11:36,370
+[speaker_01] A mí hay una cosa que me gusta y que quería comentar. Bueno, Alberto, no sé si tenías otro comentario sobre lo que ha dicho Nacho.
+
+508
+01:11:36,370 --> 01:11:47,040
+[speaker_02] Sí, nada, solo un comentario muy breve bueno, no sé si muy breve o no, pero creo que es relevante que tú tienes estas simetrías de las que Nacho ha hablado
+
+509
+01:11:47,040 --> 01:11:58,160
+[speaker_02] y efectivamente es exactamente como él ha dicho pero puedes encontrar estas simetrías en diversos aspectos de la realidad física tú puedes, por ejemplo, encontrar
+
+510
+01:11:58,160 --> 01:12:09,940
+[speaker_02] una simetría de rotación en las leyes de la física como por ejemplo el campo gravitatorio de newton el campo gravitatorio de newton es invariante bajo rotaciones vale lo mires por
+
+511
+01:12:09,940 --> 01:12:19,980
+[speaker_02] donde por donde mires debería ser exactamente igual ahora bien tú puedes tener que tu campo gravitatorio lo esté generando una esfera y entonces efectivamente el campo gravitatorio
+
+512
+01:12:19,980 --> 01:12:30,780
+[speaker_02] que verás es igual en todas las direcciones pero si tu campo gravitatorio lo genera una patata pues tu campo gravitatorio va a ser diferente en algunas de las direcciones porque la masa que está
+
+513
+01:12:30,780 --> 01:12:35,640
+[speaker_02] está produciendo ese campo gravitatorio, no es simétrica, igual que son las leyes.
+
+514
+01:12:35,740 --> 01:12:44,180
+[speaker_02] Entonces, cuando Nacho habla de que las invariancias bajo traslaciones temporales tienen asociadas
+
+515
+01:12:44,180 --> 01:12:49,540
+[speaker_02] conservación de la energía, en realidad se refiere a las leyes físicas. Cuando las
+
+516
+01:12:49,540 --> 01:13:00,940
+[speaker_02] leyes físicas son invariantes bajo eso, se conserva la energía. Pero tu setup, tu organización del sistema físico puede romper esa simetría sin ningún problema, o sea
+
+517
+01:13:00,940 --> 01:13:12,780
+[speaker_02] tú puedes tener una ley física que sea invariante bajo rotaciones y que tengas una cantidad de materia o tal que no lo sea y no sucede nada, simplemente lo que verás es que el resultado de eso no es invariante
+
+518
+01:13:12,780 --> 01:13:15,760
+[speaker_02] bajo rotaciones, por ejemplo, imagínate que tú estás midiendo
+
+519
+01:13:16,820 --> 01:13:24,840
+[speaker_02] campos magnéticos en tu laboratorio y eres suficientemente sensible como para ver el campo magnético de la Tierra el campo magnético de la Tierra va de norte a sur
+
+520
+01:13:24,840 --> 01:13:46,390
+[speaker_02] Por lo tanto, si tú rotas 90 grados tu laboratorio y pasas de estar de norte a sur a estar de este a oeste, tus aparatos te van a decir, oye, aquí este campo magnético es distinto. Antes entraba por la pared de atrás y ahora está entrando por la pared de la derecha. Y eso se debe a que la situación física no es invariante bajo rotaciones, a pesar de que igual las leyes físicas que tú estás estudiando sí lo son.
+
+521
+01:13:46,390 --> 01:14:02,550
+[speaker_03] De hecho eso es lo que complica tanto encontrar cuáles son las simetrías de las leyes de la naturaleza, porque como dices tú, en cualquier configuración experimental la naturaleza está totalmente intrincada, tenemos efectos de todos lados.
+
+522
+01:14:02,550 --> 01:14:20,330
+[speaker_03] Cuando la miramos en detalle, descubrimos que estamos sobre la Tierra, o que estamos recibiendo la radiación del Sol, o los rayos cósmicos de la galaxia. Es muy difícil pensar en un sistema completamente aislado para probar las leyes de la naturaleza de forma aislada, porque la naturaleza está toda intrincada.
+
+523
+01:14:20,330 --> 01:14:38,470
+[speaker_01] Es que por eso decía que es importante decir que estamos hablando de la simetría de un determinado sistema físico con respecto a una determinada transformación. O sea, el sistema físico depende, o sea, tienes que especificar de qué es lo que estás hablando. Hay determinados sistemas físicos que cumplen ciertas simetrías respecto a unas transformaciones y otros no.
+
+524
+01:14:38,470 --> 01:14:41,890
+[speaker_01] no. Entonces, en función de qué sea lo que estés hablando, puede que cumpla o puede no.
+
+525
+01:14:41,890 --> 01:14:45,930
+[speaker_03] Es importante el punto que ha dicho Alberto, de que estas son las simetrías de las leyes de la naturaleza.
+
+526
+01:14:46,690 --> 01:14:50,270
+[speaker_03] Más que de la experimentación que hacemos, que puede tener más o menos
+
+527
+01:14:50,270 --> 01:14:56,130
+[speaker_01] simetría, dependiendo. Según lo que sea lo que estás estudiando, ¿no? Yo quería poner un ejemplo, y yo creo que se va a ilustrar con esto,
+
+528
+01:14:56,730 --> 01:15:01,690
+[speaker_01] porque a mí me parece muy bonito el teorema este de Neter, y
+
+529
+01:15:02,050 --> 01:15:06,590
+[speaker_01] de hecho la formulación del teorema es que cada simetría
+
+530
+01:15:07,390 --> 01:15:13,010
+[speaker_01] diferenciable, vamos a olvidarnos de de la palabra diferenciable. Cada simetría de la acción, que es el vocablo aquí, la acción es el
+
+531
+01:15:13,010 --> 01:15:20,330
+[speaker_01] palabra, y ahora explicamos lo que significa esto de la acción, de un sistema físico tiene asociada
+
+532
+01:15:20,330 --> 01:15:29,830
+[speaker_01] una ley de conservación. La acción aquí es la palabra clave. Para explicarlo, a mí es que esto me gusta mucho, lo de la acción, porque es una cosa que no se suele explicar a nivel de instituto,
+
+533
+01:15:29,850 --> 01:15:40,430
+[speaker_01] pero creo que es un concepto físico muy bonito, a mí me gusta mucho. La acción es lo siguiente, Bueno, tiene una definición y se define para una determinada trayectoria de un sistema físico.
+
+534
+01:15:40,490 --> 01:15:45,070
+[speaker_01] Un proceso físico, un proceso, es algo que ocurre en un determinado tiempo
+
+535
+01:15:46,150 --> 01:15:55,110
+[speaker_01] y en un proceso físico el sistema describe una trayectoria en un determinado espacio de parámetros. Eso es todo muy complejo y muy abstracto. Vamos a poner un ejemplo particular.
+
+536
+01:15:55,650 --> 01:15:58,990
+[speaker_01] Una cosa sencillita, una piedra. Yo cojo una piedra, la suelto y se cae al suelo.
+
+537
+01:15:59,830 --> 01:16:04,910
+[speaker_01] La piedra sigue una trayectoria cuando yo la suelto. la suelto y se cae, cae al suelo siguiendo la gravedad
+
+538
+01:16:05,590 --> 01:16:08,570
+[speaker_01] entonces eso es una trayectoria la que sigue la piedra
+
+539
+01:16:10,160 --> 01:16:19,400
+[speaker_01] hay muchas otras trayectorias que yo me puedo imaginar, yo me puedo imaginar que la piedra no se cae, sino que sube empieza a levitar, luego da tres piruetas hacia la derecha y finalmente se posa en mi otra mano
+
+540
+01:16:20,040 --> 01:16:27,320
+[speaker_01] la piedra no hace eso pero yo me puedo imaginar esa trayectoria de hecho me puedo imaginar infinitas trayectorias la piedra va a Marte y vuelve
+
+541
+01:16:28,960 --> 01:16:32,880
+[speaker_01] son trayectorias imaginarias en un mundo imaginario, en los mundos de Yupi que no son la real
+
+542
+01:16:33,960 --> 01:16:36,680
+[speaker_02] incluso va a Marte y vuelve en dos segundos
+
+543
+01:16:37,360 --> 01:16:38,420
+[speaker_02] violando la relatividad
+
+544
+01:16:38,420 --> 01:16:45,720
+[speaker_01] efectivamente, todo eso son trayectorias entre comillas virtuales, trayectorias en los mundos de Yupi que no es el mundo real entonces todas esas trayectorias imaginarias
+
+545
+01:16:46,500 --> 01:16:58,220
+[speaker_01] las podemos considerar y cada trayectoria tiene asociado un numerito, que es la acción la acción es un número que se asocia a cada trayectoria y ese número se calcula de una forma sencilla
+
+546
+01:16:58,220 --> 01:17:09,720
+[speaker_01] que es una integral a lo largo de la trayectoria de una cantidad que se llama el Lagrangiano que es un palabra pero es simplemente la energía es la energía cinética y la energía potencial
+
+547
+01:17:09,720 --> 01:17:19,060
+[speaker_01] la energía potencial depende del campo gravitatorio en este caso estamos considerando que hay un campo gravitatorio entonces con esas energías yo puedo definir el Lagrangiano y puedo calcular el numerito
+
+548
+01:17:19,410 --> 01:17:28,610
+[speaker_01] bueno pues, ese numerito es la acción entonces tú lo calculas para diferentes trayectorias y hay un principio físico muy bonito que es el de mínima acción que me dice
+
+549
+01:17:28,610 --> 01:17:37,790
+[speaker_01] que la trayectoria real, o sea, si yo suelto la piedra lo que va a hacer la piedra es seguir aquella trayectoria que tiene la acción mínima. O sea, de todas las posibles
+
+550
+01:17:37,790 --> 01:17:40,450
+[speaker_01] trayectorias que yo me puedo imaginar en los mundos de Yuppie, cada una tiene su numerito
+
+551
+01:17:41,430 --> 01:17:46,150
+[speaker_01] 28, la que va a Marte y vuelve tiene 400 la que cae al suelo tiene 3
+
+552
+01:17:46,710 --> 01:17:51,870
+[speaker_01] ¿vale? Pues ese 3 es el menor de todos los numeritos que puede hacer de cualquiera de todas las trayectorias
+
+553
+01:17:53,850 --> 01:18:01,450
+[speaker_01] Entonces, esto es un formalismo de la mecánica de la física en la cual tú puedes resolver problemas yo lo podría haber resuelto también aplicando
+
+554
+01:18:02,250 --> 01:18:10,890
+[speaker_01] la fuerza de Newton fuerza igual a masa por aceleración y calculo cómo sigue, qué trayectoria sigue la piedra pero también lo puedo calcular de esa otra forma
+
+555
+01:18:11,350 --> 01:18:12,730
+[speaker_01] es otro formalismo diferente
+
+556
+01:18:13,590 --> 01:18:14,610
+[speaker_01] entonces por eso
+
+557
+01:18:15,870 --> 01:18:21,330
+[speaker_01] me gustaría recuperar lo que hablamos al principio esta discusión filosófica de qué es lo que pasa en la realidad, la piedra realmente
+
+558
+01:18:22,430 --> 01:18:32,650
+[speaker_01] calcula todas las posibles trayectorias y todas las acciones y decide caer hacia abajo porque es la que tiene la mínima? O sea, si alguien viniera y me preguntara ¿qué es lo que hace la piedra realmente?
+
+559
+01:18:33,170 --> 01:18:37,630
+[speaker_01] ¿Siente la fuerza de la gravedad y va siguiendo la fuerza? ¿O se calcula todas las trayectorias?
+
+560
+01:18:38,250 --> 01:18:44,510
+[speaker_01] Yo diría, hombre, las piedras no calculan. Que sepamos, las piedras no calculan nada. La piedra no puede saber cuál es la trayectoria mínima.
+
+561
+01:18:45,210 --> 01:18:48,470
+[speaker_01] Pero es equivalente. Es decir, es otro formalismo matemático
+
+562
+01:18:49,220 --> 01:18:50,360
+[speaker_01] que me da el mismo resultado.
+
+563
+01:18:50,740 --> 01:19:01,270
+[speaker_01] Entonces me gusta traerlo a colación para ilustrar que a veces podemos tener formalismos matemáticos completamente diferentes para describir la misma realidad física llevo mucho rato hablando
+
+564
+01:19:01,270 --> 01:19:07,510
+[speaker_04] es que esto es un tema muy muy muy complicado de explicar
+
+565
+01:19:08,650 --> 01:19:19,870
+[speaker_04] lo primero el formalismo lagrangiano del que estamos hablando es un formalismo que solo se aplica a interacciones fuerzas conservativas
+
+566
+01:19:19,870 --> 01:19:24,250
+[speaker_04] es decir la simetría, la conservación de ciertas magnitudes
+
+567
+01:19:24,250 --> 01:19:41,170
+[speaker_04] se deduce del formalismo lagrangiano, pero es que además es un prerequisito. Si tú coges, por ejemplo, un sistema disipativo, un sistema con rozamiento, no tiene lagrangiano. Si tú coges las ecuaciones de Navier-Stokes para los fluidos, no tienen formulación lagrangiana.
+
+568
+01:19:41,170 --> 01:20:09,090
+[speaker_04] La mayor parte de la realidad clásica que nos rodea no tiene formulación lagrangiana. La formulación lagrangiana es maravillosa en mecánica celeste, porque en mecánica celeste tú asumes que no existen rozamientos, que todos los sistemas se mueven conservando la energía, lo que no es verdad, porque hay pequeños choques, porque hay pequeñas interacciones, porque los objetos pierden energía por fuerzas de marea, desprecian muchos efectos.
+
+569
+01:20:09,090 --> 01:20:27,020
+[speaker_04] Lo que pasa es que los físicos creemos, no sé muy bien por qué, pero así parece ser la naturaleza, que las leyes fundamentales de la naturaleza, las leyes básicas y más primitivas de la naturaleza son conservativas y por lo tanto tienen formulación lagrangiana.
+
+570
+01:20:27,980 --> 01:20:39,720
+[speaker_04] asumimos que la realidad en el nivel más fundamental se puede formular de esta manera con un principio de mínima acción para un formalismo lagrangiano
+
+571
+01:20:39,720 --> 01:20:50,540
+[speaker_04] y eso es lo que hacemos para explicar la gravitación, el electromagnetismo la interacción débil, la interacción fuerte pero no podemos hacerlo para explicar la turbulencia
+
+572
+01:20:50,540 --> 01:20:56,940
+[speaker_04] o la dinámica de fluidos o la dinámica de la atmósfera o la dinámica del magma o la magnetohidrodinámica no podemos
+
+573
+01:20:56,940 --> 01:21:03,980
+[speaker_04] Pero a nivel fundamental, hasta ahora, si lo hacemos, parece que funciona bien ese formalismo.
+
+574
+01:21:04,120 --> 01:21:21,400
+[speaker_04] Entonces, no es verdad que la piedra decida seguir esa mínima acción. Eso no es verdad, porque la piedra está sujeta a rozamientos. La piedra en el vacío y suponiendo que fuera una partícula ideal, no sé cuánto, sí seguiría un formalismo lagrangiano.
+
+575
+01:21:21,400 --> 01:21:24,220
+[speaker_04] pero la piedra física y real
+
+576
+01:21:24,960 --> 01:21:35,400
+[speaker_04] no lo cumple pero no nos importa porque cuando hablamos de física fundamental nos olvidamos de sistemas tan complicados como una piedra ningún físico teórico va a estudiar una piedra
+
+577
+01:21:35,400 --> 01:21:39,000
+[speaker_04] la piedra la estudian los físicos que estudian piedras
+
+578
+01:21:39,000 --> 01:21:48,360
+[speaker_01] de todas formas, solo quería decir una cosa lo que pasa es que la disipación no la solemos tener en cuenta pero la disipación al fin y al cabo no es más que conversión de energía
+
+579
+01:21:48,880 --> 01:21:58,780
+[speaker_01] de energía, digamos, en termodinámica diríamos reversible, como energía cinética en una forma de energía irreversible, como energía térmica, o sea, al final esa energía no se pierde, se convierte
+
+580
+01:21:58,780 --> 01:22:00,740
+[speaker_01] en calor, en las moléculas, bueno, en fin
+
+581
+01:22:01,260 --> 01:22:02,540
+[speaker_04] Claro, pero estamos diciendo
+
+582
+01:22:03,760 --> 01:22:14,520
+[speaker_04] el formalismo lagrangiano no es aplicable cuando metes fuerzas, ahora bien si yo asumo que las leyes fundamentales de la realidad son lagrangianas, son conservativas
+
+583
+01:22:15,440 --> 01:22:26,360
+[speaker_04] obviamente las leyes derivadas que incluyen el rozamiento las pérdidas, etcétera, tienen que surgir de ellas, tienen que emerger de alguna forma, y acabarán emergiendo de alguna forma, pero
+
+584
+01:22:26,360 --> 01:22:35,580
+[speaker_04] esa transición no es nada trivial o sea, explicar con teoría cuántica de campos cómo actúa el rozamiento de las moléculas del aire a día de hoy es imposible
+
+585
+01:22:36,320 --> 01:22:46,700
+[speaker_04] asumimos que se podría hacer que un ser suficientemente inteligente con suficiente capacidad podría hacerlo pero a priori eso no es nada trivial, de hecho la transición
+
+586
+01:22:46,700 --> 01:22:55,720
+[speaker_04] entre un sistema cuántico y un sistema clásico conforme se incrementan el número de partículas todavía es una incógnita, pero lo que sí quiero decir
+
+587
+01:22:55,720 --> 01:23:01,420
+[speaker_04] es que para leyes fundamentales el formalismo lagrangiano y el principio de minimización es verdad, para cosas
+
+588
+01:23:02,780 --> 01:23:12,560
+[speaker_04] fundamentales, aplícamelo a un electrón pero nunca me lo apliques a una piedra, es que Lagrange lo aplicó a las piedras, vale, lo aplicó a las piedras pero que el pobre Lagrange no sabía que existían los electrones
+
+589
+01:23:13,040 --> 01:23:21,240
+[speaker_01] Sí, vamos a ver, lo que quiero es empezar por una cosa Cosa sencilla, clásica, antes de meternos en la cosa complicada cuántica.
+
+590
+01:23:21,700 --> 01:23:31,520
+[speaker_01] ¿Por qué lo digo? Porque de esta forma, ahí puedes aplicar esto de la conservación de energía, lo que tú decías, Nacho, que ese sistema, vamos a olvidarnos de momento del rozamiento.
+
+591
+01:23:32,020 --> 01:23:36,560
+[speaker_01] Entonces, en ese sistema en el que tú puedes definir esa acción,
+
+592
+01:23:37,380 --> 01:23:40,820
+[speaker_01] tú encuentras una cantidad que se conserva, que es lo que llamamos la energía.
+
+593
+01:23:41,480 --> 01:23:45,920
+[speaker_01] Si tuvieras un rozamiento, ya la energía no se conserva. Es que estamos en la misma mecánica clásica.
+
+594
+01:23:46,280 --> 01:23:48,520
+[speaker_01] O sea, estoy intentando empezar por la parte clásica.
+
+595
+01:23:49,140 --> 01:23:51,800
+[speaker_01] Vamos a despreciar el rozamiento y las pérdidas de energía, ¿no?
+
+596
+01:23:52,340 --> 01:23:53,440
+[speaker_01] Entonces ya no se conservaría.
+
+597
+01:23:53,440 --> 01:23:54,400
+[speaker_03] Sí, estamos hablando de un experimento ideal.
+
+598
+01:23:54,640 --> 01:24:01,820
+[speaker_01] Es un experimento ideal para ilustrar que, en ese caso, lo que nos dice el teorema de Néter es que, en ese sistema,
+
+599
+01:24:02,560 --> 01:24:11,560
+[speaker_01] donde existe esa simetría, en este caso en el tiempo, hay otras simetrías que podemos discutir, pero esa en el tiempo nos da y nos dice cuál es esa cantidad. Porque, claro, no es simplemente decir
+
+600
+01:24:11,560 --> 01:24:19,780
+[speaker_01] hay una cantidad que se conserva y viste tú sabes cuál es, sino que el teorema te dice que hay una determinada cantidad que es la energía, la energía total de la piedra que se conserva
+
+601
+01:24:20,300 --> 01:24:29,260
+[speaker_03] de hecho creo que es importante cuando has hablado del tema de donde prueban los físicos las simetrías es en la acción
+
+602
+01:24:29,260 --> 01:24:37,200
+[speaker_03] en lo que tú comentabas, la función esa que has definido sobre las trayectorias si para nosotros
+
+603
+01:24:40,880 --> 01:24:52,360
+[speaker_03] una simetría es una transformación de la variable esta que está variando, que es por ejemplo la posición que tú comentabas, en este caso tal que la acción
+
+604
+01:24:52,360 --> 01:24:55,890
+[speaker_03] no cambia es decir, eso sería una
+
+605
+01:24:56,610 --> 01:25:00,250
+[speaker_03] simetría del sistema tal que si la aplico
+
+606
+01:25:00,250 --> 01:25:06,490
+[speaker_01] y no cambia la acción, esa función que tú has descrito, entonces eso sería una simetría del sistema, y ahí por ejemplo
+
+607
+01:25:06,490 --> 01:25:18,210
+[speaker_03] entraría la que habíamos hablado antes si repito ese mismo experimento de soltar la piedra dentro de tres años y se produce lo mismo, sabemos que tiene simetría temporal. O sea, es porque la
+
+608
+01:25:18,210 --> 01:25:25,950
+[speaker_03] acción no distingue entre hacerlo en el tiempo hoy o dentro de un tiempo más otro, más un delta de tiempo, más un intervalo de tiempo posterior.
+
+609
+01:25:26,410 --> 01:25:34,310
+[speaker_03] Lo mismo con variar el experimento de sitio o girar todo el experimento. Un comentario,
+
+610
+01:25:34,330 --> 01:25:45,850
+[speaker_02] yo interpreto lo que ha dicho Francis y me corrige si no es así, en términos un poco de lo que estabas proponiendo tú antes, Héctor, cuando decías este mundo en el que tú no podías
+
+611
+01:25:45,850 --> 01:25:56,450
+[speaker_02] distinguir entre la gravitación y la relatividad general. Si tú estuvieras en un mundo en el que no supieses cuáles son las leyes subyacentes y observaras que hay rozamiento y que por lo tanto
+
+612
+01:25:56,450 --> 01:26:06,770
+[speaker_02] el objeto está perdiendo energía, quizá tú no pensarías instantáneamente que las leyes de la física conservan la energía. Es decir, lo que sucede es que nosotros ahora observamos ese
+
+613
+01:26:06,770 --> 01:26:16,790
+[speaker_02] ese rozamiento y lo interpretamos en términos de cosas conservativas y decimos no no esa energía está siendo energía térmica en el suelo estás moviendo las moléculas estás perdiendo energía
+
+614
+01:26:16,790 --> 01:26:27,030
+[speaker_02] por eso pero realmente ha costado tanto llegar llegar a esta formulación de la física en términos de simetrías y de cosas conservadas porque hay muchas cosas que no están conservadas entonces
+
+615
+01:26:27,030 --> 01:26:38,370
+[speaker_02] llegarte a convencer de que los fenómenos en los que no se conservan esas magnitudes son fenómenos explicables en base a interacciones que sí las conservan pues ha sido un camino largo
+
+616
+01:26:38,370 --> 01:26:39,090
+[speaker_02] y a veces tortuoso
+
+617
+01:26:39,090 --> 01:26:45,670
+[speaker_03] Lo bueno por seguir avanzando un poquito en el tema es que después de este teorema de Mineter
+
+618
+01:26:46,170 --> 01:26:50,290
+[speaker_03] unido con el grandísimo éxito que tuvo la Relatividad Especial y General
+
+619
+01:26:51,240 --> 01:27:00,440
+[speaker_03] yo creo que es cuando se produce ese cambio de paradigma que los físicos se dan cuenta que de repente lo de las leyes de conservación están muy bien pero que explorar las simetrías de la
+
+620
+01:27:00,440 --> 01:27:06,320
+[speaker_03] la naturaleza es realmente lo que nos va a dar luz en el siguiente progreso del entendimiento
+
+621
+01:27:06,320 --> 01:27:12,640
+[speaker_03] de la física. Y es a partir de ese momento yo creo que es donde explosiona la física
+
+622
+01:27:12,640 --> 01:27:20,620
+[speaker_03] de la mitad del siglo XX hasta el final del siglo XX, donde los físicos empiezan a explorar
+
+623
+01:27:21,700 --> 01:27:32,420
+[speaker_03] simetrías, a proponer simetrías y ver qué se deriva de ellas. Y ahora entraremos en en ellas un poquito más, con las simetrías, por ejemplo, en la mecánica cuántica y todo eso.
+
+624
+01:27:32,580 --> 01:27:37,660
+[speaker_03] Pero fíjate, hasta el año 1918, que es cuando se produce este teorema de Néter,
+
+625
+01:27:38,540 --> 01:27:43,020
+[speaker_03] uno dice, la simetría traslacional implica la conservación del momento,
+
+626
+01:27:43,680 --> 01:27:50,140
+[speaker_03] la simetría rotacional, la del momento angular, la simetría temporal, la conservación de la energía,
+
+627
+01:27:50,740 --> 01:28:02,240
+[speaker_03] y la simetría bajo el cambio de fase de las funciones de ondas de las partículas cargadas, la conservación de la carga eléctrica es decir, a principios del siglo XX todavía sin meternos en la cuántica
+
+628
+01:28:02,240 --> 01:28:11,080
+[speaker_03] ya teníamos por esas leyes por esas simetrías en las leyes las conservaciones de cuatro
+
+629
+01:28:12,440 --> 01:28:15,660
+[speaker_03] cosas tan importantes como energía, momento el tiempo y la carga eléctrica
+
+630
+01:28:16,260 --> 01:28:22,460
+[speaker_01] yo ahora aquí me surgen unas dudas a partir ya de este punto que es donde no entiendo yo como es el proceso
+
+631
+01:28:23,320 --> 01:28:25,100
+[speaker_01] lógico, mental por el cual
+
+632
+01:28:26,920 --> 01:28:37,420
+[speaker_01] hemos llegado a aprender cosas me gustaría pedirle a Francis y Alberto que nos expliquen un poco cómo ha sido entonces la aplicación de estos principios que yo
+
+633
+01:28:37,420 --> 01:28:47,740
+[speaker_01] en términos clásicos los entiendo parece todo muy razonable y muy sencillo de entender, cómo esto nos permite construir un modelo estándar, por ejemplo vamos a empezar por ejemplo
+
+634
+01:28:47,740 --> 01:28:50,600
+[speaker_01] hablando de qué queremos decir cuando decimos bueno, ustedes vean cómo
+
+635
+01:28:51,560 --> 01:29:00,640
+[speaker_01] explicarlo porque yo no lo tengo muy claro Claro, pero yo veo que se habla del grupo, el SU2 y el SU3 como representativos de la interacción débil y fuerte.
+
+636
+01:29:01,200 --> 01:29:07,780
+[speaker_01] Y claro, yo matemáticamente entiendo que eso va de unas matrices y tal, pero no veo la conexión con la física de esto.
+
+637
+01:29:07,880 --> 01:29:13,860
+[speaker_03] A ver si me lo pueden aclarar. Por concretar, la pregunta sería, ¿las simetrías en la física clásica son lo que hemos explicado?
+
+638
+01:29:14,600 --> 01:29:21,500
+[speaker_03] ¿En qué se diferencian con respecto a las simetrías en la visión moderna, en la mecánica cuántica?
+
+639
+01:29:21,960 --> 01:29:28,340
+[speaker_03] ¿Es simplemente un desarrollo de estas ideas antiguas pero aplicado al nuevo formalismo o hay algo nuevo?
+
+640
+01:29:28,780 --> 01:29:30,080
+[speaker_03] Esa sería un poco la pregunta.
+
+641
+01:29:30,720 --> 01:29:41,700
+[speaker_02] Bueno, en cuántica tú sigues manteniendo esas simetrías. O sea, tú cuando haces el formalismo cuántico no renuncias a esas simetrías que son cosas muy lógicas.
+
+642
+01:29:41,760 --> 01:29:47,380
+[speaker_02] Que ciertas leyes no han de cambiar con el tiempo, que ciertas leyes son invariantes bajo rotaciones. Eso lo sigues teniendo.
+
+643
+01:29:47,380 --> 01:29:59,520
+[speaker_02] Y de hecho obtienes la conservación de las mismas magnitudes que tienes en física clásica. Lo que pasa es que el formalismo es un poco diferente y tal. Si todo se puede aplicar, obtienes la misma conservación.
+
+644
+01:29:59,520 --> 01:30:28,350
+[speaker_02] Lo que cambia cuando tú empiezas a trabajar con campos y todo esto es que empiezas a buscar simetrías internas, es decir, empiezas a buscar magnitudes o cambios bajo los cuales tus objetos fundamentales que son los campos son simétricos pero que no tienen una interpretación física tan sencilla como estoy haciendo una traslación en el espacio.
+
+645
+01:30:28,350 --> 01:30:52,190
+[speaker_02] Tú hace un momento has hablado de los cambios en la fase del campo que te lleva a tener la conservación de la carga eléctrica. Esa idea no es en absoluto trivial. Es decir, la fase de un campo es que tú sabes que ese campo lo puedes representar por un número complejo y los números complejos tienen un módulo que es como la longitud de un vector y una fase que es como el ángulo de ese vector.
+
+646
+01:30:52,190 --> 01:30:59,640
+[speaker_02] espectro. Ese ángulo es un ángulo abstracto, es decir, tú no ves electrones con ángulos ni nada
+
+647
+01:30:59,640 --> 01:31:07,800
+[speaker_02] por el estilo. Y sin embargo, cuando pides que la teoría sea invariante bajo ese cambio en el ángulo,
+
+648
+01:31:07,980 --> 01:31:19,900
+[speaker_02] tú obtienes la conservación de la carga eléctrica. Y eso se debe a que muchas de las simetrías importantes en teoría cuántica de campos son simetrías internas de los campos. Son simetrías
+
+649
+01:31:19,900 --> 01:31:31,540
+[speaker_02] que tú ves por estas propiedades conservadas o por las propiedades de las interacciones, pero no tanto porque puedas observar la partícula y de ahí deducir estos cambios en la simetría.
+
+650
+01:31:31,600 --> 01:31:38,400
+[speaker_02] Son cambios internos que realmente uno se podría preguntar si están realizados en la naturaleza
+
+651
+01:31:38,400 --> 01:31:48,380
+[speaker_02] o son solo herramientas matemáticas que estamos utilizando para justificar que existe la carga eléctrica y se conserva o que existen este tipo de interacciones para la interacción fuerte o algo por el estilo.
+
+652
+01:31:48,380 --> 01:32:10,480
+[speaker_02] Por eso hace un rato cuando Francis y yo comentábamos que ves que se unifican la intensidad de la interacción débil y electromagnética, tú obtienes de repente un espaldarazo a todas estas cosas.
+
+653
+01:32:10,480 --> 01:32:24,580
+[speaker_02] Dices, yo todas estas cosas que podrían ser una mera herramienta estoy de repente encontrándolas en un experimento y por lo tanto de alguna manera me da cierta seguridad de que lo que estoy haciendo no es un juego, sino que es algo que tiene que ver con cómo la naturaleza funciona.
+
+654
+01:32:25,460 --> 01:32:34,580
+[speaker_04] Si me permitís un pequeño inciso siguiendo la línea de lo que decía Nacho. Aquí esto es historia de la ciencia, historia de la física y a veces es complicado contarlo en pocas palabras.
+
+655
+01:32:34,580 --> 01:32:59,070
+[speaker_04] El electromagnetismo es una teoría de Maxwell que incumple las leyes de Newton, es decir, las simetrías usuales asociadas al electromagnetismo son diferentes a las que implican la teoría de Newton.
+
+656
+01:32:59,070 --> 01:33:19,350
+[speaker_04] Y eso se descubre a finales del siglo XIX y es lo que da lugar a principios del siglo XX a la teoría de la relatividad especial de Einstein. Einstein se da cuenta, deduce, Lorenz y Einstein y Poincaré y Fitzgerald y varios físicos, matemáticos, deducen unas nuevas leyes de simetría asociadas al electromagnetismo.
+
+657
+01:33:19,350 --> 01:33:33,110
+[speaker_04] Y dicen, estas nuevas leyes de simetría para la mecánica asociada a procesos electromagnéticos podrían ser verdad para la mecánica en general, la mecánica de todos los objetos.
+
+658
+01:33:33,110 --> 01:33:49,710
+[speaker_04] Y eso nos lleva a la relatividad. Y eso nos introduce en principios del siglo XX en la idea de David Hilbert de que toda la realidad es matematizable y de que toda la realidad en última instancia es geométrica, es describible toda la física de manera geométrica.
+
+659
+01:33:49,710 --> 01:33:59,710
+[speaker_04] Hilbert extiende lo que se llama el programa de Klein para geometrizar toda la matemática la idea de Klein es geometrizar toda la matemática es geometría
+
+660
+01:33:59,710 --> 01:34:05,490
+[speaker_04] y Hilbert dice, no, no solo toda la matemática es geometría toda la física es geometría
+
+661
+01:34:06,150 --> 01:34:15,450
+[speaker_04] Amy Netter es alumna de Klein, es alumna de Hilbert y sigue los trabajos de ellos y trata de geometrizar la teoría de la relatividad de Einstein
+
+662
+01:34:15,450 --> 01:34:19,330
+[speaker_04] que es claramente geométrica, pero que tenía un enorme problema
+
+663
+01:34:19,330 --> 01:34:45,910
+[speaker_04] Y es el concepto de energía. El concepto de energía en la teoría de la realidad de Einstein no está bien definido. Y para tratar de dar un sentido al concepto de energía es para lo que Hilbert pone a Emi Neter a trabajar en lo que ahora llamamos teoremas de Neter, que son los teoremas que relacionan para lo que llamaba Héctor la acción, que es cómo cambia, cómo se integra la energía, cómo evoluciona la energía en un cierto intervalo de tiempo en un sistema.
+
+664
+01:34:45,910 --> 01:35:02,030
+[speaker_04] Eso básicamente es la acción. La acción se conserva o se minimiza en las trayectorias de un sistema. Minimizan esa acción. Pues tratar de seguir esta idea en relatividad general para obtener un concepto de energía. Y esto nos lleva a una teoría. Porque fijaros, algo realmente sorprendente.
+
+665
+01:35:02,030 --> 01:35:27,510
+[speaker_04] Y es que la teoría general de la relatividad, que está inspirada en la relatividad especial, que está inspirada en el electromagnetismo, la teoría general de la relatividad es como una especie de electromagnetismo avanzado. Tiene simetrías muy parecidas a las del electromagnetismo. Y eso lo descubre Weil. Son las simetrías gauge, las simetrías de contraste, las simetrías que tienen que comparten en común el electromagnetismo y la gravitación.
+
+666
+01:35:27,510 --> 01:35:42,330
+[speaker_04] Por eso es posible, por ejemplo, construir ecuaciones en cinco dimensiones que incorporen la gravitación y el electromagnetismo. En un espacio-tiempo de cinco dimensiones yo puedo poner las mismas ecuaciones para electromagnetismo y gravitación. Eso se llama la teoría de Calusa-Klein.
+
+667
+01:35:42,330 --> 01:35:52,670
+[speaker_04] pues todo eso es de principio de la década de los 20 entonces cuando llega a finales de la década de los 20 y Dirac introduce la ecuación para el electrón, la ecuación relativista
+
+668
+01:35:52,670 --> 01:36:02,510
+[speaker_04] para el electrón, Dirac se da cuenta de algo sorprendente, que es lo que comentaba Nacho comentaba Nacho de que cuando yo cambio la fase se conserva la fase, se conserva la carga eléctrica, no es pre-nether
+
+669
+01:36:02,510 --> 01:36:07,430
+[speaker_04] no está en el electromagnetismo clásico es un resultado de la teoría de Dirac
+
+670
+01:36:09,010 --> 01:36:15,810
+[speaker_04] estaba un poco en el aire en ese momento pero dirá que es el que lo instancia y es el hecho de que si la función de onda tiene fase es una
+
+671
+01:36:15,810 --> 01:36:26,050
+[speaker_04] función compleja una flechita que tiene un módulo apunta hacia un sitio y además tiene un ángulo pues si ese ángulo no influye en las magnitudes físicas porque no es medible entonces yo sólo
+
+672
+01:36:26,050 --> 01:36:31,710
+[speaker_04] puedo medir probabilidades que la función de un al cuadrado entonces cuando yo mido el módulo del
+
+673
+01:36:31,710 --> 01:36:41,990
+[speaker_04] tamaño de la flechita no mido el ángulo entonces el ángulo es algo no medible por lo tanto las Las leyes físicas tienen que ser invariantes a este ángulo, ¿no?
+
+674
+01:36:42,110 --> 01:36:45,210
+[speaker_04] Pues si yo cambio el ángulo en todos los lugares del universo,
+
+675
+01:36:45,830 --> 01:36:47,930
+[speaker_04] hago lo que se llama una transformación global.
+
+676
+01:36:49,090 --> 01:36:56,890
+[speaker_04] Pero si yo digo, ¿y por qué? Yo no puedo hacer una transformación global. Yo no puedo irme a un lugar muy alejado del universo por la relatividad especial.
+
+677
+01:36:57,030 --> 01:37:05,670
+[speaker_04] Está prohibido, muy lejano, y cambiar el ángulo que me afecte aquí. Yo tengo que hacer transformaciones locales. Y si hago las transformaciones locales, resulta que en la teoría aparece algo.
+
+678
+01:37:05,670 --> 01:37:17,410
+[speaker_04] algo, tiene que aparecer algo que compense esa pequeña transformación local y da la casualidad que en la teoría de Dirac lo que aparece es el electromagnetismo, que la teoría de Dirac sea invariante
+
+679
+01:37:17,410 --> 01:37:26,910
+[speaker_04] ante ángulos, ante variaciones de la fase de la función de onda del electrón automáticamente me obliga, si esa variación es local, me obliga a introducir algo que lo compense
+
+680
+01:37:26,910 --> 01:37:37,390
+[speaker_04] y ese algo coincide exactamente con las ecuaciones del electromagnetismo, luego el electromagnetismo se deduce aparece de manera natural de una simetría
+
+681
+01:37:37,390 --> 01:37:49,370
+[speaker_04] de las ecuaciones para el electrón esa idea es tan bella tan bella en 1928 que muchos físicos tratan de extenderla a otras interacciones, a otras
+
+682
+01:37:49,370 --> 01:38:01,370
+[speaker_04] partículas conforme se van descubriendo partículas y por eso esa idea es la que ha construido el modelo estándar pero hemos de tener en cuenta algo muy importante es que en 1968 en España no
+
+683
+01:38:01,370 --> 01:38:09,090
+[speaker_04] había ni un solo físico trabajando en teorías gauge, porque se suponía que las teorías gauge eran eran basura, que esta idea de la simetría era basura, era una teoría incorrecta
+
+684
+01:38:09,510 --> 01:38:15,570
+[speaker_04] y solamente a partir de 1973 todo el mundo se pone a trabajar en esa idea, es decir tampoco que
+
+685
+01:38:16,530 --> 01:38:18,650
+[speaker_04] es decir, la idea original de Hilbert
+
+686
+01:38:19,350 --> 01:38:30,950
+[speaker_04] muere en gran parte durante el siglo XX, sobre todo tras los trabajos de Gödel que destrozan muchas de las ideas en matemáticas de Hilbert y pasan a ser una cosa de poca moda y unos pocos físicos, pero
+
+687
+01:38:30,950 --> 01:38:40,950
+[speaker_04] esos pocos físicos siguen trabajando y sorprendentemente la realidad les da la razón y a partir aproximadamente en 1973, ya todo el mundo se vuelca a que la realidad es simétrica, que las simetrías son los fundamentos de
+
+688
+01:38:40,950 --> 01:38:50,870
+[speaker_04] todo, a que toda la física se puede entender como simetrías. Pero cuidado, cuidado, cuidado, que ha habido gran parte del siglo XX en que eso era mentira y puede que dentro de unos siglos vuelva a ser mentira.
+
+689
+01:38:51,250 --> 01:38:54,570
+[speaker_04] Pero ahora mismo estamos en una época en la que copiar
+
+690
+01:38:55,090 --> 01:38:56,490
+[speaker_04] las simetrías del electromagnetismo
+
+691
+01:38:57,130 --> 01:38:58,670
+[speaker_04] nos ha permitido deducir
+
+692
+01:38:59,390 --> 01:39:04,870
+[speaker_04] la relatividad y nos ha permitido deducir el modelo estándar. El modelo estándar básicamente son copias
+
+693
+01:39:06,210 --> 01:39:10,250
+[speaker_04] avanzadas, ligeramente modificadas del electromagnetismo clásico en su versión cuántica
+
+694
+01:39:10,890 --> 01:39:12,730
+[speaker_04] ¿Por qué la realidad es así? No lo sabemos
+
+695
+01:39:13,510 --> 01:39:17,750
+[speaker_04] ¿Pero realmente es así? Tampoco lo sabemos, pero ahora mismo es lo mejor que tenemos
+
+696
+01:39:18,350 --> 01:39:21,390
+[speaker_01] Vale, me surgen algunas dudas, pero creo que Alberto quería comentar algo también
+
+697
+01:39:21,390 --> 01:39:33,170
+[speaker_02] Nada, solo quiero apostillar una cosa que ya ha dicho Francis que es que lo potente de esa analogía con el electromagnetismo es que tú o sea, antes se ha explicado Nacho cómo a partir de la simetría sacas leyes
+
+698
+01:39:33,170 --> 01:39:44,910
+[speaker_02] de conservación, cuando tú aplicas esto a simetrías internas de los campos y las haces locales y dices no, hay ciertas cosas en los campos que son indistinguibles, la fase del campo
+
+699
+01:39:44,910 --> 01:39:56,830
+[speaker_02] por ejemplo, o los colores de los quarks, yo no puedo distinguir un quark verde de un quark rojo de un quark azul que son las tres cargas de la interacción fuerte, cuando dices que esas cosas las puedes cambiar pero
+
+700
+01:39:56,830 --> 01:40:02,390
+[speaker_02] solo localmente porque debido a la relatividad los cambios no se pueden propagar distancias
+
+701
+01:40:02,390 --> 01:40:25,710
+[speaker_02] simetrías arbitrariamente grandes, en tiempos arbitrariamente pequeños, esa variación local de esas simetrías internas te da lugar a campos que han de compensar esa variación. Y esos campos resulta que son los famosos bosones asociados a las interacciones. Cuando tú haces eso con la simetría de fase del electromagnetismo, de repente te aparece el fotón.
+
+702
+01:40:25,710 --> 01:40:35,510
+[speaker_02] cuando tú haces eso asociado a los cambios de color en la interacción fuerte te aparecen los gluones es decir, te aparecen unos campos con una serie de propiedades que tú luego resulta que vas
+
+703
+01:40:35,510 --> 01:40:45,830
+[speaker_02] encontrando en la naturaleza y por eso dice Francis que la naturaleza le va dando la razón a esta idea, porque resulta que se van encontrando partículas correspondientes a las excitaciones de esos campos
+
+704
+01:40:45,830 --> 01:40:49,230
+[speaker_02] y podría no haber sido así pero resulta que sí que ha sido así
+
+705
+01:40:49,230 --> 01:40:51,310
+[speaker_03] Pero aquí deberíamos parar un poco porque
+
+706
+01:40:52,490 --> 01:40:56,630
+[speaker_03] me surge la duda no sé si está relacionada con la que le puede surgir a Héctor también es
+
+707
+01:40:58,690 --> 01:41:01,470
+[speaker_03] nosotros postulamos la simetría a priori
+
+708
+01:41:01,850 --> 01:41:05,090
+[speaker_03] y entonces, por ejemplo, tú decías en la
+
+709
+01:41:06,350 --> 01:41:17,630
+[speaker_03] fuerza fuerte, ¿no? Postulamos esta simetría y por lo tanto tenemos ocho gluones o es al revés, es decir, tenemos evidencia, tenemos indicios observacionales de que hay ocho gluones, por lo tanto la simetría que hay
+
+710
+01:41:17,630 --> 01:41:18,330
+[speaker_03] debajo es esta.
+
+711
+01:41:19,130 --> 01:41:20,830
+[speaker_03] ¿Cómo se alimenta esto?
+
+712
+01:41:21,890 --> 01:41:23,610
+[speaker_02] Normalmente ha sido por lo segundo.
+
+713
+01:41:23,610 --> 01:41:48,030
+[speaker_02] En el caso de la interacción fuerte no fue porque hubiese evidencias de que había ocho gluones, sino porque había evidencias de que había tres colores para los quarks. Tú veías cuál era el ritmo de producción de una serie de partículas cuando se superaban el umbral de la masa de algunos quarks y resulta que te parecía multiplicado por tres, lo cual te hacía deducir que parecía haber tres tipos de esos quarks cuando podías producirlo.
+
+714
+01:41:48,030 --> 01:42:05,410
+[speaker_02] Y eso, a ver, quiero decir, no fue solo eso, pero fueron una serie de conjuntos de evidencias que te hacía pensar que había una propiedad interna de los quarks que tú no estabas observando, pero que hacía que tú pudieses distinguir quarks diferentes.
+
+715
+01:42:05,410 --> 01:42:21,410
+[speaker_02] Por ejemplo, otra evidencia fue que tenías unas partículas en las que tenías tres quarks idénticos con los tres espines idénticos en la misma dirección. Y tú sabes que los quarks son fermiones y que los fermiones no pueden estar todos en el mismo estado al mismo tiempo.
+
+716
+01:42:21,410 --> 01:42:41,150
+[speaker_02] Entonces, al ver que esos tres quarks idénticos estaban en esa partícula, tú deducías que tenía que haber un grado de libertad interno de los quarks que los distinguía. Entonces, empezabas a pensar, pues bueno, igual este quark tiene este grado de libertad que vale uno, otro dos y otro tres, pero en lugar de llamarle uno, dos y tres, pues le llamamos azul, rojo y verde y le llamamos color.
+
+717
+01:42:41,150 --> 01:42:53,330
+[speaker_02] Entonces, hubo toda una serie de evidencias que te hacían pensar que los quarks venían en esas tres variedades, tenían esos tres grados de libertad internos. Entonces, tú le pides eso a la teoría y la teoría de repente te escupe los ocho gluones.
+
+718
+01:42:53,330 --> 01:43:17,450
+[speaker_04] Y cuidado, una cosita importante que a veces se olvida, la existencia de 8 gluones no es un hecho observacional, no podemos observar los gluones, los gluones como los quarks son partículas que no se pueden observar, se deducen de forma indirecta, entonces no sabemos si hay 8 gluones, 6 gluones o 25 gluones.
+
+719
+01:43:17,450 --> 01:43:29,030
+[speaker_04] Lo que sí sabemos es que las propiedades de las partículas que podemos observar, que son partículas compuestas de quarks y gluones, tienen ciertos parámetros que dependen de un 8.
+
+720
+01:43:29,960 --> 01:43:40,920
+[speaker_04] Y entonces los parámetros observados experimentalmente, de manera indirecta, nos indican que tiene que haber 8 gluones. Pero no hemos observado ningún gluón y no hemos observado que haya 8 gluones distintos.
+
+721
+01:43:41,860 --> 01:43:48,680
+[speaker_04] No los hemos observado. pero deducimos que deben existir 8 porque ciertos parámetros dependen de ese número 8
+
+722
+01:43:48,680 --> 01:43:59,300
+[speaker_03] es interesante aquí a puntillar que mientras que las simetrías que veíamos en la física clásica eran relativamente intuitivas en el sentido de que uno podía decir
+
+723
+01:43:59,300 --> 01:44:03,940
+[speaker_03] bueno, no va a cambiar nada porque haga el experimento hoy a que lo haga mañana
+
+724
+01:44:04,820 --> 01:44:12,620
+[speaker_03] mientras que las simetrías de las que estamos hablando aquí ahora que han creado el modelo de física particular moderno
+
+725
+01:44:12,620 --> 01:44:39,320
+[speaker_03] Son simetrías distintas, no era una que tú te sentabas y decías voy a suponer que la simetría es el grupo SU3 o lo que sea, sino que es algo que creas a partir de los indicios observacionales mezclados con ciertas intuiciones teóricas, pero que no son, a nadie se le ocurre por decir algo, no, la simetría de la naturaleza es el SU3, no, eso no es por decir algo.
+
+726
+01:44:39,320 --> 01:44:43,420
+[speaker_03] algo, ¿no? Me explico, no sé, que son más abstractas.
+
+727
+01:44:43,460 --> 01:44:47,940
+[speaker_01] Yo lo oí con la pregunta que yo iba a hacer, ¿no? Entonces voy a formularla. Es la siguiente. Entonces,
+
+728
+01:44:49,360 --> 01:44:55,540
+[speaker_01] esto que se dice, yo creo que se exagera un poco con esto de las simetrías, porque como suena muy bonito y muy grandilocuente,
+
+729
+01:44:55,900 --> 01:45:00,960
+[speaker_01] y muchas veces oímos frases del tipo de que es que todo se deriva de las simetrías fundamentales,
+
+730
+01:45:01,940 --> 01:45:04,880
+[speaker_01] que es una cosa que yo no entendía, porque yo clásicamente, con la
+
+731
+01:45:05,360 --> 01:45:12,500
+[speaker_01] forma en la que yo veo esto clásicamente, tú ya partes primero de una física y luego la simetría te permite desarrollar cosas. El ejemplo de la piedra
+
+732
+01:45:13,280 --> 01:45:15,860
+[speaker_01] tú ya partes de que tú sabes cómo es el campo gravitatorio
+
+733
+01:45:16,620 --> 01:45:21,500
+[speaker_01] ¿cuál es la energía potencial gravitatoria? Para poder construir la acción y para poder construir esa simetría
+
+734
+01:45:22,440 --> 01:45:29,560
+[speaker_01] Francis nos ponía un ejemplo que yo no conocía el desarrollo histórico pero me parece precioso, así como lo ha explicado, de la ecuación de Dirac para el electrón
+
+735
+01:45:32,280 --> 01:45:37,820
+[speaker_01] pero partes de esa física, partes de la la física del electrón de Dirac y entonces
+
+736
+01:45:39,120 --> 01:45:42,320
+[speaker_01] la simetría te permite sacar el electromagnetismo de ahí.
+
+737
+01:45:43,040 --> 01:45:50,800
+[speaker_01] Si lo he entendido correctamente es así como lo has explicado, ¿verdad Francis? Me parece alucinante. Pero insisto, ya tienes una física de partida, ¿no? Tienes que tener un conocimiento de partida
+
+738
+01:45:50,800 --> 01:45:54,200
+[speaker_01] de la física y luego las simetrías te permiten sacar más información, ¿no?
+
+739
+01:45:55,160 --> 01:45:55,920
+[speaker_04] En física
+
+740
+01:45:56,620 --> 01:46:06,740
+[speaker_04] tenemos la realidad y queremos entender la realidad. Esto no es matemática, ¿vale? O sea, no es una cuestión de que que yo me ponga a pensar posibles grupos, no es la clasificación
+
+741
+01:46:06,740 --> 01:46:16,660
+[speaker_04] de Cartan, de todos los grupos compactos de Lee, no es pensar sino es ver entonces en física lo que hacemos es ver y tratar de entender, y una de las cosas importantes
+
+742
+01:46:16,660 --> 01:46:28,160
+[speaker_04] en física para ver y entender la realidad es quitar detalles quitar detalles innecesarios entonces toda esta idea de la simetría ha ido surgiendo conforme hemos tratado de entender la física
+
+743
+01:46:28,160 --> 01:46:39,800
+[speaker_04] eliminando detalles, por ejemplo Heisenberg introdujo el spin pin isotópico, porque se dio cuenta de que dentro de los núcleos los neutrones y los protones se comportan
+
+744
+01:46:39,800 --> 01:46:41,420
+[speaker_04] como si fueran indistinguibles
+
+745
+01:46:42,080 --> 01:46:51,960
+[speaker_04] pero tú dices, pero claro, un protón tiene carga eléctrica y un neutrón no sí, pero dentro de un núcleo la carga eléctrica prácticamente no influye entonces yo puedo quitar ese pequeño detalle
+
+746
+01:46:51,960 --> 01:47:01,960
+[speaker_04] olvidémonos de la carga eléctrica, imaginemos que el neutrón y el protón son dos partículas indistinguibles y resulta que obtuvo una descripción muy buena de los
+
+747
+01:47:01,960 --> 01:47:07,220
+[speaker_04] los núcleos de los átomos y los espectros de los núcleos de los átomos de cómo funciona la
+
+748
+01:47:07,220 --> 01:47:15,720
+[speaker_04] radioactividad haciendo esa hipótesis es decir la interacción fuerte efectiva que une protones y
+
+749
+01:47:15,720 --> 01:47:23,700
+[speaker_04] neutrones dentro de un núcleo no ve diferencia en la carga eléctrica la ve en otra propiedad que
+
+750
+01:47:23,700 --> 01:47:32,680
+[speaker_04] tienen protones y neutrones yukawa dijo será que se intercambian partículas como los fotones que que son unos mesones, unas partículas de masa intermedia
+
+751
+01:47:32,680 --> 01:47:37,380
+[speaker_04] que actúan como los fotones en el electromagnetismo cuántico, en la electrodinámica cuántica.
+
+752
+01:47:37,740 --> 01:47:43,380
+[speaker_04] Entonces, ese tipo de ideas han ido surgiendo. Cuando se descubrieron los piones, por ejemplo, se descubrió que los piones hay tres,
+
+753
+01:47:44,060 --> 01:47:52,020
+[speaker_04] bueno, hemos dicho hay cuatro, hay dos piones neutros y dos piones, uno de carga positiva y otro negativa. Y se dijo, pero tienen masas muy parecidas.
+
+754
+01:47:53,000 --> 01:48:03,400
+[speaker_04] Imaginemos que son cuatro estados indistinguibles de una misma partícula. y veamos qué pasa, y se fueron construyendo modelos, de ahí surgió el modelo
+
+755
+01:48:03,400 --> 01:48:15,040
+[speaker_04] SU2, son modelos efectivos cuando se empezó a hablar de que los protones y neutrones tenían que estar hechos de tres objetos elementales, se introdujo el grupo SU3
+
+756
+01:48:15,040 --> 01:48:25,620
+[speaker_04] de sabor, que no es el SU3 de color, es otro SU3 cuando se descubrió que hubo cuatro quarks hubo que introducir el SU4 de sabor, es decir, en física
+
+757
+01:48:25,620 --> 01:48:37,060
+[speaker_04] cuando yo quito detalles cuando trato de quedarme en la esencia de un proceso físico para poderlo entender lo que yo observo cuando quito detalles es que las cosas se vuelven más simétricas
+
+758
+01:48:37,060 --> 01:48:48,820
+[speaker_04] más parecidas, más indistinguibles y eso me ayuda a construir un modelo más sencillo, más fácil de manejar matemáticamente para entender la realidad y sorprendentemente muchos de estos modelos
+
+759
+01:48:48,820 --> 01:49:00,340
+[speaker_04] funcionan muy bien entonces eso fue haciendo que los físicos desarrollaran mucho estas ideas Y esas ideas son las que han acabado en la mejor teoría que tenemos a nivel fundamental de la realidad.
+
+760
+01:49:01,180 --> 01:49:12,960
+[speaker_02] De hecho, esto que acaba de contar Francis es un buen ejemplo precisamente de cómo la física, observando lo que ves en la realidad, cambia de unos paradigmas intelectuales a otros.
+
+761
+01:49:12,960 --> 01:49:31,320
+[speaker_02] La gente empezó hablando del spin isotópico de protones y neutrones, pero nosotros ahora, desde luego en la carrera lo estudiamos y tal, pero a la hora de hacer divulgación me resulta mucho más fácil, en lugar de hablar de eso, decir que el protón tiene dos quarks U y un quark D y que el neutrón tiene dos quarks D y un quark Q.
+
+762
+01:49:31,320 --> 01:49:40,900
+[speaker_02] está haciendo referencia exactamente a la misma cosa, está haciendo, el spin isotópico realmente es el contenido de quarks del protón y el neutrón antes de que supiéramos que los quarks estaban ahí
+
+763
+01:49:40,900 --> 01:49:44,640
+[speaker_02] entonces es interesante ver como una misma realidad física
+
+764
+01:49:45,640 --> 01:49:55,040
+[speaker_02] Heisenberg la describe de esta manera con este spin isotópico que yo cuando lo estudié en la carrera, de hecho me resultó como muy abstracto, en plan de ostras, que cosa tan extraña y tan curiosa, y cuando
+
+765
+01:49:55,040 --> 01:49:59,380
+[speaker_02] comprendes que al desarrollarse eso lo que estás descubriendo es el modelo quark, es súper bonito
+
+766
+01:49:59,380 --> 01:50:05,600
+[speaker_01] pero entonces entiendo que a lo que yo preguntaba, la respuesta es que sí que tú partes de una física
+
+767
+01:50:06,960 --> 01:50:12,440
+[speaker_01] ya donde tienes conocimientos de cómo son esas interacciones y luego las simetrías lo que te permiten es
+
+768
+01:50:13,600 --> 01:50:15,040
+[speaker_01] desarrollar más esa teoría
+
+769
+01:50:15,600 --> 01:50:22,580
+[speaker_01] quiero decir, no son cimientos son pilares del edificio que estás construyendo
+
+770
+01:50:23,440 --> 01:50:25,980
+[speaker_04] no sé la diferencia las dos cosas
+
+771
+01:50:25,980 --> 01:50:29,820
+[speaker_01] no, que cimiento es de lo que partes es lo que está en la base de todo
+
+772
+01:50:29,820 --> 01:50:35,660
+[speaker_04] las simetrías son un adorno son un lenguaje es el lenguaje geométrico
+
+773
+01:50:36,400 --> 01:50:46,660
+[speaker_04] cuando hablamos de simetría hablamos de geometría cuando hablamos de simetrías en física o en cualquier rama de la ciencia estamos hablando de utilizar el lenguaje de la geometría para entender
+
+774
+01:50:47,980 --> 01:50:58,020
+[speaker_04] cosas, por ejemplo las leyes de la física entonces ese lenguaje es un lenguaje y ahora mismo nos está funcionando muy bien y funciona muy bien en ciertas cosas pero también tiene sus limitaciones
+
+775
+01:50:58,020 --> 01:51:17,500
+[speaker_04] Hay cosas en las que no hablamos de simetría porque el lenguaje de la geometría no funciona bien. Pero el lenguaje de la geometría es un lenguaje muy poderoso donde las cosas son muy sencillas y donde gracias a enormes avances en la primera mitad del siglo XX de los matemáticos hemos desarrollado prácticamente una comprensión extremadamente profunda de las simetrías.
+
+776
+01:51:17,500 --> 01:51:27,560
+[speaker_04] en matemáticas se llaman las simetrías se llaman grupos, teoría de grupos y hoy en día la teoría de grupos está en un estado realmente maravilloso, es una de las ramas matemáticas mejor desarrolladas
+
+777
+01:51:27,560 --> 01:51:39,200
+[speaker_04] con lo que tenemos ahí todo un lenguaje muy bien montado con lo que podemos hacer una poesía preciosa y maravillosa para describir las leyes de la física por eso nos gusta ver la simetría en
+
+778
+01:51:39,200 --> 01:51:45,140
+[speaker_04] las leyes de la física, pero no es de verdad que las simetrías estén ahí esto es un lenguaje
+
+779
+01:51:47,380 --> 01:51:47,960
+[speaker_01] Sí, Alberto.
+
+780
+01:52:15,660 --> 01:52:25,380
+[speaker_02] adelante, pasos atrás, el electromagnetismo se introdujo en la teoría de Dirac primero con el principio de correspondencia luego ya cuando hicieron teoría cuántica de campo se dieron cuenta de que podían achacarlo
+
+781
+01:52:25,380 --> 01:52:33,940
+[speaker_02] a las simetrías y todo esto, o sea que quiero decir que el progreso en ciencia siempre es más confuso en ese sentido y solo luego cuando vemos desde
+
+782
+01:52:35,140 --> 01:52:43,480
+[speaker_02] el futuro hacia el pasado decimos, ah no, podemos extraer este hilo argumental, pero cuando estás ahí metido el hilo argumental es más difícil de ver
+
+783
+01:52:44,740 --> 01:52:48,880
+[speaker_01] Muy bien, pues ya para ir terminando hay un último punto que Nacho quería tocar, ¿no?
+
+784
+01:52:49,040 --> 01:52:51,840
+[speaker_03] Que es volver a retomar un poquito lo que
+
+785
+01:52:52,420 --> 01:53:02,460
+[speaker_03] comentamos justo antes de empezar a hablar de la simetría sobre el tema de las roturas espontáneas de simetría, las fases, la unificación de las fuerzas a medida que vayamos aumentando
+
+786
+01:53:02,460 --> 01:53:12,060
+[speaker_03] de energía, creo que este es un tema que nunca hemos tratado en Coffee Break o lo hemos tratado de otra forma porque habíamos hablado de inflación de energía de inflación, de por qué cuando
+
+787
+01:53:12,060 --> 01:53:13,660
+[speaker_03] por ejemplo el universo era un estado inflacionario
+
+788
+01:53:13,660 --> 01:53:15,340
+[speaker_01] de gran unificación lo hemos tocado
+
+789
+01:53:15,340 --> 01:53:25,880
+[speaker_03] pero que ahora lo podemos ver desde otra perspectiva por ejemplo estas propias y unirlo a lo que aquí estamos más acostumbrados a hablar en Coffee Break que son cuestiones más cosmológicas y eso, así que creo que es un
+
+790
+01:53:25,880 --> 01:53:35,560
+[speaker_03] punto de vista muy bonito como se cierra todo el armazón teórico y por ejemplo cosas como la inflación que hemos hablado aquí, de que consideramos que es una fase del universo
+
+791
+01:53:36,660 --> 01:53:39,760
+[speaker_03] muy al principio del universo que expande el universo de una forma
+
+792
+01:53:40,560 --> 01:53:49,320
+[speaker_03] exponencial y después de esa fase distinta donde la naturaleza estaba dominada por un campo inflacionario, o sea, eso es lo que significa
+
+793
+01:53:49,320 --> 01:53:54,380
+[speaker_03] que nos convertíamos en este universo, básicamente, en el universo actual, ¿no?
+
+794
+01:53:55,620 --> 01:54:04,760
+[speaker_03] ¿Y cómo se piensa que la transición de uno a otro se relaciona con una rotura de simetría,
+
+795
+01:54:04,760 --> 01:54:11,080
+[speaker_03] que es la rotura de la equivalente a una energía de la gran unificación
+
+796
+01:54:11,080 --> 01:54:17,780
+[speaker_03] cuando se desacopla la fuerza nuclear fuerte de la fuerza débil y la fuerza electromagnética
+
+797
+01:54:17,780 --> 01:54:25,060
+[speaker_03] y yo lo comento porque hace unos pocos años cuando apareció en las noticias
+
+798
+01:54:25,060 --> 01:54:30,420
+[speaker_03] que BICEPS, un experimento en la Antártida si no recuerdo mal
+
+799
+01:54:32,960 --> 01:54:34,160
+[speaker_03] había detectado
+
+800
+01:54:36,220 --> 01:54:42,580
+[speaker_03] indicios sobre las ondas gravitacionales el reflejo de las ondas gravitacionales asociadas a la inflación en la radiación de fondo
+
+801
+01:54:42,580 --> 01:54:44,160
+[speaker_01] la polarización famosa
+
+802
+01:54:44,160 --> 01:54:46,840
+[speaker_03] para mí fue
+
+803
+01:54:48,040 --> 01:54:59,970
+[speaker_03] recuerdo vivir aquellos días con una gran emoción desde el punto de vista físico Dios mío, si esto se confirma hubo un momento en el universo en que las fuerzas
+
+804
+01:54:59,970 --> 01:55:10,270
+[speaker_03] excepto la gravedad, las otras fuerzas estuvieron, o sea, hay un indicio fuerte de que todas las fuerzas realmente estuvieron unidas en algún momento, sin embargo hoy vemos que hay distintos tipos
+
+805
+01:55:10,270 --> 01:55:20,010
+[speaker_03] de fuerzas, a las energías que nos movemos en el universo actual vemos la fuerza electromagnética, vemos la gravedad vemos la fuerza nuclear débil, la fuerte pero pensar que todo eso
+
+806
+01:55:21,390 --> 01:55:25,010
+[speaker_03] excepto la gravedad insisto, estaba unificado en una única fuerza
+
+807
+01:55:25,890 --> 01:55:27,690
+[speaker_03] sé que a Francis no le gusta el concepto de fuerza
+
+808
+01:55:27,690 --> 01:55:51,470
+[speaker_03] pero que era una única interacción, a mí me resulta, yo no sé cómo les resultará a ustedes, pero a mí eso me resulta de una belleza extrema, pensar que el universo, que toda la complejidad del universo actual es el resultado de ir rompiendo algunas simetrías de las interacciones y que todo antes era mucho más sencillo, entre comillas.
+
+809
+01:55:51,470 --> 01:56:03,370
+[speaker_02] Bueno, cuidado porque ahí has hablado de dos cosas realmente la gran unificación y la inflación pueden estar conectadas o pueden no estar no sabemos si están conectadas, lo único que sucede
+
+810
+01:56:03,370 --> 01:56:15,130
+[speaker_02] es que parece que ocurren a energías pues no sé si similares porque realmente la inflación tiene un rango de energías muy grande en el que puede ocurrir pero podrían estar conectadas porque ocurren energías más o menos
+
+811
+01:56:15,130 --> 01:56:17,670
+[speaker_03] Imagínate que lo están, sería de una belleza extrema
+
+812
+01:56:18,310 --> 01:56:20,890
+[speaker_02] Alberto, si me permite
+
+813
+01:56:20,890 --> 01:56:22,370
+[speaker_04] recordar un poco para los agentes
+
+814
+01:56:23,950 --> 01:56:34,510
+[speaker_04] BICEP2 observó un fenómeno en la polarización del fondo cómico de microondas que se llaman los modos B que todavía no los hemos observado de manera espuria porque era polvo galáctico
+
+815
+01:56:36,270 --> 01:56:47,430
+[speaker_04] esos modos B que observó BICEP2 eran como el doble de grandes en intensidad de lo que se esperaba y correspondían a los modelos
+
+816
+01:56:47,430 --> 01:56:59,350
+[speaker_04] inflacionarios que nacen de manera natural de las teorías de gran unificación por eso Nacho dice que en medios se proclamó que no solo se confirmaba la teoría inflacionaria sino que
+
+817
+01:56:59,350 --> 01:57:03,690
+[speaker_04] también se le daba un enorme empujón a las teorías más sencillas de gran unificación
+
+818
+01:57:04,810 --> 01:57:14,880
+[speaker_04] teorías que estaban descartadas por la desintegración del protón que predicen que el protón se tiene que desintegrar en menos tiempo del que sabemos tenemos un límite, del límite actual
+
+819
+01:57:14,880 --> 01:57:26,680
+[speaker_04] pero esas teorías tan sencillas predecían una inflación extremadamente sencilla con un potencial del inflatón del campo inflatón que se llama convexo hoy en día los nuevos indicios parecen indicar
+
+820
+01:57:26,680 --> 01:57:37,050
+[speaker_04] sabemos que no midió correctamente la señal y por lo tanto los modos B todavía no los hemos observado y hoy en día casi todo apunta a un potencial
+
+821
+01:57:37,050 --> 01:57:46,530
+[speaker_04] en el inflatón cóncavo, no convexo y por lo tanto no es tan natural obtenerlo de una teoría de gran unificación
+
+822
+01:57:46,530 --> 01:58:06,130
+[speaker_04] Lo que no quita que haya teorías de gran unificación que predicen potenciales no convexos. De hecho, muchos teóricos inflacionarios ahora mismo están apostando por teorías de tipo Staronis, teorías en las que el origen de la inflación es gravitacional, no es de gran unificación.
+
+823
+01:58:06,130 --> 01:58:17,890
+[speaker_04] pero todavía no lo sabemos pero si es verdad que ahora esos modelos tan sencillos con un modelo inflacionario tan sencillos que parecían deducirse del resultado de Paisetú, hoy en día ya sabemos que están descartados
+
+824
+01:58:18,930 --> 01:58:26,770
+[speaker_01] Bueno, esas observaciones las tendremos pronto, nos las traerá José Alberto Rubiño con Quijote y las contaremos aquí en Coffee Break cuando lo observen aquí en el Teide
+
+825
+01:58:27,610 --> 01:58:28,490
+[speaker_01] Bueno, ojalá
+
+826
+01:58:29,670 --> 01:58:37,750
+[speaker_04] Será muy difícil, probablemente hay que esperar a CMBS4, a los experimentos en espacio Asios Prims y todos estos atletas espaciales. Será en la década de los 30.
+
+827
+01:58:37,890 --> 01:58:39,730
+[speaker_01] No seas aguafiesta, Francis, no me seas aguafiesta.
+
+828
+01:58:39,730 --> 01:58:40,930
+[speaker_03] Dejanos ganar el Nobel, hombre.
+
+829
+01:58:41,430 --> 01:58:42,730
+[speaker_01] Estamos aquí ilusionados.
+
+830
+01:58:45,190 --> 01:58:56,650
+[speaker_01] Bueno, amigos, pues yo creo que ha estado fascinante. Yo por lo menos me lo he pasado muy bien. Quiero darles las gracias por esta clase magistral que acabo de recibir. Y además gratis, entiendo.
+
+831
+01:58:56,770 --> 01:59:02,310
+[speaker_01] No sé si me pasará luego la factura, pero estoy encantadísimo. Yo espero que a los oyentes también les haya gustado.
+
+832
+01:59:02,770 --> 01:59:05,510
+[speaker_01] No lo sé, pero si no, la verdad me da igual, igual, porque yo me lo he pasado bomba
+
+833
+01:59:06,430 --> 01:59:07,610
+[speaker_01] y es a lo que yo he venido aquí.
+
+834
+01:59:08,330 --> 01:59:14,210
+[speaker_01] Así que, si alguien más lo ha disfrutado, genial. Y si no, pues nada, otro día seguiremos.
+
+835
+01:59:15,360 --> 01:59:17,860
+[speaker_01] Pues eso, muchas gracias. Nos vemos la semana que viene.
+
+836
+01:59:18,300 --> 01:59:19,940
+[speaker_01] Francis, Alberto, Nacho, gracias.
+
+837
+01:59:20,280 --> 01:59:24,540
+[speaker_03] Gracias a ti, Héctor, por reunirnos y organizar estas tertulias tan interesantes.
+
+838
+01:59:25,420 --> 01:59:26,540
+[speaker_03] Estupendo. Espero que
+
+839
+01:59:26,540 --> 01:59:30,420
+[speaker_02] haya quedado más claro que no claro, en medio de tanto concepto.
+
+840
+01:59:31,460 --> 01:59:34,000
+[speaker_01] Muy bien. Gracias a todos. Hasta la semana que viene. Un abrazo. Chau.
+
+841
+02:00:54,770 --> 02:00:54,970
+[speaker_01] Gracias.
